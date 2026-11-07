@@ -23,7 +23,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Draenei2_D.psd:9ff3be88d6b986a4297f8af2cb08e016",
       "nativeTags": [
         {
@@ -104,7 +104,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_175_D.psd:00c0c4e891a35ac40b4abae482595d1a",
       "nativeTags": [
         {
@@ -177,7 +177,7 @@
       "art": "art/EX1_607.png",
       "artist": "Slawomir Maniak",
       "flavor": "이것으로 우리는 빛샘도, 소환의 문도 모두 감정이 있다는 걸 알 수 있습니다.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_A197_D.psd:6ee48fa0919f4324ebf6583fc2010561",
       "nativeTags": [
         {
@@ -226,7 +226,7 @@
       "artist": "Raymond Swanland",
       "flavor": "임프도 악마입니다. 현명하게 선택하세요.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A235_D.psd:76cc89adc81b5d04091c8a51026468e6",
       "nativeTags": [
         {
@@ -290,7 +290,7 @@
       "artist": "Alex Garner",
       "flavor": "\"오크에게 생각 훔치기를 쓰면 뭘 얻는지 알아? 돌.덩.어.리!\" - 타우렌 농담",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_145_D.psd:265a801459d38ee44a33aa99170421ba",
       "nativeTags": [
         {
@@ -363,7 +363,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a190_D.psd:79d0c22c452f3bc45b1de4e96626c8c0",
       "nativeTags": [
         {
@@ -454,7 +454,7 @@
       "mechanics": [
         "DIVINE_SHIELD"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_099_D.psd:d863c13dabc938c42a87afc1a73918a5",
       "nativeTags": [
         {
@@ -533,7 +533,7 @@
       "relatedDbfIds": [
         678
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a013_D.psd:11fb9f2912e973b45a0e815053c42636",
       "nativeTags": [
         {
@@ -619,7 +619,7 @@
       "mechanics": [
         "AURA"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_374_D.psd:450446f3f3f94944a89301cd839e0a97",
       "nativeTags": [
         {
@@ -696,7 +696,7 @@
         "ENRAGED",
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a171_D.psd:aa0ccb7fcd4bfe444b01c69155c9851f",
       "nativeTags": [
         {
@@ -781,7 +781,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_319_D.psd:7c49c539e41e77641937f9d8830a07cd",
       "nativeTags": [
         {
@@ -864,7 +864,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A087a_D.tif:240adced3e77c4546ae18beffacdcaeb",
       "nativeTags": [
         {
@@ -949,7 +949,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_309_D.psd:7551e87365533ea4f8f53a642e6fbd7d",
       "nativeTags": [
         {
@@ -1040,7 +1040,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A091_D.psd:e31d3cb9b37ec944196302dfdc4591e8",
       "nativeTags": [
         {
@@ -1118,7 +1118,7 @@
       "art": "art/EX1_407.png",
       "artist": "Wayne Reynolds",
       "flavor": "싸움꾼 조합의 첫 번째 규칙이 뭐죠?",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_415_D.tif:09e0a1a40211cb048be9e1e2215070b4",
       "nativeTags": [
         {
@@ -1185,7 +1185,7 @@
         "CHOOSE_ONE"
       ],
       "spellSchool": "ARCANE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a122_D.psd:c14f87f37a603d542b5d5f9df022b9f2",
       "nativeTags": [
         {
@@ -1247,7 +1247,7 @@
         "CHOOSE_ONE"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_127(EA)_D.psd:12c02eaddb798f545a2ee1b472d502df",
       "nativeTags": [
         {
@@ -1315,7 +1315,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_127_D.psd:9973ca8daa3d4b2428f56d12b9569a5a",
       "nativeTags": [
         {
@@ -1390,7 +1390,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_219a_D.psd:83816c1c76decae469089af3845c5c14",
       "nativeTags": [
         {
@@ -1457,7 +1457,7 @@
         "SECRET"
       ],
       "spellSchool": "ARCANE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_118_D.psd:b92bfc931bc76de48b8a401670f933f0",
       "nativeTags": [
         {
@@ -1533,7 +1533,7 @@
       "mechanics": [
         "STEALTH"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A098_D.psd:529789b7ecbb37e4a87301417e9cabe6",
       "nativeTags": [
         {
@@ -1614,7 +1614,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_209_D.psd:3d115c3e66cedde428f9ce1b65355f54",
       "nativeTags": [
         {
@@ -1691,7 +1691,7 @@
         "SECRET"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A057_D.psd:c9aea5d9dd074fe4299fc764ba93404b",
       "nativeTags": [
         {
@@ -1763,7 +1763,7 @@
       "relatedDbfIds": [
         1720
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_139_D.psd:338bd009b447af946a4b620c59df665e",
       "nativeTags": [
         {
@@ -1830,7 +1830,7 @@
         "AFFECTED_BY_SPELL_POWER"
       ],
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_044_D.psd:49601fa55c1e17f409391651b0232678",
       "nativeTags": [
         {
@@ -1907,7 +1907,7 @@
         "CHOOSE_ONE"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_024_D.psd:c0ec0620dc7227f4bb13315e0f363e37",
       "nativeTags": [
         {
@@ -1978,7 +1978,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "CLA-006.psd:2ea4315f347849e08938fd6dde9e7f4e",
       "nativeTags": [
         {
@@ -2060,7 +2060,7 @@
         "FREEZE"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_006_D.psd:a93efd43aac48224587290d22eba0f40",
       "nativeTags": [
         {
@@ -2137,7 +2137,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_332_D.psd:e222f023b4041ad41b704404f8578cb1",
       "nativeTags": [
         {
@@ -2213,7 +2213,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "gecko_auction_D.psd:41ed6e32008346b4588196e15677b8db",
       "nativeTags": [
         {
@@ -2290,7 +2290,7 @@
         "SECRET"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WoW_TAL_011_D.psd:04a7589aad7db7743abb7be29c5ef8dc",
       "nativeTags": [
         {
@@ -2367,7 +2367,7 @@
         "SECRET"
       ],
       "spellSchool": "ARCANE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a188_D.psd:2bf025ec8d5d8fd4abf72f82e2ffbe0c",
       "nativeTags": [
         {
@@ -2446,7 +2446,7 @@
       "relatedDbfIds": [
         488
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_059_D.psd:a54a107833e191242aa12c868cba680a",
       "nativeTags": [
         {
@@ -2536,7 +2536,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_240_D.psd:ad28890c303ef934895b3feae0080016",
       "nativeTags": [
         {
@@ -2604,7 +2604,7 @@
       "art": "art/EX1_586.png",
       "artist": "Svetlin Velinov",
       "flavor": "거인과 바다",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_097_D.psd:50573fa48635a144194de68358f0e5e0",
       "nativeTags": [
         {
@@ -2666,7 +2666,7 @@
       "armor": 0,
       "art": "art/DREAM_05.png",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a062_D.psd:9e383b672ede646459cab24b913e6a4f",
       "nativeTags": [
         {
@@ -2705,7 +2705,7 @@
       "artist": "Mark Gibbons",
       "flavor": "당신이 뭐라고 변명하든, 상대편 입장에선 짜증납니다.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_080_D.psd:8f4891dbb0bbd66459749be2b114112d",
       "nativeTags": [
         {
@@ -2772,7 +2772,7 @@
         "SECRET"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a129_D.psd:408e1a195cdb5484bbf2b48062f2d097",
       "nativeTags": [
         {
@@ -2841,7 +2841,7 @@
       "artist": "Leo Che",
       "flavor": "<i>자연으로 돌아가거라.</i>",
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_120_D.psd:7ea7561709114dc4ab2a83548fabb6a1",
       "nativeTags": [
         {
@@ -2908,7 +2908,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_004_D.psd:f3211f808ba7359448ccfcb4a690022e",
       "nativeTags": [
         {
@@ -2980,7 +2980,7 @@
         "OVERLOAD"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A147_D.psd:eaa556fc1f9b60c4cb07dcd95e13698f",
       "nativeTags": [
         {
@@ -3061,7 +3061,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_326_D.psd:9736a3a690b8aea439e7541e0db1fb08",
       "nativeTags": [
         {
@@ -3137,7 +3137,7 @@
       "mechanics": [
         "DEATHRATTLE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A058_D.psd:d8b923d13e07cd74fa18b6a72c277b63",
       "nativeTags": [
         {
@@ -3213,7 +3213,7 @@
       "mechanics": [
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_270_D.psd:1f7173bcecc2e7d44894615e8475dbb1",
       "nativeTags": [
         {
@@ -3284,7 +3284,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_122_D.psd:8449bc07130e77d4c8715ef942a0990a",
       "nativeTags": [
         {
@@ -3361,7 +3361,7 @@
         "CHARGE",
         "DIVINE_SHIELD"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_049_D.psd:61ab871db9dbd464e813a390d677576f",
       "nativeTags": [
         {
@@ -3439,7 +3439,7 @@
       "art": "art/EX1_126.png",
       "artist": "Lucas Graciano",
       "flavor": "배신을 시키려면 그에 상응하는 값을 치러야 합니다. 예를 들어 노움을 배신시키려면 동물 인형과 약간의 초콜릿이 필요하죠.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_263_D.psd:e02984699f45cdd4c82fb3518baf6440",
       "nativeTags": [
         {
@@ -3505,7 +3505,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_196_D.psd:04cd37e6e62d1ca41817ed3ea2650e77",
       "nativeTags": [
         {
@@ -3577,7 +3577,7 @@
         "SECRET"
       ],
       "spellSchool": "FIRE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_231_D.psd:bfc5780359635ee4a8e0fd84696b903b",
       "nativeTags": [
         {
@@ -3652,7 +3652,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_170_D.psd:1c8bd6406869271469f16f604d74282d",
       "nativeTags": [
         {
@@ -3727,7 +3727,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_280_D.psd:5cfd972ea3327ae4e9f054b44097994d",
       "nativeTags": [
         {
@@ -3814,7 +3814,7 @@
         "OVERLOAD"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_169_D.psd:bd5ad61c5a3c90e40b86538ae5404ff5",
       "nativeTags": [
         {
@@ -3881,7 +3881,7 @@
       "armor": 0,
       "art": "art/DREAM_02.png",
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_201_D.psd:ee8f4a1b54ef4e2488386a052a9be665",
       "nativeTags": [
         {
@@ -3927,7 +3927,7 @@
       "mechanics": [
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R7_a065_D.psd:71111c0e9ec0ec143adc29566a1aa346",
       "nativeTags": [
         {
@@ -4005,7 +4005,7 @@
       "art": "art/DS1_188.png",
       "artist": "Peter C. Lee",
       "flavor": "멀리서 쏠 수 있기 때문에 냄새가 지독한 적을 상대할 때 유용합니다.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_081_D.psd:8dd8651ea9f652a44bd78221d8dff153",
       "nativeTags": [
         {
@@ -4076,7 +4076,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_110t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a090.tif:6625cdd6ad04c7444b9c49deb81f5d74",
       "nativeTags": [
         {
@@ -4136,7 +4136,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a099_devil_D.png:c87dfc0c93bb7db4ebd56ff0e7ffb498",
       "nativeTags": [
         {
@@ -4206,7 +4206,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a082_D.psd:8aefe71292a749147aacc51166807f06",
       "nativeTags": [
         {
@@ -4293,7 +4293,7 @@
         "CHARGE",
         "ENRAGED"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "RiseoftheHorde_Final_NoLayers_D.psd:764813ae5a280994d924e1d1eb048b79",
       "nativeTags": [
         {
@@ -4382,7 +4382,7 @@
       "mechanics": [
         "ELUSIVE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a035_D.psd:b748e88ef3462c7468622ecd88192e98",
       "nativeTags": [
         {
@@ -4438,7 +4438,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WoW_ALYN_010a_D.png:c2e1cb7c0e6365b4d9e11527d9599322",
       "nativeTags": [
         {
@@ -4514,7 +4514,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_047_D.png:bf1c2787d8a92b0458e90055e5225789",
       "nativeTags": [
         {
@@ -4581,7 +4581,7 @@
         "OVERLOAD",
         "WINDFURY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "JP_Cataclysm_Book_Cover_Final_D.psd:c5ae289b14b32a44981b0324a98214a7",
       "nativeTags": [
         {
@@ -4666,7 +4666,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "ONY_STK_017_D.psd:14d74750035471540966b54ff4e26ac8",
       "nativeTags": [
         {
@@ -4755,7 +4755,7 @@
       "artist": "Graven Tung",
       "flavor": "도적 무용단은 가끔 공연의 마지막을 그림자 밟기로 장식하곤 합니다. 관객들의 호응이 엄청나거든요.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_050_D.tif:98d432805fef0e54ca6895442d72aa30",
       "nativeTags": [
         {
@@ -4824,7 +4824,7 @@
       "relatedDbfIds": [
         1086
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A039_D.psd:f4942f5173c3c154781cb0444b8e4345",
       "nativeTags": [
         {
@@ -4900,7 +4900,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w2_059_D.psd:cf0655899dce45c4ba4fd5da4d203ae0",
       "nativeTags": [
         {
@@ -4993,7 +4993,7 @@
       "art": "art/CS1_129.png",
       "artist": "Steve Prescott",
       "flavor": "추천: 하수인 강화하기. 비추: 불모의 땅에서 대화 상대 찾기",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A132_D.psd:eef9e23cf7c8bf94e91dfe53b0c8f8f1",
       "nativeTags": [
         {
@@ -5049,7 +5049,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/NEW1_026t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_EQU_050_D.psd:d57f8434b40629d48b1cac5a70c4dc9b",
       "nativeTags": [
         {
@@ -5101,7 +5101,7 @@
       "relatedDbfIds": [
         600
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a025_D.psd:c928cccdd328b334a8da0d8f78cb52f2",
       "nativeTags": [
         {
@@ -5178,7 +5178,7 @@
         "BATTLECRY",
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w2_041_D.psd:798b5415abb39574f8d340404acd541d",
       "nativeTags": [
         {
@@ -5262,7 +5262,7 @@
       "artist": "Tom Baxa",
       "flavor": "안전핀을 제거하고 속으로 5까지 센 다음 쏘세요! 그리고 엎드리세요.",
       "spellSchool": "FIRE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_207_D.psd:ca2a9457d8035ea45a105ff51c8ca22e",
       "nativeTags": [
         {
@@ -5332,7 +5332,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "DKPR_A027(final)_D.psd:5e53cf38b0cdc184e980d98b971988ff",
       "nativeTags": [
         {
@@ -5415,7 +5415,7 @@
       "art": "art/EX1_392.png",
       "artist": "Alex Horley Orlandelli",
       "flavor": "\"날 화나게 하지마. 분명 후회할걸?\"",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_ACT_056_D.psd:a07aa29578a2d4641b965642d8a44d87",
       "nativeTags": [
         {
@@ -5473,7 +5473,7 @@
       "art": "art/CS2_038.png",
       "artist": "Zoltan & Gabor",
       "flavor": "네가 죽은 건 추진력을 얻기 위해서였다!",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_423_D.psd:d190a1c2a64ca0247be3f49808bf79ee",
       "nativeTags": [
         {
@@ -5539,7 +5539,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Mana Wyrm_D.psd:1622343a2f625094898b079d9b75306c",
       "nativeTags": [
         {
@@ -5606,7 +5606,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a074_D.psd:5baadc861f4282843823eb9313afc539",
       "nativeTags": [
         {
@@ -5687,7 +5687,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Wow_Wei_Pandaren_Final_v1_D.psd:7fbac41088a694843a248e7337cd3694",
       "nativeTags": [
         {
@@ -5767,7 +5767,7 @@
       "relatedDbfIds": [
         318
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_127_D.png:b95b3edefe9f95d40975a3899287d5a2",
       "nativeTags": [
         {
@@ -5863,7 +5863,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_130_D.psd:4d32291438a68534aaaee9ac89a897f5",
       "nativeTags": [
         {
@@ -5935,7 +5935,7 @@
         "FREEZE"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a049(EA)_D.psd:cefba6a957f679b44a5e81a7393d67c8",
       "nativeTags": [
         {
@@ -6012,7 +6012,7 @@
         "AFFECTED_BY_SPELL_POWER"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_034(EA)_D.psd:80b8e26edcb738c42b02ad280f521887",
       "nativeTags": [
         {
@@ -6087,7 +6087,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R8_a005_D.psd:e1d2690b6a156d74c89d8e4d9dff1082",
       "nativeTags": [
         {
@@ -6178,7 +6178,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "r5_a005_D.psd:e97f44ed1aa3e0848bf1f33742c8e4de",
       "nativeTags": [
         {
@@ -6268,7 +6268,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a043_D.psd:710e44b98ff45224b8ff66300a067101",
       "nativeTags": [
         {
@@ -6343,7 +6343,7 @@
         "MURLOC"
       ],
       "race": "MURLOC",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a207_D.psd:d68f52a242a7b5a46afe0346948300af",
       "nativeTags": [
         {
@@ -6422,7 +6422,7 @@
       "relatedDbfIds": [
         204
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_014_D.psd:08cec994c83d3ac4794d8a15240c6df3",
       "nativeTags": [
         {
@@ -6492,7 +6492,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_131_D.psd:4495c3736627cc34aaa17c9e745536c6",
       "nativeTags": [
         {
@@ -6569,7 +6569,7 @@
         "FREEZE"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R6_a081_D.psd:2276eb5b2151c5b4b9b999aeec76ceab",
       "nativeTags": [
         {
@@ -6643,7 +6643,7 @@
       "mechanics": [
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_A054_D.psd:54e1ab72a18686f409c1f19d58ea49a1",
       "nativeTags": [
         {
@@ -6700,7 +6700,7 @@
         "SECRET"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_044_D.psd:78fb34885f53dbf4589fe0550042ebf1",
       "nativeTags": [
         {
@@ -6772,7 +6772,7 @@
         "BATTLECRY",
         "CHARGE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a159_D.psd:6fd612c72a14dd145b4bd26240dc1a8c",
       "nativeTags": [
         {
@@ -6858,7 +6858,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_015_D.psd:11778e2b7655e684ea2fab1118d64376",
       "nativeTags": [
         {
@@ -6953,7 +6953,7 @@
         "MURLOC"
       ],
       "race": "MURLOC",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a104_D.png:1ff76865f0c998747b5116671a2ea4a2",
       "nativeTags": [
         {
@@ -7049,7 +7049,7 @@
       "mechanics": [
         "AFFECTED_BY_SPELL_POWER"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a116_D.psd:dee751dbeffb6a44b8ba4280336f6ca5",
       "nativeTags": [
         {
@@ -7105,7 +7105,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_131t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -7164,7 +7164,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w13_143_D.psd:c7a32d15304a2a349afcb64f89831bec",
       "nativeTags": [
         {
@@ -7218,7 +7218,7 @@
       "artist": "Trevor Jacobs",
       "flavor": "\"이 나무들 밑에서 한숨 자야겠어. 잠깐... 으아아아아악!\" - 운 나쁜 노움, 블링크피즈",
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_098_D.psd:7a2aa71f8197fec42acc6a59d4262bb3",
       "nativeTags": [
         {
@@ -7292,7 +7292,7 @@
       "relatedDbfIds": [
         812
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a030_D.psd:f3e7bd574425c3940af3c63e73ad60eb",
       "nativeTags": [
         {
@@ -7354,7 +7354,7 @@
         "OVERLOAD"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A153_D.psd:97cb40df7c097064fbdbf240a942d7f6",
       "nativeTags": [
         {
@@ -7425,7 +7425,7 @@
       "relatedDbfIds": [
         1661
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_183_D.psd:8d7bda5da8623594db7decfde55e200b",
       "nativeTags": [
         {
@@ -7496,7 +7496,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w2_140_D.psd:06b673a47f903bd42801f235675653cb",
       "nativeTags": [
         {
@@ -7591,7 +7591,7 @@
         "TOTEM"
       ],
       "race": "TOTEM",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A126_D.psd:d02a987a841361243b2fe4477c4b899f",
       "nativeTags": [
         {
@@ -7672,7 +7672,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_132_D.psd:99dd82f5bc02e10409036ac4f65d732b",
       "nativeTags": [
         {
@@ -7764,7 +7764,7 @@
         "SECRET"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a048(EA)_D.psd:4ade9449409a6ee40ac22df901c11aed",
       "nativeTags": [
         {
@@ -7830,7 +7830,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a162_D.psd:a572b9546d9ce6045997c4454e5b6a83",
       "nativeTags": [
         {
@@ -7901,7 +7901,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a188_D.psd:24c8ce6ca56768f46bc0e05a939e8fd1",
       "nativeTags": [
         {
@@ -7985,7 +7985,7 @@
       "relatedDbfIds": [
         1707
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_087_D.psd:204e4fb172c540c4ca4b3f69b070d011",
       "nativeTags": [
         {
@@ -8066,7 +8066,7 @@
       "mechanics": [
         "AFFECTED_BY_SPELL_POWER"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_242_D.psd:d013be170a2bae34aa74a094d9138202",
       "nativeTags": [
         {
@@ -8139,7 +8139,7 @@
       "relatedDbfIds": [
         1751
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W21_A203.tif:1a68bdbf3c0de2d43bdeee73bef4b63a",
       "nativeTags": [
         {
@@ -8234,7 +8234,7 @@
       "relatedDbfIds": [
         1912
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "wow_penny_003_D.tif:89fce883b49b24b4fb977260eeed1cda",
       "nativeTags": [
         {
@@ -8330,7 +8330,7 @@
       "mechanics": [
         "WINDFURY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "CLA-007.psd:2818b95e374742c89cd764d8b1f5a7e0",
       "nativeTags": [
         {
@@ -8410,7 +8410,7 @@
         332,
         1190
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_ALYH_015_D.png:b928ae38e92c08c4fa9a4391fb4eb4fb",
       "nativeTags": [
         {
@@ -8488,7 +8488,7 @@
       "art": "art/EX1_570.png",
       "artist": "MAR Studio",
       "flavor": "꼭꼭 씹어드세요!",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "CLA-018.psd:b8c0dd7cc40547b8aa5616e6805810d1",
       "nativeTags": [
         {
@@ -8553,7 +8553,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R8_A002_D.psd:bc2fd5b68d4bbf4488ec66a8e48b772d",
       "nativeTags": [
         {
@@ -8642,7 +8642,7 @@
       "relatedDbfIds": [
         102
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_219_D.psd:244f86fa506fb604589d78f7ecd2745c",
       "nativeTags": [
         {
@@ -8709,7 +8709,7 @@
         "SECRET"
       ],
       "spellSchool": "FIRE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_185_D.psd:5d018158f31cb90428987ec819c4fd66",
       "nativeTags": [
         {
@@ -8773,7 +8773,7 @@
       "artist": "Raymond Swanland",
       "flavor": "당신의 목숨을 구해줄 단 한 장의 축복 같은 카드입니다.",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_241_D.psd:b1499fb34e18c8d42913de49a1400b56",
       "nativeTags": [
         {
@@ -8839,7 +8839,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A047_D.psd:57ee85881f6823343b02bf5b186f15c9",
       "nativeTags": [
         {
@@ -8910,7 +8910,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_158t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a032_D.png:c3c82c835e8642a4fa8d5e43676358cc",
       "nativeTags": [
         {
@@ -8976,7 +8976,7 @@
       "mechanics": [
         "CHOOSE_ONE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a088_D.psd:dbbbb4f042e0ce44fb0b67439c99893e",
       "nativeTags": [
         {
@@ -9052,7 +9052,7 @@
       "mechanics": [
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_269_D.psd:686f967d9d1b0344cbcbdb89be6f6969",
       "nativeTags": [
         {
@@ -9133,7 +9133,7 @@
       "mechanics": [
         "CANT_ATTACK"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a191_D.psd:b1657d3365a8bf14f92ddf0d87772bbf",
       "nativeTags": [
         {
@@ -9208,7 +9208,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "faerieDragon_D.psd:e2012754ca1ca7748a75bffec02c9b07",
       "nativeTags": [
         {
@@ -9279,7 +9279,7 @@
       "mechanics": [
         "AURA"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_210_D.psd:c9920db8022c1294e944750e8907eb34",
       "nativeTags": [
         {
@@ -9355,7 +9355,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W21_A047_D.psd:bafea573808cb9b49932d86ef77b7cfd",
       "nativeTags": [
         {
@@ -9442,7 +9442,7 @@
         "SECRET"
       ],
       "spellSchool": "FROST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a032_D.psd:6781d076423567344b9d82de1844febf",
       "nativeTags": [
         {
@@ -9514,7 +9514,7 @@
         "OVERLOAD"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a046_D.psd:7b5f3055e8767b4468335a23e43a9a51",
       "nativeTags": [
         {
@@ -9590,7 +9590,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_141_D.psd:606ca1a05eefcaa44a7bd1b76c857fd5",
       "nativeTags": [
         {
@@ -9694,7 +9694,7 @@
       "relatedDbfIds": [
         460
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a071_D.psd:310ab7beb58560b47a615cbdf41a3b98",
       "nativeTags": [
         {
@@ -9779,7 +9779,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A037_D.psd:8d1dfb48e60f474458cb45a5e59b75ef",
       "nativeTags": [
         {
@@ -9860,7 +9860,7 @@
       "mechanics": [
         "DIVINE_SHIELD"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R7_a033_D.psd:46484e4eed391c14e894466613e674ca",
       "nativeTags": [
         {
@@ -9936,7 +9936,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_181(EA)_D.psd:8953f70412d3f9b45a6b96c4db66b42a",
       "nativeTags": [
         {
@@ -10012,7 +10012,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_222_D.psd:55080da06498b594dbf6bb11ea1d2b77",
       "nativeTags": [
         {
@@ -10083,7 +10083,7 @@
       "mechanics": [
         "DEATHRATTLE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "leper_gnome_D.psd:26533cb9070dfab44b161c550e1a6a44",
       "nativeTags": [
         {
@@ -10157,7 +10157,7 @@
       "mechanics": [
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a032_D.psd:e84bb24fec9410c4f819eb10b2af0342",
       "nativeTags": [
         {
@@ -10216,7 +10216,7 @@
       "artist": "Lucas Graciano",
       "flavor": "그냥 은총이 아니라 신의 은총입니다! 누군가 침대 밑에 숨겨 놓은 비상금을 찾아내 주는 것 같은 일이죠!",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R6_a92_D.psd:7463e9f43334e0d4ba2f417f5711cdb9",
       "nativeTags": [
         {
@@ -10281,7 +10281,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_ALYN_001_D.psd:a8b92bd5799d1d142956ccc62cb9aab6",
       "nativeTags": [
         {
@@ -10358,7 +10358,7 @@
         1681,
         1682
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_016_D.psd:5e469950a5f76f34c8b4a8b7dd487323",
       "nativeTags": [
         {
@@ -10439,7 +10439,7 @@
       "mechanics": [
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "mogu_D.psd:ac6252f9c2e74694aae26bb4d71fd633",
       "nativeTags": [
         {
@@ -10515,7 +10515,7 @@
       "mechanics": [
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "CLA-019.psd:5e29edb47a0a41b2bf20f9eeaad9febe",
       "nativeTags": [
         {
@@ -10581,7 +10581,7 @@
       "mechanics": [
         "AURA"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R6_A024_D.psd:5e0b324a7e5724e4fa8333ed8f19ced0",
       "nativeTags": [
         {
@@ -10658,7 +10658,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R7_a019_D.psd:88c92a6d6a426594dbe89ce917381c1a",
       "nativeTags": [
         {
@@ -10739,7 +10739,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_049_D.psd:5d7e4716a7c744d498c440e31f7bb894",
       "nativeTags": [
         {
@@ -10815,7 +10815,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a110_D.psd:34dee795423e1db478bd0b6216a691ed",
       "nativeTags": [
         {
@@ -10901,7 +10901,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A115_D.psd:402835572fdfcc249b0456c92eeb1786",
       "nativeTags": [
         {
@@ -10997,7 +10997,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_182_D.psd:a1e07f905a6c7c742aeab1317275bafd",
       "nativeTags": [
         {
@@ -11078,7 +11078,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_105_D.psd:9b8136959cbf0d744ae9b3d3f39013ce",
       "nativeTags": [
         {
@@ -11152,7 +11152,7 @@
       "artist": "Michal Ivan",
       "flavor": "우리는 모두 세상 하나뿐인 눈송이랍니다... 생명력이 1밖에 안 되는 눈송이요.",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a024_D.psd:31b51c9e731799648bfad18ba92fe69f",
       "nativeTags": [
         {
@@ -11218,7 +11218,7 @@
       "mechanics": [
         "DIVINE_SHIELD"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_059_D.psd:f72443199d828b249994b8d0a3af52bf",
       "nativeTags": [
         {
@@ -11295,7 +11295,7 @@
         "DIVINE_SHIELD",
         "TAUNT"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A015_D.psd:ec81e559ad830d4448230604a5bacfb9",
       "nativeTags": [
         {
@@ -11376,7 +11376,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a127_D.psd:b4f6ab8e3e606b24bb1770181fcf7478",
       "nativeTags": [
         {
@@ -11456,7 +11456,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_008_D.psd:b12b3e1df86ffaf418fb87f0f3ed4c81",
       "nativeTags": [
         {
@@ -11557,7 +11557,7 @@
       "mechanics": [
         "WINDFURY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A179_D.psd:14bd44846a6c9804fa878dd0f0d6ccd9",
       "nativeTags": [
         {
@@ -11634,7 +11634,7 @@
         "SILENCE"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_264_D.psd:3e5a3b0c03b274b4285c2d4a4272e3d0",
       "nativeTags": [
         {
@@ -11709,7 +11709,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a250_D.psd:9660be620401f2e479dc397c37b7d6c4",
       "nativeTags": [
         {
@@ -11800,7 +11800,7 @@
         1660,
         1143
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_010_HERO_D.psd:76e46208180a76942b60e1075358d472",
       "nativeTags": [
         {
@@ -11895,7 +11895,7 @@
         "MECHANICAL"
       ],
       "race": "MECHANICAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R7_a017_D.psd:b7db4eadb13c0d843a418eaa03dec6dc",
       "nativeTags": [
         {
@@ -11985,7 +11985,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R3_043_D.psd:891cf0efccd906744b6e8dbae8912084",
       "nativeTags": [
         {
@@ -12071,7 +12071,7 @@
       "mechanics": [
         "ENRAGED"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_024_D.psd:70114cecf0ad70b4f8437ea1b1dbec26",
       "nativeTags": [
         {
@@ -12147,7 +12147,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "wow_misc_028_D.psd:826335b1e6891ff48b0a95c680fcc180",
       "nativeTags": [
         {
@@ -12223,7 +12223,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_268_D.psd:c50ad47ea2c979a41b1e6a614a0e0d70",
       "nativeTags": [
         {
@@ -12298,7 +12298,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_341_D.psd:6f89a781e53172c4ba3b0aa8d89c77f0",
       "nativeTags": [
         {
@@ -12376,7 +12376,7 @@
       "art": "art/EX1_408.png",
       "artist": "Zoltan & Gabor",
       "flavor": "\"기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라.\" - 전사의 십계명, 여섯 번째 줄",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A140_D.psd:4e4602ba38d7e744e85531ad80a2e812",
       "nativeTags": [
         {
@@ -12433,7 +12433,7 @@
       "armor": 0,
       "art": "art/DREAM_04.png",
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a204_D.psd:49da047e96e8edb48a9c9445021a0f99",
       "nativeTags": [
         {
@@ -12471,7 +12471,7 @@
       "art": "art/EX1_411.png",
       "artist": "Zoltan & Gabor",
       "flavor": "그롬마쉬 헬스크림이 다루던 유서 깊은 도끼입니다. 어떻게 공작 말체자르의 손에 들어갔는지는 아직도 알 수 없네요.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_111_D.psd:d9b5fb2477825d1449de55d54cba8f29",
       "nativeTags": [
         {
@@ -12546,7 +12546,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "r5_a091_D.psd:81ed4c1bdff31cd4c8d14905f686de02",
       "nativeTags": [
         {
@@ -12626,7 +12626,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -12696,7 +12696,7 @@
       "mechanics": [
         "SECRET"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W19_a276_D.psd:779e159658db8d745827f2c52f346937",
       "nativeTags": [
         {
@@ -12754,7 +12754,7 @@
       "art": "art/CS2_053.png",
       "artist": "Lars Grant-West",
       "flavor": "드렉타르는 앞을 볼 수 없습니다. 하지만 잘 보인다고 하는군요. 뭔 소리냐고요? 글쎄요.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_275_D.psd:6426eb0aa1730bb4dbe17e6babae99e1",
       "nativeTags": [
         {
@@ -12820,7 +12820,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A169_D.psd:4364509a67eddac4e829af494f4f3899",
       "nativeTags": [
         {
@@ -12915,7 +12915,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Deathwing_genius_final_add_D.psd:76b42e7116db7db4dbf532bc89fc3baa",
       "nativeTags": [
         {
@@ -13002,7 +13002,7 @@
         "CHOOSE_ONE"
       ],
       "spellSchool": "NATURE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W17_a102_D.psd:a6180dd93fc25bc4e8af816f91ba6085",
       "nativeTags": [
         {
@@ -13066,7 +13066,7 @@
       "artist": "Tom Baxa",
       "flavor": "얼마나 처참하게 죽는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_129_D.psd:16db2bd361a52dd47890bb2e9384ed5d",
       "nativeTags": [
         {
@@ -13137,7 +13137,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_215a_D.psd:d78dd5f3e59e56d4f9adaca8fa001449",
       "nativeTags": [
         {
@@ -13206,7 +13206,7 @@
       "artist": "Dave Allsop",
       "flavor": "뒤틀린 황천은 마법과 환상, 죽은 하수인들로 가득한 형태 없는 공간입니다.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_077_D.psd:14b2d4653e0c1ca44b669264dc289f3b",
       "nativeTags": [
         {
@@ -13278,7 +13278,7 @@
       "relatedDbfIds": [
         1723
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_193_D.psd:b9aa44cd8cf4fa942b2af7d1126cdc7d",
       "nativeTags": [
         {
@@ -13350,7 +13350,7 @@
         "OVERLOAD"
       ],
       "spellSchool": "FIRE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_040_D.psd:bbe6221a64ace71408fa08a83d2dac67",
       "nativeTags": [
         {
@@ -13425,7 +13425,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_186_D.psd:434e4d503a1a61145a553fd996fc9f28",
       "nativeTags": [
         {
@@ -13505,7 +13505,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_229_D.psd:a32466c140a863e4ebd6344d99b7ff92",
       "nativeTags": [
         {
@@ -13577,7 +13577,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_a157_D.psd:f2273ab50f006e44db6d0c69961ee024",
       "nativeTags": [
         {
@@ -13648,7 +13648,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R3_084_D.psd:71b0bee7654da8f498084e6d01a31990",
       "nativeTags": [
         {
@@ -13724,7 +13724,7 @@
       "relatedDbfIds": [
         1730
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_064_D.psd:9d9bdf46013be1241b583acdf75950a5",
       "nativeTags": [
         {
@@ -13830,7 +13830,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A047_D.psd:3f22e1958408b074c96279af20c55667",
       "nativeTags": [
         {
@@ -13913,7 +13913,7 @@
       "art": "art/EX1_544.png",
       "artist": "Tyler Walpole",
       "flavor": "적의 모습을 드러낼 뿐만 아니라 파티의 분위기를 띄울 때도 좋습니다.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_227_D.psd:5716fcc92201f5f428c21f740f5e3a00",
       "nativeTags": [
         {
@@ -13976,7 +13976,7 @@
       "art": "art/EX1_549.png",
       "artist": "Alex Horley Orlandelli",
       "flavor": "표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a038_D.psd:b8299b4bf46dcb547b6c094061a15fc2",
       "nativeTags": [
         {
@@ -14037,7 +14037,7 @@
       "mechanics": [
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WoW_LEAD_031.psd:00d28e9997df3a94ea3d53af79fab2e3",
       "nativeTags": [
         {
@@ -14108,7 +14108,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a158_D.psd:321626865fecabe44bb553c2a8bdab77",
       "nativeTags": [
         {
@@ -14189,7 +14189,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_297_D.psd:f05e1d4155de25444b884b02ec9514bd",
       "nativeTags": [
         {
@@ -14270,7 +14270,7 @@
       "mechanics": [
         "CHOOSE_ONE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Fan_Art_Entries_1287955529201_D.psd:7040ef1e547891245b0613d45daed3a2",
       "nativeTags": [
         {
@@ -14340,7 +14340,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a076_D.psd:6ece9ee8b18628642a79fe0b93c4b64d",
       "nativeTags": [
         {
@@ -14431,7 +14431,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_AWK_001_D.psd:b7d39d7e35999d54cbd3ac8c23b7ce9f",
       "nativeTags": [
         {
@@ -14512,7 +14512,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_071_D.psd:aef443527d581864ebec0ad5d243fdb6",
       "nativeTags": [
         {
@@ -14588,7 +14588,7 @@
       "mechanics": [
         "OVERLOAD"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a246_D.psd:ee91ff348e3578541828ca42be8dd2a6",
       "nativeTags": [
         {
@@ -14672,7 +14672,7 @@
       "relatedDbfIds": [
         1006
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R2_003_D.tif:accf7ca3d24413841ba07376d260ecc6",
       "nativeTags": [
         {
@@ -14783,7 +14783,7 @@
       "mechanics": [
         "AURA"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_287_D.psd:57c7ff74236c5a24fb67ce7afee69ba4",
       "nativeTags": [
         {
@@ -14858,7 +14858,7 @@
         "MECHANICAL"
       ],
       "race": "MECHANICAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A260_D.psd:b0adf794e77983c479690d0b2af57356",
       "nativeTags": [
         {
@@ -14944,7 +14944,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_TAL_008_D.psd:175015844690751469b579fd5c1c1af7",
       "nativeTags": [
         {
@@ -15038,7 +15038,7 @@
       "artist": "Steve Hui",
       "flavor": "도적은 모든 것을 은폐시킬 수 있습니다. 근데 이건 어디서 나는 냄새죠?",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_128_D.psd:07b11c9689a69b44db6b0f44df9512b0",
       "nativeTags": [
         {
@@ -15115,7 +15115,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "MountainGiant_D.psd:4a731668ca0e0404c8f4d943bb9f92a2",
       "nativeTags": [
         {
@@ -15191,7 +15191,7 @@
       "mechanics": [
         "STEALTH"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a113_D.png:14783e05e2dc3054988ea90cc9bf86a4",
       "nativeTags": [
         {
@@ -15276,7 +15276,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_237_D.psd:efea2e29b2dfe6944bb3a90bf2abbb67",
       "nativeTags": [
         {
@@ -15351,7 +15351,7 @@
         "PIRATE"
       ],
       "race": "PIRATE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_155_D.psd:ba215f1a24c3cfd4eae67a432206ac17",
       "nativeTags": [
         {
@@ -15417,7 +15417,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_finkle.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_304_D.psd:e510adc5eea5aeb4d8770339e1ea970c",
       "nativeTags": [
         {
@@ -15492,7 +15492,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_011_D.psd:47f3c3cd8ac7d614193b2875cd19433c",
       "nativeTags": [
         {
@@ -15577,7 +15577,7 @@
         "MURLOC"
       ],
       "race": "MURLOC",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a096_D.psd:e3abc24bbd88502469947160eea5185f",
       "nativeTags": [
         {
@@ -15658,7 +15658,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_TAL_014_D.psd:07ee5f63ca329e04cb07547dfe13418c",
       "nativeTags": [
         {
@@ -15736,7 +15736,7 @@
       "art": "art/NEW1_036.png",
       "artist": "Wayne Reynolds",
       "flavor": "\"전방에 힘찬 함성 5초간 발사!\" - 전사 훈련 중",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_414_D.psd:fbc20112894dcbe42ae7b023b275a2e7",
       "nativeTags": [
         {
@@ -15790,7 +15790,7 @@
       "relatedDbfIds": [
         378
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_064_D.psd:90c805ff16632964280dc2a56fef7d57",
       "nativeTags": [
         {
@@ -15861,7 +15861,7 @@
       "mechanics": [
         "CHOOSE_ONE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_217_D.psd:51634fd4858ba4e41809500856db8e0b",
       "nativeTags": [
         {
@@ -15941,7 +15941,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A153_D.psd:953e2e3c18ad71746bc9bcad42853d92",
       "nativeTags": [
         {
@@ -16026,7 +16026,7 @@
         "MURLOC"
       ],
       "race": "MURLOC",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W18_a149_D.psd:22d544c5c31c6da4aaebce09ba6c84e3",
       "nativeTags": [
         {
@@ -16102,7 +16102,7 @@
       "mechanics": [
         "AFFECTED_BY_SPELL_POWER"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_054_D.psd:2a941cbe41f5b3146937764f49471c78",
       "nativeTags": [
         {
@@ -16173,7 +16173,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w12_a081_D.psd:a50c2770484eda6439c3319f8af60476",
       "nativeTags": [
         {
@@ -16236,7 +16236,7 @@
       "art": "art/EX1_391.png",
       "artist": "E. M. Gist",
       "flavor": "난 딱 죽지 않을 만큼만 패지.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_002_D.psd:7892938171feeec4796e6fe08a46ae92",
       "nativeTags": [
         {
@@ -16297,7 +16297,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Antonidas_D.psd:0797818530cc03a4e8a628e619038515",
       "nativeTags": [
         {
@@ -16388,7 +16388,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/tt_010a.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A039a_D.psd:dc1ebe52981c1c0439f71749c969e382",
       "nativeTags": [
         {
@@ -16442,7 +16442,7 @@
       "artist": "Luca Zontini",
       "flavor": "이 카드를 뽑으면 잠시 시간을 내어 한 번 사악하게 웃어주십시오.",
       "spellSchool": "FIRE",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_159_D.psd:d93a4fb920a11ff44bf55fd74105dd28",
       "nativeTags": [
         {
@@ -16517,7 +16517,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_009_D.psd:1309ae568d292e14ebf8994aa2e6563d",
       "nativeTags": [
         {
@@ -16618,7 +16618,7 @@
       "mechanics": [
         "SECRET"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w3_118_D.psd:3af03764396e87744b5f2fdb2af9fc25",
       "nativeTags": [
         {
@@ -16676,7 +16676,7 @@
       "art": "art/EX1_617.png",
       "artist": "Steven Prescott",
       "flavor": "대상이 누구든 상관 없습니다. 확실하게 처치할 수만 있다면요.",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "CLA-017.psd:1b90ecaa9df748568ef07b049da86af6",
       "nativeTags": [
         {
@@ -16741,7 +16741,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A041_D.psd:4366a8325ae64ef42be17d48f6758e49",
       "nativeTags": [
         {
@@ -16825,7 +16825,7 @@
       "artist": "Tyler Walpole",
       "flavor": "자신의 영혼은 착취하지 마세요. 기묘한 무한 순환 고리에 빠질 수도 있으니까요.",
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "r5_a093_D.psd:7ddb040e69a75d54dba83f3c5ecaa86f",
       "nativeTags": [
         {
@@ -16893,7 +16893,7 @@
       "art": "art/CS2_104.png",
       "artist": "Jonboy Meyers",
       "flavor": "하수인 화났다. 하수인 부순다!",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_075_D.psd:3636471993fc0534aa0ea453dc6a87a7",
       "nativeTags": [
         {
@@ -16959,7 +16959,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "blademaster_D.png:9e7ed06c48142954480545c42f2c6f4c",
       "nativeTags": [
         {
@@ -17035,7 +17035,7 @@
       "mechanics": [
         "COMBO"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W9_A015_D.psd:57b1895d74a96ef4bab2992d0d2eeb6b",
       "nativeTags": [
         {
@@ -17121,7 +17121,7 @@
       "mechanics": [
         "AURA"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a099_D.psd:eb62d40df5f600c45af6fdce9bf7ece9",
       "nativeTags": [
         {
@@ -17198,7 +17198,7 @@
         "POISONOUS",
         "STEALTH"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a105_D.psd:5f8282f9ec9419d40818df03787e2949",
       "nativeTags": [
         {
@@ -17279,7 +17279,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Cho_minion_D.psd:e238521b917736246837b6233b9589ca",
       "nativeTags": [
         {
@@ -17360,7 +17360,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_256_D.psd:bb4d23a91faadc24cacffee9ce806fb4",
       "nativeTags": [
         {
@@ -17444,7 +17444,7 @@
       "artist": "Ben Wootten",
       "flavor": "악마의 불꽃은 절대 꺼지지 않는다는 점만 빼면 일반 불꽃과 똑같습니다. 그러니까 이 불 좀 꺼주세요!!!!!!!",
       "spellSchool": "FEL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a046_D.psd:156e7b10bc65ead4d9a274545fcc4baa",
       "nativeTags": [
         {
@@ -17509,7 +17509,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W19_a198_D.psd:d00193904ba72ac4ca8af90791fdc9c2",
       "nativeTags": [
         {
@@ -17579,7 +17579,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_211_D.psd:a6d14f1956dcf64469dad8848c1ce833",
       "nativeTags": [
         {
@@ -17665,7 +17665,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "Nat_Pagle_D.psd:a4491f23f55a4894eb904fa980ca5525",
       "nativeTags": [
         {
@@ -17741,7 +17741,7 @@
       "mechanics": [
         "ENRAGED"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "EX1_412_D.psd:7d3fcc00a249c8248a772dc4c2d0d634",
       "nativeTags": [
         {
@@ -17819,7 +17819,7 @@
       "art": "art/EX1_145.png",
       "artist": "Clint Langley",
       "flavor": "\"항상 대비하라.\" - 도적 격언",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_052_D.tif:b3fdcb8c286449d439f73ba3277a55f1",
       "nativeTags": [
         {
@@ -17884,7 +17884,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_062_D.psd:b85eea1d367341a41ab28882d368b70a",
       "nativeTags": [
         {
@@ -17966,7 +17966,7 @@
         "ImmuneToSpellpower"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W15_A055_D.psd:e7106226e17979242b8bc59ba0de71ce",
       "nativeTags": [
         {
@@ -18032,7 +18032,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_tk33.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W14_a047_D.psd:e55f7d2c3fe217948871247f3b9c361f",
       "nativeTags": [
         {
@@ -18094,7 +18094,7 @@
         301,
         489
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R8_A003_D.psd:e5d3a1bafe2a89b47bb94d82c535e0ae",
       "nativeTags": [
         {
@@ -18186,7 +18186,7 @@
         "SILENCE"
       ],
       "spellSchool": "SHADOW",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_212_D.psd:d51f9f3dfc1e1224f9410a4287ef39c6",
       "nativeTags": [
         {
@@ -18256,7 +18256,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_416_D.psd:247d1ae88829ba44ea9c872ae77a2ba8",
       "nativeTags": [
         {
@@ -18326,7 +18326,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w21_a125.psd:1484d03ef30a4b948b8e473d34bb244f",
       "nativeTags": [
         {
@@ -18402,7 +18402,7 @@
       "relatedDbfIds": [
         1715
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a161_D.psd:3d2954e386783c146a1c227a93a0ffea",
       "nativeTags": [
         {
@@ -18470,7 +18470,7 @@
       "relatedDbfIds": [
         1624
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a157_D.psd:89f97c70696054742b0d3d5432b213c6",
       "nativeTags": [
         {
@@ -18555,7 +18555,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_071_D.psd:e570844c84e716e499ab83edec23743f",
       "nativeTags": [
         {
@@ -18624,7 +18624,7 @@
       "artist": "Daarken",
       "flavor": "마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_100_D.psd:edce1ccadabdf284bbc67e804c7a2551",
       "nativeTags": [
         {
@@ -18675,7 +18675,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W3_265_D.psd:697a3c8205353084b99160f8cdff2bb0",
       "nativeTags": [
         {
@@ -18739,7 +18739,7 @@
       "artist": "Miguel Coimbra",
       "flavor": "흑마법사의 생명력 흡수와 뭐가 다르냐고요?... 신... 신성 모독이다!",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_354_D.psd:7c7ac3be9d6ba2245a2815a2b5ef0eed",
       "nativeTags": [
         {
@@ -18796,7 +18796,7 @@
         "SILENCE"
       ],
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a060_D.psd:bab2e7f41a420a64d988ad96ccb6dbf9",
       "nativeTags": [
         {
@@ -18859,7 +18859,7 @@
         1622,
         1623
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "WOW_CHI_027_D.psd:c5516efb407f8a14faff758c13f87c76",
       "nativeTags": [
         {
@@ -18924,7 +18924,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_135_D.png:6dcdb94493bdd9d40ae1668d3c251b60",
       "nativeTags": [
         {
@@ -18996,7 +18996,7 @@
         "ELEMENTAL"
       ],
       "race": "ELEMENTAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_434_D.psd:16ed52dbbd7db9c409acddf0e24e6d85",
       "nativeTags": [
         {
@@ -19060,7 +19060,7 @@
       "artist": "Chippy",
       "flavor": "이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W6_019_D.psd:6bf6e5d438e5ea64c94f16270ef8a46c",
       "nativeTags": [
         {
@@ -19114,7 +19114,7 @@
       "artist": "Tyler Walpole",
       "flavor": "맞는 사람에게는 2배의 고통을! 공격하는 사람에게는 2배의 행복을!",
       "spellSchool": "HOLY",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a074_D.psd:1627c2c80cb44e24b8822d1eec778131",
       "nativeTags": [
         {
@@ -19165,7 +19165,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_625t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W8_179a_D.psd:399edeed7fa8bee409c7416b1c0a6d27",
       "nativeTags": [
         {
@@ -19206,7 +19206,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_625t2.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 48,
@@ -19246,7 +19246,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_222_D.psd:99a50f3bd0f6cde45b87e2d9e4af7e22",
       "nativeTags": [
         {
@@ -19312,7 +19312,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_133_D.psd:e985e7eb4683a1448863ab1a312b1a92",
       "nativeTags": [
         {
@@ -19378,7 +19378,7 @@
       "mechanics": [
         "BATTLECRY"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A005_D.psd:b0626881181c9a944a6b30d0a82e2966",
       "nativeTags": [
         {
@@ -19448,7 +19448,7 @@
         "DRAENEI"
       ],
       "race": "DRAENEI",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_285_D.psd:feb8a92d0aa75234a946071c42ff840b",
       "nativeTags": [
         {
@@ -19524,7 +19524,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "r5_a004_D.psd:b8e7063f270123f479746a48a28bd59a",
       "nativeTags": [
         {
@@ -19621,7 +19621,7 @@
         "BATTLECRY",
         "TRADEABLE"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W5_030_D.tif:e6c061104024636419be152c385e82e2",
       "nativeTags": [
         {
@@ -19701,7 +19701,7 @@
         "MECHANICAL"
       ],
       "race": "MECHANICAL",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R7_a091_D.psd:f1fe348e70d3a884eadb18fb34ac5397",
       "nativeTags": [
         {
@@ -19767,7 +19767,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A031_D.psd:473a3388346782f468761a383339d0bc",
       "nativeTags": [
         {
@@ -19833,7 +19833,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_323w.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W4_038_D.psd:94f171777ca5cf84db2bcfa2c4e1085e",
       "nativeTags": [
         {
@@ -19884,7 +19884,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_409t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -19934,7 +19934,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_032_D.psd:fb2c1f9e1bcd07041b7949aec3bde2bb",
       "nativeTags": [
         {
@@ -20007,7 +20007,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A087a_D.psd:240adced3e77c4546ae18beffacdcaeb",
       "nativeTags": [
         {
@@ -20080,7 +20080,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_127a_D.psd:6f1b06a9f450f3e428086af476201065",
       "nativeTags": [
         {
@@ -20150,7 +20150,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_a222_D.psd:c5c520903c5a44b40b552cbe3f1fc919",
       "nativeTags": [
         {
@@ -20228,7 +20228,7 @@
       "relatedDbfIds": [
         1694
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_450a_D.psd:8db1cb7ebd6345e47a836ad7d28a3e60",
       "nativeTags": [
         {
@@ -20304,7 +20304,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_014t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
       "nativeTags": [
         {
@@ -20340,7 +20340,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_398t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -20392,7 +20392,7 @@
         "BEAST"
       ],
       "race": "BEAST",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -20457,7 +20457,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_345t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "wow_tal_031_D.psd:6c6194043195ca246832145a5a9f027e",
       "nativeTags": [
         {
@@ -20502,7 +20502,7 @@
         "UNDEAD"
       ],
       "race": "UNDEAD",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W11_218_D.psd:afc40579052ede947bd8f76028a16c55",
       "nativeTags": [
         {
@@ -20577,7 +20577,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w20_a067_D.psd:7ae9db4cfacd0a14f8a407bf12cd2a00",
       "nativeTags": [
         {
@@ -20633,7 +20633,7 @@
       "durability": 0,
       "armor": 0,
       "art": "art/EX1_383t.png",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "R6_a040_D.psd:a985bf2a42c5b504b9d991b1fe192f94",
       "nativeTags": [
         {
@@ -20689,7 +20689,7 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W20_a154_D.psd:1cd2b473539b3eb43928636332955860",
       "nativeTags": [
         {
@@ -20759,7 +20759,7 @@
         "DEMON"
       ],
       "race": "DEMON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 45,
@@ -20813,7 +20813,7 @@
         "DRAGON"
       ],
       "race": "DRAGON",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "ONY_STK_013_D.psd:1c7a40617b2d8844b9ba73c4344f2c40",
       "nativeTags": [
         {
@@ -20869,7 +20869,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "좋은 바텐더는 대화를 시작하는 법을 잘 아는 법입니다.",
       "portrait": "BG31-001_M.tif:e0870f0b37a449e6aed9ed4bc1423b61",
       "nativeTags": [
@@ -20946,7 +20946,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 199,
@@ -20985,7 +20985,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 199,
@@ -21019,7 +21019,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 199,
@@ -21063,7 +21063,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 199,
@@ -21097,7 +21097,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "혼돈은 예상하지 못한 때 찾아오는 법이죠.",
       "spellSchool": "FEL",
       "portrait": "HS19-006.tif:9eac6d91f61944d28b0be3e8b46154b9",
@@ -21149,7 +21149,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"사티로스와 함께 춤을\"에서 환상적인 호흡으로 우승을 차지했다고 합니다. ",
       "portrait": "HS19-204.tif:00b1881d326148658f975ad118c23a65",
       "nativeTags": [
@@ -21208,7 +21208,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS19-205.tif:3f89ee4993de4b5884d83f55139e5632",
       "nativeTags": [
         {
@@ -21258,7 +21258,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "살게라스의 영향을 받기 전까지는 평범한 엘프 궁수였다고 합니다.",
       "race": "악마",
       "races": [
@@ -21328,7 +21328,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "회오리가 휘몰아친 곳에는 허망한 혼돈만이 남으리.",
       "spellSchool": "FEL",
       "portrait": "HS19-004.tif:b4c4eb641c8d447dbb2910631076ae73",
@@ -21380,7 +21380,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "눈은 멀었지만, 그 대신 빛보다 빠른 손기술을 가졌습니다. 아니, 촉수기술이라 해야 하나요?",
       "race": "악마",
       "races": [
@@ -21460,7 +21460,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "의사소통 능력이 다소 떨어지는 것이 단점이지만, 유연한 인사관리 능력으로 상쇄한다고 하네요.",
       "race": "악마",
       "races": [
@@ -21538,7 +21538,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "악마",
       "races": [
         "DEMON"
@@ -21601,7 +21601,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"수습생, 쌍날검은 너의 생명과도 같다. 쌍날검이 없으면 너도 없다고 생각하도록... 아니, 그걸 바로 던져버리면 어떡하나?!\"",
       "portrait": "HS19-017.tif:6a688ca7da9b4602be506332a5ea4f4d",
       "nativeTags": [
@@ -21662,7 +21662,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"나라는 괴물을 감당할 수 있겠어?\"",
       "portrait": "HS19-287.tif:9d3425a368624bdd993ec4b6dc0689d4",
       "nativeTags": [
@@ -21708,7 +21708,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "베어낸 영혼은 어디로 갈까요?",
       "spellSchool": "SHADOW",
       "nativeTags": [
@@ -21764,7 +21764,7 @@
       "durability": 2,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "알드라치는 불타는 군단에 맞서 일어선 강대한 전사들이었습니다. 칼자루의 위치만 바꿔서 달았더라면 더 강했을 테지만요.",
       "portrait": "HS19-009.tif:4ac1e28c704e4b9d9662ddcbcb187f13",
       "nativeTags": [
@@ -21825,7 +21825,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "저 유성, 너무 가깝지 않아?",
       "race": "야수",
       "races": [
@@ -21932,7 +21932,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.",
       "portrait": "W2_279_D.psd:f39c924c124c54d4eb980ab456f3ff87",
       "nativeTags": [
@@ -22009,7 +22009,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 주문을 썼는데 당신이 피해를 받았다면, 신앙심이 부족하거나 나쁜 놈이란 뜻입니다.",
       "spellSchool": "HOLY",
       "portrait": "R3_063_D.psd:b19b10fc2493031428468f498bffc4c2",
@@ -22072,7 +22072,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"당하면 멘탈이 붕괴되는 기술\" 1위 후보에 오른 영광스러운 주문입니다.",
       "spellSchool": "SHADOW",
       "portrait": "W3_141_D.psd:a8f56520677ae1648babbf7748bf9c90",
@@ -22140,7 +22140,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "생각은 성스럽게, 주먹은 상스럽게.",
       "spellSchool": "HOLY",
       "portrait": "WoW_CHI_014_D.psd:3749ebd4893530a42bc9e62f3164a973",
@@ -22206,7 +22206,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "손이 눈보다 빠를 필요가 없습니다. 이 카드만 있으면요.",
       "spellSchool": "SHADOW",
       "portrait": "w2_348_D.psd:6842c6d6112b1f647847858cee5027ca",
@@ -22274,7 +22274,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "생명력이 조금 올라가는 건 좋지만 하수인이 흐릿해지는 건 좀 아쉽네요.",
       "spellSchool": "HOLY",
       "portrait": "W13_066_D.psd:56870e8c810da074ab40657314394230",
@@ -22340,7 +22340,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "남자 캐릭터에겐 민망함을 무릅쓰고 상대를 할퀼 용기를 주는 카드입니다.",
       "portrait": "W2_259_D.psd:e7b868dfc96245c42a2fd11fb089f2f7",
       "nativeTags": [
@@ -22397,7 +22397,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "생명력 8... 더 망설일 거 있나요?",
       "spellSchool": "NATURE",
       "portrait": "WOW_PAR_010_D.psd:44a8c2122e4f4734b80e9011d989310f",
@@ -22460,7 +22460,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"달빛섬광을 쓰세요. 계속 쓰세요.\" - 조화 드루이드가 되는 법, 제5장, 3절",
       "spellSchool": "ARCANE",
       "portrait": "W14_a120_D.psd:8613edf63c0fee847a47383a8ee6f290",
@@ -22518,7 +22518,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.",
       "spellSchool": "NATURE",
       "portrait": "WOW_ACT_073_BlizzRT_D.psd:2c106e4e2c85d134bb040631874036dd",
@@ -22586,7 +22586,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "뭐라고 포효하는 걸까요? 아무도 자신 있게 말할 순 없지만, 얼핏 들리기로는 \"이이!\"라고 외치는 것 같습니다. 이게 대체 무슨 뜻일까요?",
       "portrait": "W14_a010_D.psd:95d28ae1a19439240b5a75f9dce66f1c",
       "nativeTags": [
@@ -22643,7 +22643,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! ...꼭 안아주려는 겁니다.",
       "portrait": "W4_260_D.tif:f3e9b8814d9ea1a4b8aed6d2a7c84853",
       "nativeTags": [
@@ -22705,7 +22705,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "마나 수정 재배기로 자신만의 마나 수정을 키우세요! 믿을 수 없는 가격! 39,900 골드!",
       "spellSchool": "NATURE",
       "portrait": "W9_A169_D.psd:fe665850af6bdee4c8d46d2f2fc624e9",
@@ -22766,7 +22766,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 199,
@@ -22796,7 +22796,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 카드로 '말'장난을 만들어 보려고 했는데... '양'장난이 되었네요. 길어져서 죄송합니다. 재미가 없으면 '양'으로라도 승부해야죠.",
       "spellSchool": "ARCANE",
       "portrait": "WoW_LEAD_015_D.tif:3c4a692e3e4e65b418cf1c2a80cce2d9",
@@ -22869,7 +22869,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 카드를 내면 똑똑해집니다. 솔직히 말해서, 좀 똑똑해졌다고 우겨도 괜찮습니다.",
       "spellSchool": "ARCANE",
       "portrait": "WOW_ACT_078_D.psd:8b0349c727c6cfc45a67a023911199be",
@@ -22937,7 +22937,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 카드를 낼 때는 \"열 좀 식히세요!\", \"얼음!\", 또는 \"손이 시려워, 꽁!\"이라고 외치는 게 관례입니다.",
       "spellSchool": "FROST",
       "portrait": "WoW_CHI_006_D.psd:808ad7bfce2d0fa4cbcbf24749c70492",
@@ -23010,7 +23010,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "위력에 비해 비용이 신비한 주문입니다.",
       "spellSchool": "ARCANE",
       "portrait": "W10_A176_D.psd:ea0c7de9182d597429d03b73701fed8b",
@@ -23078,7 +23078,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "주의: 연속으로 쓰면 따귀를 맞을지도 모름",
       "spellSchool": "FROST",
       "portrait": "WoW_BLZ_004_D.psd:f151e6e8b06724b49a0701c6eccc37ee",
@@ -23151,7 +23151,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "와 환영 복제다! !다제복 영환 와",
       "portrait": "W10_A191_D.psd:39b44fa767f137442b7284af04e3c218",
       "nativeTags": [
@@ -23223,7 +23223,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 주문은 뭐든 불태울 때 좋습니다. 혹시 뭔가 살짝 굽거나 따뜻하게 만드는 주문을 찾으셨다면 죄송합니다.",
       "spellSchool": "FIRE",
       "portrait": "W15_A087_D.psd:c33a12d3e475a6241a38c9f3456d84c2",
@@ -23291,7 +23291,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "바닥에 불이 붙었을 땐, 멈춰서서 엎드리고 굴러서는 <i>절대</i> 안 됩니다.",
       "spellSchool": "FIRE",
       "portrait": "WOW_SPE_006(b)_D.psd:d553e8ce7d68785408614a0e669951fb",
@@ -23359,7 +23359,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "물의 정령을 파티에 초대하면... 찬물 같은 걸 끼얹나?",
       "race": "정령",
       "races": [
@@ -23445,7 +23445,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "냉기 충격!",
       "spellSchool": "FROST",
       "portrait": "W4_011_D.psd:e5a752e8229b94f4b9d84cba8319fb84",
@@ -23513,7 +23513,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "질풍노도의 시기가 옵니다. 두 번 옵니다.",
       "spellSchool": "NATURE",
       "portrait": "W4_137_D.psd:6ad45c2ff8fbdf74bad5ba7aa2d75c33",
@@ -23581,7 +23581,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이래서 조상을 잘 만나야 합니다.",
       "spellSchool": "NATURE",
       "portrait": "WOW_TRINK_015_D.psd:370bc6906ae331941bdc0ab99f7a87d5",
@@ -23644,7 +23644,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "영영 못 씻는 정령입니다. 으, 더러워라...",
       "race": "정령",
       "races": [
@@ -23725,7 +23725,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "아아... 크고 아름답네요.",
       "spellSchool": "NATURE",
       "portrait": "W19_a255_D.psd:8d3e3df30a7c412469fff6a68fef7be7",
@@ -23788,7 +23788,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "우워오우아오어오우오우아우어오얽!",
       "portrait": "W17_a120_D 1.psd:7cf643dd3e022c947a8ddbf0413cb430",
       "nativeTags": [
@@ -23845,7 +23845,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "토템",
       "races": [
         "TOTEM"
@@ -23920,7 +23920,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "토템",
       "races": [
         "TOTEM"
@@ -23995,7 +23995,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "토템",
       "races": [
         "TOTEM"
@@ -24070,7 +24070,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "화살인데 어둠의 힘으로 만들어졌답니다. 설명이 더 필요한가요?",
       "spellSchool": "SHADOW",
       "portrait": "W7_037_D.psd:a602907fee7446d47afe2c03e7217579",
@@ -24138,7 +24138,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "토템",
       "races": [
         "TOTEM"
@@ -24202,7 +24202,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"제가 동안을 유지하는 비결이죠.\"",
       "spellSchool": "SHADOW",
       "portrait": "R3_005_D.psd:b880161970c4a5c469bc4873f259d58a",
@@ -24270,7 +24270,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "흑마법사를 신뢰할 수 없는 대표적인 이유로 이 주문을 꼽을 수 있습니다.",
       "spellSchool": "FIRE",
       "portrait": "W2_240_D.psd:4559a48f323366f4eb7eb9c69e2a434b",
@@ -24338,7 +24338,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 주문이 무서운 진짜 이유는 냄새 때문이라는 말이 있습니다.",
       "spellSchool": "SHADOW",
       "portrait": "W8_179_D.psd:ff75dd8314591744fa1fc9057578366c",
@@ -24401,7 +24401,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"지옥풀을 받아라!\" - 불타는 군단의 에레다르 군주, 자락서스",
       "race": "악마",
       "races": [
@@ -24487,7 +24487,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "내 이름은 보이드. 별명은... 몸빵.",
       "race": "악마",
       "races": [
@@ -24573,7 +24573,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "사실 이 기술은 \"저게 뭐지?!\" 라는 말을 듣고 등을 보인 적에게 사용하는 기술입니다.",
       "portrait": "WoW_CHI_003_D.tif:82d5c3237be32ad449350f811fe3c12c",
       "nativeTags": [
@@ -24630,7 +24630,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "도적들의 독 제조술은 극비 사항입니다. 마법사들이 주문에 사용 못 하게 하기 위해서죠. 맹독 화살? 맹독의 비? 맹독 정령? 생각만 해도 끔찍하군요.",
       "spellSchool": "NATURE",
       "portrait": "WOW_ACT_035_D.psd:a2ff211b10721524fba54a63f7433005",
@@ -24703,7 +24703,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "그렇게나 기력이 많이 들던 기술이 마나는 고작 이것밖에 안 드는군요.",
       "portrait": "wow_chi_021_D.psd:b1016b14ff187cd40b0ea565089a21a2",
       "nativeTags": [
@@ -24765,7 +24765,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!",
       "portrait": "WOW_SPE_011(a)_D.psd:8bbaf6bfc00a217428a752418d5a4b47",
       "nativeTags": [
@@ -24827,7 +24827,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "카드가 모자라면 몸이 고생이군요.",
       "portrait": "W2_301_D.psd:ce64c96ee7ff7ee45adab72501398767",
       "nativeTags": [
@@ -24889,7 +24889,7 @@
       "durability": 5,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "진짜 암살자가 품질을 보증하는 제품입니다. 자세히 보면 날에 장미 문양이 새겨져 있다고 합니다.",
       "portrait": "W8_014_D.psd:76d2a80891cbd8b4aaf36deeac9c7b10",
       "nativeTags": [
@@ -24961,7 +24961,7 @@
       "durability": 2,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W13_160_D.psd:5f33f3cccb7087449a52a72b777c76bc",
       "nativeTags": [
         {
@@ -25025,7 +25025,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "절대 사냥꾼과 숨바꼭질하지 마십시오.",
       "portrait": "W2_221_D.psd:b5bd78dddac9eca4f98c470140e3e564",
       "nativeTags": [
@@ -25082,7 +25082,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"이런 내가 힘까지 세지면 어떨 것 같아?\" - 토드 매클, 최근에 상향된 징벌 성기사",
       "spellSchool": "HOLY",
       "portrait": "W16_a053_D.psd:24917b79cd20956498e9ace04c9ba4e6",
@@ -25150,7 +25150,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "신성한 존재들이 너무 많아서 이제는 좀 식상하군요.",
       "portrait": "W20_a046_D.psd:38430c010e3857c4a8cbb3d62a7400a7",
       "nativeTags": [
@@ -25227,7 +25227,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "종종 성스러운 빛에 노출되신다면, 자외선 차단제를 바르세요.",
       "spellSchool": "HOLY",
       "portrait": "W11_048(EA)_D.psd:dc77f19b67374ae4780bb26374da12df",
@@ -25290,7 +25290,7 @@
       "durability": 4,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "공작 말체자르는 희귀한 무기를 모으는 수집가였습니다. 무기를 살아 움직이게 하고는 자신 앞에서 춤추게 했죠.",
       "portrait": "W7_197_D.psd:b42f7164ebf91a54ba6b2dccbc84e82d",
       "nativeTags": [
@@ -25357,7 +25357,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "여태까지 암살당한 왕이 몇 명인데, 정말 그들의 축복을 받고 싶으세요?",
       "spellSchool": "HOLY",
       "portrait": "W9_A075_D.psd:f7b827c08d41e184790624c29463d314",
@@ -25420,7 +25420,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "신성화된 땅은 신성한 에너지의 빛을 뿜습니다. 하지만 냄새도 좀 풍깁니다.",
       "spellSchool": "HOLY",
       "portrait": "W8_174_D.psd:f4af444b9bf43564886d1f68bc64d6bf",
@@ -25483,7 +25483,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "훌륭한 성기사는 다양한 도구를 소지하고 다닙니다. 천벌의 망치, 복수의 집게, 정의의 쇠톱 등등...",
       "spellSchool": "HOLY",
       "portrait": "R6_a091_D.psd:9afa1cddb46e5764184a01a1468da202",
@@ -25546,7 +25546,7 @@
       "durability": 2,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "베고 찌르는 것 이외에 통조림을 따는 용도로도 쓸 수 있지만... 권하지는 않습니다.",
       "portrait": "WOW_EQU_010_D.tif:027f0bd8180fea24fb97c171329c5870",
       "nativeTags": [
@@ -25618,7 +25618,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "WOW_PAR_039_min_D.psd:239f7532231c8ff44933d2f0afdd5a6c",
       "nativeTags": [
         {
@@ -25674,7 +25674,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-109_M.tif:f9849dfd8b784c5f9dc1eed5b396f1f5",
       "nativeTags": [
         {
@@ -25729,7 +25729,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-110_M.tif:10c6cdf408bd452fb745f501c886f340",
       "nativeTags": [
         {
@@ -25784,7 +25784,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-111_M.tif:1eee6c45f8784cad9091d90fca1325b2",
       "nativeTags": [
         {
@@ -25839,7 +25839,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-112_M.tif:89afe9146f044c0eb7ebba34ea1346ee",
       "nativeTags": [
         {
@@ -25894,7 +25894,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "드레나이",
       "races": [
         "DRAENEI"
@@ -25958,7 +25958,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-114_M.tif:67a80af3fb9c491d9a0f13dcf6dcaf68",
       "nativeTags": [
         {
@@ -26013,7 +26013,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS30-115_M.tif:7ba4477a634f4864bb4063e1c75a522a",
       "nativeTags": [
         {
@@ -26068,7 +26068,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "w14_a208_D.tif:643b00f3e3cac52499f0d0d4172b087c",
       "nativeTags": [
         {
@@ -26143,7 +26143,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "다음 턴까지 안전하리라는 상대의 믿음을 박살냅니다.",
       "portrait": "WOW_ACT_055_D.psd:9818d11aed9155644be74acd30484b8b",
       "nativeTags": [
@@ -26210,7 +26210,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "마치 영웅이 된 것 같습니다. 한 턴뿐이지만요.",
       "portrait": "W11_045_D.psd:e200527b0816cd747911b77af2794935",
       "nativeTags": [
@@ -26272,7 +26272,7 @@
       "durability": 2,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "한창 평화롭던 시절에는 사람들이 이 도끼를 다르게 불렀습니다. 싸늘한 평화 도끼라고 말이죠... 이 싸늘한 분위기는 뭘까요?",
       "portrait": "W14_a200_D.psd:2cc1e668271111f499b8d1766fe35d71",
       "nativeTags": [
@@ -26339,7 +26339,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "마무리 일격이 가능해지면 전사들은 눈에 핏발을 세운다죠.",
       "portrait": "WoW_Chi_061_D.psd:253bea946dad93a42bf2f6d3de19ed23",
       "nativeTags": [
@@ -26401,7 +26401,7 @@
       "durability": 2,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "세월이 지나도 명품은 명품입니다.",
       "portrait": "WOW_EQU_001_D.psd:4a0a5f3ccb87c02498b93900fd0f26ac",
       "nativeTags": [
@@ -26468,7 +26468,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "거기 둘... 잠깐만 가까이 붙어 줄래?",
       "portrait": "wow_par_083_D.psd:5676f2db6499d884e850cba80e73c2ab",
       "nativeTags": [
@@ -26530,7 +26530,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "자신이 강하다고 생각하고 생각하지만, 이제 모두 화산 심장부 정도는 혼자 돌 수 있잖아요?",
       "race": "정령",
       "races": [
@@ -26596,7 +26596,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "장래희망이 오아시스 용거북이라네요. 그런다고 날아다니거나 불을 뿜지도 못할 텐데 말이죠.",
       "race": "야수",
       "races": [
@@ -26662,7 +26662,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"왼손잡이\" 에드워드 스미스에 의해 명품 가방이 될 뻔한 적이 있다는군요.",
       "race": "야수",
       "races": [
@@ -26728,7 +26728,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "대대로 그런트 직책을 물려받으며 기술을 전수하고 있다고 합니다. 도대체 무슨 말로 상대를 열받게 하는지 궁금하네요.",
       "portrait": "W15_A233_D.psd:549d86d7aa03177489486a7ca5a23eca",
       "nativeTags": [
@@ -26805,7 +26805,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"바닥! 바닥! 바닥 좀 피하라고!\"",
       "portrait": "WOW_BLZ_003_D.psd:dc61db88de29c934a8624794512562bf",
       "nativeTags": [
@@ -26867,7 +26867,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "늑대는 정말 최고의 탈것입니다. 척박한 환경에도 적응하고, 승차감도 좋고, 무엇보다 복실복실하고 귀여우니까요.",
       "portrait": "W11_116_D.psd:2b61061d91a8c0045a1815daf6202511",
       "nativeTags": [
@@ -26944,7 +26944,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"불곰 가죽 1/10\"",
       "race": "야수",
       "races": [
@@ -27030,7 +27030,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "대장인 것처럼 행동하지만 진짜 실세는 그의 부인입니다.",
       "race": "야수",
       "races": [
@@ -27116,7 +27116,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이렇게 된 이상 오그리마로 간다!",
       "portrait": "WOW_CHE_027_D.psd:443b66577ebd1ab4a9a079bb7f1d05cc",
       "nativeTags": [
@@ -27193,7 +27193,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"준비! 조준! 마셔!\"",
       "portrait": "climbing_D.psd:94eadbb39562e0040a9adbf6b55e679d",
       "nativeTags": [
@@ -27270,7 +27270,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "오래 전, 코볼트는 누가 뭐래도 가장 질 좋은 초를 판매하는 상인들이었습니다만, 지금은...",
       "portrait": "W15_A215_D.psd:638522a958e4e134997e7de16740211c",
       "nativeTags": [
@@ -27347,7 +27347,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "사실 본인도 뭘 만들고 있는지 잘 모릅니다. 그게 끝내주는 물건이라는 점만 빼고요.",
       "portrait": "W7_031_D.psd:70fc1b6330f92e749871bce9657f3e72",
       "nativeTags": [
@@ -27424,7 +27424,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "스톰파이크 특공대는 파괴 전문가들입니다. 그렇다고 컵케이크까지 그런 방식으로 만들 필요는 없었잖아요.",
       "portrait": "W2_089_D.psd:4e0cc972b2669e04aa12ea43d4f4de57",
       "nativeTags": [
@@ -27496,7 +27496,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W7_200_D.psd:a03c1eda545f503459e915bcc67cf7a9",
       "nativeTags": [
         {
@@ -27552,7 +27552,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "대마법사 칭호를 어떻게 얻냐고요? 마법으로 대마법사를 쓰러뜨리면 됩니다.",
       "portrait": "W9_A130_D.psd:4d92924177818f649a5b19fc723825fc",
       "nativeTags": [
@@ -27629,7 +27629,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "2100+ 평점제 투기장 선수였지만, 벌써 몇 년 전 이야기이고, 아직까지 그 이야기로 주위 사람들을 피곤하게 한다고 합니다.",
       "portrait": "W14_a158_D.psd:a770def8ae305814787fc4e2b66fdb0a",
       "nativeTags": [
@@ -27706,7 +27706,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "아옳옳옳옳옳옳옳, 아옳옳옳 옳옳옳옳옳, 옳옳옳옳옳, 아옳옳옳옳옳옳옳! 아옳옳옳, 아옳옳옳옳!",
       "race": "멀록",
       "races": [
@@ -27782,7 +27782,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "손에서 나와 상대에게 달려가려고 안달입니다.",
       "race": "야수",
       "races": [
@@ -27868,7 +27868,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"랩터 30마리를 처치하세요.\" - 헤멧 네싱워리",
       "race": "야수",
       "races": [
@@ -27949,7 +27949,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "안아달라고 달려오는군요. 일단 젖을 각오는 해야겠습니다.",
       "race": "멀록",
       "races": [
@@ -28035,7 +28035,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "센진 마을은 쾌적합니다. 트롤과 먼지만 감당할 수 있으면요.",
       "portrait": "W3_018_D.psd:bd63e14778e22df4ab45adab49c35cfc",
       "nativeTags": [
@@ -28112,7 +28112,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "사실 산에서 내려와 국수 가게를 여는 게 꿈이지만, 차마 그럴 용기가 없다네요.",
       "portrait": "WOW_ACT_105_D.psd:bebfe051c23dc1247a8012b76e269359",
       "nativeTags": [
@@ -28184,7 +28184,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "골렘은 두려움을 느끼지 못합니다. 그래도 공포를 시전하면 도망가더군요. 본능일까요? 아니면 따돌림받기 싫어서?",
       "portrait": "WOW_LEAD_043_D.psd:be542a80f91a1874eb5d41431fd93e9a",
       "nativeTags": [
@@ -28256,7 +28256,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "골드만 있다면 당신 곁에 있어줄 겁니다. 물론, 상대보다 많아야겠죠.",
       "portrait": "W7_183_D.psd:48c6ca93ebd53f14aa31231db47cea10",
       "nativeTags": [
@@ -28333,7 +28333,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "그녀에게 작업 걸 생각 마세요. 머리에 화살 맞습니다.",
       "portrait": "W10_A109_D.psd:cd8ab22e67b64c34cb955183d9de8f52",
       "nativeTags": [
@@ -28405,7 +28405,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "뿔엄니에게 정말 까분 사람이 한 명 있었습니다. 딱 한 명요.",
       "portrait": "W8_018_D.psd:b749b7f3d64157b4bbab23c1f6c26ec1",
       "nativeTags": [
@@ -28482,7 +28482,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "오우거에게 마법을 가르치다니, 차라리 드워프에게 금주를 권하겠어요! 어우, 끔찍해라.",
       "portrait": "W8_148_D.psd:21a77d01d2265964fb8b2b25aff10e50",
       "nativeTags": [
@@ -28559,7 +28559,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"나, 비용에 비해 능력치 좋다!\"",
       "portrait": "W17_a123_D.psd:0dfc75458a88af4489ce0991b1d80cb0",
       "nativeTags": [
@@ -28616,7 +28616,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "심장부 사냥개를 길들이는 것은 불가능합니다. 당신을 잡아먹기 전에 다른 사람을 먹도록 훈련시킬 뿐이죠.",
       "race": "야수",
       "races": [
@@ -28687,7 +28687,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "폭발물로 가득한 로켓으로 무장한 미치광이 로켓병이라니! 와! 신난다!",
       "portrait": "Goblinrocket2_D.psd:3878ae0d4f9b441409cb93e9e0ae3e35",
       "nativeTags": [
@@ -28764,7 +28764,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "데스윙이 스톰윈드를 쑥대밭으로 만들었을 때, 분대에서 유일하게 살아남은 병사입니다. 그는 지금 답답함에 속이 부글부글 끓습니다.",
       "portrait": "W13_007_D.psd:b1b44813ed551e441a417347b5c496a5",
       "nativeTags": [
@@ -28836,7 +28836,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "서리늑대 부족은 알터랙 계곡에서 스톰파이크 원정대와 수많은 전투를 치렀습니다. 평화 협정을 체결하러 올 때마다 부대장 갈반가르가 사절을 죽였다는군요.",
       "portrait": "W11_084(EA)_D.psd:542996a2436a36945aa38747fa20c0a8",
       "nativeTags": [
@@ -28908,7 +28908,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "그 누가 <i>감히</i> 다르나서스를 공격할쏘냐!",
       "portrait": "WoW_Clo_006_BlizzRT_D.psd:4bf916687d37e1147a63e1fb3fca198f",
       "nativeTags": [
@@ -28980,7 +28980,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "초급 수행사제들이 배우는 \"어둠의 권능: 성가심\"보다 한 단계 높은 등급의 주문입니다.",
       "spellSchool": "SHADOW",
       "portrait": "W10_A233_D.psd:3daa13aa59d1bea43966f9b1575bdf41",
@@ -29033,7 +29033,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "탄압받고 괴로워하는 자들을 돕습니다. 쿠키도 팝니다.",
       "portrait": "W4_268_D.psd:5649847fa4c4565478a6c4529de8f37c",
       "nativeTags": [
@@ -29100,7 +29100,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "골칫거리 2배, 재미도 2배!",
       "spellSchool": "HOLY",
       "portrait": "W6_073_D.psd:e342391d6f7364646912b109b5b56c5a",
@@ -29153,7 +29153,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "먹을 걸 주면 <i>정체성</i>에 혼란을 겪습니다.",
       "race": "야수",
       "races": [
@@ -29224,7 +29224,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -29294,7 +29294,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "R6_a078_D.psd:e490849025ef37e47987bf282c029740",
       "nativeTags": [
         {
@@ -29355,7 +29355,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -29420,7 +29420,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"같이 파멸의 노래 부를래?\"",
       "spellSchool": "SHADOW",
       "portrait": "CLA-036_S.tif:6bdb2a7397704376870bb8d8a5bdb462",
@@ -29475,7 +29475,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "하수인 감금은 잘 하지만 하수인 간수는 잘 하지 못하네요.",
       "race": "악마",
       "races": [
@@ -29550,7 +29550,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "보통은 우표나 꽃을 수집하는데, 그녀는 적을 수집하네요.",
       "portrait": "CLA-024_M.tif:1ade3e8a917c400797dfa22e0c47611f",
       "nativeTags": [
@@ -29621,7 +29621,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "해적질을 할인으로 보는 이들도 있습니다.",
       "race": "해적",
       "races": [
@@ -29696,7 +29696,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "일리단의 보관함보다 훨씬 깔끔하네요.",
       "portrait": "CLA-032_S.tif:417b90d09cc9401d8f26a266884549b4",
       "nativeTags": [
@@ -29742,7 +29742,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "세계수 놀드랏실은 세계에 생명력을 불어넣습니다. 물론 마나 소비도 줄여주죠.",
       "portrait": "CLA-025_M.tif:0ed565b36c094f9bbc831b6e5eaef649",
       "nativeTags": [
@@ -29803,7 +29803,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "실수하는 법이 없습니다.",
       "portrait": "CLA-022_M.tif:71ae8bca0264452ca4cbd9fd0e4dde33",
       "nativeTags": [
@@ -29869,7 +29869,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "앞으로 \"카자크의 파멸 카메르\"로 불리게 됩니다.",
       "spellSchool": "HOLY",
       "portrait": "CLA-038_S.tif:03f59b2a22bf4718b5a57eab9a536938",
@@ -29931,7 +29931,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "악마사냥꾼은 모든 것을 희생해야 한다고 일리단이 가르쳤습니다. 그녀는 혹시 몰라 생명력 흡수는 남겨두었죠.",
       "portrait": "CLA-041_M.tif:ef72b5aae2c84c5f8553c3447ee0b21f",
       "nativeTags": [
@@ -30017,7 +30017,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "실제로 사로잡힌 것은 아닙니다. 임프들이 너무 까불면 겁주기 위해 일부러 사슬에 묶인 겁니다.",
       "race": "악마",
       "races": [
@@ -30087,7 +30087,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "엄청난 집중력은 현란한 방해 공작과 비슷한 효과를 냅니다.",
       "portrait": "CLA-043_S.tif:5245002d8b5d4b2ebfc77ca32c8048a7",
       "nativeTags": [
@@ -30143,7 +30143,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"정의를 위한 겁니까? 아니면 우리를 위한 겁니까?\"",
       "spellSchool": "HOLY",
       "portrait": "CLA-047_S.tif:bbd6b23d1d6c4e729a74d6326d85297f",
@@ -30200,7 +30200,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "전쟁노래 부족에서는 척후병이 인싸입니다.",
       "portrait": "CLA-048_M.tif:98a9ebadedbc49a0a26a86b6fe476166",
       "nativeTags": [
@@ -30261,7 +30261,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "차가워 보이지만 사실은 따스하게 회복해주는 여자입니다. ",
       "race": "나가",
       "races": [
@@ -30347,7 +30347,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"누가 개들을 풀었어?\"라고 묻네요. 몰라서 물으십니까?",
       "portrait": "W13_196_D.psd:c8e73395432bb05488a3e432eeaf0fd9",
       "nativeTags": [
@@ -30424,7 +30424,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "다른 야수들의 사랑을 독차지한답니다.",
       "race": "야수",
       "races": [
@@ -30505,7 +30505,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "툰드라 코뿔소들은 종종 코도로 오해받곤 합니다. 아니면 그냥 제 착각일지도?",
       "race": "야수",
       "races": [
@@ -30591,7 +30591,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "나올 때가 되면 항상 나오는 카드 중 하나죠.",
       "portrait": "W18_a018_D.psd:f246eaa14f7b42a48a392766f4e61aff",
       "nativeTags": [
@@ -30648,7 +30648,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!",
       "portrait": "WOW_PAR_011_D.psd:b7052e6d65ef6f9459be5c4731d5daaa",
       "nativeTags": [
@@ -30710,7 +30710,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "예전엔 마법사들이 신비한 화살을 만들어 사냥꾼들에게 팔았습니다. 그러다 사냥꾼들이 아예 마법을 직접 배워 신비한 화살을 만들기 시작하면서, 스톰윈드는 작은 경기 침체에 시달렸다죠.",
       "spellSchool": "ARCANE",
       "portrait": "W10_A198_D.psd:5b657e27257dc4d47b4ee0727cd53dac",
@@ -30773,7 +30773,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "멘붕이 아닙니다. 정붕입니다.",
       "spellSchool": "SHADOW",
       "portrait": "W9_A028_D.psd:52d64af2d2c48da4fba9c492f9938920",
@@ -30836,7 +30836,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -30881,7 +30881,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -30926,7 +30926,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -30976,7 +30976,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31016,7 +31016,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31061,7 +31061,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31101,7 +31101,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 197,
@@ -31145,7 +31145,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31185,7 +31185,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31225,7 +31225,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
       "nativeTags": [
         {
@@ -31270,7 +31270,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "한동안 이 카드의 이름은 \"더러운 트롤 의술사\"였습니다.",
       "portrait": "wow_dbl_011_D.psd:98bc2ad7eadcc5c4a80f07498523adfd",
       "nativeTags": [
@@ -31342,7 +31342,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"수강생들의 반은 재수강도 하지 못할 걸요? 닭으로 변해 있을 테니까요.\" - 수석땜장이 오버스파크, 기계공학개론 101장 강의 중에서.",
       "portrait": "W7_078_D.psd:f2422f71256f6a748a63a4ffd741d409",
       "nativeTags": [
@@ -31414,7 +31414,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "비결이 뭐냐고요? 태양샘 에너지 드링크라고 하네요.",
       "portrait": "W13_005_D.psd:8a08b93321230c5419c1612a76b6583b",
       "nativeTags": [
@@ -31486,7 +31486,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "앙앙이에게 로켓 발사기를 장착하려고 요즘 고민 중입니다.",
       "portrait": "W2_265_D.psd:b64b9e832a54c7f4f8b0d61f1f8188c6",
       "nativeTags": [
@@ -31566,7 +31566,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "DRAGON"
@@ -31635,7 +31635,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "그는 멀록들 사이에선 전설입니다. 그들 말로는 \"아옳옳옳옳옳옳옳!\"이라는군요.",
       "race": "멀록",
       "races": [
@@ -31736,7 +31736,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "늪수액괴물은 플라멩코 모자를 매우 좋아합니다. 이유는 묻지 마십시오.",
       "portrait": "AcidicSwampOoze_D.psd:8dbcacb19f8639443a9a695044135561",
       "nativeTags": [
@@ -31808,7 +31808,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?",
       "portrait": "W11_101_D.psd:65d26434402ccbe4f8554b552b4a4f39",
       "nativeTags": [
@@ -31890,7 +31890,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "노움의 지도자이자 엄청난 발명가입니다. 게다가 실력도 조금씩 나아지고 있죠. 뭐든 닭으로 만들어버리는 빈도가 <b>많이</b> 줄었으니까요.",
       "portrait": "gelbin-lullabi-V3_D.psd:a928615951e4b7744863f88b5c21c81c",
       "nativeTags": [
@@ -31973,7 +31973,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "시전할 때 생기는 바람이 시원해서 지어진 이름이란 소문이 있습니다.",
       "portrait": "W12_a057_D.psd:9b862ecdbde6c6e43821d8efc7771fdb",
       "nativeTags": [
@@ -32035,7 +32035,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "NATURE",
       "portrait": "HS17-082.psd:0039c44e3a39481eb9a677b387a50222",
       "nativeTags": [
@@ -32087,7 +32087,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "NATURE",
       "portrait": "HS17-083.psd:f938c578658542d9ab10c9611b82c9c4",
       "nativeTags": [
@@ -32139,7 +32139,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "HS17-091.psd:cdfcecdbe8fc4d63bac30d2605cd2724",
       "nativeTags": [
         {
@@ -32185,7 +32185,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "HS17-090.psd:a1c6b9b1d5ff49cea7a4657a7829e0a0",
       "nativeTags": [
         {
@@ -32236,7 +32236,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "HS17-089.psd:5fc77a0c27ef469185a7313b555e72cd",
       "nativeTags": [
         {
@@ -32282,7 +32282,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "HS17-088.psd:80c601277cb1475a954021c849224e63",
       "nativeTags": [
         {
@@ -32328,7 +32328,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "NATURE",
       "portrait": "HS17-084.psd:4d296e03539f4fa284eca3bd11e97a3b",
       "nativeTags": [
@@ -32380,7 +32380,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "NATURE",
       "portrait": "HS17-085.psd:0f5071f24a1740b5b7d2508691648600",
       "nativeTags": [
@@ -32432,7 +32432,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_103_D.psd:ad2f72aecc9a58a4db66fc2ea9d5b890",
       "nativeTags": [
         {
@@ -32478,7 +32478,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W12_A006(EA)_D.psd:74962204024594e4ba105120702a8828",
       "nativeTags": [
         {
@@ -32529,7 +32529,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "드루이드라면 누구나 한 번쯤 \"자극 주세요!!\" 소리를 들어보셨을 겁니다.",
       "spellSchool": "NATURE",
       "portrait": "WOW_TAL_002_D.tif:dfc6231195dc30c4db51a3df6a749b9d",
@@ -32592,7 +32592,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "단언컨대 별빛섬광은 가장 조화로운 드루이드 카드입니다.",
       "spellSchool": "ARCANE",
       "portrait": "WOW_CHI_049_D.psd:52e307105898c414ab60c099dcb9ac75",
@@ -32655,7 +32655,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W10_A143_D.psd:a8ec78fdf41d7e64ba2b70a2829fe3b4",
       "nativeTags": [
         {
@@ -32706,7 +32706,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "w2_166_D.psd:358c88351c04db64da39fe9c51063024",
       "nativeTags": [
         {
@@ -32752,7 +32752,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "첫인상은 차갑지만, 알고 보면 참 괜찮은 주문입니다.",
       "spellSchool": "FROST",
       "portrait": "CLA-003_S.psd:8b2e454d82c4a2e4fadea63299fcea70",
@@ -32814,7 +32814,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "지식의 냅킨을 차곡차곡 쌓으면 만들 수 있습니다.",
       "spellSchool": "ARCANE",
       "nativeTags": [
@@ -32870,7 +32870,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"누가가미 나를 부르느냐?!\"",
       "spellSchool": "SHADOW",
       "nativeTags": [
@@ -32926,7 +32926,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "남의 직업의 떡이 더 커보이는 법이죠.",
       "nativeTags": [
         {
@@ -32976,7 +32976,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "온 누리에 발바닥을!",
       "spellSchool": "NATURE",
       "portrait": "CLA-010.psd:e38c13b279974f98a24ca2d28f2a37ec",
@@ -33033,7 +33033,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "정의를 온 몸에 두르세요! 귀환할 때 편하답니다.",
       "spellSchool": "HOLY",
       "portrait": "CLA-011.psd:cba15c28ab5747839b2497b68ecb4a23",
@@ -33090,7 +33090,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "네팔렘들을 피해 온 걸까요?",
       "race": "악마",
       "races": [
@@ -33185,7 +33185,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "어느 비밀을 파괴할까요? 비밀입니다!",
       "portrait": "CLA-014.psd:a693b8d1c0b343d78738d3ed369137f7",
       "nativeTags": [
@@ -33256,7 +33256,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "주문에 간을 좀 한 게 입맛에 맞는다고 하네요.",
       "race": "정령",
       "races": [
@@ -33326,7 +33326,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "킁킁이도 나오지 않습니다.",
       "portrait": "CLA-013.psd:e016133a2be3432da8138f80210b604e",
       "nativeTags": [
@@ -33387,7 +33387,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"죽고 나면 안 아플 거야!\"",
       "race": "용족",
       "races": [
@@ -33462,7 +33462,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "늦잠을 자고 싶어하는 투사들도 모두 깨웁니다.",
       "portrait": "CLA-012.psd:73a0d47f57184d66be497ac2076bd432",
       "nativeTags": [
@@ -33528,7 +33528,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "퓨트리스 위인전을 읽고 감명을 받았나 보군요.",
       "race": "언데드",
       "races": [
@@ -33603,7 +33603,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "전문 용어로 자힐이라고 하죠.",
       "spellSchool": "HOLY",
       "nativeTags": [
@@ -33654,7 +33654,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"이건... 위습? 위습을 왜 덱에 넣은 거야?!\"",
       "race": "언데드",
       "races": [
@@ -33724,7 +33724,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "마력 주입으로 전율하는 젊음을 느껴보세요!",
       "spellSchool": "HOLY",
       "portrait": "HS19-282.tif:4660896acfc34b688eac89b74fe83bc6",
@@ -33776,7 +33776,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "쿨 티란 성직자들이 사용하는 성수는 바닷물로 만들어졌다고 합니다.",
       "portrait": "HS19-283.tif:dfb30dbf32394bceb485ed70c0d90ea8",
       "nativeTags": [
@@ -33837,7 +33837,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "붉은십자군 수도원에서 발차기로 사람을 진정시키는 방법을 깨우쳤다고 하네요.",
       "nativeTags": [
         {
@@ -33897,7 +33897,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "새로 산 흰색 수의에 음료수를 쏟아버린 한 늑대인간 사제에 의해 처음 발견되었습니다.",
       "spellSchool": "SHADOW",
       "portrait": "HS19-285.tif:cdd8780888d14c34b06ff18bda15f9c0",
@@ -33949,7 +33949,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "오크의 흑마법을 연구하던 세린은 검은 제국의 비수 잘아타스를 찾아냈습니다. 잘아타스에 손이 닿는 순간, 그녀의 머릿속에 속삭임이 들렸습니다. \"배고파\".",
       "portrait": "HS19-286.tif:6313aba84516461f8711537de202eaf5",
       "nativeTags": [
@@ -34015,7 +34015,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "자, 이제 제 토템 한 번 밟아 보시죠. (사악한 미소)",
       "portrait": "W5_128_D.psd:421723996c3e437489022388aa7cf396",
       "nativeTags": [
@@ -34067,7 +34067,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "멀록에게 사술을 써보셨나요? 네, 외관 상 큰 변화는 없을 겁니다.",
       "spellSchool": "NATURE",
       "portrait": "W5_120_D.tif:380e01e443d8cba4e8e69f0c8aaf517a",
@@ -34140,7 +34140,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "솔직히 당신은 엄청나게 강한 마법사니까 신비한 화살 정도는 잘 조준할 수 있을 거라 생각하셨죠?",
       "spellSchool": "ARCANE",
       "portrait": "W5_247_D.psd:f898fa8ba437864439172de5bb8c83c2",
@@ -34213,7 +34213,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "알라깔라<b>독칼</b>라미<b>독칼</b>라미띠!",
       "portrait": "W5_203_D.psd:8f8c033fc5613e94ca083f587babd51d",
       "nativeTags": [
@@ -34270,7 +34270,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "굳이 마나를 해골 모양으로 변형시킨 노력이 가상하지 않습니까? 상으로 카드 1장은 줍시다.",
       "spellSchool": "SHADOW",
       "portrait": "W17_a028_D.psd:8b7f477edf0cc8b46a2fd69064cae4fe",
@@ -34338,7 +34338,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "신발은 물론 카드도 물어뜯습니다.",
       "race": "악마",
       "races": [
@@ -34429,7 +34429,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "상대의 영혼에 불을 지르는 걸까요? 아니면 자신의 영혼으로 상대에게 불을 지르는 걸까요? 비슷해 보이지만 정말 중요한 차이입니다.",
       "spellSchool": "FIRE",
       "portrait": "W9_A118_D.psd:e6ad371f9bb9fd14f854b8774d498aa9",
@@ -34502,7 +34502,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "race": "악마",
       "races": [
         "DEMON"
@@ -34561,7 +34561,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이래서 겸손이 힘든 겁니다.",
       "portrait": "w3_032_D.psd:a9111656e09d25944bba4cd2bfa4f719",
       "nativeTags": [
@@ -34618,7 +34618,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.",
       "spellSchool": "HOLY",
       "portrait": "WOW_ACT_018_D.tif:f85d16a58caa8f741b6dfdb3a16b67fd",
@@ -34686,7 +34686,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "아픈 만큼 성숙하는 법입니다.",
       "portrait": "W13_002_D.psd:81f66b172c5ee1e44b362edef47d7859",
       "nativeTags": [
@@ -34758,7 +34758,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "노련한 전사와 풋내기 전사의 차이점은 간단합니다. 풋내기들은 소용돌이를 쓰면서 \"이얏호!\"라고 외치죠.",
       "portrait": "W6_076_D.psd:239e34584f51dc94b8e58387aae28519",
       "nativeTags": [
@@ -34815,7 +34815,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"파도를 헤치고 죽음이 나타나리니!\"",
       "race": "멀록",
       "races": [
@@ -34919,7 +34919,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "멀록",
       "races": [
         "MURLOC"
@@ -34999,7 +34999,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "아주 똑똑한 멀록입니다. 그래도 다른 멀록들과 크게 다르지는 않습니다.",
       "race": "멀록",
       "races": [
@@ -35080,7 +35080,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "야수 없이 명령만으로도 피해를 줄 수 있다니!",
       "portrait": "W3_116_D.psd:5af976de7eb8f0c459b570debe41023f",
       "nativeTags": [
@@ -35137,7 +35137,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "토템 장인들은 본인의 토템에는 가장 희귀한 나무를 사용하곤 합니다. 심지어 무쇠껍질 수호정령으로 만든 토템도 있다는군요.",
       "race": "토템",
       "races": [
@@ -35218,7 +35218,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_280_D.psd:9533e1f7267e7014584bbd3568fe28e3",
       "nativeTags": [
         {
@@ -35264,7 +35264,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a032ABILITY_D.psd:79fe71dd8efd7274f845376e6db7c30e",
       "nativeTags": [
         {
@@ -35315,7 +35315,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "주사가 심한 친구를 집에 데려다 줄 때 유용합니다.",
       "portrait": "W7_184_D.psd:cfa94aadb61a00d4cba70673208159eb",
       "nativeTags": [
@@ -35372,7 +35372,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "달라란 전사는 찾아보기 힘들 겁니다.",
       "portrait": "W12_A088(EA)_D.psd:39ad823b88f33f14aaef2c874cc143f5",
       "nativeTags": [
@@ -35439,7 +35439,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?",
       "race": "드레나이",
       "races": [
@@ -35520,7 +35520,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "단검을 가장 피하고 싶은 부분은 당신의 얼굴일 겁니다. 그러니 도적이 그곳을 노릴 겁니다.",
       "portrait": "W11_061_D.psd:249a2599722628846b7f1b43dee19033",
       "nativeTags": [
@@ -35587,7 +35587,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "race": "악마",
       "races": [
         "DEMON"
@@ -35652,7 +35652,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "얼굴 올리기는 도무지 쓸모가 없어서 방패 올리기가 탄생했습니다.",
       "portrait": "WOW_MISC_021_D.tif:6fad627e3884eb54f80aa543d55dcc50",
       "nativeTags": [
@@ -35709,7 +35709,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.",
       "spellSchool": "SHADOW",
       "portrait": "W12_A067_D.psd:cf73ceb5d52685e4db2c9855a833b5e4",
@@ -35762,7 +35762,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "race": "언데드",
       "races": [
         "BEAST"
@@ -35837,7 +35837,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W16_a032_D.psd:d988af2d0aebc26489d403cf190688d1",
       "nativeTags": [
         {
@@ -35898,7 +35898,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"난롯가에서 든든하게 먹고 축제를 즐기세요. 우리 모두를 위한 축제니까요!\" -하스",
       "portrait": "HS31-117_M.tif:0b1842db558f4d3d92064f4b65063f86",
       "nativeTags": [
@@ -35969,7 +35969,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"오늘, 제 마법이 우리를 하나로 만들 거예요.\" -제이나",
       "portrait": "HS31-122_S.tif:f0a19a18be0d419f85476e102f7d2ede",
       "nativeTags": [
@@ -36035,7 +36035,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"나는 혼자 쇼핑하지.\" -렉사르",
       "portrait": "HS31-121_S.tif:54fec959f20d468d8b040170f207e3fb",
       "nativeTags": [
@@ -36101,7 +36101,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"써 봐라.\" -아서스",
       "portrait": "HS31-118_S.tif:cd071cb261dc4225b095aa7e5275bd8a",
       "nativeTags": [
@@ -36168,7 +36168,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"가벼운 독서를 좋아하길 바라네!\" -우서",
       "portrait": "HS31-123_S.tif:ef4a7b3930334c8db9d9fe5cd90fb4dd",
       "nativeTags": [
@@ -36234,7 +36234,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"내가 손수 포장했다네!\" -스랄",
       "portrait": "HS31-126_S.tif:87fd8ba7e761475db7763b136a07e6f0",
       "nativeTags": [
@@ -36300,7 +36300,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"호드에 의하여! 특별히 내가!\" -가로쉬",
       "portrait": "HS31-128_S.tif:26e077adc3a143f98c97054b7f8e6987",
       "nativeTags": [
@@ -36366,7 +36366,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"이 선물의 무게는 네가 끝까지 짊어져야 할 짐이다... 영수증을 잃어버렸거든.\" -일리단",
       "portrait": "HS31-119_S.tif:91ce20413d4c4d0c929f9ae68bdd27db",
       "nativeTags": [
@@ -36432,7 +36432,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"한번 줘 볼까.\" -발리라",
       "portrait": "HS31-125_S.tif:0a24631088e34c378ea61c87b7cdc995",
       "nativeTags": [
@@ -36498,7 +36498,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"이것이 네게 파티의 기운을 불어넣어 주기를!\" -말퓨리온",
       "portrait": "HS31-120_S.tif:11356eb6196a4ebb919c561a397a9e4c",
       "nativeTags": [
@@ -36564,7 +36564,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"지난번과는 다를 것이다...\" -굴단",
       "portrait": "HS31-127_S.tif:d43114f1200146c78c8924678083a446",
       "nativeTags": [
@@ -36630,7 +36630,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"제 의회에서 이것이 완벽한 선물이라 장담했어요! 굳이 그런 말을 들을 필요는 없었지만요. 전 거기 뭐가 들었는지 알거든요.\" -안두인",
       "portrait": "HS31-124_S.tif:6c1be227a9784740961561d7c364ff52",
       "nativeTags": [
@@ -36697,7 +36697,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "w14_a208_D.psd:643b00f3e3cac52499f0d0d4172b087c",
       "nativeTags": [
         {
@@ -36753,7 +36753,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Warrior_power2_D.psd:03106a75c7aab1b49af41e9c404fc8f0",
       "nativeTags": [
         {
@@ -36788,7 +36788,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W11_138_D.psd:8bba5f9e9d6cbe94496db130c6fedc1a",
       "nativeTags": [
         {
@@ -36844,7 +36844,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Shaman_power2_D.psd:30fc03d85786f9e41817ae4a3e13b23c",
       "nativeTags": [
         {
@@ -36879,7 +36879,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W10_A163_D.psd:58d2fd1e9de22b640981bab9f2da819e",
       "nativeTags": [
         {
@@ -36940,7 +36940,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Rogue_power2_D.psd:fe318f9ad6f4a0d438cdd8b43654390d",
       "nativeTags": [
         {
@@ -36975,7 +36975,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "WOW_PAR_039_hp_D.psd:581b381a51c199940909651fdf28c8d0",
       "nativeTags": [
         {
@@ -37031,7 +37031,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Paladin_power2_D.psd:e7a6670877cf78141be8e90be7cb8064",
       "nativeTags": [
         {
@@ -37066,7 +37066,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W4_080_D.psd:49c7fd906b2885f42bc4e92c61f4b059",
       "nativeTags": [
         {
@@ -37122,7 +37122,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Hunter_power2_D.psd:7ac0c1ee0e4785f48834fcdd4ad1677f",
       "nativeTags": [
         {
@@ -37157,7 +37157,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W2_203_D.psd:a319ca1ff28b3854da7f4c85c36f3ae9",
       "nativeTags": [
         {
@@ -37213,7 +37213,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Druid_power2_D.psd:3b885f3a600d62c4ab243438e3f1601f",
       "nativeTags": [
         {
@@ -37248,7 +37248,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "WOW_LEAD_053_D.psd:c63fd3584fbde9a469b511aa5742b61f",
       "nativeTags": [
         {
@@ -37309,7 +37309,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Warlock_power2_D.psd:1119c210a2c90f94fa45cd3fb657b399",
       "nativeTags": [
         {
@@ -37344,7 +37344,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "R6_a075_D.png:ffec72f995c63e34d8b0919a4b492a1d",
       "nativeTags": [
         {
@@ -37405,7 +37405,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Mage_power2_D.psd:32f597e23ee96504599f16ce0da87dba",
       "nativeTags": [
         {
@@ -37440,7 +37440,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "WOW_TRINK_007_D.psd:f31c588c59544054882c0d05236a1bd6",
       "nativeTags": [
         {
@@ -37496,7 +37496,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "Priest_power2_D.psd:d531af86eeaab73409a87a5e5a38bff3",
       "nativeTags": [
         {
@@ -37531,7 +37531,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS19-289.tif:d8ba258c041b4273b8f988c779e57851",
       "nativeTags": [
         {
@@ -37571,7 +37571,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "HS19-290.tif:043f9e9519ac426e9e5a3c825a9d161d",
       "nativeTags": [
         {
@@ -37606,7 +37606,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "당신이 뭘 하든 메디브를 아들로 둔 에이그윈을 실망시킬 순 없습니다.",
       "portrait": "CLA-020_M.tif:20bfec187f224363beb96834f84c6628",
       "nativeTags": [
@@ -37682,7 +37682,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "모든 유령이 사악한 미소를 짓진 않습니다.",
       "race": "언데드",
       "races": [
@@ -37757,7 +37757,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "정말 열심히 일하나 봐요. 밝게 웃는 저 야수를 보세요!",
       "portrait": "CLA-030_M.tif:db51db43be2e46a09bf35423968bff84",
       "nativeTags": [
@@ -37833,7 +37833,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "혼자 있으면 의욕이 더 난다고 하네요.",
       "race": "악마",
       "races": [
@@ -37913,7 +37913,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "주문이 암흑 속을 마다한다고요? 낮잠 자기 더 좋은 환경인데.",
       "spellSchool": "SHADOW",
       "portrait": "CLA-046_S.tif:2fbea657fdf3441e9b7e576339c2f452",
@@ -37985,7 +37985,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "아군 공격: 불가",
       "race": "용족",
       "races": [
@@ -38065,7 +38065,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "도트 더 넣어요! 도트! 도트 계속 넣으라고요!",
       "race": "용족",
       "races": [
@@ -38155,7 +38155,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "서둘러! 무슨 꿈인지 잊어버리기 전에 얼른 적어 놔.",
       "race": "용족",
       "races": [
@@ -38247,7 +38247,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "수많은 해가 지나고, 말리고스는 필멸자들의 마법 사용을 허가했습니다. 모든 마법을요!",
       "race": "용족",
       "races": [
@@ -38332,7 +38332,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"여기도 데스윙, 이쪽도 데스윙, 당신도 데스윙, 저도 데스윙이네요! 제가 모르는 데스윙이 또 있나요?!\"",
       "race": "용족",
       "races": [
@@ -38422,7 +38422,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이세라를 수호하기로 맹세한 에메랄드 용제단의 위엄 넘치는 올빼미들은 에메랄드 꿈의 힘이 깃들었으며, 겉은 결정과도 같습니다.",
       "race": "야수",
       "races": [
@@ -38502,7 +38502,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "심장이 터질 것 같습니다.",
       "portrait": "W11_031_S.tif:2e13e97a830b4853a79109ebbe959e15",
       "nativeTags": [
@@ -38563,7 +38563,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "냄새는 신경 쓰지 마세요. 뭐든 숙성되면 더 맛있답니다!",
       "portrait": "HS27-137_S.tif:8a601b65fd3e45ffaeec02c27c8f4d95",
       "nativeTags": [
@@ -38629,7 +38629,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "너무 좋은 카드라 패치가 필요할지도 모릅니다.",
       "race": "언데드",
       "races": [
@@ -38714,7 +38714,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "최고를 꺾고, 최고가 되어, 나머지를 지배합니다.",
       "portrait": "HS27-016_M.tif:c617314b3c1e4675ad7362c7c7ca1821",
       "nativeTags": [
@@ -38805,7 +38805,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "상한 음식을 먹지 말아야 하는 이유입니다.",
       "race": "언데드",
       "races": [
@@ -38885,7 +38885,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"지금 돌아보면... 분노의 관문에서 얼라이언스 녀석들이 재미 보게 양보할 걸 그랬어.\"",
       "race": "언데드",
       "races": [
@@ -38985,7 +38985,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "골렘 모두 기상!",
       "race": "언데드",
       "races": [
@@ -39090,7 +39090,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이게 왜 냉기 주문이죠?",
       "spellSchool": "FROST",
       "portrait": "HS27-125_S.tif:0b7d3c3a8773491f9d8ed6e72ed3e470",
@@ -39162,7 +39162,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"엄마! 애들이 나 역겹다고 놀려!\"",
       "race": "언데드",
       "races": [
@@ -39242,7 +39242,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "절멸 붐은 온다...",
       "portrait": "HS27-348_S.tif:c6bfb547d3a4461bb9cba0a2c3078a35",
       "nativeTags": [
@@ -39303,7 +39303,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "누가 냉장고 문을 열어놨나?",
       "portrait": "HS27-127_M.tif:2371cfb350d841fc932173cc80ab1250",
       "nativeTags": [
@@ -39379,7 +39379,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "이미르하임에서는 보라색 슬라임이 유행이랍니다.",
       "race": "언데드",
       "races": [
@@ -39479,7 +39479,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "\"애초에 여긴 왜 돌게 하는 거야? 죽은 것밖에 없는데!\"",
       "portrait": "HS27-005_S.tif:fa84270f6e894c9295d260b16c85b720",
       "nativeTags": [
@@ -39545,7 +39545,7 @@
       "durability": 3,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "누구 송곳니를 본떠 만들었을까요?",
       "portrait": "r6_a047_W_W.tif:14bf6d8881c780640ad8b42a700877dc",
       "nativeTags": [
@@ -39616,7 +39616,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "룬은 진짜라니까요!",
       "spellSchool": "SHADOW",
       "portrait": "HS27-114_S.tif:67088cbfd73144228af575c53df1b020",
@@ -39683,7 +39683,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "기울 땐 기워야죠!",
       "race": "언데드",
       "races": [
@@ -39768,7 +39768,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "우리 집은 얼음 나온다!",
       "race": "언데드",
       "races": [
@@ -39858,7 +39858,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "무덤을 반만 골라 파는 외눈깨비입니다.",
       "race": "언데드",
       "races": [
@@ -39948,7 +39948,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "내 애니메이션 재생 속도도 20% 빨라집니다.",
       "spellSchool": "HOLY",
       "portrait": "HS29-188_S.tif:7b47a05a5fb54afca2444e62909a15a1",
@@ -40035,7 +40035,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "BEAST"
@@ -40103,7 +40103,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "MECHANICAL"
@@ -40167,7 +40167,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "MECHANICAL"
@@ -40230,7 +40230,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "MECHANICAL"
@@ -40293,7 +40293,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -40342,7 +40342,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "악마와 흑마법사 사이의 미묘한 긴장감은 이 주문에서 비롯됐다고 봐도 과언이 아닙니다.",
       "spellSchool": "SHADOW",
       "portrait": "W9_A060_D.psd:49c1122cdbc647540b9a326ee0d4258e",
@@ -40390,7 +40390,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "W4_261_D.psd:f91ed247518ee5345a1199924f0c1456",
       "nativeTags": [
         {
@@ -40436,7 +40436,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "ARCANE",
       "portrait": "HS17-087.psd:089a4c45ff854b9aa036c714c1140e26",
       "nativeTags": [
@@ -40478,7 +40478,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "spellSchool": "ARCANE",
       "portrait": "HS17-086.psd:ea0c42c60a71459fb680d7f2aa9d218f",
       "nativeTags": [
@@ -40520,7 +40520,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W2_399_D.psd:1e7e7c6452a995847b0d9698cd95b3ff",
       "nativeTags": [
         {
@@ -40556,7 +40556,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "portrait": "W13_222_D.psd:2b423071f1bee054db64d60547ca6aa2",
       "nativeTags": [
         {
@@ -40592,7 +40592,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "토템",
       "races": [
         "TOTEM"
@@ -40657,7 +40657,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "코르크론은 가로쉬 헬스크림의 정예 부대입니다. 파란색 휘장을 차고 있을 땐, 이들과 마주치지 않길 기도하십시오.",
       "portrait": "W4_009_D.psd:148303281bffff34494df5e62b7c7696",
       "nativeTags": [
@@ -40719,7 +40719,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "해적과 앵무새는 토깽과 당근의 관계와도 같죠.",
       "race": "야수",
       "races": [
@@ -40790,7 +40790,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.",
       "portrait": "W21_A114_D.psd:8ed8c5d04e799eb4dad94fda4337d3bb",
       "nativeTags": [
@@ -40842,7 +40842,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -40902,7 +40902,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -40962,7 +40962,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -41022,7 +41022,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 48,
@@ -41056,7 +41056,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 48,
@@ -41090,7 +41090,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "현재 드러머를 구하는 중입니다. 풋내기 기술자, 센진 방패대가, 불의 군주 라그나로스가 후보라네요.",
       "portrait": "ETC_D.psd:97910c41b15f5a74ea4a684a1be00670",
       "nativeTags": [
@@ -41169,7 +41169,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 48,
@@ -41203,7 +41203,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "멀록",
       "races": [
         "MURLOC"
@@ -41252,7 +41252,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "nativeTags": [
         {
           "id": 48,
@@ -41286,7 +41286,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "portrait": "horde_D.psd:a0bdb00b2f3932743a96c5eea4ec0e18",
       "nativeTags": [
         {
@@ -41321,7 +41321,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "안.전.착.륙.은 배우지 않았습니다.",
       "portrait": "HS31-213_M.tif:8e68a510372d4a5c92d921de1c2d99ec",
       "nativeTags": [
@@ -41397,7 +41397,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "1타 3피!",
       "portrait": "HS31-214_M.tif:5a0df541f9e24b1ea86937df4d5791e4",
       "nativeTags": [
@@ -41468,7 +41468,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "하하 하 후하!",
       "portrait": "HS31-215_M.tif:c5602fce4309406aad5bac3843bf68c2",
       "nativeTags": [
@@ -41544,7 +41544,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "누가 화난 닭들을 만든 걸까요?",
       "portrait": "HS31-216_M.tif:bd743ba0d0ac45898b27f51dd0c17e1f",
       "nativeTags": [
@@ -41615,7 +41615,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "우리는 월드 오브 워크래프트의 용사들이다!",
       "nativeTags": [
         {
@@ -41679,7 +41679,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "flavor": "휴대용 하스스톤을 소개합니다!",
       "portrait": "LC27-061_M.tif:cbbe7520382a420289d8a02f6b412ea0",
       "nativeTags": [
@@ -41745,7 +41745,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "race": "용족",
       "races": [
         "DRAGON"
@@ -41815,7 +41815,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "LEGACY",
+      "set": "legacy",
       "race": "야수",
       "races": [
         "BEAST"
@@ -41875,7 +41875,7 @@
       "durability": 0,
       "armor": 0,
       "art": "",
-      "set": "EXPERT1",
+      "set": "legacy",
       "race": "기계",
       "races": [
         "MECHANICAL"
