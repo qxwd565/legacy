@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "SI:7 Infiltrator",
+  "card": {
+    "dbfId": 54836,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 4,
+    "health": 4,
+    "attack": 5,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_186",
+    "name": "SI:7 침투요원",
+    "text": "<b>전투의 함성:</b>\n무작위 적 <b>비밀</b>을 없앱니다.",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "race": "",
+    "flavor": "어느 비밀을 파괴할까요? 비밀입니다!",
+    "spellSchool": "",
+    "portrait": "CLA-014.psd:a693b8d1c0b343d78738d3ed369137f7",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 219,
+        "name": "비밀",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1678,
+        "name": "게임 태그 1678",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b>\n무작위 적 <b>비밀</b>을 없앱니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Unbound Elemental",
+  "card": {
+    "dbfId": 774,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 3,
+    "health": 4,
+    "attack": 3,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "ELEMENTAL"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_258",
+    "name": "속박 풀린 정령",
+    "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "race": "정령",
+    "flavor": "구속된 정령과 달리, 속박 풀린 정령은 뜨거운 밤을 즐길 줄 압니다.",
+    "spellSchool": "",
+    "portrait": "W14_a250_D.psd:9660be620401f2e479dc397c37b7d6c4",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_258",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_258",
+          "name": "속박 풀린 정령",
+          "text": "내가 <b>과부하</b> 카드를 1장 낼 때마다 +1/+1을 얻습니다.",
+          "type": "MINION",
+          "cardClass": "SHAMAN",
+          "classes": [
+            "SHAMAN"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 3,
+          "attack": 2,
+          "health": 4,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "속박 풀린 정령",
+          "description": "내가 <b>과부하</b> 카드를 1장 낼 때마다 +1/+1을 얻습니다.",
+          "mana": "3",
+          "attack": "2",
+          "health": "4",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:9660be620401f2e479dc397c37b7d6c4:9660be620401f2e479dc397c37b7d6c4"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_258",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 121944,
+          "textAssetBytes": 4376,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 3,
+            "Class": 8,
+            "Rarity": 1,
+            "Cost": 3,
+            "Health": 4,
+            "AttackVisualType": 1,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Atk": 2,
+            "TriggerVisual": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:9660be620401f2e479dc397c37b7d6c4:9660be620401f2e479dc397c37b7d6c4",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_258/W14_a250_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_258"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 18
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

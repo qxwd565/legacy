@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Heart Strike",
+  "card": {
+    "dbfId": 113185,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "LEG_RLK_034",
+    "name": "심장 강타",
+    "text": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다.",
+    "set": "LEGACY",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "COMMON",
+    "race": "",
+    "flavor": "심장이 터질 것 같습니다.",
+    "spellSchool": "",
+    "portrait": "W11_031_S.tif:2e13e97a830b4853a79109ebbe959e15",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 78332
+      },
+      {
+        "id": 2196,
+        "name": "혈기 룬 비용",
+        "value": 1
+      },
+      {
+        "id": 2559,
+        "name": "시체",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Wicked Knife",
+  "card": {
+    "dbfId": 485,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 2,
+    "attack": 1,
+    "armor": 0,
+    "durability": 2,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS2_082",
+    "name": "악의의 손칼",
+    "text": "",
+    "set": "LEGACY",
+    "type": "WEAPON",
+    "cardClass": "ROGUE",
+    "rarity": "FREE",
+    "race": "",
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W13_160_D.psd:5f33f3cccb7087449a52a72b777c76bc",
+    "collectible": false,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS2_082",
+        "historicalKey": null,
+        "card": {
+          "id": "CS2_082",
+          "name": "악의의 손칼",
+          "text": "",
+          "type": "WEAPON",
+          "cardClass": "ROGUE",
+          "classes": [
+            "ROGUE"
+          ],
+          "rarity": "FREE",
+          "race": "",
+          "spellSchool": "",
+          "cost": 1,
+          "attack": 1,
+          "health": 0,
+          "armor": 0,
+          "durability": 2,
+          "techLevel": 0,
+          "collectible": false,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "악의의 손칼",
+          "description": "",
+          "mana": "1",
+          "attack": "1",
+          "health": "0",
+          "durability": "2",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "FREE",
+          "watermark": "NONE",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:5f33f3cccb7087449a52a72b777c76bc:5f33f3cccb7087449a52a72b777c76bc"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS2_082",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1198440,
+          "textAssetBytes": 1152,
+          "tags": {
+            "CardSet": 2,
+            "CardType": 7,
+            "Faction": 3,
+            "Class": 7,
+            "Rarity": 2,
+            "Atk": 1,
+            "Durability": 2,
+            "AttackVisualType": 6,
+            "Cost": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:5f33f3cccb7087449a52a72b777c76bc:5f33f3cccb7087449a52a72b777c76bc",
+            "reference": "Assets/Game/Cards/00 Basic/CS2_082/W13_160_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS2_082"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0
+  },
+  "root": false,
+  "relatedIds": [
+    46054
+  ],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

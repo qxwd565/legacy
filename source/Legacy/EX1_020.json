@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Scarlet Crusader",
+  "card": {
+    "dbfId": 642,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 3,
+    "health": 1,
+    "attack": 3,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_020",
+    "name": "붉은십자군 성전사",
+    "text": "<b>천상의 보호막</b>",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "race": "",
+    "flavor": "세탁할 때 흰 옷이 물들지 않게 조심해야겠군요.",
+    "spellSchool": "",
+    "portrait": "R7_a033_D.psd:46484e4eed391c14e894466613e674ca",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_020",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_020",
+          "name": "붉은십자군 성전사",
+          "text": "<b>천상의 보호막</b>",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 3,
+          "attack": 3,
+          "health": 1,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "붉은십자군 성전사",
+          "description": "<b>천상의 보호막</b>",
+          "mana": "3",
+          "attack": "3",
+          "health": "1",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:46484e4eed391c14e894466613e674ca:46484e4eed391c14e894466613e674ca"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_020",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1607288,
+          "textAssetBytes": 3154,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 2,
+            "Rarity": 1,
+            "Cost": 3,
+            "Atk": 3,
+            "Health": 1,
+            "AttackVisualType": 6,
+            "Collectible": 1,
+            "Divine Shield": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:46484e4eed391c14e894466613e674ca:46484e4eed391c14e894466613e674ca",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_020/R7_a033_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_020"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>천상의 보호막</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

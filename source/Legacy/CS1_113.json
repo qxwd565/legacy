@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Mind Control",
+  "card": {
+    "dbfId": 8,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 9,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS1_113",
+    "name": "정신 지배",
+    "text": "적 하수인을 가져옵니다.",
+    "set": "LEGACY",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "FREE",
+    "race": "",
+    "flavor": "\"당하면 멘탈이 붕괴되는 기술\" 1위 후보에 오른 영광스러운 주문입니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "W3_141_D.psd:a8f56520677ae1648babbf7748bf9c90",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS1_113",
+        "historicalKey": null,
+        "card": {
+          "id": "CS1_113",
+          "name": "정신 지배",
+          "text": "적 하수인 하나를 우리편으로 만듭니다.",
+          "type": "SPELL",
+          "cardClass": "PRIEST",
+          "classes": [
+            "PRIEST"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 10,
+          "attack": 0,
+          "health": 0,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "정신 지배",
+          "description": "적 하수인 하나를 우리편으로 만듭니다.",
+          "mana": "10",
+          "attack": "0",
+          "health": "0",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "NONE",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:a8f56520677ae1648babbf7748bf9c90:a8f56520677ae1648babbf7748bf9c90"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS1_113",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 462056,
+          "textAssetBytes": 4084,
+          "tags": {
+            "CardSet": 2,
+            "CardType": 5,
+            "Faction": 3,
+            "Class": 6,
+            "Rarity": 1,
+            "Cost": 10,
+            "AttackVisualType": 5,
+            "DevState": 2,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0
+          },
+          "artworkReference": {
+            "selection": "portrait:a8f56520677ae1648babbf7748bf9c90:a8f56520677ae1648babbf7748bf9c90",
+            "reference": "Assets/Game/Cards/00 Basic/CS1_113/W3_141_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS1_113"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 5
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "적 하수인을 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

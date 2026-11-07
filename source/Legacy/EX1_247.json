@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Stormforged Axe",
+  "card": {
+    "dbfId": 960,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 2,
+    "health": 3,
+    "attack": 2,
+    "armor": 0,
+    "durability": 3,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_247",
+    "name": "폭풍으로 벼려낸 도끼",
+    "text": "<b>과부하:</b> (1)",
+    "set": "EXPERT1",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "race": "",
+    "flavor": "폭풍에 맞은 듯한 충격을 대뇌의 전두엽까지 전해드립니다.",
+    "spellSchool": "",
+    "portrait": "W16_a246_D.psd:ee91ff348e3578541828ca42be8dd2a6",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_247",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_247",
+          "name": "폭풍으로 벼려낸 도끼",
+          "text": "<b>과부하:</b> (1)",
+          "type": "WEAPON",
+          "cardClass": "SHAMAN",
+          "classes": [
+            "SHAMAN"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 2,
+          "attack": 2,
+          "health": 0,
+          "armor": 0,
+          "durability": 3,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "폭풍으로 벼려낸 도끼",
+          "description": "<b>과부하:</b> (1)",
+          "mana": "2",
+          "attack": "2",
+          "health": "0",
+          "durability": "3",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:ee91ff348e3578541828ca42be8dd2a6:ee91ff348e3578541828ca42be8dd2a6"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_247",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 2083200,
+          "textAssetBytes": 3178,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 7,
+            "Faction": 3,
+            "Class": 8,
+            "Rarity": 1,
+            "Cost": 2,
+            "Atk": 2,
+            "Durability": 3,
+            "AttackVisualType": 1,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Recall": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:ee91ff348e3578541828ca42be8dd2a6:ee91ff348e3578541828ca42be8dd2a6",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_247/W16_a246_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_247"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>과부하:</b> (1)",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

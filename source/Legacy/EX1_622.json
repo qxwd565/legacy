@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Shadow Word: Death",
+  "card": {
+    "dbfId": 1363,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 2,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_622",
+    "name": "어둠의 권능: 죽음",
+    "text": "공격력이 5 이상인 하수인을\n처치합니다.",
+    "set": "LEGACY",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "FREE",
+    "race": "",
+    "flavor": "빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.",
+    "spellSchool": "SHADOW",
+    "portrait": "W12_A067_D.psd:cf73ceb5d52685e4db2c9855a833b5e4",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_622",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_622",
+          "name": "어둠의 권능: 죽음",
+          "text": "공격력 5 이상인 하수인을 하나 처치합니다.",
+          "type": "SPELL",
+          "cardClass": "PRIEST",
+          "classes": [
+            "PRIEST"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 3,
+          "attack": 0,
+          "health": 0,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "어둠의 권능: 죽음",
+          "description": "공격력 5 이상인 하수인을 하나 처치합니다.",
+          "mana": "3",
+          "attack": "0",
+          "health": "0",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "NONE",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:cf73ceb5d52685e4db2c9855a833b5e4:cf73ceb5d52685e4db2c9855a833b5e4"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_622",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 2004920,
+          "textAssetBytes": 3979,
+          "tags": {
+            "Collectible": 1,
+            "CardSet": 2,
+            "Rarity": 1,
+            "CardType": 5,
+            "Cost": 3,
+            "Class": 6,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0
+          },
+          "artworkReference": {
+            "selection": "portrait:cf73ceb5d52685e4db2c9855a833b5e4:cf73ceb5d52685e4db2c9855a833b5e4",
+            "reference": "Assets/Game/Cards/00 Basic/EX1_622/W12_A067_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_622"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "공격력이 5 이상인 하수인을\n처치합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  },
+  "historicalSources": [
+    {
+      "key": "fade_beta",
+      "id": "EX1_622",
+      "sourceId": "VAN_EX1_622",
+      "name": "소실",
+      "text": "내 하수인들에게\n<b>도발</b>을 부여합니다.\n카드를 1장 뽑습니다.",
+      "kind": "SPELL",
+      "cardClass": "PRIEST",
+      "sourceSet": "EXPERT1",
+      "rarity": "COMMON",
+      "race": "",
+      "dbfId": 1363,
+      "sourceDbfId": 68480,
+      "rowId": 2000000001,
+      "mana": 2,
+      "attack": 0,
+      "health": 0,
+      "armor": 0,
+      "removed": true,
+      "preset": {
+        "watermark": "Set1_Icon",
+        "artwork": "fade_beta",
+        "name": "소실",
+        "description": "내 하수인들에게\n<b>도발</b>을 부여합니다.\n카드를 1장 뽑습니다."
+      },
+      "archives": {
+        "normal": "6f1aefc6209c095ecca09c9b2ba2152c5d6b7cb1320c3fe741266be5ca6b0890",
+        "golden": "eafd4ec2d810cddc2938967e5d7ed96c5919dbb4958a8ca08b5cce2892d45b36"
+      },
+      "sourceVersion": "6000.3.11.3145967",
+      "sources": {
+        "essential_base_global-texture-2.unity3d": "26047733:639275082148117234",
+        "essential_base_global-material-0.unity3d": "498177:639275082144082134",
+        "essential_base_global-mesh-0.unity3d": "6793482:639275082143799789",
+        "essential_base_global-shader-0.unity3d": "1199727:639275081879107966",
+        "initial_base_global-910a3655-mesh-0.unity3d": "2350877:639216100405791575",
+        "essential_base_global-prefab-0.unity3d": "3914913:639275082143799789",
+        "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
+        "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
+      }
+    }
+  ]
+}

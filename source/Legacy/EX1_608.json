@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Sorcerer's Apprentice",
+  "card": {
+    "dbfId": 614,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 2,
+    "health": 2,
+    "attack": 3,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_608",
+    "name": "마술사의 수습생",
+    "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "race": "",
+    "flavor": "수습생들은 이래라 저래라 시키기 좋습니다. \"마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!\"",
+    "spellSchool": "",
+    "portrait": "W2_210_D.psd:c9920db8022c1294e944750e8907eb34",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_608",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_608",
+          "name": "마술사의 수습생",
+          "text": "내가 쓰는 주문의 비용이 (1) 감소합니다.",
+          "type": "MINION",
+          "cardClass": "MAGE",
+          "classes": [
+            "MAGE"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 2,
+          "attack": 3,
+          "health": 2,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "마술사의 수습생",
+          "description": "내가 쓰는 주문의 비용이 (1) 감소합니다.",
+          "mana": "2",
+          "attack": "3",
+          "health": "2",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:c9920db8022c1294e944750e8907eb34:c9920db8022c1294e944750e8907eb34"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_608",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 949544,
+          "textAssetBytes": 4109,
+          "tags": {
+            "CardSet": 3,
+            "Rarity": 1,
+            "CardType": 4,
+            "Cost": 2,
+            "Health": 2,
+            "Atk": 3,
+            "Faction": 3,
+            "Class": 4,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Aura": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:c9920db8022c1294e944750e8907eb34:c9920db8022c1294e944750e8907eb34",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_608/W2_210_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_608"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

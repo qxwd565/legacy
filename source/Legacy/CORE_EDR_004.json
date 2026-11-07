@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Raptor Herald",
+  "card": {
+    "dbfId": 119798,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 3,
+    "health": 2,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "BEAST"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CORE_EDR_004",
+    "name": "랩터 전령",
+    "text": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의_선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다.",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "race": "야수",
+    "flavor": "저 유성, 너무 가깝지 않아?",
+    "spellSchool": "",
+    "portrait": "HS34-342_M.tif:7db9a545402549c2a0d0e32dda95dbad",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 3627,
+        "name": "DARK_GIFT",
+        "value": 1
+      },
+      {
+        "id": 3934,
+        "name": "REWIND",
+        "value": 1
+      },
+      {
+        "id": 4028,
+        "name": "KINDRED",
+        "value": 1
+      },
+      {
+        "id": 4050,
+        "name": "게임 태그 4050",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의_선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [
+    113796,
+    113797,
+    113798,
+    113799,
+    113801,
+    113802,
+    113882,
+    113884,
+    113886,
+    120225
+  ],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

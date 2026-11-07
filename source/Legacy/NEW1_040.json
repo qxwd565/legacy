@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Hogger",
+  "card": {
+    "dbfId": 640,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 460,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 6,
+    "health": 4,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "NEW1_040",
+    "name": "들창코",
+    "text": "내 턴이 끝날 때,\n<b>도발</b> 능력이 있는 2/2 놀을 소환합니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "race": "",
+    "flavor": "들창코는 정말 강력합니다. 만약 처치했다면, 그가 <i>봐줬기</i> 때문입니다.",
+    "spellSchool": "",
+    "portrait": "W17_a071_D.psd:310ab7beb58560b47a615cbdf41a3b98",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "NEW1_040",
+        "historicalKey": null,
+        "card": {
+          "id": "NEW1_040",
+          "name": "들창코",
+          "text": "내 턴이 끝날 때, <b>도발</b> 능력이 있는 2/2 놀을 1마리 소환합니다.",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "LEGENDARY",
+          "race": "",
+          "spellSchool": "",
+          "cost": 6,
+          "attack": 4,
+          "health": 4,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "들창코",
+          "description": "내 턴이 끝날 때, <b>도발</b> 능력이 있는 2/2 놀을 1마리 소환합니다.",
+          "mana": "6",
+          "attack": "4",
+          "health": "4",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "LEGENDARY",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:310ab7beb58560b47a615cbdf41a3b98:310ab7beb58560b47a615cbdf41a3b98"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "NEW1_040",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1199616,
+          "textAssetBytes": 4374,
+          "tags": {
+            "CardSet": 3,
+            "Rarity": 5,
+            "CardType": 4,
+            "Cost": 6,
+            "Atk": 4,
+            "Health": 4,
+            "Elite": 1,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "TriggerVisual": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:310ab7beb58560b47a615cbdf41a3b98:310ab7beb58560b47a615cbdf41a3b98",
+            "reference": "Assets/Game/Cards/01 Expert/NEW1_040/W17_a071_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "NEW1_040"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+        "value": 460
+      }
+    ],
+    "nativeRawText": "내 턴이 끝날 때,\n<b>도발</b> 능력이 있는 2/2 놀을 소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [
+    460
+  ],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

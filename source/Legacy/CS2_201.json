@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Core Hound",
+  "card": {
+    "dbfId": 1687,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 7,
+    "health": 5,
+    "attack": 9,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "ELEMENTAL"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS2_201",
+    "name": "심장부 사냥개",
+    "text": "",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "race": "야수",
+    "flavor": "심장부 사냥개를 길들이는 것은 불가능합니다. 당신을 잡아먹기 전에 다른 사람을 먹도록 훈련시킬 뿐이죠.",
+    "spellSchool": "",
+    "portrait": "W2_054_D.psd:14bc868296c9db94e86beed09c439330",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS2_201",
+        "historicalKey": null,
+        "card": {
+          "id": "CS2_201",
+          "name": "심장부 사냥개",
+          "text": "",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "COMMON",
+          "race": "야수",
+          "spellSchool": "",
+          "cost": 7,
+          "attack": 9,
+          "health": 5,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "심장부 사냥개",
+          "description": "",
+          "mana": "7",
+          "attack": "9",
+          "health": "5",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "야수",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "NONE",
+          "artwork": "portrait:14bc868296c9db94e86beed09c439330:14bc868296c9db94e86beed09c439330"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS2_201",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 227512,
+          "textAssetBytes": 2907,
+          "tags": {
+            "Collectible": 1,
+            "CardSet": 2,
+            "Rarity": 1,
+            "CardType": 4,
+            "Cost": 7,
+            "Atk": 9,
+            "Health": 5,
+            "Race": 20
+          },
+          "artworkReference": {
+            "selection": "portrait:14bc868296c9db94e86beed09c439330:14bc868296c9db94e86beed09c439330",
+            "reference": "Assets/Game/Cards/00 Basic/CS2_201/W2_054_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS2_201"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 9
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2540,
+        "name": "게임 태그 2540",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

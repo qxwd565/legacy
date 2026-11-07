@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Repair Bot",
+  "card": {
+    "dbfId": 329,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 3,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "MECHANICAL"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "Mekka2",
+    "name": "수리로봇",
+    "text": "내 턴이 끝날 때, 피해를 받은 캐릭터의 생명력을 #6 회복시킵니다.",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": null,
+    "race": "기계",
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "w2_250_D.psd:24b16e1302971d544bf5da4a5ac8c852",
+    "collectible": false,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 17
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      }
+    ],
+    "nativeRawText": "내 턴이 끝날 때, 피해를 받은 캐릭터의 생명력을 #6 회복시킵니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

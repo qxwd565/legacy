@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Gadgetzan Auctioneer",
+  "card": {
+    "dbfId": 932,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 7,
+    "health": 4,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_095",
+    "name": "가젯잔 경매인",
+    "text": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "race": "",
+    "flavor": "암시장 경매장을 운영하던 때도 있었지만, 너무 폭력이 난무하는 바람에 옮길 수 밖에 없었답니다.",
+    "spellSchool": "",
+    "portrait": "W8_071_D.psd:aef443527d581864ebec0ad5d243fdb6",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_095",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_095",
+          "name": "가젯잔 경매인",
+          "text": "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "RARE",
+          "race": "",
+          "spellSchool": "",
+          "cost": 5,
+          "attack": 4,
+          "health": 4,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "가젯잔 경매인",
+          "description": "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.",
+          "mana": "5",
+          "attack": "4",
+          "health": "4",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "RARE",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:aef443527d581864ebec0ad5d243fdb6:aef443527d581864ebec0ad5d243fdb6"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_095",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 311320,
+          "textAssetBytes": 4357,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 3,
+            "Rarity": 3,
+            "Cost": 5,
+            "Atk": 4,
+            "Health": 4,
+            "AttackVisualType": 6,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "TriggerVisual": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:aef443527d581864ebec0ad5d243fdb6:aef443527d581864ebec0ad5d243fdb6",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_095/W8_071_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_095"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

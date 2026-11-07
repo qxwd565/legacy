@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Goldshire Footman",
+  "card": {
+    "dbfId": 922,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 2,
+    "attack": 1,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS1_042",
+    "name": "황금골 보병",
+    "text": "<b>도발</b>",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "race": "",
+    "flavor": "만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.",
+    "spellSchool": "",
+    "portrait": "W2_279_D.psd:f39c924c124c54d4eb980ab456f3ff87",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS1_042",
+        "historicalKey": null,
+        "card": {
+          "id": "CS1_042",
+          "name": "황금골 보병",
+          "text": "<b>도발</b>",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 1,
+          "attack": 1,
+          "health": 2,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "황금골 보병",
+          "description": "<b>도발</b>",
+          "mana": "1",
+          "attack": "1",
+          "health": "2",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "NONE",
+          "artwork": "portrait:f39c924c124c54d4eb980ab456f3ff87:f39c924c124c54d4eb980ab456f3ff87"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS1_042",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1401720,
+          "textAssetBytes": 4107,
+          "tags": {
+            "CardSet": 2,
+            "CardType": 4,
+            "Faction": 2,
+            "Rarity": 1,
+            "Cost": 1,
+            "Atk": 1,
+            "Health": 2,
+            "AttackVisualType": 1,
+            "DevState": 2,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Taunt": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:f39c924c124c54d4eb980ab456f3ff87:f39c924c124c54d4eb980ab456f3ff87",
+            "reference": "Assets/Game/Cards/00 Basic/CS1_042/W2_279_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS1_042"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>도발</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Big Game Hunter",
+  "card": {
+    "dbfId": 1657,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 4,
+    "health": 2,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_005",
+    "name": "나 이런 사냥꾼이야",
+    "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "EPIC",
+    "race": "",
+    "flavor": "그에게 데빌사우루스 따윈 코웃음만 나옵니다. 조만간 크롤 칼 하나 들고 오닉시아를 잡으러 간다더군요.",
+    "spellSchool": "",
+    "portrait": "W5_030_D.tif:e6c061104024636419be152c385e82e2",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_005",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_005",
+          "name": "나 이런 사냥꾼이야",
+          "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다.",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "EPIC",
+          "race": "",
+          "spellSchool": "",
+          "cost": 3,
+          "attack": 4,
+          "health": 2,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "나 이런 사냥꾼이야",
+          "description": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다.",
+          "mana": "3",
+          "attack": "4",
+          "health": "2",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "EPIC",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:e6c061104024636419be152c385e82e2:e6c061104024636419be152c385e82e2"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_005",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 427896,
+          "textAssetBytes": 5751,
+          "tags": {
+            "Collectible": 1,
+            "CardSet": 3,
+            "Rarity": 4,
+            "CardType": 4,
+            "Cost": 3,
+            "Atk": 4,
+            "Health": 2,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Battlecry": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:e6c061104024636419be152c385e82e2:e6c061104024636419be152c385e82e2",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_005/W5_030_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_005"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1720,
+        "name": "TRADEABLE",
+        "value": 1
+      },
+      {
+        "id": 1743,
+        "name": "DECK_ACTION_COST",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

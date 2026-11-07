@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Young Dragonhawk",
+  "card": {
+    "dbfId": 641,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 1,
+    "attack": 1,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "BEAST"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS2_169",
+    "name": "어린 용매",
+    "text": "<b>질풍</b>",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "race": "야수",
+    "flavor": "벌처럼 날아 나비처럼 쏩니다.",
+    "spellSchool": "",
+    "portrait": "W15_A037_D.psd:8d1dfb48e60f474458cb45a5e59b75ef",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS2_169",
+        "historicalKey": null,
+        "card": {
+          "id": "CS2_169",
+          "name": "어린 용매",
+          "text": "<b>질풍</b>",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "COMMON",
+          "race": "야수",
+          "spellSchool": "",
+          "cost": 1,
+          "attack": 1,
+          "health": 1,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "어린 용매",
+          "description": "<b>질풍</b>",
+          "mana": "1",
+          "attack": "1",
+          "health": "1",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "야수",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:8d1dfb48e60f474458cb45a5e59b75ef:8d1dfb48e60f474458cb45a5e59b75ef"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS2_169",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1299184,
+          "textAssetBytes": 3562,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 1,
+            "Rarity": 1,
+            "Cost": 1,
+            "Atk": 1,
+            "Health": 1,
+            "AttackVisualType": 1,
+            "Collectible": 1,
+            "Race": 20,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Windfury": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:8d1dfb48e60f474458cb45a5e59b75ef:8d1dfb48e60f474458cb45a5e59b75ef",
+            "reference": "Assets/Game/Cards/01 Expert/CS2_169/W15_A037_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS2_169"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 189,
+        "name": "질풍",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>질풍</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

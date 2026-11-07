@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Al'Akir the Windlord",
+  "card": {
+    "dbfId": 32,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 8,
+    "health": 6,
+    "attack": 3,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "ELEMENTAL"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "NEW1_010",
+    "name": "바람의 군주 알아키르",
+    "text": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "race": "정령",
+    "flavor": "정령 군주 넷 중에 가장 약합니다. 그리고 나머지 셋이 그 사실을 확실하게 각인시키죠.",
+    "spellSchool": "",
+    "portrait": "W14_a190_D.psd:79d0c22c452f3bc45b1de4e96626c8c0",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "NEW1_010",
+        "historicalKey": null,
+        "card": {
+          "id": "NEW1_010",
+          "name": "바람의 군주 알아키르",
+          "text": "<b>질풍, 돌진, 도발, 천상의 보호막</b>",
+          "type": "MINION",
+          "cardClass": "SHAMAN",
+          "classes": [
+            "SHAMAN"
+          ],
+          "rarity": "LEGENDARY",
+          "race": "",
+          "spellSchool": "",
+          "cost": 8,
+          "attack": 3,
+          "health": 5,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "바람의 군주 알아키르",
+          "description": "<b>질풍, 돌진, 도발, 천상의 보호막</b>",
+          "mana": "8",
+          "attack": "3",
+          "health": "5",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "LEGENDARY",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:79d0c22c452f3bc45b1de4e96626c8c0:79d0c22c452f3bc45b1de4e96626c8c0"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "NEW1_010",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 794280,
+          "textAssetBytes": 4722,
+          "tags": {
+            "CardSet": 3,
+            "Rarity": 5,
+            "CardType": 4,
+            "Cost": 8,
+            "Atk": 3,
+            "Health": 5,
+            "Class": 8,
+            "Elite": 1,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Charge": 1,
+            "Divine Shield": 1,
+            "Windfury": 1,
+            "Taunt": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:79d0c22c452f3bc45b1de4e96626c8c0:79d0c22c452f3bc45b1de4e96626c8c0",
+            "reference": "Assets/Game/Cards/01 Expert/NEW1_010/W14_a190_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "NEW1_010"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 8
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 189,
+        "name": "질풍",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 194,
+        "name": "천상의 보호막",
+        "value": 1
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 18
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

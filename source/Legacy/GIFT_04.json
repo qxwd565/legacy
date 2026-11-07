@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Arthas's Gift",
+  "card": {
+    "dbfId": 103657,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "GIFT_04",
+    "name": "아서스의 선물",
+    "text": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다.",
+    "set": "LEGACY",
+    "type": "SPELL",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "RARE",
+    "race": "",
+    "flavor": "\"써 봐라.\" -아서스",
+    "spellSchool": "",
+    "portrait": "HS31-118_S.tif:cd071cb261dc4225b095aa7e5275bd8a",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "USE_DISCOVER_VISUALS",
+        "value": 1
+      },
+      {
+        "id": 3630,
+        "name": "게임 태그 3630",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [
+    78349,
+    78317,
+    78324,
+    78572
+  ],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

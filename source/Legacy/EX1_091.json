@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Cabal Shadow Priest",
+  "card": {
+    "dbfId": 272,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 6,
+    "health": 5,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_091",
+    "name": "비밀결사단 어둠사제",
+    "text": "<b>전투의 함성:</b>\n공격력이 2 이하인\n적 하수인을 가져옵니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "race": "",
+    "flavor": "누가 비밀결사단을 위해 일하고 있는지 여러분은 상상조차 못할 겁니다...",
+    "spellSchool": "",
+    "portrait": "W8_122_D.psd:8449bc07130e77d4c8715ef942a0990a",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_091",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_091",
+          "name": "비밀결사단 어둠사제",
+          "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
+          "type": "MINION",
+          "cardClass": "PRIEST",
+          "classes": [
+            "PRIEST"
+          ],
+          "rarity": "EPIC",
+          "race": "",
+          "spellSchool": "",
+          "cost": 6,
+          "attack": 4,
+          "health": 5,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "비밀결사단 어둠사제",
+          "description": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
+          "mana": "6",
+          "attack": "4",
+          "health": "5",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "EPIC",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:8449bc07130e77d4c8715ef942a0990a:8449bc07130e77d4c8715ef942a0990a"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_091",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1443848,
+          "textAssetBytes": 5589,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 3,
+            "Rarity": 4,
+            "Cost": 6,
+            "Atk": 4,
+            "Health": 5,
+            "AttackVisualType": 6,
+            "Class": 6,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "Battlecry": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:8449bc07130e77d4c8715ef942a0990a:8449bc07130e77d4c8715ef942a0990a",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_091/W8_122_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_091"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b>\n공격력이 2 이하인\n적 하수인을 가져옵니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

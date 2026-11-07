@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Ancient Teachings",
+  "card": {
+    "dbfId": 313,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 7,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "NEW1_008a",
+    "name": "고대의 지식",
+    "text": "카드를 2장 뽑습니다.",
+    "set": "EXPERT1",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": null,
+    "race": "",
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W2_399_D.psd:1e7e7c6452a995847b0d9698cd95b3ff",
+    "collectible": false,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "NEW1_008a",
+        "historicalKey": null,
+        "card": {
+          "id": "NEW1_008a",
+          "name": "고대의 지식",
+          "text": "카드를 2장 뽑습니다.",
+          "type": "SPELL",
+          "cardClass": "DRUID",
+          "classes": [
+            "DRUID"
+          ],
+          "rarity": "FREE",
+          "race": "",
+          "spellSchool": "",
+          "cost": 0,
+          "attack": 0,
+          "health": 0,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": false,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "고대의 지식",
+          "description": "카드를 2장 뽑습니다.",
+          "mana": "0",
+          "attack": "0",
+          "health": "0",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "FREE",
+          "watermark": "Set1_Icon",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:1e7e7c6452a995847b0d9698cd95b3ff:1e7e7c6452a995847b0d9698cd95b3ff"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "NEW1_008a",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 85524,
+          "textAssetBytes": 1429,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 5,
+            "Class": 2
+          },
+          "artworkReference": {
+            "selection": "portrait:1e7e7c6452a995847b0d9698cd95b3ff:1e7e7c6452a995847b0d9698cd95b3ff",
+            "reference": "Assets/Game/Cards/01 Expert/NEW1_008a/W2_399_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "NEW1_008a"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "카드를 2장 뽑습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Bloodlust",
+  "card": {
+    "dbfId": 1171,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 5,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "CS2_046",
+    "name": "피의 욕망",
+    "text": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.",
+    "set": "LEGACY",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "FREE",
+    "race": "",
+    "flavor": "우워오우아오어오우오우아우어오얽!",
+    "spellSchool": "",
+    "portrait": "W17_a120_D 1.psd:7cf643dd3e022c947a8ddbf0413cb430",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "CS2_046",
+        "historicalKey": null,
+        "card": {
+          "id": "CS2_046",
+          "name": "피의 욕망",
+          "text": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.",
+          "type": "SPELL",
+          "cardClass": "SHAMAN",
+          "classes": [
+            "SHAMAN"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 5,
+          "attack": 0,
+          "health": 0,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "LEGACY",
+          "nativeSetId": 2
+        },
+        "edits": {
+          "name": "피의 욕망",
+          "description": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.",
+          "mana": "5",
+          "attack": "0",
+          "health": "0",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "NONE",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:7cf643dd3e022c947a8ddbf0413cb430:7cf643dd3e022c947a8ddbf0413cb430"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "CS2_046",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 368816,
+          "textAssetBytes": 3207,
+          "tags": {
+            "CardSet": 2,
+            "CardType": 5,
+            "Faction": 3,
+            "Class": 8,
+            "Rarity": 1,
+            "Cost": 5,
+            "AttackVisualType": 1,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0
+          },
+          "artworkReference": {
+            "selection": "portrait:7cf643dd3e022c947a8ddbf0413cb430:7cf643dd3e022c947a8ddbf0413cb430",
+            "reference": "Assets/Game/Cards/00 Basic/CS2_046/W17_a120_D 1.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "CS2_046"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

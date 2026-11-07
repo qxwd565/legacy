@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Snake",
+  "card": {
+    "dbfId": 204,
+    "heroPowerDbfId": 0,
+    "techLevel": 1,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 1,
+    "attack": 1,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "BEAST"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_554t",
+    "name": "뱀",
+    "text": "",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": null,
+    "race": "야수",
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "W6_240_D.psd:ad28890c303ef934895b3feae0080016",
+    "collectible": false,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_554t",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_554t",
+          "name": "뱀",
+          "text": "",
+          "type": "MINION",
+          "cardClass": "HUNTER",
+          "classes": [
+            "HUNTER"
+          ],
+          "rarity": "COMMON",
+          "race": "야수",
+          "spellSchool": "",
+          "cost": 0,
+          "attack": 1,
+          "health": 1,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": false,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "뱀",
+          "description": "",
+          "mana": "0",
+          "attack": "1",
+          "health": "1",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "야수",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:ad28890c303ef934895b3feae0080016:ad28890c303ef934895b3feae0080016"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_554t",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 2088368,
+          "textAssetBytes": 1080,
+          "tags": {
+            "CardSet": 3,
+            "Rarity": 1,
+            "CardType": 4,
+            "Health": 1,
+            "Atk": 1,
+            "Faction": 3,
+            "AttackVisualType": 6,
+            "Class": 3,
+            "Cost": 0,
+            "Race": 20
+          },
+          "artworkReference": {
+            "selection": "portrait:ad28890c303ef934895b3feae0080016:ad28890c303ef934895b3feae0080016",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_554t/W6_240_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_554t"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 1440,
+        "name": "TECH_LEVEL",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "",
+    "nativeTextBuilder": 0
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

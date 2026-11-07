@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Mana Addict",
+  "card": {
+    "dbfId": 12,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 2,
+    "health": 3,
+    "attack": 1,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_055",
+    "name": "마나 중독자",
+    "text": "[x]내가 주문을 시전할 때마다\n이번 턴에 공격력을\n+2 얻습니다.",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "race": "",
+    "flavor": "끊으려고 노력하는 그녀지만 스트레스 받은 날에는 참기 힘들답니다.",
+    "spellSchool": "",
+    "portrait": "W5_175_D.psd:00c0c4e891a35ac40b4abae482595d1a",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_055",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_055",
+          "name": "마나 중독자",
+          "text": "내가 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "RARE",
+          "race": "",
+          "spellSchool": "",
+          "cost": 2,
+          "attack": 1,
+          "health": 3,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "마나 중독자",
+          "description": "내가 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.",
+          "mana": "2",
+          "attack": "1",
+          "health": "3",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "RARE",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:00c0c4e891a35ac40b4abae482595d1a:00c0c4e891a35ac40b4abae482595d1a"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_055",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1058840,
+          "textAssetBytes": 4479,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 2,
+            "Rarity": 3,
+            "Cost": 2,
+            "Atk": 1,
+            "Health": 3,
+            "AttackVisualType": 6,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0,
+            "TriggerVisual": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:00c0c4e891a35ac40b4abae482595d1a:00c0c4e891a35ac40b4abae482595d1a",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_055/W5_175_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_055"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "[x]내가 주문을 시전할 때마다\n이번 턴에 공격력을\n+2 얻습니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Worgen Infiltrator",
+  "card": {
+    "dbfId": 994,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 1,
+    "health": 1,
+    "attack": 2,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_010",
+    "name": "늑대인간 침투요원",
+    "text": "<b>은신</b>",
+    "set": "EXPERT1",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "race": "",
+    "flavor": "늑대인간이 침투하지 못하게 만드는 방법은 간단합니다. 함정 위에 개껌을 던져두세요.",
+    "spellSchool": "",
+    "portrait": "W14_a113_D.png:14783e05e2dc3054988ea90cc9bf86a4",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_010",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_010",
+          "name": "늑대인간 침투요원",
+          "text": "<b>은신</b>",
+          "type": "MINION",
+          "cardClass": "NEUTRAL",
+          "classes": [
+            "NEUTRAL"
+          ],
+          "rarity": "COMMON",
+          "race": "",
+          "spellSchool": "",
+          "cost": 1,
+          "attack": 2,
+          "health": 1,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "늑대인간 침투요원",
+          "description": "<b>은신</b>",
+          "mana": "1",
+          "attack": "2",
+          "health": "1",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "COMMON",
+          "watermark": "Set1_Icon",
+          "artwork": "portrait:14783e05e2dc3054988ea90cc9bf86a4:14783e05e2dc3054988ea90cc9bf86a4"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_010",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 176880,
+          "textAssetBytes": 3569,
+          "tags": {
+            "CardSet": 3,
+            "CardType": 4,
+            "Faction": 2,
+            "Rarity": 1,
+            "Cost": 1,
+            "Atk": 2,
+            "Health": 1,
+            "AttackVisualType": 6,
+            "DevState": 2,
+            "Collectible": 1,
+            "Stealth": 1
+          },
+          "artworkReference": {
+            "selection": "portrait:14783e05e2dc3054988ea90cc9bf86a4:14783e05e2dc3054988ea90cc9bf86a4",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_010/W14_a113_D.png",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_010"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 191,
+        "name": "은신",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>은신</b>",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

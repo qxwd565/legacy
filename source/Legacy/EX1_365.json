@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Holy Wrath",
+  "card": {
+    "dbfId": 435,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 3,
+    "health": 0,
+    "attack": 0,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 3,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "EX1_365",
+    "name": "신의 격노",
+    "text": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+    "set": "EXPERT1",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "race": "",
+    "flavor": "제발, 용암 거인아 나와라!",
+    "spellSchool": "HOLY",
+    "portrait": "W11_034(EA)_D.psd:80b8e26edcb738c42b02ad280f521887",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "versions": [
+      {
+        "id": "ios-1.0.0",
+        "label": "iOS 1.0.0",
+        "renderSourceId": "EX1_365",
+        "historicalKey": null,
+        "card": {
+          "id": "EX1_365",
+          "name": "신의 격노",
+          "text": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.",
+          "type": "SPELL",
+          "cardClass": "PALADIN",
+          "classes": [
+            "PALADIN"
+          ],
+          "rarity": "RARE",
+          "race": "",
+          "spellSchool": "",
+          "cost": 5,
+          "attack": 0,
+          "health": 0,
+          "armor": 0,
+          "durability": 0,
+          "techLevel": 0,
+          "collectible": true,
+          "set": "EXPERT1",
+          "nativeSetId": 3
+        },
+        "edits": {
+          "name": "신의 격노",
+          "description": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.",
+          "mana": "5",
+          "attack": "0",
+          "health": "0",
+          "durability": "0",
+          "armor": "0",
+          "techLevel": "0",
+          "race": "",
+          "school": "",
+          "rarity": "RARE",
+          "watermark": "Set1_Icon",
+          "legacyCardFrame": "15.2.34104",
+          "artwork": "portrait:80b8e26edcb738c42b02ad280f521887:80b8e26edcb738c42b02ad280f521887"
+        },
+        "source": {
+          "platform": "iOS",
+          "version": "1.0.0",
+          "locale": "koKR",
+          "cardId": "EX1_365",
+          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
+          "textAssetOffset": 1084144,
+          "textAssetBytes": 3276,
+          "tags": {
+            "CardSet": 3,
+            "Rarity": 3,
+            "CardType": 5,
+            "Cost": 5,
+            "Class": 5,
+            "Faction": 3,
+            "AttackVisualType": 5,
+            "Collectible": 1,
+            "EnchantmentBirthVisual": 0,
+            "EnchantmentIdleVisual": 0
+          },
+          "artworkReference": {
+            "selection": "portrait:80b8e26edcb738c42b02ad280f521887:80b8e26edcb738c42b02ad280f521887",
+            "reference": "Assets/Game/Cards/01 Expert/EX1_365/W11_034(EA)_D.psd",
+            "kind": "existing-installed",
+            "matchedCardId": "EX1_365"
+          }
+        }
+      }
+    ],
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "AFFECTED_BY_SPELL_POWER",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

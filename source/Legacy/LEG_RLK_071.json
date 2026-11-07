@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Patchwerk",
+  "card": {
+    "dbfId": 113199,
+    "heroPowerDbfId": 0,
+    "techLevel": 0,
+    "battlegroundsNormalDbfId": 0,
+    "battlegroundsPremiumDbfId": 0,
+    "battlegroundsRelatedCard": 0,
+    "battlegroundsBuddyDbfId": 0,
+    "cost": 7,
+    "health": 6,
+    "attack": 4,
+    "armor": 0,
+    "durability": 0,
+    "nativeSetId": 1635,
+    "battlegroundsSkinParentId": 0,
+    "installed": true,
+    "isBattlegroundsDuosExclusive": false,
+    "chooseOne": false,
+    "classes": [],
+    "races": [
+      "UNDEAD"
+    ],
+    "mechanics": null,
+    "battlegroundsAssociatedRaces": null,
+    "id": "LEG_RLK_071",
+    "name": "패치워크",
+    "text": "<b>전투의 함성:</b> 상대편의\n손, 덱, 전장에 있는 무작위 하수인을 처치합니다. ",
+    "set": "LEGACY",
+    "type": "MINION",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "LEGENDARY",
+    "race": "언데드",
+    "flavor": "너무 좋은 카드라 패치가 필요할지도 모릅니다.",
+    "spellSchool": "",
+    "portrait": "HS27-118_M.tif:6cb6c6d3e9f7403a99fab07c39dc7962",
+    "collectible": true,
+    "isBattlegroundsPoolMinion": false,
+    "isBattlegroundsPoolSpell": false,
+    "battlegroundsHero": false,
+    "isBattlegroundsBuddy": false,
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 6
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 78601
+      },
+      {
+        "id": 2196,
+        "name": "혈기 룬 비용",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성:</b> 상대편의\n손, 덱, 전장에 있는 무작위 하수인을 처치합니다. ",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "setOrder": 47,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}
