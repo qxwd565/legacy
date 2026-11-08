@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 5,
+    "cost": 4,
     "health": 5,
     "attack": 4,
     "armor": 0,
@@ -80,7 +80,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "attack": 5
+          "attack": 5,
+          "cost": 5
         }
       }
     ]

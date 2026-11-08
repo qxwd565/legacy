@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 2,
-    "attack": 3,
+    "attack": 2,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -93,7 +93,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "내가 쓰는 주문의 비용이 (1) 감소합니다."
+          "text": "내가 쓰는 주문의 비용이 (1) 감소합니다.",
+          "attack": 3
         }
       },
       {
@@ -112,6 +113,18 @@
         "date": "2021-03-26",
         "changes": {
           "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>"
+        }
+      },
+      {
+        "date": "2022-01-26",
+        "changes": {
+          "cost": 4
+        }
+      },
+      {
+        "date": "2024-08-30",
+        "changes": {
+          "cost": 2
         }
       }
     ]

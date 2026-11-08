@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 5,
-    "health": 5,
+    "health": 4,
     "attack": 4,
     "armor": 0,
     "durability": 0,
@@ -137,6 +137,12 @@
         "date": "2021-03-26",
         "changes": {
           "text": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b>\n카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2022-04-06",
+        "changes": {
+          "health": 5
         }
       }
     ]

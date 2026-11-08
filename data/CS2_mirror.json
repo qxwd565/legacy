@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 0,
-    "health": 2,
+    "health": 1,
     "attack": 0,
     "armor": 0,
     "durability": 0,
@@ -81,7 +81,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": []
+    "patches": [
+      {
+        "date": "2013-10-03",
+        "changes": {
+          "health": 2
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],

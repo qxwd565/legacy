@@ -10,8 +10,8 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
-    "health": 9,
+    "cost": 5,
+    "health": 6,
     "attack": 4,
     "armor": 0,
     "durability": 0,
@@ -115,6 +115,20 @@
         "date": "2018-11-30",
         "changes": {
           "text": "<b>도발</b>"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "attack": 5
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "attack": 4,
+          "cost": 6,
+          "health": 9
         }
       }
     ]

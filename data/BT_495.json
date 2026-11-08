@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 5,
     "health": 4,
-    "attack": 6,
+    "attack": 7,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -82,6 +82,12 @@
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
     "patches": [
+      {
+        "date": "2020-04-18",
+        "changes": {
+          "attack": 6
+        }
+      },
       {
         "date": "2021-03-26",
         "changes": {

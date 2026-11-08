@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 7,
-    "health": 7,
+    "health": 6,
     "attack": 5,
     "armor": 0,
     "durability": 0,
@@ -124,7 +124,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 영웅의 생명력을\n#6 회복시킵니다."
+          "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 영웅의 생명력을\n#6 회복시킵니다.",
+          "health": 7
         }
       }
     ]

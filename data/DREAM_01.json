@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 5,
     "attack": 3,
     "armor": 0,
@@ -91,7 +91,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>모면</b>"
+          "text": "<b>모면</b>",
+          "cost": 2
         }
       }
     ]

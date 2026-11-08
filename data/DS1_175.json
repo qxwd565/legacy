@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 1,
-    "health": 2,
+    "health": 1,
     "attack": 1,
     "armor": 0,
     "durability": 0,
@@ -111,6 +111,12 @@
         "date": "2016-08-10",
         "changes": {
           "text": "내 다른 야수들이 공격력을 +1 얻습니다."
+        }
+      },
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "health": 2
         }
       }
     ]

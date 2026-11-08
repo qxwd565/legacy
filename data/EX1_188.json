@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 7,
-    "health": 5,
-    "attack": 5,
+    "health": 4,
+    "attack": 4,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -85,7 +85,9 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b>\n무작위 야수를 소환합니다."
+          "text": "<b>전투의 함성:</b>\n무작위 야수를 소환합니다.",
+          "attack": 5,
+          "health": 5
         }
       }
     ]

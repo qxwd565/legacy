@@ -10,9 +10,9 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
-    "health": 7,
-    "attack": 5,
+    "cost": 7,
+    "health": 8,
+    "attack": 6,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -90,7 +90,10 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b>\n이번 턴에 죽은\n모든 아군 하수인을 소환합니다."
+          "text": "<b>전투의 함성:</b>\n이번 턴에 죽은\n모든 아군 하수인을 소환합니다.",
+          "attack": 5,
+          "cost": 6,
+          "health": 7
         }
       }
     ]

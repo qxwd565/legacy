@@ -10,9 +10,9 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
-    "health": 6,
-    "attack": 7,
+    "cost": 5,
+    "health": 4,
+    "attack": 4,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -97,7 +97,16 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>속공</b>"
+          "text": "<b>속공</b>",
+          "attack": 5
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "attack": 7,
+          "cost": 6,
+          "health": 6
         }
       }
     ]

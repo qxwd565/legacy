@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -96,7 +96,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "캐릭터에게 피해를 $3 주고 <b>빙결</b> 상태로 만듭니다."
+          "text": "캐릭터에게 피해를 $3 주고 <b>빙결</b> 상태로 만듭니다.",
+          "cost": 2
         }
       },
       {

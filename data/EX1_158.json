@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 600,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 4,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -116,6 +116,12 @@
         "changes": {
           "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령을 소환함\" 능력을 부여합니다.",
           "spellSchool": "NATURE"
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 3
         }
       }
     ]

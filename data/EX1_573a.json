@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 8,
+    "cost": 9,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -77,6 +77,12 @@
         "date": "2015-08-19",
         "changes": {
           "text": "내 다른 하수인들에게 +2/+2를 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 8
         }
       }
     ]

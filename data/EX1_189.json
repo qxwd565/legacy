@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 2,
     "attack": 3,
     "armor": 0,
@@ -100,6 +100,12 @@
         "date": "2021-03-26",
         "changes": {
           "text": "[x]<b>전투의 함성:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2026-03-11",
+        "changes": {
+          "cost": 2
         }
       }
     ]

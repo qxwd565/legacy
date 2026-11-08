@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 488,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 2,
-    "attack": 3,
+    "health": 3,
+    "attack": 2,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -111,6 +111,12 @@
     "releaseStatus": "estimated",
     "patches": [
       {
+        "date": "2013-10-03",
+        "changes": {
+          "health": 2
+        }
+      },
+      {
         "date": "2013-12-11",
         "changes": {
           "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 1명 소환합니다."
@@ -126,6 +132,12 @@
         "date": "2021-03-26",
         "changes": {
           "text": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다."
+        }
+      },
+      {
+        "date": "2025-03-19",
+        "changes": {
+          "attack": 3
         }
       }
     ]

@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 1,
+    "cost": 2,
     "health": 3,
     "attack": 1,
     "armor": 0,
@@ -90,7 +90,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "하수인이 치유될 때마다 카드를 1장 뽑습니다."
+          "text": "하수인이 치유될 때마다 카드를 1장 뽑습니다.",
+          "cost": 1
         }
       },
       {

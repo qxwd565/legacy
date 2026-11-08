@@ -24,3 +24,6 @@
 **복원 한계:** 기존 자료에 없던 과거 공격력·생명력 변경은 자동으로 추정하지 않습니다. 미확인 최초 스펙은 보유 중인 현행값을 임시 기준으로 두며, 실제 과거 자료 검증 후 개별 카드의 최초 스펙과 해당 날짜 패치를 정정해야 합니다. `releaseStatus: estimated`와 `pending`은 확인되지 않은 날짜를 의미합니다. `nativeTags`는 최신 클라이언트에서 추출한 참고 원본이며 역사 시점의 스펙은 `card`와 `patches`로 판단합니다.
 
 누락된 수치 밸런스 패치는 `tools/verified-legacy-balances.json`에 출처와 함께 기록합니다. `tools/apply-verified-balances.py`가 개별 카드 JSON의 `patches`로 병합하며, 같은 날짜에 이미 입력된 동일한 값은 건너뛰고 충돌하거나 현행 카드 스펙이 불일치하면 오류를 냅니다. 승인되지 않은 클라이언트 빌드 차이는 `tools/legacy-balance-candidates.json`의 검증 후보로만 보관합니다.
+
+
+역대 클라이언트 수치 비교는 `tools/legacy-balance-candidates.json`(334개 HearthSim 빌드)과 `tools/archived-build-dates.json`(한국 날짜와 근거)을 출처로 합니다. `tools/import-archived-stats.py`는 출시일 이후 수치 변경만 선택적으로 `card.patches`에 병합하고, 이미 일치하는 변경은 건너뜁니다. 다른 기록과 충돌하거나 최신 수치가 맞지 않는 항목은 데이터를 덮어쓰지 않고 `tools/legacy-stat-reconstruction-report.json`에 검토 대상으로 남깁니다. 최초 베타 이전 수치는 2013-08-17 스펙 복원용으로만 사용하고 패치를 만들지 않습니다.

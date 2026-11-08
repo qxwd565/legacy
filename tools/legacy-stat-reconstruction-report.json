@@ -1,0 +1,187 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "sourceBuilds": 334,
+  "totalSourceCandidates": 236,
+  "calendarDateSource": "tools/archived-build-dates.json",
+  "merged": 227,
+  "reviewRequired": 0,
+  "unmappedOrPreRelease": 34,
+  "appliedCards": 63,
+  "newNumericChanges": 100,
+  "originalStatsReconstructed": 70,
+  "alreadyMatched": 127,
+  "review": [],
+  "ignored": [
+    {
+      "id": "CS1_129",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_003",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_053",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_064",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_162",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_188",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_201",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_221",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "CS2_222",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_004",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_029",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_080",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_100",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_126",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_161",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_165t2",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_315",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_335",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_402",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_410",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_534",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_557",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_570",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_571",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_595",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_597",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_612",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_614",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_616",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "EX1_623",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "NEW1_019",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "NEW1_036",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "NEW1_037",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    },
+    {
+      "id": "tt_010a",
+      "build": "1.0.0.3388",
+      "why": "before release or unverified build date"
+    }
+  ]
+}
