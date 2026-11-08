@@ -999,6 +999,11 @@
           }
         }
       }
-    ]
+    ],
+    "earlierWhelpCandidate": {
+      "cardId": "ds1_whelptoken",
+      "relationship": "unverified; distinct IDs coexist in 4944 and iOS",
+      "evidence": "same name and stats; identical iOS visual fields; earlier Leeroy description mentions Whelps"
+    }
   }
 }

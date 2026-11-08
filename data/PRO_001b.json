@@ -658,7 +658,13 @@
           "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
           "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
         },
-        "visualStatus": "no exact card ID found in scanned card bundles"
+        "visualStatus": "not found in this client card XML or scanned card bundles",
+        "availabilityEvidence": {
+          "exactCardId": "absent",
+          "localizedEnglishName": "absent",
+          "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+          "dateOfIntroduction": "unconfirmed"
+        }
       },
       {
         "build": "1.0.0.3890",
@@ -670,7 +676,13 @@
           "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
           "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
         },
-        "visualStatus": "no exact card ID found in scanned card bundles"
+        "visualStatus": "not found in this client card XML or scanned card bundles",
+        "availabilityEvidence": {
+          "exactCardId": "absent",
+          "localizedEnglishName": "absent",
+          "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+          "dateOfIntroduction": "unconfirmed"
+        }
       },
       {
         "build": "1.0.0.3937",
@@ -682,7 +694,13 @@
           "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
           "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
         },
-        "visualStatus": "no exact card ID found in scanned card bundles"
+        "visualStatus": "not found in this client card XML or scanned card bundles",
+        "availabilityEvidence": {
+          "exactCardId": "absent",
+          "localizedEnglishName": "absent",
+          "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+          "dateOfIntroduction": "unconfirmed"
+        }
       },
       {
         "build": "1.0.0.4217",
