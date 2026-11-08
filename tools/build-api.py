@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Publish HScard API indexes from canonical per-card JSON.
 
-Source of current card data: cards.json (approved card catalogue).
-Source of historical deltas: data/<cardId>.json (card.history).
+Source of current card metadata: cards.json (generated current catalogue).
+Source of gameplay specs: data/<cardId>.json (release baseline + card.patches).
+Legacy reverse-only card.history is accepted temporarily during migration.
 Historically introduced races/spell schools are dated in taxonomy-history.json,
 materialized as sparse card.history overrides, and published for date lookup.
 Never overwrite curated current data with raw client snapshots.
@@ -18,6 +19,7 @@ Do not hand-edit the generated indexes. Do not change cardId/dbfId mappings.
 The separate history endpoint is retained only until old WordPress plugins are upgraded.
 """
 from __future__ import annotations
+import copy
 import json
 import re
 from pathlib import Path
@@ -30,6 +32,11 @@ RENDER_FIELDS = (
     "watermark", "classes",
 )
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+SPEC_FIELDS = (
+    "name", "type", "cardClass", "classes", "rarity", "collectible",
+    "cost", "attack", "health", "durability", "armor", "text",
+    "races", "race", "spellSchool", "mechanics",
+)
 TAXONOMY_RULE = "taxonomy-introduction"
 RACE_KOREAN = {
     "BEAST": "야수", "DEMON": "악마", "DRAGON": "용족", "MURLOC": "멀록",
@@ -206,6 +213,68 @@ def taxonomy_revisions(record: dict, release_day: str | None, policy: dict) -> l
     return revisions
 
 
+
+def read_patches(card: dict, name: str) -> list[dict]:
+    """Validate that each dated patch only stores changed gameplay fields."""
+    patches = card.get("patches")
+    if not isinstance(patches, list):
+        raise ValueError(f"{name}: patches must be an array")
+    prev = card.get("releasedAt")
+    for event in patches:
+        if not isinstance(event, dict) or set(event) != {"date", "changes"}:
+            raise ValueError(f"{name}: invalid forward patch shape")
+        day, changes = event["date"], event["changes"]
+        if not isinstance(day, str) or not DATE_RE.fullmatch(day):
+            raise ValueError(f"{name}: invalid patch date")
+        from datetime import date
+        date.fromisoformat(day)
+        if prev is not None and day <= prev:
+            raise ValueError(f"{name}: overlapping/unsorted patch dates {prev}, {day}")
+        if not isinstance(changes, dict) or not changes:
+            raise ValueError(f"{name}: empty changes on {day}")
+        if set(changes) - (set(SPEC_FIELDS) | {"legacyArt"}):
+            raise ValueError(f"{name}: unknown gameplay patch field")
+        prev = day
+    return patches
+
+
+def publish_forward_card(card: dict, current: dict, name: str):
+    """Compute latest cache and a disjoint reverse-override history for old clients."""
+    patches = read_patches(card, name)
+    base = {field: copy.deepcopy(card[field]) for field in SPEC_FIELDS if field in card}
+    if "legacyArt" in card:
+        base["legacyArt"] = card["legacyArt"]
+    states = [base]
+    for event in patches:
+        next_state = copy.deepcopy(states[-1])
+        for field, value in event["changes"].items():
+            if field not in next_state:
+                raise ValueError(f"{name}: {field} changed but no release baseline")
+            if next_state[field] == value:
+                raise ValueError(f"{name}: redundant patch for {field} on {event['date']}")
+            next_state[field] = copy.deepcopy(value)
+        states.append(next_state)
+    latest = states[-1]
+    for field in SPEC_FIELDS:
+        if field in latest:
+            current[field] = copy.deepcopy(latest[field])
+        else:
+            current.pop(field, None)
+    backward = []
+    for i, event in enumerate(patches):
+        old = states[i]
+        differences = {field: copy.deepcopy(value) for field, value in old.items()
+                       if value != latest.get(field)}
+        if not differences:
+            continue
+        start = card.get("releasedAt") if i == 0 else patches[i - 1]["date"]
+        revision = {"before": event["date"], "changes": differences}
+        if start:
+            revision["from"] = start
+        backward.append(revision)
+    return backward
+
+
 def main():
     source_path = ROOT / "cards.json"
     catalog = load(source_path)
@@ -242,13 +311,19 @@ def main():
             card = data["card"]
             # Preserve the approved current card catalogue exactly. Individual
             # JSON owns historical changes only until current data is reconciled.
-            revisions = read_history(card, cid)
-            if taxonomy_policy is not None:
-                curated = [rev for rev in revisions if rev.get("generatedBy") != TAXONOMY_RULE]
-                revisions = curated + taxonomy_revisions(record, release_date, taxonomy_policy)
-                if revisions != card.get("history", []):
-                    card["history"] = revisions
+            if "patches" in card:
+                if "history" in card:
+                    raise ValueError(f"{cid}: forward patches cannot coexist with legacy reverse history")
+                revisions = publish_forward_card(card, record, cid)
+            else:
+                # Transitional support for un-migrated cards only.
                 revisions = read_history(card, cid)
+                if taxonomy_policy is not None:
+                    curated = [rev for rev in revisions if rev.get("generatedBy") != TAXONOMY_RULE]
+                    revisions = curated + taxonomy_revisions(record, release_date, taxonomy_policy)
+                    if revisions != card.get("history", []):
+                        card["history"] = revisions
+                    revisions = read_history(card, cid)
             if revisions:
                 history[str(record["dbfId"])] = {"id": cid, "history": revisions}
             elif record.get("history"):

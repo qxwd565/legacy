@@ -4,6 +4,8 @@ on:
     paths:
       - '.github/workflows/normalize-card-history.yml'
       - 'tools/build-api.py'
+      - 'tools/migrate-chronology.py'
+      - 'tools/test-chronology.py'
       - 'release-policy.json'
       - 'taxonomy-history.json'
       - 'cards.json'
@@ -16,8 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Convert legacy cards to release baselines and dated changes
+        run: python3 tools/migrate-chronology.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
+      - name: Verify baseline, patches, current cache, and historical lookups
+        run: python3 tools/test-chronology.py
       - name: Commit changed API indexes
         run: |
           git config user.name 'github-actions[bot]'
