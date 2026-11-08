@@ -17,7 +17,12 @@
     "2023-08-23": "https://hearthstone.wiki.gg/wiki/Mana_Wyrm",
     "2023-09-29": "https://hearthstone.wiki.gg/wiki/Tirion_Fordring",
     "2024-05-24": "https://hearthstone.wiki.gg/wiki/Molten_Giant",
-    "2025-03-19": "https://hearthstone.wiki.gg/wiki/Molten_Giant"
+    "2025-03-19": "https://hearthstone.wiki.gg/wiki/Molten_Giant",
+    "2016-04-25": "https://hearthstone.wiki.gg/wiki/Blade_Flurry",
+    "2019-02-06": "https://hearthstone.wiki.gg/wiki/Patch_13.2.0.28855",
+    "2020-03-27": "https://hearthstone.wiki.gg/wiki/Patch_17.0.0.44222",
+    "2021-01-09": "https://hearthstone.wiki.gg/wiki/Patch_19.2.1.70828",
+    "2022-04-06": "https://hearthstone.wiki.gg/wiki/Equality"
   },
   "cards": {
     "EX1_616": {
@@ -494,6 +499,123 @@
           "date": "2025-03-19",
           "changes": {
             "cost": 20
+          }
+        }
+      ]
+    },
+    "CS2_084": {
+      "patches": [
+        {
+          "date": "2019-02-06",
+          "changes": {
+            "cost": 2
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 1
+          }
+        }
+      ]
+    },
+    "EX1_613": {
+      "patches": [
+        {
+          "date": "2021-01-09",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "CS2_233": {
+      "patches": [
+        {
+          "date": "2016-04-25",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 2
+          }
+        }
+      ]
+    },
+    "CS2_004": {
+      "patches": [
+        {
+          "date": "2020-03-27",
+          "changes": {
+            "cost": 0
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 1
+          }
+        }
+      ]
+    },
+    "EX1_623": {
+      "baseline": {
+        "cost": 6,
+        "attack": 6
+      },
+      "patches": [
+        {
+          "date": "2020-03-27",
+          "changes": {
+            "cost": 5,
+            "attack": 5
+          }
+        }
+      ]
+    },
+    "CS2_073": {
+      "patches": [
+        {
+          "date": "2019-02-06",
+          "changes": {
+            "cost": 2
+          }
+        },
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "cost": 1
+          }
+        }
+      ]
+    },
+    "EX1_619": {
+      "patches": [
+        {
+          "date": "2019-02-06",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3
+          }
+        },
+        {
+          "date": "2022-04-06",
+          "changes": {
+            "cost": 2
           }
         }
       ]
