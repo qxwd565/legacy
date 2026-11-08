@@ -90,7 +90,23 @@
     "nativeRawText": "아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2013-12-12",
+        "changes": {
+          "text": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게."
+        }
+      },
+      {
+        "from": "2013-12-12",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "아군 하수인 하나에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -110,5 +126,17 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게."
+    },
+    {
+      "build": "1.0.0.4217",
+      "platform": "Windows",
+      "rawText": "아군 하수인 하나에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게."
+    }
+  ]
 }

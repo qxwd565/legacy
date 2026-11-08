@@ -86,6 +86,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-10-11",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "카드를 4장 뽑습니다."
+        }
+      },
+      {
         "before": "2021-03-26",
         "changes": {
           "cost": 7
@@ -113,5 +120,17 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "카드를 네 장 뽑습니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "카드를 4장 뽑습니다."
+    }
+  ]
 }

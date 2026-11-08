@@ -113,6 +113,20 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-10-11",
+        "before": "2013-12-12",
+        "changes": {
+          "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
+        }
+      },
+      {
+        "from": "2013-12-12",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다."
+        }
+      },
+      {
         "before": "2020-03-27",
         "changes": {
           "name": "일리단 스톰레이지",
@@ -182,6 +196,23 @@
         "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
         "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
       }
+    }
+  ],
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
+    },
+    {
+      "build": "1.0.0.4217",
+      "platform": "Windows",
+      "rawText": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다."
     }
   ]
 }

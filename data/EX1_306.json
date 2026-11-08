@@ -112,7 +112,16 @@
     "nativeRawText": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -173,6 +182,18 @@
         "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
         "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
       }
+    }
+  ],
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
     }
   ]
 }

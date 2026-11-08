@@ -110,7 +110,16 @@
     "nativeRawText": "<b>돌진</b>\n피해를 받은 상태면 공격력을 +6 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "<b>돌진</b>. <b>격노:</b> 공격력 +6"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -130,5 +139,12 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "<b>돌진</b>. <b>격노:</b> 공격력 +6"
+    }
+  ]
 }

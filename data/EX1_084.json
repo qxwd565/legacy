@@ -105,7 +105,23 @@
     "nativeRawText": "내가 공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2014-01-17",
+        "changes": {
+          "text": "나의 다른 하수인들이 <b>돌진</b>을 얻습니다."
+        }
+      },
+      {
+        "from": "2014-01-17",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -125,5 +141,22 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "당신의 다른 하수인들이 <b>돌진</b>을 얻습니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "나의 다른 하수인들이 <b>돌진</b>을 얻습니다."
+    },
+    {
+      "build": "1.0.0.4458",
+      "platform": "Windows",
+      "rawText": "공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다."
+    }
+  ]
 }

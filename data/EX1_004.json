@@ -85,7 +85,16 @@
     "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -105,5 +114,17 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
+    }
+  ]
 }

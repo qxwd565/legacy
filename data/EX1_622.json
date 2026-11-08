@@ -76,6 +76,20 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-10-11",
+        "before": "2013-12-12",
+        "changes": {
+          "text": "공격력 5 이상인 하수인을 1마리 처치합니다."
+        }
+      },
+      {
+        "from": "2013-12-12",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "공격력 5 이상인 하수인을 하나 처치합니다."
+        }
+      },
+      {
         "before": "2020-03-27",
         "changes": {
           "cost": 3
@@ -145,6 +159,23 @@
         "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
         "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
       }
+    }
+  ],
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "공격력 5 이상인 하수인을 1마리 처치합니다."
+    },
+    {
+      "build": "1.0.0.4217",
+      "platform": "Windows",
+      "rawText": "공격력 5 이상인 하수인을 하나 처치합니다."
     }
   ]
 }

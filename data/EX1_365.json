@@ -90,7 +90,23 @@
     "nativeRawText": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2013-12-12",
+        "changes": {
+          "text": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다."
+        }
+      },
+      {
+        "from": "2013-12-12",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -110,5 +126,17 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다."
+    },
+    {
+      "build": "1.0.0.4217",
+      "platform": "Windows",
+      "rawText": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다."
+    }
+  ]
 }

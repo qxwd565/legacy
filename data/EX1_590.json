@@ -95,7 +95,23 @@
     "nativeRawText": "[x]<b>전투의 함성:</b> <b>모든</b>\n하수인의 <b>천상의 보호막</b>을\n흡수하여 보호막 하나당\n+3/+3을 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2013-12-12",
+        "changes": {
+          "text": "<b>전투의 함성:</b> <b>모든</b> 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다."
+        }
+      },
+      {
+        "from": "2013-12-12",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "<b>전투의 함성:</b> <b>모든</b> 하수인의 <b>천상의 보호막</b>을 흡수하여, 보호막 1개당 +3/+3을 얻습니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -115,5 +131,22 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다."
+    },
+    {
+      "build": "1.0.0.3890",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> <b>모든</b> 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다."
+    },
+    {
+      "build": "1.0.0.4217",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> <b>모든</b> 하수인의 <b>천상의 보호막</b>을 흡수하여, 보호막 1개당 +3/+3을 얻습니다."
+    }
+  ]
 }

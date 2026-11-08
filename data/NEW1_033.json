@@ -82,7 +82,16 @@
     "nativeRawText": "내 다른 하수인들이 공격력을 +1 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-10-11",
+        "before": "2014-03-13",
+        "changes": {
+          "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],
@@ -102,5 +111,12 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3749",
+      "platform": "Windows",
+      "rawText": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+    }
+  ]
 }
