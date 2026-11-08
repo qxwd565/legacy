@@ -83,6 +83,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -118,6 +125,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

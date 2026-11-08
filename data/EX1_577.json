@@ -135,6 +135,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -165,6 +172,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

@@ -70,7 +70,7 @@
         }
       },
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-05-09",
         "changes": {
           "text": "<b>영웅 능력</b> <br> 피해를 3 줍니다."
@@ -98,6 +98,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>영웅 능력</b> \\n 피해를 3 줍니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

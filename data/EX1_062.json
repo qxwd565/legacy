@@ -125,6 +125,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -160,6 +167,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

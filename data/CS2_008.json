@@ -83,7 +83,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-03-13",
         "changes": {
           "text": "피해를 $1 줍니다."
@@ -111,6 +111,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "피해를 $1 줍니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

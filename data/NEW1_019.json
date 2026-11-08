@@ -88,6 +88,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "당신의 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다."
+        }
+      },
+      {
         "from": "2014-03-13",
         "before": "2014-07-23",
         "changes": {
@@ -130,6 +137,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "당신의 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

@@ -110,7 +110,7 @@
         }
       },
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2013-12-12",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
@@ -148,6 +148,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

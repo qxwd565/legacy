@@ -83,6 +83,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-03-13",
         "changes": {
@@ -111,6 +118,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

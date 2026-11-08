@@ -78,6 +78,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "상대편 손에 있는 카드 한 장당 캐릭터의 생명력을 2씩 회복시킵니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-10-18",
         "changes": {
@@ -113,6 +120,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "상대편 손에 있는 카드 한 장당 캐릭터의 생명력을 2씩 회복시킵니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

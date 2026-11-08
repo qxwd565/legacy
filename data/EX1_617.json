@@ -81,6 +81,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "무작위 적 하수인을 파괴합니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -124,6 +131,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "무작위 적 하수인을 파괴합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

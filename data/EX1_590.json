@@ -98,6 +98,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -133,6 +140,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

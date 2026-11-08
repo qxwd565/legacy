@@ -81,6 +81,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "방어도를 5 얻습니다. 카드를 한 장 뽑습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -123,6 +130,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "방어도를 5 얻습니다. 카드를 한 장 뽑습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

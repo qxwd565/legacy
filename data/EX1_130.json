@@ -88,6 +88,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>비밀:</b> 적이 공격할 때, 2/1 수호자를 새로운 대상으로 소환합니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -125,6 +132,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>비밀:</b> 적이 공격할 때, 2/1 수호자를 새로운 대상으로 소환합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

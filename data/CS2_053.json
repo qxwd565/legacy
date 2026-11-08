@@ -83,6 +83,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -111,6 +118,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

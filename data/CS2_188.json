@@ -98,7 +98,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2013-12-12",
         "changes": {
           "text": "<b>전투의 함성:</b> 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다."
@@ -140,6 +140,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

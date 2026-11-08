@@ -101,6 +101,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>선택 -</b> <b>돌진</b>. 또는 생명력 +2와 <b>도발</b>."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -142,6 +149,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>선택 -</b> <b>돌진</b>. 또는 생명력 +2와 <b>도발</b>.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

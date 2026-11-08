@@ -98,7 +98,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-03-13",
         "changes": {
           "text": "<b>도발</b>"
@@ -126,6 +126,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>도발</b>",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

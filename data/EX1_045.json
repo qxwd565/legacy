@@ -93,7 +93,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2013-12-12",
         "changes": {
           "text": "이 하수인은 공격할 수 없습니다."
@@ -128,6 +128,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "이 하수인은 공격할 수 없습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

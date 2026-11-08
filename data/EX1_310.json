@@ -123,6 +123,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 두 장 버립니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -159,6 +166,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 두 장 버립니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

@@ -100,6 +100,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-03-13",
         "changes": {
@@ -128,6 +135,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

@@ -88,7 +88,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2013-12-12",
         "changes": {
           "text": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다."
@@ -123,6 +123,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

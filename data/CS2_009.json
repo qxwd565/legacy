@@ -91,6 +91,13 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2013-12-12",
         "changes": {
@@ -134,6 +141,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

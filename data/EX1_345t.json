@@ -63,7 +63,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-03-13",
         "changes": {
           "text": "심리 조작 실패! 상대편에게 하수인이 없었습니다!"
@@ -91,6 +91,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

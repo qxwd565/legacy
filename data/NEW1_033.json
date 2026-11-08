@@ -85,7 +85,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-07-23",
         "changes": {
           "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
@@ -113,6 +113,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "다른 아군 하수인들이 공격력을 +1 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

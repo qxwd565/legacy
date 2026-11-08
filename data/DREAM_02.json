@@ -68,7 +68,7 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-07-23",
         "changes": {
           "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
@@ -96,6 +96,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

@@ -101,7 +101,7 @@
     "nativeTextBuilder": 0,
     "history": [
       {
-        "from": "2013-10-11",
+        "from": "2013-08-17",
         "before": "2014-07-23",
         "changes": {
           "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
@@ -137,6 +137,12 @@
     "locale": "koKR"
   },
   "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",

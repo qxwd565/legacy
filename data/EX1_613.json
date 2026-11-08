@@ -103,6 +103,20 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2013-08-30",
+        "changes": {
+          "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다."
+        }
+      },
+      {
+        "from": "2013-09-01",
+        "before": "2013-10-11",
+        "changes": {
+          "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-07-23",
         "changes": {
@@ -132,6 +146,12 @@
   },
   "historicalTextObservations": [
     {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다.",
+      "sourceAsset": "Data/cards.unity3d"
+    },
+    {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다."
@@ -140,6 +160,15 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다."
+    }
+  ],
+  "unresolvedHistoricalTextDates": [
+    {
+      "from": "2013-08-30",
+      "before": "2013-09-01",
+      "reason": "The 3749 patch was deployed on August 30 US time; exact Korea-time cutover within these two dates is unverified.",
+      "olderBuild": "1.0.0.3664",
+      "newerBuild": "1.0.0.3749"
     }
   ]
 }
