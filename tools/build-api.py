@@ -8,10 +8,11 @@ Never overwrite curated current data with raw client snapshots.
 
 Generated endpoints:
   cards.json   - current cards for WP JSON imports
-  render.json  - current cards for the real-time WebGL renderer
-  history.json - tiny dated changes index, only cards with history
+  render.json  - current cards + sparse history for WebGL and WordPress
+  history.json - temporary compatibility endpoint for installed 7.12.10 sites
 
 Do not hand-edit the generated indexes. Do not change cardId/dbfId mappings.
+The separate history endpoint is retained only until old WordPress plugins are upgraded.
 """
 from __future__ import annotations
 import json
@@ -98,7 +99,12 @@ def main():
                 # Avoid silently discarding previously migrated patches.
                 raise ValueError(f"{cid}: history exists in cards.json but not data/{cid}.json")
             record.pop("history", None)
-        renderer.append({field: record[field] for field in RENDER_FIELDS if field in record})
+        render_card = {field: record[field] for field in RENDER_FIELDS if field in record}
+        # A single runtime endpoint: the current card and its sparse dated
+        # differences are delivered together. Absence of history means current.
+        if path.is_file() and revisions:
+            render_card["history"] = revisions
+        renderer.append(render_card)
 
     files = {
         "cards.json": catalog,
