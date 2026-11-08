@@ -1562,7 +1562,12 @@
           "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
           "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
           "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
-          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678",
+          "cardtextures0.unity3d": "cbffc9bddfaad294bf3ebe97fad4c6baa2f05eb3d2f4bd80e443593246f4f4fe",
+          "cardtextures1.unity3d": "74a613cc3e9850d954883089a379e3d2c502372dd0ee1b0b393199c344e7f0d6",
+          "premiummaterials0.unity3d": "f781aab009d087f8e72f0c09191da28e5a3be0eb320c3dc81f14d2199586bfd5",
+          "shared0.unity3d": "e5c3dcb478cdc56d72a9dc98ca9450eb7ef51c678d76ae80ec134b09e18c90b1",
+          "shared1.unity3d": "fc1360cc1b6481280c4073f16533a53a3c661ca36ce61f93fcecad1c80c1da90"
         },
         "cardDefinition": {
           "serializedFile": "CAB-cards0",
@@ -1614,10 +1619,19 @@
           }
         },
         "art": {
-          "status": "not referenced by source card definition"
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
         },
         "golden": {
-          "status": "not referenced by source card definition"
+          "status": "extracted",
+          "path": "golden/historical/materials/42e6f6c04b9606baa9f3e15cde478367d9ffd6410c7ec2b402a1a0db5b4353a2.json",
+          "sha256": "42e6f6c04b9606baa9f3e15cde478367d9ffd6410c7ec2b402a1a0db5b4353a2",
+          "source": "cab-premiummaterials0:452462244"
         }
       }
     ]
