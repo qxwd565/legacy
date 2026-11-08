@@ -236,6 +236,47 @@
           "path": "golden/historical/materials/c70f409fa92d85ca2d5163973811fb3aeb395a01707924e46a43c7d2ebb03f12.json",
           "sha256": "c70f409fa92d85ca2d5163973811fb3aeb395a01707924e46a43c7d2ebb03f12",
           "source": "cab-premiummaterials0:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244.json",
+              "sha256": "87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244.json",
+              "sha256": "87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244.json",
+              "sha256": "87408044e5dccec455630a8f2272cf324960946d22103d22abd074d646a53244"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -360,6 +401,47 @@
           "path": "golden/historical/materials/088703fe809c9a5b962249c60e36b38e291bddd7b86bd24eb639a38526e7ed06.json",
           "sha256": "088703fe809c9a5b962249c60e36b38e291bddd7b86bd24eb639a38526e7ed06",
           "source": "cab-premiummaterials0:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638.json",
+              "sha256": "71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638.json",
+              "sha256": "71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638.json",
+              "sha256": "71001ff900dd629e83fb81b397e06c349059d38eb5edc418118d81a7e248a638"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -484,6 +566,47 @@
           "path": "golden/historical/materials/5062618f140343dc1854f5b7c1b29408fff68c95eefdd71d9fe38be74325f4e1.json",
           "sha256": "5062618f140343dc1854f5b7c1b29408fff68c95eefdd71d9fe38be74325f4e1",
           "source": "cab-premiummaterials0:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8.json",
+              "sha256": "d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8.json",
+              "sha256": "d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8.json",
+              "sha256": "d8d341828cfff693f8800c94971793d85e124c90585115dd4fb0493e3aa868b8"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -608,6 +731,47 @@
           "path": "golden/historical/materials/ce899c2d8e3b6558a2cbd6499cbbfd3c9146583aef19428ee1fd86dff23204e4.json",
           "sha256": "ce899c2d8e3b6558a2cbd6499cbbfd3c9146583aef19428ee1fd86dff23204e4",
           "source": "cab-premiummaterials0:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100.json",
+              "sha256": "750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100.json",
+              "sha256": "750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100.json",
+              "sha256": "750b661c46e4a3bf7f158aa7781e8e13bc88699f5029dbda8eebc24de6c6e100"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       }
     ],
@@ -759,6 +923,47 @@
           "path": "golden/historical/materials/ada76831ba3d684165afec8e43c0b36a868c4cd8a648b2fcc6e58eee947739bc.json",
           "sha256": "ada76831ba3d684165afec8e43c0b36a868c4cd8a648b2fcc6e58eee947739bc",
           "source": "cab-cards1:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards1:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2.json",
+              "sha256": "1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards1:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2.json",
+              "sha256": "1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards1:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2.json",
+              "sha256": "1a2aa938bcc73d87133de3c6e50ffb447187197d173a93da87ad1af9210634d2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -910,6 +1115,47 @@
           "path": "golden/historical/materials/b56bbf03ea6891c65818124796371092563fa599e3ec015ce2ff9afc4d68305f.json",
           "sha256": "b56bbf03ea6891c65818124796371092563fa599e3ec015ce2ff9afc4d68305f",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7.json",
+              "sha256": "76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7.json",
+              "sha256": "76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7.json",
+              "sha256": "76b8e76c0c359db036d9d0d848f9830287b1ce0f450d4376a577438ac3b5afb7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1061,6 +1307,47 @@
           "path": "golden/historical/materials/95519075919d9e7d5203ab038969ae7d5bbcdbba5a0a3f75bb9d57c9908f5fab.json",
           "sha256": "95519075919d9e7d5203ab038969ae7d5bbcdbba5a0a3f75bb9d57c9908f5fab",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301.json",
+              "sha256": "08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301.json",
+              "sha256": "08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301.json",
+              "sha256": "08ca5477ad804a25e5d64638f70c00e15c7026109b3b314e17d19233e9936301"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1218,6 +1505,47 @@
           "path": "golden/historical/materials/0751a080b9928b43a74c12e088f3d62cbc490d078955c3e4db6d0f77c23071d5.json",
           "sha256": "0751a080b9928b43a74c12e088f3d62cbc490d078955c3e4db6d0f77c23071d5",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde.json",
+              "sha256": "c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde.json",
+              "sha256": "c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde.json",
+              "sha256": "c1f569d313cf3f912b36b50876688ca634a15c398a2fa39190e7d770f333adde"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1375,6 +1703,47 @@
           "path": "golden/historical/materials/f5a72200217a16a260b48e5c27992c8687e5ea3114462a8f493cb787027499e5.json",
           "sha256": "f5a72200217a16a260b48e5c27992c8687e5ea3114462a8f493cb787027499e5",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031.json",
+              "sha256": "4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031.json",
+              "sha256": "4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031.json",
+              "sha256": "4f91a95a7121494c874bfae00797b571dbd34fc1234a052e370991d2a44b8031"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1532,6 +1901,47 @@
           "path": "golden/historical/materials/af4051dd3c4fa2f61caeeb014e83dfb437ccd18f2445c9f570d458a8194be26f.json",
           "sha256": "af4051dd3c4fa2f61caeeb014e83dfb437ccd18f2445c9f570d458a8194be26f",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7.json",
+              "sha256": "bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7.json",
+              "sha256": "bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7.json",
+              "sha256": "bd6dbea0537cea496763fd16bbfa5672081c42950e3290a7bc15ced1593929a7"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1689,6 +2099,47 @@
           "path": "golden/historical/materials/3887008aa74808f929e2185de2e4557f1fcdd1bc75bf9213734b4e675eaa0b57.json",
           "sha256": "3887008aa74808f929e2185de2e4557f1fcdd1bc75bf9213734b4e675eaa0b57",
           "source": "cab-cards2:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2.json",
+              "sha256": "413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2.json",
+              "sha256": "413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2.json",
+              "sha256": "413f1342a157fe54297e26fd9b35e0d94c27aa67cbfe37f9d2ddef7f97610ef2"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       },
       {
@@ -1848,6 +2299,47 @@
           "path": "golden/historical/materials/1ff83b2979d0eee9c945e2ed56a182d08a55748ea2051e3298a86e4176509e95.json",
           "sha256": "1ff83b2979d0eee9c945e2ed56a182d08a55748ea2051e3298a86e4176509e95",
           "source": "cab-premiummaterials0:2067507883"
+        },
+        "tileMaterials": {
+          "m_HistoryTileHalfPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1509204198",
+            "material": {
+              "path": "art/historical/tile-materials/3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836.json",
+              "sha256": "3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.03999999910593033,
+              "_OffsetY": -0.27000001072883606,
+              "_Scale": 1.2599999904632568
+            }
+          },
+          "m_HistoryTileFullPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:-1696671957",
+            "material": {
+              "path": "art/historical/tile-materials/3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836.json",
+              "sha256": "3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.14000000059604645,
+              "_OffsetY": -0.08955223113298416,
+              "_Scale": 1.409999966621399
+            }
+          },
+          "m_EnchantmentPortrait": {
+            "status": "extracted",
+            "source": "cab-cards2:1251279314",
+            "material": {
+              "path": "art/historical/tile-materials/3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836.json",
+              "sha256": "3b23e0ecbf9c8e7c2859f4709394d915ba1a1fd9af1d38d441c73da467e6b836"
+            },
+            "nativeValues": {
+              "_OffsetX": -0.07000000029802322,
+              "_OffsetY": -0.019999999552965164,
+              "_Scale": 1.149999976158142
+            }
+          }
         }
       }
     ]
