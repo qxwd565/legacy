@@ -40,80 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS1_112",
-        "historicalKey": null,
-        "card": {
-          "id": "CS1_112",
-          "name": "신성한 폭발",
-          "text": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
-          "type": "SPELL",
-          "cardClass": "PRIEST",
-          "classes": [
-            "PRIEST"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 5,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "신성한 폭발",
-          "description": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
-          "mana": "5",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:b19b10fc2493031428468f498bffc4c2:b19b10fc2493031428468f498bffc4c2"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "CS1_112",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 109264,
-          "textAssetBytes": 4776,
-          "tags": {
-            "CardSet": 2,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 6,
-            "Rarity": 1,
-            "Cost": 5,
-            "AttackVisualType": 5,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:b19b10fc2493031428468f498bffc4c2:b19b10fc2493031428468f498bffc4c2",
-            "reference": "Assets/Game/Cards/00 Basic/CS1_112/R3_063_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "CS1_112"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -157,7 +83,22 @@
       }
     ],
     "nativeRawText": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2020-03-27",
+        "changes": {
+          "cost": 5
+        }
+      },
+      {
+        "from": "2020-03-27",
+        "before": "2023-04-28",
+        "changes": {
+          "cost": 4
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

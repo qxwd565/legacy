@@ -40,80 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_339",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_339",
-          "name": "생각 훔치기",
-          "text": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.",
-          "type": "SPELL",
-          "cardClass": "PRIEST",
-          "classes": [
-            "PRIEST"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "생각 훔치기",
-          "description": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.",
-          "mana": "3",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:265a801459d38ee44a33aa99170421ba:265a801459d38ee44a33aa99170421ba"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_339",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 890344,
-          "textAssetBytes": 4124,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 6,
-            "Rarity": 1,
-            "Cost": 3,
-            "AttackVisualType": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:265a801459d38ee44a33aa99170421ba:265a801459d38ee44a33aa99170421ba",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_339/W7_145_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_339"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -157,7 +83,15 @@
       }
     ],
     "nativeRawText": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2020-03-27",
+        "changes": {
+          "cost": 3
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

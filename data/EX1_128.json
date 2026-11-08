@@ -40,81 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_128",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_128",
-          "name": "은폐",
-          "text": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
-          "type": "SPELL",
-          "cardClass": "ROGUE",
-          "classes": [
-            "ROGUE"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 1,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "은폐",
-          "description": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
-          "mana": "1",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:07b11c9689a69b44db6b0f44df9512b0:07b11c9689a69b44db6b0f44df9512b0"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_128",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1033520,
-          "textAssetBytes": 4622,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 7,
-            "Rarity": 1,
-            "Cost": 1,
-            "AttackVisualType": 1,
-            "DevState": 2,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:07b11c9689a69b44db6b0f44df9512b0:07b11c9689a69b44db6b0f44df9512b0",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_128/W6_128_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_128"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -168,7 +93,15 @@
       }
     ],
     "nativeRawText": "내 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2013-10-03",
+        "changes": {
+          "cost": 0
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

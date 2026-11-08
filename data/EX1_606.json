@@ -40,79 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_606",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_606",
-          "name": "방패 막기",
-          "text": "방어도를 +5 얻습니다. 카드를 1장 뽑습니다.",
-          "type": "SPELL",
-          "cardClass": "WARRIOR",
-          "classes": [
-            "WARRIOR"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "방패 막기",
-          "description": "방어도를 +5 얻습니다. 카드를 1장 뽑습니다.",
-          "mana": "3",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:6fad627e3884eb54f80aa543d55dcc50:6fad627e3884eb54f80aa543d55dcc50"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_606",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 567152,
-          "textAssetBytes": 3598,
-          "tags": {
-            "CardSet": 2,
-            "Rarity": 1,
-            "CardType": 5,
-            "Cost": 3,
-            "Faction": 3,
-            "Class": 10,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:6fad627e3884eb54f80aa543d55dcc50:6fad627e3884eb54f80aa543d55dcc50",
-            "reference": "Assets/Game/Cards/00 Basic/EX1_606/WOW_MISC_021_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_606"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -151,7 +78,21 @@
       }
     ],
     "nativeRawText": "[x]방어도를 +5 얻습니다.\n카드를 뽑습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2018-08-02",
+        "changes": {
+          "name": "방패 막기"
+        }
+      },
+      {
+        "before": "2023-04-28",
+        "changes": {
+          "cost": 3
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

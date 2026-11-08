@@ -40,80 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_246",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_246",
-          "name": "사술",
-          "text": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-          "type": "SPELL",
-          "cardClass": "SHAMAN",
-          "classes": [
-            "SHAMAN"
-          ],
-          "rarity": "FREE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "사술",
-          "description": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-          "mana": "3",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "FREE",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:380e01e443d8cba4e8e69f0c8aaf517a:380e01e443d8cba4e8e69f0c8aaf517a"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_246",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1792784,
-          "textAssetBytes": 4331,
-          "tags": {
-            "CardSet": 2,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 8,
-            "Rarity": 2,
-            "Cost": 3,
-            "AttackVisualType": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:380e01e443d8cba4e8e69f0c8aaf517a:380e01e443d8cba4e8e69f0c8aaf517a",
-            "reference": "Assets/Game/Cards/00 Basic/EX1_246/W5_120_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_246"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -167,7 +93,16 @@
       }
     ],
     "nativeRawText": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "from": "2017-09-19",
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 4
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

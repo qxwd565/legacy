@@ -42,83 +42,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_310",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_310",
-          "name": "파멸의 수호병",
-          "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다.",
-          "type": "MINION",
-          "cardClass": "WARLOCK",
-          "classes": [
-            "WARLOCK"
-          ],
-          "rarity": "RARE",
-          "race": "악마",
-          "spellSchool": "",
-          "cost": 5,
-          "attack": 5,
-          "health": 7,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "파멸의 수호병",
-          "description": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다.",
-          "mana": "5",
-          "attack": "5",
-          "health": "7",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "악마",
-          "school": "",
-          "rarity": "RARE",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:606ca1a05eefcaa44a7bd1b76c857fd5:606ca1a05eefcaa44a7bd1b76c857fd5"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_310",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 789744,
-          "textAssetBytes": 4513,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Faction": 3,
-            "Class": 9,
-            "Race": 15,
-            "Rarity": 3,
-            "Cost": 5,
-            "Atk": 5,
-            "Health": 7,
-            "AttackVisualType": 1,
-            "DevState": 2,
-            "Collectible": 1,
-            "Charge": 1,
-            "Battlecry": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:606ca1a05eefcaa44a7bd1b76c857fd5:606ca1a05eefcaa44a7bd1b76c857fd5",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_310/W11_141_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_310"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -197,7 +120,15 @@
       }
     ],
     "nativeRawText": "<b>돌진</b>, <b>전투의 함성</b>:& 무작위로 카드를 2장 버립니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2015-08-18",
+        "changes": {
+          "name": "파멸의 수호병"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

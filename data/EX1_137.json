@@ -40,78 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_137",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_137",
-          "name": "머리 후려치기",
-          "text": "적 영웅에게 피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.",
-          "type": "SPELL",
-          "cardClass": "ROGUE",
-          "classes": [
-            "ROGUE"
-          ],
-          "rarity": "RARE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "머리 후려치기",
-          "description": "적 영웅에게 피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.",
-          "mana": "3",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "RARE",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "headcrack_2016"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_137",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 337832,
-          "textAssetBytes": 4315,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 7,
-            "Rarity": 3,
-            "Cost": 3,
-            "AttackVisualType": 1,
-            "Collectible": 1,
-            "Combo": 1
-          },
-          "artworkReference": {
-            "selection": "headcrack_2016",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_137/W4_107_D.psd",
-            "kind": "existing-historical"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -155,7 +83,21 @@
       }
     ],
     "nativeRawText": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2013-10-03",
+        "changes": {
+          "cost": 2
+        }
+      },
+      {
+        "before": "2019-07-01",
+        "changes": {
+          "legacyArt": true
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

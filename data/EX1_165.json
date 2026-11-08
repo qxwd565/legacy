@@ -40,81 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_165",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_165",
-          "name": "발톱의 드루이드",
-          "text": "<b>선택 - </b>\n<b>돌진</b> 또는 생명력 +2와 <b>도발</b>",
-          "type": "MINION",
-          "cardClass": "DRUID",
-          "classes": [
-            "DRUID"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 5,
-          "attack": 4,
-          "health": 4,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "발톱의 드루이드",
-          "description": "<b>선택 - </b>\n<b>돌진</b> 또는 생명력 +2와 <b>도발</b>",
-          "mana": "5",
-          "attack": "4",
-          "health": "4",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:5e469950a5f76f34c8b4a8b7dd487323:5e469950a5f76f34c8b4a8b7dd487323"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_165",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1227264,
-          "textAssetBytes": 4458,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Faction": 3,
-            "Class": 2,
-            "Rarity": 1,
-            "Cost": 5,
-            "Atk": 4,
-            "Health": 4,
-            "AttackVisualType": 6,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:5e469950a5f76f34c8b4a8b7dd487323:5e469950a5f76f34c8b4a8b7dd487323",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_165/W11_016_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_165"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -173,7 +98,15 @@
       }
     ],
     "nativeRawText": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 5
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [

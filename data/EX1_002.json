@@ -42,80 +42,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_002",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_002",
-          "name": "흑기사",
-          "text": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 하나 처치합니다.",
-          "type": "MINION",
-          "cardClass": "NEUTRAL",
-          "classes": [
-            "NEUTRAL"
-          ],
-          "rarity": "LEGENDARY",
-          "race": "",
-          "spellSchool": "",
-          "cost": 6,
-          "attack": 4,
-          "health": 5,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "흑기사",
-          "description": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 하나 처치합니다.",
-          "mana": "6",
-          "attack": "4",
-          "health": "5",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "LEGENDARY",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:b8e7063f270123f479746a48a28bd59a:b8e7063f270123f479746a48a28bd59a"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_002",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1121912,
-          "textAssetBytes": 5750,
-          "tags": {
-            "Collectible": 1,
-            "CardSet": 3,
-            "Rarity": 5,
-            "CardType": 4,
-            "Cost": 6,
-            "Atk": 4,
-            "Health": 5,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "Elite": 1,
-            "Battlecry": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:b8e7063f270123f479746a48a28bd59a:b8e7063f270123f479746a48a28bd59a",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_002/r5_a004_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_002"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -189,7 +115,15 @@
       }
     ],
     "nativeRawText": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 6
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

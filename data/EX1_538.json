@@ -40,78 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_538",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_538",
-          "name": "개들을 풀어라",
-          "text": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
-          "type": "SPELL",
-          "cardClass": "HUNTER",
-          "classes": [
-            "HUNTER"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 2,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "개들을 풀어라",
-          "description": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
-          "mana": "2",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:3d2954e386783c146a1c227a93a0ffea:3d2954e386783c146a1c227a93a0ffea"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_538",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 445056,
-          "textAssetBytes": 4077,
-          "tags": {
-            "Collectible": 1,
-            "CardSet": 3,
-            "Rarity": 1,
-            "CardType": 5,
-            "Cost": 2,
-            "Class": 3,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:3d2954e386783c146a1c227a93a0ffea:3d2954e386783c146a1c227a93a0ffea",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_538/W20_a161_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_538"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -150,7 +78,15 @@
       }
     ],
     "nativeRawText": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2014-05-09",
+        "changes": {
+          "cost": 2
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [

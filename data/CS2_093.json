@@ -40,78 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS2_093",
-        "historicalKey": null,
-        "card": {
-          "id": "CS2_093",
-          "name": "신성화",
-          "text": "모든 적에게 피해를 $2 줍니다.",
-          "type": "SPELL",
-          "cardClass": "PALADIN",
-          "classes": [
-            "PALADIN"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 4,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "신성화",
-          "description": "모든 적에게 피해를 $2 줍니다.",
-          "mana": "4",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:f4af444b9bf43564886d1f68bc64d6bf:f4af444b9bf43564886d1f68bc64d6bf"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "CS2_093",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1952928,
-          "textAssetBytes": 3481,
-          "tags": {
-            "CardSet": 2,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 5,
-            "Rarity": 1,
-            "Cost": 4,
-            "AttackVisualType": 1,
-            "Collectible": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:f4af444b9bf43564886d1f68bc64d6bf:f4af444b9bf43564886d1f68bc64d6bf",
-            "reference": "Assets/Game/Cards/00 Basic/CS2_093/W8_174_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "CS2_093"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -155,7 +83,15 @@
       }
     ],
     "nativeRawText": "모든 적에게 피해를 $2 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 4
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

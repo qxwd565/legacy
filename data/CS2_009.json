@@ -40,80 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS2_009",
-        "historicalKey": null,
-        "card": {
-          "id": "CS2_009",
-          "name": "야생의 징표",
-          "text": "하수인 하나에게 <b>도발</b>과 +2/+2를 부여합니다.",
-          "type": "SPELL",
-          "cardClass": "DRUID",
-          "classes": [
-            "DRUID"
-          ],
-          "rarity": "FREE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 2,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "야생의 징표",
-          "description": "하수인 하나에게 <b>도발</b>과 +2/+2를 부여합니다.",
-          "mana": "2",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "FREE",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:2c106e4e2c85d134bb040631874036dd:2c106e4e2c85d134bb040631874036dd"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "CS2_009",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 172448,
-          "textAssetBytes": 4410,
-          "tags": {
-            "CardSet": 2,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 2,
-            "Rarity": 2,
-            "Cost": 2,
-            "AttackVisualType": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:2c106e4e2c85d134bb040631874036dd:2c106e4e2c85d134bb040631874036dd",
-            "reference": "Assets/Game/Cards/00 Basic/CS2_009/WOW_ACT_073_BlizzRT_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "CS2_009"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -162,7 +88,15 @@
       }
     ],
     "nativeRawText": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2019-02-05",
+        "changes": {
+          "legacyArt": true
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

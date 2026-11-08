@@ -42,79 +42,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS2_231",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_165t2",
-          "name": "발톱의 드루이드",
-          "text": "<b>도발</b>",
-          "type": "MINION",
-          "cardClass": "DRUID",
-          "classes": [
-            "DRUID"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 5,
-          "attack": 4,
-          "health": 6,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": false,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "발톱의 드루이드",
-          "description": "<b>도발</b>",
-          "mana": "5",
-          "attack": "4",
-          "health": "6",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:6f1b06a9f450f3e428086af476201065:6f1b06a9f450f3e428086af476201065"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_165t2",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1384188,
-          "textAssetBytes": 1958,
-          "tags": {
-            "CardSet": 3,
-            "Rarity": 1,
-            "CardType": 4,
-            "Cost": 5,
-            "Atk": 4,
-            "Health": 6,
-            "Class": 2,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "Taunt": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:6f1b06a9f450f3e428086af476201065:6f1b06a9f450f3e428086af476201065",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_165t2"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -158,7 +85,15 @@
       }
     ],
     "nativeRawText": "<b>도발</b>",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 5
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],

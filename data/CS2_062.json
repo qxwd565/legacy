@@ -40,79 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS2_062",
-        "historicalKey": null,
-        "card": {
-          "id": "CS2_062",
-          "name": "지옥의 불길",
-          "text": "<b>모든</b> 캐릭터에게 피해를 $3 줍니다.",
-          "type": "SPELL",
-          "cardClass": "WARLOCK",
-          "classes": [
-            "WARLOCK"
-          ],
-          "rarity": "FREE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 4,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "지옥의 불길",
-          "description": "<b>모든</b> 캐릭터에게 피해를 $3 줍니다.",
-          "mana": "4",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "FREE",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:4559a48f323366f4eb7eb9c69e2a434b:4559a48f323366f4eb7eb9c69e2a434b"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "CS2_062",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 818320,
-          "textAssetBytes": 3689,
-          "tags": {
-            "CardSet": 2,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 9,
-            "Rarity": 2,
-            "Cost": 4,
-            "AttackVisualType": 1,
-            "DevState": 2,
-            "Collectible": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:4559a48f323366f4eb7eb9c69e2a434b:4559a48f323366f4eb7eb9c69e2a434b",
-            "reference": "Assets/Game/Cards/00 Basic/CS2_062/W2_240_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "CS2_062"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -161,7 +88,15 @@
       }
     ],
     "nativeRawText": "<b>모든</b> 캐릭터에게 피해를 $3 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 4
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

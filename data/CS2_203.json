@@ -42,82 +42,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "CS2_203",
-        "historicalKey": null,
-        "card": {
-          "id": "CS2_203",
-          "name": "무쇠부리 올빼미",
-          "text": "<b>전투의 함성:</b> 하수인을 하나 <b>침묵</b>시킵니다.",
-          "type": "MINION",
-          "cardClass": "NEUTRAL",
-          "classes": [
-            "NEUTRAL"
-          ],
-          "rarity": "COMMON",
-          "race": "야수",
-          "spellSchool": "",
-          "cost": 2,
-          "attack": 2,
-          "health": 1,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "무쇠부리 올빼미",
-          "description": "<b>전투의 함성:</b> 하수인을 하나 <b>침묵</b>시킵니다.",
-          "mana": "2",
-          "attack": "2",
-          "health": "1",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "야수",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:5cfd972ea3327ae4e9f054b44097994d:5cfd972ea3327ae4e9f054b44097994d"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "CS2_203",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 2008920,
-          "textAssetBytes": 5327,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Faction": 1,
-            "Rarity": 1,
-            "Cost": 2,
-            "Atk": 2,
-            "Health": 1,
-            "AttackVisualType": 7,
-            "Collectible": 1,
-            "Race": 20,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "Battlecry": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:5cfd972ea3327ae4e9f054b44097994d:5cfd972ea3327ae4e9f054b44097994d",
-            "reference": "Assets/Game/Cards/01 Expert/CS2_203/W4_280_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "CS2_203"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -181,7 +105,15 @@
       }
     ],
     "nativeRawText": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2016-04-25",
+        "changes": {
+          "cost": 2
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -40,83 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "VAN_EX1_323",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_323",
-          "name": "군주 자락서스",
-          "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다.",
-          "type": "MINION",
-          "cardClass": "WARLOCK",
-          "classes": [
-            "WARLOCK"
-          ],
-          "rarity": "LEGENDARY",
-          "race": "악마",
-          "spellSchool": "",
-          "cost": 9,
-          "attack": 3,
-          "health": 15,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "군주 자락서스",
-          "description": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다.",
-          "mana": "9",
-          "attack": "3",
-          "health": "15",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "악마",
-          "school": "",
-          "rarity": "LEGENDARY",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:777d48b518a048e49b1cb75122955445:777d48b518a048e49b1cb75122955445"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_323",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1142960,
-          "textAssetBytes": 4137,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Rarity": 5,
-            "AttackVisualType": 1,
-            "Cost": 9,
-            "Class": 9,
-            "Race": 15,
-            "Atk": 3,
-            "Health": 15,
-            "Elite": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "Battlecry": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:777d48b518a048e49b1cb75122955445:777d48b518a048e49b1cb75122955445",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_323/W6_010_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "VAN_EX1_323"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -185,7 +108,15 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성</b>:&\n3/8 피의 격노를 장착합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-09-29",
+        "changes": {
+          "cost": 9
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [

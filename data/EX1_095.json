@@ -40,81 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_095",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_095",
-          "name": "가젯잔 경매인",
-          "text": "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.",
-          "type": "MINION",
-          "cardClass": "NEUTRAL",
-          "classes": [
-            "NEUTRAL"
-          ],
-          "rarity": "RARE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 5,
-          "attack": 4,
-          "health": 4,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "가젯잔 경매인",
-          "description": "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.",
-          "mana": "5",
-          "attack": "4",
-          "health": "4",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "RARE",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:aef443527d581864ebec0ad5d243fdb6:aef443527d581864ebec0ad5d243fdb6"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_095",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 311320,
-          "textAssetBytes": 4357,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Faction": 3,
-            "Rarity": 3,
-            "Cost": 5,
-            "Atk": 4,
-            "Health": 4,
-            "AttackVisualType": 6,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "TriggerVisual": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:aef443527d581864ebec0ad5d243fdb6:aef443527d581864ebec0ad5d243fdb6",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_095/W8_071_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_095"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 32,
@@ -168,7 +93,22 @@
       }
     ],
     "nativeRawText": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2014-12-05",
+        "changes": {
+          "cost": 5
+        }
+      },
+      {
+        "from": "2014-12-05",
+        "before": "2023-09-29",
+        "changes": {
+          "cost": 6
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

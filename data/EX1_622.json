@@ -40,78 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_622",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_622",
-          "name": "어둠의 권능: 죽음",
-          "text": "공격력 5 이상인 하수인을 하나 처치합니다.",
-          "type": "SPELL",
-          "cardClass": "PRIEST",
-          "classes": [
-            "PRIEST"
-          ],
-          "rarity": "COMMON",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "LEGACY",
-          "nativeSetId": 2
-        },
-        "edits": {
-          "name": "어둠의 권능: 죽음",
-          "description": "공격력 5 이상인 하수인을 하나 처치합니다.",
-          "mana": "3",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "COMMON",
-          "watermark": "NONE",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:cf73ceb5d52685e4db2c9855a833b5e4:cf73ceb5d52685e4db2c9855a833b5e4"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_622",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 2004920,
-          "textAssetBytes": 3979,
-          "tags": {
-            "Collectible": 1,
-            "CardSet": 2,
-            "Rarity": 1,
-            "CardType": 5,
-            "Cost": 3,
-            "Class": 6,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:cf73ceb5d52685e4db2c9855a833b5e4:cf73ceb5d52685e4db2c9855a833b5e4",
-            "reference": "Assets/Game/Cards/00 Basic/EX1_622/W12_A067_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_622"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -145,7 +73,15 @@
       }
     ],
     "nativeRawText": "공격력이 5 이상인 하수인을\n처치합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2020-03-27",
+        "changes": {
+          "cost": 3
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

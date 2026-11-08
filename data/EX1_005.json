@@ -40,79 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_005",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_005",
-          "name": "나 이런 사냥꾼이야",
-          "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다.",
-          "type": "MINION",
-          "cardClass": "NEUTRAL",
-          "classes": [
-            "NEUTRAL"
-          ],
-          "rarity": "EPIC",
-          "race": "",
-          "spellSchool": "",
-          "cost": 3,
-          "attack": 4,
-          "health": 2,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "나 이런 사냥꾼이야",
-          "description": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다.",
-          "mana": "3",
-          "attack": "4",
-          "health": "2",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "EPIC",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:e6c061104024636419be152c385e82e2:e6c061104024636419be152c385e82e2"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_005",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 427896,
-          "textAssetBytes": 5751,
-          "tags": {
-            "Collectible": 1,
-            "CardSet": 3,
-            "Rarity": 4,
-            "CardType": 4,
-            "Cost": 3,
-            "Atk": 4,
-            "Health": 2,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "Battlecry": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:e6c061104024636419be152c385e82e2:e6c061104024636419be152c385e82e2",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_005/W5_030_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_005"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -166,7 +93,22 @@
       }
     ],
     "nativeRawText": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2016-04-25",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2021-03-26",
+        "changes": {
+          "cost": 5
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

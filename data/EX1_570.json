@@ -40,79 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_570",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_570",
-          "name": "물기",
-          "text": "내 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다.",
-          "type": "SPELL",
-          "cardClass": "DRUID",
-          "classes": [
-            "DRUID"
-          ],
-          "rarity": "RARE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 4,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "물기",
-          "description": "내 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다.",
-          "mana": "4",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "RARE",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "bite_2016"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_570",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1697176,
-          "textAssetBytes": 3221,
-          "tags": {
-            "CardSet": 3,
-            "Rarity": 3,
-            "CardType": 5,
-            "Cost": 4,
-            "Faction": 3,
-            "Class": 2,
-            "AttackVisualType": 2,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "bite_2016",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_570/W11_005_D.psd",
-            "kind": "existing-historical"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -151,7 +78,15 @@
       }
     ],
     "nativeRawText": "[x]방어도를 +4 얻고,\n이번 턴에 내 영웅이\n공격력을 +4 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2019-07-01",
+        "changes": {
+          "legacyArt": true
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

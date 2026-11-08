@@ -40,82 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_573",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_573",
-          "name": "세나리우스",
-          "text": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다.",
-          "type": "MINION",
-          "cardClass": "DRUID",
-          "classes": [
-            "DRUID"
-          ],
-          "rarity": "LEGENDARY",
-          "race": "",
-          "spellSchool": "",
-          "cost": 9,
-          "attack": 5,
-          "health": 8,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "세나리우스",
-          "description": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다.",
-          "mana": "9",
-          "attack": "5",
-          "health": "8",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "LEGENDARY",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:11fb9f2912e973b45a0e815053c42636:11fb9f2912e973b45a0e815053c42636"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_573",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1177760,
-          "textAssetBytes": 4812,
-          "tags": {
-            "CardSet": 3,
-            "Rarity": 5,
-            "CardType": 4,
-            "Cost": 9,
-            "Atk": 5,
-            "Health": 8,
-            "Faction": 3,
-            "Class": 2,
-            "AttackVisualType": 7,
-            "Elite": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:11fb9f2912e973b45a0e815053c42636:11fb9f2912e973b45a0e815053c42636",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_573/W17_a013_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_573"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 45,
@@ -179,7 +103,15 @@
       }
     ],
     "nativeRawText": "<b>선택 -</b> 내 다른 하수인들에게 +2/+2를 부여합니다.\n또는 <b>도발</b> 능력이 있는\n2/2 나무정령을\n둘 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "cost": 9
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [

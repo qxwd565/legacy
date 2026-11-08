@@ -40,81 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_279",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_279",
-          "name": "불덩이 작렬",
-          "text": "피해를 $10 줍니다.",
-          "type": "SPELL",
-          "cardClass": "MAGE",
-          "classes": [
-            "MAGE"
-          ],
-          "rarity": "EPIC",
-          "race": "",
-          "spellSchool": "",
-          "cost": 10,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "불덩이 작렬",
-          "description": "피해를 $10 줍니다.",
-          "mana": "10",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "EPIC",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:d93a4fb920a11ff44bf55fd74105dd28:d93a4fb920a11ff44bf55fd74105dd28"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_279",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1811328,
-          "textAssetBytes": 3368,
-          "tags": {
-            "CardSet": 3,
-            "Rarity": 4,
-            "CardType": 5,
-            "Cost": 10,
-            "Class": 4,
-            "AttackVisualType": 3,
-            "Faction": 3,
-            "DevState": 2,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:d93a4fb920a11ff44bf55fd74105dd28:d93a4fb920a11ff44bf55fd74105dd28",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_279/W8_159_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_279"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -163,7 +88,15 @@
       }
     ],
     "nativeRawText": "피해를 $10 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2014-01-17",
+        "changes": {
+          "cost": 8
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

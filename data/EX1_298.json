@@ -42,83 +42,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_298",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_298",
-          "name": "불의 군주 라그나로스",
-          "text": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
-          "type": "MINION",
-          "cardClass": "NEUTRAL",
-          "classes": [
-            "NEUTRAL"
-          ],
-          "rarity": "LEGENDARY",
-          "race": "",
-          "spellSchool": "",
-          "cost": 8,
-          "attack": 8,
-          "health": 8,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "불의 군주 라그나로스",
-          "description": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
-          "mana": "8",
-          "attack": "8",
-          "health": "8",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "LEGENDARY",
-          "watermark": "Set1_Icon",
-          "artwork": "portrait:cf0655899dce45c4ba4fd5da4d203ae0:cf0655899dce45c4ba4fd5da4d203ae0"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_298",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 1407024,
-          "textAssetBytes": 5683,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 4,
-            "Faction": 3,
-            "Rarity": 5,
-            "Cost": 8,
-            "Atk": 8,
-            "Health": 8,
-            "AttackVisualType": 3,
-            "DevState": 2,
-            "Elite": 1,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0,
-            "TriggerVisual": 1
-          },
-          "artworkReference": {
-            "selection": "portrait:cf0655899dce45c4ba4fd5da4d203ae0:cf0655899dce45c4ba4fd5da4d203ae0",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_298/w2_059_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_298"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 32,
@@ -192,7 +115,15 @@
       }
     ],
     "nativeRawText": "공격할 수 없습니다.\n내 턴이 끝날 때,\n무작위 적에게\n피해를 8 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2014-12-04",
+        "changes": {
+          "legacyArt": true
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

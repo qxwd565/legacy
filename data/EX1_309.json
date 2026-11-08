@@ -40,81 +40,6 @@
     "isBattlegroundsPoolSpell": false,
     "battlegroundsHero": false,
     "isBattlegroundsBuddy": false,
-    "versions": [
-      {
-        "id": "ios-1.0.0",
-        "label": "iOS 1.0.0",
-        "renderSourceId": "EX1_309",
-        "historicalKey": null,
-        "card": {
-          "id": "EX1_309",
-          "name": "영혼 착취",
-          "text": "하수인을 하나 처치합니다. 내 영웅이 생명력을 #3 회복합니다.",
-          "type": "SPELL",
-          "cardClass": "WARLOCK",
-          "classes": [
-            "WARLOCK"
-          ],
-          "rarity": "RARE",
-          "race": "",
-          "spellSchool": "",
-          "cost": 6,
-          "attack": 0,
-          "health": 0,
-          "armor": 0,
-          "durability": 0,
-          "techLevel": 0,
-          "collectible": true,
-          "set": "EXPERT1",
-          "nativeSetId": 3
-        },
-        "edits": {
-          "name": "영혼 착취",
-          "description": "하수인을 하나 처치합니다. 내 영웅이 생명력을 #3 회복합니다.",
-          "mana": "6",
-          "attack": "0",
-          "health": "0",
-          "durability": "0",
-          "armor": "0",
-          "techLevel": "0",
-          "race": "",
-          "school": "",
-          "rarity": "RARE",
-          "watermark": "Set1_Icon",
-          "legacyCardFrame": "15.2.34104",
-          "artwork": "portrait:7ddb040e69a75d54dba83f3c5ecaa86f:7ddb040e69a75d54dba83f3c5ecaa86f"
-        },
-        "source": {
-          "platform": "iOS",
-          "version": "1.0.0",
-          "locale": "koKR",
-          "cardId": "EX1_309",
-          "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
-          "bundleSha256": "0ed028ec64087030ec9a72b12a18e6321d1e1022074af2984030f37112a0827a",
-          "textAssetOffset": 207088,
-          "textAssetBytes": 4360,
-          "tags": {
-            "CardSet": 3,
-            "CardType": 5,
-            "Faction": 3,
-            "Class": 9,
-            "Rarity": 3,
-            "Cost": 6,
-            "AttackVisualType": 1,
-            "DevState": 2,
-            "Collectible": 1,
-            "EnchantmentBirthVisual": 0,
-            "EnchantmentIdleVisual": 0
-          },
-          "artworkReference": {
-            "selection": "portrait:7ddb040e69a75d54dba83f3c5ecaa86f:7ddb040e69a75d54dba83f3c5ecaa86f",
-            "reference": "Assets/Game/Cards/01 Expert/EX1_309/r5_a093_D.psd",
-            "kind": "existing-installed",
-            "matchedCardId": "EX1_309"
-          }
-        }
-      }
-    ],
     "nativeTags": [
       {
         "id": 48,
@@ -163,7 +88,21 @@
       }
     ],
     "nativeRawText": "[x]하수인을 처치합니다.\n내 영웅이 생명력을\n#3 회복합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "cost": 6
+        }
+      },
+      {
+        "from": "2021-03-26",
+        "changes": {
+          "cost": 5
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
