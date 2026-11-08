@@ -100,7 +100,27 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": []
+    "patches": [
+      {
+        "date": "2019-02-06",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 2,
+          "health": 2
+        }
+      },
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "health": 3
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

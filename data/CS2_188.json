@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 1,
     "health": 1,
-    "attack": 1,
+    "attack": 2,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -105,6 +105,12 @@
         "date": "2014-01-17",
         "changes": {
           "text": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다."
+        }
+      },
+      {
+        "date": "2016-10-04",
+        "changes": {
+          "attack": 1
         }
       },
       {

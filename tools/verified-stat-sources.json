@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "description": "Verified Legacy gameplay stat changes omitted from earlier text-only history. Applied to the card.patches source of truth.",
+  "sources": [
+    {
+      "date": "2016-04-25",
+      "cards": [
+        "NEW1_019",
+        "EX1_029",
+        "EX1_166",
+        "EX1_089",
+        "EX1_620"
+      ],
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/20097359"
+    },
+    {
+      "date": "2016-10-04",
+      "cards": [
+        "CS2_188"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-gb/news/20303030"
+    },
+    {
+      "date": "2018-04-11",
+      "cards": [
+        "EX1_620"
+      ],
+      "url": "https://news.blizzard.com/en-us/article/21694420/update-11-0-april-10-enter-the-witchwood"
+    },
+    {
+      "date": "2019-02-06",
+      "cards": [
+        "EX1_565"
+      ],
+      "url": "https://hearthstone.blizzard.com/en-gb/news/22868202"
+    },
+    {
+      "date": "2021-03-26",
+      "cards": [
+        "NEW1_019",
+        "EX1_029",
+        "EX1_166",
+        "EX1_089",
+        "EX1_565"
+      ],
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+    },
+    {
+      "date": "2024-03-12",
+      "cards": [
+        "EX1_565"
+      ],
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
+    }
+  ],
+  "caveat": "Dates are calendar dates in Asia/Seoul; where source publication uses America time, verify region rollout if exact hours become important."
+}

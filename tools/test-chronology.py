@@ -84,6 +84,29 @@ def main():
     if not any(x["date"] == "2021-03-26" and x["changes"].get("spellSchool") == "FIRE"
                for x in get("CS2_029")["patches"]):
         raise AssertionError("Fireball spell school introduction missing")
+    def value_at(cid, field, day):
+        card = get(cid)
+        value = card[field]
+        for revision in card["patches"]:
+            if revision["date"] <= day and field in revision["changes"]:
+                value = revision["changes"][field]
+        return value
+    assert value_at("NEW1_019", "attack", "2015-01-01") == 3
+    assert value_at("NEW1_019", "attack", "2017-01-01") == 2
+    assert value_at("NEW1_019", "attack", "2022-01-01") == 3
+    assert value_at("EX1_029", "attack", "2017-01-01") == 1
+    assert value_at("EX1_029", "attack", "2022-01-01") == 2
+    assert value_at("EX1_166", "health", "2017-01-01") == 2
+    assert value_at("EX1_166", "health", "2022-01-01") == 4
+    assert value_at("EX1_089", "health", "2017-01-01") == 4
+    assert value_at("EX1_089", "health", "2022-01-01") == 2
+    assert value_at("CS2_188", "attack", "2015-01-01") == 2
+    assert value_at("CS2_188", "attack", "2017-01-01") == 1
+    assert value_at("EX1_620", "cost", "2017-01-01") == 25
+    assert value_at("EX1_620", "cost", "2019-01-01") == 20
+    assert value_at("EX1_565", "cost", "2020-01-01") == 3
+    assert value_at("EX1_565", "health", "2022-01-01") == 2
+    assert value_at("EX1_565", "health", "2025-01-01") == 3
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
