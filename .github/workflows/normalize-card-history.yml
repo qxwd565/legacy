@@ -1,0 +1,30 @@
+name: Normalize card history and render data
+on:
+  push:
+    paths:
+      - '.github/workflows/normalize-card-history.yml'
+      - 'cards.json'
+      - 'history-rules.json'
+      - 'tools/normalize-history.py'
+      - 'data/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Normalize per-card JSON and render catalog
+        run: python3 tools/normalize-history.py
+      - name: Commit generated API data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- cards.json render.json data
+          if ! git diff --cached --quiet; then
+            git commit -m "Normalize historical card JSON and compact render API [skip ci]"
+            git push
+          fi
