@@ -25,7 +25,11 @@ def main():
         path = ROOT / "data" / (cid + ".json")
         if not path.is_file():
             continue
-        card = json.loads(path.read_text(encoding="utf-8"))["card"]
+        document = json.loads(path.read_text(encoding="utf-8"))
+        card = document["card"]
+        if (card.get("dbfId") is None and
+                document.get("apiAvailability", "").startswith("standalone historical source;")):
+            continue
         if "history" in card or "patches" not in card:
             raise AssertionError(f"{cid}: not migrated to forward patches")
         if card.get("id") != cid or card.get("dbfId") != modern.get("dbfId"):

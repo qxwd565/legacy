@@ -88,9 +88,16 @@ def main():
         source = path.read_text(encoding="utf-8")
         document = json.loads(source)
         card = document.get("card")
-        if (not isinstance(card, dict) or card.get("id") != cid
-                or card.get("dbfId") != modern.get("dbfId")):
-            raise ValueError(f"{cid}: mismatched original ID or dbfId")
+        if not isinstance(card, dict) or card.get("id") != cid:
+            raise ValueError(f"{cid}: mismatched original ID")
+        if card.get("dbfId") != modern.get("dbfId"):
+            if (card.get("dbfId") is None and
+                    document.get("apiAvailability", "").startswith("standalone historical source;")):
+                # Native historical token has no proven modern DBF mapping;
+                # do not assign one or alter the archived source.
+                skipped += 1
+                continue
+            raise ValueError(f"{cid}: mismatched original dbfId")
         if "patches" in card:
             skipped += 1
             continue
