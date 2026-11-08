@@ -121,6 +121,13 @@
         "changes": {
           "text": "[x]모든 적 하수인에게<br>피해를 $2 주고 <b>빙결</b><br>상태로 만듭니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

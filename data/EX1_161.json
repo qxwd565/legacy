@@ -114,6 +114,13 @@
         "changes": {
           "text": "[x]하수인을 처치합니다.<br>상대편이 카드를<br>2장 뽑습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

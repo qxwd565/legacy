@@ -129,6 +129,13 @@
         "changes": {
           "text": "[x]하수인을 <b>도발</b> 능력이<br>있는 0/1 개구리로<br>변신시킵니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

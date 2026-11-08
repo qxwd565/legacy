@@ -117,6 +117,13 @@
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

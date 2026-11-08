@@ -102,7 +102,17 @@
     "nativeRawText": "적 캐릭터들은\n치유될 수 없습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "before": "2022-11-30",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

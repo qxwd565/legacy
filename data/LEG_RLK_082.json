@@ -122,7 +122,17 @@
     "nativeRawText": "<b>도발</b>, <b>죽음의 메아리:</b>\n이 하수인을 내 손으로 다시 가져옵니다. 마나 대신 생명력을 비용으로 사용합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "before": "2022-11-30",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

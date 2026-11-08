@@ -107,6 +107,13 @@
         "changes": {
           "text": "하수인 하나에게 피해를 $2 줍니다. 대상이 아군 악마면, +2/+2를 부여합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

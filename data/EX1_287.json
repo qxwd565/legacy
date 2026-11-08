@@ -103,6 +103,13 @@
         "changes": {
           "text": "<b>비밀:</b> 상대편이 주문을 시전하면 <b>차단</b>합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

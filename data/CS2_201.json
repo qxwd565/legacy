@@ -93,7 +93,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "history": [
+      {
+        "before": "2026-02-10",
+        "changes": {
+          "races": [
+            "BEAST"
+          ],
+          "race": "야수"
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

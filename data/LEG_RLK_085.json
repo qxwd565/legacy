@@ -127,7 +127,17 @@
     "nativeRawText": "<b>전투의 함성:</b> 내 모든 <b>시체</b>를 <b>속공</b> 능력이 있는 1/1 되살아난 골렘으로 되살립니다. 되살리지 못한 골렘의 수만큼 무작위 골렘에게 +2/+2를 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "before": "2022-11-30",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

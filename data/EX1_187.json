@@ -93,7 +93,16 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "history": [
+      {
+        "before": "2017-04-05",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

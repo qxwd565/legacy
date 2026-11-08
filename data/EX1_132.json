@@ -119,6 +119,13 @@
         "changes": {
           "text": "[x]<b>비밀:</b> 내 영웅이 피해를<br>받으면, 적 영웅에게도<br>같은 피해를 줍니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

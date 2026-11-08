@@ -116,6 +116,13 @@
         "changes": {
           "text": "<b>돌진</b> 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

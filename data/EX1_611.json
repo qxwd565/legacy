@@ -93,6 +93,13 @@
         "changes": {
           "text": "<b>비밀:</b> 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

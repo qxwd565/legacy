@@ -119,6 +119,13 @@
         "changes": {
           "text": "<b>비밀:</b> 아군 하수인이 죽으면,<br>생명력이 1인 상태로 다시 소환합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

@@ -135,6 +135,13 @@
         "changes": {
           "text": "[x]캐릭터에게 피해를<br>$2 줍니다. 이 피해로<br>대상이 죽으면, 무작위<br>악마를 소환합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

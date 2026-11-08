@@ -119,6 +119,13 @@
         "changes": {
           "text": "[x]하수인을 <b>침묵</b>시키고<br>피해를 $1 줍니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

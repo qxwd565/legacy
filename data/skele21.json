@@ -88,7 +88,16 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": []
+    "history": [
+      {
+        "before": "2014-12-05",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],

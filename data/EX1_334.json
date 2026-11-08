@@ -139,6 +139,13 @@
         "changes": {
           "text": "[x]공격력이 3 이하인<br>적 하수인을 이번<br>턴에만 조종합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

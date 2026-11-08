@@ -114,6 +114,13 @@
         "changes": {
           "text": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

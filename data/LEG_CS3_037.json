@@ -102,7 +102,19 @@
     "nativeRawText": "<b>속공</b>",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "before": "2022-11-30",
+        "changes": {
+          "races": [
+            "BEAST"
+          ],
+          "race": "야수"
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

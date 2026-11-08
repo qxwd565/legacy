@@ -83,6 +83,13 @@
         "changes": {
           "text": "[x]이번 턴에 내 영웅이<br>공격력을 +2 얻습니다.<br>카드를 뽑습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

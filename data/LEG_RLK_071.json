@@ -107,7 +107,17 @@
     "nativeRawText": "<b>전투의 함성:</b> 상대편의\n손, 덱, 전장에 있는 무작위 하수인을 처치합니다. ",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "before": "2022-11-30",
+        "changes": {
+          "races": [],
+          "race": ""
+        },
+        "generatedBy": "taxonomy-introduction"
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

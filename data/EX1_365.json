@@ -112,6 +112,13 @@
         "changes": {
           "text": "카드를 뽑고<br>그 카드의 비용만큼 피해를 줍니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

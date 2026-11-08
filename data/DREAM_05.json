@@ -96,6 +96,13 @@
         "changes": {
           "text": "하수인에게 +5/+5를 부여하고, 나의 다음 턴이 시작될 때 처치합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

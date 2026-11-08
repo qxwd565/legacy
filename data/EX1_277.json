@@ -110,6 +110,13 @@
         "changes": {
           "text": "적 캐릭터들에게 $3의 피해를 무작위로 나누어 입힙니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

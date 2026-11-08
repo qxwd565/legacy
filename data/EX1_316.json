@@ -119,6 +119,13 @@
         "changes": {
           "text": "[x]아군 하수인 하나에게<br>+4/+4를 부여합니다.<br>턴이 끝나면 그 하수인은<br>죽습니다. 처참하게."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

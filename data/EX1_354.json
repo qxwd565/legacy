@@ -111,6 +111,13 @@
         "changes": {
           "text": "생명력을 #8 회복시킵니다.<br>카드를 3장 뽑습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

@@ -121,6 +121,13 @@
         "changes": {
           "text": "<b>선택 -</b> 하수인에게 피해를 $3 줍니다.<br>또는 피해를 $1 주고 카드를 뽑습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

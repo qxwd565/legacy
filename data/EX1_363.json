@@ -111,6 +111,13 @@
         "changes": {
           "text": "[x]하수인을 선택합니다.<br>그 하수인이 공격할<br>때마다 카드를 뽑습니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

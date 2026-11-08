@@ -88,6 +88,13 @@
         "changes": {
           "text": "<b>생명력 흡수</b><br>무작위 적 하수인 둘에게 피해를 $2 줍니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

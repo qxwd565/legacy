@@ -116,6 +116,13 @@
         "changes": {
           "text": "공격력이 5 이상인 하수인을<br>처치합니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ],
     "releasedAt": "2013-08-17",

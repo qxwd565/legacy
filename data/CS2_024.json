@@ -131,6 +131,13 @@
         "changes": {
           "text": "[x]캐릭터에게<br>피해를 $3 주고<br><b>빙결</b> 상태로 만듭니다."
         }
+      },
+      {
+        "before": "2021-03-26",
+        "changes": {
+          "spellSchool": ""
+        },
+        "generatedBy": "taxonomy-introduction"
       }
     ]
   },
