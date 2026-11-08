@@ -1,0 +1,502 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "description": "Verified numeric balance patches absent from Legacy forward chronology. Existing recorded changes are never overwritten; apply in addition to prior patches. Dates denote Korea calendar days.",
+  "sources": {
+    "2013-10-03": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.3890",
+    "2013-12-11": "https://hearthstone.blizzard.com/en-us/news/11868609/hearthstone-closed-beta-patch-notes-1-0-0-4217-become-a-legend",
+    "2013-12-19": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.4243",
+    "2014-01-17": "https://hearthstone.blizzard.com/en-gb/news/12346803/hearthstone-closed-beta-patch-notes-1004458",
+    "2014-03-12": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.4944",
+    "2014-09-23": "https://hearthstone.wiki.gg/wiki/Patch_1.2.0.6485",
+    "2016-10-04": "https://hearthstone.wiki.gg/wiki/Charge_%28card%29",
+    "2018-10-19": "https://hearthstone.wiki.gg/wiki/Mana_Wyrm",
+    "2021-03-26": "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
+    "2023-04-05": "https://hearthstone.wiki.gg/wiki/Patch_26.0.0.170824",
+    "2023-08-23": "https://hearthstone.wiki.gg/wiki/Mana_Wyrm",
+    "2023-09-29": "https://hearthstone.wiki.gg/wiki/Tirion_Fordring",
+    "2024-05-24": "https://hearthstone.wiki.gg/wiki/Molten_Giant",
+    "2025-03-19": "https://hearthstone.wiki.gg/wiki/Molten_Giant"
+  },
+  "cards": {
+    "EX1_616": {
+      "baseline": {
+        "attack": 1,
+        "health": 3
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 2,
+            "health": 2
+          }
+        }
+      ]
+    },
+    "CS2_181": {
+      "baseline": {
+        "attack": 3
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 4
+          }
+        }
+      ]
+    },
+    "EX1_100": {
+      "baseline": {
+        "attack": 1
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 0
+          }
+        }
+      ]
+    },
+    "EX1_577": {
+      "baseline": {
+        "attack": 10,
+        "health": 6
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 9,
+            "health": 7
+          }
+        }
+      ]
+    },
+    "EX1_043": {
+      "baseline": {
+        "attack": 1
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 4
+          }
+        }
+      ]
+    },
+    "NEW1_024": {
+      "baseline": {
+        "health": 5
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "health": 4
+          }
+        }
+      ]
+    },
+    "EX1_582": {
+      "baseline": {
+        "attack": 2
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "attack": 1
+          }
+        }
+      ]
+    },
+    "NEW1_016": {
+      "baseline": {
+        "health": 2
+      },
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "health": 1
+          }
+        }
+      ]
+    },
+    "CS2_237": {
+      "baseline": {
+        "health": 2
+      },
+      "patches": [
+        {
+          "date": "2013-12-11",
+          "changes": {
+            "health": 1
+          }
+        },
+        {
+          "date": "2014-09-23",
+          "changes": {
+            "cost": 5,
+            "attack": 3,
+            "health": 2
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 2,
+            "attack": 2,
+            "health": 1
+          }
+        }
+      ]
+    },
+    "EX1_067": {
+      "baseline": {
+        "health": 3
+      },
+      "patches": [
+        {
+          "date": "2013-12-11",
+          "changes": {
+            "health": 2
+          }
+        }
+      ]
+    },
+    "EX1_019": {
+      "baseline": {
+        "health": 3
+      },
+      "patches": [
+        {
+          "date": "2013-12-11",
+          "changes": {
+            "health": 2
+          }
+        }
+      ]
+    },
+    "CS2_028": {
+      "patches": [
+        {
+          "date": "2013-12-19",
+          "changes": {
+            "cost": 6
+          }
+        }
+      ]
+    },
+    "EX1_275": {
+      "patches": [
+        {
+          "date": "2013-12-19",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "EX1_093": {
+      "patches": [
+        {
+          "date": "2014-01-17",
+          "changes": {
+            "attack": 2
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 3
+          }
+        }
+      ]
+    },
+    "EX1_015": {
+      "baseline": {
+        "health": 2
+      },
+      "patches": [
+        {
+          "date": "2014-01-17",
+          "changes": {
+            "health": 1
+          }
+        }
+      ]
+    },
+    "CS2_059": {
+      "baseline": {
+        "attack": 1
+      },
+      "patches": [
+        {
+          "date": "2014-01-17",
+          "changes": {
+            "attack": 0
+          }
+        }
+      ]
+    },
+    "EX1_083": {
+      "baseline": {
+        "attack": 2,
+        "health": 2
+      },
+      "patches": [
+        {
+          "date": "2014-03-12",
+          "changes": {
+            "attack": 3,
+            "health": 3
+          }
+        }
+      ]
+    },
+    "NEW1_012": {
+      "patches": [
+        {
+          "date": "2018-10-19",
+          "changes": {
+            "cost": 2
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 1,
+            "health": 2
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "health": 3
+          }
+        }
+      ]
+    },
+    "CS2_103": {
+      "patches": [
+        {
+          "date": "2016-10-04",
+          "changes": {
+            "cost": 1
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "CS2_222": {
+      "baseline": {
+        "attack": 6,
+        "health": 6
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 7,
+            "health": 7
+          }
+        }
+      ]
+    },
+    "EX1_399": {
+      "baseline": {
+        "health": 7
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "health": 8
+          }
+        }
+      ]
+    },
+    "EX1_110": {
+      "baseline": {
+        "attack": 4
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 5
+          }
+        }
+      ]
+    },
+    "EX1_110t": {
+      "baseline": {
+        "attack": 4
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 5
+          }
+        }
+      ]
+    },
+    "EX1_249": {
+      "baseline": {
+        "health": 5
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "health": 7
+          }
+        }
+      ]
+    },
+    "NEW1_010": {
+      "baseline": {
+        "health": 5
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "health": 6
+          }
+        }
+      ]
+    },
+    "EX1_304": {
+      "baseline": {
+        "health": 3
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "health": 4
+          }
+        }
+      ]
+    },
+    "EX1_187": {
+      "baseline": {
+        "attack": 5,
+        "health": 5
+      },
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 4,
+            "health": 8
+          }
+        }
+      ]
+    },
+    "NEW1_008": {
+      "baseline": {
+        "attack": 5,
+        "health": 5
+      },
+      "patches": [
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "attack": 7,
+            "health": 7
+          }
+        }
+      ]
+    },
+    "EX1_534": {
+      "baseline": {
+        "attack": 6
+      },
+      "patches": [
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "attack": 7
+          }
+        }
+      ]
+    },
+    "CS2_094": {
+      "baseline": {
+        "cost": 4
+      },
+      "patches": [
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "CS2_093": {
+      "baseline": {
+        "cost": 4
+      },
+      "patches": [
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "EX1_383": {
+      "baseline": {
+        "attack": 6,
+        "health": 6
+      },
+      "patches": [
+        {
+          "date": "2023-09-29",
+          "changes": {
+            "attack": 8,
+            "health": 8
+          }
+        }
+      ]
+    },
+    "EX1_620": {
+      "patches": [
+        {
+          "date": "2024-05-24",
+          "changes": {
+            "cost": 22
+          }
+        },
+        {
+          "date": "2025-03-19",
+          "changes": {
+            "cost": 20
+          }
+        }
+      ]
+    }
+  }
+}
