@@ -7,7 +7,7 @@
 - `cards.json` — 워드프레스 관리자에서 가져오는 현재 카드 목록
 - `render.json` — WebGL·워드프레스 날짜 조회를 위한 **현재 카드 정보 + 변경 이력 통합 파일**
 - `art/` — 카드 원화
-- `golden/index.json`, `golden/cards/`, `golden/textures/` — 기본 세트의 하수인·주문·무기 165종을 포함한 원본 황금 원화 재질, 애니메이션 설정 및 텍스처. 카드 ID와 DBF ID가 모두 일치할 때만 사용합니다. 설치된 클라이언트에서 추출한 현행 황금 원화 자료이며, 과거 버전의 황금 효과를 보증하지 않습니다. 영웅 능력은 HSdeck 카드 렌더러의 지원 범위에 없어 포함하지 않습니다.
+- `golden/index.json`, `golden/cards/`, `golden/textures/` — 카드 ID와 DBF ID가 일치하는 현행 원본 황금 원화 재질, 애니메이션 설정 및 텍스처. 과거 버전의 황금 효과를 보증하지 않습니다. `golden/unavailable.json`은 원본 황금 재질을 확인하지 못한 카드를 기록합니다. 영웅 능력 자료도 보관하지만 현재 HSdeck 카드 렌더러는 영웅 능력을 표시하지 않습니다.
 - `tools/migrate-chronology.py` — 과거의 역방향 이력을 최초 스펙+전진형 변경점으로 일회성 변환하는 도구
 - `tools/build-api.py` — 위 원본 스펙과 변경점을 적용해 최신 카드 목록 및 이전 플러그인 호환 이력을 자동 생성하는 도구
 - `tools/test-chronology.py` — 카드별 스펙과 생성 결과의 일치 여부 확인
