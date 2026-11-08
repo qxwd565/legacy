@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "card": {
     "id": "EDR_100t6",
@@ -10,9 +10,7 @@
     "nativeSetId": 1946,
     "set": "LEGACY",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
-    "spellSchool": "",
+    "rarity": "FREE",
     "cost": 0,
     "attack": 0,
     "health": 0,
@@ -51,7 +49,8 @@
     "nativeRawText": "<b>돌진</b>",
     "nativeTextBuilder": 0,
     "releasedAt": "2025-03-26",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

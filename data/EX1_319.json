@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Flame Imp",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_319",
     "name": "화염 임프",
-    "text": "<b>전투의 함성</b>: 내 영웅에게 피해를 3 줍니다.",
+    "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "COMMON",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "임프들은 불타는 걸 좋아합니다. 그냥 좋아합니다.",
-    "spellSchool": "",
     "portrait": "W7_009_D.psd:1309ae568d292e14ebf8994aa2e6563d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -123,26 +123,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 2 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2021-03-26",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅에게 피해를 3 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성</b>: 내 영웅에게 피해를 3 줍니다."
         }
       }
     ]

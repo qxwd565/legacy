@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Plaguebringer",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_191",
     "name": "역병인도자",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "언데드",
+    "race": "",
     "flavor": "퓨트리스 위인전을 읽고 감명을 받았나 보군요.",
-    "spellSchool": "",
     "portrait": "CLA-016.psd:fcc71d0788e94226a4c63f0ed4f383e7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,21 +93,27 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인에게<br><b>독성</b>을 부여합니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>독성</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

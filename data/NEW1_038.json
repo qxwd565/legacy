@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gruul",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_038",
     "name": "그룰",
-    "text": "각 턴이 끝날 때, +1/+1을 얻습니다.",
+    "text": "각 턴이 끝날 때마다 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "그룰은 \"용 학살자\"입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.",
-    "spellSchool": "",
     "portrait": "W17_a162_D.psd:a572b9546d9ce6045997c4454e5b6a83",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,19 +89,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "각 턴이 끝날 때마다 +1/+1을 얻습니다."
+          "text": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "text": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다."
+          "text": "각 턴이 끝날 때, +1/+1을 얻습니다."
         }
       }
     ]

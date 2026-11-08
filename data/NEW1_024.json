@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Captain Greenskin",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_024",
     "name": "선장 그린스킨",
-    "text": "<b>전투의 함성:</b> 내 무기에 +1/+1을 부여합니다.",
+    "text": "당신이 영웅으로 공격할 때마다 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "그 말썽장이 아이들만 아니었다면, 거대한 전함을 끌고 스톰윈드 항구로 쳐들어갈 뻔했습니다.",
-    "spellSchool": "",
     "portrait": "W8_131_D.psd:4495c3736627cc34aaa17c9e745536c6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,12 +98,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신이 영웅으로 공격할 때마다 카드를 한 장 뽑습니다."
+          "text": "<b>전투의 함성:</b> 내 무기에 +1/+1을 부여합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Thick Hide",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_155b",
-    "name": "두터운 가죽",
-    "text": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다.",
+    "name": "자연의 징표",
+    "text": "생명력 +4와 <b>도발</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS17-090.psd:a1c6b9b1d5ff49cea7a4657a7829e0a0",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,20 +71,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2019-04-05",
+        "date": "2019-04-05",
         "changes": {
-          "name": "자연의 징표",
-          "text": "생명력 +4와 <b>도발</b>을 부여합니다."
+          "name": "두터운 가죽"
         }
       },
       {
-        "from": "2019-04-05",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "생명력 +4와 <b>도발</b>을 부여합니다."
+          "text": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다."
         }
       }
     ]

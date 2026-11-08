@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Treant",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_573t",
     "name": "나무정령",
@@ -30,10 +30,8 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W16_a032_D.psd:e84bb24fec9410c4f819eb10b2af0342",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -81,7 +79,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

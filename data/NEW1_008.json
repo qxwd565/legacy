@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient of Lore",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_008",
     "name": "지식의 고대정령",
-    "text": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 #7 회복시킵니다.",
+    "text": "<b>선택 -</b> 카드를 두 장 뽑습니다. 또는 생명력을 8 회복시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "기념으로 이름 새기셔야죠?",
-    "spellSchool": "",
     "portrait": "Fan_Art_Entries_1287955529201_D.psd:7040ef1e547891245b0613d45daed3a2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,40 +84,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>선택 -</b> 카드를 두 장 뽑습니다. 또는 생명력을 8 회복시킵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-04-25",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 5 회복시킵니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2018-08-03",
+        "date": "2016-04-25",
         "changes": {
           "text": "<b>선택 -</b> 카드를 1장 뽑습니다. 또는 생명력을 5 회복시킵니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2018-10-03",
+        "date": "2018-08-03",
         "changes": {
           "text": "<b>선택 -</b> 카드를 1장 뽑습니다. 또는 생명력을 #5 회복시킵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>선택 -</b> 카드를 뽑습니다. 또는 생명력을 #5 회복시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 #7 회복시킵니다."
         }
       }
     ]

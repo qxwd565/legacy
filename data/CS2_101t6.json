@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Silver Hand Recruit",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_101t6",
     "name": "은빛 성기사단 신병",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "드레나이",
+    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS30-113_M.tif:07fed5cce10944308d8eb7b9ba48aeb6",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,14 +83,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2024-10-30",
+        "date": "2024-10-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "드레나이"
+        }
       }
     ]
   },

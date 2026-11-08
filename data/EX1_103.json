@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Coldlight Seer",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_103",
     "name": "시린빛 예언자",
-    "text": "[x]<b>전투의 함성:</b> 내 다른\n멀록들에게 생명력을\n+2 부여합니다.",
+    "text": "<b>전투의 함성:</b> 다른 모든 멀록에게 생명력을 +2 부여합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "멀록",
+    "race": "MURLOC",
     "flavor": "시린빛 멀록들은 심연의 나락 가장 깊은 곳에 삽니다. 즉, 이들을 봤다는 것은 도망칠 곳도 없다는 뜻이죠.",
-    "spellSchool": "",
     "portrait": "W16_a207_D.psd:d68f52a242a7b5a46afe0346948300af",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,40 +98,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 다른 모든 멀록에게 생명력을 +2 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 멀록에게 생명력을 +2 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-10-21",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 멀록에게 생명력을<br>+2 부여합니다."
         }
       },
       {
-        "from": "2016-10-21",
-        "before": "2016-11-30",
+        "date": "2016-10-21",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 내 다른<br> 멀록들에게 생명력을<br>+2 부여합니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2021-03-26",
+        "date": "2016-11-30",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 내 다른<br>멀록들에게 생명력을<br>+2 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 내 다른\n멀록들에게 생명력을\n+2 부여합니다."
         }
       }
     ]

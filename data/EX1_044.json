@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Questing Adventurer",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_044",
     "name": "퀘스트 중인 모험가",
-    "text": "내가 카드를 낼 때마다 +1/+1을 얻습니다.",
+    "text": "당신이 카드를 낼 때마다 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"멧돼지 모피 남으시는 분? 마지막 1개가 안나오네요.\"",
-    "spellSchool": "",
     "portrait": "wow_misc_028_D.psd:826335b1e6891ff48b0a95c680fcc180",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,12 +94,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신이 카드를 낼 때마다 +1/+1을 얻습니다."
+          "text": "내가 카드를 낼 때마다 +1/+1을 얻습니다."
         }
       }
     ]

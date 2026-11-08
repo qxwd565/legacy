@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "I Am Murloc",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001a",
     "name": "나는야 멀록",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다."
         }
       }
     ]

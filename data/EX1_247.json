@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stormforged Axe",
   "card": {
@@ -14,15 +14,15 @@
     "health": 3,
     "attack": 2,
     "armor": 0,
-    "durability": 3,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_247",
     "name": "폭풍으로 벼려낸 도끼",
@@ -31,9 +31,7 @@
     "type": "WEAPON",
     "cardClass": "SHAMAN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "폭풍에 맞은 듯한 충격을 대뇌의 전두엽까지 전해드립니다.",
-    "spellSchool": "",
     "portrait": "W16_a246_D.psd:ee91ff348e3578541828ca42be8dd2a6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

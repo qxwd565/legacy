@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Far Sight",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_053",
     "name": "천리안",
-    "text": "카드를 뽑습니다. 그 카드의 비용이\n(3) 감소합니다.",
+    "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "드렉타르는 앞을 볼 수 없습니다. 하지만 잘 보인다고 하는군요. 뭔 소리냐고요? 글쎄요.",
-    "spellSchool": "",
     "portrait": "W13_275_D.psd:6426eb0aa1730bb4dbe17e6babae99e1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,26 +76,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2018-10-03",
+        "date": "2013-10-03",
         "changes": {
           "text": "카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "카드를 뽑습니다. 그 카드의 비용이<br>(3) 감소합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "카드를 뽑습니다. 그 카드의 비용이\n(3) 감소합니다."
         }
       }
     ]

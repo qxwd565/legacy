@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Healing Totem",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_009",
     "name": "치유 토템",
-    "text": "내 턴이 끝날 때, 모든 아군 하수인의 생명력을 #1 회복시킵니다.",
+    "text": "당신의 턴이 끝날 때, 모든 아군 캐릭터의 생명력을 1 회복시킵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
     "race": "토템",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W17_A170_D.psd:499261f62215f99408c998ccfd4b6ae5",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,19 +85,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 턴이 끝날 때, 모든 아군 캐릭터의 생명력을 1 회복시킵니다."
+          "text": "내 턴이 끝날 때, 모든 아군 하수인의 생명력을 1 회복시킵니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2018-08-03",
+        "date": "2018-08-03",
         "changes": {
-          "text": "내 턴이 끝날 때, 모든 아군 하수인의 생명력을 1 회복시킵니다."
+          "text": "내 턴이 끝날 때, 모든 아군 하수인의 생명력을 #1 회복시킵니다."
         }
       }
     ]

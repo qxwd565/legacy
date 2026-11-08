@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Booty Bay Bodyguard",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_187",
     "name": "무법항 경호원",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "골드만 있다면 당신 곁에 있어줄 겁니다. 물론, 상대보다 많아야겠죠.",
-    "spellSchool": "",
     "portrait": "W7_183_D.psd:48c6ca93ebd53f14aa31231db47cea10",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

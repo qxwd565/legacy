@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Force of Nature",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 358,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 5,
+    "cost": 6,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_571",
     "name": "자연의 군대",
-    "text": "2/2 나무정령을 셋 소환합니다.",
+    "text": "<b>돌진</b>을 가진 2/2 나무정령을 셋 소환합니다. 이들은 당신의 턴이 끝날 때 모두 죽습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "\"이 나무들 밑에서 한숨 자야겠어. 잠깐... 으아아아아악!\" - 운 나쁜 노움, 블링크피즈",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W3_098_D.psd:7a2aa71f8197fec42acc6a59d4262bb3",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -89,44 +85,35 @@
     ],
     "nativeRawText": "2/2 나무정령을 셋 소환합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2016-04-25",
-        "changes": {
-          "cost": 6
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>돌진</b>을 가진 2/2 나무정령을 셋 소환합니다. 이들은 당신의 턴이 끝날 때 모두 죽습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b> 능력이 있는 2/2 나무정령을 3마리 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>돌진</b> 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2016-04-25",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "cost": 5,
+          "text": "2/2 나무정령을 셋 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ysera",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_572",
     "name": "이세라",
-    "text": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다.",
+    "text": "당신의 턴이 끝날 때, 꿈 카드를 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "이세라는 에메랄드의 꿈을 지배합니다. 에메랄드의 꿈이 어떻냐고요? 실제 세상의 녹색 버전이랄까요?",
-    "spellSchool": "",
     "portrait": "R8_A003_D.psd:e5d3a1bafe2a89b47bb94d82c535e0ae",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,40 +113,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때, 꿈 카드를 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때,<br><b>꿈 카드</b>를 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 턴이 끝날 때,<br><b>꿈 카드</b>를 1장 뽑습니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2018-10-03",
+        "date": "2015-04-01",
         "changes": {
           "text": "내 턴이 끝날 때,<br><b>꿈 카드</b> 1장을 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 턴이 끝날 때, <b>꿈_카드</b>를 내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다."
         }
       }
     ]

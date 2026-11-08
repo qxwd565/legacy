@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Malygos the Spellweaver",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_034",
     "name": "마법의 지배자 말리고스",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "용족",
     "flavor": "수많은 해가 지나고, 말리고스는 필멸자들의 마법 사용을 허가했습니다. 모든 마법을요!",
-    "spellSchool": "",
     "portrait": "CLA-052_M.tif:7d9d517b28b240d1aed97709d92dc841",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -107,7 +104,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b>\n내 손이 가득 찰 때까지\n주문을 뽑습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

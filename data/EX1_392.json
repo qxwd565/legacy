@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Battle Rage",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_392",
     "name": "전투 격노",
-    "text": "피해를 받은 아군 캐릭터의 수만큼 카드를 뽑습니다.",
+    "text": "피해를 입은 하수인의 수만큼 카드를 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"날 화나게 하지마. 분명 후회할걸?\"",
-    "spellSchool": "",
     "portrait": "WOW_ACT_056_D.psd:a07aa29578a2d4641b965642d8a44d87",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,26 +76,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 입은 하수인의 수만큼 카드를 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "피해를 입은 캐릭터의 수만큼 카드를 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2017-08-09",
+        "date": "2013-12-11",
         "changes": {
           "text": "피해를 입은 아군 캐릭터의 수만큼 카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2017-08-09",
+        "changes": {
+          "text": "피해를 받은 아군 캐릭터의 수만큼 카드를 뽑습니다."
         }
       }
     ]

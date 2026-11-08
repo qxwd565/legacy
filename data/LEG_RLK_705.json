@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Graveyard Shift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_705",
     "name": "무덤 순찰",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"애초에 여긴 왜 돌게 하는 거야? 죽은 것밖에 없는데!\"",
-    "spellSchool": "",
     "portrait": "HS27-005_S.tif:fa84270f6e894c9295d260b16c85b720",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -90,7 +85,8 @@
     "nativeRawText": "<b>환생</b> 능력이 있는 1/1 좀비를\n둘 소환합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

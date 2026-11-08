@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Soulfire",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 1,
+    "cost": 0,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_308",
     "name": "영혼의 불꽃",
-    "text": "[x]피해를 $4 줍니다.\n무작위로 카드를\n버립니다.",
+    "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
-    "race": "",
     "flavor": "상대의 영혼에 불을 지르는 걸까요? 아니면 자신의 영혼으로 상대에게 불을 지르는 걸까요? 비슷해 보이지만 정말 중요한 차이입니다.",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "W9_A118_D.psd:e6ad371f9bb9fd14f854b8774d498aa9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,58 +90,47 @@
     ],
     "nativeRawText": "[x]피해를 $4 줍니다.\n무작위로 카드를\n버립니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2014-12-05",
+        "date": "2014-12-05",
         "changes": {
-          "cost": 0
+          "cost": 1
         }
       },
       {
-        "from": "2013-08-17",
-        "before": "2015-04-01",
-        "changes": {
-          "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."
-        }
-      },
-      {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "피해를 $4 줍니다. 무작위로 선택된 카드 1장을 버립니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]피해를 $4 줍니다.<br>무작위로 카드를<br>1장 버립니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]피해를 $4 줍니다.<br>무작위로 카드를<br>버립니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]피해를 $4 줍니다.\n무작위로 카드를\n버립니다.",
+          "spellSchool": "FIRE"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

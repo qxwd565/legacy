@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Power Overwhelming",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_316",
     "name": "압도적인 힘",
-    "text": "아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.",
+    "text": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "얼마나 처참하게 죽는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W7_129_D.psd:16db2bd361a52dd47890bb2e9384ed5d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,41 +87,36 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "아군 하수인 하나에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-07-11",
+        "date": "2016-08-10",
         "changes": {
           "text": "아군 하수인 하나에게 +4/+4를 부여합니다.<br>턴이 끝나면 그 하수인은 죽습니다. 처참하게."
         }
       },
       {
-        "from": "2017-07-11",
-        "before": "2018-10-03",
+        "date": "2017-07-11",
         "changes": {
           "text": "[x]아군 하수인 하나에게<br>+4/+4를 부여합니다.<br>턴이 끝나면 그 하수인은<br>죽습니다. 처참하게."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

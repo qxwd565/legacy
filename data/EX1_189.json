@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Brightwing",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_189",
     "name": "빛나래",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "용족",
     "flavor": "\"죽고 나면 안 아플 거야!\"",
-    "spellSchool": "",
     "portrait": "CLA-015.psd:00d4562ceda94c338291401c09a39caa",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,12 +95,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>무작위 <b>전설</b> 하수인을<br>내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다."
         }
       }
     ]

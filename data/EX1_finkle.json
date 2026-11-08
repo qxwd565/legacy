@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Pip Quickwit",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_finkle",
-    "name": "핍 퀵위트",
+    "name": "핑클 아인혼",
     "text": "",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W2_304_D.psd:e510adc5eea5aeb4d8770339e1ea970c",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -91,12 +86,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "name": "핑클 아인혼"
+          "name": "핍 퀵위트"
         }
       }
     ]

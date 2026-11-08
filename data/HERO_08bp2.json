@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Fireblast Rank 2",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_08bp2",
     "name": "강화된 화염 작렬",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "MAGE",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "Mage_power2_D.psd:32f597e23ee96504599f16ce0da87dba",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "<b>영웅 능력</b><br>피해를 $2 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n피해를 $2 줍니다."
         }
       }
     ]

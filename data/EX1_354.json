@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lay on Hands",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
+    "cost": 8,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_354",
     "name": "신의 축복",
-    "text": "생명력을 #8 회복시킵니다.\n카드를 3장 뽑습니다.",
+    "text": "생명력을 8 회복시킵니다. 카드를 세 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "당신의 목숨을 구해줄 단 한 장의 축복 같은 카드입니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W13_241_D.psd:b1499fb34e18c8d42913de49a1400b56",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,44 +80,35 @@
     ],
     "nativeRawText": "생명력을 #8 회복시킵니다.\n카드를 3장 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2023-08-23",
-        "changes": {
-          "cost": 8
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "생명력을 8 회복시킵니다. 카드를 세 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "생명력을 #8 회복시킵니다. 카드를 3장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "생명력을 #8 회복시킵니다.<br>카드를 3장 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "생명력을 #8 회복시킵니다.\n카드를 3장 뽑습니다.",
+          "spellSchool": "HOLY"
+        }
+      },
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "cost": 6
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

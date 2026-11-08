@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Huffer",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_034",
     "name": "킁킁이",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "야수",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W19_a206_D.psd:73d750a16f6e1cb48afe139077ce3d36",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -83,7 +80,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

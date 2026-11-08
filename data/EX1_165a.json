@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Cat Form",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "RUSH"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_165a",
     "name": "표범 변신",
-    "text": "<b>속공</b>",
+    "text": "<b>돌진</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W12_A087a_D.tif:240adced3e77c4546ae18beffacdcaeb",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -103,12 +103,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>돌진</b>"
+          "text": "<b>속공</b>"
         }
       }
     ]

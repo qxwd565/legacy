@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Silvermoon Guardian",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DIVINE_SHIELD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_023",
     "name": "실버문 수호병",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "수호병들이 처음 스컬지로부터 실버문을 지키려 했을 때는 결과가 좋지 않았습니다...",
-    "spellSchool": "",
     "portrait": "W11_099_D.psd:d863c13dabc938c42a87afc1a73918a5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

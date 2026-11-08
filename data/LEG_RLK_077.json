@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Possessifier",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_077",
     "name": "정신지배자",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "최고를 꺾고, 최고가 되어, 나머지를 지배합니다.",
-    "spellSchool": "",
     "portrait": "HS27-016_M.tif:c617314b3c1e4675ad7362c7c7ca1821",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -115,7 +110,8 @@
     "nativeRawText": "<b>전투의 함성:</b>\n<b>속공</b>과 <b>환생</b> 능력이 있는 1/1 싸움꾼을 둘 소환합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

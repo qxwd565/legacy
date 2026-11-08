@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Repulsive Gargantuan",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_115",
     "name": "역겨운 거수",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
-    "race": "언데드",
+    "race": "",
     "flavor": "\"엄마! 애들이 나 역겹다고 놀려!\"",
-    "spellSchool": "",
     "portrait": "CLA-079_M.tif:ffc6b3bdc75d4097b3aa77849deb070e",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,14 +98,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

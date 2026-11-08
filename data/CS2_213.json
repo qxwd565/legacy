@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Reckless Rocketeer",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_213",
     "name": "못 말리는 로켓병",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "폭발물로 가득한 로켓으로 무장한 미치광이 로켓병이라니! 와! 신난다!",
-    "spellSchool": "",
     "portrait": "Goblinrocket2_D.psd:3878ae0d4f9b441409cb93e9e0ae3e35",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

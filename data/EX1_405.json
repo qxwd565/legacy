@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shieldbearer",
   "card": {
@@ -20,11 +20,10 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
+    "races": [],
+    "mechanics": [
+      "TAUNT"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_405",
     "name": "방패병",
@@ -33,9 +32,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "드레나이",
+    "race": "",
     "flavor": "이 게임 속 방패 크기를 생각해 보면, 방패병 일이 쉽지만은 않을 겁니다.",
-    "spellSchool": "",
     "portrait": "W5_186_D.psd:434e4d503a1a61145a553fd996fc9f28",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,14 +96,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2024-10-30",
+        "date": "2024-10-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "DRAENEI"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dread Corsair",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_022",
     "name": "공포의 해적",
-    "text": "[x]<b>도발</b>\n내 무기의 공격력만큼\n비용이 감소합니다.",
+    "text": "<b>도발.</b> 당신의 무기 공격력만큼 비용이 감소합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "\"야아아르\"는 해적 말로 \"안녕하십니까\"라는 뜻입니다.",
-    "spellSchool": "",
     "portrait": "W2_229_D.psd:a32466c140a863e4ebd6344d99b7ff92",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,26 +93,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>도발.</b> 당신의 무기 공격력만큼 비용이 감소합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>도발.</b> 내 무기의 공격력만큼 비용이 감소합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>도발</b><br>내 무기의 공격력만큼<br>비용이 감소합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>도발</b>\n내 무기의 공격력만큼\n비용이 감소합니다."
         }
       }
     ]

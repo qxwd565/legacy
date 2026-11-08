@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Crimson Clergy",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_014",
     "name": "진홍십자군 성직자",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "실수하는 법이 없습니다.",
-    "spellSchool": "",
     "portrait": "CLA-022_M.tif:71ae8bca0264452ca4cbd9fd0e4dde33",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -90,7 +85,8 @@
     "nativeRawText": "<b>초과 치유:</b> 카드를 뽑습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ravenholdt Assassin",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "STEALTH"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_161",
     "name": "라벤홀트 암살자",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "이름과 10,000 골드를 동봉하세요. 나머지는 그가 알아서 처리할 겁니다.",
-    "spellSchool": "",
     "portrait": "W10_A098_D.psd:529789b7ecbb37e4a87301417e9cabe6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +99,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

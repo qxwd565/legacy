@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Savannah Highmane",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_534",
     "name": "사바나 사자",
-    "text": "<b>죽음의 메아리:</b>\n2/2 하이에나를\n2마리 소환합니다.",
+    "text": "<b>죽음의 신음:</b> 2/2 하이에나를 둘 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "밀림에 사자가 없으면 하이에나가 왕이지요.",
-    "spellSchool": "",
     "portrait": "W20_a157_D.psd:89f97c70696054742b0d3d5432b213c6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,26 +103,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 2/2 하이에나를 둘 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 2/2 하이에나를 2마리 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>2/2 하이에나를<br>2마리 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b>\n2/2 하이에나를\n2마리 소환합니다."
         }
       }
     ]

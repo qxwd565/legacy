@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Worthless Imp",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_317t",
     "name": "쓸모없는 임프",
@@ -32,10 +30,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "rarity": null,
-    "race": "악마",
+    "rarity": "FREE",
+    "race": "DEMON",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "w20_a067_D.psd:7ae9db4cfacd0a14f8a407bf12cd2a00",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -83,7 +80,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

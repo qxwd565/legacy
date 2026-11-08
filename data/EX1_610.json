@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Explosive Trap",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_610",
     "name": "폭발의 덫",
-    "text": "[x]<b>비밀:</b> 내 영웅이\n공격받으면, 모든 적에게\n피해를 $2 줍니다.",
+    "text": "<b>비밀:</b> 당신의 영웅이 공격받으면 모든 적에게 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "먹잇감을 잡아둘 뿐만 아니라 맛있게 구워줍니다!",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "W5_185_D.psd:5d018158f31cb90428987ec819c4fd66",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,41 +85,31 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 당신의 영웅이 공격받으면 모든 적에게 피해를 2 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 공격받으면 모든 적에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 공격받으면, 모든 적에게 피해를 $2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>비밀:</b> 내 영웅이<br>공격받으면, 모든 적에게<br>피해를 $2 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]<b>비밀:</b> 내 영웅이\n공격받으면, 모든 적에게\n피해를 $2 줍니다.",
+          "spellSchool": "FIRE"
+        }
       }
     ]
   },

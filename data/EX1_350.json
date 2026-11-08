@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Prophet Velen",
   "card": {
@@ -20,22 +20,17 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_350",
     "name": "예언자 벨렌",
-    "text": "내 주문과 영웅 능력의 피해량과 치유량을 2배 증가시킵니다.",
+    "text": "당신 주문의 피해량과 치유량을 두 배 증가시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "LEGENDARY",
-    "race": "드레나이",
+    "race": "",
     "flavor": "고향에서 추방당했고, 형제들은 사악하게 변했지만, 불만이 있는 것 같진 않네요.",
-    "spellSchool": "",
     "portrait": "Draenei2_D.psd:9ff3be88d6b986a4297f8af2cb08e016",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,21 +98,21 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신 주문의 피해량과 치유량을 두 배 증가시킵니다."
+          "text": "내 주문과 영웅 능력의 피해량과 치유량을 2배 증가시킵니다."
         }
       },
       {
-        "before": "2024-10-30",
+        "date": "2024-10-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "DRAENEI"
+        }
       }
     ]
   },

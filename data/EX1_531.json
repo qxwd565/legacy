@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Scavenging Hyena",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_531",
     "name": "청소부 하이에나",
-    "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+    "text": "야수가 죽을 때마다 +2/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...",
-    "spellSchool": "",
     "portrait": "W11_071_D.psd:e570844c84e716e499ab83edec23743f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,19 +93,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "야수가 죽을 때마다 +2/+1을 얻습니다."
+          "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다."
+        }
+      },
+      {
+        "date": "2016-04-25",
+        "changes": {
+          "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
         }
       }
     ]

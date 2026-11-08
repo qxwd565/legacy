@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Blood Knight",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_590",
     "name": "혈기사",
-    "text": "[x]<b>전투의 함성:</b> <b>모든</b>\n하수인의 <b>천상의 보호막</b>을\n흡수하여 보호막 하나당\n+3/+3을 얻습니다.",
+    "text": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.",
-    "spellSchool": "",
     "portrait": "W2_105_D.psd:9b8136959cbf0d744ae9b3d3f39013ce",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,47 +94,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>모든</b> 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-08-19",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>모든</b> 하수인의 <b>천상의 보호막</b>을 흡수하여, 보호막 1개당 +3/+3을 얻습니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>모든</b> 하수인의 <b>천상의 보호막</b>을 흡수하여 보호막 1개당 +3/+3을 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>모든</b> 하수인의 <b>천상의 보호막</b>을 흡수하여 보호막 하나당 +3/+3을 얻습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> <b>모든</b><br>하수인의 <b>천상의 보호막</b>을<br>흡수하여 보호막 하나당<br>+3/+3을 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> <b>모든</b>\n하수인의 <b>천상의 보호막</b>을\n흡수하여 보호막 하나당\n+3/+3을 얻습니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "River Crocolisk",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_120",
     "name": "민물악어",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "\"왼손잡이\" 에드워드 스미스에 의해 명품 가방이 될 뻔한 적이 있다는군요.",
-    "spellSchool": "",
     "portrait": "W9_A160_D.psd:3ee2c8413310cd341b38545dc36dd9da",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +85,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

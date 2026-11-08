@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gift of the Wild",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_183",
     "name": "야생의 선물",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "온 누리에 발바닥을!",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "CLA-010.psd:e38c13b279974f98a24ca2d28f2a37ec",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,13 +77,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

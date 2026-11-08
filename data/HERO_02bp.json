@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Totemic Call",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_02bp",
     "name": "토템 소환",
@@ -31,9 +28,7 @@
     "type": "HERO_POWER",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W11_138_D.psd:8bba5f9e9d6cbe94496db130c6fedc1a",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "<b>영웅 능력</b><br>무작위 토템을 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Murloc",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001at",
     "name": "멀록",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "멀록",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "Bestiary-final1_D.psd:2b7eb33e26d218547b9f39c8e16b110b",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -72,7 +69,8 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

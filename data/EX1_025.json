@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dragonling Mechanic",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_025",
     "name": "기계용 정비사",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "앙앙이에게 로켓 발사기를 장착하려고 요즘 고민 중입니다.",
-    "spellSchool": "",
     "portrait": "W2_265_D.psd:b64b9e832a54c7f4f8b0d61f1f8188c6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,19 +96,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 1마리 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>2/1 소형 기계용을<br>1마리 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Defender",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_130a",
     "name": "수호자",
@@ -32,10 +28,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PALADIN",
-    "rarity": null,
-    "race": "드레나이",
+    "rarity": "FREE",
+    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W6_219a_D.psd:83816c1c76decae469089af3845c5c14",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,14 +83,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2024-10-30",
+        "date": "2024-10-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "DRAENEI"
+        }
       }
     ]
   },

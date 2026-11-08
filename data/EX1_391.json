@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Slam",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 1,
+    "cost": 2,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_391",
     "name": "격돌",
-    "text": "하수인에게 피해를 $2 줍니다.\n그 하수인이 생존하면, 카드를 뽑습니다.",
+    "text": "하수인에게 피해를 $2 줍니다. 하수인이 생존하면, 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "난 딱 죽지 않을 만큼만 패지.",
-    "spellSchool": "",
     "portrait": "W6_002_D.psd:7892938171feeec4796e6fe08a46ae92",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -79,44 +74,40 @@
     ],
     "nativeRawText": "하수인에게 피해를 $2 줍니다.\n그 하수인이 생존하면, 카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2022-08-17",
-        "changes": {
-          "cost": 2
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인에게 피해를 $2 줍니다. 하수인이 생존하면, 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인에게 피해를 $2 줍니다. 하수인이 생존하면, 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 피해를 $2 줍니다. 그 하수인이 생존하면, 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "하수인에게 피해를 $2 줍니다.<br>그 하수인이 생존하면, 카드를 뽑습니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "하수인에게 피해를 $2 줍니다.\n그 하수인이 생존하면, 카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2022-08-17",
+        "changes": {
+          "cost": 1
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

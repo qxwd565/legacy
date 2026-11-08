@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "card": {
     "id": "EDR_100t2",
@@ -10,9 +10,7 @@
     "nativeSetId": 1946,
     "set": "LEGACY",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
-    "spellSchool": "",
+    "rarity": "FREE",
     "cost": 0,
     "attack": 0,
     "health": 0,
@@ -46,7 +44,8 @@
     "nativeRawText": "비용이 (2) 감소하지만, 공격력이 2 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2025-03-26",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Explosive Shot",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_537",
     "name": "폭발 사격",
-    "text": "하수인에게 피해를 $5 주고\n그 양옆의 하수인들에게 피해를 $2 줍니다.",
+    "text": "하수인에게 피해를 $5 주고 양옆의 하수인들에게 피해를 $2 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "안전핀을 제거하고 속으로 5까지 센 다음 쏘세요! 그리고 엎드리세요.",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "W11_207_D.psd:ca2a9457d8035ea45a105ff51c8ca22e",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,48 +82,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "하수인에게 피해를 $5 주고 양옆의 하수인들에게 피해를 $2 줍니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 피해를 $5 주고 그 양옆의 하수인들에게 피해를 $2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-12-07",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]하수인 하나에게<br>피해를 $5 주고<br>그 양옆의 하수인들에게<br> 피해를 $2 줍니다."
         }
       },
       {
-        "from": "2017-12-07",
-        "before": "2018-10-03",
+        "date": "2017-12-07",
         "changes": {
           "text": "[x]하수인 하나에게<br>피해를 $5 주고<br>그 양옆의 하수인들에게<br>피해를 $2 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "하수인에게 피해를 $5 주고<br>그 양옆의 하수인들에게 피해를 $2 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게 피해를 $5 주고\n그 양옆의 하수인들에게 피해를 $2 줍니다.",
+          "spellSchool": "FIRE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Glaivebound Adept",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_495",
     "name": "쌍날검 숙련자",
-    "text": "<b>전투의 함성:</b> 이번 턴에\n내 영웅이 공격했다면, 피해를 4 줍니다.",
+    "text": "<b>전투의 함성:</b> 이번 턴에<br>내 영웅이 공격했다면, 피해를 4 줍니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"수습생, 쌍날검은 너의 생명과도 같다. 쌍날검이 없으면 너도 없다고 생각하도록... 아니, 그걸 바로 던져버리면 어떡하나?!\"",
-    "spellSchool": "",
     "portrait": "HS19-017.tif:6a688ca7da9b4602be506332a5ea4f4d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b> 이번 턴에<br>내 영웅이 공격했다면, 피해를 4 줍니다."
+          "text": "<b>전투의 함성:</b> 이번 턴에\n내 영웅이 공격했다면, 피해를 4 줍니다."
         }
       }
     ]

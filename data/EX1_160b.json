@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Leader of the Pack",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_160b",
     "name": "무리의 우두머리",
-    "text": "내 하수인들에게 +1/+1을 부여합니다.",
+    "text": "당신의 모든 하수인에게 +1/+1을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS17-088.psd:80c601277cb1475a954021c849224e63",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -71,19 +66,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 모든 하수인에게 +1/+1을 부여합니다."
+          "text": "내 모든 하수인에게 +1/+1을 부여합니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "date": "2014-03-12",
         "changes": {
-          "text": "내 모든 하수인에게 +1/+1을 부여합니다."
+          "text": "내 하수인들에게 +1/+1을 부여합니다."
         }
       }
     ]

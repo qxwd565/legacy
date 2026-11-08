@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Kor'vas Bloodthorn",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_019",
     "name": "코르바스 블러드쏜",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "악마사냥꾼은 모든 것을 희생해야 한다고 일리단이 가르쳤습니다. 그녀는 혹시 몰라 생명력 흡수는 남겨두었죠.",
-    "spellSchool": "",
     "portrait": "CLA-041_M.tif:ef72b5aae2c84c5f8553c3447ee0b21f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -110,7 +105,8 @@
     "nativeRawText": "[x]<b>돌진</b>, <b>생명력 흡수</b>\n내가 <b>추방자</b> 카드를 낸 후에,\n이 하수인을 내 손으로\n다시 가져옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

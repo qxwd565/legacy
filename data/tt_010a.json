@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Spellbender",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "tt_010a",
     "name": "주문왜곡사",
-    "text": "",
+    "text": "<b></b> ",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W9_A039a_D.psd:dc1ebe52981c1c0439f71749c969e382",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,19 +71,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b></b> "
+          "text": "<b></b>"
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2014-07-23",
+        "date": "2014-07-23",
         "changes": {
-          "text": "<b></b>"
+          "text": ""
         }
       }
     ]

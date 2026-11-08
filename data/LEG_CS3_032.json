@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Onyxia the Broodmother",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_032",
     "name": "무리어미 오닉시아",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "용족",
     "flavor": "도트 더 넣어요! 도트! 도트 계속 넣으라고요!",
-    "spellSchool": "",
     "portrait": "CLA-050_M.tif:1e4fd9cf926e42d9b4a654f17c4fe2a6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -112,7 +109,8 @@
     "nativeRawText": "[x]각 턴이 끝날 때,\n내 전장을 1/1 새끼용으로\n가득 채웁니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

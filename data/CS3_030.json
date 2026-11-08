@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Warsong Outrider",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_030",
     "name": "전쟁노래 척후병",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "전쟁노래 부족에서는 척후병이 인싸입니다.",
-    "spellSchool": "",
     "portrait": "CLA-048_M.tif:98a9ebadedbc49a0a26a86b6fe476166",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>속공</b>",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

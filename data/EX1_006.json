@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Alarm-o-Bot",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "MECHANICAL"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_006",
     "name": "노움 자동경보기",
-    "text": "내 턴이 시작될 때,\n이 하수인이 내 손에 있는 무작위 하수인과 교체됩니다.",
+    "text": "당신의 턴이 시작될 때, 이 하수인이 당신의 손에 있는 다른 무작위 하수인과 교체됩니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "기계",
+    "race": "",
     "flavor": "삐뽀. 삐뽀. 삐뽀.",
-    "spellSchool": "",
     "portrait": "R7_a091_D.psd:f1fe348e70d3a884eadb18fb34ac5397",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -88,70 +86,63 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 시작될 때, 이 하수인이 당신의 손에 있는 다른 무작위 하수인과 교체됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인이 내 손에 있는 다른 무작위 하수인과 교체됩니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인이 내 손에 있는 다른 무작위 하수인 하나와 교체됩니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2014-12-05",
+        "changes": {
+          "races": [
+            "MECHANICAL"
+          ],
+          "race": "MECHANICAL"
+        }
+      },
+      {
+        "date": "2015-04-01",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인을 무작위로 선택된 내 손의 다른 하수인 하나와 교체합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-07-13",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인이 내 손에 있는 무작위 하수인 하나와 교체됩니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2016-08-10",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]내 턴이 시작될 때, 이 하수인이<br>내 손에 있는 무작위 하수인<br>하나와 교체됩니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인이 내 손에 있는 무작위 하수인 하나와 교체됩니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 턴이 시작될 때,<br>이 하수인이 내 손에 있는 무작위 하수인과 교체됩니다."
         }
       },
       {
-        "before": "2014-12-05",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 턴이 시작될 때,\n이 하수인이 내 손에 있는 무작위 하수인과 교체됩니다."
+        }
       }
     ]
   },

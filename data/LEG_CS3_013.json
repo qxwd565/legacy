@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadowed Spirit",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_013",
     "name": "어둠에 물든 영혼",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "언데드",
+    "race": "",
     "flavor": "모든 유령이 사악한 미소를 짓진 않습니다.",
-    "spellSchool": "",
     "portrait": "CLA-021_M.tif:9667a98e87244164bade22fe15a7ca4a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,14 +93,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

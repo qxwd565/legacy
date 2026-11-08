@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadowflame",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AFFECTED_BY_SPELL_POWER"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_303",
     "name": "암흑불길",
-    "text": "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
+    "text": "아군 하수인을 파괴하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "",
     "flavor": "강력한 하수인에 암흑불길을 살짝 섞어 주면, 행복한 시간을 보낼 수 있습니다!",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W5_044_D.psd:49601fa55c1e17f409391651b0232678",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,27 +95,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "아군 하수인을 파괴하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
+          "text": "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "아군 하수인 하나를 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

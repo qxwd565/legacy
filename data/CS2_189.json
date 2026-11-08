@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Elven Archer",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_189",
     "name": "엘프 궁수",
-    "text": "<b>전투의 함성:</b>\n피해를 1 줍니다.",
+    "text": "<b>전투의 함성:</b> 피해를 1 줍니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "그녀에게 작업 걸 생각 마세요. 머리에 화살 맞습니다.",
-    "spellSchool": "",
     "portrait": "W10_A109_D.psd:cd8ab22e67b64c34cb955183d9de8f52",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,19 +91,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "<b>전투의 함성:</b> 피해를 1 줍니다."
+          "text": "<b>전투의 함성:</b><br>피해를 1 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b><br>피해를 1 줍니다."
+          "text": "<b>전투의 함성:</b>\n피해를 1 줍니다."
         }
       }
     ]

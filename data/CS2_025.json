@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcane Explosion",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_025",
     "name": "신비한 폭발",
-    "text": "[x]모든 적 하수인에게\n피해를 $1 줍니다.",
+    "text": "모든 적 하수인에게 피해를 $1 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "위력에 비해 비용이 신비한 주문입니다.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W10_A176_D.psd:ea0c7de9182d597429d03b73701fed8b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +87,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-07-13",
-        "changes": {
-          "text": "모든 적 하수인에게 피해를 $1 줍니다."
-        }
-      },
-      {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]모든 적 하수인에게<br>피해를 $1 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]모든 적 하수인에게\n피해를 $1 줍니다.",
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

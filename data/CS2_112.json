@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcanite Reaper",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_112",
     "name": "아케이나이트 도끼",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "race": "",
     "flavor": "세월이 지나도 명품은 명품입니다.",
-    "spellSchool": "",
     "portrait": "WOW_EQU_001_D.psd:4a0a5f3ccb87c02498b93900fd0f26ac",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,7 +86,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

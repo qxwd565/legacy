@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ethereal Arcanist",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_274",
     "name": "에테리얼 비전술사",
-    "text": "[x]내 턴이 끝날 때\n내 전장에 <b>비밀</b>이 있으면,\n+2/+2를 얻습니다.",
+    "text": "당신의 턴이 끝날 때 당신에게 <b>비밀</b>이 걸려 있으면 +2/+2를 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "에테리얼은 형체 없는 몸의 라인을 살리기 위해 붕대로 자신을 감쌉니다. 사실 붕대가 좀 따뜻하고 부드럽기도 하고요.",
-    "spellSchool": "",
     "portrait": "W20_a154_D.psd:1cd2b473539b3eb43928636332955860",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,33 +89,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때 당신에게 <b>비밀</b>이 걸려 있으면 +2/+2를 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때 내 영웅에게 <b>비밀</b>이 걸려 있으면 +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2019-08-02",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 턴이 끝날 때 내 영웅에게 <b>비밀</b>이 걸려 있으면, +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2019-08-02",
-        "before": "2021-03-26",
+        "date": "2019-08-02",
         "changes": {
           "text": "[x]내 턴이 끝날 때<br>내 전장에 <b>비밀</b>이 있으면,<br>+2/+2를 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]내 턴이 끝날 때\n내 전장에 <b>비밀</b>이 있으면,\n+2/+2를 얻습니다."
         }
       }
     ]

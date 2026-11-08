@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bananas",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_014t",
     "name": "바나나",
@@ -30,10 +27,8 @@
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "bananas2_D.psd:bb18e3f61795a8c4db20b9632c238a97",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 +1/+1을 부여합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인에게 +1/+1을 부여합니다."
         }
       }
     ]

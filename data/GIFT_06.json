@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Thrall's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_06",
     "name": "스랄의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"내가 손수 포장했다네!\" -스랄",
-    "spellSchool": "",
     "portrait": "HS31-126_S.tif:87fd8ba7e761475db7763b136a07e6f0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "[x]<b>일시적</b>인 번개 폭풍,\n사술 또는 피의 욕망을\n<b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

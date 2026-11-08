@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Summon a Panther",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_160a",
     "name": "표범 소환",
@@ -30,10 +27,8 @@
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS17-089.psd:5fc77a0c27ef469185a7313b555e72cd",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -71,12 +66,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "3/2 표범을 1마리 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "3/2 표범을 소환합니다."
         }
       }
     ]

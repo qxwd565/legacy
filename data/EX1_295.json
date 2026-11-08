@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ice Block",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_295",
     "name": "얼음 방패",
-    "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 받으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다.",
+    "text": "<b>비밀:</b> 당신의 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "얼음, 막음, 좋음!",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "WoW_TAL_011_D.psd:04a7589aad7db7743abb7be29c5ef8dc",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,34 +95,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 당신의 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2017-07-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다."
         }
       },
       {
-        "from": "2017-07-11",
-        "before": "2017-08-09",
+        "date": "2017-07-11",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2017-08-09",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 받으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "FROST"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lightwarden",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_001",
     "name": "빛의 감시자",
-    "text": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다.",
+    "text": "캐릭터가 치유될 때마다 공격력을 +1 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "드레나이",
+    "race": "",
     "flavor": "빛의 감시자의 폭력성을 알아보기 위해 캐릭터를 치유해보겠습니다.",
-    "spellSchool": "",
     "portrait": "W4_285_D.psd:feb8a92d0aa75234a946071c42ff840b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,28 +91,33 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "캐릭터가 치유될 때마다 공격력을 +1 얻습니다."
+          "text": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "캐릭터가 하나 치유될 때마다 공격력을 +2 얻습니다."
         }
       },
       {
-        "before": "2024-10-30",
+        "date": "2016-04-25",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다."
+        }
+      },
+      {
+        "date": "2024-10-30",
+        "changes": {
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "DRAENEI"
+        }
       }
     ]
   },

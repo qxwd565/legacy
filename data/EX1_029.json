@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Leper Gnome",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_029",
     "name": "오염된 노움",
-    "text": "<b>죽음의 메아리:</b>\n적 영웅에게\n피해를 2 줍니다.",
+    "text": "<b>죽음의 신음:</b> 적 영웅에게 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "그는 단지 친구가 필요할 뿐입니다. 하지만 언제나 거부당하죠.",
-    "spellSchool": "",
     "portrait": "leper_gnome_D.psd:26533cb9070dfab44b161c550e1a6a44",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +94,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 적 영웅에게 피해를 2 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 적 영웅에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>적 영웅에게 피해를<br>2 줍니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2021-03-26",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>적 영웅에게<br>피해를 2 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b>\n적 영웅에게\n피해를 2 줍니다."
         }
       }
     ]

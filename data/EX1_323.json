@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lord Jaraxxus",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 8,
+    "cost": 9,
     "health": 30,
     "attack": 0,
     "armor": 5,
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_323",
     "name": "군주 자락서스",
-    "text": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다.",
+    "text": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다.",
     "set": "EXPERT1",
     "type": "HERO",
     "cardClass": "WARLOCK",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "\"벼에서 쌀을!!!!\"",
-    "spellSchool": "",
     "portrait": "W6_010_HERO_D.psd:76e46208180a76942b60e1075358d472",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -109,30 +107,28 @@
     ],
     "nativeRawText": "<b>전투의 함성</b>:&\n3/8 피의 격노를 장착합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2023-09-29",
-        "changes": {
-          "cost": 9
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2021-03-26",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다."
+        }
+      },
+      {
+        "date": "2023-09-29",
+        "changes": {
+          "cost": 8
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Holy Nova",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 5,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS1_112",
     "name": "신성한 폭발",
-    "text": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
+    "text": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 주문을 썼는데 당신이 피해를 받았다면, 신앙심이 부족하거나 나쁜 놈이란 뜻입니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "R3_063_D.psd:b19b10fc2493031428468f498bffc4c2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,44 +80,30 @@
     ],
     "nativeRawText": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2020-03-27",
+        "date": "2020-03-27",
         "changes": {
-          "cost": 5
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2020-03-27",
-        "changes": {
-          "text": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다."
-        }
-      },
-      {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
-        "changes": {
+          "cost": 4,
           "text": "[x]모든 적 하수인에게<br>피해를 $2 줍니다. 모든<br>아군 캐릭터의 생명력을<br>#2 회복시킵니다."
         }
       },
       {
-        "from": "2020-03-27",
-        "before": "2023-04-28",
+        "date": "2021-03-26",
         "changes": {
-          "cost": 4
+          "text": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
+          "spellSchool": "HOLY"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2023-04-28",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "cost": 3
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

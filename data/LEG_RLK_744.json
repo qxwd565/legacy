@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stitched Giant",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_744",
     "name": "기워 붙인 거인",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
-    "race": "언데드",
+    "race": "",
     "flavor": "기울 땐 기워야죠!",
-    "spellSchool": "",
     "portrait": "CLA-094_M.tif:6f7630a18caa49018649360ecd03d6b9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,14 +103,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

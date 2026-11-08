@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Illidari Satyr",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_352t",
     "name": "일리다리 사티로스",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "악마",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +85,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Pursuit of Justice",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_029",
     "name": "심판의 추격",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "\"정의를 위한 겁니까? 아니면 우리를 위한 겁니까?\"",
     "spellSchool": "HOLY",
     "portrait": "CLA-047_S.tif:bbd6b23d1d6c4e729a74d6326d85297f",
@@ -80,7 +76,8 @@
     "nativeRawText": "이번 게임 동안 내가 소환하는 은빛 성기사단 신병에게 공격력을 +1 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

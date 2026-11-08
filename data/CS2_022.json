@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Polymorph",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_022",
     "name": "변이",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 카드로 '말'장난을 만들어 보려고 했는데... '양'장난이 되었네요. 길어져서 죄송합니다. 재미가 없으면 '양'으로라도 승부해야죠.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "WoW_LEAD_015_D.tif:3c4a692e3e4e65b418cf1c2a80cce2d9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,20 +92,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 1/1 양으로 변신시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인을 1/1 양으로 변신시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

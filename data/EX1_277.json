@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcane Missiles",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_277",
     "name": "신비한 화살",
-    "text": "모든 적에게 $3의 피해를 무작위로 나누어 입힙니다.",
+    "text": "피해를 1 주는 화살 $3개를 무작위 적들에게 발사합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "솔직히 당신은 엄청나게 강한 마법사니까 신비한 화살 정도는 잘 조준할 수 있을 거라 생각하셨죠?",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W5_247_D.psd:f898fa8ba437864439172de5bb8c83c2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,27 +92,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 1 주는 화살 $3개를 무작위 적들에게 발사합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
+        "date": "2013-10-03",
         "changes": {
           "text": "적 캐릭터들에게 $3의 피해를 무작위로 나누어 입힙니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2015-04-01",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "모든 적에게 $3의 피해를 무작위로 나누어 입힙니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

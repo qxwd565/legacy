@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Oasis Snapjaw",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_119",
     "name": "오아시스 무쇠턱거북",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "장래희망이 오아시스 용거북이라네요. 그런다고 날아다니거나 불을 뿜지도 못할 텐데 말이죠.",
-    "spellSchool": "",
     "portrait": "W14_a012_D.psd:d7edde9f7421c8745a3e2b94beec8895",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +85,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

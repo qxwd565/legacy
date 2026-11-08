@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Icicle",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_179",
     "name": "고드름",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "첫인상은 차갑지만, 알고 보면 참 괜찮은 주문입니다.",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "CLA-003_S.psd:8b2e454d82c4a2e4fadea63299fcea70",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +82,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2018-11-06",
-        "before": "2021-03-26",
+        "date": "2018-11-06",
         "changes": {
           "text": "하수인에게<br>피해를 $2 줍니다.<br>그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게\n피해를 $2 줍니다.\n그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다.",
+          "spellSchool": "FROST"
+        }
       }
     ]
   },

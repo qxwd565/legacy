@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Uther's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_05",
     "name": "우서의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"가벼운 독서를 좋아하길 바라네!\" -우서",
-    "spellSchool": "",
     "portrait": "HS31-123_S.tif:ef4a7b3930334c8db9d9fe5cd90fb4dd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 평등, 신성화 또는 왕의 축복을 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

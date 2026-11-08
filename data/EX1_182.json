@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Pilfer",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_182",
     "name": "좀도둑질",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "남의 직업의 떡이 더 커보이는 법이죠.",
-    "spellSchool": "",
     "portrait": null,
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,20 +71,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2018-11-06",
-        "before": "2019-07-02",
+        "date": "2018-11-06",
         "changes": {
           "name": "슬쩍",
           "text": "[x]<i>상대편 직업</i>의 무작위<br>카드를 내 손으로<br>가져옵니다."
         }
       },
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
-          "name": "슬쩍"
+          "text": "다른 직업의 무작위 카드를 내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "name": "좀도둑질"
         }
       }
     ]

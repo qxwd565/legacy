@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Perdition's Blade",
   "card": {
@@ -14,26 +14,25 @@
     "health": 2,
     "attack": 2,
     "armor": 0,
-    "durability": 2,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY",
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_133",
     "name": "전멸의 비수",
-    "text": "<b>전투의 함성:</b>\n피해를 1 줍니다.\n<b>연계:</b> 대신 피해를\n2 줍니다.",
+    "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "WEAPON",
     "cardClass": "ROGUE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "설퍼라스가 수리 중이면 라그나로스가 이걸 꺼내든다고 합니다.",
-    "spellSchool": "",
     "portrait": "w2_041_D.psd:798b5415abb39574f8d340404acd541d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -106,26 +105,23 @@
     "nativeTextBuilder": 27,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다."
-        }
-      },
-      {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 대신 피해를 2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>피해를 1 줍니다.<br><b>연계:</b> 대신 피해를<br>2 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n피해를 1 줍니다.\n<b>연계:</b> 대신 피해를\n2 줍니다."
         }
       }
     ]

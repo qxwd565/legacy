@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Jungle Panther",
   "card": {
@@ -20,11 +20,12 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "STEALTH"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_017",
     "name": "밀림 표범",
@@ -33,9 +34,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "가시덤불 골짜기는 아름답습니다. 등 뒤에 항상 누군가 있다는 걸 빼면요.",
-    "spellSchool": "",
     "portrait": "W18_a076_D.psd:6ece9ee8b18628642a79fe0b93c4b64d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,7 +113,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

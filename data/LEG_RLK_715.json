@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Runeforging",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_715",
     "name": "룬벼리기",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "",
     "flavor": "룬은 진짜라니까요!",
     "spellSchool": "SHADOW",
     "portrait": "HS27-114_S.tif:67088cbfd73144228af575c53df1b020",
@@ -90,7 +86,8 @@
     "nativeRawText": "[x]무기를 뽑습니다.\n<b>시체</b>를 소모해 그 무기의\n비용이 (1) 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

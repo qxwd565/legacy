@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Infernal",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_tk34",
-    "name": "지옥불악마",
+    "name": "지옥불정령",
     "text": "",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
-    "rarity": null,
-    "race": "악마",
+    "rarity": "FREE",
+    "race": "DEMON",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W19_a198_D.psd:d00193904ba72ac4ca8af90791fdc9c2",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,12 +85,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2020-03-27",
+        "date": "2020-03-27",
         "changes": {
-          "name": "지옥불정령"
+          "name": "지옥불악마"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Siegebreaker",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_185",
     "name": "공성파괴자",
@@ -35,7 +33,6 @@
     "rarity": "RARE",
     "race": "악마",
     "flavor": "네팔렘들을 피해 온 걸까요?",
-    "spellSchool": "",
     "portrait": "HS12-200.psd:5a9d6fe4806e4ba4a36050ac13392f6c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -118,7 +115,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

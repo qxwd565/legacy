@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Raging Worgen",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "ENRAGED"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_412",
     "name": "흉포한 늑대인간",
-    "text": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다.",
+    "text": "<b>격노:</b> <b>질풍</b>, 공격력 +1",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "지금 너무 흉포한가요? 조금만 기다려 주세요. 저희가 조만간 순하게 바꿔 드릴지도 모르니까요.",
-    "spellSchool": "",
     "portrait": "EX1_412_D.psd:7d3fcc00a249c8248a772dc4c2d0d634",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +99,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2018-04-11",
+        "date": "2018-04-11",
         "changes": {
-          "text": "<b>격노:</b> <b>질풍</b>, 공격력 +1"
+          "text": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다."
         }
       }
     ]

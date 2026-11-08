@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hound",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "CHARGE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_538t",
-    "name": "사냥개",
-    "text": "<b>돌진</b>",
+    "name": "풀려남",
+    "text": "공격력 +1, <b>돌진</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "rarity": null,
-    "race": "야수",
+    "rarity": "FREE",
+    "race": "BEAST",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -93,13 +93,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "name": "풀려남",
-          "text": "공격력 +1, <b>돌진</b>"
+          "name": "사냥개",
+          "text": "<b>돌진</b>"
         }
       }
     ]

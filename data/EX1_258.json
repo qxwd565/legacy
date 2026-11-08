@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Unbound Elemental",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_258",
     "name": "속박 풀린 정령",
-    "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
+    "text": "당신이 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "COMMON",
-    "race": "정령",
+    "race": "",
     "flavor": "구속된 정령과 달리, 속박 풀린 정령은 뜨거운 밤을 즐길 줄 압니다.",
-    "spellSchool": "",
     "portrait": "W14_a250_D.psd:9660be620401f2e479dc397c37b7d6c4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,42 +106,39 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 <b>과부하</b> 카드를 1장 낼 때마다 +1/+1을 얻습니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2021-03-26",
+        "date": "2016-04-25",
         "changes": {
           "text": "내가 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다."
         }
       },
       {
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "ELEMENTAL"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다."
+        }
       }
     ]
   },

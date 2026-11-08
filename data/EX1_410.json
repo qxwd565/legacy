@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shield Slam",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AFFECTED_BY_SPELL_POWER"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_410",
     "name": "방패 밀쳐내기",
-    "text": "내 방어도만큼 하수인에게 피해를 줍니다.",
+    "text": "당신이 가진 방어도만큼 하수인에게 피해를 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "\"좋은 무기란 무엇일까? 날카롭지만 상대가 예상할 수 있는 것? 아니면 무디지만 상대가 예상치 못하는 것?\" - 전사의 정석, 제9 장",
-    "spellSchool": "",
     "portrait": "W13_242_D.psd:d013be170a2bae34aa74a094d9138202",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,40 +84,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 가진 방어도만큼 하수인에게 피해를 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 가진 방어도만큼 하수인에게 피해를 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-07-13",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 가진 방어도만큼 하수인 하나에게 피해를 줍니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2016-11-30",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]내가 가진 방어도만큼<br>하수인 하나에게<br>피해를 줍니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "내 방어도만큼 하수인 하나에게 피해를 줍니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "내 방어도만큼 하수인에게 피해를 줍니다."
         }
       }
     ]

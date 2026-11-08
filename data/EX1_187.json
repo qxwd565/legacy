@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcane Devourer",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_187",
     "name": "비전 포식자",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "정령",
+    "race": "",
     "flavor": "주문에 간을 좀 한 게 입맛에 맞는다고 하네요.",
-    "spellSchool": "",
     "portrait": "CLA-009.psd:107f0545bfac40c1b25ffbf457818b70",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,14 +88,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "정령"
+        }
       }
     ]
   },

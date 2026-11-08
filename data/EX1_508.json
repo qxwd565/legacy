@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Grimscale Oracle",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_508",
     "name": "성난비늘 수련사",
-    "text": "내 다른 멀록들이 공격력을 +1 얻습니다.",
+    "text": "다른 모든 멀록이 공격력을 +1 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
     "race": "멀록",
     "flavor": "아주 똑똑한 멀록입니다. 그래도 다른 멀록들과 크게 다르지는 않습니다.",
-    "spellSchool": "",
     "portrait": "W16_a185_D.psd:3843a8f3e4a3f31449d30f6951fc5256",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,19 +100,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "다른 모든 멀록이 공격력을 +1 얻습니다."
+          "text": "다른 <b>모든</b> 멀록이 공격력을 +1 얻습니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2016-10-21",
+        "date": "2016-10-21",
         "changes": {
-          "text": "다른 <b>모든</b> 멀록이 공격력을 +1 얻습니다."
+          "text": "내 다른 멀록들이 공격력을 +1 얻습니다."
         }
       }
     ]

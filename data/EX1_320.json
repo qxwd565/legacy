@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bane of Doom",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_320",
     "name": "운명의 파멸",
-    "text": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
+    "text": "캐릭터에게 피해를 $2 줍니다. 캐릭터가 죽으면 무작위 악마를 소환합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "임프도 악마입니다. 현명하게 선택하세요.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W10_A235_D.psd:76cc89adc81b5d04091c8a51026468e6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,62 +82,49 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "캐릭터에게 피해를 $2 줍니다. 캐릭터가 죽으면 무작위 악마를 소환합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위 악마 하나를 소환합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위로 선택된 악마 하나를 소환합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마 하나를 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-08-09",
+        "date": "2016-08-10",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마를 하나 소환합니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2018-10-03",
+        "date": "2017-08-09",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 이 피해로 대상이 죽으면, 무작위 악마를 하나 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]캐릭터에게 피해를<br>$2 줍니다. 이 피해로<br>대상이 죽으면, 무작위<br>악마를 소환합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

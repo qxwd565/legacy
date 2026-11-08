@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Snake",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_554t",
     "name": "뱀",
@@ -32,10 +30,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "rarity": null,
-    "race": "야수",
+    "rarity": "FREE",
+    "race": "BEAST",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W6_240_D.psd:ad28890c303ef934895b3feae0080016",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -93,7 +90,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

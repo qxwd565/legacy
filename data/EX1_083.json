@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tinkmaster Overspark",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_083",
     "name": "수석땜장이 오버스파크",
-    "text": "[x]<b>전투의 함성:</b> 다른 무작위\n하수인을 5/5 데빌사우루스\n또는 1/1 다람쥐로\n변신시킵니다.",
+    "text": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "데빌사우루스 대신 리치 왕으로 변신시킬 가능성이 조오오오오금 있습니다. 아주 조오오오오오금.",
-    "spellSchool": "",
     "portrait": "WOW_ALYH_015_D.png:b928ae38e92c08c4fa9a4391fb4eb4fb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,47 +99,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2015-04-01",
+        "date": "2014-03-12",
         "changes": {
           "text": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 무작위로 선택된 다른 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 다른 무작위<br>하수인을 5/5 데빌사우루스<br>또는 1/1 다람쥐로<br>변신시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 다른 무작위\n하수인을 5/5 데빌사우루스\n또는 1/1 다람쥐로\n변신시킵니다."
         }
       }
     ]

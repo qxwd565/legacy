@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Searing Totem",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_050",
     "name": "불타는 토템",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "토템",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W10_A129_D.psd:66f4c36fb1515ba4eae9e6f29dcfd673",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -98,7 +95,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gan'arg Glaivesmith",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_017",
     "name": "간아그 전투검장인",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "악마",
     "flavor": "혼자 있으면 의욕이 더 난다고 하네요.",
-    "spellSchool": "",
     "portrait": "CLA-039_M.tif:d3a2813077fb4093bafd31ecccc05011",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -102,7 +99,8 @@
     "nativeRawText": "<b>추방자:</b> 이번 턴에 내 영웅에게 공격력을\n+3 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

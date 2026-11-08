@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Assassin's Blade",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 4,
+    "cost": 5,
     "health": 5,
     "attack": 2,
     "armor": 0,
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_080",
     "name": "암살자의 검",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "진짜 암살자가 품질을 보증하는 제품입니다. 자세히 보면 날에 장미 문양이 새겨져 있다고 합니다.",
-    "spellSchool": "",
     "portrait": "W8_014_D.psd:76d2a80891cbd8b4aaf36deeac9c7b10",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,16 +89,16 @@
     ],
     "nativeRawText": "",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "cost": 5
+          "cost": 4
         }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

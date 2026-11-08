@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gadgetzan Auctioneer",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 7,
+    "cost": 5,
     "health": 4,
     "attack": 4,
     "armor": 0,
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_095",
     "name": "가젯잔 경매인",
-    "text": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
+    "text": "당신이 주문을 시전할 때마다 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "암시장 경매장을 운영하던 때도 있었지만, 너무 폭력이 난무하는 바람에 옮길 수 밖에 없었답니다.",
-    "spellSchool": "",
     "portrait": "W8_071_D.psd:aef443527d581864ebec0ad5d243fdb6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,58 +92,47 @@
     ],
     "nativeRawText": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2014-12-05",
-        "changes": {
-          "cost": 5
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 주문을 시전할 때마다 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 주문을 시전할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-12-05",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2015-08-19",
+        "date": "2014-12-05",
         "changes": {
+          "cost": 6,
           "text": "내가 주문을 시전할 때마다, 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2023-09-29",
-        "changes": {
-          "cost": 6
-        }
-      },
-      {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
           "text": "내가 주문을 시전할 때마다 카드를 1장 뽑습니다."
         }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "내가 주문을 시전할 때마다 카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2023-09-29",
+        "changes": {
+          "cost": 7
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

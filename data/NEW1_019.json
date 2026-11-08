@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Knife Juggler",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_019",
     "name": "단검 곡예사",
-    "text": "[x]내 하수인이 소환된\n후에, 무작위 적에게\n피해를 1 줍니다.",
+    "text": "당신의 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "야심찬 단검 곡예사가 자라면 폭탄 곡예사가 되기도 합니다. 하지만 카드로 만들어질 만큼 오래 살아남는 경우는 없습니다.",
-    "spellSchool": "",
     "portrait": "w12_a081_D.psd:a50c2770484eda6439c3319f8af60476",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,54 +84,47 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 하수인이 소환될 때마다 무작위 적 하나에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2015-04-01",
+        "date": "2014-03-12",
         "changes": {
           "text": "내 하수인이 소환된 후에, 무작위 적 하나에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "내 하수인이 소환된 후에, 무작위로 선택된 적 하나에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 하수인이 소환된 후에, 무작위 적 하나에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]내 하수인이 소환된<br>후에, 무작위 적에게<br>피해를 1 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]내 하수인이 소환된\n후에, 무작위 적에게\n피해를 1 줍니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodsail Deckhand",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_008",
     "name": "붉은해적단 갑판원",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "해적",
     "flavor": "해적질을 할인으로 보는 이들도 있습니다.",
-    "spellSchool": "",
     "portrait": "CLA-031_M.tif:717e853256fc41fc83c712bde1cc72bf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -97,7 +94,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b> 다음에 내가\n내는 무기의 비용이\n(1) 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Armor Up!",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_102_H3",
     "name": "방어도 증가!",
@@ -31,9 +28,7 @@
     "type": "HERO_POWER",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "w14_a208_D.tif:643b00f3e3cac52499f0d0d4172b087c",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +96,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-11-06",
-        "before": "2021-03-26",
+        "date": "2019-11-06",
         "changes": {
           "text": "<b>영웅 능력</b><br>방어도를 +2 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n방어도를 $d2 얻습니다."
         }
       }
     ]

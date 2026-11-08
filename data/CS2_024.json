@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Frostbolt",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_024",
     "name": "얼음 화살",
-    "text": "[x]캐릭터에게\n피해를 $3 주고\n<b>빙결</b> 상태로 만듭니다.",
+    "text": "캐릭터에게 피해를 $3 주고 <b>얼어붙음</b> 상태로 만듭니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 카드를 낼 때는 \"열 좀 식히세요!\", \"얼음!\", 또는 \"손이 시려워, 꽁!\"이라고 외치는 게 관례입니다.",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "WoW_CHI_006_D.psd:808ad7bfce2d0fa4cbcbf24749c70492",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,48 +92,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "캐릭터에게 피해를 $3 주고 <b>얼어붙음</b> 상태로 만듭니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "캐릭터에게 피해를 $3 주고 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $3 주고 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]캐릭터 하나에게<br>피해를 $3 주고<br><b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]캐릭터에게<br>피해를 $3 주고<br><b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]캐릭터에게\n피해를 $3 주고\n<b>빙결</b> 상태로 만듭니다.",
+          "spellSchool": "FROST"
+        }
       }
     ]
   },

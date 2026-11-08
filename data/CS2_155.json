@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Archmage",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_155",
     "name": "대마법사",
-    "text": "<b>주문 공격력 +1</b>",
+    "text": "<b>주문력 +1</b>",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "대마법사 칭호를 어떻게 얻냐고요? 마법으로 대마법사를 쓰러뜨리면 됩니다.",
-    "spellSchool": "",
     "portrait": "W9_A130_D.psd:4d92924177818f649a5b19fc723825fc",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +96,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>주문력 +1</b>"
+          "text": "<b>주문 공격력 +1</b>"
         }
       }
     ]

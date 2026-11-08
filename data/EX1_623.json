@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Temple Enforcer",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_623",
     "name": "사원 집행자",
-    "text": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+3 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군 하수인에게 생명력을 +3 부여합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"집행\"이라는 이름의 검을 강탈당하고 속세를 떠나 사원으로 들어왔기에 사원 집행자라는 이름을 갖게 되었답니다.",
-    "spellSchool": "",
     "portrait": "W3_265_D.psd:697a3c8205353084b99160f8cdff2bb0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,40 +84,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 아군 하수인에게 생명력을 +3 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인에게 생명력을 +3 부여합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인 하나에게 생명력을 +3 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 아군 하수인<br>하나에게 생명력을<br>+3 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 아군<br>하수인에게 생명력을<br>+3 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+3 부여합니다."
         }
       }
     ]

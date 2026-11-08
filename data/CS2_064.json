@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dread Infernal",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_064",
-    "name": "공포의 지옥불악마",
-    "text": "<b>전투의 함성:</b>\n다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다.",
+    "name": "공포의 지옥불정령",
+    "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해를 1 줍니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
     "race": "악마",
     "flavor": "\"지옥풀을 받아라!\" - 불타는 군단의 에레다르 군주, 자락서스",
-    "spellSchool": "",
     "portrait": "WOW_ACT_111_D.psd:558c9c863fc72414da804d8e7466f24a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -106,47 +103,34 @@
     ],
     "nativeRawText": "<b>전투의 함성:</b>\n다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2013-08-17",
+        "date": "2013-10-03",
         "changes": {
-          "name": "공포의 지옥불정령"
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "name": "공포의 지옥불정령",
-          "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해를 1 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
-        "changes": {
-          "name": "공포의 지옥불정령",
           "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2020-03-27",
+        "date": "2016-08-10",
         "changes": {
-          "name": "공포의 지옥불정령",
           "text": "<b>전투의 함성:</b><br>다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
-          "text": "<b>전투의 함성:</b><br>다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
+          "name": "공포의 지옥불악마"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
         }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

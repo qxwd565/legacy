@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Natalie Seline",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_198",
     "name": "나탈리 세린",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "오크의 흑마법을 연구하던 세린은 검은 제국의 비수 잘아타스를 찾아냈습니다. 잘아타스에 손이 닿는 순간, 그녀의 머릿속에 속삭임이 들렸습니다. \"배고파\".",
-    "spellSchool": "",
     "portrait": "HS19-286.tif:6313aba84516461f8711537de202eaf5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,7 +86,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

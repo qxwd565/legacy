@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mechanical Dragonling",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_025t",
     "name": "소형 기계용",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "기계",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -93,7 +90,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

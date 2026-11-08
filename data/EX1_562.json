@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Onyxia",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_562",
     "name": "오닉시아",
-    "text": "<b>전투의 함성:</b> 내 전장을 1/1 새끼용으로\n가득 채웁니다.",
+    "text": "<b>전투의 함성:</b> 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "오닉시아는 여군주 카트라나 프레스톨로 변신한 채 오랫동안 스톰윈드 의회를 조종했습니다. 저 커다란 날개와 비늘을 보면 누구라도 알아챘을 거라고 생각하시겠죠?",
-    "spellSchool": "",
     "portrait": "ONY_STK_017_D.psd:14d74750035471540966b54ff4e26ac8",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,40 +113,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2016-08-10",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 내 하수인을 소환할<br>공간이 다 찰 때까지 1/1<br>새끼용을 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-12-07",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다."
         }
       },
       {
-        "from": "2017-12-07",
-        "before": "2021-03-26",
+        "date": "2017-12-07",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 전장을 1/1 새끼용으로<br>가득 채웁니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 내 전장을 1/1 새끼용으로\n가득 채웁니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Master Swordsmith",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_037",
     "name": "검 제작의 대가",
-    "text": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
+    "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "현재는 다른 모든 대장장이들의 만류에도 불구하고, \"도리깨 도끼\"라는 무기를 제작하고 있습니다.",
-    "spellSchool": "",
     "portrait": "W6_047_D.png:bf1c2787d8a92b0458e90055e5225789",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,47 +84,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 공격력을 +1 부여합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 턴이 끝날 때,<br>다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 턴이 끝날 때,<br>다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
         }
       }
     ]

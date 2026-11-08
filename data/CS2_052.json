@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Wrath of Air Totem",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_052",
     "name": "천벌의 토템",
-    "text": "<b>주문 공격력 +1</b>",
+    "text": "<b>주문력 +1</b>",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
     "race": "토템",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W8_A194_D.psd:fba77793c0d4d784a8627e788d8154e6",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -98,12 +95,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>주문력 +1</b>"
+          "text": "<b>주문 공격력 +1</b>"
         }
       }
     ]

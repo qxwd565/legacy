@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadowform",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_625",
     "name": "어둠의 형상",
-    "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+    "text": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "빛을 어둠으로 돌리는 건 쉽지만, 어둠을 빛으로 돌리는 건 어렵다는 걸 보여주는 좋은 예라고 할 수 있죠.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "WOW_CHI_027_D.psd:c5516efb407f8a14faff758c13f87c76",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,41 +77,31 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 영웅 능력이 '피해를 2 줍니다.'가 됩니다. 이미 어둠의 형상이었다면 피해를 3 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-12-05",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 피해 3)"
         }
       },
       {
-        "from": "2015-12-05",
-        "before": "2021-03-26",
+        "date": "2015-12-05",
         "changes": {
           "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 3)"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

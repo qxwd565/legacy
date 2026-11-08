@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Blessing of Might",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_087",
     "name": "힘의 축복",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"이런 내가 힘까지 세지면 어떨 것 같아?\" - 토드 매클, 최근에 상향된 징벌 성기사",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W16_a053_D.psd:24917b79cd20956498e9ace04c9ba4e6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,20 +87,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 공격력을 +3 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게 공격력을 +3 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

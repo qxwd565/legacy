@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Malygos",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "SPELLPOWER"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_563",
     "name": "말리고스",
-    "text": "<b>주문 공격력 +5</b>",
+    "text": "<b>주문력 +5</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "말리고스는 필멸자들이 마법 쓰는 걸 싫어합니다. 완전 많이 싫어합니다!",
-    "spellSchool": "",
     "portrait": "R8_a005_D.psd:e1d2690b6a156d74c89d8e4d9dff1082",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,12 +108,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>주문력 +5</b>"
+          "text": "<b>주문 공격력 +5</b>"
         }
       }
     ]

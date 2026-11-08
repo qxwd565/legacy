@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Moonfire",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_008",
-    "name": "달빛섬광",
+    "name": "달빛 섬광",
     "text": "피해를 $1 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"달빛섬광을 쓰세요. 계속 쓰세요.\" - 조화 드루이드가 되는 법, 제5장, 3절",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W14_a120_D.psd:8613edf63c0fee847a47383a8ee6f290",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,20 +77,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-10-30",
+        "date": "2014-10-30",
         "changes": {
-          "name": "달빛 섬광"
+          "name": "달빛섬광"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Eviscerate",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_124",
     "name": "절개",
-    "text": "[x]피해를 $2 줍니다.\n<b>연계:</b> 대신 피해를\n$4 줍니다.",
+    "text": "피해를 $2 줍니다. <b>연계:</b> 피해를 $4 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "단점이 없는 건 아닙니다. 팔꿈치를 삐끗할 수가 있다고요!",
-    "spellSchool": "",
     "portrait": "WoW_LEAD_031.psd:00d28e9997df3a94ea3d53af79fab2e3",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -89,37 +87,35 @@
     ],
     "nativeRawText": "[x]피해를 $2 줍니다.\n<b>연계:</b> 대신 피해를\n$4 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2019-07-01",
-        "changes": {
-          "legacyArt": true
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
-        "changes": {
-          "text": "피해를 $2 줍니다. <b>연계:</b> 피해를 $4 줍니다."
-        }
-      },
-      {
-        "from": "2015-08-19",
-        "before": "2016-07-13",
+        "date": "2015-08-19",
         "changes": {
           "text": "피해를 $2 줍니다. <b>연계:</b> 대신 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]피해를 $2 줍니다.<br><b>연계:</b> 대신 피해를<br>$4 줍니다."
         }
+      },
+      {
+        "date": "2019-07-01",
+        "changes": {
+          "legacyArt": false
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]피해를 $2 줍니다.\n<b>연계:</b> 대신 피해를\n$4 줍니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

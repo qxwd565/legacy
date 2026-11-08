@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Innervate",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_169",
     "name": "정신 자극",
-    "text": "이번 턴에만 마나 수정을 1개 얻습니다.",
+    "text": "이번 턴에만 마나 수정을 둘 획득합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "드루이드라면 누구나 한 번쯤 \"자극 주세요!!\" 소리를 들어보셨을 겁니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "WOW_TAL_002_D.tif:dfc6231195dc30c4db51a3df6a749b9d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,34 +82,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "이번 턴에만 마나 수정을 둘 획득합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2017-09-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "이번 턴에만 마나 수정을 2개 획득합니다."
         }
       },
       {
-        "from": "2017-09-19",
-        "before": "2018-10-03",
+        "date": "2017-09-19",
         "changes": {
           "text": "이번 턴에만 마나 수정을 1개 획득합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "이번 턴에만 마나 수정을 1개 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

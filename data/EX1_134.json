@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "SI:7 Agent",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_134",
     "name": "SI:7 요원",
-    "text": "<b>연계:</b> 피해를 3 줍니다.",
+    "text": "<b>연계:</b> 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "SI: 7의 요원들은 스톰윈드의 비밀 임무를 수행합니다. 첩보, 암살, 왕가의 깜짝 생일 파티 등등...",
-    "spellSchool": "",
     "portrait": "W9_A015_D.psd:57b1895d74a96ef4bab2992d0d2eeb6b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -106,12 +104,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>연계:</b> 피해를 2 줍니다."
+          "text": "<b>연계:</b> 피해를 3 줍니다."
         }
       }
     ]

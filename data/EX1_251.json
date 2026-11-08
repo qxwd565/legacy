@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Forked Lightning",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_251",
     "name": "갈래 번개",
@@ -31,9 +31,8 @@
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "올래 번개와 짝을 이루는 주문입니다. 무슨 말인지 모르겠다고요? 다행이네요.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W8_169_D.psd:bd5ad61c5a3c90e40b86538ae5404ff5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +90,36 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "무작위 적 하수인 2마리에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2013-12-11",
+        "changes": {
+          "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
+        }
+      },
+      {
+        "date": "2015-04-01",
         "changes": {
           "text": "무작위로 선택된 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2015-08-19",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

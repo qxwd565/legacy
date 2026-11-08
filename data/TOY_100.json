@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gnomelia, S.A.F.E. Pilot",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "TOY_100",
     "name": "안심지대 조종사 노멜리아",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "안.전.착.륙.은 배우지 않았습니다.",
-    "spellSchool": "",
     "portrait": "HS31-213_M.tif:8e68a510372d4a5c92d921de1c2d99ec",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -100,7 +95,8 @@
     "nativeRawText": "<b>속공</b>, 공격하는 대상 양옆의 하수인들에게도 피해를 줍니다. <b>죽음의 메아리:</b> 모든 적에게 피해를 2 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2024-03-20",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

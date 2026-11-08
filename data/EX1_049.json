@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Youthful Brewmaster",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_049",
     "name": "젊은 양조사",
-    "text": "[x]<b>전투의 함성:</b>\n아군 하수인을 내 손으로\n다시 가져옵니다.",
+    "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 당신의 손으로 다시 가져옵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "젊음의 패기가 꼭 맥주의 맛으로 이어지는 건 아닙니다.",
-    "spellSchool": "",
     "portrait": "Wow_Wei_Pandaren_Final_v1_D.psd:7fbac41088a694843a248e7337cd3694",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +94,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 당신의 손으로 다시 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 내 손으로 다시 가져옵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>아군 하수인을 내 손으로<br>다시 가져옵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n아군 하수인을 내 손으로\n다시 가져옵니다."
         }
       }
     ]

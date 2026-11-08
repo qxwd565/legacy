@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Equality",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_619",
     "name": "평등",
-    "text": "<b>모든</b> 하수인의 생명력을 1로 바꿉니다.",
+    "text": "모든 하수인의 생명력을 1로 바꿉니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "우리는 모두 세상 하나뿐인 눈송이랍니다... 생명력이 1밖에 안 되는 눈송이요.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W14_a024_D.psd:31b51c9e731799648bfad18ba92fe69f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +82,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "모든 하수인의 생명력을 1로 바꿉니다."
+          "text": "<b>모든</b> 하수인의 생명력을 1로 바꿉니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

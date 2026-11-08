@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Holy Fire",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_624",
-    "name": "신성한 불꽃",
-    "text": "[x]피해를 $5 줍니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+    "name": "상급 치유",
+    "text": "상대편 손에 있는 카드 한 장당 캐릭터의 생명력을 2씩 회복시킵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "흑마법사의 생명력 흡수와 뭐가 다르냐고요?... 신... 신성 모독이다!",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W2_354_D.psd:7c7ac3be9d6ba2245a2815a2b5ef0eed",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,42 +72,32 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "상급 치유",
-          "text": "상대편 손에 있는 카드 한 장당 캐릭터의 생명력을 2씩 회복시킵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-10-18",
-        "changes": {
+          "name": "신성한 불꽃",
           "text": "피해를 5 줍니다. 내 영웅이 생명력을 5 회복합니다."
         }
       },
       {
-        "from": "2013-10-18",
-        "before": "2016-08-10",
+        "date": "2013-10-18",
         "changes": {
           "text": "피해를 $5 줍니다. 내 영웅이 생명력을 #5 회복합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]피해를 $5 줍니다.<br>내 영웅이 생명력을<br>#5 회복합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]피해를 $5 줍니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

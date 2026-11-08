@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Southsea Captain",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "AURA"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_027",
     "name": "남쪽바다 선장",
-    "text": "내 다른 해적들이 +1/+1을 얻습니다.",
+    "text": "당신의 다른 해적들이 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.",
-    "spellSchool": "",
     "portrait": "WOW_ALYN_001_D.psd:a8b92bd5799d1d142956ccc62cb9aab6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,19 +93,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 다른 해적들이 +1/+1을 얻습니다."
+          "text": "나의 다른 해적들이 +1/+1을 얻습니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "나의 다른 해적들이 +1/+1을 얻습니다."
+          "text": "내 다른 해적들이 +1/+1을 얻습니다."
         }
       }
     ]

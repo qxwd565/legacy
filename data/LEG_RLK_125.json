@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Obliterate",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_125",
     "name": "절멸",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "절멸 붐은 온다...",
-    "spellSchool": "",
     "portrait": "HS27-348_S.tif:c6bfb547d3a4461bb9cba0a2c3078a35",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "하수인을 처치합니다. 내 영웅에게 피해를 3 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

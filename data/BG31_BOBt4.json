@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "card": {
     "id": "BG31_BOBt4",
@@ -10,9 +10,7 @@
     "nativeSetId": 1941,
     "set": "LEGACY",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
-    "spellSchool": "",
+    "rarity": "FREE",
     "cost": 0,
     "attack": 0,
     "health": 0,
@@ -41,7 +39,8 @@
     "nativeRawText": "[x]하수인을 뽑습니다.\n그 하수인을 둘 복사하여\n얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

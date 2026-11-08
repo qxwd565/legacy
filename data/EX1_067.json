@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Argent Commander",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHARGE",
+      "DIVINE_SHIELD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_067",
     "name": "은빛십자군 부대장",
-    "text": "<b>돌진</b>\n<b>천상의 보호막</b>",
+    "text": "<b>돌진</b>. <b>천상의 보호막</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "은빛십자군 부대장은 스컬지의 동태를 주시합니다. 버스 정류장에서 새치기하는 사람도 주시합니다.",
-    "spellSchool": "",
     "portrait": "W7_049_D.psd:61ab871db9dbd464e813a390d677576f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +100,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>돌진</b>. <b>천상의 보호막</b>"
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b>, <b>천상의 보호막</b>"
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2021-03-26",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>돌진</b><br><b>천상의 보호막</b>"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>돌진</b>\n<b>천상의 보호막</b>"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Argent Protector",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_362",
     "name": "여명회 파수병",
-    "text": "<b>전투의 함성:</b>\n아군 하수인에게 <b>천상의_보호막</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>천상의 보호막</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PALADIN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"화염구를 피할 수 있다고 말하는 게 아닙니다. 이 보호막이 있으면 피할 필요가 없다는 거지요.\"",
-    "spellSchool": "",
     "portrait": "WOW_TAL_014_D.psd:07ee5f63ca329e04cb07547dfe13418c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,33 +99,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>천상의 보호막</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>천상의 보호막</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>아군 하수인 하나에게<br><b>천상의 보호막</b>을<br>부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인에게 <b>천상의_보호막</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n아군 하수인에게 <b>천상의_보호막</b>을 부여합니다."
         }
       }
     ]

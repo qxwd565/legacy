@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hand of Protection",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_371",
     "name": "보호의 손길",
-    "text": "하수인에게 <b>천상의_보호막</b>을 부여합니다.",
+    "text": "하수인에게 <b>천상의 보호막</b>을 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "WOW_ACT_018_D.tif:f85d16a58caa8f741b6dfdb3a16b67fd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +87,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "하수인에게 <b>천상의 보호막</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 <b>천상의 보호막</b>을 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게 <b>천상의_보호막</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

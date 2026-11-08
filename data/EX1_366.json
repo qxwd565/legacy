@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sword of Justice",
   "card": {
@@ -14,26 +14,24 @@
     "health": 5,
     "attack": 1,
     "armor": 0,
-    "durability": 5,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_366",
     "name": "정의의 칼날",
-    "text": "내 하수인이 소환된 후에, 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
+    "text": "당신이 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
     "set": "EXPERT1",
     "type": "WEAPON",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "소 엉치살 잘라내기에 딱 좋습니다!",
-    "spellSchool": "",
     "portrait": "W11_181(EA)_D.psd:8953f70412d3f9b45a6b96c4db66b42a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,26 +94,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-07-30",
+        "date": "2013-10-03",
         "changes": {
           "text": "전장에 내 하수인이 소환될 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
         }
       },
       {
-        "from": "2015-07-30",
-        "before": "2015-12-05",
+        "date": "2015-07-30",
         "changes": {
           "text": "내가 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
+        }
+      },
+      {
+        "date": "2015-12-05",
+        "changes": {
+          "text": "내 하수인이 소환된 후에, 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
         }
       }
     ]

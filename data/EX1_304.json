@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Void Terror",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_304",
     "name": "공허의 괴물",
-    "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다.",
+    "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "이 카드를 덱에 넣으면 다른 하수인들의 신뢰를 잃습니다.",
-    "spellSchool": "",
     "portrait": "w21_a125.psd:1484d03ef30a4b948b8e473d34bb244f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,12 +98,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다."
+          "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다."
         }
       }
     ]

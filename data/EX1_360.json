@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Humility",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_360",
     "name": "겸손",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이래서 겸손이 힘든 겁니다.",
-    "spellSchool": "",
     "portrait": "w3_032_D.psd:a9111656e09d25944bba4cd2bfa4f719",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나의 공격력을 1로 만듭니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인의 공격력을 1로 만듭니다."
         }
       }
     ]

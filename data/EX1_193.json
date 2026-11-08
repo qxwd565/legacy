@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Psychic Conjurer",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_193",
     "name": "정신의 창조술사",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "언데드",
+    "race": "",
     "flavor": "\"이건... 위습? 위습을 왜 덱에 넣은 거야?!\"",
-    "spellSchool": "",
     "portrait": "HS19-281.tif:32151beede134c1fa0c68a9e2f358339",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,14 +88,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

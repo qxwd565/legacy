@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Spirit Wolf",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_tk11",
     "name": "늑대 정령",
@@ -32,10 +30,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "언데드",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W11_223_D.psd:dfef46cf3145bf947bfd731d9459d8f2",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -98,7 +95,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

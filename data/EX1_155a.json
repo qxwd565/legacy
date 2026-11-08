@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tiger's Fury",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_155a",
-    "name": "호랑이의 분노",
-    "text": "하수인에게 공격력을 +4 부여합니다.",
+    "name": "자연의 징표",
+    "text": "공격력을 +4 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS17-091.psd:cdfcecdbe8fc4d63bac30d2605cd2724",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -71,20 +66,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2019-04-05",
+        "date": "2019-04-05",
         "changes": {
-          "name": "자연의 징표",
-          "text": "공격력을 +4 부여합니다."
+          "name": "호랑이의 분노"
         }
       },
       {
-        "from": "2019-04-05",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "공격력을 +4 부여합니다."
+          "text": "하수인에게 공격력을 +4 부여합니다."
         }
       }
     ]

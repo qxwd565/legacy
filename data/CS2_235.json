@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Northshire Cleric",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_235",
     "name": "북녘골 성직자",
-    "text": "하수인이 치유될 때마다 카드를 뽑습니다.",
+    "text": "하수인이 치유될 때마다 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "탄압받고 괴로워하는 자들을 돕습니다. 쿠키도 팝니다.",
-    "spellSchool": "",
     "portrait": "W4_268_D.psd:5649847fa4c4565478a6c4529de8f37c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,33 +86,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인이 치유될 때마다 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인이 치유될 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인이 하나 치유될 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2018-10-03",
+        "date": "2016-04-25",
         "changes": {
           "text": "하수인이 치유될 때마다 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인이 치유될 때마다 카드를 뽑습니다."
         }
       }
     ]

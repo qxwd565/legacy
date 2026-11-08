@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Southsea Deckhand",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_146",
     "name": "남쪽바다 갑판원",
-    "text": "내 영웅이 무기를 장착하고 있으면\n<b>돌진</b>을 얻습니다.",
+    "text": "당신이 무기를 장비하고 있으면 <b>돌진</b>을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "요즘 해적들 사이에서 \"시체 놀이\"가 유행이랍니다. 누가 시체냐고요? 글쎄요.",
-    "spellSchool": "",
     "portrait": "R7_a019_D.psd:88c92a6d6a426594dbe89ce917381c1a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,40 +100,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 무기를 장비하고 있으면 <b>돌진</b>을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 영웅이 무기를 장착하고 있으면 <b>돌진</b>을 얻습니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 영웅이 무기를 장착하고 있으면, <b>돌진</b>을 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2019-04-05",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 영웅이 무기를 장착하고 있을 때<br><b>돌진</b>을 얻습니다."
         }
       },
       {
-        "from": "2019-04-05",
-        "before": "2021-03-26",
+        "date": "2019-04-05",
         "changes": {
           "text": "내 영웅이 무기를 장착하고 있으면<br><b>돌진</b>을 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 영웅이 무기를 장착하고 있으면\n<b>돌진</b>을 얻습니다."
         }
       }
     ]

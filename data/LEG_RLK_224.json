@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Overseer Frigidara",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_224",
     "name": "감독관 프리지다라",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "누가 냉장고 문을 열어놨나?",
-    "spellSchool": "",
     "portrait": "HS27-127_M.tif:2371cfb350d841fc932173cc80ab1250",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -100,7 +95,8 @@
     "nativeRawText": "<b>전투의 함성:</b> 주문을 둘 뽑습니다. 두 주문 모두 냉기 주문이면, 모든 적에게 피해도 2 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

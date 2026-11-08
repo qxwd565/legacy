@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nozdormu",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_560",
     "name": "노즈도르무",
-    "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다.",
+    "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다. ",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "여기 뭔가 써야 하는데 시간이 모자라네요.",
-    "spellSchool": "",
     "portrait": "W14_a074_D.psd:5baadc861f4282843823eb9313afc539",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,12 +100,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다. "
+          "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다."
         }
       }
     ]

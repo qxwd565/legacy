@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Rexxar's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_03",
     "name": "렉사르의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"나는 혼자 쇼핑하지.\" -렉사르",
-    "spellSchool": "",
     "portrait": "HS31-121_S.tif:54fec959f20d468d8b040170f207e3fb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

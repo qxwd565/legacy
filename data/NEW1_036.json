@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Commanding Shout",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_036",
     "name": "지휘의 외침",
-    "text": "이번 턴에는\n내 하수인들의 생명력이 1 미만으로 내려가지 않습니다.\n카드를 뽑습니다.",
+    "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"전방에 힘찬 함성 5초간 발사!\" - 전사 훈련 중",
-    "spellSchool": "",
     "portrait": "W2_414_D.psd:fbc20112894dcbe42ae7b023b275a2e7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,26 +66,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2018-10-03",
+        "date": "2013-10-03",
         "changes": {
           "text": "이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "이번 턴에는<br>내 하수인들의 생명력이 1 미만으로 내려가지 않습니다.<br>카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "이번 턴에는\n내 하수인들의 생명력이 1 미만으로 내려가지 않습니다.\n카드를 뽑습니다."
         }
       }
     ]

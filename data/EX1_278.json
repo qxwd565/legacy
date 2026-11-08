@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shiv",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 1,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_278",
     "name": "독칼",
-    "text": "[x]피해를 $1 줍니다.\n카드를 뽑습니다.",
+    "text": "피해를 $1 줍니다. 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "알라깔라<b>독칼</b>라미<b>독칼</b>라미띠!",
-    "spellSchool": "",
     "portrait": "W5_203_D.psd:8f8c033fc5613e94ca083f587babd51d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -79,44 +74,35 @@
     ],
     "nativeRawText": "[x]피해를 $1 줍니다.\n카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 1
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 $1 줍니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
-        "changes": {
+          "cost": 2,
           "text": "피해를 $1 줍니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2018-10-03",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]피해를 $1 줍니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]피해를 $1 줍니다.<br>카드를 뽑습니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]피해를 $1 줍니다.\n카드를 뽑습니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

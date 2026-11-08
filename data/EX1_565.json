@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Flametongue Totem",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_565",
     "name": "불꽃의 토템",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "토템",
     "flavor": "토템 장인들은 본인의 토템에는 가장 희귀한 나무를 사용하곤 합니다. 심지어 무쇠껍질 수호정령으로 만든 토템도 있다는군요.",
-    "spellSchool": "",
     "portrait": "W14_a137_D.tif:a953327768660b442a64bbdfec448e2a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,7 +100,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

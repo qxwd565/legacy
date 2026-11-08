@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Poultryizer",
   "card": {
@@ -20,22 +20,17 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "MECHANICAL"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "Mekka4",
     "name": "꼬꼬댁 변신장치",
-    "text": "내 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다.",
+    "text": "당신의 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "기계",
+    "rarity": "FREE",
+    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,35 +83,33 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
         }
       },
       {
-        "before": "2014-12-05",
+        "date": "2014-07-23",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다."
+        }
+      },
+      {
+        "date": "2014-12-05",
+        "changes": {
+          "races": [
+            "MECHANICAL"
+          ],
+          "race": "기계"
+        }
       }
     ]
   },

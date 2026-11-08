@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Starving Buzzard",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_237",
     "name": "굶주린 대머리수리",
-    "text": "내가 야수를 소환할 때마다 카드를 뽑습니다.",
+    "text": "당신이 야수를 소환할 때마다 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
     "race": "야수",
     "flavor": "먹을 걸 주면 <i>정체성</i>에 혼란을 겪습니다.",
-    "spellSchool": "",
     "portrait": "W4_026_D.psd:6c9b647577ec05043a3bcf0c8ccf6142",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,54 +90,47 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 야수를 소환할 때마다 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2016-08-10",
+        "date": "2016-04-25",
         "changes": {
           "text": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-12-07",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]내가 야수를 소환할 때마다<br> 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2017-12-07",
-        "before": "2018-04-11",
+        "date": "2017-12-07",
         "changes": {
           "text": "[x]내가 야수를 소환할 때마다<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2018-10-03",
+        "date": "2018-04-11",
         "changes": {
           "text": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "내가 야수를 소환할 때마다 카드를 뽑습니다."
         }
       }
     ]

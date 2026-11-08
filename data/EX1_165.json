@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Druid of the Claw",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
+    "cost": 5,
     "health": 6,
     "attack": 4,
     "armor": 0,
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_165",
     "name": "발톱의 드루이드",
-    "text": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
+    "text": "<b>선택 -</b> <b>돌진</b>. 또는 생명력 +2와 <b>도발</b>.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "표범이냐, 곰이냐, 그것이 문제로다.",
-    "spellSchool": "",
     "portrait": "W11_016_D.psd:5e469950a5f76f34c8b4a8b7dd487323",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -99,65 +97,58 @@
     ],
     "nativeRawText": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2023-04-05",
-        "changes": {
-          "cost": 5
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>선택 -</b> <b>돌진</b>. 또는 생명력 +2와 <b>도발</b>."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-12-05",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>선택 - </b><br><b>돌진</b> 또는 생명력 +2와 <b>도발</b>"
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2016-08-10",
+        "date": "2014-12-05",
         "changes": {
           "text": "<b>선택 - </b><br><b>돌진</b> 또는 생명력 +2와 <b>도발</b>을 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>선택 - </b> <b>돌진</b><br>또는 생명력 +2와<br><b>도발</b>을 얻습니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2017-04-05",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>선택 -</b> <b>돌진</b><br>또는 생명력 +2와<br><b>도발</b>을 얻습니다."
         }
       },
       {
-        "from": "2017-04-05",
-        "before": "2017-08-09",
+        "date": "2017-04-05",
         "changes": {
           "text": "<b>선택 - </b><b>돌진</b> 능력이 있는 4/4 하수인 또는 <b>도발</b> 능력이 있는 4/6 하수인으로 변신합니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2021-03-26",
+        "date": "2017-08-09",
         "changes": {
           "text": "[x]<b>선택 -</b> 4/4 <b>돌진</b> 하수인<br>또는 4/6 <b>도발</b> 하수인으로<br>변신합니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다."
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 6
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

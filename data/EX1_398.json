@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arathi Weaponsmith",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_398",
     "name": "아라시 무기제작자",
-    "text": "<b>전투의 함성:</b>\n2/2 무기를 장착합니다.",
+    "text": "<b>전투의 함성:</b> 2/2 무기를 장비합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "장착 무기류를 50% 할인합니다! 기간 한정!",
-    "spellSchool": "",
     "portrait": "W3_087_D.psd:204e4fb172c540c4ca4b3f69b070d011",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +99,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 2/2 무기를 장비합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 2/2 무기를 장착합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>2/2 무기를 장착합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n2/2 무기를 장착합니다."
         }
       }
     ]

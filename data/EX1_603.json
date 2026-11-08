@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Cruel Taskmaster",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_603",
     "name": "잔인한 감독관",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"자네, 아무래도 이번 일요일에 출근해야 할 것 같은데.\" - 잔인한 감독관",
-    "spellSchool": "",
     "portrait": "W6_196_D.psd:04cd37e6e62d1ca41817ed3ea2650e77",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,12 +89,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나에게 피해를 1 주고 공격력을 +2 부여합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
         }
       }
     ]

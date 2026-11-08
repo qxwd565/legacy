@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hammer of Wrath",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_094",
     "name": "천벌의 망치",
-    "text": "[x]피해를 $3 줍니다.\n카드를 뽑습니다.",
+    "text": "피해를 $3 줍니다. 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "훌륭한 성기사는 다양한 도구를 소지하고 다닙니다. 천벌의 망치, 복수의 집게, 정의의 쇠톱 등등...",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "R6_a091_D.psd:9afa1cddb46e5764184a01a1468da202",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,48 +82,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 $3 줍니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-12-05",
+        "date": "2013-10-03",
         "changes": {
           "text": "피해를 $3 줍니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2016-07-13",
+        "date": "2014-12-05",
         "changes": {
           "text": "피해를 $3 줍니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2018-10-03",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]피해를 $3 줍니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]피해를 $3 줍니다.<br>카드를 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]피해를 $3 줍니다.\n카드를 뽑습니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

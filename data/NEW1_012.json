@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mana Wyrm",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_012",
     "name": "마나 지룡",
-    "text": "내가 주문을 시전할 때마다 공격력을\n+1 얻습니다.",
+    "text": "당신이 주문을 시전할 때마다 공격력을 +1 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "이 지룡들은 비전 에너지를 먹고 삽니다. 이들은 큰 위협이라기보단 좀 귀찮은 존재일 뿐이지만, 절대 마나 곁에 혼자 두진 마십시오.",
-    "spellSchool": "",
     "portrait": "Mana Wyrm_D.psd:1622343a2f625094898b079d9b75306c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,26 +84,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 주문을 시전할 때마다 공격력을 +1 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 주문을 시전할 때마다 공격력을 +1 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "내가 주문을 시전할 때마다 공격력을<br>+1 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내가 주문을 시전할 때마다 공격력을\n+1 얻습니다."
         }
       }
     ]

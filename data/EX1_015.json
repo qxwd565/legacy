@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Novice Engineer",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_015",
     "name": "풋내기 기술자",
-    "text": "<b>전투의 함성:</b>\n카드를 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"수강생들의 반은 재수강도 하지 못할 걸요? 닭으로 변해 있을 테니까요.\" - 수석땜장이 오버스파크, 기계공학개론 101장 강의 중에서.",
-    "spellSchool": "",
     "portrait": "W7_078_D.psd:f2422f71256f6a748a63a4ffd741d409",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +91,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n카드를 뽑습니다."
         }
       }
     ]

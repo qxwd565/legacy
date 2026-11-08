@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient of War",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_178",
     "name": "전쟁의 고대정령",
-    "text": "<b>선택 -</b> 공격력 +5 또는 생명력 +5와 <b>도발</b>을 얻습니다.",
+    "text": "<b>선택</b> - 전쟁의 고대정령이 생명력 +5와 <b>도발</b>을 얻습니다. 또는 공격력을 +5 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "젊은 나이트 엘프들은 \"전쟁의 고대정령 뿌리 들게 만들기\" 놀이를 즐깁니다. 정령에 깔려 죽는 엘프가 지는 겁니다.",
-    "spellSchool": "",
     "portrait": "W2_217_D.psd:51634fd4858ba4e41809500856db8e0b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,40 +94,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>선택</b> - 전쟁의 고대정령이 생명력 +5와 <b>도발</b>을 얻습니다. 또는 공격력을 +5 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>선택</b> - 전쟁의 고대정령이 생명력 +5와 <b>도발</b> 능력을 얻습니다. 또는 공격력을 +5 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>선택</b> - <b>도발</b> 능력과 생명력 +5를 얻습니다. 또는 공격력을 +5 얻습니다."
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2016-11-30",
+        "date": "2014-03-12",
         "changes": {
           "text": "<b>선택</b> -<br>공격력 +5 또는 생명력 +5와 <b>도발</b> 능력을 얻습니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2017-08-09",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>선택 -</b> 공격력 +5 또는 생명력 +5와 <b>도발</b> 능력을 얻습니다."
+        }
+      },
+      {
+        "date": "2017-08-09",
+        "changes": {
+          "text": "<b>선택 -</b> 공격력 +5 또는 생명력 +5와 <b>도발</b>을 얻습니다."
         }
       }
     ]

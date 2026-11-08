@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ysera the Dreamer",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_033",
     "name": "꿈의 여왕 이세라",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "용족",
     "flavor": "서둘러! 무슨 꿈인지 잊어버리기 전에 얼른 적어 놔.",
-    "spellSchool": "",
     "portrait": "CLA-051_M.tif:85b6a68a78254bca98f595f390cb3e4b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -107,7 +104,8 @@
     "nativeRawText": "<b>전투의 함성:</b> 모든 종류의 <b>꿈_카드</b>를 1장씩 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

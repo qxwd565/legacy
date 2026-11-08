@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Azure Drake",
   "card": {
@@ -20,22 +20,23 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY",
+      "SPELLPOWER"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_284",
     "name": "하늘빛 비룡",
-    "text": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b>\n카드를 뽑습니다.",
+    "text": "<b>주문력 +1</b>. <b>전투의 함성:</b> 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "처음엔 녹황색 비룡이나 군청색 비룡을 생각했습니다만, 너무 촌스러운 느낌이라 바꿨습니다.",
-    "spellSchool": "",
     "portrait": "W15_A169_D.psd:4364509a67eddac4e829af494f4f3899",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,33 +114,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>주문력 +1</b>. <b>전투의 함성:</b> 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>주문 공격력 +1</b>. <b>전투의 함성:</b> 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>주문 공격력 +1</b><br><b>전투의 함성:</b><br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>주문 공격력 +1</b><br><b>전투의 함성:</b><br>카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b>\n카드를 뽑습니다."
         }
       }
     ]

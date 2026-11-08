@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Pyroblast",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 10,
+    "cost": 8,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_279",
     "name": "불덩이 작렬",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "이 카드를 뽑으면 잠시 시간을 내어 한 번 사악하게 웃어주십시오.",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "W8_159_D.psd:d93a4fb920a11ff44bf55fd74105dd28",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -89,23 +85,22 @@
     ],
     "nativeRawText": "피해를 $10 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2014-01-17",
+        "date": "2014-01-17",
         "changes": {
-          "cost": 8
+          "cost": 10
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "FIRE"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Edwin VanCleef",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_613",
     "name": "에드윈 밴클리프",
-    "text": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다.",
+    "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "그는 스톰윈드를 재건하는 석공 길드를 이끌었는데, 귀족들이 돈을 지불하지 않자 데피아즈단을 결성해 <i>오히려</i> 스톰윈드를 마구 부쉈답니다.",
-    "spellSchool": "",
     "portrait": "R7_a065_D.psd:71111c0e9ec0ec143adc29566a1aa346",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,33 +99,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-08-30",
+        "date": "2013-08-30",
         "changes": {
-          "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다."
+          "text": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다."
         }
       },
       {
-        "from": "2013-09-01",
-        "before": "2013-10-03",
+        "date": "2013-09-01",
         "changes": {
           "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2017-04-05",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2017-04-05",
-        "before": "2021-03-26",
+        "date": "2017-04-05",
         "changes": {
           "text": "[x]<b>연계:</b> 이번 턴에<br>앞서 낸 카드 1장당<br>+2/+2를 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다."
         }
       }
     ]

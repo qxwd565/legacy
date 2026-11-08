@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Chicken",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "Mekka4t",
     "name": "닭",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "야수",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W12_a222_D.psd:3209e64d336644449ad520c9b46d309c",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -73,15 +70,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<i>오, 닭이다!</i>"
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

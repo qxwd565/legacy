@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Injured Blademaster",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_181",
     "name": "부상당한 검귀",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "본인은 옛 전쟁에서 얻은 상처라고 주장하지만, 모두들 면도하다 난 상처라고 생각합니다.",
-    "spellSchool": "",
     "portrait": "blademaster_D.png:9e7ed06c48142954480545c42f2c6f4c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

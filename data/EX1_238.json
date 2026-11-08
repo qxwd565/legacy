@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lightning Bolt",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_238",
     "name": "번개 화살",
-    "text": "[x]피해를 $3 줍니다.\n<b>과부하:</b> (1)",
+    "text": "피해를 $3 줍니다. <b>과부하:</b> (1)",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "번개 화살! 번개 화살! 번개 화살!",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W10_A153_D.psd:97cb40df7c097064fbdbf240a942d7f6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +90,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "피해를 $3 줍니다. <b>과부하:</b> (1)"
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]피해를 $3 줍니다.<br><b>과부하:</b> (1)"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]피해를 $3 줍니다.\n<b>과부하:</b> (1)",
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

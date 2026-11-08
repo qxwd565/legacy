@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Upgrade!",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_409",
-    "name": "강화!",
-    "text": "내가 무기를 장착하고 있으면, +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다.",
+    "name": "향상!",
+    "text": "당신이 무기를 장비하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장비합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "RARE",
-    "race": "",
     "flavor": "상대편의 스트레스 지수도 높아집니다.",
-    "spellSchool": "",
     "portrait": "W4_183_D.psd:8d7bda5da8623594db7decfde55e200b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +81,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "향상!",
-          "text": "당신이 무기를 장비하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장비합니다."
+          "name": "강화!",
+          "text": "내가 무기를 장착하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2015-08-19",
         "changes": {
-          "text": "내가 무기를 장착하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다."
+          "text": "내가 무기를 장착하고 있으면, +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다."
         }
       }
     ]

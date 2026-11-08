@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sacrificial Pact",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_003",
     "name": "희생의 서약",
-    "text": "[x]아군 악마를 처치합니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+    "text": "악마를 파괴합니다. 당신의 영웅이 생명력을 #5 회복합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
-    "race": "",
     "flavor": "악마와 흑마법사 사이의 미묘한 긴장감은 이 주문에서 비롯됐다고 봐도 과언이 아닙니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W9_A060_D.psd:49c1122cdbc647540b9a326ee0d4258e",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,48 +67,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "악마를 파괴합니다. 당신의 영웅이 생명력을 #5 회복합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "악마를 처치합니다. 내 영웅이 생명력을 #5 회복합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "악마를 하나 처치합니다. 내 영웅이 생명력을 #5 회복합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2020-05-13",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]악마를 처치합니다.<br>내 영웅이 생명력을<br>#5 회복합니다."
         }
       },
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "[x]아군 악마를 처치합니다.<br>내 영웅이 생명력을<br>#5 회복합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]아군 악마를 처치합니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

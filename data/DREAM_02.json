@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ysera Awakens",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DREAM_02",
     "name": "깨어난 이세라",
-    "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
+    "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DREAM",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W13_201_D.psd:ee8f4a1b54ef4e2488386a052a9be665",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -66,20 +62,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
+        "date": "2015-08-19",
         "changes": {
-          "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
+          "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

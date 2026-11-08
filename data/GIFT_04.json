@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arthas's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_04",
     "name": "아서스의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"써 봐라.\" -아서스",
-    "spellSchool": "",
     "portrait": "HS31-118_S.tif:cd071cb261dc4225b095aa7e5275bd8a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

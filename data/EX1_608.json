@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sorcerer's Apprentice",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AURA"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_608",
     "name": "마술사의 수습생",
-    "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+    "text": "당신이 쓰는 주문의 비용이 (1) 감소합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "수습생들은 이래라 저래라 시키기 좋습니다. \"마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!\"",
-    "spellSchool": "",
     "portrait": "W2_210_D.psd:c9920db8022c1294e944750e8907eb34",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,33 +89,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 쓰는 주문의 비용이 (1) 감소합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-04-25",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 쓰는 주문의 비용이 (1) 감소합니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2016-08-10",
+        "date": "2016-04-25",
         "changes": {
           "text": "내 주문의 비용이 (1) 감소합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 주문의 비용이<br>(1) 감소합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>"
         }
       }
     ]

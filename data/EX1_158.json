@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Soul of the Forest",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_158",
     "name": "숲의 영혼",
-    "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령을 소환함\" 능력을 부여합니다.",
+    "text": "당신의 하수인들에게 \"<b>죽음의 신음:</b> 2/2 나무정령 소환\" 능력을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "식목일에 쓰면 더 좋습니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W20_a025_D.psd:c928cccdd328b334a8da0d8f78cb52f2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,41 +92,31 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 하수인들에게 \"<b>죽음의 신음:</b> 2/2 나무정령 소환\" 능력을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령 소환\" 능력을 부여합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령 하나 소환\" 능력을 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령 소환\" 능력을 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령을 소환함\" 능력을 부여합니다.",
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

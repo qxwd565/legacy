@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Power Infusion",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_194",
     "name": "마력 주입",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "마력 주입으로 전율하는 젊음을 느껴보세요!",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "HS19-282.tif:4660896acfc34b688eac89b74fe83bc6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,13 +72,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

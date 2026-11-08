@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadow Word: Pain",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_234",
     "name": "어둠의 권능: 고통",
-    "text": "공격력이\n3 이하인 하수인을 처치합니다.",
+    "text": "공격력 3 이하인 하수인을 하나 파괴합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "초급 수행사제들이 배우는 \"어둠의 권능: 성가심\"보다 한 단계 높은 등급의 주문입니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W10_A233_D.psd:3daa13aa59d1bea43966f9b1575bdf41",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,48 +72,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "공격력 3 이하인 하수인을 하나 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "공격력 3 이하인 하수인을 1마리 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "공격력 3 이하인 하수인을 하나 처치합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]공격력이 3 이하인<br>하수인을 하나<br>처치합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "공격력이<br>3 이하인 하수인을 처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "공격력이\n3 이하인 하수인을 처치합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

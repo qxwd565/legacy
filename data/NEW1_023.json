@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Faerie Dragon",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "ELUSIVE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_023",
     "name": "요정용",
-    "text": "<b>모면</b>",
+    "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "깜찍합니다. 마법에 면역입니다. 바닥에 쉬를 하지도 않습니다. 정말 완벽한 애완동물 아닌가요?",
-    "spellSchool": "",
     "portrait": "faerieDragon_D.psd:e2012754ca1ca7748a75bffec02c9b07",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,26 +93,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2020-03-27",
+        "date": "2013-10-03",
         "changes": {
           "text": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
         }
       },
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
           "text": "주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>모면</b>"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Wicked Knife",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_082",
     "name": "악의의 손칼",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W13_160_D.psd:5f33f3cccb7087449a52a72b777c76bc",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -86,7 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [

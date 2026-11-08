@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Divine Favor",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_349",
     "name": "신의 은총",
-    "text": "[x]상대편 손에 있는 카드와\n같은 수가 될 때까지\n카드를 뽑습니다.",
+    "text": "상대편의 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "그냥 은총이 아니라 신의 은총입니다! 누군가 침대 밑에 숨겨 놓은 비상금을 찾아내 주는 것 같은 일이죠!",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "R6_a92_D.psd:7463e9f43334e0d4ba2f417f5711cdb9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,34 +77,25 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "상대편의 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "상대편 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]상대편 손에 있는 카드와<br>같은 수가 될 때까지<br>카드를 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]상대편 손에 있는 카드와\n같은 수가 될 때까지\n카드를 뽑습니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stormwind Knight",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_131",
     "name": "스톰윈드 기사",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이렇게 된 이상 오그리마로 간다!",
-    "spellSchool": "",
     "portrait": "WOW_CHE_027_D.psd:443b66577ebd1ab4a9a079bb7f1d05cc",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

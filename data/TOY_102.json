@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Footman",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "TOY_102",
     "name": "보병",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "하하 하 후하!",
-    "spellSchool": "",
     "portrait": "HS31-215_M.tif:c5602fce4309406aad5bac3843bf68c2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -100,7 +95,8 @@
     "nativeRawText": "<b>도발</b>, 양옆의 하수인들이 공격할 때, <b>면역</b> 상태가 됩니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2024-03-20",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

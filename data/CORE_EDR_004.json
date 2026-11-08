@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Raptor Herald",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CORE_EDR_004",
     "name": "랩터 전령",
@@ -35,7 +33,6 @@
     "rarity": "EPIC",
     "race": "야수",
     "flavor": "저 유성, 너무 가깝지 않아?",
-    "spellSchool": "",
     "portrait": "HS34-342_M.tif:7db9a545402549c2a0d0e32dda95dbad",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -117,7 +114,8 @@
     "nativeRawText": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의_선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2025-03-26",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

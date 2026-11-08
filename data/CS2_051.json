@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stoneclaw Totem",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_051",
     "name": "돌발톱 토템",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "토템",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W2_226_D.psd:0d3a291555ba292459a5d62f51d3cfa1",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -98,7 +95,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

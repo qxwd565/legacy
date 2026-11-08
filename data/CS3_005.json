@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Vanessa VanCleef",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_005",
     "name": "바네사 밴클리프",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "보통은 우표나 꽃을 수집하는데, 그녀는 적을 수집하네요.",
-    "spellSchool": "",
     "portrait": "CLA-024_M.tif:1ade3e8a917c400797dfa22e0c47611f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "<b>연계:</b> 상대편이 마지막으로 낸 카드를 복사하여 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

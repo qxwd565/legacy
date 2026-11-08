@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Boar",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_boar",
     "name": "멧돼지",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "야수",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W8_018a_D.psd:53cb4932f0f34b24aba4474cb49e721f",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -93,7 +90,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

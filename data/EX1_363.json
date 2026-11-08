@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Blessing of Wisdom",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_363",
     "name": "지혜의 축복",
-    "text": "[x]하수인을 선택합니다.\n그 하수인이 공격할\n때마다 카드를 뽑습니다.",
+    "text": "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W6_019_D.psd:6bf6e5d438e5ea64c94f16270ef8a46c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,48 +72,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]하수인 하나를 선택합니다.<br>그 하수인이 공격할 때마다<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]하수인을 선택합니다.<br>그 하수인이 공격할<br>때마다 카드를 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]하수인을 선택합니다.\n그 하수인이 공격할\n때마다 카드를 뽑습니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

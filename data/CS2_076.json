@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Assassinate",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 4,
+    "cost": 5,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_076",
     "name": "암살",
-    "text": "적 하수인을 처치합니다.",
+    "text": "적 하수인을 파괴합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!",
-    "spellSchool": "",
     "portrait": "WOW_SPE_011(a)_D.psd:8bbaf6bfc00a217428a752418d5a4b47",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,30 +79,34 @@
     ],
     "nativeRawText": "적 하수인을 처치합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 5
+          "text": "적 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "적 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "적 하수인 하나를 처치합니다."
         }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "적 하수인을 처치합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 4
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

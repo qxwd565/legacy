@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Silver Hand Recruit",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_101t3",
     "name": "은빛 성기사단 신병",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS30-110_M.tif:10c6cdf408bd452fb745f501c886f340",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -80,7 +75,8 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

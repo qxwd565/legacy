@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Earthen Ring Farseer",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_117",
     "name": "대지 고리회 선견자",
-    "text": "[x]<b>전투의 함성:</b>\n생명력을 #3 회복시킵니다.",
+    "text": "<b>전투의 함성:</b> 생명력을 3 회복시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "선견지명이 대단합니다. 이름값을 한다고나 할까요.",
-    "spellSchool": "",
     "portrait": "W10_A005_D.psd:b0626881181c9a944a6b30d0a82e2966",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,33 +84,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 생명력을 3 회복시킵니다."
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 생명력을<br>3 회복시킵니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-08-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>생명력을 3 회복시킵니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>생명력을 #3 회복시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n생명력을 #3 회복시킵니다."
         }
       }
     ]

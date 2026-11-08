@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Elite Tauren Chieftain",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001",
     "name": "정예 타우렌 족장",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "현재 드러머를 구하는 중입니다. 풋내기 기술자, 센진 방패대가, 불의 군주 라그나로스가 후보라네요.",
-    "spellSchool": "",
     "portrait": "ETC_D.psd:97910c41b15f5a74ea4a684a1be00670",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,19 +86,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": [
+    "patches": [
       {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "디버그 텍스트"
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!"
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 손으로 가져오고 로큰롤에 흠뻑 취합니다!"
         }
       }
     ]

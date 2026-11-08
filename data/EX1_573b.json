@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shan'do's Lesson",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_573b",
     "name": "샨도의 가르침",
-    "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다.",
+    "text": "<b>도발</b>하는 2/2 나무정령을 둘 소환합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W16_a032ABILITY_D.psd:79fe71dd8efd7274f845376e6db7c30e",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,19 +71,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>도발</b>하는 2/2 나무정령을 둘 소환합니다."
+          "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 2마리 소환합니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 2마리 소환합니다."
+          "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
         }
       }
     ]

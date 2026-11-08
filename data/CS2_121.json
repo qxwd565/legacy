@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Frostwolf Grunt",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_121",
     "name": "서리늑대 그런트",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "대대로 그런트 직책을 물려받으며 기술을 전수하고 있다고 합니다. 도대체 무슨 말로 상대를 열받게 하는지 궁금하네요.",
-    "spellSchool": "",
     "portrait": "W15_A233_D.psd:549d86d7aa03177489486a7ca5a23eca",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

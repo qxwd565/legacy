@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Consecration",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 4,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_093",
     "name": "신성화",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "신성화된 땅은 신성한 에너지의 빛을 뿜습니다. 하지만 냄새도 좀 풍깁니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W8_174_D.psd:f4af444b9bf43564886d1f68bc64d6bf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,23 +80,22 @@
     ],
     "nativeRawText": "모든 적에게 피해를 $2 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2023-04-05",
+        "date": "2021-03-26",
         "changes": {
-          "cost": 4
+          "spellSchool": "HOLY"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2023-04-05",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "cost": 3
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

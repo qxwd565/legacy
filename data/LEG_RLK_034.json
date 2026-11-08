@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Heart Strike",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_034",
     "name": "심장 강타",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "심장이 터질 것 같습니다.",
-    "spellSchool": "",
     "portrait": "W11_031_S.tif:2e13e97a830b4853a79109ebbe959e15",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

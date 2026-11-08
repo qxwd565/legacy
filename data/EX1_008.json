@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Argent Squire",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DIVINE_SHIELD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_008",
     "name": "은빛십자군 종자",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"맹세합니다. 이 시간 이후로, 나는 빛을 수호하고, 어둠을 물리치며, 유통기한이 지난 음식은 먹지 않겠다고.\" - 은빛 여명회 서약",
-    "spellSchool": "",
     "portrait": "W11_059_D.psd:f72443199d828b249994b8d0a3af52bf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

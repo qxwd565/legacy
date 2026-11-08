@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nightblade",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_593",
     "name": "암흑칼날",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "단검을 가장 피하고 싶은 부분은 당신의 얼굴일 겁니다. 그러니 도적이 그곳을 노릴 겁니다.",
-    "spellSchool": "",
     "portrait": "W11_061_D.psd:249a2599722628846b7f1b43dee19033",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,7 +86,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

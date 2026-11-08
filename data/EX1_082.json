@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mad Bomber",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_082",
     "name": "정신 나간 폭격수",
-    "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 캐릭터에게 3의 피해를 무작위로 나누어 입힙니다.",
+    "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해 3을 무작위로 나누어 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "완전 정신이 나간 건 아닙니다. 그저 남들보다 폭발물을 더 험하게 다룰 뿐이죠.",
-    "spellSchool": "",
     "portrait": "W20_a127_D.psd:b4f6ab8e3e606b24bb1770181fcf7478",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,19 +94,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해 3을 무작위로 나누어 줍니다."
+          "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 3의 피해를 무작위로 나누어 입힙니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2015-08-19",
         "changes": {
-          "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 3의 피해를 무작위로 나누어 입힙니다."
+          "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 캐릭터에게 3의 피해를 무작위로 나누어 입힙니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sunwalker",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DIVINE_SHIELD",
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_032",
     "name": "태양길잡이",
-    "text": "<b>도발</b>\n<b>천상의 보호막</b>",
+    "text": "<b>도발</b>. <b>천상의 보호막</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "태양길잡이라고 정말로 태양의 길잡이 노릇을 하는 건 아닙니다. 그냥 이름만 이런 거예요!",
-    "spellSchool": "",
     "portrait": "W15_A015_D.psd:ec81e559ad830d4448230604a5bacfb9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,19 +100,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-06-16",
+        "date": "2015-06-16",
         "changes": {
-          "text": "<b>도발</b>. <b>천상의 보호막</b>"
+          "text": "<b>도발</b><br><b>천상의 보호막</b>"
         }
       },
       {
-        "from": "2015-06-16",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>도발</b><br><b>천상의 보호막</b>"
+          "text": "<b>도발</b>\n<b>천상의 보호막</b>"
         }
       }
     ]

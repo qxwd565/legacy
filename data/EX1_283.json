@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Frost Elemental",
   "card": {
@@ -20,22 +20,21 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
+    "races": [],
+    "mechanics": [
+      "BATTLECRY",
+      "FREEZE"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_283",
     "name": "냉기 정령",
-    "text": "<b>전투의 함성:</b>\n캐릭터를 <b>빙결</b>\n상태로 만듭니다.",
+    "text": "<b>전투의 함성:</b> 캐릭터를 <b>얼어붙음</b> 상태로 만듭니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "정령",
+    "race": "",
     "flavor": "물의 정령과 얼음의 정령이 사랑에 빠지면...",
-    "spellSchool": "",
     "portrait": "w2_140_D.psd:06b673a47f903bd42801f235675653cb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,49 +112,45 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 캐릭터를 <b>얼어붙음</b> 상태로 만듭니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 캐릭터를 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 캐릭터 하나를 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>캐릭터 하나를 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2017-04-05",
+        "changes": {
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "ELEMENTAL"
+        }
+      },
+      {
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>캐릭터를 <b>빙결</b><br>상태로 만듭니다."
         }
       },
       {
-        "before": "2017-04-05",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>전투의 함성:</b>\n캐릭터를 <b>빙결</b>\n상태로 만듭니다."
+        }
       }
     ]
   },

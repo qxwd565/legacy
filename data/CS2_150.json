@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stormpike Commando",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_150",
     "name": "스톰파이크 특공대",
-    "text": "<b>전투의 함성:</b>\n피해를 2 줍니다.",
+    "text": "<b>전투의 함성:</b> 피해를 2 줍니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "스톰파이크 특공대는 파괴 전문가들입니다. 그렇다고 컵케이크까지 그런 방식으로 만들 필요는 없었잖아요.",
-    "spellSchool": "",
     "portrait": "W2_089_D.psd:4e0cc972b2669e04aa12ea43d4f4de57",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,19 +91,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "<b>전투의 함성:</b> 피해를 2 줍니다."
+          "text": "<b>전투의 함성:</b><br>피해를 2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b><br>피해를 2 줍니다."
+          "text": "<b>전투의 함성:</b>\n피해를 2 줍니다."
         }
       }
     ]

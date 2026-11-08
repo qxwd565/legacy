@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Druid of the Claw",
   "card": {
@@ -20,11 +20,12 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_165t2",
     "name": "발톱의 드루이드",
@@ -33,9 +34,8 @@
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W7_127a_D.psd:6f1b06a9f450f3e428086af476201065",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +88,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

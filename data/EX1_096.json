@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Loot Hoarder",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_096",
     "name": "전리품 수집가",
-    "text": "<b>죽음의 메아리:</b>\n카드를 뽑습니다.",
+    "text": "<b>죽음의 신음:</b> 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "뭐든 다 입찰하더군요. 얼마나 얄미운지.",
-    "spellSchool": "",
     "portrait": "W9_A058_D.psd:d8b923d13e07cd74fa18b6a72c277b63",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +94,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b>\n카드를 뽑습니다."
         }
       }
     ]

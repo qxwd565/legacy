@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Leokk",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_033",
     "name": "레오크",
-    "text": "내 다른 하수인들이 공격력을 +1 얻습니다.",
+    "text": "다른 아군 하수인들이 공격력을 +1 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "야수",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W4_138_D.psd:58a9a529602ff3c4ab948cdc75fe39e1",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -83,12 +80,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-06-16",
+        "date": "2015-06-16",
         "changes": {
-          "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+          "text": "내 다른 하수인들이 공격력을 +1 얻습니다."
         }
       }
     ]

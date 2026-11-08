@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Murloc Tidehunter",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_506",
     "name": "멀록 바다사냥꾼",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "멀록",
     "flavor": "\"파도를 헤치고 죽음이 나타나리니!\"",
-    "spellSchool": "",
     "portrait": "PROMO_001_D.psd:e1d2a061c99fdfb45ba56d14b851e33e",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -123,19 +120,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 1마리 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>1/1 멀록 정찰병을<br>1마리 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다."
         }
       }
     ]

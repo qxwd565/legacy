@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Felguard",
   "card": {
@@ -20,22 +20,23 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_301",
     "name": "지옥수호병",
-    "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 마나 수정을 1개 파괴합니다.",
+    "text": "<b>도발</b>. <b>전투의 함성:</b> 당신의 마나 수정 하나를 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "<i>\"묻겠다. 그대가 나의 마스터인가?\"</i>",
-    "spellSchool": "",
     "portrait": "W4_132_D.psd:99dd82f5bc02e10409036ac4f65d732b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,40 +114,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>도발</b>. <b>전투의 함성:</b> 당신의 마나 수정 하나를 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-04-25",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>도발</b>. <b>전투의 함성:</b><br>내 마나 수정 1개를 파괴합니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2016-07-13",
+        "date": "2016-04-25",
         "changes": {
           "text": "<b>도발</b><br><b>전투의 함성:</b><br>내 마나 수정 1개를 파괴합니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2016-08-10",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>도발</b><br><b>전투의 함성:</b> 내 마나 수정<br>1개를 파괴합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>도발</b>, <b>전투의 함성:</b><br>내 마나 수정을 1개 파괴합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 마나 수정을 1개 파괴합니다."
         }
       }
     ]

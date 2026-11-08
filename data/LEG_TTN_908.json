@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Crusader Aura",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_TTN_908",
     "name": "성전사의 오라",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "내 애니메이션 재생 속도도 20% 빨라집니다.",
     "spellSchool": "HOLY",
     "portrait": "HS29-188_S.tif:7b47a05a5fb54afca2444e62909a15a1",
@@ -110,7 +106,8 @@
     "nativeRawText": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.\n@턴 동안 지속됩니다.",
     "nativeTextBuilder": 7,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

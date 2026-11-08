@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Young Dragonhawk",
   "card": {
@@ -20,11 +20,12 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "WINDFURY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_169",
     "name": "어린 용매",
@@ -33,9 +34,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "벌처럼 날아 나비처럼 쏩니다.",
-    "spellSchool": "",
     "portrait": "W15_A037_D.psd:8d1dfb48e60f474458cb45a5e59b75ef",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,7 +103,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Reckoning",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_016",
     "name": "징벌",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "앞으로 \"카자크의 파멸 카메르\"로 불리게 됩니다.",
     "spellSchool": "HOLY",
     "portrait": "CLA-038_S.tif:03f59b2a22bf4718b5a57eab9a536938",
@@ -85,7 +81,8 @@
     "nativeRawText": "[x]<b>비밀:</b> 적 하수인이\n3 이상의 피해를 준 후에,\n그 하수인을 처치합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

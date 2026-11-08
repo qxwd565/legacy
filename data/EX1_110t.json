@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Baine Bloodhoof",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_110t",
     "name": "바인 블러드후프",
@@ -30,10 +27,8 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W14_a090.tif:6625cdd6ad04c7444b9c49deb81f5d74",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -81,7 +76,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

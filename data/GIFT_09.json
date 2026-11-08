@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Valeera's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_09",
     "name": "발리라의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"한번 줘 볼까.\" -발리라",
-    "spellSchool": "",
     "portrait": "HS31-125_S.tif:0a24631088e34c378ea61c87b7cdc995",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 기습, 맹독 또는 칼날 부채를 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

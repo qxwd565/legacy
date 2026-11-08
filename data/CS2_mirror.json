@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mirror Image",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_mirror",
     "name": "환영 복제",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "R6_a078_D.psd:e490849025ef37e47987bf282c029740",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -86,7 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

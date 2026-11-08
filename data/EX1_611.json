@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Freezing Trap",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_611",
     "name": "빙결의 덫",
-    "text": "<b>비밀:</b> 적 하수인이 공격하면, 그 하수인을 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
+    "text": "<b>비밀:</b> 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"우와, 시원하겠다.\" - 빙결의 덫에 대한 적절한 반응. 또는 도발.",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "W12_a048(EA)_D.psd:4ade9449409a6ee40ac22df901c11aed",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +85,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "<b>비밀:</b> 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다."
+          "text": "<b>비밀:</b> 적 하수인이 공격하면, 그 하수인을 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "FROST"
+        }
       }
     ]
   },

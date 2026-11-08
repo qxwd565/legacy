@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Rimefang Sword",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_710",
     "name": "서릿발송곳니 검",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "",
     "flavor": "누구 송곳니를 본떠 만들었을까요?",
-    "spellSchool": "",
     "portrait": "r6_a047_W_W.tif:14bf6d8881c780640ad8b42a700877dc",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

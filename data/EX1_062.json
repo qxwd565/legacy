@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Old Murk-Eye",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_062",
     "name": "늙은 거먹눈 멀록",
-    "text": "[x]<b>돌진</b>, 전장의 다른\n멀록 하나당 공격력을\n+1 얻습니다.",
+    "text": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
     "race": "멀록",
     "flavor": "그는 멀록들 사이에선 전설입니다. 그들 말로는 \"아옳옳옳옳옳옳옳!\"이라는군요.",
-    "spellSchool": "",
     "portrait": "Bestiary-final2_D.psd:fa009135edc3c7c40bbda14549dc4237",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -123,26 +120,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b>. 전장의 다른 멀록 1마리당 공격력 +1을 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다."
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "[x]<b>돌진</b>, 전장의 다른\n멀록 하나당 공격력을\n+1 얻습니다."
         }
       }
     ]

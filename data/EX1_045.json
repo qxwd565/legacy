@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient Watcher",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CANT_ATTACK"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_045",
     "name": "고대의 감시자",
-    "text": "공격할 수 없습니다.",
+    "text": "이 하수인은 공격할 수 없습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "왜 지날 때마다 눈이 날 따라 움직이는 것 같을까요?",
-    "spellSchool": "",
     "portrait": "W18_a191_D.psd:b1657d3365a8bf14f92ddf0d87772bbf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,26 +89,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "이 하수인은 공격할 수 없습니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "이 하수인은 적을 공격할 수 없습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2020-03-27",
+        "date": "2016-08-10",
         "changes": {
           "text": "이 하수인은 적을<br>공격할 수 없습니다."
+        }
+      },
+      {
+        "date": "2020-03-27",
+        "changes": {
+          "text": "공격할 수 없습니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Power of the Horde",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001c",
     "name": "호드의 힘",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "horde_D.psd:a0bdb00b2f3932743a96c5eea4ec0e18",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "무작위 호드 전사 하나를 소환합니다."
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "무작위 호드_전사를 소환합니다."
         }
       }
     ]

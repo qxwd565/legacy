@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadow Word: Ruin",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_197",
     "name": "어둠의 권능: 황폐",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "새로 산 흰색 수의에 음료수를 쏟아버린 한 늑대인간 사제에 의해 처음 발견되었습니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "HS19-285.tif:cdd8780888d14c34b06ff18bda15f9c0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,20 +72,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
           "text": "[x]공격력이 5 이상인<br><b>모든</b> 하수인을<br>처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]공격력이 5 이상인\n<b>모든</b> 하수인을\n처치합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Captain's Parrot",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_016",
     "name": "선장의 앵무새",
-    "text": "<b>전투의_함성:</b> 내 덱에서 해적을 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 당신의 손으로 가져옵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
     "race": "야수",
     "flavor": "해적과 앵무새는 토깽과 당근의 관계와도 같죠.",
-    "spellSchool": "",
     "portrait": "W6_036_D.psd:0423a059852678b4d8ac8b4f29881f36",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,26 +90,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 당신의 손으로 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적 카드 1장을 내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "<b>전투의_함성:</b> 내 덱에서 해적을 뽑습니다."
         }
       }
     ]

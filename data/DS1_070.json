@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Houndmaster",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_070",
     "name": "사냥개조련사",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"누가 개들을 풀었어?\"라고 묻네요. 몰라서 물으십니까?",
-    "spellSchool": "",
     "portrait": "W13_196_D.psd:c8e73395432bb05488a3e432eeaf0fd9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +96,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 아군 야수 1마리에게 +2/+2와 <b>도발</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 아군 야수에게 +2/+2와 <b>도발</b>을 부여합니다."
         }
       }
     ]

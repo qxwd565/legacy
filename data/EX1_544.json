@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Flare",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_544",
     "name": "섬광",
-    "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.\n적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다.",
+    "text": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 모든 적의 <b>비밀</b>을 파괴합니다. 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "적의 모습을 드러낼 뿐만 아니라 파티의 분위기를 띄울 때도 좋습니다.",
-    "spellSchool": "",
     "portrait": "W13_227_D.psd:5716fcc92201f5f428c21f740f5e3a00",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,59 +79,53 @@
     ],
     "nativeRawText": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.\n적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 모든 적의 <b>비밀</b>을 파괴합니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2021-03-26",
+        "date": "2014-12-05",
         "changes": {
           "cost": 2
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>모든</b> 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>모든</b> 하수인이 <b>은신</b><br>상태에서 벗어납니다.<br>적의 모든 <b>비밀</b>을 없앱니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.<br>적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.<br>적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 1,
+          "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.\n적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

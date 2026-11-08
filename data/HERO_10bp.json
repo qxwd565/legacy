@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Demon Claws",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_10bp",
     "name": "악마의 발톱",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "DEMONHUNTER",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "HS19-289.tif:d8ba258c041b4273b8f988c779e57851",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -66,12 +61,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "<b>영웅 능력</b><br>이번 턴에 공격력을 +1 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다."
         }
       }
     ]

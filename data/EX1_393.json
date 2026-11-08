@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Amani Berserker",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "ENRAGED"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_393",
     "name": "아마니 광전사",
-    "text": "피해를 받은 상태면 공격력을 +3 얻습니다.",
+    "text": "<b>격노:</b> 공격력 +3",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "아마니 광전사가 \"지금 날 쳐다보는 거냐?!\" 라고 물어보면 단호하게 대답하세요. \"누구, 저요?\"",
-    "spellSchool": "",
     "portrait": "W2_024_D.psd:70114cecf0ad70b4f8437ea1b1dbec26",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,12 +94,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2018-04-11",
+        "date": "2018-04-11",
         "changes": {
-          "text": "<b>격노:</b> 공격력 +3"
+          "text": "피해를 받은 상태면 공격력을 +3 얻습니다."
         }
       }
     ]

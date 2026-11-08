@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "card": {
     "id": "BG31_BOBt2",
@@ -10,9 +10,7 @@
     "nativeSetId": 1941,
     "set": "LEGACY",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
-    "spellSchool": "",
+    "rarity": "FREE",
     "cost": 0,
     "attack": 0,
     "health": 0,
@@ -41,7 +39,8 @@
     "nativeRawText": "적 하수인을 복사하여 내 손으로 가져옵니다. 상대편은 동전을 3개 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

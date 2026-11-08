@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shield Block",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_606",
-    "name": "방패 올리기",
-    "text": "[x]방어도를 +5 얻습니다.\n카드를 뽑습니다.",
+    "name": "방패 막기",
+    "text": "방어도를 5 얻습니다. 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "race": "",
     "flavor": "얼굴 올리기는 도무지 쓸모가 없어서 방패 올리기가 탄생했습니다.",
-    "spellSchool": "",
     "portrait": "WOW_MISC_021_D.tif:6fad627e3884eb54f80aa543d55dcc50",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -79,68 +74,52 @@
     ],
     "nativeRawText": "[x]방어도를 +5 얻습니다.\n카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2013-08-17",
+        "date": "2013-10-03",
         "changes": {
-          "name": "방패 막기"
-        }
-      },
-      {
-        "before": "2023-04-28",
-        "changes": {
-          "cost": 3
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "name": "방패 막기",
-          "text": "방어도를 5 얻습니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-12-05",
-        "changes": {
-          "name": "방패 막기",
           "text": "방어도를 +5 얻습니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2016-08-10",
+        "date": "2014-12-05",
         "changes": {
-          "name": "방패 막기",
           "text": "방어도를 +5 얻습니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-08-03",
-        "changes": {
-          "name": "방패 막기",
-          "text": "[x]방어도를 +5 얻습니다.<br>카드를 1장 뽑습니다."
-        }
-      },
-      {
-        "from": "2018-08-03",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]방어도를 +5 얻습니다.<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
+        "changes": {
+          "name": "방패 올리기"
+        }
+      },
+      {
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]방어도를 +5 얻습니다.<br>카드를 뽑습니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]방어도를 +5 얻습니다.\n카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2023-04-28",
+        "changes": {
+          "cost": 2
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

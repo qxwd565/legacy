@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Xavian Satyr",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_614t",
-    "name": "사비안 사티로스",
+    "name": "아지노스의 불꽃",
     "text": "",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "악마",
+    "rarity": "FREE",
+    "race": "DEMON",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -78,12 +75,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2020-03-27",
+        "date": "2020-03-27",
         "changes": {
-          "name": "아지노스의 불꽃"
+          "name": "사비안 사티로스"
         }
       }
     ]

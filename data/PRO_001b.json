@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Rogues Do It...",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001b",
     "name": "도적은 뒤를 치지...",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2013-12-11",
         "changes": {
           "text": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "date": "2014-07-23",
+        "changes": {
+          "text": "[x]피해를 $4 줍니다.\n카드를 뽑습니다."
         }
       }
     ]

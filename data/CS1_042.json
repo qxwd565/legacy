@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Goldshire Footman",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS1_042",
     "name": "황금골 보병",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.",
-    "spellSchool": "",
     "portrait": "W2_279_D.psd:f39c924c124c54d4eb980ab456f3ff87",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

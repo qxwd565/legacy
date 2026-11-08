@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Aegwynn, the Guardian",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_001",
     "name": "수호자 에이그윈",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "당신이 뭘 하든 메디브를 아들로 둔 에이그윈을 실망시킬 순 없습니다.",
-    "spellSchool": "",
     "portrait": "CLA-020_M.tif:20bfec187f224363beb96834f84c6628",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -100,7 +95,8 @@
     "nativeRawText": "[x]<b>주문 공격력 +2</b>,\n<b>죽음의 메아리:</b> 내가 뽑는\n다음 하수인에게 이 능력을\n물려줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

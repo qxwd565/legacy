@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Power of the Wild",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_160",
     "name": "야생의 힘",
-    "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+    "text": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.",
-    "spellSchool": "",
     "portrait": "W17_a030_D.psd:f3e7bd574425c3940af3c63e73ad60eb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,33 +79,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-11-30",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
         }
       }
     ]

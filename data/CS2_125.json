@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ironfur Grizzly",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_125",
     "name": "무쇠가죽 불곰",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "\"불곰 가죽 1/10\"",
-    "spellSchool": "",
     "portrait": "W6_239_D.psd:e8898c484b485ae4fb9aa832b1310b79",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,7 +105,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

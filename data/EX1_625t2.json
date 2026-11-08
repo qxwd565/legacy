@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mind Shatter",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_625t2",
     "name": "정신 붕괴",
-    "text": "피해를 $3 줍니다.",
+    "text": "<b>영웅 능력</b> <br> 피해를 3 줍니다.",
     "set": "EXPERT1",
     "type": "HERO_POWER",
     "cardClass": "PRIEST",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,26 +56,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-05-09",
-        "changes": {
-          "text": "<b>영웅 능력</b> <br> 피해를 3 줍니다."
-        }
-      },
-      {
-        "from": "2014-05-09",
-        "before": "2015-08-19",
+        "date": "2014-05-09",
         "changes": {
           "text": "<b>영웅 능력</b><br>피해를 3 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2021-03-26",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>영웅 능력</b><br>피해를 $3 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "피해를 $3 줍니다."
         }
       }
     ]

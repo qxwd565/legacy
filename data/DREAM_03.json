@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Emerald Drake",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DREAM_03",
     "name": "에메랄드 비룡",
@@ -32,10 +30,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DREAM",
-    "rarity": null,
-    "race": "용족",
+    "rarity": "FREE",
+    "race": "DRAGON",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "w13_143_D.psd:c7a32d15304a2a349afcb64f89831bec",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -78,7 +75,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Misdirection",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_533",
     "name": "눈속임",
-    "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터를 공격하게 됩니다.",
+    "text": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "가짜 수염을 달고 옆 사람을 가리키는 것만으로도 잘 속아줄 때가 있죠.",
-    "spellSchool": "",
     "portrait": "w3_118_D.psd:3af03764396e87744b5f2fdb2af9fc25",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,47 +79,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 무작위로 선택된 다른 캐릭터 하나를 공격하게 됩니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-11-30",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터 하나를 공격하게 됩니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터를 공격하게 됩니다."
         }
       }
     ]

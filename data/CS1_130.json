@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Holy Smite",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS1_130",
     "name": "성스러운 일격",
-    "text": "하수인에게 피해를 $3 줍니다.",
+    "text": "피해를 $2 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "생각은 성스럽게, 주먹은 상스럽게.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "WoW_CHI_014_D.psd:3749ebd4893530a42bc9e62f3164a973",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +82,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2020-03-27",
+        "date": "2020-03-27",
         "changes": {
-          "text": "피해를 $2 줍니다."
+          "text": "하수인에게 피해를 $3 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

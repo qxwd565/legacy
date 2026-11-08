@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Chaos Strike",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_035",
     "name": "혼돈의 일격",
-    "text": "[x]이번 턴에 내 영웅이\n공격력을 +2 얻습니다.\n카드를 뽑습니다.",
+    "text": "[x]이번 턴에 내 영웅이<br>공격력을 +2 얻습니다.<br>카드를 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "혼돈은 예상하지 못한 때 찾아오는 법이죠.",
-    "spellSchool": "FEL",
+    "spellSchool": "",
     "portrait": "HS19-006.tif:9eac6d91f61944d28b0be3e8b46154b9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,20 +72,13 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "[x]이번 턴에 내 영웅이<br>공격력을 +2 얻습니다.<br>카드를 뽑습니다."
+          "text": "[x]이번 턴에 내 영웅이\n공격력을 +2 얻습니다.\n카드를 뽑습니다.",
+          "spellSchool": "FEL"
         }
-      },
-      {
-        "before": "2021-03-26",
-        "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

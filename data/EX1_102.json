@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Demolisher",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "MECHANICAL"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_102",
     "name": "파괴전차",
-    "text": "[x]내 턴이 시작될 때,\n무작위 적에게\n피해를 2 줍니다.",
+    "text": "당신의 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "기계",
+    "race": "",
     "flavor": "모두 나는 탈것을 타고 다니는 지금은 설 곳을 잃은 녀석입니다.",
-    "spellSchool": "",
     "portrait": "W10_A260_D.psd:b0adf794e77983c479690d0b2af57356",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,63 +101,57 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위 적 하나에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2014-12-05",
+        "changes": {
+          "races": [
+            "MECHANICAL"
+          ],
+          "race": "MECHANICAL"
+        }
+      },
+      {
+        "date": "2015-04-01",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위로 선택된 적 하나에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 턴이 시작될 때, 무작위 적 하나에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 턴이 시작될 때,<br>무작위 적 하나에게 피해를 2 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]내 턴이 시작될 때,<br>무작위 적에게<br>피해를 2 줍니다."
         }
       },
       {
-        "before": "2014-12-05",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]내 턴이 시작될 때,\n무작위 적에게\n피해를 2 줍니다."
+        }
       }
     ]
   },

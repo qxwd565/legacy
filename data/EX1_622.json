@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadow Word: Death",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_622",
-    "name": "어둠의 권능: 죽음",
-    "text": "공격력이 5 이상인 하수인을\n처치합니다.",
+    "name": "소실",
+    "text": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W12_A067_D.psd:cf73ceb5d52685e4db2c9855a833b5e4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -74,59 +70,48 @@
     ],
     "nativeRawText": "공격력이 5 이상인 하수인을\n처치합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2020-03-27",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 3
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "name": "소실",
-          "text": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
-        "changes": {
+          "name": "어둠의 권능: 죽음",
           "text": "공격력 5 이상인 하수인을 1마리 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "공격력 5 이상인 하수인을 하나 처치합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]공격력이 5 이상인<br>하수인을 하나<br>처치합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "공격력이 5 이상인 하수인을<br>처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "cost": 2
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "공격력이 5 이상인 하수인을\n처치합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

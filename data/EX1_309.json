@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Siphon Soul",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 4,
+    "cost": 6,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_309",
     "name": "영혼 착취",
-    "text": "[x]하수인을 처치합니다.\n내 영웅이 생명력을\n#3 회복합니다.",
+    "text": "하수인을 파괴합니다. 당신의 영웅이 생명력을 #3 회복합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "",
     "flavor": "자신의 영혼은 착취하지 마세요. 기묘한 무한 순환 고리에 빠질 수도 있으니까요.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "r5_a093_D.psd:7ddb040e69a75d54dba83f3c5ecaa86f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -89,65 +85,48 @@
     ],
     "nativeRawText": "[x]하수인을 처치합니다.\n내 영웅이 생명력을\n#3 회복합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2021-03-26",
-        "changes": {
-          "cost": 6
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인을 파괴합니다. 당신의 영웅이 생명력을 #3 회복합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인을 처치합니다. 내 영웅이 생명력을 #3 회복합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인을 하나 처치합니다. 내 영웅이 생명력을 #3 회복합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "하수인 하나를 처치합니다. 내 영웅이 생명력을 #3 회복합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]하수인을 처치합니다.<br>내 영웅이 생명력을<br>#3 회복합니다."
         }
       },
       {
-        "from": "2021-03-26",
-        "before": "2023-04-28",
+        "date": "2021-03-26",
         "changes": {
-          "cost": 5
+          "cost": 5,
+          "text": "[x]하수인을 처치합니다.\n내 영웅이 생명력을\n#3 회복합니다.",
+          "spellSchool": "SHADOW"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2023-04-28",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "cost": 4
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

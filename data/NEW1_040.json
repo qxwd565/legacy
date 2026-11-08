@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hogger",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_040",
     "name": "들창코",
-    "text": "내 턴이 끝날 때,\n<b>도발</b> 능력이 있는 2/2 놀을 소환합니다.",
+    "text": "당신의 턴이 끝날 때, <b>도발</b>하는 2/2 놀을 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "들창코는 정말 강력합니다. 만약 처치했다면, 그가 <i>봐줬기</i> 때문입니다.",
-    "spellSchool": "",
     "portrait": "W17_a071_D.psd:310ab7beb58560b47a615cbdf41a3b98",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,33 +99,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때, <b>도발</b>하는 2/2 놀을 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때, <b>도발</b> 능력이 있는 2/2 놀을 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "내 턴이 끝날 때, <b>도발</b> 능력이 있는 2/2 놀을 1마리 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 턴이 끝날 때,<br><b>도발</b> 능력이 있는 2/2 놀을 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때,\n<b>도발</b> 능력이 있는 2/2 놀을 소환합니다."
         }
       }
     ]

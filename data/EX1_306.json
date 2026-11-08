@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Felstalker",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_306",
-    "name": "지옥파수견",
-    "text": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
+    "name": "서큐버스",
+    "text": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
     "race": "악마",
     "flavor": "신발은 물론 카드도 물어뜯습니다.",
-    "spellSchool": "",
     "portrait": "CLA-004.psd:5d9e9652738a43eabc6a268980e865bf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,60 +110,47 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "서큐버스",
-          "text": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
-        "changes": {
-          "name": "서큐버스",
           "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
-          "name": "서큐버스",
           "text": "<b>전투의 함성:</b> 무작위로 선택된 카드 1장을 버립니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
-          "name": "서큐버스",
           "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2019-07-02",
+        "date": "2018-10-03",
         "changes": {
-          "name": "서큐버스",
           "text": "<b>전투의 함성:</b><br>무작위로 카드를 버립니다."
         }
       },
       {
-        "from": "2019-07-02",
-        "before": "2020-03-27",
+        "date": "2019-07-02",
         "changes": {
-          "name": "지옥사냥개",
-          "text": "<b>전투의 함성:</b><br>무작위로 카드를 버립니다."
+          "name": "지옥사냥개"
         }
       },
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
-          "text": "<b>전투의 함성:</b><br>무작위로 카드를 버립니다."
+          "name": "지옥파수견"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다."
         }
       }
     ]

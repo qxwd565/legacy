@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Timber Wolf",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_175",
     "name": "회갈색 늑대",
-    "text": "내 다른 야수들이 공격력을 +1 얻습니다.",
+    "text": "당신의 다른 야수들이 공격력을 +1 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
     "race": "야수",
     "flavor": "다른 야수들의 사랑을 독차지한답니다.",
-    "spellSchool": "",
     "portrait": "W4_165_D.psd:105982932f63e444f9719db679f703f1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,19 +100,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 다른 야수들이 공격력을 +1 얻습니다."
+          "text": "나의 다른 야수들이 공격력을 +1 얻습니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "나의 다른 야수들이 공격력을 +1 얻습니다."
+          "text": "내 다른 야수들이 공격력을 +1 얻습니다."
         }
       }
     ]

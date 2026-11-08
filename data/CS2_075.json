@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sinister Strike",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_075",
     "name": "사악한 일격",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "그렇게나 기력이 많이 들던 기술이 마나는 고작 이것밖에 안 드는군요.",
-    "spellSchool": "",
     "portrait": "wow_chi_021_D.psd:b1016b14ff187cd40b0ea565089a21a2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,7 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

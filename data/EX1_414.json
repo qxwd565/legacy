@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Grommash Hellscream",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHARGE",
+      "ENRAGED"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_414",
     "name": "그롬마쉬 헬스크림",
-    "text": "<b>돌진</b>\n피해를 받은 상태면 공격력을 +6 얻습니다.",
+    "text": "<b>돌진</b>. <b>격노:</b> 공격력 +6",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARRIOR",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "그롬마쉬는 만노로스의 오염된 피를 마시고, 오크들에게 영원히 사라지지 않는 초록색 피부와 붉은 눈을 남겼습니다! 썩 좋은 생각은 아니었던 것 같네요.",
-    "spellSchool": "",
     "portrait": "RiseoftheHorde_Final_NoLayers_D.psd:764813ae5a280994d924e1d1eb048b79",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -111,26 +110,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-12-05",
-        "changes": {
-          "text": "<b>돌진</b>. <b>격노:</b> 공격력 +6"
-        }
-      },
-      {
-        "from": "2014-12-05",
-        "before": "2018-04-11",
+        "date": "2014-12-05",
         "changes": {
           "text": "<b>돌진</b><br><b>격노:</b> 공격력 +6"
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2021-03-26",
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>돌진</b><br>피해를 받은 상태면 공격력을 +6 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>돌진</b>\n피해를 받은 상태면 공격력을 +6 얻습니다."
         }
       }
     ]

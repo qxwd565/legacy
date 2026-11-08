@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Deadly Poison",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_074",
     "name": "맹독",
-    "text": "내 무기에 공격력을 +2 부여합니다.",
+    "text": "당신의 무기에 공격력을 +2 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "도적들의 독 제조술은 극비 사항입니다. 마법사들이 주문에 사용 못 하게 하기 위해서죠. 맹독 화살? 맹독의 비? 맹독 정령? 생각만 해도 끔찍하군요.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "WOW_ACT_035_D.psd:a2ff211b10721524fba54a63f7433005",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,20 +92,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 무기에 공격력을 +2 부여합니다."
+          "text": "내 무기에 공격력을 +2 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

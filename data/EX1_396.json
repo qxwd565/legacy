@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mogu'shan Warden",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_396",
     "name": "모구샨 감시자",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "천둥왕 밖에 모르는 바보!",
-    "spellSchool": "",
     "portrait": "mogu_D.psd:ac6252f9c2e74694aae26bb4d71fd633",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

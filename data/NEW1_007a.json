@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stellar Drift",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_007a",
-    "name": "항성 이동",
-    "text": "모든 적 하수인에게 피해를 $2 줍니다.",
+    "name": "별똥별",
+    "text": "모든 적에게 피해를 $2 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "HS17-087.psd:089a4c45ff854b9aa036c714c1140e26",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -66,28 +62,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "별똥별",
-          "text": "모든 적에게 피해를 $2 줍니다."
+          "text": "모든 적 하수인에게 피해를 $2 줍니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2019-04-05",
+        "date": "2019-04-05",
         "changes": {
-          "name": "별똥별"
+          "name": "항성 이동"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

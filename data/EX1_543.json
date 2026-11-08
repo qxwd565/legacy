@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "King Krush",
   "card": {
@@ -20,11 +20,12 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "CHARGE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_543",
     "name": "왕 크루쉬",
@@ -33,9 +34,8 @@
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "LEGENDARY",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "왕 크루쉬에게서 자신을 보호하는 가장 좋은 방법은 싫어하는 누군가를 앞에 세워놓는 것입니다.",
-    "spellSchool": "",
     "portrait": "W2_211_D.psd:a6d14f1956dcf64469dad8848c1ce833",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,7 +108,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

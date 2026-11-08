@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Violet Teacher",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_026",
-    "name": "보랏빛 여교사",
-    "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+    "name": "보랏빛 교사",
+    "text": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "수업에 집중하지 않으면 당신을 돼지로 만들어 버릴지도 모릅니다. 그리고 당신의 이름이 칠판에 적히겠죠.",
-    "spellSchool": "",
     "portrait": "W7_064_D.psd:90c805ff16632964280dc2a56fef7d57",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,20 +89,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "보랏빛 교사",
-          "text": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
+          "name": "보랏빛 여교사",
+          "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 1명 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
         }
       }
     ]

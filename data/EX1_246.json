@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hex",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_246",
     "name": "사술",
-    "text": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
+    "text": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "멀록에게 사술을 써보셨나요? 네, 외관 상 큰 변화는 없을 겁니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W5_120_D.tif:380e01e443d8cba4e8e69f0c8aaf517a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,52 +90,47 @@
     ],
     "nativeRawText": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인을 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
         }
       },
       {
-        "from": "2017-09-19",
-        "before": "2023-04-05",
+        "date": "2017-09-19",
         "changes": {
           "cost": 4
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]하수인을 <b>도발</b> 능력이<br>있는 0/1 개구리로<br>변신시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
+          "spellSchool": "NATURE"
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 3
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Eye for an Eye",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_132",
     "name": "눈에는 눈",
-    "text": "[x]<b>비밀:</b> 내 영웅이 피해를\n받으면, 적 영웅에게도\n같은 피해를 줍니다.",
+    "text": "<b>비밀:</b> 당신의 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "주먹이 정의를 대변할 때도 종종 있답니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W8_044_D.psd:78fb34885f53dbf4589fe0550042ebf1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,41 +90,31 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 당신의 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2019-08-02",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>비밀:</b> 내 영웅이 피해를<br>입으면, 적 영웅에게도<br>같은 피해를 줍니다."
         }
       },
       {
-        "from": "2019-08-02",
-        "before": "2021-03-26",
+        "date": "2019-08-02",
         "changes": {
           "text": "[x]<b>비밀:</b> 내 영웅이 피해를<br>받으면, 적 영웅에게도<br>같은 피해를 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]<b>비밀:</b> 내 영웅이 피해를\n받으면, 적 영웅에게도\n같은 피해를 줍니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

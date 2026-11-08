@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Doomsayer",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_021",
     "name": "파멸의 예언자",
-    "text": "내 턴이 시작될 때, 모든 하수인을 처치합니다.",
+    "text": "당신의 턴이 시작될 때, 모든 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "그의 예언은 가끔씩 들어맞습니다. 특히 대격변이 한창인 와중에 자신에게 파멸이 찾아올 거라는 말은 분명히 맞았습니다.",
-    "spellSchool": "",
     "portrait": "W2_209_D.psd:3d115c3e66cedde428f9ce1b65355f54",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,19 +94,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 턴이 시작될 때, 모든 하수인을 파괴합니다."
+          "text": "내 턴이 시작될 때, <b>모든</b> 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "내 턴이 시작될 때, <b>모든</b> 하수인을 처치합니다."
+          "text": "내 턴이 시작될 때, 모든 하수인을 처치합니다."
         }
       }
     ]

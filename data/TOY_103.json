@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Warsong Grunt",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "TOY_103",
     "name": "전쟁노래 그런트",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "누가 화난 닭들을 만든 걸까요?",
-    "spellSchool": "",
     "portrait": "HS31-216_M.tif:bd743ba0d0ac45898b27f51dd0c17e1f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "[x]<b>속공</b>, 이 하수인은 공격하여\n다른 하수인을 처치한 후에\n다시 공격할 수 있습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2024-03-20",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

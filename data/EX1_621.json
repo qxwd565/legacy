@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Circle of Healing",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_621",
     "name": "치유의 마법진",
-    "text": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다.",
+    "text": "모든 하수인의 생명력을 #4 회복시킵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W7_100_D.psd:edce1ccadabdf284bbc67e804c7a2551",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,20 +67,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "모든 하수인의 생명력을 #4 회복시킵니다."
+          "text": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

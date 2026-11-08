@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Flesheating Ghoul",
   "card": {
@@ -20,11 +20,10 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "tt_004",
     "name": "굶주린 식인 구울",
@@ -33,9 +32,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "언데드",
+    "race": "",
     "flavor": "먹을 게 없어서 시체를 먹습니다.",
-    "spellSchool": "",
     "portrait": "DKPR_A027(final)_D.psd:5e53cf38b0cdc184e980d98b971988ff",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,21 +106,27 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2015-06-16",
-        "before": "2016-04-25",
+        "date": "2015-06-16",
         "changes": {
           "text": "하수인 하나가 죽을 때마다 공격력을 +1 얻습니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2016-04-25",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인이 죽을 때마다 공격력을 +1 얻습니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
       }
     ]
   },

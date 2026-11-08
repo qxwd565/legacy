@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tracking",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_184",
     "name": "추적",
-    "text": "내 덱에서 카드를 <b>발견</b>합니다.",
+    "text": "당신이 다음에 뽑을 카드 세 장을 미리 봅니다. 한 장을 선택해 갖고, 나머지는 버립니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!",
-    "spellSchool": "",
     "portrait": "WOW_PAR_011_D.psd:b7052e6d65ef6f9459be5c4731d5daaa",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,19 +81,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신이 다음에 뽑을 카드 세 장을 미리 봅니다. 한 장을 선택해 갖고, 나머지는 버립니다."
+          "text": "내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다."
+          "text": "내 덱에서 카드를 <b>발견</b>합니다."
         }
       }
     ]

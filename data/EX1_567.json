@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Doomhammer",
   "card": {
@@ -14,26 +14,25 @@
     "health": 8,
     "attack": 2,
     "armor": 0,
-    "durability": 8,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD",
+      "WINDFURY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_567",
     "name": "둠해머",
-    "text": "<b>질풍</b>\n<b>과부하:</b> (2)",
+    "text": "<b>질풍, 과부하:</b> (2)",
     "set": "EXPERT1",
     "type": "WEAPON",
     "cardClass": "SHAMAN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "오그림 둠해머는 자신의 전설적인 무기를 스랄에게 주었습니다. 무기와 그의 이름이 같은 건... 그저 우연입니다.",
-    "spellSchool": "",
     "portrait": "JP_Cataclysm_Book_Cover_Final_D.psd:c5ae289b14b32a44981b0324a98214a7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,19 +100,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "<b>질풍, 과부하:</b> (2)"
+          "text": "<b>질풍</b><br><b>과부하:</b> (2)"
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>질풍</b><br><b>과부하:</b> (2)"
+          "text": "<b>질풍</b>\n<b>과부하:</b> (2)"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodmage Thalnos",
   "card": {
@@ -20,22 +20,21 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "DEATHRATTLE",
+      "SPELLPOWER"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_012",
     "name": "혈법사 탈노스",
-    "text": "<b>주문 공격력 +1</b>\n<b>죽음의 메아리:</b>\n카드를 뽑습니다.",
+    "text": "<b>주문력 +1</b>. <b>죽음의 신음:</b> 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "언데드",
+    "race": "",
     "flavor": "전설 카드 치고는 좀 초라하죠? 네, 당신만 그렇게 느낀 게 아닙니다.",
-    "spellSchool": "",
     "portrait": "W12_A115_D.psd:402835572fdfcc249b0456c92eeb1786",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -118,42 +117,39 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>주문력 +1</b>. <b>죽음의 신음:</b> 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>주문 공격력 +1</b>. <b>죽음의 메아리:</b> 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>주문 공격력 +1</b><br><b>죽음의 메아리:</b><br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>주문 공격력 +1</b><br><b>죽음의 메아리:</b><br>카드를 뽑습니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>주문 공격력 +1</b>\n<b>죽음의 메아리:</b>\n카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
       }
     ]
   },

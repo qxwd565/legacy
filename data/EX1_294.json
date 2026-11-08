@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mirror Entity",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_294",
     "name": "거울상",
-    "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에,\n그 하수인을 복사하여 소환합니다.",
+    "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인을 복사합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"네가 앞장서라.\" - 거수 크루쉬고르가 그의 애완동물 멧돼지에게 명령하며.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W12_a188_D.psd:2bf025ec8d5d8fd4abf72f82e2ffbe0c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,34 +95,25 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-03-15",
-        "changes": {
-          "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인을 복사합니다."
-        }
-      },
-      {
-        "from": "2016-03-15",
-        "before": "2016-08-10",
+        "date": "2016-03-15",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인을 복사합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에,<br>그 하수인을 복사하여 소환합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에,\n그 하수인을 복사하여 소환합니다.",
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

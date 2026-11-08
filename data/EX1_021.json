@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Thrallmar Farseer",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "WINDFURY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_021",
     "name": "스랄마 선견자",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "지금은 지옥불 반도에서 근무 중이지만, 오그리마에 더 가까운 곳으로 배치되길 원합니다. 최소한 땅에서 불을 뿜지는 않은 곳으로요.",
-    "spellSchool": "",
     "portrait": "W12_A179_D.psd:14bd44846a6c9804fa878dd0f0d6ccd9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +94,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Alexstrasza",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_561",
     "name": "알렉스트라자",
-    "text": "<b>전투의 함성:</b> 선택한 영웅의 남은 생명력을 15로 만듭니다.",
+    "text": "<b>전투의 함성:</b> 영웅의 남은 생명력을 15로 만듭니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "생명의 어머니 알렉스트라자는 모두에게 삶과 희망을 줍니다. 데스윙만 빼고요. 아, 말리고스, 네크로스도 빼고요. ",
-    "spellSchool": "",
     "portrait": "R8_A002_D.psd:bc2fd5b68d4bbf4488ec66a8e48b772d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,12 +108,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 영웅의 남은 생명력을 15로 만듭니다."
+          "text": "<b>전투의 함성:</b> 선택한 영웅의 남은 생명력을 15로 만듭니다."
         }
       }
     ]

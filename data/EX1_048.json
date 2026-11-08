@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Spellbreaker",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_048",
     "name": "주문파괴자",
-    "text": "<b>전투의 함성:</b>\n하수인을 <b>침묵</b>시킵니다.",
+    "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "이로운 마법은 물론 해로운 마법도 제거해드립니다. 외래 진료도 가능하지만, 보험 처리는 불가합니다.",
-    "spellSchool": "",
     "portrait": "W4_182_D.psd:a1e07f905a6c7c742aeab1317275bafd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +99,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나를 <b>침묵</b>시킵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>하수인을 <b>침묵</b>시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n하수인을 <b>침묵</b>시킵니다."
         }
       }
     ]

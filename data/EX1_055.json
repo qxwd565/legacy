@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mana Addict",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_055",
     "name": "마나 중독자",
-    "text": "[x]내가 주문을 시전할 때마다\n이번 턴에 공격력을\n+2 얻습니다.",
+    "text": "당신이 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "끊으려고 노력하는 그녀지만 스트레스 받은 날에는 참기 힘들답니다.",
-    "spellSchool": "",
     "portrait": "W5_175_D.psd:00c0c4e891a35ac40b4abae482595d1a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +94,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2017-08-09",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]내가 주문을 시전할 때마다<br>이번 턴에만 공격력을<br>+2 얻습니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2021-03-26",
+        "date": "2017-08-09",
         "changes": {
           "text": "[x]내가 주문을 시전할 때마다<br>이번 턴에 공격력을<br>+2 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]내가 주문을 시전할 때마다\n이번 턴에 공격력을\n+2 얻습니다."
         }
       }
     ]

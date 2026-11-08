@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient Teachings",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_008a",
     "name": "고대의 지식",
-    "text": "카드를 2장 뽑습니다.",
+    "text": "카드를 두 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W2_399_D.psd:1e7e7c6452a995847b0d9698cd95b3ff",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,26 +56,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "카드를 두 장 뽑습니다."
+          "text": "카드를 2장 뽑습니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2018-10-03",
+        "date": "2016-04-25",
         "changes": {
           "text": "카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "카드를 2장 뽑습니다."
         }
       }
     ]

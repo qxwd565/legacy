@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sprint",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 5,
+    "cost": 7,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_077",
     "name": "전력 질주",
-    "text": "카드를 4장 뽑습니다.",
+    "text": "카드를 네 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "카드가 모자라면 몸이 고생이군요.",
-    "spellSchool": "",
     "portrait": "W2_301_D.psd:ce64c96ee7ff7ee45adab72501398767",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,23 +79,22 @@
     ],
     "nativeRawText": "카드를 4장 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 7
+          "text": "카드를 4장 뽑습니다."
         }
       },
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2021-03-26",
         "changes": {
-          "text": "카드를 네 장 뽑습니다."
+          "cost": 5
         }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

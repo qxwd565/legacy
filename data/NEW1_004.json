@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Vanish",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_004",
     "name": "소멸",
-    "text": "<b>모든</b> 하수인을 주인의 손으로 돌려보냅니다.",
+    "text": "모든 하수인을 주인의 손으로 돌려보냅니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W4_261_D.psd:f91ed247518ee5345a1199924f0c1456",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,12 +66,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
+        "date": "2015-08-19",
         "changes": {
-          "text": "모든 하수인을 주인의 손으로 돌려보냅니다."
+          "text": "<b>모든</b> 하수인을 주인의 손으로 돌려보냅니다."
         }
       }
     ]

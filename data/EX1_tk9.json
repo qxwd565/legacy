@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Treant",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_tk9",
     "name": "나무정령",
-    "text": "",
+    "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W16_a032_D.psd:d988af2d0aebc26489d403cf190688d1",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -86,19 +81,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 파괴합니다."
+          "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2016-04-25",
+        "date": "2016-04-25",
         "changes": {
-          "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 처치합니다."
+          "text": ""
         }
       }
     ]

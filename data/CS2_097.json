@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Truesilver Champion",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_097",
     "name": "용사의 진은검",
-    "text": "[x]내 영웅이 공격할\n때마다 생명력을\n#3 회복합니다.",
+    "text": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다.",
     "set": "LEGACY",
     "type": "WEAPON",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "베고 찌르는 것 이외에 통조림을 따는 용도로도 쓸 수 있지만... 권하지는 않습니다.",
-    "spellSchool": "",
     "portrait": "WOW_EQU_010_D.tif:027f0bd8180fea24fb97c171329c5870",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +91,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 영웅이 공격할 때마다 생명력을 2 회복합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-08-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]내 영웅이 공격할<br>때마다 생명력을<br>2 회복합니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
         "changes": {
           "text": "[x]내 영웅이 공격할<br>때마다 생명력을<br>#2 회복합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]내 영웅이 공격할\n때마다 생명력을\n#3 회복합니다."
         }
       }
     ]

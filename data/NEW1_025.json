@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodsail Corsair",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_025",
     "name": "붉은해적단 바다사냥꾼",
-    "text": "<b>전투의 함성:</b>\n상대편의 무기 내구도를 1 감소시킵니다.",
+    "text": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "\"해적 수칙\"에 따르면, 해적들은 자동 금화 인출기의 비밀번호로 모두 똑같은 네 자리 숫자를 사용해야 합니다.",
-    "spellSchool": "",
     "portrait": "W4_237_D.psd:efea2e29b2dfe6944bb3a90bf2abbb67",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,19 +93,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다."
+          "text": "<b>전투의 함성:</b><br>상대편의 무기 내구도를 1 감소시킵니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b><br>상대편의 무기 내구도를 1 감소시킵니다."
+          "text": "<b>전투의 함성:</b>\n상대편의 무기 내구도를 1 감소시킵니다."
         }
       }
     ]

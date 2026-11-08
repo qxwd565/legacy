@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodlust",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_046",
     "name": "피의 욕망",
-    "text": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.",
+    "text": "이번 턴에 당신의 하수인들에게 공격력을 +3 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "우워오우아오어오우오우아우어오얽!",
-    "spellSchool": "",
     "portrait": "W17_a120_D 1.psd:7cf643dd3e022c947a8ddbf0413cb430",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "이번 턴에 당신의 하수인들에게 공격력을 +3 부여합니다."
+          "text": "이번 턴에 내 하수인들에게 공격력을 +3 부여합니다."
         }
       }
     ]

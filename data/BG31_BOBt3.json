@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "card": {
     "id": "BG31_BOBt3",
@@ -10,9 +10,7 @@
     "nativeSetId": 1941,
     "set": "LEGACY",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
-    "spellSchool": "",
+    "rarity": "FREE",
     "cost": 0,
     "attack": 0,
     "health": 0,
@@ -51,7 +49,8 @@
     "nativeRawText": "비용이 3인 하수인을 <b>발견</b>합니다. 마나 수정을 3개 회복합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

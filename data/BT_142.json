@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadowhoof Slayer",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_142",
     "name": "그림자발굽 학살자",
-    "text": "[x]<b>전투의 함성:</b> 이번 턴에\n내 영웅에게 공격력을\n+1 부여합니다.",
+    "text": "[x]<b>전투의 함성:</b> 이번 턴에<br>내 영웅에게 공격력을<br>+1 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
     "race": "악마",
     "flavor": "살게라스의 영향을 받기 전까지는 평범한 엘프 궁수였다고 합니다.",
-    "spellSchool": "",
     "portrait": "HS19-011.tif:8b794a3361ff46c6861da1871f9b42c1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,12 +90,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "[x]<b>전투의 함성:</b> 이번 턴에<br>내 영웅에게 공격력을<br>+1 부여합니다."
+          "text": "[x]<b>전투의 함성:</b> 이번 턴에\n내 영웅에게 공격력을\n+1 부여합니다."
         }
       }
     ]

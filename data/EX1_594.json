@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Vaporize",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_594",
-    "name": "증발시키기",
-    "text": "[x]<b>비밀:</b> 하수인이\n내 영웅을 공격하면,\n그 하수인을 처치합니다.",
+    "name": "기화",
+    "text": "<b>비밀:</b> 하수인이 당신의 영웅을 공격하면, 그 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "데스윙이 이 카드 때문에 열 받아 대격변을 일으켰다는 말이 있습니다. 믿거나 말거나.",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "W5_231_D.psd:bfc5780359635ee4a8e0fd84696b903b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,35 +90,26 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "기화",
-          "text": "<b>비밀:</b> 하수인이 당신의 영웅을 공격하면, 그 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
-        "changes": {
+          "name": "증발시키기",
           "text": "<b>비밀:</b> 하수인이 내 영웅을 공격하면, 그 하수인을 처치합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>비밀:</b> 하수인이<br>내 영웅을 공격하면,<br>그 하수인을 처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]<b>비밀:</b> 하수인이\n내 영웅을 공격하면,\n그 하수인을 처치합니다.",
+          "spellSchool": "FIRE"
+        }
       }
     ]
   },

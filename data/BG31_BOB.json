@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bob the Bartender",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BG31_BOB",
     "name": "바텐더 밥",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "좋은 바텐더는 대화를 시작하는 법을 잘 아는 법입니다.",
-    "spellSchool": "",
     "portrait": "BG31-001_M.tif:e0870f0b37a449e6aed9ed4bc1423b61",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "<b>전투의 함성:</b> 전장에서 행동을 선택합니다!",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

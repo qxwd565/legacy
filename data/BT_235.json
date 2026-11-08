@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Chaos Nova",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_235",
     "name": "혼돈의 회오리",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "회오리가 휘몰아친 곳에는 허망한 혼돈만이 남으리.",
-    "spellSchool": "FEL",
+    "spellSchool": "",
     "portrait": "HS19-004.tif:b4c4eb641c8d447dbb2910631076ae73",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,13 +72,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "FEL"
+        }
       }
     ]
   },

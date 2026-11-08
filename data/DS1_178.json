@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tundra Rhino",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_178",
     "name": "툰드라 코뿔소",
-    "text": "내 야수들이 <b>돌진</b>을 얻습니다.",
+    "text": "당신의 야수들이 <b>돌진</b>을 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
     "race": "야수",
     "flavor": "툰드라 코뿔소들은 종종 코도로 오해받곤 합니다. 아니면 그냥 제 착각일지도?",
-    "spellSchool": "",
     "portrait": "W12_A229_D.psd:02d6f37be44af8949af9094527d9e078",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,26 +105,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 야수들이 <b>돌진</b>을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "나의 야수들이 <b>돌진</b>을 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-04-11",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 야수들이<br><b>돌진</b>을 얻습니다."
+        }
+      },
+      {
+        "date": "2018-04-11",
+        "changes": {
+          "text": "내 야수들이 <b>돌진</b>을 얻습니다."
         }
       }
     ]

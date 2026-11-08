@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Cult Master",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_595",
     "name": "이교도 지도자",
-    "text": "아군 하수인이 죽은 후에, 카드를 뽑습니다.",
+    "text": "당신의 다른 하수인 하나가 죽을 때마다 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "언데드",
+    "race": "",
     "flavor": "사악한 이교도 지도자지만 일주일에 한 번은 꼭 부모님께 전화하는 '효녀'랍니다.",
-    "spellSchool": "",
     "portrait": "r5_a091_D.psd:81ed4c1bdff31cd4c8d14905f686de02",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,56 +101,51 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 다른 하수인 하나가 죽을 때마다 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "나의 다른 하수인 1마리가 죽을 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-25",
+        "date": "2013-12-11",
         "changes": {
           "text": "나의 다른 하수인 하나가 죽을 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2016-08-10",
+        "date": "2016-04-25",
         "changes": {
           "text": "나의 다른 하수인이 죽을 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-04-11",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 다른 하수인이 죽을 때마다 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2018-10-03",
+        "date": "2018-04-11",
         "changes": {
           "text": "아군 하수인이 죽은 후에, 카드를 1장 뽑습니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2018-10-03",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "아군 하수인이 죽은 후에, 카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
       }
     ]
   },

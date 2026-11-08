@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Scarlet Subjugator",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_196",
     "name": "붉은십자군 정복자",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "붉은십자군 수도원에서 발차기로 사람을 진정시키는 방법을 깨우쳤다고 하네요.",
-    "spellSchool": "",
     "portrait": null,
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
           "text": "<b>전투의 함성:</b><br>내 다음 턴까지 적 하수인에게 공격력을 -2 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n내 다음 턴까지 적 하수인에게 공격력을 -2 부여합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ironbeak Owl",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 2,
     "health": 1,
     "attack": 2,
     "armor": 0,
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_203",
     "name": "무쇠부리 올빼미",
-    "text": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다.",
+    "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "그들의 날갯짓은 조용하지만 울음소리는... 일단 조용함과는 거리가 멉니다.",
-    "spellSchool": "",
     "portrait": "W4_280_D.psd:5cfd972ea3327ae4e9f054b44097994d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -106,44 +106,40 @@
     ],
     "nativeRawText": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2016-04-25",
-        "changes": {
-          "cost": 2
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2015-08-19",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인을 하나 <b>침묵</b>시킵니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-04-11",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나를 <b>침묵</b>시킵니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2018-10-03",
+        "date": "2016-04-25",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>전투의_함성:</b> 하수인 하나를 <b>침묵</b>시킵니다."
         }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

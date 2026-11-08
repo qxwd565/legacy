@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Feral Spirit",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_248",
     "name": "야수 정령",
-    "text": "<b>도발</b> 능력이 있는\n2/3 늑대 정령을\n둘 소환합니다.\n<b>과부하:</b> (1)",
+    "text": "<b>도발</b>하는 2/3 늑대 정령을 두 마리 소환합니다. <b>과부하:</b> (2) ",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "늑대 정령들은 일반 늑대와 유사하지만 발바닥이 더 보들보들하다고 합니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W10_A147_D.psd:eaa556fc1f9b60c4cb07dcd95e13698f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,48 +100,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>도발</b>하는 2/3 늑대 정령을 두 마리 소환합니다. <b>과부하:</b> (2) "
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>도발</b> 능력이 있는 2/3 늑대 정령을 두 마리 소환합니다. <b>과부하:</b> (2) "
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-07-13",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>도발</b> 능력이 있는 2/3 늑대 정령을 둘 소환합니다. <b>과부하:</b> (2) "
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2017-12-07",
+        "date": "2016-07-13",
         "changes": {
           "text": "<b>도발</b> 능력이 있는<br>2/3 늑대 정령을<br>둘 소환합니다.<br> <b>과부하:</b> (2)"
         }
       },
       {
-        "from": "2017-12-07",
-        "before": "2021-03-26",
+        "date": "2017-12-07",
         "changes": {
           "text": "<b>도발</b> 능력이 있는<br>2/3 늑대 정령을<br>둘 소환합니다.<br><b>과부하:</b> (2)"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>도발</b> 능력이 있는\n2/3 늑대 정령을\n둘 소환합니다.\n<b>과부하:</b> (1)",
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bestial Wrath",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_549",
     "name": "야수의 격노",
-    "text": "이번 턴에 아군 야수에게 공격력 +2와 <b>면역</b>을 부여합니다.",
+    "text": "이번 턴에 야수에게 공격력 +2와 <b>피해 면역</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.",
-    "spellSchool": "",
     "portrait": "W16_a038_D.psd:b8299b4bf46dcb547b6c094061a15fc2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,33 +76,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "이번 턴에 야수에게 공격력 +2와 <b>피해 면역</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2014-12-05",
+        "date": "2013-12-11",
         "changes": {
           "text": "이번 턴에 야수 1마리에게 공격력 +2와 <b>피해 면역</b>을 부여합니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2017-07-11",
+        "date": "2014-12-05",
         "changes": {
           "text": "이번 턴에 아군 야수 1마리에게 공격력 +2와 <b>피해 면역</b>을 부여합니다."
         }
       },
       {
-        "from": "2017-07-11",
-        "before": "2018-10-03",
+        "date": "2017-07-11",
         "changes": {
           "text": "이번 턴에<br>아군 야수 1마리에게<br>공격력 +2와 <b>면역</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "이번 턴에 아군 야수에게 공격력 +2와 <b>면역</b>을 부여합니다."
         }
       }
     ]

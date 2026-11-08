@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Raid Leader",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_122",
     "name": "공격대장",
-    "text": "내 다른 하수인들이 공격력을 +1 얻습니다.",
+    "text": "당신의 다른 하수인들이 공격력을 +1 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"바닥! 바닥! 바닥 좀 피하라고!\"",
-    "spellSchool": "",
     "portrait": "WOW_BLZ_003_D.psd:dc61db88de29c934a8624794512562bf",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 다른 하수인들이 공격력을 +1 얻습니다."
+          "text": "내 다른 하수인들이 공격력을 +1 얻습니다."
         }
       }
     ]

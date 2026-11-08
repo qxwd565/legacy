@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Fireblast",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_08bp",
     "name": "화염 작렬",
@@ -31,9 +28,7 @@
     "type": "HERO_POWER",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "R6_a075_D.png:ffec72f995c63e34d8b0919a4b492a1d",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "<b>영웅 능력</b><br>피해를 $1 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n피해를 $1 줍니다."
         }
       }
     ]

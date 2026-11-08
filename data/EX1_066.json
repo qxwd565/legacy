@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Acidic Swamp Ooze",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_066",
     "name": "산성 늪수액괴물",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "늪수액괴물은 플라멩코 모자를 매우 좋아합니다. 이유는 묻지 마십시오.",
-    "spellSchool": "",
     "portrait": "AcidicSwampOoze_D.psd:8dbcacb19f8639443a9a695044135561",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +91,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

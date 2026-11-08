@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Kobold Geomancer",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_142",
     "name": "코볼트 흙점쟁이",
-    "text": "<b>주문 공격력 +1</b>",
+    "text": "<b>주문력 +1</b>",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "오래 전, 코볼트는 누가 뭐래도 가장 질 좋은 초를 판매하는 상인들이었습니다만, 지금은...",
-    "spellSchool": "",
     "portrait": "W15_A215_D.psd:638522a958e4e134997e7de16740211c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +96,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>주문력 +1</b>"
+          "text": "<b>주문 공격력 +1</b>"
         }
       }
     ]

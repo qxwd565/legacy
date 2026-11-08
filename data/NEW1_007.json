@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Starfall",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_007",
     "name": "별똥별",
-    "text": "<b>선택 -</b> 하수인에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.",
+    "text": "<b>선택 -</b> 적에게 피해를 $5 줍니다. 또는 모든 적에게 피해를 $2 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "race": "",
     "flavor": "하늘이 무너지는 거냐고요? 네, 네, 그렇다고 해 둡시다.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W14_a122_D.psd:c14f87f37a603d542b5d5f9df022b9f2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,27 +80,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>선택 -</b> 적에게 피해를 $5 줍니다. 또는 모든 적에게 피해를 $2 줍니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>선택 -</b> 하수인 하나에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>선택 -</b> 하수인에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

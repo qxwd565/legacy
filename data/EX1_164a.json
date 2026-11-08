@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Rampant Growth",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_164a",
-    "name": "무성한 성장",
-    "text": "마나 수정을 2개 얻습니다.",
+    "name": "육성",
+    "text": "마나 수정을 둘 획득합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "HS17-084.psd:4d296e03539f4fa284eca3bd11e97a3b",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,36 +72,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "육성",
-          "text": "마나 수정을 둘 획득합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2018-10-03",
-        "changes": {
-          "name": "육성",
           "text": "마나 수정을 2개 획득합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2019-04-05",
+        "date": "2018-10-03",
         "changes": {
-          "name": "육성"
+          "text": "마나 수정을 2개 얻습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2019-04-05",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "name": "무성한 성장"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Twisting Nether",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_312",
     "name": "뒤틀린 황천",
-    "text": "<b>모든</b> 하수인과 장소를 파괴합니다.",
+    "text": "모든 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "뒤틀린 황천은 마법과 환상, 죽은 하수인들로 가득한 형태 없는 공간입니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W11_077_D.psd:14b2d4653e0c1ca44b669264dc289f3b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,34 +87,25 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "모든 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "모든 하수인을 처치합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2021-03-26",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>모든</b> 하수인을 처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>모든</b> 하수인과 장소를 파괴합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

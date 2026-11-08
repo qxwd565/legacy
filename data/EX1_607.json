@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Inner Rage",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_607",
     "name": "내면의 분노",
-    "text": "하수인에게 피해를 $1 주고 공격력을 +2 증가시킵니다.",
+    "text": "하수인에게 피해를 $1 줍니다. 대상 하수인은 이번 턴에 공격력이 +2 증가합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "이것으로 우리는 빛샘도, 소환의 문도 모두 감정이 있다는 걸 알 수 있습니다.",
-    "spellSchool": "",
     "portrait": "W17_A197_D.psd:6ee48fa0919f4324ebf6583fc2010561",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,19 +66,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "하수인에게 피해를 $1 줍니다. 대상 하수인은 이번 턴에 공격력이 +2 증가합니다."
+          "text": "하수인에게 피해를 $1 주고 공격력을 +2 증가시킵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 피해를 $1 주고 공격력을 +2 증가시킵니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인에게 피해를 $1 주고 공격력을 +2 증가시킵니다."
         }
       }
     ]

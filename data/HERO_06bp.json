@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shapeshift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_06bp",
     "name": "변신",
@@ -31,9 +28,7 @@
     "type": "HERO_POWER",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W2_203_D.psd:a319ca1ff28b3854da7f4c85c36f3ae9",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "<b>영웅 능력</b><br>방어도를 +1 얻고, 이번 턴에 공격력을 +1 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b>\n방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다."
         }
       }
     ]

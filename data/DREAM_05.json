@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nightmare",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DREAM_05",
     "name": "악몽",
-    "text": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다.",
+    "text": "하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DREAM",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W16_a062_D.psd:9e383b672ede646459cab24b913e6a4f",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,48 +57,42 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-12-05",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
         }
       },
       {
-        "from": "2014-12-05",
-        "before": "2018-10-03",
+        "date": "2014-12-05",
         "changes": {
           "text": "하수인 하나에게 +5/+5를 부여하고, 나의 다음 턴이 시작될 때 처치합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2019-09-11",
+        "date": "2018-10-03",
         "changes": {
           "text": "하수인에게 +5/+5를 부여하고, 나의 다음 턴이 시작될 때 처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2019-09-11",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

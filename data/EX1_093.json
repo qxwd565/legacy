@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Defender of Argus",
   "card": {
@@ -20,11 +20,10 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
+    "races": [],
+    "mechanics": [
+      "BATTLECRY"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_093",
     "name": "아르거스의 수호자",
@@ -33,9 +32,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "드레나이",
+    "race": "",
     "flavor": "아르거스에도 수호자가 필요할까 싶으셨겠지만, 네. 보시다시피 필요한 것 같네요.",
-    "spellSchool": "",
     "portrait": "W5_008_D.psd:b12b3e1df86ffaf418fb87f0f3ed4c81",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -123,14 +121,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2024-10-30",
+        "date": "2024-10-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "DRAENEI"
+        }
       }
     ]
   },

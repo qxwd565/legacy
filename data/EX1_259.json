@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lightning Storm",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "OVERLOAD"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_259",
     "name": "번개 폭풍",
-    "text": "[x]모든 적 하수인에게\n피해를 $3 줍니다.\n<b>과부하:</b> (1)",
+    "text": "모든 적 하수인에게 피해를 $2-$3 줍니다. <b>과부하:</b> (2)",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "안타깝지만 우산을 써도 소용이 없을 겁니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W18_a046_D.psd:7b5f3055e8767b4468335a23e43a9a51",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +90,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-07-13",
-        "changes": {
-          "text": "모든 적 하수인에게 피해를 $2-$3 줍니다. <b>과부하:</b> (2)"
-        }
-      },
-      {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]모든 적 하수인에게<br>피해를 $2-$3 줍니다.<br><b>과부하:</b> (2)"
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]모든 적 하수인에게\n피해를 $3 줍니다.\n<b>과부하:</b> (1)",
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

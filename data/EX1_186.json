@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "SI:7 Infiltrator",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_186",
     "name": "SI:7 침투요원",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "어느 비밀을 파괴할까요? 비밀입니다!",
-    "spellSchool": "",
     "portrait": "CLA-014.psd:a693b8d1c0b343d78738d3ed369137f7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,12 +91,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
           "text": "<b>전투의 함성:</b><br>무작위 적 <b>비밀</b>을 없앱니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n무작위 적 <b>비밀</b>을 없앱니다."
         }
       }
     ]

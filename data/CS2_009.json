@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mark of the Wild",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_009",
     "name": "야생의 징표",
-    "text": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
+    "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "WOW_ACT_073_BlizzRT_D.psd:2c106e4e2c85d134bb040631874036dd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -89,51 +85,42 @@
     ],
     "nativeRawText": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2019-02-05",
-        "changes": {
-          "legacyArt": true
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 <b>도발</b>과 +2/+2를 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2019-02-05",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "legacyArt": false
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
+          "spellSchool": "NATURE"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

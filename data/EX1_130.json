@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Noble Sacrifice",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_130",
     "name": "고귀한 희생",
-    "text": "[x]<b>비밀:</b> 적이 공격할 때,\n대신 맞아주는 2/1\n수호자를 소환합니다.",
+    "text": "<b>비밀:</b> 적이 공격할 때, 2/1 수호자를 새로운 대상으로 소환합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "아아, 못다핀 꽃 한 송이, 그대의 이름은 \"수호자\"!",
-    "spellSchool": "",
     "portrait": "W6_219_D.psd:244f86fa506fb604589d78f7ecd2745c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,40 +84,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 적이 공격할 때, 2/1 수호자를 새로운 대상으로 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 적이 공격할 때, 대신 맞아주는 2/1 수호자를 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-07-13",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>비밀:</b> 적이 공격할 때, 대신 맞아주는 2/1 수호자를 1명 소환합니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2018-10-03",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>비밀:</b> 적이 공격할 때,<br>대신 맞아주는 2/1<br>수호자를 1명<br>소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>비밀:</b> 적이 공격할 때,<br>대신 맞아주는 2/1<br>수호자를 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>비밀:</b> 적이 공격할 때,\n대신 맞아주는 2/1\n수호자를 소환합니다."
         }
       }
     ]

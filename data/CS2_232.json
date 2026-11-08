@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ironbark Protector",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_232",
     "name": "무쇠껍질 수호정령",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "그 누가 <i>감히</i> 다르나서스를 공격할쏘냐!",
-    "spellSchool": "",
     "portrait": "WoW_Clo_006_BlizzRT_D.psd:4bf916687d37e1147a63e1fb3fca198f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +91,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

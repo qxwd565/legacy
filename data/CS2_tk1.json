@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sheep",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_tk1",
     "name": "양",
@@ -32,10 +30,9 @@
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "MAGE",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "야수",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "WoW_LEAD_015a_D.psd:7283921baa811024f867f7681c5b2d07",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +85,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

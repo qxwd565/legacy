@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bonedigger Geist",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_753",
     "name": "뼈도굴 외눈깨비",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "언데드",
+    "race": "",
     "flavor": "무덤을 반만 골라 파는 외눈깨비입니다.",
-    "spellSchool": "",
     "portrait": "HS27-131_M.tif:c3de597fbde841c8be6e1bcdeb8f59e5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,14 +108,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

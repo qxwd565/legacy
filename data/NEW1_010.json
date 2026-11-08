@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Al'Akir the Windlord",
   "card": {
@@ -20,22 +20,23 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
+    "races": [],
+    "mechanics": [
+      "CHARGE",
+      "DIVINE_SHIELD",
+      "TAUNT",
+      "WINDFURY"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_010",
     "name": "바람의 군주 알아키르",
-    "text": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
+    "text": "<b>질풍, 돌진, 천상의 보호막, 도발</b>",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "LEGENDARY",
-    "race": "정령",
+    "race": "",
     "flavor": "정령 군주 넷 중에 가장 약합니다. 그리고 나머지 셋이 그 사실을 확실하게 각인시키죠.",
-    "spellSchool": "",
     "portrait": "W14_a190_D.psd:79d0c22c452f3bc45b1de4e96626c8c0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,35 +114,33 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>질풍, 돌진, 천상의 보호막, 도발</b>"
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>질풍, 돌진, 도발, 천상의 보호막</b>"
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>질풍, 돌진,<br>도발, 천상의 보호막</b>"
         }
       },
       {
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "ELEMENTAL"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient Secrets",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_008b",
     "name": "고대의 비밀",
-    "text": "생명력을 7 회복시킵니다.",
+    "text": "생명력을 8 회복시킵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W13_222_D.psd:2b423071f1bee054db64d60547ca6aa2",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,19 +56,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "생명력을 8 회복시킵니다."
+          "text": "생명력을 5 회복시킵니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "생명력을 5 회복시킵니다."
+          "text": "생명력을 7 회복시킵니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Conceal",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 1,
+    "cost": 0,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_128",
     "name": "은폐",
-    "text": "내 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
+    "text": "당신의 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "도적은 모든 것을 은폐시킬 수 있습니다. 근데 이건 어디서 나는 냄새죠?",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W6_128_D.psd:07b11c9689a69b44db6b0f44df9512b0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,37 +90,29 @@
     ],
     "nativeRawText": "내 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 0
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
-        "changes": {
+          "cost": 1,
           "text": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

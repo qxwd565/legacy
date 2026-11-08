@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tauren Warrior",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "ENRAGED",
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_390",
     "name": "타우렌 전사",
-    "text": "<b>도발</b>\n피해를 받은 상태면 공격력을 +3 얻습니다.",
+    "text": "<b>도발</b>. <b>격노:</b> 공격력 +3",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "타우렌 전사: 멀고어의 용사, 가시멧돼지 학살자, 썬더블러프 승강기 애호가",
-    "spellSchool": "",
     "portrait": "W17_a171_D.psd:aa0ccb7fcd4bfe444b01c69155c9851f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +100,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-04-25",
-        "changes": {
-          "text": "<b>도발</b>. <b>격노:</b> 공격력 +3"
-        }
-      },
-      {
-        "from": "2016-04-25",
-        "before": "2018-04-11",
+        "date": "2016-04-25",
         "changes": {
           "text": "<b>도발</b><br><b>격노:</b> 공격력 +3"
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2021-03-26",
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>도발</b><br>피해를 받은 상태면 공격력을 +3 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b>\n피해를 받은 상태면 공격력을 +3 얻습니다."
         }
       }
     ]

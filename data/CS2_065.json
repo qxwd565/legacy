@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Voidwalker",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_065",
     "name": "공허방랑자",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "악마",
     "flavor": "내 이름은 보이드. 별명은... 몸빵.",
-    "spellSchool": "",
     "portrait": "W10_A133_D.psd:ff7e1cfa2768cdb499cae03793b31e77",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,7 +105,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

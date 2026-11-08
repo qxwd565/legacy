@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mind Blast",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_233",
     "name": "정신 분열",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "멘붕이 아닙니다. 정붕입니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W9_A028_D.psd:52d64af2d2c48da4fba9c492f9938920",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,13 +82,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

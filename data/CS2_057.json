@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadow Bolt",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_057",
     "name": "어둠의 화살",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
-    "race": "",
     "flavor": "화살인데 어둠의 힘으로 만들어졌답니다. 설명이 더 필요한가요?",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W7_037_D.psd:a602907fee7446d47afe2c03e7217579",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,20 +87,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 피해를 $4 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인에게 피해를 $4 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

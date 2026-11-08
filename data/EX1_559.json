@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Archmage Antonidas",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_559",
     "name": "대마법사 안토니다스",
-    "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다.",
+    "text": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라 할 수 있죠.",
-    "spellSchool": "",
     "portrait": "Antonidas_D.psd:0797818530cc03a4e8a628e619038515",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -116,47 +114,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-04-15",
+        "date": "2013-12-11",
         "changes": {
           "text": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 손으로 가져옵니다."
         }
       },
       {
-        "from": "2016-04-15",
-        "before": "2016-08-10",
+        "date": "2016-04-15",
         "changes": {
           "text": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-12-07",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]내가 주문을 시전할 때마다<br> '화염구' 카드 1장을<br>내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2017-12-07",
-        "before": "2018-10-03",
+        "date": "2017-12-07",
         "changes": {
           "text": "[x]내가 주문을 시전할 때마다<br>'화염구' 카드 1장을<br>내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다."
         }
       }
     ]

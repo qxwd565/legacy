@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Venture Co. Mercenary",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AURA"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_227",
     "name": "투자개발회사 용병",
-    "text": "내 하수인들의 비용이\n(3) 증가합니다.",
+    "text": "당신 하수인들의 비용이 (3) 증가합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "감당할 수 없는 일은 없습니다. 감당할 수 없는 돈도 없습니다.",
-    "spellSchool": "",
     "portrait": "W14_a099_D.psd:eb62d40df5f600c45af6fdce9bf7ece9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,26 +94,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신 하수인들의 비용이 (3) 증가합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 하수인들의 비용이 (3) 증가합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 하수인들의 비용이<br>(3) 증가합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 하수인들의 비용이\n(3) 증가합니다."
         }
       }
     ]

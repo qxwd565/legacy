@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Swipe",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 4,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_012",
     "name": "휘둘러치기",
-    "text": "[x]적에게 피해를 $4 주고\n다른 모든 적에게\n피해를 $1 줍니다.",
+    "text": "적에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! ...꼭 안아주려는 겁니다.",
-    "spellSchool": "",
     "portrait": "W4_260_D.tif:f3e9b8814d9ea1a4b8aed6d2a7c84853",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,44 +79,40 @@
     ],
     "nativeRawText": "[x]적에게 피해를 $4 주고\n다른 모든 적에게\n피해를 $1 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2024-03-12",
-        "changes": {
-          "cost": 4
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "적에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-08-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "선택한 적 하나에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2018-10-03",
+        "date": "2018-08-03",
         "changes": {
           "text": "적 하나에게 피해를 $4 주고<br>다른 모든 적에게<br>피해를 $1 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]적에게 피해를 $4 주고<br>다른 모든 적에게<br>피해를 $1 줍니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]적에게 피해를 $4 주고\n다른 모든 적에게\n피해를 $1 줍니다."
+        }
+      },
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "cost": 3
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

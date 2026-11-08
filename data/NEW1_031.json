@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Animal Companion",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_031",
     "name": "야생의 벗",
-    "text": "무작위 동료_야수를 소환합니다.",
+    "text": "무작위 동료 야수를 소환합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.",
-    "spellSchool": "",
     "portrait": "W21_A114_D.psd:8ed8c5d04e799eb4dad94fda4337d3bb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -71,40 +66,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "무작위 동료 야수를 소환합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "무작위 동료 야수를 1마리 소환합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "무작위로 선택된 동료 야수 1마리를 소환합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "무작위 동료 야수 1마리를 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]무작위 동료 야수<br>1마리를 소환합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "무작위 동료_야수를 소환합니다."
         }
       }
     ]

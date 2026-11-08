@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Guardian of Kings",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_088",
     "name": "왕의 수호자",
-    "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 영웅의 생명력을\n#6 회복시킵니다.",
+    "text": "<b>전투의 함성:</b> 당신의 영웅이 생명력을 6 회복합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "신성한 존재들이 너무 많아서 이제는 좀 식상하군요.",
-    "spellSchool": "",
     "portrait": "W20_a046_D.psd:38430c010e3857c4a8cbb3d62a7400a7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,40 +96,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 영웅이 생명력을 6 회복합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-08-19",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅이 생명력을 6 회복합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅의 생명력을 6 회복시킵니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-08-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>내 영웅의 생명력을<br>6 회복시킵니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>내 영웅의 생명력을<br>#6 회복시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b>, <b>전투의 함성:</b>\n내 영웅의 생명력을\n#6 회복시킵니다."
         }
       }
     ]

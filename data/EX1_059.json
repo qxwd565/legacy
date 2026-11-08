@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Crazed Alchemist",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "BATTLECRY"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_059",
     "name": "광기의 연금술사",
-    "text": "<b>전투의 함성:</b>\n하수인의 공격력과\n생명력을 바꿉니다.",
+    "text": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 바꿉니다. ",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "언데드",
+    "race": "",
     "flavor": "\"새 물약이 마음에 들 겁니다.\"라는군요. 당신이 가진 팔다리의 개수가 마음에 안 든다면 뭐... 맞는 말이겠네요.",
-    "spellSchool": "",
     "portrait": "W2_341_D.psd:6f89a781e53172c4ba3b0aa8d89c77f0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,42 +101,39 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 바꿉니다. "
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2017-04-05",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나의 공격력과 생명력을 바꿉니다. "
         }
       },
       {
-        "from": "2017-04-05",
-        "before": "2018-10-03",
+        "date": "2017-04-05",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나의 공격력과 생명력을 바꿉니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>하수인의 공격력과<br>생명력을 바꿉니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>전투의 함성:</b>\n하수인의 공격력과\n생명력을 바꿉니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
       }
     ]
   },

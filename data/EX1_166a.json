@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Moonfire",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_166a",
-    "name": "달빛섬광",
+    "name": "달빛 섬광",
     "text": "피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W2_103_D.psd:ad2f72aecc9a58a4db66fc2ea9d5b890",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -71,12 +66,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-10-30",
+        "date": "2014-10-30",
         "changes": {
-          "name": "달빛 섬광"
+          "name": "달빛섬광"
         }
       }
     ]

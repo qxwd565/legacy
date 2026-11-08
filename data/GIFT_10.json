@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Malfurion's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_10",
     "name": "말퓨리온의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"이것이 네게 파티의 기운을 불어넣어 주기를!\" -말퓨리온",
-    "spellSchool": "",
     "portrait": "HS31-120_S.tif:11356eb6196a4ebb919c561a397a9e4c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

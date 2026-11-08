@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcane Intellect",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_023",
     "name": "신비한 지능",
-    "text": "카드를 2장 뽑습니다.",
+    "text": "카드를 두 장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 카드를 내면 똑똑해집니다. 솔직히 말해서, 좀 똑똑해졌다고 우겨도 괜찮습니다.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "WOW_ACT_078_D.psd:8b0349c727c6cfc45a67a023911199be",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,20 +87,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "카드를 두 장 뽑습니다."
+          "text": "카드를 2장 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Aldrachi Warblades",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_921",
     "name": "알드라치 전투검",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "알드라치는 불타는 군단에 맞서 일어선 강대한 전사들이었습니다. 칼자루의 위치만 바꿔서 달았더라면 더 강했을 테지만요.",
-    "spellSchool": "",
     "portrait": "HS19-009.tif:4ac1e28c704e4b9d9662ddcbcb187f13",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,7 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

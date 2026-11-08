@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Harvest Golem",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "MECHANICAL"
+    "races": [],
+    "mechanics": [
+      "DEATHRATTLE"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_556",
     "name": "허수아비골렘",
-    "text": "[x]<b>죽음의 메아리:</b>\n2/1 손상된 골렘을\n소환합니다.",
+    "text": "<b>죽음의 신음:</b> 2/1 손상된 골렘을 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "기계",
+    "race": "",
     "flavor": "\"내부 온도 과열됨. 정상 작동 불가. 2번 배출구에 보리 걸림. 가동 중단.\"",
-    "spellSchool": "",
     "portrait": "R7_a017_D.psd:b7db4eadb13c0d843a418eaa03dec6dc",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,49 +106,45 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 2/1 손상된 골렘을 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 2/1 손상된 골렘을 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 2/1 손상된 골렘을 하나 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2014-12-05",
+        "changes": {
+          "races": [
+            "MECHANICAL"
+          ],
+          "race": "MECHANICAL"
+        }
+      },
+      {
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>죽음의 메아리:</b><br>2/1 손상된 골렘을<br>하나 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>죽음의 메아리:</b><br>2/1 손상된 골렘을<br>소환합니다."
         }
       },
       {
-        "before": "2014-12-05",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]<b>죽음의 메아리:</b>\n2/1 손상된 골렘을\n소환합니다."
+        }
       }
     ]
   },

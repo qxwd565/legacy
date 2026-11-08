@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Avatar of Hearthstone",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "WON_145",
     "name": "하스스톤의 화신",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "휴대용 하스스톤을 소개합니다!",
-    "spellSchool": "",
     "portrait": "LC27-061_M.tif:cbbe7520382a420289d8a02f6b412ea0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -90,7 +85,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b>\n정규 카드 팩을 개봉합니다.\n그 팩에서 나오는 모든\n카드를 냅니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2023-09-01",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hyena",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_534t",
     "name": "하이에나",
@@ -32,10 +30,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "HUNTER",
-    "rarity": null,
-    "race": "야수",
+    "rarity": "FREE",
+    "race": "BEAST",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W11_222_D.psd:99a50f3bd0f6cde45b87e2d9e4af7e22",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,7 +85,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nourish",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_164",
     "name": "육성",
-    "text": "[x]<b>선택 -</b> 마나 수정을\n2개 얻습니다. 또는\n카드를 3장 뽑습니다.",
+    "text": "<b>선택</b> - 마나 수정을 둘 획득합니다. 또는 카드를 세 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "race": "",
     "flavor": "드루이드는 많은 것에서 힘을 얻습니다. 자연, 종달새의 지저귀는 소리, 초콜릿 케이크.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W11_127(EA)_D.psd:12c02eaddb798f545a2ee1b472d502df",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,59 +83,53 @@
     ],
     "nativeRawText": "[x]<b>선택 -</b> 마나 수정을\n2개 얻습니다. 또는\n카드를 3장 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>선택</b> - 마나 수정을 둘 획득합니다. 또는 카드를 세 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>선택</b> - 마나 수정을 2개 획득합니다. 또는 카드를 3장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>선택</b> - 마나 수정을<br>2개 획득합니다. 또는<br>카드를 3장 뽑습니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "[x]<b>선택 -</b> 마나 수정을<br>2개 획득합니다. 또는<br>카드를 3장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>선택 -</b> 마나 수정을<br>2개 얻습니다. 또는<br>카드를 3장 뽑습니다."
         }
       },
       {
-        "from": "2018-12-20",
-        "before": "2022-04-06",
+        "date": "2018-12-20",
         "changes": {
           "cost": 6
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]<b>선택 -</b> 마나 수정을\n2개 얻습니다. 또는\n카드를 3장 뽑습니다.",
+          "spellSchool": "NATURE"
+        }
+      },
+      {
+        "date": "2022-04-06",
+        "changes": {
+          "cost": 5
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

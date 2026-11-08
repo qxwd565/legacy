@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Patchwerk",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_071",
     "name": "패치워크",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "LEGENDARY",
-    "race": "언데드",
+    "race": "",
     "flavor": "너무 좋은 카드라 패치가 필요할지도 모릅니다.",
-    "spellSchool": "",
     "portrait": "HS27-118_M.tif:6cb6c6d3e9f7403a99fab07c39dc7962",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,14 +103,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

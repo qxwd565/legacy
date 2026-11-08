@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Thoughtsteal",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_339",
     "name": "생각 훔치기",
-    "text": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.",
+    "text": "상대편의 덱에서 카드를 두 장 복사하여 당신의 손으로 가져옵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "\"오크에게 생각 훔치기를 쓰면 뭘 얻는지 알아? 돌.덩.어.리!\" - 타우렌 농담",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W7_145_D.psd:265a801459d38ee44a33aa99170421ba",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,30 +80,28 @@
     ],
     "nativeRawText": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
-    "history": [
-      {
-        "before": "2020-03-27",
-        "changes": {
-          "cost": 3
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "상대편의 덱에서 카드를 두 장 복사하여 당신의 손으로 가져옵니다."
-        }
-      },
-      {
-        "before": "2021-03-26",
-        "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
-      }
-    ],
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": [
+      {
+        "date": "2013-10-03",
+        "changes": {
+          "text": "상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다."
+        }
+      },
+      {
+        "date": "2020-03-27",
+        "changes": {
+          "cost": 2
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

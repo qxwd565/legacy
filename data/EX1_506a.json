@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Murloc Scout",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_506a",
     "name": "멀록 정찰병",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "멀록",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "Bestiary-final1_D.psd:2b7eb33e26d218547b9f39c8e16b110b",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -103,7 +100,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

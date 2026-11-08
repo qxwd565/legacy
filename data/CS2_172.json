@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodfen Raptor",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_172",
     "name": "붉은늪지랩터",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "\"랩터 30마리를 처치하세요.\" - 헤멧 네싱워리",
-    "spellSchool": "",
     "portrait": "WOW_SPE_004_D.psd:a807bca719fae18408cb9869c2c695db",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,7 +100,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

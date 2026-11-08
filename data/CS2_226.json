@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Frostwolf Warlord",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_226",
     "name": "서리늑대 전쟁군주",
-    "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다.",
+    "text": "전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "서리늑대 부족은 알터랙 계곡에서 스톰파이크 원정대와 수많은 전투를 치렀습니다. 평화 협정을 체결하러 올 때마다 부대장 갈반가르가 사절을 죽였다는군요.",
-    "spellSchool": "",
     "portrait": "W11_084(EA)_D.psd:542996a2436a36945aa38747fa20c0a8",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,19 +91,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다."
+          "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 1마리당 +1/+1을 얻습니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 1마리당 +1/+1을 얻습니다."
+          "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다."
         }
       }
     ]

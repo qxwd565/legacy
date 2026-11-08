@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Night Elf Huntress",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "TOY_101",
     "name": "나이트 엘프 여사냥꾼",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "1타 3피!",
-    "spellSchool": "",
     "portrait": "HS31-214_M.tif:5a0df541f9e24b1ea86937df4d5791e4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b> 서로 다른\n적 셋에게 피해를 3 줍니다.\n<i>(대상을 선택하세요!)</i>",
     "nativeTextBuilder": 7,
     "releasedAt": "2024-03-20",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

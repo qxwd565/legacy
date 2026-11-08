@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Deadly Shot",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_617",
     "name": "치명적인 사격",
-    "text": "무작위 적 하수인을 처치합니다.",
+    "text": "무작위 적 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "대상이 누구든 상관 없습니다. 확실하게 처치할 수만 있다면요.",
-    "spellSchool": "",
     "portrait": "CLA-017.psd:1b90ecaa9df748568ef07b049da86af6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -79,44 +74,47 @@
     ],
     "nativeRawText": "무작위 적 하수인을 처치합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2019-07-01",
+        "date": "2013-10-03",
         "changes": {
-          "legacyArt": true
+          "text": "무작위 적 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "무작위 적 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "무작위 적 하수인을 하나 처치합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "무작위로 선택된 적 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
           "text": "무작위 적 하수인 하나를 처치합니다."
         }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "무작위 적 하수인을 처치합니다."
+        }
+      },
+      {
+        "date": "2019-07-01",
+        "changes": {
+          "legacyArt": false
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

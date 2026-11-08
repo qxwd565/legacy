@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Murloc Raider",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_168",
     "name": "멀록 약탈꾼",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "멀록",
     "flavor": "아옳옳옳옳옳옳옳, 아옳옳옳 옳옳옳옳옳, 옳옳옳옳옳, 아옳옳옳옳옳옳옳! 아옳옳옳, 아옳옳옳옳!",
-    "spellSchool": "",
     "portrait": "Bestiary-final_D.psd:31cd8bca4d0e10540a1017fb1168ea06",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,7 +95,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

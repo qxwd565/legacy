@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Illidan's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_08",
     "name": "일리단의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"이 선물의 무게는 네가 끝까지 짊어져야 할 짐이다... 영수증을 잃어버렸거든.\" -일리단",
-    "spellSchool": "",
     "portrait": "HS31-119_S.tif:91ce20413d4c4d0c929f9ae68bdd27db",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 지옥 포화, 혼돈의 일격 또는 혼돈의 회오리를 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

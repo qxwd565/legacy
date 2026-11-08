@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Twilight Drake",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_043",
     "name": "황혼의 비룡",
-    "text": "[x]<b>전투의 함성:</b>\n내 손에 있는 카드 1장당\n생명력을 +1 얻습니다.",
+    "text": "<b>전투의 함성:</b> 당신의 손에 있는 카드 한 장당 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "용족",
+    "race": "DRAGON",
     "flavor": "황혼의 비룡은 신비한 에너지를 먹고 삽니다. 가끔 타코도 먹지만요.",
-    "spellSchool": "",
     "portrait": "W15_A153_D.psd:953e2e3c18ad71746bc9bcad42853d92",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,26 +103,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 손에 있는 카드 한 장당 +1/+1을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 손에 있는 카드 1장당 생명력을 +1 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>내 손에 있는 카드 1장당<br>생명력을 +1 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n내 손에 있는 카드 1장당\n생명력을 +1 얻습니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Defrost",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_101",
     "name": "해동",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "",
     "flavor": "이게 왜 냉기 주문이죠?",
     "spellSchool": "FROST",
     "portrait": "HS27-125_S.tif:0b7d3c3a8773491f9d8ed6e72ed3e470",
@@ -95,7 +91,8 @@
     "nativeRawText": "카드를 뽑습니다. <b>시체</b>를 2개 소모해 카드를 추가로 뽑습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

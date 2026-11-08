@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dispel",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_166b",
     "name": "무효화",
@@ -30,10 +27,8 @@
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W12_A006(EA)_D.psd:74962204024594e4ba105120702a8828",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,12 +71,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 <b>침묵</b>시킵니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인을 <b>침묵</b>시킵니다."
         }
       }
     ]

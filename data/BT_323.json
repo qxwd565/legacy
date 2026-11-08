@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sightless Watcher",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_323",
     "name": "눈먼 감시자",
-    "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 \n카드 3장을 봅니다.\n1장을 선택하여 내 덱 \n맨 위에 놓습니다.",
+    "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 <br>카드 3장을 봅니다.<br>1장을 선택하여 내 덱 <br>맨 위에 놓습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
     "race": "악마",
     "flavor": "눈은 멀었지만, 그 대신 빛보다 빠른 손기술을 가졌습니다. 아니, 촉수기술이라 해야 하나요?",
-    "spellSchool": "",
     "portrait": "HS19-010.tif:8f64b5e611624cd7a2500dc743b6513a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,12 +100,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 <br>카드 3장을 봅니다.<br>1장을 선택하여 내 덱 <br>맨 위에 놓습니다."
+          "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 \n카드 3장을 봅니다.\n1장을 선택하여 내 덱 \n맨 위에 놓습니다."
         }
       }
     ]

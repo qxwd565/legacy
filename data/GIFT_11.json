@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gul'dan's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_11",
     "name": "굴단의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"지난번과는 다를 것이다...\" -굴단",
-    "spellSchool": "",
     "portrait": "HS31-127_S.tif:d43114f1200146c78c8924678083a446",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

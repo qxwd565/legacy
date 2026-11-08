@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gnoll",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_040t",
     "name": "놀",
-    "text": "<b>도발</b>",
+    "text": "도발",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W17_A054_D.psd:54e1ab72a18686f409c1f19d58ea49a1",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,12 +74,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "도발"
+          "text": "<b>도발</b>"
         }
       }
     ]

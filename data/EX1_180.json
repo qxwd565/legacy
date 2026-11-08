@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Tome of Intellect",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_180",
     "name": "지식의 고서",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "지식의 냅킨을 차곡차곡 쌓으면 만들 수 있습니다.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": null,
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,13 +77,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

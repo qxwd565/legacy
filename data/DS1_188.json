@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gladiator's Longbow",
   "card": {
@@ -14,26 +14,21 @@
     "health": 2,
     "attack": 5,
     "armor": 0,
-    "durability": 2,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_188",
     "name": "검투사의 장궁",
-    "text": "내 영웅이 공격할 때, <b>면역</b> 상태가 됩니다.",
+    "text": "당신의 영웅이 공격할 때 <b>피해 면역</b> 상태가 됩니다.",
     "set": "EXPERT1",
     "type": "WEAPON",
     "cardClass": "HUNTER",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "멀리서 쏠 수 있기 때문에 냄새가 지독한 적을 상대할 때 유용합니다.",
-    "spellSchool": "",
     "portrait": "W8_081_D.psd:8dd8651ea9f652a44bd78221d8dff153",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,26 +91,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 영웅이 공격할 때 <b>피해 면역</b> 상태가 됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 영웅이 공격할 때 <b>피해 면역</b> 상태가 됩니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2017-07-11",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 영웅이 공격할 때, <b>피해 면역</b> 상태가 됩니다."
+        }
+      },
+      {
+        "date": "2017-07-11",
+        "changes": {
+          "text": "내 영웅이 공격할 때, <b>면역</b> 상태가 됩니다."
         }
       }
     ]

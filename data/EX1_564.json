@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Faceless Manipulator",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_564",
     "name": "얼굴 없는 배후자",
-    "text": "<b>전투의 함성:</b> 선택한 하수인으로 변신합니다.",
+    "text": "<b>전투의 함성:</b> 하수인을 선택하고 그 하수인으로 변신합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "얼굴 없는 자들은 공포를 먹고 사는 요그사론의 하수인입니다. 지금도 좋은 카드들을 실수로 마력 추출해버리면 어쩌나 걱정하고 있는 당신의 공포를 먹고 있죠.",
-    "spellSchool": "",
     "portrait": "W16_a188_D.psd:24c8ce6ca56768f46bc0e05a939e8fd1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,12 +99,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 하수인을 선택하고 그 하수인으로 변신합니다."
+          "text": "<b>전투의 함성:</b> 선택한 하수인으로 변신합니다."
         }
       }
     ]

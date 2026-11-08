@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Eaglehorn Bow",
   "card": {
@@ -14,26 +14,24 @@
     "health": 2,
     "attack": 3,
     "armor": 0,
-    "durability": 2,
+    "durability": 0,
     "nativeSetId": 3,
     "battlegroundsSkinParentId": 0,
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_536",
     "name": "독수리뿔 장궁",
-    "text": "[x]내 <b>비밀</b>이 밝혀질\n때마다 내구도를\n+1 얻습니다.",
+    "text": "<b>비밀</b>이 밝혀질 때마다 내구도를 +1 얻습니다.",
     "set": "EXPERT1",
     "type": "WEAPON",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "깡통들을 위한 장궁 제1장: 화살촉은 내가 아닌 상대방을 향하라",
-    "spellSchool": "",
     "portrait": "W2_032_D.psd:fb2c1f9e1bcd07041b7949aec3bde2bb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,26 +89,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "<b>비밀</b>이 밝혀질 때마다 내구도를 +1 얻습니다."
-        }
-      },
-      {
-        "from": "2014-07-23",
-        "before": "2016-08-10",
+        "date": "2014-07-23",
         "changes": {
           "text": "내 <b>비밀</b>이 밝혀질 때마다 내구도를 +1 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]내 <b>비밀</b>이 밝혀질<br>때마다 내구도를<br>+1 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]내 <b>비밀</b>이 밝혀질\n때마다 내구도를\n+1 얻습니다."
         }
       }
     ]

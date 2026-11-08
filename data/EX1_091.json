@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Cabal Shadow Priest",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_091",
     "name": "비밀결사단 어둠사제",
-    "text": "<b>전투의 함성:</b>\n공격력이 2 이하인\n적 하수인을 가져옵니다.",
+    "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "누가 비밀결사단을 위해 일하고 있는지 여러분은 상상조차 못할 겁니다...",
-    "spellSchool": "",
     "portrait": "W8_122_D.psd:8449bc07130e77d4c8715ef942a0990a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,47 +94,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 1마리를 우리편으로 만듭니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2017-08-09",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력이 2 이하인 적 하수인 하나를 내 편으로 만듭니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2018-10-03",
+        "date": "2017-08-09",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 공격력이<br>2 이하인 적 하수인<br>하나를 가져옵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>공격력이 2 이하인<br>적 하수인을 가져옵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n공격력이 2 이하인\n적 하수인을 가져옵니다."
         }
       }
     ]

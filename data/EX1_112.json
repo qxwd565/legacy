@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Gelbin Mekkatorque",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_112",
     "name": "겔빈 멕카토크",
-    "text": "<b>전투의 함성:</b>\n끝내주는 발명품을\n소환합니다.",
+    "text": "<b>전투의 함성:</b> 끝내주는 발명품을 소환합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "노움의 지도자이자 엄청난 발명가입니다. 게다가 실력도 조금씩 나아지고 있죠. 뭐든 닭으로 만들어버리는 빈도가 <b>많이</b> 줄었으니까요.",
-    "spellSchool": "",
     "portrait": "gelbin-lullabi-V3_D.psd:a928615951e4b7744863f88b5c21c81c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,19 +96,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "date": "2013-12-11",
         "changes": {
-          "text": "<b>전투의 함성:</b> 끝내주는 발명품을 소환합니다."
+          "text": "<b>전투의 함성:</b> 끝내주는 발명품을 1개 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "date": "2014-07-23",
         "changes": {
-          "text": "<b>전투의 함성:</b> 끝내주는 발명품을 1개 소환합니다."
+          "text": "<b>전투의 함성:</b>\n끝내주는 발명품을\n소환합니다."
         }
       }
     ]

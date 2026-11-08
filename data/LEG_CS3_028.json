@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Thrive in the Shadows",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_028",
     "name": "암흑 속에서 번창하리라",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "주문이 암흑 속을 마다한다고요? 낮잠 자기 더 좋은 환경인데.",
     "spellSchool": "SHADOW",
     "portrait": "CLA-046_S.tif:2fbea657fdf3441e9b7e576339c2f452",
@@ -95,7 +91,8 @@
     "nativeRawText": "내 덱에서 주문을 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

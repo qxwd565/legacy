@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nordrassil Druid",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_012",
     "name": "놀드랏실 드루이드",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "race": "",
     "flavor": "세계수 놀드랏실은 세계에 생명력을 불어넣습니다. 물론 마나 소비도 줄여주죠.",
-    "spellSchool": "",
     "portrait": "CLA-025_M.tif:0ed565b36c094f9bbc831b6e5eaef649",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b> 이번 턴에\n내가 시전하는 다음 주문은\n비용이 (3) 감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

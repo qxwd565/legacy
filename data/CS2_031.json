@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ice Lance",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "FREEZE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_031",
     "name": "얼음창",
-    "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다.",
+    "text": "캐릭터를 <b>얼어붙음</b> 상태로 만듭니다. 이미 <b>얼어붙음</b> 상태라면 피해를 $4 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "창이 부서지지 않는 게 중요합니다. 부서지면 성능이 꽝인 \"얼음 조각\"이 나가니까요.",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "W3_006_D.psd:a93efd43aac48224587290d22eba0f40",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,55 +95,43 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "캐릭터를 <b>얼어붙음</b> 상태로 만듭니다. 이미 <b>얼어붙음</b> 상태라면 피해를 $4 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-08-19",
+        "date": "2013-12-11",
         "changes": {
           "text": "캐릭터 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-08-10",
+        "date": "2015-08-19",
         "changes": {
           "text": "캐릭터 하나를 <b>빙결</b> 상태로 만듭니다. 이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "캐릭터 하나를<br><b>빙결</b> 상태로 만듭니다.<br>이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다.<br>이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다.\n이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다.",
+          "spellSchool": "FROST"
+        }
       }
     ]
   },

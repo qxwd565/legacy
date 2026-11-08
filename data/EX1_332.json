@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Silence",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SILENCE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_332",
     "name": "침묵",
@@ -31,9 +31,8 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "적대적인 주문 시전자나 사악한 리치를 상대할 때, 그리고 험상궂은 주정뱅이 술집에서 아제로스 노래자랑이 열렸을 때 유용합니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W13_212_D.psd:d51f9f3dfc1e1224f9410a4287ef39c6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,20 +90,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 <b>침묵</b>시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "하수인을 <b>침묵</b>시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

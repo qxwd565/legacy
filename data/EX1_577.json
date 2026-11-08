@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "The Beast",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
-      "ELEMENTAL"
+      "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "DEATHRATTLE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_577",
-    "name": "괴수",
-    "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다.",
+    "name": "야수",
+    "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "검은바위 산에 살고, 노움을 먹습니다. 더 할 말이 없네요.",
-    "spellSchool": "",
     "portrait": "R2_003_D.tif:accf7ca3d24413841ba07376d260ecc6",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -133,52 +133,45 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-08-30",
+        "date": "2013-08-30",
         "changes": {
-          "name": "야수",
-          "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+          "name": "괴수"
         }
       },
       {
-        "from": "2013-08-30",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2016-08-10",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>죽음의 메아리:</b> 상대편에게<br>3/3 핑클 아인혼을<br>소환해 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
         }
       },
       {
-        "before": "2026-02-10",
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다."
+        }
+      },
+      {
+        "date": "2026-02-10",
         "changes": {
           "races": [
+            "ELEMENTAL",
             "BEAST"
-          ],
-          "race": "BEAST"
-        },
-        "generatedBy": "taxonomy-introduction"
+          ]
+        }
       }
     ]
   },

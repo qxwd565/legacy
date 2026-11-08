@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Kul Tiran Chaplain",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_195",
     "name": "쿨 티란 전도사",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "쿨 티란 성직자들이 사용하는 성수는 바닷물로 만들어졌다고 합니다.",
-    "spellSchool": "",
     "portrait": "HS19-283.tif:dfb30dbf32394bceb485ed70c0d90ea8",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 아군<br>하수인에게 생명력을<br>+2 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+2 부여합니다."
         }
       }
     ]

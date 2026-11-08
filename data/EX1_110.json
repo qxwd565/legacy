@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Cairne Bloodhoof",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "DEATHRATTLE",
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_110",
     "name": "케른 블러드후프",
-    "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
+    "text": "<b>죽음의 신음:</b> 4/5 바인 블러드후프를 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "케른은 가로쉬에 의해 목숨을 잃었습니다. 그러니까... 전사 덱에는 넣지 말아주세요. 가혹하잖아요.",
-    "spellSchool": "",
     "portrait": "W13_127_D.png:b95b3edefe9f95d40975a3899287d5a2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -116,26 +115,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 신음:</b> 4/5 바인 블러드후프를 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 4/5 바인 블러드후프를 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>죽음의 메아리:</b><br>4/5 바인 블러드후프를 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다."
         }
       }
     ]

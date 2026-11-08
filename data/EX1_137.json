@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Headcrack",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 2,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_137",
     "name": "머리 후려치기",
-    "text": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다.",
+    "text": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "모든 공격이 실패해도, 머리 후려치기만큼은 당신을 배신하지 않을 겁니다.",
-    "spellSchool": "",
     "portrait": "CLA-019.psd:5e29edb47a0a41b2bf20f9eeaad9febe",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -84,50 +82,42 @@
     ],
     "nativeRawText": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "cost": 2
-        }
-      },
-      {
-        "before": "2019-07-01",
-        "changes": {
-          "legacyArt": true
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
-        "changes": {
+          "cost": 3,
           "text": "적 영웅에게 피해를 $2 줍니다.<br><b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "적 영웅에게<br>피해를 $2 줍니다.<br><b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2021-03-26",
+        "date": "2016-11-30",
         "changes": {
           "text": "적 영웅에게<br>피해를 $2 줍니다.<br><b>연계:</b> 다음 턴에 이 카드를<br>내 손으로 다시 가져옵니다."
         }
+      },
+      {
+        "date": "2019-07-01",
+        "changes": {
+          "legacyArt": false
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

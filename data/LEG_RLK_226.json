@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ymirjar Deathbringer",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_226",
     "name": "이미야르 죽음의 사자",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "race": "언데드",
+    "race": "",
     "flavor": "이미르하임에서는 보라색 슬라임이 유행이랍니다.",
-    "spellSchool": "",
     "portrait": "HS27-135_M.tif:e82a51aa003445299c38f28225ca2ea1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -123,14 +118,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "언데드"
+        }
       }
     ]
   },

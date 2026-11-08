@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mana Wraith",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AURA"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_616",
     "name": "마나 망령",
-    "text": "<b>모든</b> 하수인의 비용이\n(1) 증가합니다.",
+    "text": "모든 하수인의 비용이 (1) 증가합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "이들은 밤에 나타나 남은 마나 수정을 먹습니다. \"으으으음...\" 소리를 내곤 하지요.",
-    "spellSchool": "",
     "portrait": "R6_A024_D.psd:5e0b324a7e5724e4fa8333ed8f19ced0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,26 +94,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "모든 하수인의 비용이 (1) 증가합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>모든</b> 하수인의 비용이 (1) 증가합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>모든</b> 하수인의 비용이<br>(1) 증가합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>모든</b> 하수인의 비용이\n(1) 증가합니다."
         }
       }
     ]

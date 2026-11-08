@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "High Inquisitor Whitemane",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_190",
     "name": "종교재판관 화이트메인",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "늦잠을 자고 싶어하는 투사들도 모두 깨웁니다.",
-    "spellSchool": "",
     "portrait": "CLA-012.psd:73a0d47f57184d66be497ac2076bd432",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,12 +86,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
           "text": "<b>전투의 함성:</b><br>이번 턴에 죽은<br>모든 아군 하수인을 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n이번 턴에 죽은\n모든 아군 하수인을 소환합니다."
         }
       }
     ]

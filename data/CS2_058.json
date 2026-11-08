@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Strength Totem",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_058",
     "name": "힘의 토템",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "토템",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "CLA-026_M.tif:e559ae6306d243e3a906e0dfaff0b826",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -87,7 +84,8 @@
     "nativeRawText": "[x]내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 공격력을\n+1 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

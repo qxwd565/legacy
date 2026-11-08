@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Focused Will",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_027",
     "name": "집중된 의지",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "엄청난 집중력은 현란한 방해 공작과 비슷한 효과를 냅니다.",
-    "spellSchool": "",
     "portrait": "CLA-043_S.tif:5245002d8b5d4b2ebfc77ca32c8048a7",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -80,7 +75,8 @@
     "nativeRawText": "하수인을 <b>침묵</b>시키고 생명력을 +3 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

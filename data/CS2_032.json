@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Flamestrike",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_032",
     "name": "불기둥",
-    "text": "[x]모든 적 하수인에게\n피해를 $5 줍니다.",
+    "text": "모든 적 하수인에게 피해를 $4 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "FREE",
-    "race": "",
     "flavor": "바닥에 불이 붙었을 땐, 멈춰서서 엎드리고 굴러서는 <i>절대</i> 안 됩니다.",
-    "spellSchool": "FIRE",
+    "spellSchool": "",
     "portrait": "WOW_SPE_006(b)_D.psd:d553e8ce7d68785408614a0e669951fb",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +87,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-07-13",
-        "changes": {
-          "text": "모든 적 하수인에게 피해를 $4 줍니다."
-        }
-      },
-      {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]모든 적 하수인에게<br>피해를 $4 줍니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]모든 적 하수인에게\n피해를 $5 줍니다.",
+          "spellSchool": "FIRE"
+        }
       }
     ]
   },

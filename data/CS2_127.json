@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Silverback Patriarch",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_127",
     "name": "은빛털고릴라 우두머리",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "대장인 것처럼 행동하지만 진짜 실세는 그의 부인입니다.",
-    "spellSchool": "",
     "portrait": "W5_041_D.psd:9a209761dee821e41b5ae765b3fbfe7b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,7 +105,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Kirin Tor Mage",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_612",
     "name": "키린 토 마법사",
-    "text": "<b>전투의 함성:</b> 이번 턴에 내는 내 다음 <b>비밀</b>의 비용이 (0)이 됩니다.",
+    "text": "<b>전투의 함성:</b> 이번 턴에 내는 당신의 다음 <b>비밀</b> 비용이 (0)이 됩니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "누구에게도 말할 수 없는 비밀이 있다면 키린 토 마법사를 찾아가세요. 공짜로 들어준답니다. 단, 선착순 1명만이랍니다.",
-    "spellSchool": "",
     "portrait": "W16_a110_D.psd:34dee795423e1db478bd0b6216a691ed",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +99,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 이번 턴에 내는 당신의 다음 <b>비밀</b> 비용이 (0)이 됩니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 이번 턴에 내는 내 다음 <b>비밀</b> 비용이 (0)이 됩니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 이번 턴에 내는 나의 다음 <b>비밀</b> 비용이 (0)이 됩니다."
+        }
+      },
+      {
+        "date": "2016-08-10",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 이번 턴에 내는 내 다음 <b>비밀</b>의 비용이 (0)이 됩니다."
         }
       }
     ]

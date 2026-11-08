@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "The Silver Hand",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_04bp2",
     "name": "은빛 성기사단",
@@ -30,10 +27,8 @@
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "PALADIN",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "Paladin_power2_D.psd:e7a6670877cf78141be8e90be7cb8064",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,12 +56,17 @@
     "nativeTextBuilder": 46,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "[x]<b>영웅 능력</b><br>1/1 은빛 성기사단<br>신병을 2명 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다."
         }
       }
     ]

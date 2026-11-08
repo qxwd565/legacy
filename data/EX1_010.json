@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Worgen Infiltrator",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "STEALTH"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_010",
     "name": "늑대인간 침투요원",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "늑대인간이 침투하지 못하게 만드는 방법은 간단합니다. 함정 위에 개껌을 던져두세요.",
-    "spellSchool": "",
     "portrait": "W14_a113_D.png:14783e05e2dc3054988ea90cc9bf86a4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +99,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

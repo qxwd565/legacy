@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Hungry Crab",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_017",
     "name": "굶주린 게",
-    "text": "<b>전투의_함성:</b> 멀록을 처치하고 +2/+2를 얻습니다.",
+    "text": "<b>전투의 함성:</b> 멀록을 파괴하고 +2/+2를 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "멀록은 저녁 거리입니다.",
-    "spellSchool": "",
     "portrait": "W16_a043_D.psd:710e44b98ff45224b8ff66300a067101",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,33 +93,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 멀록을 파괴하고 +2/+2를 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 멀록을 처치하고 +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-04-11",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 멀록 1마리를 처치하고 +2/+2를 얻습니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2018-10-03",
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>전투의_함성:</b> 멀록 1마리를 처치하고 +2/+2를 얻습니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의_함성:</b> 멀록을 처치하고 +2/+2를 얻습니다."
         }
       }
     ]

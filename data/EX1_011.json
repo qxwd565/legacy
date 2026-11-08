@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Voodoo Doctor",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_011",
     "name": "부두교 의술사",
-    "text": "[x]<b>전투의 함성:</b>\n생명력을 #2 회복시킵니다.",
+    "text": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "한동안 이 카드의 이름은 \"더러운 트롤 의술사\"였습니다.",
-    "spellSchool": "",
     "portrait": "wow_dbl_011_D.psd:98bc2ad7eadcc5c4a80f07498523adfd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,33 +91,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다."
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2016-11-30",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 생명력을<br>2 회복시킵니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-08-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>생명력을 2 회복시킵니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>생명력을 #2 회복시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n생명력을 #2 회복시킵니다."
         }
       }
     ]

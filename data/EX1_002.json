@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "The Black Knight",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 4,
+    "cost": 6,
     "health": 4,
     "attack": 4,
     "armor": 0,
@@ -20,22 +20,21 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "BATTLECRY",
+      "TRADEABLE"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_002",
     "name": "흑기사",
-    "text": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
+    "text": "<b>전투의 함성:</b> <b>도발</b>하는 하수인을 하나 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "언데드",
+    "race": "",
     "flavor": "은빛십자군 마상시합을 방해하라고 리치 왕이 보낸 심복이지만, 우린 모두 그를 아이템 셔틀로 기억하고 있죠.",
-    "spellSchool": "",
     "portrait": "r5_a004_D.psd:b8e7063f270123f479746a48a28bd59a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -116,59 +115,55 @@
     ],
     "nativeRawText": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2023-04-05",
-        "changes": {
-          "cost": 6
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> <b>도발</b>하는 하수인을 하나 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 하수인을 1마리 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2017-08-09",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> <b>도발</b> 능력이 있는 적 하수인을 하나 처치합니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2018-10-03",
+        "date": "2017-08-09",
         "changes": {
           "text": "<b>전투의 함성:</b><br>적 <b>도발</b> 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>적 <b>도발</b> 하수인을 처치합니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 4
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

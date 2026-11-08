@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "War Golem",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_186",
     "name": "전쟁 골렘",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "골렘은 두려움을 느끼지 못합니다. 그래도 공포를 시전하면 도망가더군요. 본능일까요? 아니면 따돌림받기 싫어서?",
-    "spellSchool": "",
     "portrait": "WOW_LEAD_043_D.psd:be542a80f91a1874eb5d41431fd93e9a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,7 +91,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

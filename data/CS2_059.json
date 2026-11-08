@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Blood Imp",
   "card": {
@@ -20,22 +20,23 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "STEALTH",
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_059",
     "name": "피의 임프",
-    "text": "[x]<b>은신</b>, 내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 생명력을\n+1 부여합니다.",
+    "text": "<b>은신</b>. 당신의 다른 하수인들이 생명력을 +1 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "COMMON",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "임프들은 숨어서 주위의 모두를 격하게 도발하는 행위를 즐깁니다. 그냥 즐깁니다.",
-    "spellSchool": "",
     "portrait": "W5_015_D.psd:11778e2b7655e684ea2fab1118d64376",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,61 +114,53 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>은신</b>. 당신의 다른 하수인들이 생명력을 +1 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-01-17",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>은신</b>. 내 다른 하수인들이 생명력을 +1 얻습니다."
         }
       },
       {
-        "from": "2014-01-17",
-        "before": "2015-04-01",
+        "date": "2014-01-17",
         "changes": {
           "text": "<b>은신</b>. 내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>은신</b>. 내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 생명력을 +1 부여합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-07-13",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>은신</b>. 내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 생명력을 +1 부여합니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2017-07-11",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]<b>은신</b>. 내 턴이 끝날 때, 다른<br>무작위 아군 하수인 하나에게<br>생명력을 +1 부여합니다."
         }
       },
       {
-        "from": "2017-07-11",
-        "before": "2018-10-03",
+        "date": "2017-07-11",
         "changes": {
           "text": "[x]<b>은신</b>, 내 턴이 끝날 때, 다른<br>무작위 아군 하수인 하나에게<br>생명력을 +1 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]<b>은신</b>, 내 턴이 끝날 때,<br>다른 무작위 아군<br>하수인에게 생명력을<br>+1 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>은신</b>, 내 턴이 끝날 때,\n다른 무작위 아군\n하수인에게 생명력을\n+1 부여합니다."
         }
       }
     ]

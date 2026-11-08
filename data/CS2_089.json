@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Holy Light",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_089",
     "name": "성스러운 빛",
-    "text": "내 영웅의 생명력을 #8 회복시킵니다.",
+    "text": "생명력을 #6 회복시킵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "종종 성스러운 빛에 노출되신다면, 자외선 차단제를 바르세요.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W11_048(EA)_D.psd:dc77f19b67374ae4780bb26374da12df",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,20 +82,13 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "생명력을 #6 회복시킵니다."
+          "text": "내 영웅의 생명력을 #8 회복시킵니다.",
+          "spellSchool": "HOLY"
         }
-      },
-      {
-        "before": "2021-03-26",
-        "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
       }
     ]
   },

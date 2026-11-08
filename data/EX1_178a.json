@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Rooted",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_178a",
-    "name": "뿌리 내리기",
-    "text": "생명력 +5, <b>도발</b>",
+    "name": "뿌리 박기",
+    "text": "생명력 +5와 <b>도발</b>을 얻습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W10_A143_D.psd:a8ec78fdf41d7e64ba2b70a2829fe3b4",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,28 +71,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "뿌리 박기",
-          "text": "생명력 +5와 <b>도발</b>을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
-        "changes": {
-          "name": "뿌리 박기",
           "text": "생명력 +5와 <b>도발</b> 능력을 얻습니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2017-08-09",
+        "date": "2015-04-01",
         "changes": {
-          "text": "생명력 +5와 <b>도발</b> 능력을 얻습니다."
+          "name": "뿌리 내리기"
+        }
+      },
+      {
+        "date": "2017-08-09",
+        "changes": {
+          "text": "생명력 +5, <b>도발</b>"
         }
       }
     ]

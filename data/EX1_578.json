@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Savagery",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AFFECTED_BY_SPELL_POWER"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_578",
     "name": "야생성",
-    "text": "하수인에게\n내 영웅의 공격력만큼 피해를 줍니다.",
+    "text": "당신 영웅의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "race": "",
     "flavor": "일부 드루이드들이 야생성을 보이는 건 사실이나, 대부분은 조용한 곳에서 차 한잔하는 것을 즐긴답니다.",
-    "spellSchool": "",
     "portrait": "W18_a116_D.psd:dee751dbeffb6a44b8ba4280336f6ca5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,33 +79,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신 영웅의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 영웅의 공격력만큼 하수인에게 피해를 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나에게 내 영웅의 공격력만큼 피해를 줍니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "하수인에게<br>내 영웅의 공격력만큼 피해를 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "하수인에게\n내 영웅의 공격력만큼 피해를 줍니다."
         }
       }
     ]

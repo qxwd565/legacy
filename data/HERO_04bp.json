@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Reinforce",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_04bp",
     "name": "병력 충원",
@@ -31,9 +28,7 @@
     "type": "HERO_POWER",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "WOW_PAR_039_hp_D.psd:581b381a51c199940909651fdf28c8d0",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,17 @@
     "nativeTextBuilder": 46,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2020-05-13",
-        "before": "2021-03-26",
+        "date": "2020-05-13",
         "changes": {
           "text": "[x]<b>영웅 능력</b><br>1/1 은빛 성기사단<br>신병을 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 소환합니다."
         }
       }
     ]

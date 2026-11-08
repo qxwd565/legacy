@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dalaran Mage",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_582",
     "name": "달라란 마법사",
-    "text": "<b>주문 공격력 +1</b>",
+    "text": "<b>주문력 +1</b>",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "달라란 전사는 찾아보기 힘들 겁니다.",
-    "spellSchool": "",
     "portrait": "W12_A088(EA)_D.psd:39ad823b88f33f14aaef2c874cc143f5",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,12 +86,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>주문력 +1</b>"
+          "text": "<b>주문 공격력 +1</b>"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadowstep",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_144",
     "name": "그림자 밟기",
-    "text": "아군 하수인을 내 손으로 다시 가져옵니다. 그 하수인의 비용이\n(2) 감소합니다.",
+    "text": "아군 하수인을 다시 당신의 손으로 가져옵니다. 그 하수인의 비용이 (2) 감소합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "도적 무용단은 가끔 공연의 마지막을 그림자 밟기로 장식하곤 합니다. 관객들의 호응이 엄청나거든요.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W6_050_D.tif:98d432805fef0e54ca6895442d72aa30",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,55 +82,43 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "아군 하수인을 다시 당신의 손으로 가져옵니다. 그 하수인의 비용이 (2) 감소합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "아군 하수인을 다시 내 손으로 가져옵니다. 그 하수인의 비용이 (2) 감소합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-11-30",
+        "date": "2013-12-11",
         "changes": {
           "text": "아군 하수인 하나를 다시 내 손으로 가져옵니다. 그 하수인은 비용이 (2) 감소합니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2017-08-09",
+        "date": "2016-11-30",
         "changes": {
           "text": "아군 하수인 하나를 내 손으로 다시 가져옵니다. 그 하수인은 비용이 (2) 감소합니다."
         }
       },
       {
-        "from": "2017-08-09",
-        "before": "2018-10-03",
+        "date": "2017-08-09",
         "changes": {
           "text": "아군 하수인 하나를 내 손으로 다시 가져옵니다. 그 하수인의 비용이 (2) 감소합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "아군 하수인을 내 손으로 다시 가져옵니다. 그 하수인의 비용이<br>(2) 감소합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "아군 하수인을 내 손으로 다시 가져옵니다. 그 하수인의 비용이\n(2) 감소합니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

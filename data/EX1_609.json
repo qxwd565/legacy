@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Snipe",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_609",
     "name": "저격",
-    "text": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인에게\n피해를 $6 줍니다.",
+    "text": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "저격... 하는 사람은 죽이는 맛, 당하는 사람은 죽을 맛입니다.",
-    "spellSchool": "",
     "portrait": "W19_a276_D.psd:779e159658db8d745827f2c52f346937",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,33 +79,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
-        "changes": {
-          "text": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다."
-        }
-      },
-      {
-        "from": "2015-08-19",
-        "before": "2016-03-15",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인에게 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2016-03-15",
-        "before": "2016-08-10",
+        "date": "2016-03-15",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인에게 피해를 $4 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>비밀:</b> 상대편이 하수인을<br>낸 후에, 그 하수인에게<br>피해를 $4 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인에게\n피해를 $6 줍니다."
         }
       }
     ]

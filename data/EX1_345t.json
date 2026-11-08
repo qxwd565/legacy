@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Shadow of Nothing",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_345t",
     "name": "허무의 그림자",
@@ -30,10 +27,8 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "PRIEST",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "wow_tal_031_D.psd:6c6194043195ca246832145a5a9f027e",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -61,7 +56,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stampeding Kodo",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_041",
     "name": "날뛰는 코도",
-    "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+    "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "이 코도가 미쳐 날뛰고 있습니다!",
-    "spellSchool": "",
     "portrait": "W8_135_D.png:6dcdb94493bdd9d40ae1668d3c251b60",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,54 +93,47 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-06-16",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2015-06-16",
-        "before": "2015-08-19",
+        "date": "2015-06-16",
         "changes": {
           "text": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 적 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-04-11",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2018-10-03",
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다."
         }
       }
     ]

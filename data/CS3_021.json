@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Enslaved Fel Lord",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_021",
     "name": "사로잡힌 지옥 군주",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "악마",
     "flavor": "실제로 사로잡힌 것은 아닙니다. 임프들이 너무 까불면 겁주기 위해 일부러 사슬에 묶인 겁니다.",
-    "spellSchool": "",
     "portrait": "CLA-035_M.tif:7eb02ca972eb44c583cd41ee6e3cddae",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -92,7 +89,8 @@
     "nativeRawText": "<b>도발</b>, 공격하는 대상 양옆의 하수인들에게도 피해를 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

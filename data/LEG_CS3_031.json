@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Alexstrasza the Life-Binder",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DRAGON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_031",
     "name": "생명의 어머니 알렉스트라자",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "용족",
     "flavor": "아군 공격: 불가",
-    "spellSchool": "",
     "portrait": "CLA-049_M.tif:df3b230c0f4641f998f436211fa03ff8",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -102,7 +99,8 @@
     "nativeRawText": "[x]<b>전투의 함성:</b> 캐릭터를\n선택합니다. 아군 캐릭터라면\n생명력을 #8 회복시킵니다.\n적 캐릭터라면 피해를\n8 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Wild Pyromancer",
   "card": {
@@ -20,22 +20,20 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "UNDEAD"
+    "races": [],
+    "mechanics": [
+      "TRIGGER_VISUAL"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_020",
     "name": "광기의 화염술사",
-    "text": "내가 주문을 시전한 후에, 모든 하수인에게 피해를 1 줍니다.",
+    "text": "당신이 주문을 시전한 후, 모든 하수인에게 피해를 1 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "언데드",
+    "race": "",
     "flavor": "한여름엔 왕따, 한겨울엔 인기 폭발인 친구입니다.",
-    "spellSchool": "",
     "portrait": "W6_011_D.psd:47f3c3cd8ac7d614193b2875cd19433c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,49 +101,45 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신이 주문을 시전한 후, 모든 하수인에게 피해를 1 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "date": "2013-10-03",
         "changes": {
           "text": "내가 주문을 시전할 때마다, <b>모든</b> 하수인에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2016-08-10",
+        "date": "2014-03-12",
         "changes": {
           "text": "내 주문이 시전된 후에, <b>모든</b> 하수인에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2020-09-09",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 주문이 시전된 후에, <b>모든</b> 하수인에게<br>피해를 1 줍니다."
         }
       },
       {
-        "from": "2020-09-09",
-        "before": "2021-03-26",
+        "date": "2020-09-09",
         "changes": {
           "text": "내가 주문을 시전한 후에, <b>모든</b> 하수인에게<br>피해를 1 줍니다."
         }
       },
       {
-        "before": "2022-11-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내가 주문을 시전한 후에, 모든 하수인에게 피해를 1 줍니다."
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ],
+          "race": "UNDEAD"
+        }
       }
     ]
   },

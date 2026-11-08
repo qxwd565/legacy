@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mind Vision",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_003",
     "name": "마음의 눈",
-    "text": "[x]상대편 손에 있는 카드를\n무작위로 복사하여\n내 손으로 가져옵니다.",
+    "text": "상대편의 손에 있는 카드 하나를 무작위로 복사하여 당신의 손에 가져옵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "손이 눈보다 빠를 필요가 없습니다. 이 카드만 있으면요.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "w2_348_D.psd:6842c6d6112b1f647847858cee5027ca",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,48 +87,37 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "상대편의 손에 있는 카드 하나를 무작위로 복사하여 당신의 손에 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
+        "date": "2013-10-03",
         "changes": {
           "text": "상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "상대편 손에 있는 카드 중 무작위로 선택된 카드 1장을 복사하여 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2018-10-03",
+        "date": "2015-08-19",
         "changes": {
           "text": "상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "[x]상대편 손에 있는 카드를<br>무작위로 복사하여<br>내 손으로 가져옵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]상대편 손에 있는 카드를\n무작위로 복사하여\n내 손으로 가져옵니다.",
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

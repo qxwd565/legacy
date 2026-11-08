@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Windspeaker",
   "card": {
@@ -20,22 +20,17 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "DRAENEI"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_587",
     "name": "바람예언자",
-    "text": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>질풍</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "드레나이",
+    "race": "",
     "flavor": "입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?",
-    "spellSchool": "",
     "portrait": "W9_A139_D.psd:87debe89df671ce489f1a27ee4bcd632",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,42 +98,39 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>질풍</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>아군 하수인 하나에게<br><b>질풍</b>을 부여합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인에게<br><b>질풍</b>을 부여합니다."
         }
       },
       {
-        "before": "2024-10-30",
+        "date": "2021-03-26",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>질풍</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2024-10-30",
+        "changes": {
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "드레나이"
+        }
       }
     ]
   },

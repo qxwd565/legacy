@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Arcane Shot",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_185",
     "name": "신비한 사격",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "예전엔 마법사들이 신비한 화살을 만들어 사냥꾼들에게 팔았습니다. 그러다 사냥꾼들이 아예 마법을 직접 배워 신비한 화살을 만들기 시작하면서, 스톰윈드는 작은 경기 침체에 시달렸다죠.",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W10_A198_D.psd:5b657e27257dc4d47b4ee0727cd53dac",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,13 +82,12 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

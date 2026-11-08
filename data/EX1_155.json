@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mark of Nature",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_155",
     "name": "자연의 징표",
-    "text": "<b>선택 -</b> 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
+    "text": "<b>선택</b> - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "드루이드들은 \"자연의 징표\"라고 합니다. 다른 사람들은 좀 씻고 다니라고 합니다.",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W6_024_D.psd:c0ec0620dc7227f4bb13315e0f363e37",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,34 +90,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>선택</b> - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-11-30",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>선택</b> - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-11-30",
-        "before": "2018-10-03",
+        "date": "2016-11-30",
         "changes": {
           "text": "<b>선택 -</b> 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "<b>선택 -</b> 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "NATURE"
+        }
       }
     ]
   },

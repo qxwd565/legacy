@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Laughing Sister",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "ELUSIVE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "DREAM_01",
-    "name": "미소 띤 자매",
-    "text": "<b>모면</b>",
+    "name": "미소띤 자매",
+    "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "DREAM",
-    "rarity": null,
-    "race": "",
+    "rarity": "FREE",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W17_a035_D.psd:b748e88ef3462c7468622ecd88192e98",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -76,27 +74,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "name": "미소띤 자매",
-          "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2020-03-27",
-        "changes": {
+          "name": "미소 띤 자매",
           "text": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
         }
       },
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2020-03-27",
         "changes": {
           "text": "주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>모면</b>"
         }
       }
     ]

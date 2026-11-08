@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Emerald Skytalon",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
-      "ELEMENTAL"
+      "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_037",
     "name": "에메랄드 하늘발톱",
@@ -35,7 +33,6 @@
     "rarity": "COMMON",
     "race": "야수",
     "flavor": "이세라를 수호하기로 맹세한 에메랄드 용제단의 위엄 넘치는 올빼미들은 에메랄드 꿈의 힘이 깃들었으며, 겉은 결정과도 같습니다.",
-    "spellSchool": "",
     "portrait": "W5_261_M.tif:8d619ffd78174dc48dbb5f26c614615c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,16 +100,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2022-11-30",
+        "date": "2022-11-30",
         "changes": {
           "races": [
-            "BEAST"
-          ],
-          "race": "야수"
-        },
-        "generatedBy": "taxonomy-introduction"
+            "ELEMENTAL"
+          ]
+        }
       }
     ]
   },

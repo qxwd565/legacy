@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Damaged Golem",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "MECHANICAL"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "skele21",
     "name": "손상된 골렘",
@@ -32,10 +28,9 @@
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
-    "race": "기계",
+    "rarity": "FREE",
+    "race": "",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "R7_a009_D.psd:558c505adeacc734b8cfccb9bcae209f",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -88,14 +83,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": null,
     "releaseStatus": "pending",
-    "history": [
+    "patches": [
       {
-        "before": "2014-12-05",
+        "date": "2014-12-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "MECHANICAL"
+          ],
+          "race": "기계"
+        }
       }
     ]
   },

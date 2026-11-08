@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ritual of Doom",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_002",
     "name": "파멸의 의식",
@@ -31,7 +28,6 @@
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"같이 파멸의 노래 부를래?\"",
     "spellSchool": "SHADOW",
     "portrait": "CLA-036_S.tif:6bdb2a7397704376870bb8d8a5bdb462",
@@ -75,7 +71,8 @@
     "nativeRawText": "아군 하수인을 처치합니다. 하수인이 다섯 이상 있었다면, 5/5 악마를 소환합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

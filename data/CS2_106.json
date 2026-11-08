@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Fiery War Axe",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_106",
     "name": "이글거리는 전쟁 도끼",
@@ -31,9 +28,7 @@
     "type": "WEAPON",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "race": "",
     "flavor": "한창 평화롭던 시절에는 사람들이 이 도끼를 다르게 불렀습니다. 싸늘한 평화 도끼라고 말이죠... 이 싸늘한 분위기는 뭘까요?",
-    "spellSchool": "",
     "portrait": "W14_a200_D.psd:2cc1e668271111f499b8d1766fe35d71",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,7 +86,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

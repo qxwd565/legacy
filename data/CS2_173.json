@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bluegill Warrior",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_173",
     "name": "푸른아가미 전사",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "멀록",
     "flavor": "안아달라고 달려오는군요. 일단 젖을 각오는 해야겠습니다.",
-    "spellSchool": "",
     "portrait": "W16_a206_D.psd:0b8cacdb3cc2aee43971b43ec0940313",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,7 +105,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

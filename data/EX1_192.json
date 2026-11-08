@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Radiance",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_192",
     "name": "광휘",
@@ -31,9 +28,8 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "FREE",
-    "race": "",
     "flavor": "전문 용어로 자힐이라고 하죠.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": null,
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,20 +72,19 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2019-07-02",
-        "before": "2021-03-26",
+        "date": "2019-07-02",
         "changes": {
           "text": "[x]내 영웅의 생명력을<br>#5 회복시킵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]내 영웅의 생명력을\n#5 회복시킵니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

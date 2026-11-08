@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Leeroy Jenkins",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 1912,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 5,
+    "cost": 4,
     "health": 2,
     "attack": 6,
     "armor": 0,
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY",
+      "CHARGE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_116",
     "name": "리로이 젠킨스",
-    "text": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리\n소환해 줍니다.",
+    "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 1/1 새끼용 둘을 소환해 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "\"때가 왔다! 가자! 리로이이이이이이이이 젠킨스으으으으으으!\"",
-    "spellSchool": "",
     "portrait": "wow_penny_003_D.tif:89fce883b49b24b4fb977260eeed1cda",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -114,51 +113,46 @@
     ],
     "nativeRawText": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리\n소환해 줍니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2014-09-23",
-        "changes": {
-          "cost": 4
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 1/1 새끼용 둘을 소환해 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 1/1 새끼용 2마리를 소환해 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 둘 소환해 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-04-11",
+        "date": "2014-09-23",
+        "changes": {
+          "cost": 5
+        }
+      },
+      {
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>돌진</b><br><b>전투의 함성:</b> 상대편에게 1/1 새끼용을 둘 소환해 줍니다."
         }
       },
       {
-        "from": "2018-04-11",
-        "before": "2021-03-26",
+        "date": "2018-04-11",
         "changes": {
           "text": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리<br>소환해 줍니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리\n소환해 줍니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancient Mage",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_584",
     "name": "고대의 마법사",
-    "text": "<b>전투의 함성:</b>\n양옆의 하수인들에게 <b>주문 공격력 +1</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>주문력 +1</b>을 부여합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "깜빡하고 다른 사람의 게임에 등장하기도 합니다.",
-    "spellSchool": "",
     "portrait": "W2_297_D.psd:f05e1d4155de25444b884b02ec9514bd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,26 +99,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>주문력 +1</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>주문 공격력 +1</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>양옆의 하수인들에게 <b>주문 공격력 +1</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n양옆의 하수인들에게 <b>주문 공격력 +1</b>을 부여합니다."
         }
       }
     ]

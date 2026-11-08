@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sunfury Protector",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_058",
     "name": "성난태양 파수병",
-    "text": "[x]<b>전투의 함성:</b>\n양옆의 하수인들에게\n<b>도발</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b> 당신의 다른 하수인들이 <b>도발</b>을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "방패를 가지고는 있지만, 다른 이들에게 넘기고 자신은 숨어버리더군요.",
-    "spellSchool": "",
     "portrait": "W9_A047_D.psd:3f22e1958408b074c96279af20c55667",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -106,26 +104,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 다른 하수인들이 <b>도발</b>을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>도발</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>양옆의 하수인들에게<br><b>도발</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n양옆의 하수인들에게\n<b>도발</b>을 부여합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Bloodsail Raider",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "PIRATE"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "NEW1_018",
     "name": "붉은해적단 약탈자",
-    "text": "[x]<b>전투의 함성:</b>\n내 무기의 공격력만큼\n공격력을 얻습니다.",
+    "text": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "해적",
+    "race": "PIRATE",
     "flavor": "\"난 '요'가 포함된 요일에만 약탈을 하지.\"",
-    "spellSchool": "",
     "portrait": "W5_155_D.psd:ba215f1a24c3cfd4eae67a432206ac17",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,26 +93,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 무기의 공격력만큼 공격력을 얻습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b><br>내 무기의 공격력만큼<br>공격력을 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b>\n내 무기의 공격력만큼\n공격력을 얻습니다."
         }
       }
     ]

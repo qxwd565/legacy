@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Jaina's Gift",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_02",
     "name": "제이나의 선물",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"오늘, 제 마법이 우리를 하나로 만들 거예요.\" -제이나",
-    "spellSchool": "",
     "portrait": "HS31-122_S.tif:f0a19a18be0d419f85476e102f7d2ede",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -85,7 +80,8 @@
     "nativeRawText": "<b>일시적</b>인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [

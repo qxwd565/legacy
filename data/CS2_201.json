@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Core Hound",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
-      "ELEMENTAL"
+      "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_201",
     "name": "심장부 사냥개",
@@ -35,7 +33,6 @@
     "rarity": "FREE",
     "race": "야수",
     "flavor": "심장부 사냥개를 길들이는 것은 불가능합니다. 당신을 잡아먹기 전에 다른 사람을 먹도록 훈련시킬 뿐이죠.",
-    "spellSchool": "",
     "portrait": "W2_054_D.psd:14bc868296c9db94e86beed09c439330",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -93,16 +90,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2026-02-10",
+        "date": "2026-02-10",
         "changes": {
           "races": [
-            "BEAST"
-          ],
-          "race": "야수"
-        },
-        "generatedBy": "taxonomy-introduction"
+            "ELEMENTAL"
+          ]
+        }
       }
     ]
   },

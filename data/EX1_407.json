@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Brawl",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_407",
     "name": "난투",
-    "text": "무작위 하수인 하나를 제외한 <b>모든</b> 하수인을 처치합니다.",
+    "text": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 파괴합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "싸움꾼 조합의 첫 번째 규칙이 뭐죠?",
-    "spellSchool": "",
     "portrait": "W2_415_D.tif:09e0a1a40211cb048be9e1e2215070b4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,33 +81,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "무작위로 선정된 하수인 1마리를 제외한 모든 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 처치합니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "무작위로 선택된 하수인 하나를 제외한 모든 하수인을 처치합니다."
+        }
+      },
+      {
+        "date": "2015-08-19",
+        "changes": {
+          "text": "무작위 하수인 하나를 제외한 <b>모든</b> 하수인을 처치합니다."
         }
       }
     ]

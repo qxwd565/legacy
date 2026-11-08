@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Selective Breeder",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_015",
     "name": "선별하는 조련사",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "race": "",
     "flavor": "정말 열심히 일하나 봐요. 밝게 웃는 저 야수를 보세요!",
-    "spellSchool": "",
     "portrait": "CLA-030_M.tif:db51db43be2e46a09bf35423968bff84",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -100,7 +95,8 @@
     "nativeRawText": "<b>전투의 함성:</b> 내 덱에서 야수를 <b>발견</b>해서 복사해옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

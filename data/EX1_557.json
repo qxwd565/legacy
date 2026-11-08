@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Nat Pagle",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_557",
     "name": "내트 페이글",
-    "text": "내 턴이 시작될 때, 50%의 확률로 카드를 1장 더 뽑습니다.",
+    "text": "당신의 턴이 끝날 때, 50%의 확률로 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "아제로스 최고의 낚시꾼, 내트 페이글입니다! 그는 강태공 도우미 3000, 낚싯대 연장기 3000, 그리고 물고기 떼 생성기 2099(아직 시험 중)를 발명했습니다. ",
-    "spellSchool": "",
     "portrait": "Nat_Pagle_D.psd:a4491f23f55a4894eb904fa980ca5525",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,26 +94,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때, 50%의 확률로 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때, 50%의 확률로 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2016-04-25",
+        "date": "2014-03-12",
         "changes": {
           "text": "내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "date": "2016-04-25",
+        "changes": {
+          "text": "내 턴이 시작될 때, 50%의 확률로 카드를 1장 더 뽑습니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Snake Trap",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_554",
     "name": "뱀 덫",
-    "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다.",
+    "text": "<b>비밀:</b> 당신의 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "왜 하필 뱀이야?",
-    "spellSchool": "",
     "portrait": "W5_014_D.psd:08cec994c83d3ac4794d8a15240c6df3",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,33 +84,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>비밀:</b> 당신의 하수인이 공격받으면 1/1 뱀을 셋 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>비밀:</b> 내 하수인이 공격받으면 1/1 뱀을 3마리 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-08-19",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>비밀:</b> 내 하수인이 공격받으면 1/1 뱀을 셋 소환합니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-11-30",
+        "date": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 셋 소환합니다."
+        }
+      },
+      {
+        "date": "2016-11-30",
+        "changes": {
+          "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다."
         }
       }
     ]

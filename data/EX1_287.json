@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Counterspell",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SECRET"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_287",
     "name": "마법 차단",
-    "text": "<b>비밀:</b> 상대편이 주문을 시전하면, <b>차단</b>합니다.",
+    "text": "<b>비밀:</b> 상대편이 주문을 시전하면 <b>차단</b>합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "마법 차단을 쓰는 마법사와 안 쓰는 마법사의 차이요? 안 쓰는 마법사는 얼굴에 불덩이 작렬을 맞는다는 거?",
-    "spellSchool": "ARCANE",
+    "spellSchool": "",
     "portrait": "W4_118_D.psd:b92bfc931bc76de48b8a401670f933f0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -96,20 +95,18 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2015-08-19",
+        "date": "2015-08-19",
         "changes": {
-          "text": "<b>비밀:</b> 상대편이 주문을 시전하면 <b>차단</b>합니다."
+          "text": "<b>비밀:</b> 상대편이 주문을 시전하면, <b>차단</b>합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "ARCANE"
+        }
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Charge",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_103",
     "name": "돌진",
-    "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다.",
+    "text": "아군 하수인에게 <b>돌진</b>을 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "race": "",
     "flavor": "다음 턴까지 안전하리라는 상대의 믿음을 박살냅니다.",
-    "spellSchool": "",
     "portrait": "WOW_ACT_055_D.psd:9818d11aed9155644be74acd30484b8b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,33 +86,35 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "아군 하수인에게 <b>돌진</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2014-01-17",
+        "date": "2013-12-11",
         "changes": {
           "text": "아군 하수인 하나에게 <b>돌진</b>을 부여합니다."
         }
       },
       {
-        "from": "2016-10-04",
-        "before": "2018-10-03",
+        "date": "2014-01-17",
+        "changes": {
+          "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다."
+        }
+      },
+      {
+        "date": "2016-10-04",
         "changes": {
           "text": "아군 하수인 하나에게 <b>돌진</b>을 부여합니다.<br>그 하수인은 이번 턴에<br>영웅을 공격할 수 없습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "아군 하수인에게 <b>돌진</b>을 부여합니다.<br>그 하수인은 이번 턴에<br>영웅을 공격할 수 없습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다."
         }
       }
     ]

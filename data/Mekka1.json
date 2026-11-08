@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Homing Chicken",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "Mekka1",
     "name": "유도 닭",
-    "text": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.",
+    "text": "당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "기계",
     "flavor": "",
-    "spellSchool": "",
     "portrait": null,
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -93,17 +90,9 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
         }

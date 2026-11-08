@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Razorfen Hunter",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_196",
     "name": "가시덩굴 사냥꾼",
-    "text": "<b>전투의 함성:</b>\n1/1 멧돼지를 소환합니다.",
+    "text": "<b>전투의 함성:</b> 1/1 멧돼지를 소환합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "",
     "flavor": "뿔엄니에게 정말 까분 사람이 한 명 있었습니다. 딱 한 명요.",
-    "spellSchool": "",
     "portrait": "W8_018_D.psd:b749b7f3d64157b4bbab23c1f6c26ec1",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,33 +96,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 1/1 멧돼지를 소환합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 1/1 멧돼지 1마리를 소환합니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>1/1 멧돼지를<br>1마리 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>1/1 멧돼지를 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n1/1 멧돼지를 소환합니다."
         }
       }
     ]

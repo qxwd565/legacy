@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Harth Stonebrew",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_01",
     "name": "하스 스톤브루",
@@ -31,9 +28,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "",
     "flavor": "\"난롯가에서 든든하게 먹고 축제를 즐기세요. 우리 모두를 위한 축제니까요!\" -하스",
-    "spellSchool": "",
     "portrait": "HS31-117_M.tif:0b1842db558f4d3d92064f4b65063f86",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -95,7 +90,8 @@
     "nativeRawText": "<b>전투의 함성:</b> 내 손에 있는 모든 카드를 하스스톤의 과거를 대표하는 카드들로 교체합니다. <i>(게임당 1번만 발동)</i>",
     "nativeTextBuilder": 0,
     "releasedAt": null,
-    "releaseStatus": "pending"
+    "releaseStatus": "pending",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

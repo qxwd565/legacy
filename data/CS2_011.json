@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Savage Roar",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_011",
     "name": "야생의 포효",
-    "text": "이번 턴에 내 캐릭터들에게 공격력을 +2 부여합니다.",
+    "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "뭐라고 포효하는 걸까요? 아무도 자신 있게 말할 순 없지만, 얼핏 들리기로는 \"이이!\"라고 외치는 것 같습니다. 이게 대체 무슨 뜻일까요?",
-    "spellSchool": "",
     "portrait": "W14_a010_D.psd:95d28ae1a19439240b5a75f9dce66f1c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다."
+          "text": "이번 턴에 내 캐릭터들에게 공격력을 +2 부여합니다."
         }
       }
     ]

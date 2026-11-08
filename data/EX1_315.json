@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Summoning Portal",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "AURA"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_315",
     "name": "소환의 문",
-    "text": "내 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다.",
+    "text": "당신 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "1 미만으로는 안 내려간다고요! 헛수고하지 마세요!",
-    "spellSchool": "",
     "portrait": "W13_287_D.psd:57c7ff74236c5a24fb67ce7afee69ba4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,12 +89,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다."
+          "text": "내 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다."
         }
       }
     ]

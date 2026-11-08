@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Big Game Hunter",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 4,
+    "cost": 3,
     "health": 2,
     "attack": 4,
     "armor": 0,
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY",
+      "TRADEABLE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_005",
     "name": "나 이런 사냥꾼이야",
-    "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+    "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 파괴합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "그에게 데빌사우루스 따윈 코웃음만 나옵니다. 조만간 크롤 칼 하나 들고 오닉시아를 잡으러 간다더군요.",
-    "spellSchool": "",
     "portrait": "W5_030_D.tif:e6c061104024636419be152c385e82e2",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,58 +93,47 @@
     ],
     "nativeRawText": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2016-04-25",
-        "changes": {
-          "cost": 3
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 파괴합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 1마리 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2016-08-10",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다."
         }
       },
       {
-        "from": "2016-04-25",
-        "before": "2021-03-26",
+        "date": "2016-04-25",
         "changes": {
           "cost": 5
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "[x]<b>전투의 함성:</b> 공격력이<br>7 이상인 하수인을<br>하나 처치합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b><br>공격력이 7 이상인<br>하수인을 처치합니다."
         }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 4,
+          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

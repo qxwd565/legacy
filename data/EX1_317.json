@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Sense Demons",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_317",
     "name": "악마 감지",
-    "text": "내 덱에서 악마를 둘 뽑습니다.",
+    "text": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "일반적으로 악마들은 굉장히 눈에 띄는 존재여서, 굳이 주문까지 사용하지 않아도 감지할 수 있습니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W11_193_D.psd:b9aa44cd8cf4fa942b2af7d1126cdc7d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,48 +87,42 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "덱에 있는 무작위 악마 2마리를 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "덱에 있는 무작위 악마 둘을 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "내 덱에서 무작위로 선택된 악마 카드 2장을 내 손으로 가져옵니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-11-30",
+        "date": "2015-08-19",
         "changes": {
           "text": "내 덱에서 무작위 악마 둘을 내 손으로 가져옵니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2016-11-30",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "내 덱에서 악마를 둘 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

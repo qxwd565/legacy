@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Avenging Wrath",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "ImmuneToSpellpower"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_384",
     "name": "응징의 격노",
-    "text": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다.",
+    "text": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "race": "",
     "flavor": "쿠쾅쾅쾅쾅쾅쾅쾅!",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W15_A055_D.psd:e7106226e17979242b8bc59ba0de71ce",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -91,27 +90,24 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
+        "date": "2013-10-03",
         "changes": {
           "text": "적 캐릭터들에게 $8의 피해를 무작위로 나누어 입힙니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2015-04-01",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

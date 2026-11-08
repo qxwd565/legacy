@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Pit Lord",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_313",
     "name": "지옥의 군주",
-    "text": "<b>전투의 함성:</b> 내 영웅에게 피해를 5 줍니다.",
+    "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 7 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "EPIC",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "만노로스, 마그테리돈, 브루탈루스 모두 죽었지만, 이것으로 지옥의 군주가 엄청 많다는 사실이 밝혀졌습니다.",
-    "spellSchool": "",
     "portrait": "R3_043_D.psd:891cf0efccd906744b6e8dbae8912084",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,12 +108,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 7 줍니다."
+          "text": "<b>전투의 함성:</b> 내 영웅에게 피해를 5 줍니다."
         }
       }
     ]

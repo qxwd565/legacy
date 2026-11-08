@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Windfury Harpy",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "WINDFURY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_033",
     "name": "성난바람 하피",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "하피는 참 거슬리는 소리를 냅니다. 이보다 더 상냥하게 묘사할 순 없을 것 같네요.",
-    "spellSchool": "",
     "portrait": "CLA-007.psd:2818b95e374742c89cd764d8b1f5a7e0",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,16 +92,17 @@
     ],
     "nativeRawText": "<b>질풍</b>",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2019-07-01",
+        "date": "2019-07-01",
         "changes": {
-          "legacyArt": true
+          "legacyArt": false
         }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

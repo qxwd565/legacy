@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Defias Ringleader",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "COMBO"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_131",
     "name": "데피아즈단 두목",
-    "text": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다.",
+    "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "두목은 묵직해야 합니다.",
-    "spellSchool": "",
     "portrait": "W4_059_D.psd:a54a107833e191242aa12c868cba680a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -111,26 +109,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 1명 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다."
         }
       }
     ]

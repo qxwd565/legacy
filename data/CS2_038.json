@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ancestral Spirit",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_038",
     "name": "고대의 영혼",
-    "text": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
+    "text": "하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "RARE",
-    "race": "",
     "flavor": "네가 죽은 건 추진력을 얻기 위해서였다!",
-    "spellSchool": "",
     "portrait": "W2_423_D.psd:d190a1c2a64ca0247be3f49808bf79ee",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,47 +81,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "하수인을 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-05-09",
+        "date": "2013-12-11",
         "changes": {
           "text": "하수인 하나를 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다."
         }
       },
       {
-        "from": "2014-05-09",
-        "before": "2014-07-23",
+        "date": "2014-05-09",
         "changes": {
           "text": "하수인 하나에게 \"죽음의 메아리: 이 하수인을 다시 소환합니다.\" 능력을 부여합니다."
         }
       },
       {
-        "from": "2014-07-23",
-        "before": "2015-12-05",
+        "date": "2014-07-23",
         "changes": {
           "text": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환합니다.\" 능력을 부여합니다."
         }
       },
       {
-        "from": "2015-12-05",
-        "before": "2018-10-03",
+        "date": "2015-12-05",
         "changes": {
           "text": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다."
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "changes": {
+          "text": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다."
         }
       }
     ]

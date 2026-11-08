@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dust Devil",
   "card": {
@@ -20,22 +20,21 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
+    "races": [],
+    "mechanics": [
+      "OVERLOAD",
+      "WINDFURY"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_243",
     "name": "먼지 악령",
-    "text": "<b>질풍</b>\n<b>과부하:</b> (2)",
+    "text": "<b>질풍</b>. <b>과부하:</b> (2)",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "COMMON",
-    "race": "정령",
+    "race": "",
     "flavor": "서부 몰락지대는 먼지 악령, 대머리수리, 미친 골렘, 해적으로 가득합니다. 대체 왜 여기 사람이 살까요?",
-    "spellSchool": "",
     "portrait": "W21_A047_D.psd:bafea573808cb9b49932d86ef77b7cfd",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,28 +107,27 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "<b>질풍</b>. <b>과부하:</b> (2)"
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>질풍</b><br><b>과부하:</b> (2)"
         }
       },
       {
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "ELEMENTAL"
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>질풍</b>\n<b>과부하:</b> (2)"
+        }
       }
     ]
   },

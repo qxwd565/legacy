@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mass Dispel",
   "card": {
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "SILENCE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_626",
     "name": "대규모 무효화",
-    "text": "모든 적 하수인을 <b>침묵</b>시킵니다.\n카드를 뽑습니다.",
+    "text": "모든 적 하수인을 <b>침묵</b>시킵니다. 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "RARE",
-    "race": "",
     "flavor": "강화 효과와 힘, 희망과 꿈까지 무효화합니다.",
-    "spellSchool": "HOLY",
+    "spellSchool": "",
     "portrait": "W16_a060_D.psd:bab2e7f41a420a64d988ad96ccb6dbf9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,34 +80,25 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "모든 적 하수인을 <b>침묵</b>시킵니다. 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2018-10-03",
+        "date": "2013-10-03",
         "changes": {
           "text": "모든 적 하수인을 <b>침묵</b>시킵니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "모든 적 하수인을 <b>침묵</b>시킵니다.<br>카드를 뽑습니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "모든 적 하수인을 <b>침묵</b>시킵니다.\n카드를 뽑습니다.",
+          "spellSchool": "HOLY"
+        }
       }
     ]
   },

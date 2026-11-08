@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Xavius",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_614",
-    "name": "자비우스",
-    "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
+    "name": "일리단 스톰레이지",
+    "text": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "악마",
+    "race": "DEMON",
     "flavor": "자비우스는 살게라스를 이 세계에 소환하고 싶어합니다. 하지만 일단은 사티로스로 만족해야겠군요.",
-    "spellSchool": "",
     "portrait": "W21_A203.tif:1a68bdbf3c0de2d43bdeee73bef4b63a",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -111,54 +111,37 @@
     ],
     "nativeRawText": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2013-08-17",
+        "date": "2013-10-03",
         "changes": {
-          "name": "일리단 스톰레이지"
-        }
-      },
-      {
-        "before": "2020-03-27",
-        "changes": {
-          "legacyArt": true
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "name": "일리단 스톰레이지",
-          "text": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
-        "changes": {
-          "name": "일리단 스톰레이지",
           "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
-          "name": "일리단 스톰레이지",
           "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2020-03-27",
+        "date": "2018-10-03",
         "changes": {
-          "name": "일리단 스톰레이지",
           "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
         }
+      },
+      {
+        "date": "2020-03-27",
+        "changes": {
+          "name": "자비우스",
+          "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
+          "legacyArt": false
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

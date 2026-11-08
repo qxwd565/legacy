@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Magma Rager",
   "card": {
@@ -20,11 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [
-      "ELEMENTAL"
-    ],
-    "mechanics": null,
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_118",
     "name": "용암 광전사",
@@ -33,9 +29,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "race": "정령",
+    "race": "",
     "flavor": "자신이 강하다고 생각하고 생각하지만, 이제 모두 화산 심장부 정도는 혼자 돌 수 있잖아요?",
-    "spellSchool": "",
     "portrait": "W14_a249_D.psd:a88439e0d81b71146b8c06eaddc4de2b",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -88,14 +83,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "before": "2017-04-05",
+        "date": "2017-04-05",
         "changes": {
-          "races": [],
-          "race": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "races": [
+            "ELEMENTAL"
+          ],
+          "race": "정령"
+        }
       }
     ]
   },

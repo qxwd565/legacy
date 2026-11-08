@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Stranglethorn Tiger",
   "card": {
@@ -20,11 +20,12 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "STEALTH"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_028",
     "name": "가시덤불 호랑이",
@@ -33,9 +34,8 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "호랑이에 대한 멋진 사실은 호랑이가 멋지다는 사실입니다!",
-    "spellSchool": "",
     "portrait": "W13_309_D.psd:7551e87365533ea4f8f53a642e6fbd7d",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -113,7 +113,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

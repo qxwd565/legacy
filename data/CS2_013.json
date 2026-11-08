@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Wild Growth",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_013",
     "name": "급속 성장",
-    "text": "빈 마나 수정을 얻습니다.",
+    "text": "빈 마나 수정을 획득합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "race": "",
     "flavor": "마나 수정 재배기로 자신만의 마나 수정을 키우세요! 믿을 수 없는 가격! 39,900 골드!",
-    "spellSchool": "NATURE",
+    "spellSchool": "",
     "portrait": "W9_A169_D.psd:fe665850af6bdee4c8d46d2f2fc624e9",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -79,38 +75,40 @@
     ],
     "nativeRawText": "빈 마나 수정을 얻습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "빈 마나 수정을 획득합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "빈 마나 수정을 1개 획득합니다."
         }
       },
       {
-        "from": "2018-12-20",
-        "before": "2024-03-12",
+        "date": "2018-10-03",
+        "changes": {
+          "text": "빈 마나 수정을 얻습니다."
+        }
+      },
+      {
+        "date": "2018-12-20",
         "changes": {
           "cost": 3
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "spellSchool": "NATURE"
+        }
+      },
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "cost": 2
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [

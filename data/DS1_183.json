@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Multi-Shot",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_183",
     "name": "일제 사격",
-    "text": "[x]무작위 적 하수인\n둘에게 피해를\n$3 줍니다.",
+    "text": "무작위 적 하수인 둘에게 피해를 $3 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "나올 때가 되면 항상 나오는 카드 중 하나죠.",
-    "spellSchool": "",
     "portrait": "W18_a018_D.psd:f246eaa14f7b42a48a392766f4e61aff",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,47 +76,41 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "무작위 적 하수인 둘에게 피해를 $3 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
+        "date": "2013-10-03",
         "changes": {
           "text": "무작위 적 하수인 2마리에게 피해를 $3 줍니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2015-04-01",
+        "date": "2013-12-11",
         "changes": {
           "text": "무작위 적 하수인 둘에게 피해를 $3 줍니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2015-08-19",
+        "date": "2015-04-01",
         "changes": {
           "text": "무작위로 선택된 적 하수인 둘에게 피해를 $3 줍니다."
         }
       },
       {
-        "from": "2015-08-19",
-        "before": "2016-07-13",
+        "date": "2015-08-19",
         "changes": {
           "text": "무작위 적 하수인 둘에게 피해를 $3 줍니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]무작위 적 하수인<br>둘에게 피해를<br>$3 줍니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "[x]무작위 적 하수인\n둘에게 피해를\n$3 줍니다."
         }
       }
     ]

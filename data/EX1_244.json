@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Totemic Might",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_244",
     "name": "토템의 힘",
-    "text": "내 토템들에게 생명력을 +2 부여합니다.",
+    "text": "당신의 토템들에게 생명력을 +2 부여합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "",
     "flavor": "자, 이제 제 토템 한 번 밟아 보시죠. (사악한 미소)",
-    "spellSchool": "",
     "portrait": "W5_128_D.psd:421723996c3e437489022388aa7cf396",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -76,12 +71,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "당신의 토템들에게 생명력을 +2 부여합니다."
+          "text": "내 토템들에게 생명력을 +2 부여합니다."
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mortal Strike",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_408",
     "name": "필사의 일격",
-    "text": "피해를 $4 줍니다. 내 생명력이 12 이하라면, 피해를 $6 줍니다.",
+    "text": "피해를 $4 줍니다. 당신 영웅의 생명력이 12 이하라면 피해를 $6 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "RARE",
-    "race": "",
     "flavor": "\"기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라.\" - 전사의 십계명, 여섯 번째 줄",
-    "spellSchool": "",
     "portrait": "W12_A140_D.psd:4e4602ba38d7e744e85531ad80a2e812",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,26 +76,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "피해를 $4 줍니다. 당신 영웅의 생명력이 12 이하라면 피해를 $6 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-01-17",
+        "date": "2013-10-03",
         "changes": {
           "text": "피해를 $4 줍니다. 내 영웅의 생명력이 12 이하라면 피해를 $6 줍니다."
         }
       },
       {
-        "from": "2014-01-17",
-        "before": "2015-08-19",
+        "date": "2014-01-17",
         "changes": {
           "text": "피해를 $4 줍니다. 내 생명력이 12 이하라면 피해를 $6 줍니다."
+        }
+      },
+      {
+        "date": "2015-08-19",
+        "changes": {
+          "text": "피해를 $4 줍니다. 내 생명력이 12 이하라면, 피해를 $6 줍니다."
         }
       }
     ]

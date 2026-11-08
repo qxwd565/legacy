@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Secretkeeper",
   "card": {
@@ -20,20 +20,18 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_080",
     "name": "비밀지기",
-    "text": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다.",
+    "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
     "flavor": "만크릭의 부인이 어디 있는지 절대로 말하지 않겠다고 하는군요.",
-    "spellSchool": "",
     "portrait": "CLA-006.psd:2ea4315f347849e08938fd6dde9e7f4e",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -99,30 +97,29 @@
     ],
     "nativeRawText": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "legacyArt": true,
+    "patches": [
       {
-        "before": "2019-07-01",
-        "changes": {
-          "legacyArt": true
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "각 플레이어가 <b>비밀</b>을<br>낼 때마다 +1/+1을 얻습니다."
         }
+      },
+      {
+        "date": "2019-07-01",
+        "changes": {
+          "legacyArt": false
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다."
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

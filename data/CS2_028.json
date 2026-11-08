@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Blizzard",
   "card": {
@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 6,
+    "cost": 5,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -20,20 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "FREEZE"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_028",
     "name": "눈보라",
-    "text": "[x]모든 적 하수인에게\n피해를 $2 주고 <b>빙결</b>\n상태로 만듭니다.",
+    "text": "모든 적 하수인에게 피해를 $2 주고 <b>얼어붙음</b> 상태로 만듭니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "race": "",
     "flavor": "왠지 모르게 정이 가는 이름의 주문입니다.",
-    "spellSchool": "FROST",
+    "spellSchool": "",
     "portrait": "R6_a081_D.psd:2276eb5b2151c5b4b9b999aeec76ceab",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -94,44 +93,35 @@
     ],
     "nativeRawText": "[x]모든 적 하수인에게\n피해를 $2 주고 <b>빙결</b>\n상태로 만듭니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated",
+    "patches": [
       {
-        "before": "2013-12-19",
-        "changes": {
-          "cost": 5
-        }
-      },
-      {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "모든 적 하수인에게 피해를 $2 주고 <b>얼어붙음</b> 상태로 만듭니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-07-13",
+        "date": "2013-10-03",
         "changes": {
           "text": "모든 적 하수인에게 피해를 $2 주고 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "from": "2016-07-13",
-        "before": "2021-03-26",
+        "date": "2013-12-19",
+        "changes": {
+          "cost": 6
+        }
+      },
+      {
+        "date": "2016-07-13",
         "changes": {
           "text": "[x]모든 적 하수인에게<br>피해를 $2 주고 <b>빙결</b><br>상태로 만듭니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "[x]모든 적 하수인에게\n피해를 $2 주고 <b>빙결</b>\n상태로 만듭니다.",
+          "spellSchool": "FROST"
+        }
       }
-    ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    ]
   },
   "root": true,
   "relatedIds": [],

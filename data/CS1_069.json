@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Fen Creeper",
   "card": {
@@ -20,9 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
+    "mechanics": [
+      "TAUNT"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "CS1_069",
     "name": "수렁이끼괴물",
@@ -31,9 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "원래 이름은 수렁야수였지만, 실제로는 야수가 아니라서 헷갈려하는 분들이 많았습니다. 그래서 더 예쁜 이름을 붙여줬죠.",
-    "spellSchool": "",
     "portrait": "W3_269_D.psd:686f967d9d1b0344cbcbdb89be6f6969",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -101,7 +99,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

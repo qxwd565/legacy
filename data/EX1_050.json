@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Coldlight Oracle",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "MURLOC"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_050",
     "name": "시린빛 점쟁이",
-    "text": "<b>전투의 함성:</b>\n각 플레이어가 카드를 2장씩 뽑습니다.",
+    "text": "<b>전투의 함성:</b> 모든 플레이어가 카드를 두 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "멀록",
+    "race": "MURLOC",
     "flavor": "이들은 미래를 볼 수 있습니다. 미래에는 두 플레이어 모두 카드를 더 뽑게 될 거라는군요. 신통하네요.",
-    "spellSchool": "",
     "portrait": "W16_a096_D.psd:e3abc24bbd88502469947160eea5185f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,33 +103,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 모든 플레이어가 카드를 두 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2015-04-01",
+        "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 모든 플레이어가 카드를 2장 뽑습니다."
         }
       },
       {
-        "from": "2015-04-01",
-        "before": "2016-08-10",
+        "date": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 각 플레이어가 카드를 2장씩 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2021-03-26",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>각 플레이어가 카드를 2장씩 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b>\n각 플레이어가 카드를 2장씩 뽑습니다."
         }
       }
     ]

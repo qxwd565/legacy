@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "King Mukla",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "BEAST"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "BATTLECRY"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_014",
     "name": "밀림의 왕 무클라",
-    "text": "<b>전투의_함성:</b> 상대편에게 바나나를 2개 줍니다.",
+    "text": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "race": "야수",
+    "race": "BEAST",
     "flavor": "밀림의 왕 무클라는 오늘도 자구에로 섬을 떠돕니다. 진정한 사랑을 찾기 위해...",
-    "spellSchool": "",
     "portrait": "W2_450a_D.psd:8db1cb7ebd6345e47a836ad7d28a3e60",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -103,19 +103,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
+        "date": "2016-08-10",
         "changes": {
-          "text": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다."
+          "text": "<b>전투의 함성:</b> 상대편에게 바나나를 2개 줍니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-04-11",
+        "date": "2018-04-11",
         "changes": {
-          "text": "<b>전투의 함성:</b> 상대편에게 바나나를 2개 줍니다."
+          "text": "<b>전투의_함성:</b> 상대편에게 바나나를 2개 줍니다."
         }
       }
     ]

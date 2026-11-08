@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Betrayal",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_126",
     "name": "배신",
-    "text": "적 하수인이 자신의 공격력만큼 양옆의 하수인들을 공격하게 만듭니다.",
+    "text": "적 하수인이 자신의 공격력만큼 양옆의 하수인들에게 피해를 줍니다.",
     "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "ROGUE",
     "rarity": "COMMON",
-    "race": "",
     "flavor": "배신을 시키려면 그에 상응하는 값을 치러야 합니다. 예를 들어 노움을 배신시키려면 동물 인형과 약간의 초콜릿이 필요하죠.",
-    "spellSchool": "",
     "portrait": "W13_263_D.psd:e02984699f45cdd4c82fb3518baf6440",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,12 +81,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
+        "date": "2014-03-12",
         "changes": {
-          "text": "적 하수인이 자신의 공격력만큼 양옆의 하수인들에게 피해를 줍니다."
+          "text": "적 하수인이 자신의 공격력만큼 양옆의 하수인들을 공격하게 만듭니다."
         }
       }
     ]

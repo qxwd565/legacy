@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Lord Jaraxxus",
   "card": {
@@ -20,11 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "DEMON"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_323h",
     "name": "군주 자락서스",
@@ -35,7 +33,6 @@
     "rarity": "LEGENDARY",
     "race": "악마",
     "flavor": "",
-    "spellSchool": "",
     "portrait": "W6_010_HERO_D.psd:76e46208180a76942b60e1075358d472",
     "collectible": false,
     "isBattlegroundsPoolMinion": false,
@@ -83,7 +80,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": []
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Darkscale Healer",
   "card": {
@@ -20,22 +20,19 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "NAGA"
     ],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "DS1_055",
     "name": "어둠비늘 치유사",
-    "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을\n#2 회복시킵니다.",
+    "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을 2 회복시킵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
     "race": "나가",
     "flavor": "차가워 보이지만 사실은 따스하게 회복해주는 여자입니다. ",
-    "spellSchool": "",
     "portrait": "W16_a022_D.psd:799670d2e25d5474c9539b93ed5cfc48",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -108,26 +105,23 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2016-08-10",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을 2 회복시킵니다."
-        }
-      },
-      {
-        "from": "2016-08-10",
-        "before": "2018-08-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을<br>2 회복시킵니다."
         }
       },
       {
-        "from": "2018-08-03",
-        "before": "2021-03-26",
+        "date": "2018-08-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을<br>#2 회복시킵니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을\n#2 회복시킵니다."
         }
       }
     ]

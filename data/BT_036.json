@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Coordinated Strike",
   "card": {
@@ -20,20 +20,15 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "BT_036",
     "name": "협공",
-    "text": "[x]<b>속공</b> 능력이 있는\n1/1 일리다리를\n셋 소환합니다.",
+    "text": "[x]<b>속공</b> 능력이 있는<br>1/1 일리다리를<br>셋 소환합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "race": "",
     "flavor": "\"사티로스와 함께 춤을\"에서 환상적인 호흡으로 우승을 차지했다고 합니다. ",
-    "spellSchool": "",
     "portrait": "HS19-204.tif:00b1881d326148658f975ad118c23a65",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -81,12 +76,11 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "history": [
+    "patches": [
       {
-        "from": "2020-03-27",
-        "before": "2021-03-26",
+        "date": "2021-03-26",
         "changes": {
-          "text": "[x]<b>속공</b> 능력이 있는<br>1/1 일리다리를<br>셋 소환합니다."
+          "text": "[x]<b>속공</b> 능력이 있는\n1/1 일리다리를\n셋 소환합니다."
         }
       }
     ]

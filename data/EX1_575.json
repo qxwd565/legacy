@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Mana Tide Totem",
   "card": {
@@ -20,22 +20,22 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
     "races": [
       "TOTEM"
     ],
-    "mechanics": null,
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_575",
     "name": "마나 해일 토템",
-    "text": "내 턴이 끝날 때,\n카드를 뽑습니다.",
+    "text": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다.",
     "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "RARE",
-    "race": "토템",
+    "race": "TOTEM",
     "flavor": "주술사들의 여름철 필수품입니다.",
-    "spellSchool": "",
     "portrait": "W9_A126_D.psd:d02a987a841361243b2fe4477c4b899f",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -98,33 +98,29 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2016-08-10",
+        "date": "2013-10-03",
         "changes": {
           "text": "내 턴이 끝날 때, 카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2016-08-10",
-        "before": "2018-10-03",
+        "date": "2016-08-10",
         "changes": {
           "text": "내 턴이 끝날 때,<br>카드를 1장 뽑습니다."
         }
       },
       {
-        "from": "2018-10-03",
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
           "text": "내 턴이 끝날 때,<br>카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때,\n카드를 뽑습니다."
         }
       }
     ]

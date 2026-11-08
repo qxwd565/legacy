@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Corruption",
   "card": {
@@ -20,20 +20,16 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS2_063",
     "name": "부패",
-    "text": "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.",
+    "text": "적 하수인을 선택합니다. 당신의 턴이 시작될 때, 그 하수인을 파괴합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
-    "race": "",
     "flavor": "이 주문이 무서운 진짜 이유는 냄새 때문이라는 말이 있습니다.",
-    "spellSchool": "SHADOW",
+    "spellSchool": "",
     "portrait": "W8_179_D.psd:ff75dd8314591744fa1fc9057578366c",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -86,27 +82,30 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
+    "patches": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
+        "date": "2013-10-03",
         "changes": {
-          "text": "적 하수인을 선택합니다. 당신의 턴이 시작될 때, 그 하수인을 파괴합니다."
+          "text": "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2018-10-03",
+        "date": "2013-12-11",
         "changes": {
           "text": "적 하수인을 하나 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다."
         }
       },
       {
-        "before": "2021-03-26",
+        "date": "2018-10-03",
         "changes": {
-          "spellSchool": ""
-        },
-        "generatedBy": "taxonomy-introduction"
+          "text": "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "spellSchool": "SHADOW"
+        }
       }
     ]
   },

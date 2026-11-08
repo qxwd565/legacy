@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "War Cache",
   "card": {
@@ -20,9 +20,6 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "classes": [],
-    "races": [],
-    "mechanics": null,
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_009",
     "name": "전쟁 보관함",
@@ -31,9 +28,7 @@
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "RARE",
-    "race": "",
     "flavor": "일리단의 보관함보다 훨씬 깔끔하네요.",
-    "spellSchool": "",
     "portrait": "CLA-032_S.tif:417b90d09cc9401d8f26a266884549b4",
     "collectible": true,
     "isBattlegroundsPoolMinion": false,
@@ -70,7 +65,8 @@
     "nativeRawText": "무작위 전사 하수인, 주문, 무기를\n내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": []
   },
   "root": true,
   "relatedIds": [],
