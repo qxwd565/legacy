@@ -96,14 +96,14 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2013-10-11",
+        "before": "2013-10-03",
         "changes": {
           "text": "당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
         }
       },
       {
-        "from": "2013-10-11",
-        "before": "2014-03-13",
+        "from": "2013-10-03",
+        "before": "2014-03-12",
         "changes": {
           "text": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
         }
@@ -144,7 +144,8 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+      "rawText": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.",
+      "northAmericaPatchDateKst": "2013-10-03"
     }
   ],
   "historicalTokenSources": {
@@ -1321,7 +1322,8 @@
             "sha256": "957b9543a505384c49a27c3c8f7259333011c32e5b8da749e5471c07f1cc81af",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-10-03"
       },
       {
         "build": "1.0.0.3937",
@@ -1545,7 +1547,8 @@
             "sha256": "1e2435b24ae1afdfd607749ff53af8126920ea5314ae2eebe25a0ddc0a9e48a3",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-10-18"
       },
       {
         "build": "1.0.0.4217",
@@ -1775,7 +1778,8 @@
             "sha256": "01d1e3df6618c9f5445aaba4a2a12634a610aefa06cb6f997d5c26b77bd1c6c2",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-12-11"
       },
       {
         "build": "1.0.0.4243",
@@ -2005,7 +2009,8 @@
             "sha256": "f49644074a25aa918a06d26d988ce83a38936c6367e6d37235cf6503fbe56519",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-12-19"
       },
       {
         "build": "1.0.0.4458",
@@ -2235,7 +2240,8 @@
             "sha256": "88735e9072665c6628fe7bb71de0308cb20c6cc72946a0c07463ffe12fad0a3d",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-01-17"
       },
       {
         "build": "1.0.0.4482",
@@ -2465,7 +2471,8 @@
             "sha256": "d7b621a505160896ab1dac862b9118c298b64f2b2224e3dd85e3caa4cbbb991f",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-01-18"
       },
       {
         "build": "1.0.0.4944",
@@ -2697,7 +2704,8 @@
             "sha256": "184a5e6c3044d0a82d131f73b3886292aded35839e38f3908621a9b49d0fde4e",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-03-12"
       }
     ]
   }

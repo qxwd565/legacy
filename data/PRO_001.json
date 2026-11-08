@@ -93,14 +93,14 @@
     "releaseStatus": "pending",
     "history": [
       {
-        "from": "2013-10-11",
-        "before": "2013-12-12",
+        "from": "2013-10-03",
+        "before": "2013-12-11",
         "changes": {
           "text": "디버그 텍스트"
         }
       },
       {
-        "from": "2013-12-12",
+        "from": "2013-12-11",
         "before": "2014-07-23",
         "changes": {
           "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!"
@@ -143,12 +143,14 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "디버그 텍스트"
+      "rawText": "디버그 텍스트",
+      "northAmericaPatchDateKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!"
+      "rawText": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!",
+      "northAmericaPatchDateKst": "2013-12-11"
     }
   ]
 }

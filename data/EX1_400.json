@@ -125,18 +125,21 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다."
+      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
+      "northAmericaPatchDateKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4458",
       "platform": "Windows",
       "rawText": "<b>모든</b> 하수인에게 피해를 $1 주고 카드를 1장 뽑습니다.",
-      "invalidDescription": true
+      "invalidDescription": true,
+      "northAmericaPatchDateKst": "2014-01-17"
     },
     {
       "build": "1.0.0.4482",
       "platform": "Windows",
-      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다."
+      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
+      "northAmericaPatchDateKst": "2014-01-18"
     }
   ]
 }

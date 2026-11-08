@@ -104,13 +104,13 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2013-10-11",
+        "before": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b>. <b>천상의 보호막</b>"
         }
       },
       {
-        "from": "2013-10-11",
+        "from": "2013-10-03",
         "before": "2014-07-23",
         "changes": {
           "text": "<b>돌진</b>, <b>천상의 보호막</b>"
@@ -152,7 +152,8 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "<b>돌진</b>, <b>천상의 보호막</b>"
+      "rawText": "<b>돌진</b>, <b>천상의 보호막</b>",
+      "northAmericaPatchDateKst": "2013-10-03"
     }
   ]
 }

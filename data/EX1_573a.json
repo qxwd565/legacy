@@ -74,13 +74,13 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2013-10-11",
+        "before": "2013-10-03",
         "changes": {
           "text": "당신의 다른 아군 하수인들에게 +2/+2를 부여합니다."
         }
       },
       {
-        "from": "2013-10-11",
+        "from": "2013-10-03",
         "before": "2014-07-23",
         "changes": {
           "text": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
@@ -122,7 +122,8 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
+      "rawText": "내 다른 아군 하수인들에게 +2/+2를 부여합니다.",
+      "northAmericaPatchDateKst": "2013-10-03"
     }
   ],
   "historicalTokenSources": {
@@ -1159,7 +1160,8 @@
             "sha256": "3853a22cb8aba757ef428f0625f6c01f4e591244e9683efa9f5cd27697ed1492",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-10-03"
       },
       {
         "build": "1.0.0.3937",
@@ -1352,7 +1354,8 @@
             "sha256": "bf102ea47f16e57a10e72e856cbdacbd1ba5bfc91fd9af2b0b6748936601c714",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-10-18"
       },
       {
         "build": "1.0.0.4217",
@@ -1551,7 +1554,8 @@
             "sha256": "852b2155431d85e49de1f42781794dfcf49d7386881cf25682852a98c2f65281",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-12-11"
       },
       {
         "build": "1.0.0.4243",
@@ -1750,7 +1754,8 @@
             "sha256": "6e63b8ef989184a212d990e08cf5a77408f337e326800f27282992822bb7ad1d",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2013-12-19"
       },
       {
         "build": "1.0.0.4458",
@@ -1949,7 +1954,8 @@
             "sha256": "d4c7935ec9e6791172a139e54b87d19b4ebd7b0286816c2892fd6d7f23890f20",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-01-17"
       },
       {
         "build": "1.0.0.4482",
@@ -2148,7 +2154,8 @@
             "sha256": "bb9c1b1f0e763f8c5b0cf035a9bba7be9cf4e7f48026df654ac9b52a54cdac60",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-01-18"
       },
       {
         "build": "1.0.0.4944",
@@ -2349,7 +2356,8 @@
             "sha256": "7c21843d0471496a9fc61583449a759ef26e16c01547395925f8f81f760951b6",
             "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
-        }
+        },
+        "northAmericaPatchDateKst": "2014-03-12"
       }
     ]
   }

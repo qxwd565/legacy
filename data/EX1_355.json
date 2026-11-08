@@ -79,20 +79,20 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2013-10-11",
+        "before": "2013-10-03",
         "changes": {
           "text": "하수인의 공격력을 두 배 증가시킵니다."
         }
       },
       {
-        "from": "2013-10-11",
-        "before": "2013-12-12",
+        "from": "2013-10-03",
+        "before": "2013-12-11",
         "changes": {
           "text": "하수인의 공격력을 2배 증가시킵니다."
         }
       },
       {
-        "from": "2013-12-12",
+        "from": "2013-12-11",
         "before": "2014-07-23",
         "changes": {
           "text": "하수인 하나의 공격력을 2배 증가시킵니다."
@@ -134,12 +134,14 @@
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
-      "rawText": "하수인의 공격력을 2배 증가시킵니다."
+      "rawText": "하수인의 공격력을 2배 증가시킵니다.",
+      "northAmericaPatchDateKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
-      "rawText": "하수인 하나의 공격력을 2배 증가시킵니다."
+      "rawText": "하수인 하나의 공격력을 2배 증가시킵니다.",
+      "northAmericaPatchDateKst": "2013-12-11"
     }
   ]
 }

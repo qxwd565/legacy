@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "scope": "Hearthstone beta, North American server timestamps converted to Asia/Seoul; not Korean server deployment dates",
+  "timezone": "Asia/Seoul",
+  "dateGranularity": "calendar day; actual rollout can be later within the day",
+  "events": [
+    {
+      "build": "1.0.0.3664",
+      "effectiveDate": "2013-08-17",
+      "basis": "User-requested beta baseline; North America closed beta announced August 16.",
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013"
+      ]
+    },
+    {
+      "build": "1.0.0.3749",
+      "effectiveDate": null,
+      "status": "unresolved",
+      "basis": "Deployed earlier on August 30 US time; the available report does not establish which Korean calendar date deployment occurred.",
+      "firstConfirmedByKst": "2013-08-31T07:52:07+09:00",
+      "sources": [
+        "https://www.hearthpwn.com/news/125-beta-patch-3749-eu-preparation-patch"
+      ]
+    },
+    {
+      "build": "1.0.0.3890",
+      "effectiveDate": "2013-10-03",
+      "basis": "NA maintenance completion reported October 2 23:06 EDT, converted to Korea time.",
+      "reportedAtKst": "2013-10-03T12:06:00+09:00",
+      "sources": [
+        "https://www.hearthpwn.com/news/158-hearthstone-beta-patch-3890-new-dailies-card"
+      ]
+    },
+    {
+      "build": "1.0.0.3937",
+      "effectiveDate": "2013-10-18",
+      "basis": "NA maintenance scheduled October 17 10:30 PDT, Korea October 18 02:30; retained user-confirmed date. Completion time not verified.",
+      "sources": [
+        "https://www.hearthpwn.com/news/173-hearthstone-beta-patch-3937",
+        "https://hearthstone.blizzard.com/en-gb/news/11289169/hearthstone-closed-beta-patch-notes-1003937"
+      ]
+    },
+    {
+      "build": "1.0.0.4217",
+      "effectiveDate": "2013-12-11",
+      "basis": "NA servers back online December 10 12:45 EST, converted to Korea time.",
+      "reportedAtKst": "2013-12-11T02:45:00+09:00",
+      "sources": [
+        "https://www.hearthpwn.com/news/225-hearthstone-beta-patch-4217-blizzcon-reward-card"
+      ]
+    },
+    {
+      "build": "1.0.0.4243",
+      "effectiveDate": "2013-12-19",
+      "basis": "NA maintenance ended December 18 14:53 EST, converted to Korea time.",
+      "reportedAtKst": "2013-12-19T04:53:00+09:00",
+      "sources": [
+        "https://www.hearthpwn.com/news/233-hearthstone-beta-patch-4243-mage-nerfs-bug-fixes"
+      ]
+    },
+    {
+      "build": "1.0.0.4458",
+      "effectiveDate": "2014-01-17",
+      "basis": "NA patch live reported January 16 14:56 EST, converted to Korea time.",
+      "reportedAtKst": "2014-01-17T04:56:00+09:00",
+      "sources": [
+        "https://www.hearthpwn.com/news/261-hearthstone-beta-patch-4458-official-patch-notes"
+      ]
+    },
+    {
+      "build": "1.0.0.4482",
+      "effectiveDate": "2014-01-18",
+      "basis": "January 17 22:00 CST report said not yet available; January 17 22:39 CST comment reports live. User-directed early corrected texts for EX1_308 and EX1_400 remain in effect.",
+      "reportedWindowKst": [
+        "2014-01-18T13:00:00+09:00",
+        "2014-01-18T13:39:03+09:00"
+      ],
+      "sources": [
+        "https://www.hearthpwn.com/news/265-beta-patch-4482-mlg-managrind-tournament-12-review"
+      ]
+    },
+    {
+      "build": "1.0.0.4944",
+      "effectiveDate": "2014-03-12",
+      "basis": "NA patch downloadable March 11 11:20 Eastern; launch subsequently reported March 11 15:32 Eastern. Both convert to March 12 in Korea; exact live minute is not asserted.",
+      "sources": [
+        "https://www.hearthpwn.com/news/375-beta-patch-4944-hearthsteed-achievements-card",
+        "https://www.mmorpg.com/hearthstone/news/now-live-in-north-america-2000081009"
+      ]
+    }
+  ]
+}
