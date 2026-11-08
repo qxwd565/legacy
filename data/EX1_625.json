@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 1622,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -100,7 +100,8 @@
         "date": "2021-03-26",
         "changes": {
           "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
-          "spellSchool": "SHADOW"
+          "spellSchool": "SHADOW",
+          "cost": 2
         }
       }
     ]

@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 1,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -70,7 +70,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다. 카드를 1장 뽑습니다."
+          "text": "이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다. 카드를 1장 뽑습니다.",
+          "cost": 2
         }
       },
       {

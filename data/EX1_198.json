@@ -10,9 +10,9 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 7,
+    "cost": 8,
     "health": 1,
-    "attack": 7,
+    "attack": 8,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -86,7 +86,15 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-03-27",
     "releaseStatus": "verified",
-    "patches": []
+    "patches": [
+      {
+        "date": "2025-03-19",
+        "changes": {
+          "attack": 7,
+          "cost": 7
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -14,7 +14,7 @@
     "health": 2,
     "attack": 2,
     "armor": 0,
-    "durability": 2,
+    "durability": 3,
     "nativeSetId": 1635,
     "battlegroundsSkinParentId": 0,
     "installed": true,
@@ -81,7 +81,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "patches": []
+    "patches": [
+      {
+        "date": "2020-04-10",
+        "changes": {
+          "durability": 2
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

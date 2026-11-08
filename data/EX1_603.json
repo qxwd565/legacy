@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 3,
+    "health": 1,
     "attack": 2,
     "armor": 0,
     "durability": 0,
@@ -91,6 +91,12 @@
     "releaseStatus": "estimated",
     "patches": [
       {
+        "date": "2013-10-03",
+        "changes": {
+          "health": 2
+        }
+      },
+      {
         "date": "2013-12-11",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나에게 피해를 1 주고 공격력을 +2 부여합니다."
@@ -100,6 +106,12 @@
         "date": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
+        }
+      },
+      {
+        "date": "2022-08-17",
+        "changes": {
+          "health": 3
         }
       }
     ]

@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 2,
+    "health": 1,
     "attack": 1,
     "armor": 0,
     "durability": 0,
@@ -116,7 +116,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>은신</b>\n<b>독성</b>"
+          "text": "<b>은신</b>\n<b>독성</b>",
+          "health": 2
         }
       }
     ]

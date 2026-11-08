@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 2,
     "health": 3,
     "attack": 3,
     "armor": 0,
@@ -87,6 +87,12 @@
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
     "patches": [
+      {
+        "date": "2016-08-10",
+        "changes": {
+          "cost": 3
+        }
+      },
       {
         "date": "2021-03-26",
         "changes": {

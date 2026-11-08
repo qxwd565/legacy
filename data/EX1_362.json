@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 2,
-    "attack": 3,
+    "attack": 2,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -121,7 +121,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b>\n아군 하수인에게 <b>천상의_보호막</b>을 부여합니다."
+          "text": "<b>전투의 함성:</b>\n아군 하수인에게 <b>천상의_보호막</b>을 부여합니다.",
+          "attack": 3
         }
       }
     ]

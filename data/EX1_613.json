@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 3,
-    "health": 2,
-    "attack": 2,
+    "health": 1,
+    "attack": 1,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -115,7 +115,9 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다."
+          "text": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다.",
+          "attack": 2,
+          "health": 2
         }
       },
       {

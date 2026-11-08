@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 6,
-    "health": 4,
+    "health": 5,
     "attack": 4,
     "armor": 0,
     "durability": 0,
@@ -160,7 +160,8 @@
       {
         "date": "2023-04-05",
         "changes": {
-          "cost": 4
+          "cost": 4,
+          "health": 4
         }
       }
     ]

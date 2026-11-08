@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 5,
-    "health": 6,
+    "health": 4,
     "attack": 4,
     "armor": 0,
     "durability": 0,
@@ -139,13 +139,16 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다."
+          "text": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
+          "attack": 5
         }
       },
       {
         "date": "2023-04-05",
         "changes": {
-          "cost": 6
+          "cost": 6,
+          "attack": 4,
+          "health": 6
         }
       }
     ]

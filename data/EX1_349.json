@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 2,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -81,7 +81,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "상대편 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다."
+          "text": "상대편 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다.",
+          "cost": 3
         }
       },
       {

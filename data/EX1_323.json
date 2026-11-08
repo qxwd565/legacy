@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 9,
-    "health": 30,
+    "health": 15,
     "attack": 0,
     "armor": 5,
     "durability": 0,
@@ -119,7 +119,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다."
+          "text": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다.",
+          "health": 30
         }
       },
       {

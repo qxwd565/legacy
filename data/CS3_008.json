@@ -95,7 +95,20 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "verified",
-    "patches": []
+    "patches": [
+      {
+        "date": "2021-09-22",
+        "changes": {
+          "health": 2
+        }
+      },
+      {
+        "date": "2021-12-17",
+        "changes": {
+          "health": 1
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

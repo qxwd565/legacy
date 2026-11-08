@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 1,
+    "cost": 3,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -83,7 +83,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "내 영웅의 공격력만큼 하수인에게 피해를 줍니다."
+          "text": "내 영웅의 공격력만큼 하수인에게 피해를 줍니다.",
+          "cost": 1
         }
       },
       {
