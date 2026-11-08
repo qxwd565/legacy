@@ -10,7 +10,7 @@
     "2014-01-17": "https://hearthstone.blizzard.com/en-gb/news/12346803/hearthstone-closed-beta-patch-notes-1004458",
     "2014-03-12": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.4944",
     "2014-09-23": "https://hearthstone.wiki.gg/wiki/Patch_1.2.0.6485",
-    "2016-10-04": "https://hearthstone.wiki.gg/wiki/Charge_%28card%29",
+    "2016-10-04": "https://hearthstone.blizzard.com/en-gb/news/20303030",
     "2018-10-19": "https://hearthstone.wiki.gg/wiki/Mana_Wyrm",
     "2021-03-26": "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
     "2023-04-05": "https://hearthstone.wiki.gg/wiki/Patch_26.0.0.170824",
@@ -22,7 +22,9 @@
     "2019-02-06": "https://hearthstone.wiki.gg/wiki/Patch_13.2.0.28855",
     "2020-03-27": "https://hearthstone.wiki.gg/wiki/Patch_17.0.0.44222",
     "2021-01-09": "https://hearthstone.wiki.gg/wiki/Patch_19.2.1.70828",
-    "2022-04-06": "https://hearthstone.wiki.gg/wiki/Equality"
+    "2022-04-06": "https://hearthstone.wiki.gg/wiki/Execute",
+    "2022-08-17": "https://hearthstone.wiki.gg/wiki/Sprint",
+    "2024-02-14": "https://hearthstone.wiki.gg/wiki/Mind_Control"
   },
   "cards": {
     "EX1_616": {
@@ -616,6 +618,64 @@
           "date": "2022-04-06",
           "changes": {
             "cost": 2
+          }
+        }
+      ]
+    },
+    "CS1_113": {
+      "baseline": {
+        "cost": 8
+      },
+      "patches": [
+        {
+          "date": "2013-12-11",
+          "changes": {
+            "cost": 10
+          }
+        },
+        {
+          "date": "2024-02-14",
+          "changes": {
+            "cost": 9
+          }
+        }
+      ]
+    },
+    "CS2_108": {
+      "patches": [
+        {
+          "date": "2016-10-04",
+          "changes": {
+            "cost": 2
+          }
+        },
+        {
+          "date": "2022-04-06",
+          "changes": {
+            "cost": 1
+          }
+        }
+      ]
+    },
+    "CS2_045": {
+      "baseline": {
+        "cost": 1
+      },
+      "patches": [
+        {
+          "date": "2016-10-04",
+          "changes": {
+            "cost": 2
+          }
+        }
+      ]
+    },
+    "CS2_077": {
+      "patches": [
+        {
+          "date": "2022-08-17",
+          "changes": {
+            "cost": 5
           }
         }
       ]
