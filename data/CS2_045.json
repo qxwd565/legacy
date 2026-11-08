@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 2,
+    "cost": 1,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -87,6 +87,12 @@
         "date": "2013-12-11",
         "changes": {
           "text": "이번 턴에 아군 캐릭터 하나에게 공격력을 +3 부여합니다."
+        }
+      },
+      {
+        "date": "2016-10-04",
+        "changes": {
+          "cost": 2
         }
       },
       {

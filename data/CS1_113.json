@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 9,
+    "cost": 8,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -97,7 +97,8 @@
       {
         "date": "2013-12-11",
         "changes": {
-          "text": "적 하수인 하나를 우리편으로 만듭니다."
+          "text": "적 하수인 하나를 우리편으로 만듭니다.",
+          "cost": 10
         }
       },
       {
@@ -128,6 +129,12 @@
         "date": "2021-03-26",
         "changes": {
           "spellSchool": "SHADOW"
+        }
+      },
+      {
+        "date": "2024-02-14",
+        "changes": {
+          "cost": 9
         }
       }
     ]
