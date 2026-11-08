@@ -1,11 +1,14 @@
-# HSdeck legacy 카드 API
+# HSdeck 레거시 카드 API
 
-- `data/<카드ID>.json`: 카드 원본 정보와 `card.history`의 날짜별 변경점
-- `cards.json`: WordPress 카드 JSON 관리자에서 가져올 현재 카드 정보
-- `render.json`: WebGL 렌더러용 경량 카드 정보
-- `history.json`: 날짜별로 바뀐 부분만 담은 경량 조회용 파일
-- `art/`: 원화 원본 (있는 경우)
-- `tools/build-api.py`: 현재 `cards.json`은 보존하고 두 경량 색인을 다시 생성
-- `history-pending.json`: 아직 저장소가 없는 카드 44종의 이관 대기 기록 (사이트 로딩에 사용하지 않음)
+고전 카드 정보와 **고전 카드의 날짜별 변경 이력만** 보관합니다.
 
-`cards.json`, `render.json`, `history.json`은 서로 다른 소비자를 위해 필요한 출력이므로 임의로 삭제하지 않습니다. 이전 일회용 마이그레이션 스크립트와 전체 규칙 복사본은 제거했습니다.
+- `data/<카드ID>.json` — 카드별 데이터와 `card.history`의 변경점
+- `cards.json` — 워드프레스 JSON 관리자용 현재 카드 목록
+- `render.json` — WebGL용 경량 현재 카드 목록
+- `history.json` — 고전 카드의 날짜별 변경점 인덱스
+- `art/` — 카드 원화
+- `tools/build-api.py` — 카드 ID·DBF ID 기준으로 API 인덱스를 생성하는 단일 도구
+
+다른 확장팩의 변경 이력은 각 확장팩 저장소에서 관리합니다. 카드 이름이 같다는 이유만으로 토큰·재출시 카드에 원본 이력을 복사하지 않습니다.
+
+확장팩 데이터가 아직 등록되지 않아 이관하지 못한 44종은 저장소에서 제거하고 사용자에게 별도 텍스트·JSON으로 전달했습니다. 삭제된 과거 기록은 Git 커밋 이력에서도 복구할 수 있습니다.
