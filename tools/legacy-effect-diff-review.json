@@ -1,0 +1,575 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "2021source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+  "2026source": "https://github.com/HearthSim/hsdata/commit/31b034c26f24b8a66ece845ffd03c1ca397b9a02",
+  "description": "Lexical text differences, not verified balance changes. Never auto-publish.",
+  "candidates": [
+    {
+      "id": "CS2_097",
+      "nameKo": "용사의 진은검",
+      "release": "2013-08-17",
+      "text2021En": "Whenever your hero attacks, restore #2_Health to it.",
+      "text2026En": "Whenever your hero attacks, restore #3_Health to it.",
+      "currentKo": "[x]내 영웅이 공격할\n때마다 생명력을\n#3 회복합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "CS2_102_H3",
+      "nameKo": "방어도 증가!",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nGain 2 Armor.",
+      "text2026En": "<b>Hero Power</b>\nGain $d2 Armor.",
+      "currentKo": "<b>영웅 능력</b>\n방어도를 $d2 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "CS3_014",
+      "nameKo": "진홍십자군 성직자",
+      "release": "2021-03-31",
+      "text2021En": "After a friendly character is healed, gain +1 Attack.",
+      "text2026En": "<b>Overheal:</b> Draw a card.",
+      "currentKo": "<b>초과 치유:</b> 카드를 뽑습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "DREAM_01",
+      "nameKo": "미소 띤 자매",
+      "release": "2013-08-17",
+      "text2021En": "Can't be targeted by spells or Hero Powers.",
+      "text2026En": "<b>Elusive</b>",
+      "currentKo": "<b>모면</b>",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "DREAM_02",
+      "nameKo": "깨어난 이세라",
+      "release": "2013-08-17",
+      "text2021En": "Deal $5 damage to all minions except Ysera.",
+      "text2026En": "Deal $5 damage to all characters except Ysera.",
+      "currentKo": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "DREAM_04",
+      "nameKo": "꿈",
+      "release": "2013-08-17",
+      "text2021En": "Return an enemy minion to your opponent's hand.",
+      "text2026En": "Return a minion to its owner's hand.",
+      "currentKo": "하수인을 주인의 손으로 돌려보냅니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "DREAM_05",
+      "nameKo": "악몽",
+      "release": "2013-08-17",
+      "text2021En": "Give a minion +4/+4. At the start of your next turn, destroy it.",
+      "text2026En": "Give a minion +5/+5. At the start of your next turn, destroy it.",
+      "currentKo": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_002",
+      "nameKo": "흑기사",
+      "release": "2013-08-17",
+      "text2021En": "<b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.",
+      "text2026En": "<b>Tradeable</b>\n <b>Battlecry:</b> Destroy an  enemy minion with <b>Taunt</b>.",
+      "currentKo": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_005",
+      "nameKo": "나 이런 사냥꾼이야",
+      "release": "2013-08-17",
+      "text2021En": "<b>Battlecry:</b> Destroy a minion with 7 or more Attack.",
+      "text2026En": "[x]<b>Tradeable</b>\n<b>Battlecry:</b> Destroy a minion\nwith 7 or more Attack.",
+      "currentKo": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_007",
+      "nameKo": "고통의 수행사제",
+      "release": "2013-08-17",
+      "text2021En": "Whenever this minion takes damage, draw a_card.",
+      "text2026En": "Whenever this minion takes damage,& draw a_card.",
+      "currentKo": "이 하수인이 피해를 받을 때마다 카드를 뽑습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_084",
+      "nameKo": "전쟁노래 사령관",
+      "release": "2013-08-17",
+      "text2021En": "After you summon another minion, give it <b>Rush</b>.",
+      "text2026En": "Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.",
+      "currentKo": "내가 공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_085",
+      "nameKo": "정신 지배 기술자",
+      "release": "2013-08-17",
+      "text2021En": "[x]<b>Battlecry:</b> If your opponent\nhas 4 or more minions, take\n control of one at random.",
+      "text2026En": "[x]<b>Battlecry:</b> If your opponent\nhas 4 or more minions,\ntake control of one.",
+      "currentKo": "[x]<b>전투의 함성:</b> 상대편에게\n하수인이 넷 이상 있으면,\n적 하수인을 가져옵니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "[x]<b>전투의 함성:</b> 상대편에게\n하수인이 넷 이상 있으면,\n적 하수인을 가져옵니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_110",
+      "nameKo": "케른 블러드후프",
+      "release": "2013-08-17",
+      "text2021En": "<b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.",
+      "text2026En": "[x]<b>Taunt</b>\n<b>Deathrattle:</b>& Summon a\n5/5 Baine Bloodhoof.",
+      "currentKo": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_131",
+      "nameKo": "데피아즈단 두목",
+      "release": "2013-08-17",
+      "text2021En": "<b>Combo:</b> Summon a 2/1 Defias Bandit.",
+      "text2026En": "<b>Combo:</b>& Summon a 2/1 Defias Bandit.",
+      "currentKo": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_134",
+      "nameKo": "SI:7 요원",
+      "release": "2013-08-17",
+      "text2021En": "<b>Combo:</b> Deal 2 damage.",
+      "text2026En": "<b>Combo:</b> Deal 3 damage.",
+      "currentKo": "<b>연계:</b> 피해를 3 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_155a",
+      "nameKo": "호랑이의 분노",
+      "release": "2013-08-17",
+      "text2021En": "+4 Attack.",
+      "text2026En": "Give a minion\n+4 Attack.",
+      "currentKo": "하수인에게 공격력을 +4 부여합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_155b",
+      "nameKo": "두터운 가죽",
+      "release": "2013-08-17",
+      "text2021En": "+4 Health and <b>Taunt</b>.",
+      "text2026En": "Give a minion\n+4 Health and <b>Taunt</b>.",
+      "currentKo": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_165",
+      "nameKo": "발톱의 드루이드",
+      "release": "2013-08-17",
+      "text2021En": "[x]<b>Choose One -</b> Transform\ninto a 5/4 with <b>Rush</b>;\nor a 5/6 with <b>Taunt</b>.",
+      "text2026En": "[x]<b>Choose One -</b> Transform\ninto a 7/6 with <b>Rush</b>;\nor a 4/9 with <b>Taunt</b>.",
+      "currentKo": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_258",
+      "nameKo": "속박 풀린 정령",
+      "release": "2013-08-17",
+      "text2021En": "Whenever you play a card_with <b>Overload</b>, gain_+1/+1.",
+      "text2026En": "After you play a card_with <b>Overload</b>, gain_+1/+1.",
+      "currentKo": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_259",
+      "nameKo": "번개 폭풍",
+      "release": "2013-08-17",
+      "text2021En": "Deal $3 damage to all_enemy minions. <b>Overload:</b> (2)",
+      "text2026En": "Deal $3 damage to all_enemy minions. <b>Overload:</b> (1)",
+      "currentKo": "[x]모든 적 하수인에게\n피해를 $3 줍니다.\n<b>과부하:</b> (1)",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_302",
+      "nameKo": "필멸의 고리",
+      "release": "2013-08-17",
+      "text2021En": "Deal $1 damage to a minion. If that kills it, draw a card.",
+      "text2026En": "Deal $1 damage to a minion. If it dies,\ndraw a card.",
+      "currentKo": "하수인에게 피해를 $1 줍니다.\n그 하수인이 죽으면 카드를 뽑습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_310",
+      "nameKo": "파멸수호병",
+      "release": "2013-08-17",
+      "text2021En": "<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.",
+      "text2026En": "<b>Charge</b>. <b>Battlecry:</b>& Discard two random cards.",
+      "currentKo": "<b>돌진</b>, <b>전투의 함성</b>: 무작위로 카드를 2장 버립니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_312",
+      "nameKo": "뒤틀린 황천",
+      "release": "2013-08-17",
+      "text2021En": "Destroy all minions.",
+      "text2026En": "Destroy all minions\nand locations.",
+      "currentKo": "<b>모든</b> 하수인과 장소를 파괴합니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "<b>모든</b> 하수인과 장소를 파괴합니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_319",
+      "nameKo": "화염 임프",
+      "release": "2013-08-17",
+      "text2021En": "<b>Battlecry:</b> Deal 3 damage to your hero.",
+      "text2026En": "<b>Battlecry:</b>& Deal 3 damage to your hero.",
+      "currentKo": "<b>전투의 함성</b>: 내 영웅에게 피해를 3 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_320",
+      "nameKo": "운명의 파멸",
+      "release": "2013-08-17",
+      "text2021En": "Deal $2 damage to_a character. If that kills it, summon a random Demon.",
+      "text2026En": "Deal $3 damage to a character. If it dies, summon a random Demon.",
+      "currentKo": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_323",
+      "nameKo": "군주 자락서스",
+      "release": "2013-08-17",
+      "text2021En": "<b>Battlecry:</b> Equip a 3/8 Blood Fury.",
+      "text2026En": "<b>Battlecry:</b>& Equip a 3/8 Blood Fury.~GAMEPLAY_ASPROXY_EX1_323",
+      "currentKo": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_365",
+      "nameKo": "신의 격노",
+      "release": "2013-08-17",
+      "text2021En": "Draw a card and deal_damage equal to_its Cost.",
+      "text2026En": "Draw a card and deal damage equal to its Cost to a minion.",
+      "currentKo": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2025-11-14",
+          "text": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_383",
+      "nameKo": "티리온 폴드링",
+      "release": "2013-08-17",
+      "text2021En": "<b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.",
+      "text2026En": "<b>Divine Shield</b>, <b>Taunt</b> <b>Deathrattle:</b>& Equip a 5/3_Ashbringer.",
+      "currentKo": "<b>천상의 보호막</b>, <b>도발</b>\n<b>죽음의 메아리</b>:\n5/3 파멸의 인도자를 장착합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_410",
+      "nameKo": "방패 밀쳐내기",
+      "release": "2013-08-17",
+      "text2021En": "Deal $1 damage to a minion for each Armor you have.",
+      "text2026En": "Deal 1 damage to a minion for each Armor you have.",
+      "currentKo": "내 방어도만큼 하수인에게 피해를 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_559",
+      "nameKo": "대마법사 안토니다스",
+      "release": "2013-08-17",
+      "text2021En": "Whenever you cast a spell, add a 'Fireball' spell to_your hand.",
+      "text2026En": "Whenever you cast a spell,& add a 'Fireball' spell to_your hand.",
+      "currentKo": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_572",
+      "nameKo": "이세라",
+      "release": "2013-08-17",
+      "text2021En": "At the end of your turn, add_a Dream Card to_your hand.",
+      "text2026En": "At the end of your turn, get two random Dream cards.",
+      "currentKo": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_577",
+      "nameKo": "괴수",
+      "release": "2013-08-17",
+      "text2021En": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+      "text2026En": "[x]<b>Deathrattle:</b> Summon a\n3/3 Pip Quickwit for\nyour opponent.",
+      "currentKo": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_608",
+      "nameKo": "마술사의 수습생",
+      "release": "2013-08-17",
+      "text2021En": "Your spells cost (1) less.",
+      "text2026En": "Your spells cost (1) less\n<i>(but not less than 1)</i>.",
+      "currentKo": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-08-30",
+          "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>"
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_609",
+      "nameKo": "저격",
+      "release": "2013-08-17",
+      "text2021En": "<b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.",
+      "text2026En": "<b>Secret:</b> After your opponent plays a minion, deal $6 damage to it.",
+      "currentKo": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인에게\n피해를 $6 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_620",
+      "nameKo": "용암 거인",
+      "release": "2013-08-17",
+      "text2021En": "Costs (1) less for each damage your hero has taken.",
+      "text2026En": "Costs (1) less for\neach Health your hero\nis missing.",
+      "currentKo": "내 영웅이 잃은 생명력 1당 비용이 (1)씩 감소합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_625t",
+      "nameKo": "정신의 쐐기",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nDeal $2 damage.",
+      "text2026En": "Deal $2 damage.",
+      "currentKo": "피해를 $2 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_625t2",
+      "nameKo": "정신 붕괴",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nDeal $3 damage.",
+      "text2026En": "Deal $3 damage.",
+      "currentKo": "피해를 $3 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "EX1_tk33",
+      "nameKo": "지옥불!",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nSummon a 6/6 Infernal.",
+      "text2026En": "Summon a 6/6 Infernal.",
+      "currentKo": "6/6 지옥불악마를 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_01bp",
+      "nameKo": "방어도 증가!",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nGain 2 Armor.",
+      "text2026En": "<b>Hero Power</b>\nGain $d2 Armor.",
+      "currentKo": "<b>영웅 능력</b>\n방어도를 $d2 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_01bp2",
+      "nameKo": "방어도 상승!",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nGain 4 Armor.",
+      "text2026En": "<b>Hero Power</b>\nGain $d4 Armor.",
+      "currentKo": "<b>영웅 능력</b>\n방어도를 $d4 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_02bp",
+      "nameKo": "토템 소환",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nSummon a random Totem.",
+      "text2026En": "<b>Hero Power</b>\nSummon a random basic Totem.",
+      "currentKo": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_04bp",
+      "nameKo": "병력 충원",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nSummon a 1/1 Silver Hand Recruit.",
+      "text2026En": "<b>Hero Power</b>\nSummon a {0} Silver Hand Recruit.",
+      "currentKo": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_04bp2",
+      "nameKo": "은빛 성기사단",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\nSummon two 1/1 Recruits.",
+      "text2026En": "<b>Hero Power</b>\nSummon two {0} Recruits.",
+      "currentKo": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_06bp",
+      "nameKo": "변신",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\n+1 Attack this turn.\n+1 Armor.",
+      "text2026En": "<b>Hero Power</b>\n+$a1 Attack this turn.\n+$d1 Armor.",
+      "currentKo": "<b>영웅 능력</b>\n방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_06bp2",
+      "nameKo": "흉포한 변신",
+      "release": "2013-08-17",
+      "text2021En": "<b>Hero Power</b>\n+2 Attack this turn.\n+2 Armor.",
+      "text2026En": "<b>Hero Power</b>\n+$a2 Attack this turn.\n+$d2 Armor.",
+      "currentKo": "<b>영웅 능력</b>\n방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_09bp",
+      "nameKo": "하급 치유",
+      "release": "2013-08-17",
+      "text2021En": "[x]<b>Hero Power</b>\nRestore #2 Health.",
+      "text2026En": "<b>Hero Power</b>\nRestore #2 Health.",
+      "currentKo": "<b>영웅 능력</b>\n생명력을 #2 회복시킵니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_10bp",
+      "nameKo": "악마의 발톱",
+      "release": "2013-08-17",
+      "text2021En": "[x]<b>Hero Power</b>\n+1 Attack this turn.",
+      "text2026En": "[x]<b>Hero Power</b>\n+$a1 Attack this turn.",
+      "currentKo": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "HERO_10bp2",
+      "nameKo": "악마의 이빨",
+      "release": "2013-08-17",
+      "text2021En": "[x]<b>Hero Power</b>\n+2 Attack this turn.",
+      "text2026En": "[x]<b>Hero Power</b>\n+$a2 Attack this turn.",
+      "currentKo": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a2 얻습니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "NEW1_008",
+      "nameKo": "지식의 고대정령",
+      "release": "2013-08-17",
+      "text2021En": "<b>Choose One -</b> Draw 2 cards; or Restore #5 Health.",
+      "text2026En": "<b>Choose One -</b> Draw 2 cards; or Restore #7 Health.",
+      "currentKo": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 #7 회복시킵니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 #7 회복시킵니다."
+        }
+      ],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "NEW1_008b",
+      "nameKo": "고대의 비밀",
+      "release": "2013-08-17",
+      "text2021En": "Restore 5 Health.",
+      "text2026En": "Restore 7 Health.",
+      "currentKo": "생명력을 7 회복시킵니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "NEW1_020",
+      "nameKo": "광기의 화염술사",
+      "release": "2013-08-17",
+      "text2021En": "After you cast a spell, deal 1 damage to ALL minions.",
+      "text2026En": "After you cast a spell,& deal 1 damage to ALL minions.",
+      "currentKo": "내가 주문을 시전한 후에, 모든 하수인에게 피해를 1 줍니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "NEW1_021",
+      "nameKo": "파멸의 예언자",
+      "release": "2013-08-17",
+      "text2021En": "At the start of your turn, destroy ALL minions.",
+      "text2026En": "At the start of your turn,& destroy ALL minions.",
+      "currentKo": "내 턴이 시작될 때, 모든 하수인을 처치합니다.",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    },
+    {
+      "id": "NEW1_023",
+      "nameKo": "요정용",
+      "release": "2013-08-17",
+      "text2021En": "Can't be targeted by spells or Hero Powers.",
+      "text2026En": "<b>Elusive</b>",
+      "currentKo": "<b>모면</b>",
+      "recordedPost2021Changes": [],
+      "reviewStatus": "needs gameplay-vs-wording classification"
+    }
+  ],
+  "changedCards": 53
+}
