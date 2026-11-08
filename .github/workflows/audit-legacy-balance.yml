@@ -15,6 +15,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Compare all historical HearthSim game data builds
         run: python3 tools/scan-legacy-patches.py
+      - name: Save audited candidates as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-balance-candidates
+          path: tools/legacy-balance-candidates.json
+          if-no-files-found: error
       - name: Commit read-only candidates
         run: |
           git config user.name 'github-actions[bot]'
@@ -22,5 +28,6 @@ jobs:
           git add tools/legacy-balance-candidates.json
           if ! git diff --cached --quiet; then
             git commit -m 'Audit Legacy stat changes across archived Hearthstone builds [skip ci]'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
