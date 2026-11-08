@@ -261,6 +261,21 @@
               "_Scale": 0.699999988079071
             }
           }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/7a4a65ff7ef8b6abf98ffaa85364f51a6407a5d206e8ea44f6225f076c54797c.json",
+            "sha256": "7a4a65ff7ef8b6abf98ffaa85364f51a6407a5d206e8ea44f6225f076c54797c",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/dc862b8c84b3ae53d7705cfb3e50dc0c6d57143f1bb44b2fcb5fbf1c52420845.json",
+            "sha256": "dc862b8c84b3ae53d7705cfb3e50dc0c6d57143f1bb44b2fcb5fbf1c52420845",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -401,6 +416,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/0ff1994c5c580ffd9512bc9c7bb5104502315dd579cdbb2e06765fe450b5839f.json",
+            "sha256": "0ff1994c5c580ffd9512bc9c7bb5104502315dd579cdbb2e06765fe450b5839f",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/7660c470bc5f27860c62231ab42039451ded839abdd4f15c74f5a98cd6e07665.json",
+            "sha256": "7660c470bc5f27860c62231ab42039451ded839abdd4f15c74f5a98cd6e07665",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       },
@@ -543,6 +573,21 @@
               "_Scale": 0.699999988079071
             }
           }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/8583f249db2c0d4fd66086eafc1de4d68108592fc3f85dc3d36e27928664287b.json",
+            "sha256": "8583f249db2c0d4fd66086eafc1de4d68108592fc3f85dc3d36e27928664287b",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/3aee918ee741bada0e32ab57966bcafb47374ff374dbe5f98702ad2287e8f862.json",
+            "sha256": "3aee918ee741bada0e32ab57966bcafb47374ff374dbe5f98702ad2287e8f862",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -683,6 +728,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/864671daa52c66ae92ecd6fcf5f5d11a175de1f71a2e3963d2dd36f53672be2c.json",
+            "sha256": "864671daa52c66ae92ecd6fcf5f5d11a175de1f71a2e3963d2dd36f53672be2c",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/683e5d934f53d900d1328b13b8537475c3e3060e1e49a88667c14146200d911b.json",
+            "sha256": "683e5d934f53d900d1328b13b8537475c3e3060e1e49a88667c14146200d911b",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       }
@@ -852,6 +912,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/0727064ad1d6c682b7c94e9e6568f92c9b2d7681db802f32de083e346474f580.json",
+            "sha256": "0727064ad1d6c682b7c94e9e6568f92c9b2d7681db802f32de083e346474f580",
+            "selection": "ambiguous source candidates; no automatic choice"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/f0dd0221ae64f7f31174d92938cb92ca5d2278d2ea790a848e795450a52a1a1c.json",
+            "sha256": "f0dd0221ae64f7f31174d92938cb92ca5d2278d2ea790a848e795450a52a1a1c",
+            "selection": "material-name candidate; Actor portrait binding absent"
           }
         }
       },
@@ -1025,6 +1100,21 @@
               "_Scale": 0.699999988079071
             }
           }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/8c984fb76fba8e7f9b3bd5beda675555785bc5eed833140a71b35da953824348.json",
+            "sha256": "8c984fb76fba8e7f9b3bd5beda675555785bc5eed833140a71b35da953824348",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/ab2f5539765243a46992b14a6cd39af8a81f3d106fe88343b9487ae657398af2.json",
+            "sha256": "ab2f5539765243a46992b14a6cd39af8a81f3d106fe88343b9487ae657398af2",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1196,6 +1286,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/1ff227ba91c72a5718f4d2c0e44940365633e0e5b36b64cf34464ddc6247d286.json",
+            "sha256": "1ff227ba91c72a5718f4d2c0e44940365633e0e5b36b64cf34464ddc6247d286",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/898b80c935371a4094a527f2688231184cd9a655688b90bfccaabf1d13637837.json",
+            "sha256": "898b80c935371a4094a527f2688231184cd9a655688b90bfccaabf1d13637837",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       },
@@ -1375,6 +1480,21 @@
               "_Scale": 0.699999988079071
             }
           }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/667685f6806cedf1e965aa79dbff1d1c75253e76648c24f64096d5e3e7d2660e.json",
+            "sha256": "667685f6806cedf1e965aa79dbff1d1c75253e76648c24f64096d5e3e7d2660e",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/f789666088060cb6659affcf283a04efca81352ff03aa302561d55eb4f88e6cb.json",
+            "sha256": "f789666088060cb6659affcf283a04efca81352ff03aa302561d55eb4f88e6cb",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1552,6 +1672,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/4096cf68a5b3b2df3ac03fc884bf76fa4c1b892b0f2c1132fe52fc232bf46695.json",
+            "sha256": "4096cf68a5b3b2df3ac03fc884bf76fa4c1b892b0f2c1132fe52fc232bf46695",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/595e51fe0d2f3f783c2c91d6f83a05c3e367f110f5567e2ef24737f185a4cc1f.json",
+            "sha256": "595e51fe0d2f3f783c2c91d6f83a05c3e367f110f5567e2ef24737f185a4cc1f",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       },
@@ -1731,6 +1866,21 @@
               "_Scale": 0.699999988079071
             }
           }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/6ea1942d71d67094cc3e307c960b27443e6a4277e8345575b592c8c4294fcd9f.json",
+            "sha256": "6ea1942d71d67094cc3e307c960b27443e6a4277e8345575b592c8c4294fcd9f",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/311f69e810a07698b54256ed3fcf74547091e162dfee8c5864005f00de435c9c.json",
+            "sha256": "311f69e810a07698b54256ed3fcf74547091e162dfee8c5864005f00de435c9c",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1908,6 +2058,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/c6427fa226ad4784aeed61c952e5f89d688adf1e558f8d7b0e4dee9b4f011097.json",
+            "sha256": "c6427fa226ad4784aeed61c952e5f89d688adf1e558f8d7b0e4dee9b4f011097",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/41b9f59d27afd76ea5e9d4971ac2d26baeceff424d1839209bf55293b3e2dc70.json",
+            "sha256": "41b9f59d27afd76ea5e9d4971ac2d26baeceff424d1839209bf55293b3e2dc70",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       },
@@ -2088,6 +2253,21 @@
               "_OffsetY": 0.25999999046325684,
               "_Scale": 0.699999988079071
             }
+          }
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/8daf71092f09d0450cee619ecf5da8a41153c6e07b68305ba6074d9a12954029.json",
+            "sha256": "8daf71092f09d0450cee619ecf5da8a41153c6e07b68305ba6074d9a12954029",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/b79f41fcd0128c74a71e39493095a5a054103e663582e861a0f387c49344763f.json",
+            "sha256": "b79f41fcd0128c74a71e39493095a5a054103e663582e861a0f387c49344763f",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
           }
         }
       }

@@ -212,6 +212,21 @@
           "path": "golden/historical/materials/01e0f0b10c1cf8072dafb8ee2b70dbefd21e23561b6791eb6674d11529884889.json",
           "sha256": "01e0f0b10c1cf8072dafb8ee2b70dbefd21e23561b6791eb6674d11529884889",
           "source": "cab-premiummaterials0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/7b41e32698c0df8e3c78f9f461983b0597e0ec865c13ba2ab1246f234bbfc893.json",
+            "sha256": "7b41e32698c0df8e3c78f9f461983b0597e0ec865c13ba2ab1246f234bbfc893",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/e9ff0b2a0f9c1d89d328564da75901e7664da2beead8566369023a0981624dc1.json",
+            "sha256": "e9ff0b2a0f9c1d89d328564da75901e7664da2beead8566369023a0981624dc1",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -301,6 +316,21 @@
           "path": "golden/historical/materials/8feefcb794e538c08b2d89eea4d0bf2d622564d2cc5ba25a00c75846e29ce704.json",
           "sha256": "8feefcb794e538c08b2d89eea4d0bf2d622564d2cc5ba25a00c75846e29ce704",
           "source": "cab-premiummaterials0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/9bbe3aca42e7e251a46467b0a5cb2c94c96d69b87e3473bd79ca9e5bec959af1.json",
+            "sha256": "9bbe3aca42e7e251a46467b0a5cb2c94c96d69b87e3473bd79ca9e5bec959af1",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/96e2acf684c6b94f84ec2eb4573555d50156fccbea87565e5243bf31cf5a3d8e.json",
+            "sha256": "96e2acf684c6b94f84ec2eb4573555d50156fccbea87565e5243bf31cf5a3d8e",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -390,6 +420,21 @@
           "path": "golden/historical/materials/5f45307aedf2e1cddce8f388f509ca24d8c8414af679ff074462e20879f4e715.json",
           "sha256": "5f45307aedf2e1cddce8f388f509ca24d8c8414af679ff074462e20879f4e715",
           "source": "cab-premiummaterials0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/106440c28e9ed2db03d7af87c188d1b6d0cc2e03bc2046a2f66a7fd88b7df37f.json",
+            "sha256": "106440c28e9ed2db03d7af87c188d1b6d0cc2e03bc2046a2f66a7fd88b7df37f",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/600a04fe5adce52243b52e38ff173980ceab8eddc70e38f79d803131df6babbb.json",
+            "sha256": "600a04fe5adce52243b52e38ff173980ceab8eddc70e38f79d803131df6babbb",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -479,6 +524,21 @@
           "path": "golden/historical/materials/f2a7d77db514c2d5a8e47fbba47416c45ad6fcfedaddcd17e93e0866e938f435.json",
           "sha256": "f2a7d77db514c2d5a8e47fbba47416c45ad6fcfedaddcd17e93e0866e938f435",
           "source": "cab-premiummaterials0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/dc5211f343f09ac6ffbb0296e7fbb89c74fa1ee672153a4e959ec4026c919218.json",
+            "sha256": "dc5211f343f09ac6ffbb0296e7fbb89c74fa1ee672153a4e959ec4026c919218",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/1fd12fb41f8ee86182977caa1bbebc34dfe9589c2b27b3abf6e3da3b1272d661.json",
+            "sha256": "1fd12fb41f8ee86182977caa1bbebc34dfe9589c2b27b3abf6e3da3b1272d661",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       }
     ],
@@ -601,6 +661,21 @@
           "height": 512,
           "source": "cab-cards0:-951764525",
           "rgbaSha256": "f99659028123a5259c6f56062790960344e464d56524fff1c2e2c3baa0e12773"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/4c2a8e36b61c9ab265ec2eb861e302dba9973bd4a027a48e5454dc840dccd352.json",
+            "sha256": "4c2a8e36b61c9ab265ec2eb861e302dba9973bd4a027a48e5454dc840dccd352",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/cf4021ed155a1353a200cf0a974d88f874dcd88f6793a33d03499c0ab1336d2b.json",
+            "sha256": "cf4021ed155a1353a200cf0a974d88f874dcd88f6793a33d03499c0ab1336d2b",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -726,6 +801,21 @@
           "path": "golden/historical/materials/e7dffa2885fb57a6ddd2ca5788d4cdcf49deeccf18e8eb470e5406f7b025cbf8.json",
           "sha256": "e7dffa2885fb57a6ddd2ca5788d4cdcf49deeccf18e8eb470e5406f7b025cbf8",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/77b1ae629d01274fb5021cbc7db198367f6a32f11c6f82e1a3bd7f561c34411b.json",
+            "sha256": "77b1ae629d01274fb5021cbc7db198367f6a32f11c6f82e1a3bd7f561c34411b",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/3853a22cb8aba757ef428f0625f6c01f4e591244e9683efa9f5cd27697ed1492.json",
+            "sha256": "3853a22cb8aba757ef428f0625f6c01f4e591244e9683efa9f5cd27697ed1492",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -851,6 +941,21 @@
           "path": "golden/historical/materials/6d6ef47537767355893aee90a096dbcc52ba54e2c624b3941164e84e5be2e802.json",
           "sha256": "6d6ef47537767355893aee90a096dbcc52ba54e2c624b3941164e84e5be2e802",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/5a941ef2e54b1b3e12db0fff04b530b94f59b93390266ec0f69d64eddc3b4103.json",
+            "sha256": "5a941ef2e54b1b3e12db0fff04b530b94f59b93390266ec0f69d64eddc3b4103",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/bf102ea47f16e57a10e72e856cbdacbd1ba5bfc91fd9af2b0b6748936601c714.json",
+            "sha256": "bf102ea47f16e57a10e72e856cbdacbd1ba5bfc91fd9af2b0b6748936601c714",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -982,6 +1087,21 @@
           "path": "golden/historical/materials/e3d7880d0a1dd041491768b1ca70d46ce6783a6b94a009af24b2750a79879bb2.json",
           "sha256": "e3d7880d0a1dd041491768b1ca70d46ce6783a6b94a009af24b2750a79879bb2",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/07deafce4154a646dc894047e0117a5f245bf88c6cd9271d4bd62c02c87e7289.json",
+            "sha256": "07deafce4154a646dc894047e0117a5f245bf88c6cd9271d4bd62c02c87e7289",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/852b2155431d85e49de1f42781794dfcf49d7386881cf25682852a98c2f65281.json",
+            "sha256": "852b2155431d85e49de1f42781794dfcf49d7386881cf25682852a98c2f65281",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1113,6 +1233,21 @@
           "path": "golden/historical/materials/fa37aeabbc7ec826b5ec4e063729ea5f5f1da7460e1a4adf0d0a7e966f4f56ad.json",
           "sha256": "fa37aeabbc7ec826b5ec4e063729ea5f5f1da7460e1a4adf0d0a7e966f4f56ad",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/c4352422ad22a6285e7a1d5e08e0895f497e25c4d2e3e05f4f788961145f8c55.json",
+            "sha256": "c4352422ad22a6285e7a1d5e08e0895f497e25c4d2e3e05f4f788961145f8c55",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/6e63b8ef989184a212d990e08cf5a77408f337e326800f27282992822bb7ad1d.json",
+            "sha256": "6e63b8ef989184a212d990e08cf5a77408f337e326800f27282992822bb7ad1d",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1244,6 +1379,21 @@
           "path": "golden/historical/materials/2fa7a4afddfde5719483c59becd29a3ebc05ae53e08892eedf324d0039817ea3.json",
           "sha256": "2fa7a4afddfde5719483c59becd29a3ebc05ae53e08892eedf324d0039817ea3",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/f9f5a9bd003d92c86ceb4126a0e0b775cf31984b375354fda6ca11ddaf72244d.json",
+            "sha256": "f9f5a9bd003d92c86ceb4126a0e0b775cf31984b375354fda6ca11ddaf72244d",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/d4c7935ec9e6791172a139e54b87d19b4ebd7b0286816c2892fd6d7f23890f20.json",
+            "sha256": "d4c7935ec9e6791172a139e54b87d19b4ebd7b0286816c2892fd6d7f23890f20",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1375,6 +1525,21 @@
           "path": "golden/historical/materials/279d2ef66751a138624870ba1a2c96c55e88e6a32d165eab3176eba3b35a7f22.json",
           "sha256": "279d2ef66751a138624870ba1a2c96c55e88e6a32d165eab3176eba3b35a7f22",
           "source": "cab-cards0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/3521ca3006737cb412e060bc6de885a397e7cc994b1b935a93c5bb681cf0c7cd.json",
+            "sha256": "3521ca3006737cb412e060bc6de885a397e7cc994b1b935a93c5bb681cf0c7cd",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/bb9c1b1f0e763f8c5b0cf035a9bba7be9cf4e7f48026df654ac9b52a54cdac60.json",
+            "sha256": "bb9c1b1f0e763f8c5b0cf035a9bba7be9cf4e7f48026df654ac9b52a54cdac60",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       },
       {
@@ -1508,6 +1673,21 @@
           "path": "golden/historical/materials/8994af527e1617a96fc5cc8c02ae606d1fb01ba1f14ce9b1e45319e2b95fbe72.json",
           "sha256": "8994af527e1617a96fc5cc8c02ae606d1fb01ba1f14ce9b1e45319e2b95fbe72",
           "source": "cab-premiummaterials0:-1227161637"
+        },
+        "portraitLayout": {
+          "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+          "normal": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/3aef726f03b71541f923946cf4451e823a97dd79f3efdbb13fb27f9380a56132.json",
+            "sha256": "3aef726f03b71541f923946cf4451e823a97dd79f3efdbb13fb27f9380a56132",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "art/historical/portrait-layouts/7c21843d0471496a9fc61583449a759ef26e16c01547395925f8f81f760951b6.json",
+            "sha256": "7c21843d0471496a9fc61583449a759ef26e16c01547395925f8f81f760951b6",
+            "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+          }
         }
       }
     ]
