@@ -1,0 +1,5197 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "method": "HearthSim/hsdata CardDefs.xml build-to-build stat diff",
+  "notice": "Candidates only. Observed timestamp is not exact Korean patch date; do not auto-publish.",
+  "buildsRead": 334,
+  "coverage": [
+    {
+      "build": "1.0.0.3140",
+      "observedAtUtc": "2013-06-05T12:00:00Z",
+      "cards": 461
+    },
+    {
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3645",
+      "observedAtUtc": "2013-08-13T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3664",
+      "observedAtUtc": "2013-08-14T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3749",
+      "observedAtUtc": "2013-08-30T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.3937",
+      "observedAtUtc": "2013-10-17T12:00:00Z",
+      "cards": 464
+    },
+    {
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "cards": 468
+    },
+    {
+      "build": "1.0.0.4243",
+      "observedAtUtc": "2013-12-18T12:00:00Z",
+      "cards": 468
+    },
+    {
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "cards": 468
+    },
+    {
+      "build": "1.0.0.4458",
+      "observedAtUtc": "2014-01-16T12:00:00Z",
+      "cards": 468
+    },
+    {
+      "build": "1.0.0.4482",
+      "observedAtUtc": "2014-01-17T12:00:00Z",
+      "cards": 468
+    },
+    {
+      "build": "1.0.0.4944",
+      "observedAtUtc": "2014-03-11T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.4973",
+      "observedAtUtc": "2014-03-13T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.5170",
+      "observedAtUtc": "2014-04-10T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.5314",
+      "observedAtUtc": "2014-05-08T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.5435",
+      "observedAtUtc": "2014-05-21T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.5506",
+      "observedAtUtc": "2014-05-28T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.0.0.5834",
+      "observedAtUtc": "2014-06-30T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.1.0.6024",
+      "observedAtUtc": "2014-07-22T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.1.0.6141",
+      "observedAtUtc": "2014-07-31T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.1.0.6187",
+      "observedAtUtc": "2014-08-06T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.1.0.6284",
+      "observedAtUtc": "2014-08-16T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.2.0.6485",
+      "observedAtUtc": "2014-09-22T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "1.3.0.6898",
+      "observedAtUtc": "2014-10-29T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.0.0.7234",
+      "observedAtUtc": "2014-12-04T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.1.0.7628",
+      "observedAtUtc": "2015-01-29T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.1.0.7785",
+      "observedAtUtc": "2015-02-09T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.2.0.7835",
+      "observedAtUtc": "2015-02-25T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.2.0.8036",
+      "observedAtUtc": "2015-02-26T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.3.0.8108",
+      "observedAtUtc": "2015-03-19T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.4.0.8311",
+      "observedAtUtc": "2015-03-31T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.5.0.8416",
+      "observedAtUtc": "2015-04-14T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.6.0.8834",
+      "observedAtUtc": "2015-05-14T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.7.0.9166",
+      "observedAtUtc": "2015-06-15T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "2.8.0.9554",
+      "observedAtUtc": "2015-06-29T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "3.0.0.9786",
+      "observedAtUtc": "2015-08-18T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "3.1.0.10357",
+      "observedAtUtc": "2015-09-29T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "3.2.0.10604",
+      "observedAtUtc": "2015-10-20T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "4.0.0.10833",
+      "observedAtUtc": "2015-11-10T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "4.1.0.10956",
+      "observedAtUtc": "2015-12-04T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "4.1.0.11461",
+      "observedAtUtc": "2016-02-10T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "4.2.0.12051",
+      "observedAtUtc": "2016-03-14T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "4.3.0.12266",
+      "observedAtUtc": "2016-04-14T12:00:00Z",
+      "cards": 469
+    },
+    {
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "5.0.0.13030",
+      "observedAtUtc": "2016-06-01T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "5.2.0.13619",
+      "observedAtUtc": "2016-07-12T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "5.2.0.13714",
+      "observedAtUtc": "2016-07-15T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "5.2.0.13740",
+      "observedAtUtc": "2016-07-15T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "5.2.2.13807",
+      "observedAtUtc": "2016-07-26T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.0.0.13921",
+      "observedAtUtc": "2016-08-09T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.1.1.14366",
+      "observedAtUtc": "2016-09-14T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.1.1.14406",
+      "observedAtUtc": "2016-09-15T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.1.3.14830",
+      "observedAtUtc": "2016-10-03T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.2.0.15181",
+      "observedAtUtc": "2016-10-20T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "6.2.0.15300",
+      "observedAtUtc": "2016-11-08T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.0.0.15590",
+      "observedAtUtc": "2016-11-29T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.0.0.16065",
+      "observedAtUtc": "2017-01-04T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.0.0.16214",
+      "observedAtUtc": "2017-01-07T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.0.0.17470",
+      "observedAtUtc": "2017-01-26T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.1.0.17720",
+      "observedAtUtc": "2017-02-28T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "7.1.1.17994",
+      "observedAtUtc": "2017-03-09T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.0.0.18336",
+      "observedAtUtc": "2017-04-04T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.0.4.18792",
+      "observedAtUtc": "2017-04-21T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.2.0.19506",
+      "observedAtUtc": "2017-06-01T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.2.2.19632",
+      "observedAtUtc": "2017-06-13T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.2.2.19776",
+      "observedAtUtc": "2017-06-21T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.3.0.19759",
+      "observedAtUtc": "2017-06-28T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "8.4.0.20022",
+      "observedAtUtc": "2017-07-11T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "9.0.0.20457",
+      "observedAtUtc": "2017-08-08T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "9.1.0.20970",
+      "observedAtUtc": "2017-09-18T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "9.2.0.21517",
+      "observedAtUtc": "2017-10-17T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "9.2.0.22017",
+      "observedAtUtc": "2017-10-18T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "9.4.0.22115",
+      "observedAtUtc": "2017-11-06T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "10.0.0.22611",
+      "observedAtUtc": "2017-12-06T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "10.2.0.23180",
+      "observedAtUtc": "2018-02-06T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "10.2.0.23321",
+      "observedAtUtc": "2018-03-07T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "10.4.0.23576",
+      "observedAtUtc": "2018-03-12T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.0.0.23966",
+      "observedAtUtc": "2018-04-10T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.0.0.24118",
+      "observedAtUtc": "2018-04-25T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.1.0.24377",
+      "observedAtUtc": "2018-05-08T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.1.1.24589",
+      "observedAtUtc": "2018-05-22T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.2.0.24769",
+      "observedAtUtc": "2018-06-05T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "11.4.0.25252",
+      "observedAtUtc": "2018-07-10T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.0.0.25770",
+      "observedAtUtc": "2018-08-02T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.2.0.26757",
+      "observedAtUtc": "2018-09-27T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.2.0.26992",
+      "observedAtUtc": "2018-10-02T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.2.0.26996",
+      "observedAtUtc": "2018-10-03T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.2.0.27059",
+      "observedAtUtc": "2018-10-06T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.2.0.27358",
+      "observedAtUtc": "2018-10-18T12:00:00Z",
+      "cards": 471
+    },
+    {
+      "build": "12.4.0.27405",
+      "observedAtUtc": "2018-10-25T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "12.4.0.27641",
+      "observedAtUtc": "2018-11-06T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.0.0.27845",
+      "observedAtUtc": "2018-11-20T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.0.3.28116",
+      "observedAtUtc": "2018-12-06T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.0.3.28242",
+      "observedAtUtc": "2018-12-14T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.0.3.28329",
+      "observedAtUtc": "2018-12-19T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.0.9.28556",
+      "observedAtUtc": "2019-01-24T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.2.0.28855",
+      "observedAtUtc": "2019-01-30T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "13.4.0.29349",
+      "observedAtUtc": "2019-02-28T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.0.0.29933",
+      "observedAtUtc": "2019-04-02T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.0.0.30103",
+      "observedAtUtc": "2019-04-08T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.2.0.30795",
+      "observedAtUtc": "2019-05-08T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.2.2.31022",
+      "observedAtUtc": "2019-05-21T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.4.0.31268",
+      "observedAtUtc": "2019-05-28T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.4.4.31353",
+      "observedAtUtc": "2019-06-03T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.4.3.31532",
+      "observedAtUtc": "2019-06-11T12:00:00Z",
+      "cards": 475
+    },
+    {
+      "build": "14.6.0.31761",
+      "observedAtUtc": "2019-06-21T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.0.0.32708",
+      "observedAtUtc": "2019-07-26T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.0.2.33157",
+      "observedAtUtc": "2019-08-14T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.0.4.33402",
+      "observedAtUtc": "2019-08-26T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.2.0.33717",
+      "observedAtUtc": "2019-09-03T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.2.2.34104",
+      "observedAtUtc": "2019-09-17T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.4.0.34670",
+      "observedAtUtc": "2019-10-02T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.4.0.35057",
+      "observedAtUtc": "2019-10-12T12:00:00Z",
+      "cards": 485
+    },
+    {
+      "build": "15.6.0.35747",
+      "observedAtUtc": "2019-10-30T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "15.6.2.36393",
+      "observedAtUtc": "2019-11-09T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.0.0.37060",
+      "observedAtUtc": "2019-11-26T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.0.0.38034",
+      "observedAtUtc": "2019-12-11T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.0.3.38203",
+      "observedAtUtc": "2019-12-13T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.0.5.38377",
+      "observedAtUtc": "2019-12-18T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.0.8.39282",
+      "observedAtUtc": "2020-01-09T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.2.0.39954",
+      "observedAtUtc": "2020-01-18T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.2.3.40734",
+      "observedAtUtc": "2020-02-04T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.4.0.42174",
+      "observedAtUtc": "2020-02-19T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "16.6.0.43246",
+      "observedAtUtc": "2020-03-11T12:00:00Z",
+      "cards": 486
+    },
+    {
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "cards": 504
+    },
+    {
+      "build": "17.0.0.44582",
+      "observedAtUtc": "2020-03-29T12:00:00Z",
+      "cards": 504
+    },
+    {
+      "build": "17.0.0.45310",
+      "observedAtUtc": "2020-04-09T12:00:00Z",
+      "cards": 504
+    },
+    {
+      "build": "17.0.2.45932",
+      "observedAtUtc": "2020-04-17T12:00:00Z",
+      "cards": 504
+    },
+    {
+      "build": "17.2.0.47374",
+      "observedAtUtc": "2020-05-07T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "17.2.1.48313",
+      "observedAtUtc": "2020-05-15T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "17.2.2.48705",
+      "observedAtUtc": "2020-05-21T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "17.4.0.49534",
+      "observedAtUtc": "2020-06-01T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "17.4.1.51510",
+      "observedAtUtc": "2020-06-18T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "17.6.0.53261",
+      "observedAtUtc": "2020-07-08T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.0.0.54613",
+      "observedAtUtc": "2020-07-24T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.0.2.56359",
+      "observedAtUtc": "2020-08-13T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.2.0.58213",
+      "observedAtUtc": "2020-09-02T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.2.0.58638",
+      "observedAtUtc": "2020-09-08T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.4.0.60352",
+      "observedAtUtc": "2020-09-24T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.4.2.62331",
+      "observedAtUtc": "2020-10-13T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.6.0.63160",
+      "observedAtUtc": "2020-10-17T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "18.6.1.65000",
+      "observedAtUtc": "2020-11-04T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.0.0.65614",
+      "observedAtUtc": "2020-11-07T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.0.0.66927",
+      "observedAtUtc": "2020-11-20T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.2.0.68600",
+      "observedAtUtc": "2020-12-08T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.2.1.70828",
+      "observedAtUtc": "2021-01-08T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.2.1.70986",
+      "observedAtUtc": "2021-01-08T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.4.0.71003",
+      "observedAtUtc": "2021-01-10T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.4.0.71603",
+      "observedAtUtc": "2021-01-21T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.4.1.72661",
+      "observedAtUtc": "2021-01-27T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.4.1.73652",
+      "observedAtUtc": "2021-02-05T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "19.6.0.74257",
+      "observedAtUtc": "2021-02-10T12:00:00Z",
+      "cards": 524
+    },
+    {
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.0.2.79904",
+      "observedAtUtc": "2021-04-08T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.2.0.81706",
+      "observedAtUtc": "2021-04-28T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.2.2.82994",
+      "observedAtUtc": "2021-05-11T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.2.2.83143",
+      "observedAtUtc": "2021-05-12T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.4.0.84593",
+      "observedAtUtc": "2021-05-27T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.4.2.86314",
+      "observedAtUtc": "2021-06-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.8.0.86601",
+      "observedAtUtc": "2021-07-01T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "20.8.2.88605",
+      "observedAtUtc": "2021-07-14T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.0.0.88998",
+      "observedAtUtc": "2021-07-21T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.0.0.88998",
+      "observedAtUtc": "2021-07-21T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.0.3.91040",
+      "observedAtUtc": "2021-08-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.2.0.91456",
+      "observedAtUtc": "2021-08-20T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.3.0.93849",
+      "observedAtUtc": "2021-09-15T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.4.0.95431",
+      "observedAtUtc": "2021-09-30T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.4.4.121569",
+      "observedAtUtc": "2021-10-18T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.6.0.124497",
+      "observedAtUtc": "2021-10-27T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.8.0.126299",
+      "observedAtUtc": "2021-11-15T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "21.8.0.126451",
+      "observedAtUtc": "2021-11-17T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.0.0.126807",
+      "observedAtUtc": "2021-11-20T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.0.0.127581",
+      "observedAtUtc": "2021-12-02T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.0.2.128654",
+      "observedAtUtc": "2021-12-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.2.0.130051",
+      "observedAtUtc": "2022-01-19T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.2.2.131337",
+      "observedAtUtc": "2022-02-04T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.4.0.131660",
+      "observedAtUtc": "2022-02-09T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.4.3.133122",
+      "observedAtUtc": "2022-03-02T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.6.0.133923",
+      "observedAtUtc": "2022-03-12T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "22.6.0.134558",
+      "observedAtUtc": "2022-03-21T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.0.3.137436",
+      "observedAtUtc": "2022-04-25T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.2.0.137922",
+      "observedAtUtc": "2022-04-30T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.2.0.138759",
+      "observedAtUtc": "2022-05-11T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.2.2.139522",
+      "observedAtUtc": "2022-05-17T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.2.2.139719",
+      "observedAtUtc": "2022-05-19T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.4.0.139963",
+      "observedAtUtc": "2022-05-23T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.4.3.141643",
+      "observedAtUtc": "2022-06-15T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.6.0.142295",
+      "observedAtUtc": "2022-06-21T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.6.2.143410",
+      "observedAtUtc": "2022-06-30T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "23.6.2.144772",
+      "observedAtUtc": "2022-07-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.0.0.145077",
+      "observedAtUtc": "2022-07-20T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.0.3.147348",
+      "observedAtUtc": "2022-08-13T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.2.0.148211",
+      "observedAtUtc": "2022-08-26T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.2.0.148526",
+      "observedAtUtc": "2022-08-31T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.2.2.149417",
+      "observedAtUtc": "2022-09-07T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.4.0.150659",
+      "observedAtUtc": "2022-09-20T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.4.3.152904",
+      "observedAtUtc": "2022-10-12T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.6.0.154203",
+      "observedAtUtc": "2022-10-27T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.6.0.154818",
+      "observedAtUtc": "2022-11-02T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "24.6.2.155409",
+      "observedAtUtc": "2022-11-09T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.0.0.158725",
+      "observedAtUtc": "2022-11-23T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.0.0.159202",
+      "observedAtUtc": "2022-11-30T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.0.3.160183",
+      "observedAtUtc": "2022-12-08T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.0.4.160910",
+      "observedAtUtc": "2022-12-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.0.4.162171",
+      "observedAtUtc": "2023-01-03T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.2.0.162867",
+      "observedAtUtc": "2023-01-11T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.2.2.163976",
+      "observedAtUtc": "2023-01-24T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.4.0.165029",
+      "observedAtUtc": "2023-02-06T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.4.3.168129",
+      "observedAtUtc": "2023-03-01T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.6.0.168788",
+      "observedAtUtc": "2023-03-08T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "25.6.2.170126",
+      "observedAtUtc": "2023-03-21T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.0.2.172421",
+      "observedAtUtc": "2023-04-13T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.0.4.173781",
+      "observedAtUtc": "2023-04-26T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.2.0.174258",
+      "observedAtUtc": "2023-05-02T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.2.2.176014",
+      "observedAtUtc": "2023-05-18T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.4.0.175913",
+      "observedAtUtc": "2023-05-18T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.4.3.178555",
+      "observedAtUtc": "2023-06-14T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.6.0.179020",
+      "observedAtUtc": "2023-06-19T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "26.6.2.180614",
+      "observedAtUtc": "2023-07-06T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.0.0.181554",
+      "observedAtUtc": "2023-07-17T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.0.3.182995",
+      "observedAtUtc": "2023-08-07T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.0.3.183433",
+      "observedAtUtc": "2023-08-09T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.2.2.184727",
+      "observedAtUtc": "2023-08-29T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.2.2.184968",
+      "observedAtUtc": "2023-08-31T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.2.2.185054",
+      "observedAtUtc": "2023-09-03T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.4.0.185749",
+      "observedAtUtc": "2023-09-13T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.4.2.186852",
+      "observedAtUtc": "2023-09-27T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.6.0.187190",
+      "observedAtUtc": "2023-10-03T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "27.6.2.188645",
+      "observedAtUtc": "2023-10-26T12:00:00Z",
+      "cards": 538
+    },
+    {
+      "build": "28.0.0.189017",
+      "observedAtUtc": "2023-11-02T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.0.3.190145",
+      "observedAtUtc": "2023-11-27T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.2.0.190416",
+      "observedAtUtc": "2023-11-30T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.2.1.190920",
+      "observedAtUtc": "2023-12-06T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.2.3.191554",
+      "observedAtUtc": "2023-12-15T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.4.0.192412",
+      "observedAtUtc": "2024-01-12T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.4.0.192896",
+      "observedAtUtc": "2024-01-23T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.4.1.193128",
+      "observedAtUtc": "2024-01-26T12:00:00Z",
+      "cards": 545
+    },
+    {
+      "build": "28.6.0.193541",
+      "observedAtUtc": "2024-02-02T12:00:00Z",
+      "cards": 557
+    },
+    {
+      "build": "28.6.2.194648",
+      "observedAtUtc": "2024-02-21T12:00:00Z",
+      "cards": 557
+    },
+    {
+      "build": "28.6.3.195316",
+      "observedAtUtc": "2024-03-01T12:00:00Z",
+      "cards": 557
+    },
+    {
+      "build": "29.0.0.195635",
+      "observedAtUtc": "2024-03-05T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "Update for Year of the Pegasus (29.0.0.195635)",
+      "observedAtUtc": "2024-03-13T19:27:16+01:00",
+      "cards": 581
+    },
+    {
+      "build": "29.0.3.197064",
+      "observedAtUtc": "2024-03-27T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.2.0.198037",
+      "observedAtUtc": "2024-04-15T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.2.0.198314",
+      "observedAtUtc": "2024-04-19T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.2.2.198608",
+      "observedAtUtc": "2024-04-25T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.2.2.198711",
+      "observedAtUtc": "2024-04-25T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.4.0.198933",
+      "observedAtUtc": "2024-05-14T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.4.0.199503",
+      "observedAtUtc": "2024-05-17T23:51:48+02:00",
+      "cards": 581
+    },
+    {
+      "build": "29.4.2.200097",
+      "observedAtUtc": "2024-05-23T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.6.0.201108",
+      "observedAtUtc": "2024-06-17T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.6.0.201392",
+      "observedAtUtc": "2024-06-18T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "29.6.2.202360",
+      "observedAtUtc": "2024-06-27T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.0.0.203120",
+      "observedAtUtc": "2024-07-16T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.0.0.204283",
+      "observedAtUtc": "2024-07-29T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.0.3.205031",
+      "observedAtUtc": "2024-08-08T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.2.0.205267",
+      "observedAtUtc": "2024-08-20T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.2.2.206433",
+      "observedAtUtc": "2024-08-29T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.4.0.206605",
+      "observedAtUtc": "2024-09-10T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.4.3.208182",
+      "observedAtUtc": "2024-09-26T12:00:00Z",
+      "cards": 581
+    },
+    {
+      "build": "30.6.0.208591",
+      "observedAtUtc": "2024-10-10T12:00:00Z",
+      "cards": 582
+    },
+    {
+      "build": "30.6.2.209698",
+      "observedAtUtc": "2024-10-17T12:00:00Z",
+      "cards": 582
+    },
+    {
+      "build": "31.0.0.210009",
+      "observedAtUtc": "2024-10-22T12:00:00Z",
+      "cards": 583
+    },
+    {
+      "build": "31.0.0.210640",
+      "observedAtUtc": "2024-11-04T12:00:00Z",
+      "cards": 583
+    },
+    {
+      "build": "31.0.3.212031",
+      "observedAtUtc": "2024-11-21T12:00:00Z",
+      "cards": 583
+    },
+    {
+      "build": "31.2.0.212197",
+      "observedAtUtc": "2024-12-03T12:00:00Z",
+      "cards": 588
+    },
+    {
+      "build": "31.2.0.213490",
+      "observedAtUtc": "2024-12-10T12:00:00Z",
+      "cards": 588
+    },
+    {
+      "build": "31.2.2.213852",
+      "observedAtUtc": "2024-12-17T12:00:00Z",
+      "cards": 588
+    },
+    {
+      "build": "31.4.0.214839",
+      "observedAtUtc": "2025-01-10T12:00:00Z",
+      "cards": 588
+    },
+    {
+      "build": "31.4.2.216149",
+      "observedAtUtc": "2025-02-04T12:00:00Z",
+      "cards": 588
+    },
+    {
+      "build": "31.6.0.216423",
+      "observedAtUtc": "2025-02-18T12:00:00Z",
+      "cards": 599
+    },
+    {
+      "build": "31.6.2.217489",
+      "observedAtUtc": "2025-02-27T12:00:00Z",
+      "cards": 599
+    },
+    {
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.0.3.219197",
+      "observedAtUtc": "2025-04-04T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.2.0.219846",
+      "observedAtUtc": "2025-04-29T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.2.2.221175",
+      "observedAtUtc": "2025-05-13T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.2.4.221850",
+      "observedAtUtc": "2025-05-22T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.4.0.221908",
+      "observedAtUtc": "2025-06-02T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.4.2.223184",
+      "observedAtUtc": "2025-06-13T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.0.0.223542",
+      "observedAtUtc": "2025-07-01T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.0.3.225000",
+      "observedAtUtc": "2025-07-17T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.2.0.225406",
+      "observedAtUtc": "2025-08-05T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.2.0.226021",
+      "observedAtUtc": "2025-08-07T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "32.2.2.226642",
+      "observedAtUtc": "2025-08-19T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.4.0.226928",
+      "observedAtUtc": "2025-09-02T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.4.2.228373",
+      "observedAtUtc": "2025-09-17T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.6.0.228587",
+      "observedAtUtc": "2025-09-29T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.6.0.229238",
+      "observedAtUtc": "2025-10-03T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "33.6.2.229543",
+      "observedAtUtc": "2025-10-09T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.0.0.229984",
+      "observedAtUtc": "2025-10-28T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.0.2.231191",
+      "observedAtUtc": "2025-11-13T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.2.0.231720",
+      "observedAtUtc": "2025-12-02T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.2.2.233025",
+      "observedAtUtc": "2025-12-12T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.4.0.233275",
+      "observedAtUtc": "2026-01-13T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.4.2.234747",
+      "observedAtUtc": "2026-01-27T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.6.0.235290",
+      "observedAtUtc": "2026-02-09T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "34.6.2.236529",
+      "observedAtUtc": "2026-02-24T12:00:00Z",
+      "cards": 604
+    },
+    {
+      "build": "35.0.0.237510",
+      "observedAtUtc": "2026-03-10T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.0.0.238003",
+      "observedAtUtc": "2026-03-16T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.0.0.238087",
+      "observedAtUtc": "2026-03-19T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.0.3.239422",
+      "observedAtUtc": "2026-04-02T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.2.0.239550",
+      "observedAtUtc": "2026-04-14T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.2.0.240397",
+      "observedAtUtc": "2026-04-16T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.2.2.240818",
+      "observedAtUtc": "2026-04-22T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.2.2.241135",
+      "observedAtUtc": "2026-04-28T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.4.0.241170",
+      "observedAtUtc": "2026-05-05T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.4.0.241958",
+      "observedAtUtc": "2026-05-07T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.4.2.242566",
+      "observedAtUtc": "2026-05-19T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.6.0.243002",
+      "observedAtUtc": "2026-06-02T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.6.2.244584",
+      "observedAtUtc": "2026-06-11T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "35.6.2.245096",
+      "observedAtUtc": "2026-06-18T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.0.0.245258",
+      "observedAtUtc": "2026-06-30T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.0.0.246003",
+      "observedAtUtc": "2026-07-06T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.0.3.247416",
+      "observedAtUtc": "2026-07-21T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.2.0.248348",
+      "observedAtUtc": "2026-08-04T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.2.2.249896",
+      "observedAtUtc": "2026-08-18T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "refactor: split CardDefs.xml by card set",
+      "observedAtUtc": "2026-08-24T11:20:42+02:00",
+      "cards": 609
+    },
+    {
+      "build": "36.4.0.250339",
+      "observedAtUtc": "2026-08-25T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.4.2.251332",
+      "observedAtUtc": "2026-09-03T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.4.2.251951",
+      "observedAtUtc": "2026-09-08T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.6.0.251952",
+      "observedAtUtc": "2026-09-15T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.6.0.253216",
+      "observedAtUtc": "2026-09-23T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "36.6.3.253932",
+      "observedAtUtc": "2026-10-01T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "37.0.0.254477",
+      "observedAtUtc": "2026-10-13T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "37.0.0.255026",
+      "observedAtUtc": "2026-10-14T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "37.0.0.255130",
+      "observedAtUtc": "2026-10-15T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "37.0.0.255790",
+      "observedAtUtc": "2026-10-26T12:00:00Z",
+      "cards": 609
+    },
+    {
+      "build": "37.0.2.256589",
+      "observedAtUtc": "2026-11-03T12:00:00Z",
+      "cards": 609
+    }
+  ],
+  "candidates": [
+    {
+      "id": "EX1_015",
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "previousBuild": "1.0.0.4243",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d28aa699f36d9f4c8aa061085b9a8ceeedb1735b"
+    },
+    {
+      "id": "EX1_016",
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "previousBuild": "1.0.0.4243",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d28aa699f36d9f4c8aa061085b9a8ceeedb1735b"
+    },
+    {
+      "id": "EX1_093",
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "previousBuild": "1.0.0.4243",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d28aa699f36d9f4c8aa061085b9a8ceeedb1735b"
+    },
+    {
+      "id": "EX1_279",
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "previousBuild": "1.0.0.4243",
+      "statChanges": {
+        "cost": {
+          "before": 8,
+          "after": 10
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d28aa699f36d9f4c8aa061085b9a8ceeedb1735b"
+    },
+    {
+      "id": "EX1_538",
+      "build": "1.0.0.4442",
+      "observedAtUtc": "2013-01-13T12:00:00Z",
+      "previousBuild": "1.0.0.4243",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d28aa699f36d9f4c8aa061085b9a8ceeedb1735b"
+    },
+    {
+      "id": "CS1_129",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_003",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_053",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_064",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 5,
+          "after": 6
+        },
+        "health": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_162",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_188",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_201",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_221",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 5,
+          "after": 4
+        },
+        "health": {
+          "before": 3,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS2_222",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_004",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        },
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_029",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_080",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        },
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_100",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        },
+        "health": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_126",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_161",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_165t2",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 7,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_315",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_335",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_402",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        },
+        "health": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_410",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_534",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 6
+        },
+        "attack": {
+          "before": 2,
+          "after": 6
+        },
+        "health": {
+          "before": 2,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_557",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_570",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_571",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_595",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 4
+        },
+        "health": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_597",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_612",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_614",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 7,
+          "after": 6
+        },
+        "health": {
+          "before": 7,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_616",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        },
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "EX1_623",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "NEW1_019",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        },
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "NEW1_036",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "NEW1_037",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "tt_010a",
+      "build": "1.0.0.3388",
+      "observedAtUtc": "2013-06-22T12:00:00Z",
+      "previousBuild": "1.0.0.3140",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2f33b9aee5b2d8541545263e7c4834f3e26a8d52"
+    },
+    {
+      "id": "CS1_129",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "CS2_029",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_105",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "attack": {
+          "before": 10,
+          "after": 8
+        },
+        "health": {
+          "before": 10,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_570",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_578",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_586",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 12,
+          "after": 10
+        },
+        "attack": {
+          "before": 10,
+          "after": 8
+        },
+        "health": {
+          "before": 10,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_595",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_614",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "health": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_620",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "attack": {
+          "before": 10,
+          "after": 8
+        },
+        "health": {
+          "before": 10,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "EX1_623",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "attack": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "NEW1_014",
+      "build": "1.0.0.3604",
+      "observedAtUtc": "2013-08-12T12:00:00Z",
+      "previousBuild": "1.0.0.3388",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        },
+        "health": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9223719ce90f78309da084d72a3e2e3adc08bc5d"
+    },
+    {
+      "id": "CS2_024",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "CS2_181",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "CS2_235",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "CS2_mirror",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_043",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_091",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 4
+        },
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_131",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_137",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_278",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_313",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 7,
+          "after": 5
+        },
+        "health": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_335",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_349",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_392",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_573",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 8,
+          "after": 9
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_577",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 10,
+          "after": 9
+        },
+        "health": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_578",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_582",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_603",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_604",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_608",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_613",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        },
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_616",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        },
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_622",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_624",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "Mekka2",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "NEW1_016",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "NEW1_024",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "NEW1_036",
+      "build": "1.0.0.3890",
+      "observedAtUtc": "2013-10-02T12:00:00Z",
+      "previousBuild": "1.0.0.3749",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c31c9e6f0b10a761a451f0a8207febc26a22ec6a"
+    },
+    {
+      "id": "EX1_392",
+      "build": "1.0.0.3937",
+      "observedAtUtc": "2013-10-17T12:00:00Z",
+      "previousBuild": "1.0.0.3890",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/6563112be16239bd7ba89e151c071e35f01368ae"
+    },
+    {
+      "id": "CS1_113",
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "previousBuild": "1.0.0.3937",
+      "statChanges": {
+        "cost": {
+          "before": 8,
+          "after": 10
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/344757d0b331716d2831c0d97733fa050efe400e"
+    },
+    {
+      "id": "CS2_237",
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "previousBuild": "1.0.0.3937",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/344757d0b331716d2831c0d97733fa050efe400e"
+    },
+    {
+      "id": "EX1_019",
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "previousBuild": "1.0.0.3937",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/344757d0b331716d2831c0d97733fa050efe400e"
+    },
+    {
+      "id": "EX1_067",
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "previousBuild": "1.0.0.3937",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/344757d0b331716d2831c0d97733fa050efe400e"
+    },
+    {
+      "id": "EX1_538",
+      "build": "1.0.0.4217",
+      "observedAtUtc": "2013-12-10T12:00:00Z",
+      "previousBuild": "1.0.0.3937",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/344757d0b331716d2831c0d97733fa050efe400e"
+    },
+    {
+      "id": "CS2_026",
+      "build": "1.0.0.4243",
+      "observedAtUtc": "2013-12-18T12:00:00Z",
+      "previousBuild": "1.0.0.4217",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fe8ed89b0824e256b2034963e70b26a4e2eefc7b"
+    },
+    {
+      "id": "CS2_028",
+      "build": "1.0.0.4243",
+      "observedAtUtc": "2013-12-18T12:00:00Z",
+      "previousBuild": "1.0.0.4217",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fe8ed89b0824e256b2034963e70b26a4e2eefc7b"
+    },
+    {
+      "id": "EX1_275",
+      "build": "1.0.0.4243",
+      "observedAtUtc": "2013-12-18T12:00:00Z",
+      "previousBuild": "1.0.0.4217",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fe8ed89b0824e256b2034963e70b26a4e2eefc7b"
+    },
+    {
+      "id": "EX1_083",
+      "build": "1.0.0.4944",
+      "observedAtUtc": "2014-03-11T12:00:00Z",
+      "previousBuild": "1.0.0.4482",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        },
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/f6a0f10c2ab5556fabe4e23843f60002af657c31"
+    },
+    {
+      "id": "EX1_538",
+      "build": "1.0.0.5314",
+      "observedAtUtc": "2014-05-08T12:00:00Z",
+      "previousBuild": "1.0.0.5170",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9dda544b19c260e2c84c094a4501bb4bcdf7c7dd"
+    },
+    {
+      "id": "CS2_237",
+      "build": "1.2.0.6485",
+      "observedAtUtc": "2014-09-22T12:00:00Z",
+      "previousBuild": "1.1.0.6284",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 5
+        },
+        "attack": {
+          "before": 2,
+          "after": 3
+        },
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d48e9fed8364ef4ddd1ce4010d603baabbf9d7f1"
+    },
+    {
+      "id": "EX1_116",
+      "build": "1.2.0.6485",
+      "observedAtUtc": "2014-09-22T12:00:00Z",
+      "previousBuild": "1.1.0.6284",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d48e9fed8364ef4ddd1ce4010d603baabbf9d7f1"
+    },
+    {
+      "id": "EX1_095",
+      "build": "2.0.0.7234",
+      "observedAtUtc": "2014-12-04T12:00:00Z",
+      "previousBuild": "1.3.0.6898",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d97f562658740c21a9791a9d282a624408110af5"
+    },
+    {
+      "id": "EX1_544",
+      "build": "2.0.0.7234",
+      "observedAtUtc": "2014-12-04T12:00:00Z",
+      "previousBuild": "1.3.0.6898",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d97f562658740c21a9791a9d282a624408110af5"
+    },
+    {
+      "id": "CS2_203",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "CS2_233",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_005",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_029",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_089",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_166",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_571",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_620",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "cost": {
+          "before": 20,
+          "after": 25
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "NEW1_019",
+      "build": "5.0.0.12574",
+      "observedAtUtc": "2016-04-25T12:00:00Z",
+      "previousBuild": "4.3.0.12266",
+      "statChanges": {
+        "attack": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/4f7206f440ab05115824b7263aa36cd94a96327f"
+    },
+    {
+      "id": "EX1_158t",
+      "build": "6.0.0.13921",
+      "observedAtUtc": "2016-08-09T12:00:00Z",
+      "previousBuild": "5.2.2.13807",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/ca84daa2932b1235f2f38da53e88a2aa2b190f4c"
+    },
+    {
+      "id": "EX1_573t",
+      "build": "6.0.0.13921",
+      "observedAtUtc": "2016-08-09T12:00:00Z",
+      "previousBuild": "5.2.2.13807",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/ca84daa2932b1235f2f38da53e88a2aa2b190f4c"
+    },
+    {
+      "id": "EX1_finkle",
+      "build": "6.0.0.13921",
+      "observedAtUtc": "2016-08-09T12:00:00Z",
+      "previousBuild": "5.2.2.13807",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/ca84daa2932b1235f2f38da53e88a2aa2b190f4c"
+    },
+    {
+      "id": "EX1_tk9",
+      "build": "6.0.0.13921",
+      "observedAtUtc": "2016-08-09T12:00:00Z",
+      "previousBuild": "5.2.2.13807",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/ca84daa2932b1235f2f38da53e88a2aa2b190f4c"
+    },
+    {
+      "id": "CS2_045",
+      "build": "6.1.3.14830",
+      "observedAtUtc": "2016-10-03T12:00:00Z",
+      "previousBuild": "6.1.1.14406",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/a1918ddc9710464419c983c1039094c5f35df984"
+    },
+    {
+      "id": "CS2_103",
+      "build": "6.1.3.14830",
+      "observedAtUtc": "2016-10-03T12:00:00Z",
+      "previousBuild": "6.1.1.14406",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/a1918ddc9710464419c983c1039094c5f35df984"
+    },
+    {
+      "id": "CS2_108",
+      "build": "6.1.3.14830",
+      "observedAtUtc": "2016-10-03T12:00:00Z",
+      "previousBuild": "6.1.1.14406",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/a1918ddc9710464419c983c1039094c5f35df984"
+    },
+    {
+      "id": "CS2_188",
+      "build": "6.1.3.14830",
+      "observedAtUtc": "2016-10-03T12:00:00Z",
+      "previousBuild": "6.1.1.14406",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/a1918ddc9710464419c983c1039094c5f35df984"
+    },
+    {
+      "id": "CS2_106",
+      "build": "9.1.0.20970",
+      "observedAtUtc": "2017-09-18T12:00:00Z",
+      "previousBuild": "9.0.0.20457",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/058d33b9a62ccdff537bb9e43ccefdd19ed77f40"
+    },
+    {
+      "id": "EX1_246",
+      "build": "9.1.0.20970",
+      "observedAtUtc": "2017-09-18T12:00:00Z",
+      "previousBuild": "9.0.0.20457",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/058d33b9a62ccdff537bb9e43ccefdd19ed77f40"
+    },
+    {
+      "id": "EX1_620",
+      "build": "11.0.0.23966",
+      "observedAtUtc": "2018-04-10T12:00:00Z",
+      "previousBuild": "10.4.0.23576",
+      "statChanges": {
+        "cost": {
+          "before": 25,
+          "after": 20
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/6317434bee453ec6e8267cbf45277c0a13da90f8"
+    },
+    {
+      "id": "NEW1_012",
+      "build": "12.2.0.27358",
+      "observedAtUtc": "2018-10-18T12:00:00Z",
+      "previousBuild": "12.2.0.27059",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/1fdd42edae20fe2c5477776a8bb0d0e2a209a5ac"
+    },
+    {
+      "id": "CS2_013",
+      "build": "13.0.3.28329",
+      "observedAtUtc": "2018-12-19T12:00:00Z",
+      "previousBuild": "13.0.3.28242",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e6f83dcccd27eebb11dfa9bd0b35f93d31da61fe"
+    },
+    {
+      "id": "EX1_164",
+      "build": "13.0.3.28329",
+      "observedAtUtc": "2018-12-19T12:00:00Z",
+      "previousBuild": "13.0.3.28242",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e6f83dcccd27eebb11dfa9bd0b35f93d31da61fe"
+    },
+    {
+      "id": "CS2_073",
+      "build": "13.2.0.28855",
+      "observedAtUtc": "2019-01-30T12:00:00Z",
+      "previousBuild": "13.0.9.28556",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/aeffaf09cdbba14654c4543792558fab68cee363"
+    },
+    {
+      "id": "CS2_084",
+      "build": "13.2.0.28855",
+      "observedAtUtc": "2019-01-30T12:00:00Z",
+      "previousBuild": "13.0.9.28556",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/aeffaf09cdbba14654c4543792558fab68cee363"
+    },
+    {
+      "id": "EX1_565",
+      "build": "13.2.0.28855",
+      "observedAtUtc": "2019-01-30T12:00:00Z",
+      "previousBuild": "13.0.9.28556",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/aeffaf09cdbba14654c4543792558fab68cee363"
+    },
+    {
+      "id": "EX1_619",
+      "build": "13.2.0.28855",
+      "observedAtUtc": "2019-01-30T12:00:00Z",
+      "previousBuild": "13.0.9.28556",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/aeffaf09cdbba14654c4543792558fab68cee363"
+    },
+    {
+      "id": "CS1_112",
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "previousBuild": "16.6.0.43246",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fc67953f6f6eee064badde3f4a7bd07011508642"
+    },
+    {
+      "id": "EX1_334",
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "previousBuild": "16.6.0.43246",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fc67953f6f6eee064badde3f4a7bd07011508642"
+    },
+    {
+      "id": "EX1_339",
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "previousBuild": "16.6.0.43246",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fc67953f6f6eee064badde3f4a7bd07011508642"
+    },
+    {
+      "id": "EX1_622",
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "previousBuild": "16.6.0.43246",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fc67953f6f6eee064badde3f4a7bd07011508642"
+    },
+    {
+      "id": "EX1_623",
+      "build": "17.0.0.44222",
+      "observedAtUtc": "2020-03-21T12:00:00Z",
+      "previousBuild": "16.6.0.43246",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        },
+        "attack": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fc67953f6f6eee064badde3f4a7bd07011508642"
+    },
+    {
+      "id": "BT_921",
+      "build": "17.0.0.45310",
+      "observedAtUtc": "2020-04-09T12:00:00Z",
+      "previousBuild": "17.0.0.44582",
+      "statChanges": {
+        "durability": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d80b283f68916e124a4aa1fdfc833f296d8eb9bd"
+    },
+    {
+      "id": "BT_495",
+      "build": "17.0.2.45932",
+      "observedAtUtc": "2020-04-17T12:00:00Z",
+      "previousBuild": "17.0.0.45310",
+      "statChanges": {
+        "attack": {
+          "before": 7,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/aabc9af539d7c540539f2678b16bcc5007c9f6dd"
+    },
+    {
+      "id": "EX1_613",
+      "build": "19.2.1.70828",
+      "observedAtUtc": "2021-01-08T12:00:00Z",
+      "previousBuild": "19.2.0.68600",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/f3df9bffdda2229826511fdc10ff7dbf8a3e4f2e"
+    },
+    {
+      "id": "CS2_076",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_077",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 7,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_080",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        },
+        "attack": {
+          "before": 3,
+          "after": 2
+        },
+        "durability": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_084",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_088",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_103",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 1,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_122",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_222",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 6,
+          "after": 7
+        },
+        "health": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_233",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "CS2_237",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 2
+        },
+        "attack": {
+          "before": 3,
+          "after": 2
+        },
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "DREAM_01",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "DREAM_02",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_005",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_029",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_089",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_093",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_110",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_110t",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 5
+        },
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_165",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_165a",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_165b",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_165t1",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_165t2",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_166",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_187",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 5,
+          "after": 4
+        },
+        "health": {
+          "before": 5,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_188",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 4,
+          "after": 5
+        },
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_190",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 7,
+          "after": 6
+        },
+        "attack": {
+          "before": 6,
+          "after": 5
+        },
+        "health": {
+          "before": 8,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_249",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_275",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_304",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_309",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_323",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 15,
+          "after": 30
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_335",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        },
+        "health": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_362",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_399",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 7,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_522",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_544",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_565",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        },
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_573",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 9,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_573a",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 9,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_573b",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 9,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_613",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_619",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_625",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "NEW1_010",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "NEW1_012",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        },
+        "health": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "NEW1_019",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "tt_004",
+      "build": "20.0.0.77662",
+      "observedAtUtc": "2021-03-20T12:00:00Z",
+      "previousBuild": "19.6.0.74257",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+    },
+    {
+      "id": "EX1_258",
+      "build": "20.2.2.82994",
+      "observedAtUtc": "2021-05-11T12:00:00Z",
+      "previousBuild": "20.2.0.81706",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/2628f7f1b878f7511d7e47f28e22ab41f33313ea"
+    },
+    {
+      "id": "CS3_008",
+      "build": "21.3.0.93849",
+      "observedAtUtc": "2021-09-15T12:00:00Z",
+      "previousBuild": "21.2.0.91456",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/7a14d44a75a818ff8ee974ff3702980c56e1621d"
+    },
+    {
+      "id": "CS3_008",
+      "build": "22.0.2.128654",
+      "observedAtUtc": "2021-12-16T12:00:00Z",
+      "previousBuild": "22.0.0.127581",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e7f2358de4198ecf539f2a9597656d165ee6d16f"
+    },
+    {
+      "id": "EX1_608",
+      "build": "22.2.0.130051",
+      "observedAtUtc": "2022-01-19T12:00:00Z",
+      "previousBuild": "22.0.2.128654",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/254bb46a7c879a0d339ecb08684f21999e7202b7"
+    },
+    {
+      "id": "CS2_108",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "EX1_164",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "EX1_164a",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "EX1_164b",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "EX1_284",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "health": {
+          "before": 4,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "EX1_619",
+      "build": "23.0.0.135540",
+      "observedAtUtc": "2022-03-30T12:00:00Z",
+      "previousBuild": "22.6.0.134558",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/9016168146cc3ce0369e8cbc54eb8395afba75a0"
+    },
+    {
+      "id": "CS2_077",
+      "build": "24.0.3.147348",
+      "observedAtUtc": "2022-08-13T12:00:00Z",
+      "previousBuild": "24.0.0.145077",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fa264cc2d1267d71a8de6f5163f3e0b6550bba4a"
+    },
+    {
+      "id": "EX1_391",
+      "build": "24.0.3.147348",
+      "observedAtUtc": "2022-08-13T12:00:00Z",
+      "previousBuild": "24.0.0.145077",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fa264cc2d1267d71a8de6f5163f3e0b6550bba4a"
+    },
+    {
+      "id": "EX1_603",
+      "build": "24.0.3.147348",
+      "observedAtUtc": "2022-08-13T12:00:00Z",
+      "previousBuild": "24.0.0.145077",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fa264cc2d1267d71a8de6f5163f3e0b6550bba4a"
+    },
+    {
+      "id": "CS2_062",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "CS2_073",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "CS2_093",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "CS2_094",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "CS2_106",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_002",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 4
+        },
+        "health": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_129",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_158",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_158t",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_165",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        },
+        "attack": {
+          "before": 5,
+          "after": 4
+        },
+        "health": {
+          "before": 4,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_165a",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        },
+        "attack": {
+          "before": 5,
+          "after": 7
+        },
+        "health": {
+          "before": 4,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_165b",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        },
+        "attack": {
+          "before": 5,
+          "after": 4
+        },
+        "health": {
+          "before": 6,
+          "after": 9
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_165t1",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        },
+        "attack": {
+          "before": 5,
+          "after": 7
+        },
+        "health": {
+          "before": 4,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_165t2",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 6
+        },
+        "attack": {
+          "before": 5,
+          "after": 4
+        },
+        "health": {
+          "before": 6,
+          "after": 9
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_193",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_246",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_534",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "attack": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_573t",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "EX1_tk9",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "cost": {
+          "before": 2,
+          "after": 1
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "NEW1_008",
+      "build": "26.0.0.170824",
+      "observedAtUtc": "2023-03-28T12:00:00Z",
+      "previousBuild": "25.6.2.170126",
+      "statChanges": {
+        "attack": {
+          "before": 5,
+          "after": 7
+        },
+        "health": {
+          "before": 5,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8bfb29fa4064a213262beb5a8941203f6aa7434c"
+    },
+    {
+      "id": "CS1_112",
+      "build": "26.0.4.173781",
+      "observedAtUtc": "2023-04-26T12:00:00Z",
+      "previousBuild": "26.0.2.172421",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0238602958c2a3f362858704e07db42e078dc193"
+    },
+    {
+      "id": "EX1_309",
+      "build": "26.0.4.173781",
+      "observedAtUtc": "2023-04-26T12:00:00Z",
+      "previousBuild": "26.0.2.172421",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0238602958c2a3f362858704e07db42e078dc193"
+    },
+    {
+      "id": "EX1_606",
+      "build": "26.0.4.173781",
+      "observedAtUtc": "2023-04-26T12:00:00Z",
+      "previousBuild": "26.0.2.172421",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0238602958c2a3f362858704e07db42e078dc193"
+    },
+    {
+      "id": "CS2_012",
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "previousBuild": "27.0.3.183433",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+    },
+    {
+      "id": "DS1_175",
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "previousBuild": "27.0.3.183433",
+      "statChanges": {
+        "health": {
+          "before": 1,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+    },
+    {
+      "id": "EX1_007",
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "previousBuild": "27.0.3.183433",
+      "statChanges": {
+        "health": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+    },
+    {
+      "id": "EX1_354",
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "previousBuild": "27.0.3.183433",
+      "statChanges": {
+        "cost": {
+          "before": 8,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+    },
+    {
+      "id": "NEW1_012",
+      "build": "27.2.0.183876",
+      "observedAtUtc": "2023-08-16T12:00:00Z",
+      "previousBuild": "27.0.3.183433",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+    },
+    {
+      "id": "CS2_012",
+      "build": "27.2.2.184727",
+      "observedAtUtc": "2023-08-29T12:00:00Z",
+      "previousBuild": "27.2.0.183876",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 4
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/37115531586dce2fa79c984c84dc0537ad0183a2"
+    },
+    {
+      "id": "EX1_095",
+      "build": "27.4.2.186852",
+      "observedAtUtc": "2023-09-27T12:00:00Z",
+      "previousBuild": "27.4.0.185749",
+      "statChanges": {
+        "cost": {
+          "before": 6,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8ccc0f4629c876f2491af3ed8ae42b93877f98c7"
+    },
+    {
+      "id": "EX1_323",
+      "build": "27.4.2.186852",
+      "observedAtUtc": "2023-09-27T12:00:00Z",
+      "previousBuild": "27.4.0.185749",
+      "statChanges": {
+        "cost": {
+          "before": 9,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8ccc0f4629c876f2491af3ed8ae42b93877f98c7"
+    },
+    {
+      "id": "EX1_383",
+      "build": "27.4.2.186852",
+      "observedAtUtc": "2023-09-27T12:00:00Z",
+      "previousBuild": "27.4.0.185749",
+      "statChanges": {
+        "attack": {
+          "before": 6,
+          "after": 8
+        },
+        "health": {
+          "before": 6,
+          "after": 8
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/8ccc0f4629c876f2491af3ed8ae42b93877f98c7"
+    },
+    {
+      "id": "CS1_113",
+      "build": "28.6.0.193541",
+      "observedAtUtc": "2024-02-02T12:00:00Z",
+      "previousBuild": "28.4.1.193128",
+      "statChanges": {
+        "cost": {
+          "before": 10,
+          "after": 9
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d"
+    },
+    {
+      "id": "CS2_012",
+      "build": "29.0.0.195635",
+      "observedAtUtc": "2024-03-05T12:00:00Z",
+      "previousBuild": "28.6.3.195316",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e072e5d302a93dc6fb33542e7c528ae4d39560f0"
+    },
+    {
+      "id": "CS2_013",
+      "build": "29.0.0.195635",
+      "observedAtUtc": "2024-03-05T12:00:00Z",
+      "previousBuild": "28.6.3.195316",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e072e5d302a93dc6fb33542e7c528ae4d39560f0"
+    },
+    {
+      "id": "EX1_085",
+      "build": "29.0.0.195635",
+      "observedAtUtc": "2024-03-05T12:00:00Z",
+      "previousBuild": "28.6.3.195316",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 5
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e072e5d302a93dc6fb33542e7c528ae4d39560f0"
+    },
+    {
+      "id": "EX1_565",
+      "build": "29.0.0.195635",
+      "observedAtUtc": "2024-03-05T12:00:00Z",
+      "previousBuild": "28.6.3.195316",
+      "statChanges": {
+        "health": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e072e5d302a93dc6fb33542e7c528ae4d39560f0"
+    },
+    {
+      "id": "DREAM_02",
+      "build": "29.0.3.197064",
+      "observedAtUtc": "2024-03-27T12:00:00Z",
+      "previousBuild": "Update for Year of the Pegasus (29.0.0.195635)",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/e73eeb8d2c284af5fcddc2db5fce692c77434cd8"
+    },
+    {
+      "id": "EX1_620",
+      "build": "29.4.2.200097",
+      "observedAtUtc": "2024-05-23T12:00:00Z",
+      "previousBuild": "29.4.0.199503",
+      "statChanges": {
+        "cost": {
+          "before": 20,
+          "after": 22
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/d39cd253bed8684d32a3bec380054e0ecccab5f5"
+    },
+    {
+      "id": "EX1_608",
+      "build": "30.2.2.206433",
+      "observedAtUtc": "2024-08-29T12:00:00Z",
+      "previousBuild": "30.2.0.205267",
+      "statChanges": {
+        "cost": {
+          "before": 4,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/34a8789f978b1219b71ae7e34e9c4bc4ccad09ea"
+    },
+    {
+      "id": "EX1_014",
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "previousBuild": "31.6.2.217489",
+      "statChanges": {
+        "health": {
+          "before": 5,
+          "after": 6
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fda7e0b9730aacb0fc19523e00fc62e82b2f695a"
+    },
+    {
+      "id": "EX1_131",
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "previousBuild": "31.6.2.217489",
+      "statChanges": {
+        "attack": {
+          "before": 2,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fda7e0b9730aacb0fc19523e00fc62e82b2f695a"
+    },
+    {
+      "id": "EX1_198",
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "previousBuild": "31.6.2.217489",
+      "statChanges": {
+        "cost": {
+          "before": 8,
+          "after": 7
+        },
+        "attack": {
+          "before": 8,
+          "after": 7
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fda7e0b9730aacb0fc19523e00fc62e82b2f695a"
+    },
+    {
+      "id": "EX1_250",
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "previousBuild": "31.6.2.217489",
+      "statChanges": {
+        "health": {
+          "before": 8,
+          "after": 9
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fda7e0b9730aacb0fc19523e00fc62e82b2f695a"
+    },
+    {
+      "id": "EX1_620",
+      "build": "32.0.0.217964",
+      "observedAtUtc": "2025-03-18T12:00:00Z",
+      "previousBuild": "31.6.2.217489",
+      "statChanges": {
+        "cost": {
+          "before": 22,
+          "after": 20
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/fda7e0b9730aacb0fc19523e00fc62e82b2f695a"
+    },
+    {
+      "id": "EX1_365",
+      "build": "34.0.2.231191",
+      "observedAtUtc": "2025-11-13T12:00:00Z",
+      "previousBuild": "34.0.0.229984",
+      "statChanges": {
+        "cost": {
+          "before": 5,
+          "after": 3
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/1bcf802ffdd50731c53a2a06dd6e9da43caf858a"
+    },
+    {
+      "id": "EX1_189",
+      "build": "35.0.0.237510",
+      "observedAtUtc": "2026-03-10T12:00:00Z",
+      "previousBuild": "34.6.2.236529",
+      "statChanges": {
+        "cost": {
+          "before": 3,
+          "after": 2
+        }
+      },
+      "dateStatus": "needs-KST-patch-verification",
+      "source": "https://github.com/HearthSim/hsdata/commit/a770d899b7ea12594f2edfc7d097f6ee0a858eb8"
+    }
+  ]
+}
