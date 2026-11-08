@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 8,
-    "health": 8,
-    "attack": 4,
+    "health": 5,
+    "attack": 5,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -20,7 +20,9 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "races": [],
+    "races": [
+      "ELEMENTAL"
+    ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_187",
     "name": "비전 포식자",
@@ -29,7 +31,7 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "race": "",
+    "race": "정령",
     "flavor": "주문에 간을 좀 한 게 입맛에 맞는다고 하네요.",
     "portrait": "CLA-009.psd:107f0545bfac40c1b25ffbf457818b70",
     "collectible": true,
@@ -86,16 +88,14 @@
     ],
     "nativeRawText": "내가 주문을 시전할 때마다 +2/+2를 얻습니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
+    "releasedAt": "2019-07-02",
     "releaseStatus": "estimated",
     "patches": [
       {
-        "date": "2017-04-05",
+        "date": "2021-03-26",
         "changes": {
-          "races": [
-            "ELEMENTAL"
-          ],
-          "race": "정령"
+          "attack": 4,
+          "health": 8
         }
       }
     ]

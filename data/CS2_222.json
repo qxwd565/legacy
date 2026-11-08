@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 7,
-    "health": 7,
-    "attack": 7,
+    "health": 6,
+    "attack": 6,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 1635,
@@ -96,6 +96,13 @@
         "date": "2013-10-03",
         "changes": {
           "text": "내 다른 하수인들이 +1/+1을 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "attack": 7,
+          "health": 7
         }
       }
     ]

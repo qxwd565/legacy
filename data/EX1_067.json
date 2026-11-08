@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 6,
-    "health": 2,
+    "health": 3,
     "attack": 4,
     "armor": 0,
     "durability": 0,
@@ -105,6 +105,12 @@
         "date": "2013-10-03",
         "changes": {
           "text": "<b>돌진</b>, <b>천상의 보호막</b>"
+        }
+      },
+      {
+        "date": "2013-12-11",
+        "changes": {
+          "health": 2
         }
       },
       {

@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 3,
-    "health": 4,
+    "health": 3,
     "attack": 3,
     "armor": 0,
     "durability": 0,
@@ -103,6 +103,12 @@
         "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "health": 4
         }
       }
     ]

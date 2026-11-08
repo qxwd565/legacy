@@ -10,7 +10,7 @@
     "battlegroundsPremiumDbfId": 0,
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
-    "cost": 3,
+    "cost": 4,
     "health": 0,
     "attack": 0,
     "armor": 0,
@@ -112,6 +112,12 @@
         "changes": {
           "text": "[x]피해를 $3 줍니다.\n카드를 뽑습니다.",
           "spellSchool": "HOLY"
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "cost": 3
         }
       }
     ]

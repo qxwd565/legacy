@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 1,
+    "health": 2,
     "attack": 2,
     "armor": 0,
     "durability": 0,
@@ -100,7 +100,16 @@
       {
         "date": "2013-12-11",
         "changes": {
-          "text": "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다."
+          "text": "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다.",
+          "health": 1
+        }
+      },
+      {
+        "date": "2014-09-23",
+        "changes": {
+          "cost": 5,
+          "attack": 3,
+          "health": 2
         }
       },
       {
@@ -131,6 +140,14 @@
         "date": "2018-10-03",
         "changes": {
           "text": "내가 야수를 소환할 때마다 카드를 뽑습니다."
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "cost": 2,
+          "attack": 2,
+          "health": 1
         }
       }
     ]

@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 1,
+    "health": 2,
     "attack": 1,
     "armor": 0,
     "durability": 0,
@@ -94,7 +94,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 내 손으로 가져옵니다."
+          "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 내 손으로 가져옵니다.",
+          "health": 1
         }
       },
       {

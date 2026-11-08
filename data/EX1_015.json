@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 2,
-    "health": 1,
+    "health": 2,
     "attack": 1,
     "armor": 0,
     "durability": 0,
@@ -96,6 +96,12 @@
         "date": "2013-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "date": "2014-01-17",
+        "changes": {
+          "health": 1
         }
       },
       {

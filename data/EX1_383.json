@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 1730,
     "battlegroundsBuddyDbfId": 0,
     "cost": 8,
-    "health": 8,
-    "attack": 8,
+    "health": 6,
+    "attack": 6,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -149,6 +149,13 @@
         "date": "2021-03-26",
         "changes": {
           "text": "<b>천상의 보호막</b>, <b>도발</b>\n<b>죽음의 메아리</b>:\n5/3 파멸의 인도자를 장착합니다."
+        }
+      },
+      {
+        "date": "2023-09-29",
+        "changes": {
+          "attack": 8,
+          "health": 8
         }
       }
     ]

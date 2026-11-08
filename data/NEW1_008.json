@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 7,
-    "health": 7,
-    "attack": 7,
+    "health": 5,
+    "attack": 5,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -113,6 +113,13 @@
         "date": "2021-03-26",
         "changes": {
           "text": "<b>선택 -</b> 카드를 2장 뽑습니다. 또는 생명력을 #7 회복시킵니다."
+        }
+      },
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "attack": 7,
+          "health": 7
         }
       }
     ]

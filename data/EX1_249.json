@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 7,
-    "health": 7,
+    "health": 5,
     "attack": 7,
     "armor": 0,
     "durability": 0,
@@ -137,7 +137,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "내 턴이 끝날 때,\n다른 <b>모든</b> 캐릭터에게 피해를 2 줍니다."
+          "text": "내 턴이 끝날 때,\n다른 <b>모든</b> 캐릭터에게 피해를 2 줍니다.",
+          "health": 7
         }
       }
     ]

@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 3,
     "health": 7,
-    "attack": 4,
+    "attack": 3,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -94,7 +94,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": []
+    "patches": [
+      {
+        "date": "2013-10-03",
+        "changes": {
+          "attack": 4
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

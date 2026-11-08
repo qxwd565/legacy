@@ -6,6 +6,8 @@ on:
       - 'tools/build-api.py'
       - 'tools/migrate-chronology.py'
       - 'tools/test-chronology.py'
+      - 'tools/verified-legacy-balances.json'
+      - 'tools/apply-verified-balances.py'
       - 'release-policy.json'
       - 'taxonomy-history.json'
       - 'cards.json'
@@ -20,6 +22,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Convert legacy cards to release baselines and dated changes
         run: python3 tools/migrate-chronology.py
+      - name: Apply independently verified Legacy balance history
+        run: python3 tools/apply-verified-balances.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Verify baseline, patches, current cache, and historical lookups
