@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": null,
+    "status": "pending"
+  },
+  "prefixes": {
+    "EX1_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "NEW1_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "CS1_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "CS2_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "DS1_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "DREAM_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "tt_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "HERO_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "Mekka": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "BT_": {
+      "date": "2020-04-08",
+      "status": "verified"
+    },
+    "CORE_EDR_": {
+      "date": "2025-03-26",
+      "status": "verified"
+    },
+    "CS3_": {
+      "date": "2021-03-31",
+      "status": "verified"
+    },
+    "LEG_": {
+      "date": "2021-03-31",
+      "status": "estimated"
+    },
+    "TOY_": {
+      "date": "2024-03-20",
+      "status": "verified"
+    },
+    "WON_": {
+      "date": "2023-09-01",
+      "status": "verified"
+    },
+    "EDR_": {
+      "date": "2025-03-26",
+      "status": "verified"
+    },
+    "OG_": {
+      "date": "2016-04-27",
+      "status": "estimated"
+    },
+    "ds1_": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "hexfrog": {
+      "date": "2013-08-17",
+      "status": "estimated"
+    },
+    "skele21": {
+      "date": null,
+      "status": "pending"
+    }
+  },
+  "cards": {
+    "BT_255": {
+      "date": "2020-03-18",
+      "status": "verified"
+    }
+  },
+  "sources": {
+    "beta": "https://hearthstone.blizzard.com/ko-kr",
+    "ashes": "https://hearthstone.blizzard.com/ko-kr/news/23324071",
+    "toy": "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
+    "caverns": "https://hearthstone.blizzard.com/ko-kr/news/23987537/27-2-patch-notes",
+    "emerald": "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0",
+    "core": "https://hearthstone.blizzard.com/ko-kr/news/23642550/20-0-patch-notes"
+  }
+}
