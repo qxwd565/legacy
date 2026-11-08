@@ -98,6 +98,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2014-03-13",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-03-13",
         "changes": {

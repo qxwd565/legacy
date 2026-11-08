@@ -105,6 +105,13 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2014-03-13",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "내 주문이 시전된 후에, <b>모든</b> 하수인에게 피해를 1 줍니다."
+        }
+      },
+      {
         "from": "2013-10-11",
         "before": "2014-03-13",
         "changes": {
