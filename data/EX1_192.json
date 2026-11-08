@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_192",
     "name": "광휘",
-    "text": "[x]내 영웅의 생명력을\n#5 회복시킵니다.",
+    "text": "[x]내 영웅의 생명력을<br>#5 회복시킵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
@@ -70,15 +70,9 @@
     ],
     "nativeRawText": "[x]내 영웅의 생명력을\n#5 회복시킵니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
+    "releasedAt": "2019-07-02",
     "releaseStatus": "estimated",
     "patches": [
-      {
-        "date": "2019-07-02",
-        "changes": {
-          "text": "[x]내 영웅의 생명력을<br>#5 회복시킵니다."
-        }
-      },
       {
         "date": "2021-03-26",
         "changes": {

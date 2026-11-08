@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_195",
     "name": "쿨 티란 전도사",
-    "text": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+2 부여합니다.",
+    "text": "[x]<b>전투의 함성:</b> 아군<br>하수인에게 생명력을<br>+2 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PRIEST",
@@ -79,15 +79,9 @@
     ],
     "nativeRawText": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+2 부여합니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
+    "releasedAt": "2020-03-27",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2020-03-27",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b> 아군<br>하수인에게 생명력을<br>+2 부여합니다."
-        }
-      },
       {
         "date": "2021-03-26",
         "changes": {

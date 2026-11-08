@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_197",
     "name": "어둠의 권능: 황폐",
-    "text": "[x]공격력이 5 이상인\n<b>모든</b> 하수인을\n처치합니다.",
+    "text": "[x]공격력이 5 이상인<br><b>모든</b> 하수인을<br>처치합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
@@ -70,15 +70,9 @@
     ],
     "nativeRawText": "[x]공격력이 5 이상인\n<b>모든</b> 하수인을\n처치합니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
+    "releasedAt": "2020-03-27",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2020-03-27",
-        "changes": {
-          "text": "[x]공격력이 5 이상인<br><b>모든</b> 하수인을<br>처치합니다."
-        }
-      },
       {
         "date": "2021-03-26",
         "changes": {

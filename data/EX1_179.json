@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_179",
     "name": "고드름",
-    "text": "하수인에게\n피해를 $2 줍니다.\n그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다.",
+    "text": "하수인에게<br>피해를 $2 줍니다.<br>그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "MAGE",
@@ -80,15 +80,9 @@
     ],
     "nativeRawText": "하수인에게\n피해를 $2 줍니다.\n그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
+    "releasedAt": "2018-11-06",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2018-11-06",
-        "changes": {
-          "text": "하수인에게<br>피해를 $2 줍니다.<br>그 하수인이 <b>빙결</b> 상태라면, 카드를 뽑습니다."
-        }
-      },
       {
         "date": "2021-03-26",
         "changes": {

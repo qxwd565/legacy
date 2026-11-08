@@ -22,8 +22,8 @@
     "chooseOne": false,
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_182",
-    "name": "좀도둑질",
-    "text": "다른 직업의 무작위 카드를 내 손으로 가져옵니다.",
+    "name": "슬쩍",
+    "text": "[x]<i>상대편 직업</i>의 무작위<br>카드를 내 손으로<br>가져옵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "ROGUE",
@@ -69,16 +69,9 @@
     ],
     "nativeRawText": "다른 직업의 무작위 카드를 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
+    "releasedAt": "2018-11-06",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2018-11-06",
-        "changes": {
-          "name": "슬쩍",
-          "text": "[x]<i>상대편 직업</i>의 무작위<br>카드를 내 손으로<br>가져옵니다."
-        }
-      },
       {
         "date": "2019-07-02",
         "changes": {
