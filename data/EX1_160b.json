@@ -116,5 +116,409 @@
       "platform": "Windows",
       "rawText": "내 하수인들에게 +1/+1을 부여합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_160"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무리의 우두머리",
+            "CardTextInHand": "내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_160b\">\n  <MasterPower>46f9be6e-e077-47a8-97ce-cc7c54502651</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leader of the Pack</enUS>\n    <frFR>Chef de la meute</frFR>\n    <zhTW>獸群領袖</zhTW>\n    <zhCN>兽群领袖</zhCN>\n    <ruRU>Вожак стаи</ruRU>\n    <ptBR>Líder do Bando</ptBR>\n    <plPL>Przywódca stada</plPL>\n    <koKR>무리의 우두머리</koKR>\n    <itIT>Capobranco</itIT>\n    <esMX>Líder de la manada</esMX>\n    <esES>Líder de la manada</esES>\n    <deDE>Rudelführer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your minions +1/+1.</enUS>\n    <frFR>Donne à vos serviteurs +1/+1.</frFR>\n    <zhTW>賦予你全部的手下+1/+1</zhTW>\n    <zhCN>使你所有的随从获得+1/+1。</zhCN>\n    <ruRU>Ваши существа получают +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 aos seus lacaios.</ptBR>\n    <plPL>Daj swoim stronnikom +1/+1.</plPL>\n    <koKR>내 하수인들에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a tutti i tuoi servitori.</itIT>\n    <esMX>Otorga +1/+1 a tus esbirros.</esMX>\n    <esES>Otorga +1/+1 a tus esbirros.</esES>\n    <deDE>Verleiht Euren Dienern +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"46f9be6e-e077-47a8-97ce-cc7c54502651\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "967187970",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160/W17_a030_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160/EX1_160_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486.png",
+          "sha256": "172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1717147151",
+          "rgbaSha256": "5ac3c6316f24e6015f6df0ab8f76f5436de97c8ce186e9de3561a65e6011d77a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/68dfe8dda9af6985de97275c057b801ad4bd3c05b8e8ad18f3c8ae37707f5632.json",
+          "sha256": "68dfe8dda9af6985de97275c057b801ad4bd3c05b8e8ad18f3c8ae37707f5632",
+          "source": "cab-premiummaterials0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무리의 우두머리",
+            "CardTextInHand": "내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_160b\">\n  <MasterPower>46f9be6e-e077-47a8-97ce-cc7c54502651</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leader of the Pack</enUS>\n    <frFR>Chef de la meute</frFR>\n    <zhTW>獸群領袖</zhTW>\n    <zhCN>兽群领袖</zhCN>\n    <ruRU>Вожак стаи</ruRU>\n    <ptBR>Líder do Bando</ptBR>\n    <plPL>Przywódca stada</plPL>\n    <koKR>무리의 우두머리</koKR>\n    <itIT>Capobranco</itIT>\n    <esMX>Líder de la manada</esMX>\n    <esES>Líder de la manada</esES>\n    <deDE>Rudelführer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your minions +1/+1.</enUS>\n    <frFR>Donne à vos serviteurs +1/+1.</frFR>\n    <zhTW>賦予你全部的手下+1/+1</zhTW>\n    <zhCN>使你所有的随从获得+1/+1。</zhCN>\n    <ruRU>Ваши существа получают +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 aos seus lacaios.</ptBR>\n    <plPL>Daj swoim stronnikom +1/+1.</plPL>\n    <koKR>내 하수인들에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a tutti i tuoi servitori.</itIT>\n    <esMX>Otorga +1/+1 a tus esbirros.</esMX>\n    <esES>Otorga +1/+1 a tus esbirros.</esES>\n    <deDE>Verleiht Euren Dienern +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"46f9be6e-e077-47a8-97ce-cc7c54502651\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "967187970",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160/W17_a030_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160/EX1_160_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486.png",
+          "sha256": "172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1717147151",
+          "rgbaSha256": "5ac3c6316f24e6015f6df0ab8f76f5436de97c8ce186e9de3561a65e6011d77a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/460e8edf49ed87fa791d4b6e92a4293999df8b472026573d8b086bf1d10fac77.json",
+          "sha256": "460e8edf49ed87fa791d4b6e92a4293999df8b472026573d8b086bf1d10fac77",
+          "source": "cab-premiummaterials0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무리의 우두머리",
+            "CardTextInHand": "내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_160b\">\n  <MasterPower>46f9be6e-e077-47a8-97ce-cc7c54502651</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leader of the Pack</enUS>\n    <frFR>Chef de la meute</frFR>\n    <zhTW>獸群領袖</zhTW>\n    <zhCN>兽群领袖</zhCN>\n    <ruRU>Вожак стаи</ruRU>\n    <ptBR>Líder do Bando</ptBR>\n    <plPL>Przywódca stada</plPL>\n    <koKR>무리의 우두머리</koKR>\n    <itIT>Capobranco</itIT>\n    <esMX>Líder de la manada</esMX>\n    <esES>Líder de la manada</esES>\n    <deDE>Rudelführer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your minions +1/+1.</enUS>\n    <frFR>Donne à vos serviteurs +1/+1.</frFR>\n    <zhTW>賦予你全部的手下+1/+1</zhTW>\n    <zhCN>使你所有的随从获得+1/+1。</zhCN>\n    <ruRU>Ваши существа получают +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 aos seus lacaios.</ptBR>\n    <plPL>Daj swoim stronnikom +1/+1.</plPL>\n    <koKR>내 하수인들에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a tutti i tuoi servitori.</itIT>\n    <esMX>Otorga +1/+1 a tus esbirros.</esMX>\n    <esES>Otorga +1/+1 a tus esbirros.</esES>\n    <deDE>Verleiht Euren Dienern +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"46f9be6e-e077-47a8-97ce-cc7c54502651\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "967187970",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160/W17_a030_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160/EX1_160_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486.png",
+          "sha256": "172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1717147151",
+          "rgbaSha256": "5ac3c6316f24e6015f6df0ab8f76f5436de97c8ce186e9de3561a65e6011d77a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a158ffabfb0cc6831880fc0fb19260333118c5f1dbaa4b5e18c7fa86a0b71158.json",
+          "sha256": "a158ffabfb0cc6831880fc0fb19260333118c5f1dbaa4b5e18c7fa86a0b71158",
+          "source": "cab-premiummaterials0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무리의 우두머리",
+            "CardTextInHand": "내 하수인들에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_160b\">\n  <MasterPower>46f9be6e-e077-47a8-97ce-cc7c54502651</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leader of the Pack</enUS>\n    <frFR>Chef de la meute</frFR>\n    <zhTW>獸群領袖</zhTW>\n    <zhCN>兽群领袖</zhCN>\n    <ruRU>Вожак стаи</ruRU>\n    <ptBR>Líder do Bando</ptBR>\n    <plPL>Przywódca stada</plPL>\n    <koKR>무리의 우두머리</koKR>\n    <itIT>Capobranco</itIT>\n    <esMX>Líder de la manada</esMX>\n    <esES>Líder de la manada</esES>\n    <deDE>Rudelführer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your minions +1/+1.</enUS>\n    <frFR>Donne à vos serviteurs +1/+1.</frFR>\n    <zhTW>賦予你全部的手下+1/+1</zhTW>\n    <zhCN>使你所有的随从获得+1/+1。</zhCN>\n    <ruRU>Ваши существа получают +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 aos seus lacaios.</ptBR>\n    <plPL>Daj swoim stronnikom +1/+1.</plPL>\n    <koKR>내 하수인들에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a tutti i tuoi servitori.</itIT>\n    <esMX>Otorga +1/+1 a tus esbirros.</esMX>\n    <esES>Otorga +1/+1 a tus esbirros.</esES>\n    <deDE>Verleiht Euren Dienern +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"46f9be6e-e077-47a8-97ce-cc7c54502651\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "967187970",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160/W17_a030_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160/EX1_160_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486.png",
+          "sha256": "172b297ed22bf48b77fa22a7a03b0f28b2af894a863dd42f6e106ef3043ce486",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1717147151",
+          "rgbaSha256": "5ac3c6316f24e6015f6df0ab8f76f5436de97c8ce186e9de3561a65e6011d77a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/82a91d82f81de07a6134ecd3816e389657369deb10b087e86b0e72b234902c1a.json",
+          "sha256": "82a91d82f81de07a6134ecd3816e389657369deb10b087e86b0e72b234902c1a",
+          "source": "cab-premiummaterials0:-1510375465"
+        }
+      }
+    ]
+  }
 }

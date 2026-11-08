@@ -123,5 +123,493 @@
       "platform": "Windows",
       "rawText": "<b>도발</b>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_165"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 5,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 5,
+            "attack": 4,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "580853070",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165t2/EX1_165t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8.png",
+          "sha256": "6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-479701809",
+          "rgbaSha256": "3158dc0fb71943cad85d3130f7f886a2d6f9635311e90d900c01cbaac1abf244"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/1e55ce4b202e9056ec04cec3be7e0ac0a8cb1d22aff6ccce88afa47998ab9069.json",
+          "sha256": "1e55ce4b202e9056ec04cec3be7e0ac0a8cb1d22aff6ccce88afa47998ab9069",
+          "source": "cab-premiummaterials0:1699719714"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 5,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 5,
+            "attack": 4,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "580853070",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165t2/EX1_165t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8.png",
+          "sha256": "6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-479701809",
+          "rgbaSha256": "3158dc0fb71943cad85d3130f7f886a2d6f9635311e90d900c01cbaac1abf244"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8eb1e693f7b1e2620fdf0200bca5329d2d5c22fb06d076fbc169607f5fe9ace6.json",
+          "sha256": "8eb1e693f7b1e2620fdf0200bca5329d2d5c22fb06d076fbc169607f5fe9ace6",
+          "source": "cab-premiummaterials0:1699719714"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 5,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 5,
+            "attack": 4,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "580853070",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165t2/EX1_165t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8.png",
+          "sha256": "6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-479701809",
+          "rgbaSha256": "3158dc0fb71943cad85d3130f7f886a2d6f9635311e90d900c01cbaac1abf244"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7305811deda2489f42c3edc007c30076916c68ca501789aa1bb305e821685aec.json",
+          "sha256": "7305811deda2489f42c3edc007c30076916c68ca501789aa1bb305e821685aec",
+          "source": "cab-premiummaterials0:1699719714"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 5,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 5,
+            "attack": 4,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "580853070",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165t2/EX1_165t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8.png",
+          "sha256": "6bda8161770264b87ec548565785175766243ce04f2d552a65cc87a0bc55e7f8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-479701809",
+          "rgbaSha256": "3158dc0fb71943cad85d3130f7f886a2d6f9635311e90d900c01cbaac1abf244"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/616a4fcaf94df105dfb16b0c92f33ba18a255c5942877c6358ec5a2a1545ee82.json",
+          "sha256": "616a4fcaf94df105dfb16b0c92f33ba18a255c5942877c6358ec5a2a1545ee82",
+          "source": "cab-premiummaterials0:1699719714"
+        }
+      }
+    ]
+  }
 }

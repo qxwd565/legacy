@@ -96,5 +96,473 @@
       "platform": "Windows",
       "rawText": "심리 조작 실패! 상대편에게 하수인이 없었습니다!"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_345"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardTextInHand": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
+            "CardName": "허무의 그림자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_345t\">\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Mindgames whiffed! Your opponent had no minions!</enUS>\n    <zhTW>心理遊戲失效!你的對手沒有手下!</zhTW>\n    <zhCN>控心术无效！你的对手的牌库中没有随从牌了！</zhCN>\n    <ruRU>Игры разума не сработали! У вашего противника не было существ!</ruRU>\n    <ptBR>Jogos Mentais não deu em nada! Seu oponente não tinha lacaios!</ptBR>\n    <plPL>Starcie umysłów przegrane! Twój przeciwnik nie ma stronników!</plPL>\n    <koKR>심리 조작 실패! 상대편에게 하수인이 없었습니다!</koKR>\n    <itIT>Giochi Mentali non ha funzionato! L'avversario non ha servitori!</itIT>\n    <frFR>Comment ça « Votre adversaire n’a plus de serviteurs » ?</frFR>\n    <esMX>¡Los Juegos mentales fallaron! ¡Tu adversario no tenía esbirros!</esMX>\n    <esES>¡Los Juegos mentales han fracasado! ¡Tu oponente no tenía esbirros!</esES>\n    <deDE>Gedankenspiele verpufft! Euer Gegner hat keine Diener!</deDE>\n  </Tag>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shadow of Nothing</enUS>\n    <zhTW>虛無之影</zhTW>\n    <zhCN>空无之影</zhCN>\n    <ruRU>Тень пустоты</ruRU>\n    <ptBR>Sombra do Nada</ptBR>\n    <plPL>Cień nicości</plPL>\n    <koKR>허무의 그림자</koKR>\n    <itIT>Ombra del Nulla</itIT>\n    <frFR>Ombre du néant</frFR>\n    <esMX>Sombra de la nada</esMX>\n    <esES>Sombra de la nada</esES>\n    <deDE>Schatten des Nichts</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"035f9703-4e69-421c-a0a1-8c94b54f4ede\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1424643017",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_345t/wow_tal_031_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_345t/EX1_345t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1949076654"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-93856383"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-2092419400"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d.png",
+          "sha256": "67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1000709312",
+          "rgbaSha256": "f53c32bf289b94d5218ff0f820e3fac9d989b8293df36967cad41035fd054237"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a161abed342c0c79c3f656a1c4bb380ed65d5f4b152d45fa705fe27ed47ed146.json",
+          "sha256": "a161abed342c0c79c3f656a1c4bb380ed65d5f4b152d45fa705fe27ed47ed146",
+          "source": "cab-premiummaterials0:1766171965"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardTextInHand": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
+            "CardName": "허무의 그림자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_345t\">\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Mindgames whiffed! Your opponent had no minions!</enUS>\n    <zhTW>心理遊戲失效!你的對手沒有手下!</zhTW>\n    <zhCN>控心术无效！你的对手的牌库中没有随从牌了！</zhCN>\n    <ruRU>Игры разума не сработали! У вашего противника не было существ!</ruRU>\n    <ptBR>Jogos Mentais não deu em nada! Seu oponente não tinha lacaios!</ptBR>\n    <plPL>Starcie umysłów przegrane! Twój przeciwnik nie ma stronników!</plPL>\n    <koKR>심리 조작 실패! 상대편에게 하수인이 없었습니다!</koKR>\n    <itIT>Giochi Mentali non ha funzionato! L'avversario non ha servitori!</itIT>\n    <frFR>Comment ça « Votre adversaire n’a plus de serviteurs » ?</frFR>\n    <esMX>¡Los Juegos mentales fallaron! ¡Tu adversario no tenía esbirros!</esMX>\n    <esES>¡Los Juegos mentales han fracasado! ¡Tu oponente no tenía esbirros!</esES>\n    <deDE>Gedankenspiele verpufft! Euer Gegner hat keine Diener!</deDE>\n  </Tag>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shadow of Nothing</enUS>\n    <zhTW>虛無之影</zhTW>\n    <zhCN>空无之影</zhCN>\n    <ruRU>Тень пустоты</ruRU>\n    <ptBR>Sombra do Nada</ptBR>\n    <plPL>Cień nicości</plPL>\n    <koKR>허무의 그림자</koKR>\n    <itIT>Ombra del Nulla</itIT>\n    <frFR>Ombre du néant</frFR>\n    <esMX>Sombra de la nada</esMX>\n    <esES>Sombra de la nada</esES>\n    <deDE>Schatten des Nichts</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"035f9703-4e69-421c-a0a1-8c94b54f4ede\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1424643017",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_345t/wow_tal_031_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_345t/EX1_345t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1949076654"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-93856383"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-2092419400"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d.png",
+          "sha256": "67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1000709312",
+          "rgbaSha256": "f53c32bf289b94d5218ff0f820e3fac9d989b8293df36967cad41035fd054237"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/40967c4924031f0fa20abcf027be9c6d0ed28c3acdc57d49b99db7361c15354e.json",
+          "sha256": "40967c4924031f0fa20abcf027be9c6d0ed28c3acdc57d49b99db7361c15354e",
+          "source": "cab-premiummaterials0:1766171965"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardTextInHand": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
+            "CardName": "허무의 그림자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_345t\">\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Mindgames whiffed! Your opponent had no minions!</enUS>\n    <zhTW>心理遊戲失效!你的對手沒有手下!</zhTW>\n    <zhCN>控心术无效！你的对手的牌库中没有随从牌了！</zhCN>\n    <ruRU>Игры разума не сработали! У вашего противника не было существ!</ruRU>\n    <ptBR>Jogos Mentais não deu em nada! Seu oponente não tinha lacaios!</ptBR>\n    <plPL>Starcie umysłów przegrane! Twój przeciwnik nie ma stronników!</plPL>\n    <koKR>심리 조작 실패! 상대편에게 하수인이 없었습니다!</koKR>\n    <itIT>Giochi Mentali non ha funzionato! L'avversario non ha servitori!</itIT>\n    <frFR>Comment ça « Votre adversaire n’a plus de serviteurs » ?</frFR>\n    <esMX>¡Los Juegos mentales fallaron! ¡Tu adversario no tenía esbirros!</esMX>\n    <esES>¡Los Juegos mentales han fracasado! ¡Tu oponente no tenía esbirros!</esES>\n    <deDE>Gedankenspiele verpufft! Euer Gegner hat keine Diener!</deDE>\n  </Tag>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shadow of Nothing</enUS>\n    <zhTW>虛無之影</zhTW>\n    <zhCN>空无之影</zhCN>\n    <ruRU>Тень пустоты</ruRU>\n    <ptBR>Sombra do Nada</ptBR>\n    <plPL>Cień nicości</plPL>\n    <koKR>허무의 그림자</koKR>\n    <itIT>Ombra del Nulla</itIT>\n    <frFR>Ombre du néant</frFR>\n    <esMX>Sombra de la nada</esMX>\n    <esES>Sombra de la nada</esES>\n    <deDE>Schatten des Nichts</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"035f9703-4e69-421c-a0a1-8c94b54f4ede\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1424643017",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_345t/wow_tal_031_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_345t/EX1_345t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1949076654"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-93856383"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-2092419400"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d.png",
+          "sha256": "67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1000709312",
+          "rgbaSha256": "f53c32bf289b94d5218ff0f820e3fac9d989b8293df36967cad41035fd054237"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/703ca70d282dc0592f3b4237dda2a82c5e4bd586bd1088d9fda71224760dd05f.json",
+          "sha256": "703ca70d282dc0592f3b4237dda2a82c5e4bd586bd1088d9fda71224760dd05f",
+          "source": "cab-premiummaterials0:1766171965"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardTextInHand": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
+            "CardName": "허무의 그림자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_345t\">\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Mindgames whiffed! Your opponent had no minions!</enUS>\n    <zhTW>心理遊戲失效!你的對手沒有手下!</zhTW>\n    <zhCN>控心术无效！你的对手的牌库中没有随从牌了！</zhCN>\n    <ruRU>Игры разума не сработали! У вашего противника не было существ!</ruRU>\n    <ptBR>Jogos Mentais não deu em nada! Seu oponente não tinha lacaios!</ptBR>\n    <plPL>Starcie umysłów przegrane! Twój przeciwnik nie ma stronników!</plPL>\n    <koKR>심리 조작 실패! 상대편에게 하수인이 없었습니다!</koKR>\n    <itIT>Giochi Mentali non ha funzionato! L'avversario non ha servitori!</itIT>\n    <frFR>Comment ça « Votre adversaire n’a plus de serviteurs » ?</frFR>\n    <esMX>¡Los Juegos mentales fallaron! ¡Tu adversario no tenía esbirros!</esMX>\n    <esES>¡Los Juegos mentales han fracasado! ¡Tu oponente no tenía esbirros!</esES>\n    <deDE>Gedankenspiele verpufft! Euer Gegner hat keine Diener!</deDE>\n  </Tag>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shadow of Nothing</enUS>\n    <zhTW>虛無之影</zhTW>\n    <zhCN>空无之影</zhCN>\n    <ruRU>Тень пустоты</ruRU>\n    <ptBR>Sombra do Nada</ptBR>\n    <plPL>Cień nicości</plPL>\n    <koKR>허무의 그림자</koKR>\n    <itIT>Ombra del Nulla</itIT>\n    <frFR>Ombre du néant</frFR>\n    <esMX>Sombra de la nada</esMX>\n    <esES>Sombra de la nada</esES>\n    <deDE>Schatten des Nichts</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"035f9703-4e69-421c-a0a1-8c94b54f4ede\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1424643017",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_345t/wow_tal_031_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_345t/EX1_345t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1949076654"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-93856383"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-2092419400"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d.png",
+          "sha256": "67cbfa7136e9df86f78a81710bbca2d4c6daeca1c6390861fb2d2f03c44f120d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1000709312",
+          "rgbaSha256": "f53c32bf289b94d5218ff0f820e3fac9d989b8293df36967cad41035fd054237"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/645464b58d788573670178e03a4ee8c78aacbcb500648cc339501f4446ae2cd1.json",
+          "sha256": "645464b58d788573670178e03a4ee8c78aacbcb500648cc339501f4446ae2cd1",
+          "source": "cab-premiummaterials0:1766171965"
+        }
+      }
+    ]
+  }
 }

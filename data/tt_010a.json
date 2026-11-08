@@ -116,5 +116,425 @@
       "platform": "Windows",
       "rawText": "<b></b>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "tt_010"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "주문왜곡사",
+            "CardTextInHand": "<b></b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 4,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 2,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": 1,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "277590187",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:124811319"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1346559315"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+          "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1143295930",
+          "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a14aec4b8d909c980d979a3fe090126d993cdee24606f7b41b6e17ec51b61774.json",
+          "sha256": "a14aec4b8d909c980d979a3fe090126d993cdee24606f7b41b6e17ec51b61774",
+          "source": "cab-premiummaterials0:-130402862"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "주문왜곡사",
+            "CardTextInHand": "<b></b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 4,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 2,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": 1,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "277590187",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:124811319"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1346559315"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+          "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1143295930",
+          "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/799adef235a04f92f100f746ef99f39799c9c65bf82c7837db28bed88516a658.json",
+          "sha256": "799adef235a04f92f100f746ef99f39799c9c65bf82c7837db28bed88516a658",
+          "source": "cab-premiummaterials0:-130402862"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "주문왜곡사",
+            "CardTextInHand": "<b></b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 4,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 2,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": 1,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "277590187",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:124811319"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1346559315"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+          "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1143295930",
+          "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8e6c2bd690476a45e1a467ad52dd17580a83c0c28f494cc4bfefd77ea38dccb3.json",
+          "sha256": "8e6c2bd690476a45e1a467ad52dd17580a83c0c28f494cc4bfefd77ea38dccb3",
+          "source": "cab-premiummaterials0:-130402862"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "주문왜곡사",
+            "CardTextInHand": "<b></b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 4,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 4,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 2,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": 1,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "277590187",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:124811319"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1346559315"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+          "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1143295930",
+          "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/34b0292d1d83bfd0dedc584363df5f7271725ddc7687a3eec1be7c473ce8908b.json",
+          "sha256": "34b0292d1d83bfd0dedc584363df5f7271725ddc7687a3eec1be7c473ce8908b",
+          "source": "cab-premiummaterials0:-130402862"
+        }
+      }
+    ]
+  }
 }

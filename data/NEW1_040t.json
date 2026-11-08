@@ -123,5 +123,413 @@
       "platform": "Windows",
       "rawText": "<b>도발</b>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "NEW1_040"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "놀",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_040t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Gnoll</enUS>\n    <frFR>Gnoll</frFR>\n    <zhTW>豺狼人</zhTW>\n    <zhCN>豺狼人</zhCN>\n    <ruRU>Гнолл</ruRU>\n    <ptBR>Gnoll</ptBR>\n    <plPL>Gnol</plPL>\n    <koKR>놀</koKR>\n    <itIT>Gnoll</itIT>\n    <esMX>Gnoll</esMX>\n    <esES>Gnoll</esES>\n    <deDE>Gnoll</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"6f058cac-9d51-49ea-9704-35959c9f8af8\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1753442709",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_040t/W17_A054_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_040t/NEW1_040t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1467502939"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1765865988"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1640226946"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c.png",
+          "sha256": "775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1468070619",
+          "rgbaSha256": "8df20eff96d06122bdd26d4e41bc4c7de0490d795985a3013b8059d860eed5f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/45840af88545306efe7517c7b0bdb14f8435e0434085aa161f58a0b91d9047f1.json",
+          "sha256": "45840af88545306efe7517c7b0bdb14f8435e0434085aa161f58a0b91d9047f1",
+          "source": "cab-premiummaterials0:-1839902773"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "놀",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_040t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Gnoll</enUS>\n    <frFR>Gnoll</frFR>\n    <zhTW>豺狼人</zhTW>\n    <zhCN>豺狼人</zhCN>\n    <ruRU>Гнолл</ruRU>\n    <ptBR>Gnoll</ptBR>\n    <plPL>Gnol</plPL>\n    <koKR>놀</koKR>\n    <itIT>Gnoll</itIT>\n    <esMX>Gnoll</esMX>\n    <esES>Gnoll</esES>\n    <deDE>Gnoll</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"6f058cac-9d51-49ea-9704-35959c9f8af8\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1753442709",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_040t/W17_A054_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_040t/NEW1_040t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1467502939"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1765865988"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1640226946"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c.png",
+          "sha256": "775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1468070619",
+          "rgbaSha256": "8df20eff96d06122bdd26d4e41bc4c7de0490d795985a3013b8059d860eed5f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/bed2ac32a881d17db46c5851f6217292b76f5da5a63e999461f73d3cc26d574e.json",
+          "sha256": "bed2ac32a881d17db46c5851f6217292b76f5da5a63e999461f73d3cc26d574e",
+          "source": "cab-premiummaterials0:-1839902773"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "놀",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_040t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Gnoll</enUS>\n    <frFR>Gnoll</frFR>\n    <zhTW>豺狼人</zhTW>\n    <zhCN>豺狼人</zhCN>\n    <ruRU>Гнолл</ruRU>\n    <ptBR>Gnoll</ptBR>\n    <plPL>Gnol</plPL>\n    <koKR>놀</koKR>\n    <itIT>Gnoll</itIT>\n    <esMX>Gnoll</esMX>\n    <esES>Gnoll</esES>\n    <deDE>Gnoll</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"6f058cac-9d51-49ea-9704-35959c9f8af8\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1753442709",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_040t/W17_A054_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_040t/NEW1_040t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1467502939"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1765865988"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1640226946"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c.png",
+          "sha256": "775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1468070619",
+          "rgbaSha256": "8df20eff96d06122bdd26d4e41bc4c7de0490d795985a3013b8059d860eed5f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e12de0de049c87f3ee63dae5cc281ba1a5d755776cf9fb0a4283cfd30e08289f.json",
+          "sha256": "e12de0de049c87f3ee63dae5cc281ba1a5d755776cf9fb0a4283cfd30e08289f",
+          "source": "cab-premiummaterials0:-1839902773"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "놀",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 190,
+              "value": 1,
+              "name": "Taunt"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_040t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Gnoll</enUS>\n    <frFR>Gnoll</frFR>\n    <zhTW>豺狼人</zhTW>\n    <zhCN>豺狼人</zhCN>\n    <ruRU>Гнолл</ruRU>\n    <ptBR>Gnoll</ptBR>\n    <plPL>Gnol</plPL>\n    <koKR>놀</koKR>\n    <itIT>Gnoll</itIT>\n    <esMX>Gnoll</esMX>\n    <esES>Gnoll</esES>\n    <deDE>Gnoll</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"6f058cac-9d51-49ea-9704-35959c9f8af8\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1753442709",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_040t/W17_A054_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_040t/NEW1_040t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1467502939"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1765865988"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1640226946"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c.png",
+          "sha256": "775533915b8859cde012444b809920bc1ca6b875ca5bd8c22e5b1a469134730c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1468070619",
+          "rgbaSha256": "8df20eff96d06122bdd26d4e41bc4c7de0490d795985a3013b8059d860eed5f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3d222a4a4ced648f66836f6c9d8f404740ab078b85969bcf1eaf3d3ae0dd7cb1.json",
+          "sha256": "3d222a4a4ced648f66836f6c9d8f404740ab078b85969bcf1eaf3d3ae0dd7cb1",
+          "source": "cab-premiummaterials0:-1839902773"
+        }
+      }
+    ]
+  }
 }

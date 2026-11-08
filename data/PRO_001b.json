@@ -96,5 +96,385 @@
       "platform": "Windows",
       "rawText": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "PRO_001"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "도적은 뒤를 치지...",
+            "CardTextInHand": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001b\">\n  <MasterPower>de8cb346-c077-4e41-8154-cabc6c2dac90</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Rogues Do It...</enUS>\n    <zhTW>盜賊愛從...</zhTW>\n    <zhCN>潜行者的伎俩</zhCN>\n    <ruRU>«Rogues Do It...»</ruRU>\n    <ptBR>Coisa de Ladino</ptBR>\n    <plPL>Łotrzy robią to...</plPL>\n    <koKR>도적은 뒤를 치지...</koKR>\n    <itIT>Rogues Do It...</itIT>\n    <frFR>Les voleurs, ça vous prend...</frFR>\n    <esMX>Rogues Do It...</esMX>\n    <esES>Rogues Do It...</esES>\n    <deDE>„Rogues Do It...“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $4 damage. Draw a card.</enUS>\n    <zhTW>造成$4點傷害。抽一張牌</zhTW>\n    <zhCN>造成$4点伤害。抽一张牌。</zhCN>\n    <ruRU>Наносит $4 ед. урона. Вы берете карту.</ruRU>\n    <ptBR>Cause $4 de dano. Compre um card.</ptBR>\n    <plPL>Zadaj $4 pkt. obrażeń. Dobierz kartę.</plPL>\n    <koKR>피해를 $4 줍니다. 카드를 1장 뽑습니다.</koKR>\n    <itIT>Infligge $4 danni. Pesca una carta.</itIT>\n    <frFR>Inflige $4 |4(point,points) de dégâts. Vous piochez une carte.</frFR>\n    <esMX>Inflige $4 de daño. Roba una carta.</esMX>\n    <esES>Inflige $4 p. de daño. Roba una carta.</esES>\n    <deDE>Verursacht $4 Schaden. Zieht eine Karte.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"de8cb346-c077-4e41-8154-cabc6c2dac90\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-913286418",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001b/W7_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001b/PRO_001b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1666345143"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:42768019"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382.png",
+          "sha256": "39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1341340106",
+          "rgbaSha256": "743307d828910f87026c02f808cc6ee96fafb9290e00f33d58188b927bf36d95"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e4031377d2be5db80205cf22df829ed422b1ec62a25e3e1951bee86e4df1aca3.json",
+          "sha256": "e4031377d2be5db80205cf22df829ed422b1ec62a25e3e1951bee86e4df1aca3",
+          "source": "cab-premiummaterials0:240680421"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "도적은 뒤를 치지...",
+            "CardTextInHand": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001b\">\n  <MasterPower>de8cb346-c077-4e41-8154-cabc6c2dac90</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Rogues Do It...</enUS>\n    <zhTW>盜賊愛從...</zhTW>\n    <zhCN>潜行者的伎俩</zhCN>\n    <ruRU>«Rogues Do It...»</ruRU>\n    <ptBR>Coisa de Ladino</ptBR>\n    <plPL>Łotrzy robią to...</plPL>\n    <koKR>도적은 뒤를 치지...</koKR>\n    <itIT>Rogues Do It...</itIT>\n    <frFR>Les voleurs, ça vous prend...</frFR>\n    <esMX>Rogues Do It...</esMX>\n    <esES>Rogues Do It...</esES>\n    <deDE>„Rogues Do It...“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $4 damage. Draw a card.</enUS>\n    <zhTW>造成$4點傷害。抽一張牌</zhTW>\n    <zhCN>造成$4点伤害。抽一张牌。</zhCN>\n    <ruRU>Наносит $4 ед. урона. Вы берете карту.</ruRU>\n    <ptBR>Cause $4 de dano. Compre um card.</ptBR>\n    <plPL>Zadaj $4 pkt. obrażeń. Dobierz kartę.</plPL>\n    <koKR>피해를 $4 줍니다. 카드를 1장 뽑습니다.</koKR>\n    <itIT>Infligge $4 danni. Pesca una carta.</itIT>\n    <frFR>Inflige $4 |4(point,points) de dégâts. Vous piochez une carte.</frFR>\n    <esMX>Inflige $4 de daño. Roba una carta.</esMX>\n    <esES>Inflige $4 p. de daño. Roba una carta.</esES>\n    <deDE>Verursacht $4 Schaden. Zieht eine Karte.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"de8cb346-c077-4e41-8154-cabc6c2dac90\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-913286418",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001b/W7_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001b/PRO_001b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1666345143"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:42768019"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382.png",
+          "sha256": "39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1341340106",
+          "rgbaSha256": "743307d828910f87026c02f808cc6ee96fafb9290e00f33d58188b927bf36d95"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3d269b4c3b19b1dedf136949b7df4fa3efdf2f7b24d9044075767837c3257c18.json",
+          "sha256": "3d269b4c3b19b1dedf136949b7df4fa3efdf2f7b24d9044075767837c3257c18",
+          "source": "cab-premiummaterials0:240680421"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "도적은 뒤를 치지...",
+            "CardTextInHand": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001b\">\n  <MasterPower>de8cb346-c077-4e41-8154-cabc6c2dac90</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Rogues Do It...</enUS>\n    <zhTW>盜賊愛從...</zhTW>\n    <zhCN>潜行者的伎俩</zhCN>\n    <ruRU>«Rogues Do It...»</ruRU>\n    <ptBR>Coisa de Ladino</ptBR>\n    <plPL>Łotrzy robią to...</plPL>\n    <koKR>도적은 뒤를 치지...</koKR>\n    <itIT>Rogues Do It...</itIT>\n    <frFR>Les voleurs, ça vous prend...</frFR>\n    <esMX>Rogues Do It...</esMX>\n    <esES>Rogues Do It...</esES>\n    <deDE>„Rogues Do It...“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $4 damage. Draw a card.</enUS>\n    <zhTW>造成$4點傷害。抽一張牌</zhTW>\n    <zhCN>造成$4点伤害。抽一张牌。</zhCN>\n    <ruRU>Наносит $4 ед. урона. Вы берете карту.</ruRU>\n    <ptBR>Cause $4 de dano. Compre um card.</ptBR>\n    <plPL>Zadaj $4 pkt. obrażeń. Dobierz kartę.</plPL>\n    <koKR>피해를 $4 줍니다. 카드를 1장 뽑습니다.</koKR>\n    <itIT>Infligge $4 danni. Pesca una carta.</itIT>\n    <frFR>Inflige $4 |4(point,points) de dégâts. Vous piochez une carte.</frFR>\n    <esMX>Inflige $4 de daño. Roba una carta.</esMX>\n    <esES>Inflige $4 p. de daño. Roba una carta.</esES>\n    <deDE>Verursacht $4 Schaden. Zieht eine Karte.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"de8cb346-c077-4e41-8154-cabc6c2dac90\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-913286418",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001b/W7_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001b/PRO_001b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1666345143"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:42768019"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382.png",
+          "sha256": "39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1341340106",
+          "rgbaSha256": "743307d828910f87026c02f808cc6ee96fafb9290e00f33d58188b927bf36d95"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7883bf1ece69a6241edb32d95e151eac3b6cef793bf0a9e6a6beda0f4ed1469a.json",
+          "sha256": "7883bf1ece69a6241edb32d95e151eac3b6cef793bf0a9e6a6beda0f4ed1469a",
+          "source": "cab-premiummaterials0:240680421"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "도적은 뒤를 치지...",
+            "CardTextInHand": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001b\">\n  <MasterPower>de8cb346-c077-4e41-8154-cabc6c2dac90</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Rogues Do It...</enUS>\n    <zhTW>盜賊愛從...</zhTW>\n    <zhCN>潜行者的伎俩</zhCN>\n    <ruRU>«Rogues Do It...»</ruRU>\n    <ptBR>Coisa de Ladino</ptBR>\n    <plPL>Łotrzy robią to...</plPL>\n    <koKR>도적은 뒤를 치지...</koKR>\n    <itIT>Rogues Do It...</itIT>\n    <frFR>Les voleurs, ça vous prend...</frFR>\n    <esMX>Rogues Do It...</esMX>\n    <esES>Rogues Do It...</esES>\n    <deDE>„Rogues Do It...“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $4 damage. Draw a card.</enUS>\n    <zhTW>造成$4點傷害。抽一張牌</zhTW>\n    <zhCN>造成$4点伤害。抽一张牌。</zhCN>\n    <ruRU>Наносит $4 ед. урона. Вы берете карту.</ruRU>\n    <ptBR>Cause $4 de dano. Compre um card.</ptBR>\n    <plPL>Zadaj $4 pkt. obrażeń. Dobierz kartę.</plPL>\n    <koKR>피해를 $4 줍니다. 카드를 1장 뽑습니다.</koKR>\n    <itIT>Infligge $4 danni. Pesca una carta.</itIT>\n    <frFR>Inflige $4 |4(point,points) de dégâts. Vous piochez une carte.</frFR>\n    <esMX>Inflige $4 de daño. Roba una carta.</esMX>\n    <esES>Inflige $4 p. de daño. Roba una carta.</esES>\n    <deDE>Verursacht $4 Schaden. Zieht eine Karte.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"de8cb346-c077-4e41-8154-cabc6c2dac90\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-913286418",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001b/W7_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001b/PRO_001b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1666345143"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:42768019"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382.png",
+          "sha256": "39d9648fde6012830c544f05f9cfa201dba5d897fda4ff8a6d7afae08ef8d382",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1341340106",
+          "rgbaSha256": "743307d828910f87026c02f808cc6ee96fafb9290e00f33d58188b927bf36d95"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c95c06822e531c7cf84aed82db6c46a376aba397016e0d6656ab8d0a943e4574.json",
+          "sha256": "c95c06822e531c7cf84aed82db6c46a376aba397016e0d6656ab8d0a943e4574",
+          "source": "cab-premiummaterials0:240680421"
+        }
+      }
+    ]
+  }
 }

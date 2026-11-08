@@ -95,5 +95,449 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_323"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "피의 격노"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 187,
+              "value": 8,
+              "name": "Durability"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": null,
+            "armor": null,
+            "durability": 8,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_323w\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Blood Fury</enUS>\n    <frFR>Fureur sanguinaire</frFR>\n    <zhTW>血之烈怒</zhTW>\n    <zhCN>血怒</zhCN>\n    <ruRU>Кровавое неистовство</ruRU>\n    <ptBR>Fúria Sangrenta</ptBR>\n    <plPL>Krwawa furia</plPL>\n    <koKR>피의 격노</koKR>\n    <itIT>Furia Sanguinaria</itIT>\n    <esMX>Furia sangrienta</esMX>\n    <esES>Furia sangrienta</esES>\n    <deDE>Kochendes Blut</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"8\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "381322196",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_323w/W4_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_323w/EX1_332_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:635862111"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:61265676"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-665445396"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98.png",
+          "sha256": "79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1801549749",
+          "rgbaSha256": "27fcfb4b554a6d39bbc78f89d95897a3b3bbb6bfd35d81666a89f74cf68c6025"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/969e7e9323623bf5b4d7b41c9e26b824f2969e47fa7753207bb853d8187dc5ff.json",
+          "sha256": "969e7e9323623bf5b4d7b41c9e26b824f2969e47fa7753207bb853d8187dc5ff",
+          "source": "cab-premiummaterials0:-880539139"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "피의 격노"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 187,
+              "value": 8,
+              "name": "Durability"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": null,
+            "armor": null,
+            "durability": 8,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_323w\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Blood Fury</enUS>\n    <frFR>Fureur sanguinaire</frFR>\n    <zhTW>血之烈怒</zhTW>\n    <zhCN>血怒</zhCN>\n    <ruRU>Кровавое неистовство</ruRU>\n    <ptBR>Fúria Sangrenta</ptBR>\n    <plPL>Krwawa furia</plPL>\n    <koKR>피의 격노</koKR>\n    <itIT>Furia Sanguinaria</itIT>\n    <esMX>Furia sangrienta</esMX>\n    <esES>Furia sangrienta</esES>\n    <deDE>Kochendes Blut</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"8\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "381322196",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_323w/W4_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_323w/EX1_332_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:635862111"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:61265676"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-665445396"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98.png",
+          "sha256": "79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1801549749",
+          "rgbaSha256": "27fcfb4b554a6d39bbc78f89d95897a3b3bbb6bfd35d81666a89f74cf68c6025"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/9397b09c17ebbb74ace7a6aa15c1c2b1579a6b5ce3df5c9f2f0ef5bc0460d63a.json",
+          "sha256": "9397b09c17ebbb74ace7a6aa15c1c2b1579a6b5ce3df5c9f2f0ef5bc0460d63a",
+          "source": "cab-premiummaterials0:-880539139"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "피의 격노"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 187,
+              "value": 8,
+              "name": "Durability"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": null,
+            "armor": null,
+            "durability": 8,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_323w\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Blood Fury</enUS>\n    <frFR>Fureur sanguinaire</frFR>\n    <zhTW>血之烈怒</zhTW>\n    <zhCN>血怒</zhCN>\n    <ruRU>Кровавое неистовство</ruRU>\n    <ptBR>Fúria Sangrenta</ptBR>\n    <plPL>Krwawa furia</plPL>\n    <koKR>피의 격노</koKR>\n    <itIT>Furia Sanguinaria</itIT>\n    <esMX>Furia sangrienta</esMX>\n    <esES>Furia sangrienta</esES>\n    <deDE>Kochendes Blut</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"8\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "381322196",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_323w/W4_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_323w/EX1_332_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:635862111"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:61265676"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-665445396"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98.png",
+          "sha256": "79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1801549749",
+          "rgbaSha256": "27fcfb4b554a6d39bbc78f89d95897a3b3bbb6bfd35d81666a89f74cf68c6025"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/772257440a965d825ce08daa32ff7f9a923222b4d6dc068ac3438a1452f96612.json",
+          "sha256": "772257440a965d825ce08daa32ff7f9a923222b4d6dc068ac3438a1452f96612",
+          "source": "cab-premiummaterials0:-880539139"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "피의 격노"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 187,
+              "value": 8,
+              "name": "Durability"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": null,
+            "armor": null,
+            "durability": 8,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_323w\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Blood Fury</enUS>\n    <frFR>Fureur sanguinaire</frFR>\n    <zhTW>血之烈怒</zhTW>\n    <zhCN>血怒</zhCN>\n    <ruRU>Кровавое неистовство</ruRU>\n    <ptBR>Fúria Sangrenta</ptBR>\n    <plPL>Krwawa furia</plPL>\n    <koKR>피의 격노</koKR>\n    <itIT>Furia Sanguinaria</itIT>\n    <esMX>Furia sangrienta</esMX>\n    <esES>Furia sangrienta</esES>\n    <deDE>Kochendes Blut</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"8\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "381322196",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_323w/W4_038_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_323w/EX1_332_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:635862111"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:61265676"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-665445396"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98.png",
+          "sha256": "79e4c14a8d4afc515703ff2f253f639b31e0947f4472b10abe5044c5e0439a98",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1801549749",
+          "rgbaSha256": "27fcfb4b554a6d39bbc78f89d95897a3b3bbb6bfd35d81666a89f74cf68c6025"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b9230b5d8028c54a3ec3b819217503b4b1e591617514d0196c662f3f8b7f1100.json",
+          "sha256": "b9230b5d8028c54a3ec3b819217503b4b1e591617514d0196c662f3f8b7f1100",
+          "source": "cab-premiummaterials0:-880539139"
+        }
+      }
+    ]
   }
 }

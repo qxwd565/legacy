@@ -140,5 +140,513 @@
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_112"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수리로봇",
+            "CardTextInHand": "내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Repair Bot</enUS>\n    <zhTW>修理機器人</zhTW>\n    <zhCN>修理机器人</zhCN>\n    <ruRU>Ремонтный робот</ruRU>\n    <ptBR>Robô de Reparos</ptBR>\n    <plPL>Bot naprawczy</plPL>\n    <koKR>수리로봇</koKR>\n    <itIT>Robot di Riparazione</itIT>\n    <frFR>Robot réparateur</frFR>\n    <esMX>Robot de reparación</esMX>\n    <esES>Robot de reparación</esES>\n    <deDE>Reparaturbot</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Repairin'</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, restore 6 Health to a damaged character.</enUS>\n    <zhTW>你的回合結束時，為一個受傷角色恢復6點生命值</zhTW>\n    <zhCN>在你的回合结束时，为一个受到伤害的角色恢复6点生命值。</zhCN>\n    <ruRU>В конце вашего хода восстанавливает 6 ед. здоровья персонажу с неполным здоровьем.</ruRU>\n    <ptBR>No fim do seu turno, restaure 6 de Vida de um personagem ferido.</ptBR>\n    <plPL>Na koniec swojej tury przywróć 6 pkt. zdrowia rannej postaci.</plPL>\n    <koKR>내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다.</koKR>\n    <itIT>Alla fine del tuo turno, rigenera 6 Salute a un personaggio danneggiato.</itIT>\n    <frFR>À la fin de votre tour, rend 6 PV à un personnage blessé.</frFR>\n    <esMX>Al final de tu turno, restaura 6 de Salud a un personaje dañado.</esMX>\n    <esES>Al final de tu turno, restaura 6 p. de salud a un personaje dañado.</esES>\n    <deDE>Stellt am Ende Eures Zuges bei einem verletzten Charakter 6 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"8e845e27-d651-4bb6-915c-f7bcb18432a2\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1551398654",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka2/w2_250_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka2/Mekka2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-253259710"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-598440501"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-54569168"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853.png",
+          "sha256": "5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-518127228",
+          "rgbaSha256": "db8b0136932533d6335690d18803394d03dab4ff1bdaf2b694518a5f1698aebc"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0629f60c484981d5e109895796f4bd0157d6bbd087058f36e546e5fb4e46412a.json",
+          "sha256": "0629f60c484981d5e109895796f4bd0157d6bbd087058f36e546e5fb4e46412a",
+          "source": "cab-premiummaterials0:1623948460"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수리로봇",
+            "CardTextInHand": "내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Repair Bot</enUS>\n    <zhTW>修理機器人</zhTW>\n    <zhCN>修理机器人</zhCN>\n    <ruRU>Ремонтный робот</ruRU>\n    <ptBR>Robô de Reparos</ptBR>\n    <plPL>Bot naprawczy</plPL>\n    <koKR>수리로봇</koKR>\n    <itIT>Robot di Riparazione</itIT>\n    <frFR>Robot réparateur</frFR>\n    <esMX>Robot de reparación</esMX>\n    <esES>Robot de reparación</esES>\n    <deDE>Reparaturbot</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Repairin'</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, restore 6 Health to a damaged character.</enUS>\n    <zhTW>你的回合結束時，為一個受傷角色恢復6點生命值</zhTW>\n    <zhCN>在你的回合结束时，为一个受到伤害的角色恢复6点生命值。</zhCN>\n    <ruRU>В конце вашего хода восстанавливает 6 ед. здоровья персонажу с неполным здоровьем.</ruRU>\n    <ptBR>No fim do seu turno, restaure 6 de Vida de um personagem ferido.</ptBR>\n    <plPL>Na koniec swojej tury przywróć 6 pkt. zdrowia rannej postaci.</plPL>\n    <koKR>내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다.</koKR>\n    <itIT>Alla fine del tuo turno, rigenera 6 Salute a un personaggio danneggiato.</itIT>\n    <frFR>À la fin de votre tour, rend 6 PV à un personnage blessé.</frFR>\n    <esMX>Al final de tu turno, restaura 6 de Salud a un personaje dañado.</esMX>\n    <esES>Al final de tu turno, restaura 6 p. de salud a un personaje dañado.</esES>\n    <deDE>Stellt am Ende Eures Zuges bei einem verletzten Charakter 6 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"8e845e27-d651-4bb6-915c-f7bcb18432a2\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1551398654",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka2/w2_250_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka2/Mekka2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-253259710"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-598440501"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-54569168"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853.png",
+          "sha256": "5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-518127228",
+          "rgbaSha256": "db8b0136932533d6335690d18803394d03dab4ff1bdaf2b694518a5f1698aebc"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0f14011ffbd1cb3f9779ec67f9e0171ad09a9af190409463e23b2ec919614f88.json",
+          "sha256": "0f14011ffbd1cb3f9779ec67f9e0171ad09a9af190409463e23b2ec919614f88",
+          "source": "cab-premiummaterials0:1623948460"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수리로봇",
+            "CardTextInHand": "내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Repair Bot</enUS>\n    <zhTW>修理機器人</zhTW>\n    <zhCN>修理机器人</zhCN>\n    <ruRU>Ремонтный робот</ruRU>\n    <ptBR>Robô de Reparos</ptBR>\n    <plPL>Bot naprawczy</plPL>\n    <koKR>수리로봇</koKR>\n    <itIT>Robot di Riparazione</itIT>\n    <frFR>Robot réparateur</frFR>\n    <esMX>Robot de reparación</esMX>\n    <esES>Robot de reparación</esES>\n    <deDE>Reparaturbot</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Repairin'</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, restore 6 Health to a damaged character.</enUS>\n    <zhTW>你的回合結束時，為一個受傷角色恢復6點生命值</zhTW>\n    <zhCN>在你的回合结束时，为一个受到伤害的角色恢复6点生命值。</zhCN>\n    <ruRU>В конце вашего хода восстанавливает 6 ед. здоровья персонажу с неполным здоровьем.</ruRU>\n    <ptBR>No fim do seu turno, restaure 6 de Vida de um personagem ferido.</ptBR>\n    <plPL>Na koniec swojej tury przywróć 6 pkt. zdrowia rannej postaci.</plPL>\n    <koKR>내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다.</koKR>\n    <itIT>Alla fine del tuo turno, rigenera 6 Salute a un personaggio danneggiato.</itIT>\n    <frFR>À la fin de votre tour, rend 6 PV à un personnage blessé.</frFR>\n    <esMX>Al final de tu turno, restaura 6 de Salud a un personaje dañado.</esMX>\n    <esES>Al final de tu turno, restaura 6 p. de salud a un personaje dañado.</esES>\n    <deDE>Stellt am Ende Eures Zuges bei einem verletzten Charakter 6 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"8e845e27-d651-4bb6-915c-f7bcb18432a2\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1551398654",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka2/w2_250_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka2/Mekka2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-253259710"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-598440501"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-54569168"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853.png",
+          "sha256": "5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-518127228",
+          "rgbaSha256": "db8b0136932533d6335690d18803394d03dab4ff1bdaf2b694518a5f1698aebc"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e185d9182d19e7aa01943974997da76002beb18fda947c360e7509cec2198a12.json",
+          "sha256": "e185d9182d19e7aa01943974997da76002beb18fda947c360e7509cec2198a12",
+          "source": "cab-premiummaterials0:1623948460"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수리로봇",
+            "CardTextInHand": "내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Repair Bot</enUS>\n    <zhTW>修理機器人</zhTW>\n    <zhCN>修理机器人</zhCN>\n    <ruRU>Ремонтный робот</ruRU>\n    <ptBR>Robô de Reparos</ptBR>\n    <plPL>Bot naprawczy</plPL>\n    <koKR>수리로봇</koKR>\n    <itIT>Robot di Riparazione</itIT>\n    <frFR>Robot réparateur</frFR>\n    <esMX>Robot de reparación</esMX>\n    <esES>Robot de reparación</esES>\n    <deDE>Reparaturbot</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Repairin'</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, restore 6 Health to a damaged character.</enUS>\n    <zhTW>你的回合結束時，為一個受傷角色恢復6點生命值</zhTW>\n    <zhCN>在你的回合结束时，为一个受到伤害的角色恢复6点生命值。</zhCN>\n    <ruRU>В конце вашего хода восстанавливает 6 ед. здоровья персонажу с неполным здоровьем.</ruRU>\n    <ptBR>No fim do seu turno, restaure 6 de Vida de um personagem ferido.</ptBR>\n    <plPL>Na koniec swojej tury przywróć 6 pkt. zdrowia rannej postaci.</plPL>\n    <koKR>내 턴이 끝날 때, 피해를 입은 캐릭터 하나의 생명력을 6 회복시킵니다.</koKR>\n    <itIT>Alla fine del tuo turno, rigenera 6 Salute a un personaggio danneggiato.</itIT>\n    <frFR>À la fin de votre tour, rend 6 PV à un personnage blessé.</frFR>\n    <esMX>Al final de tu turno, restaura 6 de Salud a un personaje dañado.</esMX>\n    <esES>Al final de tu turno, restaura 6 p. de salud a un personaje dañado.</esES>\n    <deDE>Stellt am Ende Eures Zuges bei einem verletzten Charakter 6 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"8e845e27-d651-4bb6-915c-f7bcb18432a2\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1551398654",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka2/w2_250_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka2/Mekka2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-253259710"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-598440501"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-54569168"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853.png",
+          "sha256": "5c50edaa42eb7adabf2fc2431a7b3e0f1c7240ca8bc0ca864582e4c309812853",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-518127228",
+          "rgbaSha256": "db8b0136932533d6335690d18803394d03dab4ff1bdaf2b694518a5f1698aebc"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5d32653c33a91427fe651ecda3f6e17f21654b3b86af48ebb01344935a7bb69e.json",
+          "sha256": "5d32653c33a91427fe651ecda3f6e17f21654b3b86af48ebb01344935a7bb69e",
+          "source": "cab-premiummaterials0:1623948460"
+        }
+      }
+    ]
+  }
 }

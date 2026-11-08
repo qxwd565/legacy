@@ -97,5 +97,381 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_614"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "아지노스의 불꽃"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_614t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Flame of Azzinoth</enUS>\n    <zhTW>埃辛諾斯火焰</zhTW>\n    <zhCN>埃辛诺斯之焰</zhCN>\n    <ruRU>Пламя Аззинота</ruRU>\n    <ptBR>Labareda de Azzinoth</ptBR>\n    <plPL>Płomień Azzinotha</plPL>\n    <koKR>아지노스의 불꽃</koKR>\n    <itIT>Fiamma di Azzinoth</itIT>\n    <frFR>Flamme d’Azzinoth</frFR>\n    <esMX>Llama de Azzinoth</esMX>\n    <esES>Llama de Azzinoth</esES>\n    <deDE>Flamme von Azzinoth</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "208918913",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_614t/R4_050_Da.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_614t/EX1_614t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1918363018"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1004959209"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1.png",
+          "sha256": "6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1541547186",
+          "rgbaSha256": "f6438c2da9cbc53faba8c0d04c303183dbd73e3e38d696fe04e6138703dbd3a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/734278092b040c302d0a06b726d246ce1422df1fc9d878075c68e112506dead4.json",
+          "sha256": "734278092b040c302d0a06b726d246ce1422df1fc9d878075c68e112506dead4",
+          "source": "cab-premiummaterials0:378145515"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "아지노스의 불꽃"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_614t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Flame of Azzinoth</enUS>\n    <zhTW>埃辛諾斯火焰</zhTW>\n    <zhCN>埃辛诺斯之焰</zhCN>\n    <ruRU>Пламя Аззинота</ruRU>\n    <ptBR>Labareda de Azzinoth</ptBR>\n    <plPL>Płomień Azzinotha</plPL>\n    <koKR>아지노스의 불꽃</koKR>\n    <itIT>Fiamma di Azzinoth</itIT>\n    <frFR>Flamme d’Azzinoth</frFR>\n    <esMX>Llama de Azzinoth</esMX>\n    <esES>Llama de Azzinoth</esES>\n    <deDE>Flamme von Azzinoth</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "208918913",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_614t/R4_050_Da.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_614t/EX1_614t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1918363018"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1004959209"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1.png",
+          "sha256": "6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1541547186",
+          "rgbaSha256": "f6438c2da9cbc53faba8c0d04c303183dbd73e3e38d696fe04e6138703dbd3a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ad5d2361e4503cae769a609e4f06fa25f9ffd731e1a50b834b0836667848b6b0.json",
+          "sha256": "ad5d2361e4503cae769a609e4f06fa25f9ffd731e1a50b834b0836667848b6b0",
+          "source": "cab-premiummaterials0:378145515"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "아지노스의 불꽃"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_614t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Flame of Azzinoth</enUS>\n    <zhTW>埃辛諾斯火焰</zhTW>\n    <zhCN>埃辛诺斯之焰</zhCN>\n    <ruRU>Пламя Аззинота</ruRU>\n    <ptBR>Labareda de Azzinoth</ptBR>\n    <plPL>Płomień Azzinotha</plPL>\n    <koKR>아지노스의 불꽃</koKR>\n    <itIT>Fiamma di Azzinoth</itIT>\n    <frFR>Flamme d’Azzinoth</frFR>\n    <esMX>Llama de Azzinoth</esMX>\n    <esES>Llama de Azzinoth</esES>\n    <deDE>Flamme von Azzinoth</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "208918913",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_614t/R4_050_Da.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_614t/EX1_614t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1918363018"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1004959209"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1.png",
+          "sha256": "6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1541547186",
+          "rgbaSha256": "f6438c2da9cbc53faba8c0d04c303183dbd73e3e38d696fe04e6138703dbd3a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3933630165afbed9f983c53e4441cc24f0c888c9e3bddc3a88d48c318da52b39.json",
+          "sha256": "3933630165afbed9f983c53e4441cc24f0c888c9e3bddc3a88d48c318da52b39",
+          "source": "cab-premiummaterials0:378145515"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "아지노스의 불꽃"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_614t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Flame of Azzinoth</enUS>\n    <zhTW>埃辛諾斯火焰</zhTW>\n    <zhCN>埃辛诺斯之焰</zhCN>\n    <ruRU>Пламя Аззинота</ruRU>\n    <ptBR>Labareda de Azzinoth</ptBR>\n    <plPL>Płomień Azzinotha</plPL>\n    <koKR>아지노스의 불꽃</koKR>\n    <itIT>Fiamma di Azzinoth</itIT>\n    <frFR>Flamme d’Azzinoth</frFR>\n    <esMX>Llama de Azzinoth</esMX>\n    <esES>Llama de Azzinoth</esES>\n    <deDE>Flamme von Azzinoth</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "208918913",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_614t/R4_050_Da.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_614t/EX1_614t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1918363018"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1004959209"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1.png",
+          "sha256": "6d6c7af667ea70c297bf1a847cddb94be452d973c5e981868d61248d104fa7c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1541547186",
+          "rgbaSha256": "f6438c2da9cbc53faba8c0d04c303183dbd73e3e38d696fe04e6138703dbd3a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/dd6ceb79d38eed094c073bf278694a699cc43ec434bd75b0cfbf2f169426d846.json",
+          "sha256": "dd6ceb79d38eed094c073bf278694a699cc43ec434bd75b0cfbf2f169426d846",
+          "source": "cab-premiummaterials0:378145515"
+        }
+      }
+    ]
   }
 }

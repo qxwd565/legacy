@@ -118,5 +118,493 @@
       "platform": "Windows",
       "rawText": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_317"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "쓸모없는 임프",
+            "CardTextInHand": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 200,
+              "value": 15,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_317t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Worthless Imp</enUS>\n    <zhTW>沒用的小鬼</zhTW>\n    <zhCN>游荡小鬼</zhCN>\n    <ruRU>Никчемный бес</ruRU>\n    <ptBR>Diabrete Inútil</ptBR>\n    <plPL>Żałosny chochlik</plPL>\n    <koKR>쓸모없는 임프</koKR>\n    <itIT>Imp Miserabile</itIT>\n    <frFR>Diablotin sans valeur</frFR>\n    <esMX>Diablillo inútil</esMX>\n    <esES>Diablillo inútil</esES>\n    <deDE>Wertloser Wichtel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;You are out of demons! At least there are always imps...&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;你沒有惡魔了!不過至少一定有小鬼...&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;你的恶魔用完了！但至少...还有小鬼。&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;У вас больше не осталось демонов! К счастью, еще есть бесы...&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Demônios estão em falta! Pelo menos, tem sempre uns diabretes...&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Skończyły ci się demony! Ale przynajmniej zawsze masz chochliki...&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Hai finito i Demoni! Per fortuna ci sono sempre gli Imp...&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Vous n’avez plus de démons ! Heureusement, il y a toujours des diablotins...&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Te has quedado sin demonios! Por suerte siempre hay diablillos...&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Se te han acabado los demonios! Al menos siempre quedarán los diablillos...&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Euch sind die Dämonen ausgegangen! Aber zum Glück gibt es ja noch Wichtel ...&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1277520091",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_317t/w20_a067_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_317t/EX1_317t_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:19649229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-689930102"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:2060121559"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb.png",
+          "sha256": "9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1000512900",
+          "rgbaSha256": "0646550156e89b9d70ba2e4414cde9396b8f861631a16221d911701f92064bf3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c48fd6f64353852b90a6ea8c08759ae9f10533ee3439c96fe1498afb84ef8ada.json",
+          "sha256": "c48fd6f64353852b90a6ea8c08759ae9f10533ee3439c96fe1498afb84ef8ada",
+          "source": "cab-premiummaterials0:922859185"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "쓸모없는 임프",
+            "CardTextInHand": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 200,
+              "value": 15,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_317t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Worthless Imp</enUS>\n    <zhTW>沒用的小鬼</zhTW>\n    <zhCN>游荡小鬼</zhCN>\n    <ruRU>Никчемный бес</ruRU>\n    <ptBR>Diabrete Inútil</ptBR>\n    <plPL>Żałosny chochlik</plPL>\n    <koKR>쓸모없는 임프</koKR>\n    <itIT>Imp Miserabile</itIT>\n    <frFR>Diablotin sans valeur</frFR>\n    <esMX>Diablillo inútil</esMX>\n    <esES>Diablillo inútil</esES>\n    <deDE>Wertloser Wichtel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;You are out of demons! At least there are always imps...&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;你沒有惡魔了!不過至少一定有小鬼...&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;你的恶魔用完了！但至少...还有小鬼。&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;У вас больше не осталось демонов! К счастью, еще есть бесы...&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Demônios estão em falta! Pelo menos, tem sempre uns diabretes...&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Skończyły ci się demony! Ale przynajmniej zawsze masz chochliki...&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Hai finito i Demoni! Per fortuna ci sono sempre gli Imp...&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Vous n’avez plus de démons ! Heureusement, il y a toujours des diablotins...&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Te has quedado sin demonios! Por suerte siempre hay diablillos...&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Se te han acabado los demonios! Al menos siempre quedarán los diablillos...&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Euch sind die Dämonen ausgegangen! Aber zum Glück gibt es ja noch Wichtel ...&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1277520091",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_317t/w20_a067_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_317t/EX1_317t_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:19649229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-689930102"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:2060121559"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb.png",
+          "sha256": "9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1000512900",
+          "rgbaSha256": "0646550156e89b9d70ba2e4414cde9396b8f861631a16221d911701f92064bf3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/891e4d12161965dd2cbced1ee41919b75291d0c4c6d94e866591e80d7c970123.json",
+          "sha256": "891e4d12161965dd2cbced1ee41919b75291d0c4c6d94e866591e80d7c970123",
+          "source": "cab-premiummaterials0:922859185"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "쓸모없는 임프",
+            "CardTextInHand": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 200,
+              "value": 15,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_317t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Worthless Imp</enUS>\n    <zhTW>沒用的小鬼</zhTW>\n    <zhCN>游荡小鬼</zhCN>\n    <ruRU>Никчемный бес</ruRU>\n    <ptBR>Diabrete Inútil</ptBR>\n    <plPL>Żałosny chochlik</plPL>\n    <koKR>쓸모없는 임프</koKR>\n    <itIT>Imp Miserabile</itIT>\n    <frFR>Diablotin sans valeur</frFR>\n    <esMX>Diablillo inútil</esMX>\n    <esES>Diablillo inútil</esES>\n    <deDE>Wertloser Wichtel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;You are out of demons! At least there are always imps...&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;你沒有惡魔了!不過至少一定有小鬼...&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;你的恶魔用完了！但至少...还有小鬼。&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;У вас больше не осталось демонов! К счастью, еще есть бесы...&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Demônios estão em falta! Pelo menos, tem sempre uns diabretes...&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Skończyły ci się demony! Ale przynajmniej zawsze masz chochliki...&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Hai finito i Demoni! Per fortuna ci sono sempre gli Imp...&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Vous n’avez plus de démons ! Heureusement, il y a toujours des diablotins...&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Te has quedado sin demonios! Por suerte siempre hay diablillos...&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Se te han acabado los demonios! Al menos siempre quedarán los diablillos...&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Euch sind die Dämonen ausgegangen! Aber zum Glück gibt es ja noch Wichtel ...&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1277520091",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_317t/w20_a067_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_317t/EX1_317t_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:19649229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-689930102"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:2060121559"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb.png",
+          "sha256": "9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1000512900",
+          "rgbaSha256": "0646550156e89b9d70ba2e4414cde9396b8f861631a16221d911701f92064bf3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/96595b4d8a5ea98032368521a8fcf585a7b20144fcd3fc927532db58d47c166c.json",
+          "sha256": "96595b4d8a5ea98032368521a8fcf585a7b20144fcd3fc927532db58d47c166c",
+          "source": "cab-premiummaterials0:922859185"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "쓸모없는 임프",
+            "CardTextInHand": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 200,
+              "value": 15,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_317t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Worthless Imp</enUS>\n    <zhTW>沒用的小鬼</zhTW>\n    <zhCN>游荡小鬼</zhCN>\n    <ruRU>Никчемный бес</ruRU>\n    <ptBR>Diabrete Inútil</ptBR>\n    <plPL>Żałosny chochlik</plPL>\n    <koKR>쓸모없는 임프</koKR>\n    <itIT>Imp Miserabile</itIT>\n    <frFR>Diablotin sans valeur</frFR>\n    <esMX>Diablillo inútil</esMX>\n    <esES>Diablillo inútil</esES>\n    <deDE>Wertloser Wichtel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;You are out of demons! At least there are always imps...&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;你沒有惡魔了!不過至少一定有小鬼...&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;你的恶魔用完了！但至少...还有小鬼。&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;У вас больше не осталось демонов! К счастью, еще есть бесы...&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Demônios estão em falta! Pelo menos, tem sempre uns diabretes...&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Skończyły ci się demony! Ale przynajmniej zawsze masz chochliki...&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Hai finito i Demoni! Per fortuna ci sono sempre gli Imp...&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Vous n’avez plus de démons ! Heureusement, il y a toujours des diablotins...&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Te has quedado sin demonios! Por suerte siempre hay diablillos...&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Se te han acabado los demonios! Al menos siempre quedarán los diablillos...&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Euch sind die Dämonen ausgegangen! Aber zum Glück gibt es ja noch Wichtel ...&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1277520091",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_317t/w20_a067_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_317t/EX1_317t_PremiumCard_new.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:19649229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-689930102"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:2060121559"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb.png",
+          "sha256": "9c0de60df33e70930b4af8eda42bbafe248a30e1fd17e984c4a5d24c60e2ccdb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1000512900",
+          "rgbaSha256": "0646550156e89b9d70ba2e4414cde9396b8f861631a16221d911701f92064bf3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/dfe8e378b0c9524f65b5ca5ba09291b1024ab5257726ca60e2471caf119908c9.json",
+          "sha256": "dfe8e378b0c9524f65b5ca5ba09291b1024ab5257726ca60e2471caf119908c9",
+          "source": "cab-premiummaterials0:922859185"
+        }
+      }
+    ]
+  }
 }

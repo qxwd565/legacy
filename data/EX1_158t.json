@@ -105,5 +105,489 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_158"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "나무정령"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_158t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Treant</enUS>\n    <frFR>Tréant</frFR>\n    <zhTW>樹人</zhTW>\n    <zhCN>树人</zhCN>\n    <ruRU>Древень</ruRU>\n    <ptBR>Arvoroso</ptBR>\n    <plPL>Drzewiec</plPL>\n    <koKR>나무정령</koKR>\n    <itIT>Treant</itIT>\n    <esMX>Antárbol</esMX>\n    <esES>Antárbol</esES>\n    <deDE>Treant</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "347883534",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_158t/W16_a032_D.png",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_158t/EX1_158t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-105049104"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1035407056"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1175399554"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648.png",
+          "sha256": "d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648",
+          "width": 256,
+          "height": 256,
+          "source": "cab-cardtextures1:109335416",
+          "rgbaSha256": "6711c3b98a2b3b5d3fd2e08e0a5336d672ce213e4d6b5315497b95fecaaa17fe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/df9db847dac5619591c86e780c21f615601d50eeaae51357e20e8be4455d3998.json",
+          "sha256": "df9db847dac5619591c86e780c21f615601d50eeaae51357e20e8be4455d3998",
+          "source": "cab-premiummaterials0:477653733"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "나무정령"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_158t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Treant</enUS>\n    <frFR>Tréant</frFR>\n    <zhTW>樹人</zhTW>\n    <zhCN>树人</zhCN>\n    <ruRU>Древень</ruRU>\n    <ptBR>Arvoroso</ptBR>\n    <plPL>Drzewiec</plPL>\n    <koKR>나무정령</koKR>\n    <itIT>Treant</itIT>\n    <esMX>Antárbol</esMX>\n    <esES>Antárbol</esES>\n    <deDE>Treant</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "347883534",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_158t/W16_a032_D.png",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_158t/EX1_158t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-105049104"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1035407056"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1175399554"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648.png",
+          "sha256": "d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648",
+          "width": 256,
+          "height": 256,
+          "source": "cab-cardtextures1:109335416",
+          "rgbaSha256": "6711c3b98a2b3b5d3fd2e08e0a5336d672ce213e4d6b5315497b95fecaaa17fe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f9cb6d84b727d4853928bacba4cad9de167c7a077b8a43a058e5d55de3c34a7d.json",
+          "sha256": "f9cb6d84b727d4853928bacba4cad9de167c7a077b8a43a058e5d55de3c34a7d",
+          "source": "cab-premiummaterials0:477653733"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "나무정령"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_158t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Treant</enUS>\n    <frFR>Tréant</frFR>\n    <zhTW>樹人</zhTW>\n    <zhCN>树人</zhCN>\n    <ruRU>Древень</ruRU>\n    <ptBR>Arvoroso</ptBR>\n    <plPL>Drzewiec</plPL>\n    <koKR>나무정령</koKR>\n    <itIT>Treant</itIT>\n    <esMX>Antárbol</esMX>\n    <esES>Antárbol</esES>\n    <deDE>Treant</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "347883534",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_158t/W16_a032_D.png",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_158t/EX1_158t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-105049104"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1035407056"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1175399554"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648.png",
+          "sha256": "d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648",
+          "width": 256,
+          "height": 256,
+          "source": "cab-cardtextures1:109335416",
+          "rgbaSha256": "6711c3b98a2b3b5d3fd2e08e0a5336d672ce213e4d6b5315497b95fecaaa17fe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d65e2f358129cdf31598511b3c3b7b2404bcc3d2164b2a57413b52cfa05aa66b.json",
+          "sha256": "d65e2f358129cdf31598511b3c3b7b2404bcc3d2164b2a57413b52cfa05aa66b",
+          "source": "cab-premiummaterials0:477653733"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "나무정령"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_158t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Treant</enUS>\n    <frFR>Tréant</frFR>\n    <zhTW>樹人</zhTW>\n    <zhCN>树人</zhCN>\n    <ruRU>Древень</ruRU>\n    <ptBR>Arvoroso</ptBR>\n    <plPL>Drzewiec</plPL>\n    <koKR>나무정령</koKR>\n    <itIT>Treant</itIT>\n    <esMX>Antárbol</esMX>\n    <esES>Antárbol</esES>\n    <deDE>Treant</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "347883534",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_158t/W16_a032_D.png",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_158t/EX1_158t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-105049104"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1035407056"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1175399554"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648.png",
+          "sha256": "d8012a7177c38d44973e232eaa06b039cc59a92f632a40acf9a034a229ae8648",
+          "width": 256,
+          "height": 256,
+          "source": "cab-cardtextures1:109335416",
+          "rgbaSha256": "6711c3b98a2b3b5d3fd2e08e0a5336d672ce213e4d6b5315497b95fecaaa17fe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6ef83a86383e1a49d6980a901984ac0d3b599a0262b676b1ec9433331f824b53.json",
+          "sha256": "6ef83a86383e1a49d6980a901984ac0d3b599a0262b676b1ec9433331f824b53",
+          "source": "cab-premiummaterials0:477653733"
+        }
+      }
+    ]
   }
 }

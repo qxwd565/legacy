@@ -140,5 +140,513 @@
       "platform": "Windows",
       "rawText": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_112"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꼬꼬댁 변신장치",
+            "CardTextInHand": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Poultryizer</enUS>\n    <zhTW>變形器</zhTW>\n    <zhCN>变鸡器</zhCN>\n    <ruRU>Птицефикатор</ruRU>\n    <ptBR>Galinhaitor</ptBR>\n    <plPL>Drobiozator</plPL>\n    <koKR>꼬꼬댁 변신장치</koKR>\n    <itIT>Pollizzatore</itIT>\n    <frFR>Pouletisateur</frFR>\n    <esMX>Pollotizador</esMX>\n    <esES>Pollificador</esES>\n    <deDE>Geflügelisierer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Poultryizing</enUS>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>\n    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞</zhTW>\n    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>\n    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>\n    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>\n    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>\n    <koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>\n    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>\n    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>\n    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>\n    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>\n    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"391ed733-5e17-4c84-bd7a-00f4f5293de5\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "331858284",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4/W14_a202_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4/Mekka4_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:927530012"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1083426171"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1083888643"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8.png",
+          "sha256": "1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:305017161",
+          "rgbaSha256": "3697c8d3d31755b9c8d427cf5f2d2b085eaf42554d49272778abefb2aab3fa9b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/17c90fea3ed0b0ea99df624514d15a9cf77918b8408a33c2b4bb678da0340b71.json",
+          "sha256": "17c90fea3ed0b0ea99df624514d15a9cf77918b8408a33c2b4bb678da0340b71",
+          "source": "cab-premiummaterials0:379014395"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꼬꼬댁 변신장치",
+            "CardTextInHand": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Poultryizer</enUS>\n    <zhTW>變形器</zhTW>\n    <zhCN>变鸡器</zhCN>\n    <ruRU>Птицефикатор</ruRU>\n    <ptBR>Galinhaitor</ptBR>\n    <plPL>Drobiozator</plPL>\n    <koKR>꼬꼬댁 변신장치</koKR>\n    <itIT>Pollizzatore</itIT>\n    <frFR>Pouletisateur</frFR>\n    <esMX>Pollotizador</esMX>\n    <esES>Pollificador</esES>\n    <deDE>Geflügelisierer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Poultryizing</enUS>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>\n    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞</zhTW>\n    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>\n    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>\n    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>\n    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>\n    <koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>\n    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>\n    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>\n    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>\n    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>\n    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"391ed733-5e17-4c84-bd7a-00f4f5293de5\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "331858284",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4/W14_a202_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4/Mekka4_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:927530012"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1083426171"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1083888643"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8.png",
+          "sha256": "1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:305017161",
+          "rgbaSha256": "3697c8d3d31755b9c8d427cf5f2d2b085eaf42554d49272778abefb2aab3fa9b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/62ff60608e4f3a789926fb49588477343ab1b0f1e8de3c5ed14464094444f53b.json",
+          "sha256": "62ff60608e4f3a789926fb49588477343ab1b0f1e8de3c5ed14464094444f53b",
+          "source": "cab-premiummaterials0:379014395"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꼬꼬댁 변신장치",
+            "CardTextInHand": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Poultryizer</enUS>\n    <zhTW>變形器</zhTW>\n    <zhCN>变鸡器</zhCN>\n    <ruRU>Птицефикатор</ruRU>\n    <ptBR>Galinhaitor</ptBR>\n    <plPL>Drobiozator</plPL>\n    <koKR>꼬꼬댁 변신장치</koKR>\n    <itIT>Pollizzatore</itIT>\n    <frFR>Pouletisateur</frFR>\n    <esMX>Pollotizador</esMX>\n    <esES>Pollificador</esES>\n    <deDE>Geflügelisierer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Poultryizing</enUS>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>\n    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞</zhTW>\n    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>\n    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>\n    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>\n    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>\n    <koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>\n    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>\n    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>\n    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>\n    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>\n    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"391ed733-5e17-4c84-bd7a-00f4f5293de5\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "331858284",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4/W14_a202_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4/Mekka4_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:927530012"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1083426171"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1083888643"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8.png",
+          "sha256": "1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:305017161",
+          "rgbaSha256": "3697c8d3d31755b9c8d427cf5f2d2b085eaf42554d49272778abefb2aab3fa9b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ede24f3197d8cff20c8f0477609144972307d7874db0f427258e0a2f4492756b.json",
+          "sha256": "ede24f3197d8cff20c8f0477609144972307d7874db0f427258e0a2f4492756b",
+          "source": "cab-premiummaterials0:379014395"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꼬꼬댁 변신장치",
+            "CardTextInHand": "내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 3,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 3,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Poultryizer</enUS>\n    <zhTW>變形器</zhTW>\n    <zhCN>变鸡器</zhCN>\n    <ruRU>Птицефикатор</ruRU>\n    <ptBR>Galinhaitor</ptBR>\n    <plPL>Drobiozator</plPL>\n    <koKR>꼬꼬댁 변신장치</koKR>\n    <itIT>Pollizzatore</itIT>\n    <frFR>Pouletisateur</frFR>\n    <esMX>Pollotizador</esMX>\n    <esES>Pollificador</esES>\n    <deDE>Geflügelisierer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Poultryizing</enUS>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>\n    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞</zhTW>\n    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>\n    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>\n    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>\n    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>\n    <koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>\n    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>\n    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>\n    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>\n    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>\n    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"391ed733-5e17-4c84-bd7a-00f4f5293de5\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"True\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "331858284",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4/W14_a202_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4/Mekka4_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:927530012"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1083426171"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1083888643"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8.png",
+          "sha256": "1f22b735883fb9b5f8e082887ae74b15f8f03dafe32e8473b00ca93d7e69a2c8",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:305017161",
+          "rgbaSha256": "3697c8d3d31755b9c8d427cf5f2d2b085eaf42554d49272778abefb2aab3fa9b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/cd6328313ea7cb5c1abeb980f76a73181aea529e89bcc5044a0976979832bb4a.json",
+          "sha256": "cd6328313ea7cb5c1abeb980f76a73181aea529e89bcc5044a0976979832bb4a",
+          "source": "cab-premiummaterials0:379014395"
+        }
+      }
+    ]
+  }
 }

@@ -116,5 +116,453 @@
       "platform": "Windows",
       "rawText": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_572"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "미소 띤 자매",
+            "CardTextInHand": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 5,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": 5,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_01\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Laughing Sister</enUS>\n    <frFR>Sœur rieuse</frFR>\n    <zhTW>歡笑之女</zhTW>\n    <zhCN>欢笑的姐妹</zhCN>\n    <ruRU>Смеющаяся сестра</ruRU>\n    <ptBR>Irmã Risonha</ptBR>\n    <plPL>Drwiąca siostra</plPL>\n    <koKR>미소 띤 자매</koKR>\n    <itIT>Sorella Ridente</itIT>\n    <esMX>Hermana sonriente</esMX>\n    <esES>Hermana sonriente</esES>\n    <deDE>Lachende Schwester</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>\n    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>\n    <zhTW>無法被法術或英雄能力指定</zhTW>\n    <zhCN>无法成为法术或英雄技能的目标。</zhCN>\n    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>\n    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>\n    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>\n    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>\n    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>\n    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>\n    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>\n    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>\n  </Tag>\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Quick</enUS>\n  </Tag>\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"1eb2145c-6736-4f1e-b785-cc8ddc248faa\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1600296954",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_01/W17_a035_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_01/DREAM_01_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1707845884"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-351631603"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1530767850"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e.png",
+          "sha256": "9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1788802895",
+          "rgbaSha256": "5807ad9485e753306a093ed5938e3b818ca549fd1b748e2de548ad72ddab21bf"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/74e3ccb3ccce5624b7521ab7018edf067cdcac53adf74e390bbf7a819448564e.json",
+          "sha256": "74e3ccb3ccce5624b7521ab7018edf067cdcac53adf74e390bbf7a819448564e",
+          "source": "cab-premiummaterials0:932093625"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "미소 띤 자매",
+            "CardTextInHand": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 5,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": 5,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_01\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Laughing Sister</enUS>\n    <frFR>Sœur rieuse</frFR>\n    <zhTW>歡笑之女</zhTW>\n    <zhCN>欢笑的姐妹</zhCN>\n    <ruRU>Смеющаяся сестра</ruRU>\n    <ptBR>Irmã Risonha</ptBR>\n    <plPL>Drwiąca siostra</plPL>\n    <koKR>미소 띤 자매</koKR>\n    <itIT>Sorella Ridente</itIT>\n    <esMX>Hermana sonriente</esMX>\n    <esES>Hermana sonriente</esES>\n    <deDE>Lachende Schwester</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>\n    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>\n    <zhTW>無法被法術或英雄能力指定</zhTW>\n    <zhCN>无法成为法术或英雄技能的目标。</zhCN>\n    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>\n    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>\n    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>\n    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>\n    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>\n    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>\n    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>\n    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>\n  </Tag>\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Quick</enUS>\n  </Tag>\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"1eb2145c-6736-4f1e-b785-cc8ddc248faa\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1600296954",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_01/W17_a035_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_01/DREAM_01_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1707845884"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-351631603"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1530767850"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e.png",
+          "sha256": "9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1788802895",
+          "rgbaSha256": "5807ad9485e753306a093ed5938e3b818ca549fd1b748e2de548ad72ddab21bf"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ac988509484bd60d7a8ec3d41e1a1c6e9b492bd45039c86402c6abc563f633e7.json",
+          "sha256": "ac988509484bd60d7a8ec3d41e1a1c6e9b492bd45039c86402c6abc563f633e7",
+          "source": "cab-premiummaterials0:932093625"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "미소 띤 자매",
+            "CardTextInHand": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 5,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": 5,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_01\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Laughing Sister</enUS>\n    <frFR>Sœur rieuse</frFR>\n    <zhTW>歡笑之女</zhTW>\n    <zhCN>欢笑的姐妹</zhCN>\n    <ruRU>Смеющаяся сестра</ruRU>\n    <ptBR>Irmã Risonha</ptBR>\n    <plPL>Drwiąca siostra</plPL>\n    <koKR>미소 띤 자매</koKR>\n    <itIT>Sorella Ridente</itIT>\n    <esMX>Hermana sonriente</esMX>\n    <esES>Hermana sonriente</esES>\n    <deDE>Lachende Schwester</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>\n    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>\n    <zhTW>無法被法術或英雄能力指定</zhTW>\n    <zhCN>无法成为法术或英雄技能的目标。</zhCN>\n    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>\n    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>\n    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>\n    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>\n    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>\n    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>\n    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>\n    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>\n  </Tag>\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Quick</enUS>\n  </Tag>\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"1eb2145c-6736-4f1e-b785-cc8ddc248faa\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1600296954",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_01/W17_a035_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_01/DREAM_01_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1707845884"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-351631603"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1530767850"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e.png",
+          "sha256": "9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1788802895",
+          "rgbaSha256": "5807ad9485e753306a093ed5938e3b818ca549fd1b748e2de548ad72ddab21bf"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/cb026ae43a4cc94c8df0af580ae75b44e6b518f2a7b01039846055cb66ff0247.json",
+          "sha256": "cb026ae43a4cc94c8df0af580ae75b44e6b518f2a7b01039846055cb66ff0247",
+          "source": "cab-premiummaterials0:932093625"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "미소 띤 자매",
+            "CardTextInHand": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 3,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 5,
+              "name": "Health"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 3,
+            "health": 5,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_01\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Laughing Sister</enUS>\n    <frFR>Sœur rieuse</frFR>\n    <zhTW>歡笑之女</zhTW>\n    <zhCN>欢笑的姐妹</zhCN>\n    <ruRU>Смеющаяся сестра</ruRU>\n    <ptBR>Irmã Risonha</ptBR>\n    <plPL>Drwiąca siostra</plPL>\n    <koKR>미소 띤 자매</koKR>\n    <itIT>Sorella Ridente</itIT>\n    <esMX>Hermana sonriente</esMX>\n    <esES>Hermana sonriente</esES>\n    <deDE>Lachende Schwester</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>\n    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>\n    <zhTW>無法被法術或英雄能力指定</zhTW>\n    <zhCN>无法成为法术或英雄技能的目标。</zhCN>\n    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>\n    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>\n    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>\n    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>\n    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>\n    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>\n    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>\n    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>\n  </Tag>\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Quick</enUS>\n  </Tag>\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"1eb2145c-6736-4f1e-b785-cc8ddc248faa\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1600296954",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_01/W17_a035_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_01/DREAM_01_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1707845884"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-351631603"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1530767850"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e.png",
+          "sha256": "9ab9899b2610016202e89ff225e1e8da11bd18f39c0ce6675a04bdccee998e5e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:1788802895",
+          "rgbaSha256": "5807ad9485e753306a093ed5938e3b818ca549fd1b748e2de548ad72ddab21bf"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ade82e1f2c5f3b148c6c1ef7f0d358f11d181a028cb221ef4cce990a678f3c32.json",
+          "sha256": "ade82e1f2c5f3b148c6c1ef7f0d358f11d181a028cb221ef4cce990a678f3c32",
+          "source": "cab-premiummaterials0:932093625"
+        }
+      }
+    ]
+  }
 }

@@ -107,5 +107,509 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_083"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "다람쥐"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk28\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Squirrel</enUS>\n    <frFR>Écureuil</frFR>\n    <zhTW>松鼠</zhTW>\n    <zhCN>松鼠</zhCN>\n    <ruRU>Белка</ruRU>\n    <ptBR>Esquilo</ptBR>\n    <plPL>Wiewiórka</plPL>\n    <koKR>다람쥐</koKR>\n    <itIT>Scoiattolo</itIT>\n    <esMX>Ardilla</esMX>\n    <esES>Ardilla</esES>\n    <deDE>Eichhörnchen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-591759771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk28/W2_416_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk28/EX1_tk28_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1251279314"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1509204198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1696671957"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793.png",
+          "sha256": "8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1652642463",
+          "rgbaSha256": "3b6872b627215d0cf2be9a23f9fca735627fb3845dc7502709a85e59704e8491"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c70f409fa92d85ca2d5163973811fb3aeb395a01707924e46a43c7d2ebb03f12.json",
+          "sha256": "c70f409fa92d85ca2d5163973811fb3aeb395a01707924e46a43c7d2ebb03f12",
+          "source": "cab-premiummaterials0:2067507883"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "다람쥐"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk28\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Squirrel</enUS>\n    <frFR>Écureuil</frFR>\n    <zhTW>松鼠</zhTW>\n    <zhCN>松鼠</zhCN>\n    <ruRU>Белка</ruRU>\n    <ptBR>Esquilo</ptBR>\n    <plPL>Wiewiórka</plPL>\n    <koKR>다람쥐</koKR>\n    <itIT>Scoiattolo</itIT>\n    <esMX>Ardilla</esMX>\n    <esES>Ardilla</esES>\n    <deDE>Eichhörnchen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-591759771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk28/W2_416_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk28/EX1_tk28_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1251279314"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1509204198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1696671957"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793.png",
+          "sha256": "8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1652642463",
+          "rgbaSha256": "3b6872b627215d0cf2be9a23f9fca735627fb3845dc7502709a85e59704e8491"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/088703fe809c9a5b962249c60e36b38e291bddd7b86bd24eb639a38526e7ed06.json",
+          "sha256": "088703fe809c9a5b962249c60e36b38e291bddd7b86bd24eb639a38526e7ed06",
+          "source": "cab-premiummaterials0:2067507883"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "다람쥐"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk28\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Squirrel</enUS>\n    <frFR>Écureuil</frFR>\n    <zhTW>松鼠</zhTW>\n    <zhCN>松鼠</zhCN>\n    <ruRU>Белка</ruRU>\n    <ptBR>Esquilo</ptBR>\n    <plPL>Wiewiórka</plPL>\n    <koKR>다람쥐</koKR>\n    <itIT>Scoiattolo</itIT>\n    <esMX>Ardilla</esMX>\n    <esES>Ardilla</esES>\n    <deDE>Eichhörnchen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-591759771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk28/W2_416_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk28/EX1_tk28_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1251279314"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1509204198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1696671957"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793.png",
+          "sha256": "8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1652642463",
+          "rgbaSha256": "3b6872b627215d0cf2be9a23f9fca735627fb3845dc7502709a85e59704e8491"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5062618f140343dc1854f5b7c1b29408fff68c95eefdd71d9fe38be74325f4e1.json",
+          "sha256": "5062618f140343dc1854f5b7c1b29408fff68c95eefdd71d9fe38be74325f4e1",
+          "source": "cab-premiummaterials0:2067507883"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "다람쥐"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk28\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Squirrel</enUS>\n    <frFR>Écureuil</frFR>\n    <zhTW>松鼠</zhTW>\n    <zhCN>松鼠</zhCN>\n    <ruRU>Белка</ruRU>\n    <ptBR>Esquilo</ptBR>\n    <plPL>Wiewiórka</plPL>\n    <koKR>다람쥐</koKR>\n    <itIT>Scoiattolo</itIT>\n    <esMX>Ardilla</esMX>\n    <esES>Ardilla</esES>\n    <deDE>Eichhörnchen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-591759771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk28/W2_416_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk28/EX1_tk28_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1251279314"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1509204198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1696671957"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793.png",
+          "sha256": "8b4ed7f129803491dc779073d6219b993c1d3c78d7919fd3a49608e327f2d793",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1652642463",
+          "rgbaSha256": "3b6872b627215d0cf2be9a23f9fca735627fb3845dc7502709a85e59704e8491"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ce899c2d8e3b6558a2cbd6499cbbfd3c9146583aef19428ee1fd86dff23204e4.json",
+          "sha256": "ce899c2d8e3b6558a2cbd6499cbbfd3c9146583aef19428ee1fd86dff23204e4",
+          "source": "cab-premiummaterials0:2067507883"
+        }
+      }
+    ]
   }
 }

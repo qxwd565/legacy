@@ -112,5 +112,449 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_025"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "소형 기계용"
+          },
+          "tags": [
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_025t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mechanical Dragonling</enUS>\n    <frFR>Petit dragon mécanique</frFR>\n    <zhTW>機械幼龍</zhTW>\n    <zhCN>机械幼龙</zhCN>\n    <ruRU>Механодракончик</ruRU>\n    <ptBR>Dragonete Mecânico</ptBR>\n    <plPL>Mechaniczny smokor</plPL>\n    <koKR>소형 기계용</koKR>\n    <itIT>Minidrago Meccanico</itIT>\n    <esMX>Dragonizo mecánico</esMX>\n    <esES>Dragonizo mecánico</esES>\n    <deDE>Mechanischer Drachling</deDE>\n  </Tag>\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1595611879",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/EX1_025t/W6_236_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/EX1_025t/EX1_025t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2139548229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:197955646"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-265500391"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c.png",
+          "sha256": "2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:28329156",
+          "rgbaSha256": "c1656b7b236159639e08d5b4b369c8950601a445942e0a706787e5bb136f21b4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/eb09670434e645f19c0d1a878fd9a46e2d62c97a4491c10a3b05de73a771c6c0.json",
+          "sha256": "eb09670434e645f19c0d1a878fd9a46e2d62c97a4491c10a3b05de73a771c6c0",
+          "source": "cab-premiummaterials0:-1652123451"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "소형 기계용"
+          },
+          "tags": [
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_025t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mechanical Dragonling</enUS>\n    <frFR>Petit dragon mécanique</frFR>\n    <zhTW>機械幼龍</zhTW>\n    <zhCN>机械幼龙</zhCN>\n    <ruRU>Механодракончик</ruRU>\n    <ptBR>Dragonete Mecânico</ptBR>\n    <plPL>Mechaniczny smokor</plPL>\n    <koKR>소형 기계용</koKR>\n    <itIT>Minidrago Meccanico</itIT>\n    <esMX>Dragonizo mecánico</esMX>\n    <esES>Dragonizo mecánico</esES>\n    <deDE>Mechanischer Drachling</deDE>\n  </Tag>\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1595611879",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/EX1_025t/W6_236_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/EX1_025t/EX1_025t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2139548229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:197955646"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-265500391"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c.png",
+          "sha256": "2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:28329156",
+          "rgbaSha256": "c1656b7b236159639e08d5b4b369c8950601a445942e0a706787e5bb136f21b4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4b83dd716f19ba8c39470754d9f53314d30cd5372ce08376c10c549236b09438.json",
+          "sha256": "4b83dd716f19ba8c39470754d9f53314d30cd5372ce08376c10c549236b09438",
+          "source": "cab-premiummaterials0:-1652123451"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "소형 기계용"
+          },
+          "tags": [
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_025t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mechanical Dragonling</enUS>\n    <frFR>Petit dragon mécanique</frFR>\n    <zhTW>機械幼龍</zhTW>\n    <zhCN>机械幼龙</zhCN>\n    <ruRU>Механодракончик</ruRU>\n    <ptBR>Dragonete Mecânico</ptBR>\n    <plPL>Mechaniczny smokor</plPL>\n    <koKR>소형 기계용</koKR>\n    <itIT>Minidrago Meccanico</itIT>\n    <esMX>Dragonizo mecánico</esMX>\n    <esES>Dragonizo mecánico</esES>\n    <deDE>Mechanischer Drachling</deDE>\n  </Tag>\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1595611879",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/EX1_025t/W6_236_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/EX1_025t/EX1_025t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2139548229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:197955646"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-265500391"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c.png",
+          "sha256": "2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:28329156",
+          "rgbaSha256": "c1656b7b236159639e08d5b4b369c8950601a445942e0a706787e5bb136f21b4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/dba5841c6ebae0139f6f1bf3917642bedd11f90d3f30747a62ce42517b50b99c.json",
+          "sha256": "dba5841c6ebae0139f6f1bf3917642bedd11f90d3f30747a62ce42517b50b99c",
+          "source": "cab-premiummaterials0:-1652123451"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "소형 기계용"
+          },
+          "tags": [
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_025t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mechanical Dragonling</enUS>\n    <frFR>Petit dragon mécanique</frFR>\n    <zhTW>機械幼龍</zhTW>\n    <zhCN>机械幼龙</zhCN>\n    <ruRU>Механодракончик</ruRU>\n    <ptBR>Dragonete Mecânico</ptBR>\n    <plPL>Mechaniczny smokor</plPL>\n    <koKR>소형 기계용</koKR>\n    <itIT>Minidrago Meccanico</itIT>\n    <esMX>Dragonizo mecánico</esMX>\n    <esES>Dragonizo mecánico</esES>\n    <deDE>Mechanischer Drachling</deDE>\n  </Tag>\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1595611879",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/EX1_025t/W6_236_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/EX1_025t/EX1_025t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2139548229"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:197955646"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-265500391"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c.png",
+          "sha256": "2809762f06dbd47ef2c0f3cd33274a228d21487d90695b9f5ad2961826b13e1c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:28329156",
+          "rgbaSha256": "c1656b7b236159639e08d5b4b369c8950601a445942e0a706787e5bb136f21b4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e3e083a9ecbf72ed5ffbd35cbc110c2246aa1591f7cbc3762b751c18cd5b177c.json",
+          "sha256": "e3e083a9ecbf72ed5ffbd35cbc110c2246aa1591f7cbc3762b751c18cd5b177c",
+          "source": "cab-premiummaterials0:-1652123451"
+        }
+      }
+    ]
   }
 }

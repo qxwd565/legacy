@@ -123,5 +123,453 @@
       "platform": "Windows",
       "rawText": "하수인 하나를 <b>침묵</b>시킵니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_166"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무효화",
+            "CardTextInHand": "하수인 하나를 <b>침묵</b>시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 339,
+              "value": 1,
+              "name": "Silence"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166b\">\n  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dispel</enUS>\n    <frFR>Dissipation</frFR>\n    <zhTW>驅散</zhTW>\n    <zhCN>禁魔</zhCN>\n    <ruRU>Рассеивание</ruRU>\n    <ptBR>Dissipar</ptBR>\n    <plPL>Rozproszenie</plPL>\n    <koKR>무효화</koKR>\n    <itIT>Dissoluzione</itIT>\n    <esMX>Disipar</esMX>\n    <esES>Disipar</esES>\n    <deDE>Bannen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>\n    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>\n    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>\n    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>\n    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>\n    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>\n    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>\n    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>\n    <itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>\n    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>\n    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>\n    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Silence\" enumID=\"339\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"963b5b27-818e-4915-815d-c7fc3a1c330e\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1941290957",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166b/W12_A006(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166b/EX1_166b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:385840055"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-2034001335"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1731034980"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7.png",
+          "sha256": "7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1756745911",
+          "rgbaSha256": "343271b1dd3a915df41802ca707be48fb21531961c26dfb8f047ca8702c9568f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/caa22763d225ea4ba68bf42897fe7c4bb1e28b17f54bfe00c9e79ddab6af052b.json",
+          "sha256": "caa22763d225ea4ba68bf42897fe7c4bb1e28b17f54bfe00c9e79ddab6af052b",
+          "source": "cab-premiummaterials0:-462060151"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무효화",
+            "CardTextInHand": "하수인 하나를 <b>침묵</b>시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 339,
+              "value": 1,
+              "name": "Silence"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166b\">\n  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dispel</enUS>\n    <frFR>Dissipation</frFR>\n    <zhTW>驅散</zhTW>\n    <zhCN>禁魔</zhCN>\n    <ruRU>Рассеивание</ruRU>\n    <ptBR>Dissipar</ptBR>\n    <plPL>Rozproszenie</plPL>\n    <koKR>무효화</koKR>\n    <itIT>Dissoluzione</itIT>\n    <esMX>Disipar</esMX>\n    <esES>Disipar</esES>\n    <deDE>Bannen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>\n    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>\n    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>\n    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>\n    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>\n    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>\n    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>\n    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>\n    <itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>\n    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>\n    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>\n    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Silence\" enumID=\"339\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"963b5b27-818e-4915-815d-c7fc3a1c330e\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1941290957",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166b/W12_A006(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166b/EX1_166b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:385840055"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-2034001335"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1731034980"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7.png",
+          "sha256": "7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1756745911",
+          "rgbaSha256": "343271b1dd3a915df41802ca707be48fb21531961c26dfb8f047ca8702c9568f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0aabe0a5b844a8ebfe889466e42d45ebe3e7b46336880fd5ae318226336a5734.json",
+          "sha256": "0aabe0a5b844a8ebfe889466e42d45ebe3e7b46336880fd5ae318226336a5734",
+          "source": "cab-premiummaterials0:-462060151"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무효화",
+            "CardTextInHand": "하수인 하나를 <b>침묵</b>시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 339,
+              "value": 1,
+              "name": "Silence"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166b\">\n  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dispel</enUS>\n    <frFR>Dissipation</frFR>\n    <zhTW>驅散</zhTW>\n    <zhCN>禁魔</zhCN>\n    <ruRU>Рассеивание</ruRU>\n    <ptBR>Dissipar</ptBR>\n    <plPL>Rozproszenie</plPL>\n    <koKR>무효화</koKR>\n    <itIT>Dissoluzione</itIT>\n    <esMX>Disipar</esMX>\n    <esES>Disipar</esES>\n    <deDE>Bannen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>\n    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>\n    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>\n    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>\n    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>\n    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>\n    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>\n    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>\n    <itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>\n    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>\n    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>\n    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Silence\" enumID=\"339\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"963b5b27-818e-4915-815d-c7fc3a1c330e\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1941290957",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166b/W12_A006(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166b/EX1_166b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:385840055"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-2034001335"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1731034980"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7.png",
+          "sha256": "7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1756745911",
+          "rgbaSha256": "343271b1dd3a915df41802ca707be48fb21531961c26dfb8f047ca8702c9568f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7e54be53caf513c9e08516797fac5528b3b5bd531fe44b3de5d152bb88320b73.json",
+          "sha256": "7e54be53caf513c9e08516797fac5528b3b5bd531fe44b3de5d152bb88320b73",
+          "source": "cab-premiummaterials0:-462060151"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무효화",
+            "CardTextInHand": "하수인 하나를 <b>침묵</b>시킵니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 339,
+              "value": 1,
+              "name": "Silence"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166b\">\n  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dispel</enUS>\n    <frFR>Dissipation</frFR>\n    <zhTW>驅散</zhTW>\n    <zhCN>禁魔</zhCN>\n    <ruRU>Рассеивание</ruRU>\n    <ptBR>Dissipar</ptBR>\n    <plPL>Rozproszenie</plPL>\n    <koKR>무효화</koKR>\n    <itIT>Dissoluzione</itIT>\n    <esMX>Disipar</esMX>\n    <esES>Disipar</esES>\n    <deDE>Bannen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>\n    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>\n    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>\n    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>\n    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>\n    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>\n    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>\n    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>\n    <itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>\n    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>\n    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>\n    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Silence\" enumID=\"339\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"963b5b27-818e-4915-815d-c7fc3a1c330e\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "1941290957",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166b/W12_A006(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166b/EX1_166b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:385840055"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-2034001335"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1731034980"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7.png",
+          "sha256": "7d1c66df9073e12b47483702caced26c739b1959b6b689deb77ae522dfaae0a7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1756745911",
+          "rgbaSha256": "343271b1dd3a915df41802ca707be48fb21531961c26dfb8f047ca8702c9568f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/76b4d7261d1b31cb5632e3a514d4445712eda28eafeca628d82fa0cf90583091.json",
+          "sha256": "76b4d7261d1b31cb5632e3a514d4445712eda28eafeca628d82fa0cf90583091",
+          "source": "cab-premiummaterials0:-462060151"
+        }
+      }
+    ]
+  }
 }

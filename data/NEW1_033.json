@@ -118,5 +118,485 @@
       "platform": "Windows",
       "rawText": "다른 아군 하수인들이 공격력을 +1 얻습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "NEW1_031"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "레오크",
+            "CardTextInHand": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_033\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leokk</enUS>\n    <frFR>Leokk</frFR>\n    <zhTW>里奧克</zhTW>\n    <zhCN>雷欧克</zhCN>\n    <ruRU>Леокк</ruRU>\n    <ptBR>Leokk</ptBR>\n    <plPL>Leok</plPL>\n    <koKR>레오크</koKR>\n    <itIT>Leokk</itIT>\n    <esMX>Leokk</esMX>\n    <esES>Leokk</esES>\n    <deDE>Leokk</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Other friendly minions have +1 Attack.</enUS>\n    <frFR>Les autres serviteurs alliés ont +1 ATQ.</frFR>\n    <zhTW>其他友方手下擁有+1攻擊力</zhTW>\n    <zhCN>其他友方随从获得+1攻击力。</zhCN>\n    <ruRU>Прочие ваши существа получают +1 к атаке.</ruRU>\n    <ptBR>Outros lacaios aliados têm +1 de Ataque.</ptBR>\n    <plPL>Pozostali przyjaźni stronnicy otrzymują +1 do ataku.</plPL>\n    <koKR>다른 아군 하수인들이 공격력을 +1 얻습니다.</koKR>\n    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>\n    <esMX>Los otros esbirros aliados tienen +1 de Ataque.</esMX>\n    <esES>Los demás esbirros amistosos obtienen +1 p. de ataque.</esES>\n    <deDE>Andere befreundete Diener haben +1 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"779cbc2a-9f38-409f-8e42-dfeeaf113089\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-595328524",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_033/W4_138_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_033/NEW1_033_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:19878378"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-674084647"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e.png",
+          "sha256": "eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-328142815",
+          "rgbaSha256": "d208a1279818e1d5dc71ef20c033d5e50d414080bfc2da3b36d3f2fb191db16a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/03d600d7273cd0036b6a77a77f53f69e894d7d501b5f16043ff5a5c603c2bd62.json",
+          "sha256": "03d600d7273cd0036b6a77a77f53f69e894d7d501b5f16043ff5a5c603c2bd62",
+          "source": "cab-premiummaterials0:122883308"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "레오크",
+            "CardTextInHand": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_033\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leokk</enUS>\n    <frFR>Leokk</frFR>\n    <zhTW>里奧克</zhTW>\n    <zhCN>雷欧克</zhCN>\n    <ruRU>Леокк</ruRU>\n    <ptBR>Leokk</ptBR>\n    <plPL>Leok</plPL>\n    <koKR>레오크</koKR>\n    <itIT>Leokk</itIT>\n    <esMX>Leokk</esMX>\n    <esES>Leokk</esES>\n    <deDE>Leokk</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Other friendly minions have +1 Attack.</enUS>\n    <frFR>Les autres serviteurs alliés ont +1 ATQ.</frFR>\n    <zhTW>其他友方手下擁有+1攻擊力</zhTW>\n    <zhCN>其他友方随从获得+1攻击力。</zhCN>\n    <ruRU>Прочие ваши существа получают +1 к атаке.</ruRU>\n    <ptBR>Outros lacaios aliados têm +1 de Ataque.</ptBR>\n    <plPL>Pozostali przyjaźni stronnicy otrzymują +1 do ataku.</plPL>\n    <koKR>다른 아군 하수인들이 공격력을 +1 얻습니다.</koKR>\n    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>\n    <esMX>Los otros esbirros aliados tienen +1 de Ataque.</esMX>\n    <esES>Los demás esbirros amistosos obtienen +1 p. de ataque.</esES>\n    <deDE>Andere befreundete Diener haben +1 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"779cbc2a-9f38-409f-8e42-dfeeaf113089\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-595328524",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_033/W4_138_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_033/NEW1_033_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:19878378"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-674084647"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e.png",
+          "sha256": "eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-328142815",
+          "rgbaSha256": "d208a1279818e1d5dc71ef20c033d5e50d414080bfc2da3b36d3f2fb191db16a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/13ae89ae6f742e470311d542a02806e697ef818815844ff62097e00fe30d5f3c.json",
+          "sha256": "13ae89ae6f742e470311d542a02806e697ef818815844ff62097e00fe30d5f3c",
+          "source": "cab-premiummaterials0:122883308"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "레오크",
+            "CardTextInHand": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_033\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leokk</enUS>\n    <frFR>Leokk</frFR>\n    <zhTW>里奧克</zhTW>\n    <zhCN>雷欧克</zhCN>\n    <ruRU>Леокк</ruRU>\n    <ptBR>Leokk</ptBR>\n    <plPL>Leok</plPL>\n    <koKR>레오크</koKR>\n    <itIT>Leokk</itIT>\n    <esMX>Leokk</esMX>\n    <esES>Leokk</esES>\n    <deDE>Leokk</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Other friendly minions have +1 Attack.</enUS>\n    <frFR>Les autres serviteurs alliés ont +1 ATQ.</frFR>\n    <zhTW>其他友方手下擁有+1攻擊力</zhTW>\n    <zhCN>其他友方随从获得+1攻击力。</zhCN>\n    <ruRU>Прочие ваши существа получают +1 к атаке.</ruRU>\n    <ptBR>Outros lacaios aliados têm +1 de Ataque.</ptBR>\n    <plPL>Pozostali przyjaźni stronnicy otrzymują +1 do ataku.</plPL>\n    <koKR>다른 아군 하수인들이 공격력을 +1 얻습니다.</koKR>\n    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>\n    <esMX>Los otros esbirros aliados tienen +1 de Ataque.</esMX>\n    <esES>Los demás esbirros amistosos obtienen +1 p. de ataque.</esES>\n    <deDE>Andere befreundete Diener haben +1 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"779cbc2a-9f38-409f-8e42-dfeeaf113089\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-595328524",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_033/W4_138_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_033/NEW1_033_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:19878378"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-674084647"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e.png",
+          "sha256": "eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-328142815",
+          "rgbaSha256": "d208a1279818e1d5dc71ef20c033d5e50d414080bfc2da3b36d3f2fb191db16a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b624df7edf603316fb5e1b6016d497c831716fff7a3f13d05d571111a401ea90.json",
+          "sha256": "b624df7edf603316fb5e1b6016d497c831716fff7a3f13d05d571111a401ea90",
+          "source": "cab-premiummaterials0:122883308"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "레오크",
+            "CardTextInHand": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 2,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_033\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Leokk</enUS>\n    <frFR>Leokk</frFR>\n    <zhTW>里奧克</zhTW>\n    <zhCN>雷欧克</zhCN>\n    <ruRU>Леокк</ruRU>\n    <ptBR>Leokk</ptBR>\n    <plPL>Leok</plPL>\n    <koKR>레오크</koKR>\n    <itIT>Leokk</itIT>\n    <esMX>Leokk</esMX>\n    <esES>Leokk</esES>\n    <deDE>Leokk</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Other friendly minions have +1 Attack.</enUS>\n    <frFR>Les autres serviteurs alliés ont +1 ATQ.</frFR>\n    <zhTW>其他友方手下擁有+1攻擊力</zhTW>\n    <zhCN>其他友方随从获得+1攻击力。</zhCN>\n    <ruRU>Прочие ваши существа получают +1 к атаке.</ruRU>\n    <ptBR>Outros lacaios aliados têm +1 de Ataque.</ptBR>\n    <plPL>Pozostali przyjaźni stronnicy otrzymują +1 do ataku.</plPL>\n    <koKR>다른 아군 하수인들이 공격력을 +1 얻습니다.</koKR>\n    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>\n    <esMX>Los otros esbirros aliados tienen +1 de Ataque.</esMX>\n    <esES>Los demás esbirros amistosos obtienen +1 p. de ataque.</esES>\n    <deDE>Andere befreundete Diener haben +1 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"779cbc2a-9f38-409f-8e42-dfeeaf113089\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-595328524",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_033/W4_138_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_033/NEW1_033_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:19878378"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-674084647"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e.png",
+          "sha256": "eb036459cb0f4799467b5f98143be0d67ac9a4a5c8df30efd31fcb30e2118e4e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-328142815",
+          "rgbaSha256": "d208a1279818e1d5dc71ef20c033d5e50d414080bfc2da3b36d3f2fb191db16a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/987bfb15ef7160a95c1bd74d1825aaeba08e84337c622aad3817f138e11321c4.json",
+          "sha256": "987bfb15ef7160a95c1bd74d1825aaeba08e84337c622aad3817f138e11321c4",
+          "source": "cab-premiummaterials0:122883308"
+        }
+      }
+    ]
+  }
 }

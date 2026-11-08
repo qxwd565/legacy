@@ -90,5 +90,409 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_409"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 10,
+              "name": "Class"
+            },
+            {
+              "tagId": 187,
+              "value": 3,
+              "name": "Durability"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": null,
+            "armor": null,
+            "durability": 3,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-570411934",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_409t/w14_a142_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_409t/EX1_409t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d.png",
+          "sha256": "4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:136787480",
+          "rgbaSha256": "fc362f59cd5c0a5b7dff71be2003e172f364de2c7dfe7d7a007d51965fc47cf4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e987333d9d027040862869b6e484030d6ffe6baa3a438d68b448dbbfa12a7901.json",
+          "sha256": "e987333d9d027040862869b6e484030d6ffe6baa3a438d68b448dbbfa12a7901",
+          "source": "cab-premiummaterials0:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 10,
+              "name": "Class"
+            },
+            {
+              "tagId": 187,
+              "value": 3,
+              "name": "Durability"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": null,
+            "armor": null,
+            "durability": 3,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-570411934",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_409t/w14_a142_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_409t/EX1_409t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d.png",
+          "sha256": "4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:136787480",
+          "rgbaSha256": "fc362f59cd5c0a5b7dff71be2003e172f364de2c7dfe7d7a007d51965fc47cf4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3996956fbee5e14a782cd5ba4fec9d5a3f42d00120e246f3b73cfcaffda8e5d8.json",
+          "sha256": "3996956fbee5e14a782cd5ba4fec9d5a3f42d00120e246f3b73cfcaffda8e5d8",
+          "source": "cab-premiummaterials0:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 10,
+              "name": "Class"
+            },
+            {
+              "tagId": 187,
+              "value": 3,
+              "name": "Durability"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": null,
+            "armor": null,
+            "durability": 3,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-570411934",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_409t/w14_a142_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_409t/EX1_409t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d.png",
+          "sha256": "4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:136787480",
+          "rgbaSha256": "fc362f59cd5c0a5b7dff71be2003e172f364de2c7dfe7d7a007d51965fc47cf4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/1753b1b97774a44d3639e2f59d8c27569583788d403a6c49ee9002bc551323f4.json",
+          "sha256": "1753b1b97774a44d3639e2f59d8c27569583788d403a6c49ee9002bc551323f4",
+          "source": "cab-premiummaterials0:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 7,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 199,
+              "value": 10,
+              "name": "Class"
+            },
+            {
+              "tagId": 187,
+              "value": 3,
+              "name": "Durability"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": null,
+            "armor": null,
+            "durability": 3,
+            "tavernTier": null
+          },
+          "type": "WEAPON",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-570411934",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_409t/w14_a142_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_409t/EX1_409t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d.png",
+          "sha256": "4113b81ccbe3436cc66ec226c56a3f36a54712bf9f658ed6917ad69b1f402d0d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:136787480",
+          "rgbaSha256": "fc362f59cd5c0a5b7dff71be2003e172f364de2c7dfe7d7a007d51965fc47cf4"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6656705777c83573c7d1007b8c8c45396906c81eaae057b86b75ff7c492961e0.json",
+          "sha256": "6656705777c83573c7d1007b8c8c45396906c81eaae057b86b75ff7c492961e0",
+          "source": "cab-premiummaterials0:-1197366466"
+        }
+      }
+    ]
   }
 }

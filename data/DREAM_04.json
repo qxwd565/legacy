@@ -108,5 +108,413 @@
       "platform": "Windows",
       "rawText": "하수인 하나를 주인의 손으로 돌려보냅니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_572"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꿈",
+            "CardTextInHand": "하수인 하나를 주인의 손으로 돌려보냅니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_04\">\n  <MasterPower>28e89fe3-39f3-47f0-99ed-6daf76cb5879</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dream</enUS>\n    <frFR>Rêve</frFR>\n    <zhTW>夢境</zhTW>\n    <zhCN>梦境</zhCN>\n    <ruRU>Сон</ruRU>\n    <ptBR>Sonho</ptBR>\n    <plPL>Sen</plPL>\n    <koKR>꿈</koKR>\n    <itIT>Sogno</itIT>\n    <esMX>Sueño</esMX>\n    <esES>Sueño</esES>\n    <deDE>Traum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Return a minion to its owner's hand.</enUS>\n    <frFR>Renvoie un serviteur dans la main de son propriétaire.</frFR>\n    <zhTW>使一個手下返回擁有者的手上</zhTW>\n    <zhCN>使一个随从移回其拥有者的手牌。</zhCN>\n    <ruRU>Возвращает выбранное существо в руку владельца.</ruRU>\n    <ptBR>Devolva um lacaio à mão do dono.</ptBR>\n    <plPL>Cofasz stronnika do ręki właściciela.</plPL>\n    <koKR>하수인 하나를 주인의 손으로 돌려보냅니다.</koKR>\n    <itIT>Fa tornare un servitore nella mano di chi lo controlla.</itIT>\n    <esMX>Devuelve un esbirro a la mano de su propietario.</esMX>\n    <esES>Devuelve a un esbirro a la mano de su dueño.</esES>\n    <deDE>Lasst einen Diener auf die Hand seines Besitzers zurückkehren.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"28e89fe3-39f3-47f0-99ed-6daf76cb5879\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-853164183",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_04/W17_a204_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_04/DREAM_04_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-383795944"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1871071553"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1810070838"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2.png",
+          "sha256": "7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:43875877",
+          "rgbaSha256": "08e7f53ce77fc36232d86e1c11eb0cb93b48314cca7dba199b9a3d60e5af5bad"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e7c7df785af9e09ba60272c26305a7ca6ab0599c72a089b17bf22d20ee8ea30a.json",
+          "sha256": "e7c7df785af9e09ba60272c26305a7ca6ab0599c72a089b17bf22d20ee8ea30a",
+          "source": "cab-premiummaterials0:-1088404059"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꿈",
+            "CardTextInHand": "하수인 하나를 주인의 손으로 돌려보냅니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_04\">\n  <MasterPower>28e89fe3-39f3-47f0-99ed-6daf76cb5879</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dream</enUS>\n    <frFR>Rêve</frFR>\n    <zhTW>夢境</zhTW>\n    <zhCN>梦境</zhCN>\n    <ruRU>Сон</ruRU>\n    <ptBR>Sonho</ptBR>\n    <plPL>Sen</plPL>\n    <koKR>꿈</koKR>\n    <itIT>Sogno</itIT>\n    <esMX>Sueño</esMX>\n    <esES>Sueño</esES>\n    <deDE>Traum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Return a minion to its owner's hand.</enUS>\n    <frFR>Renvoie un serviteur dans la main de son propriétaire.</frFR>\n    <zhTW>使一個手下返回擁有者的手上</zhTW>\n    <zhCN>使一个随从移回其拥有者的手牌。</zhCN>\n    <ruRU>Возвращает выбранное существо в руку владельца.</ruRU>\n    <ptBR>Devolva um lacaio à mão do dono.</ptBR>\n    <plPL>Cofasz stronnika do ręki właściciela.</plPL>\n    <koKR>하수인 하나를 주인의 손으로 돌려보냅니다.</koKR>\n    <itIT>Fa tornare un servitore nella mano di chi lo controlla.</itIT>\n    <esMX>Devuelve un esbirro a la mano de su propietario.</esMX>\n    <esES>Devuelve a un esbirro a la mano de su dueño.</esES>\n    <deDE>Lasst einen Diener auf die Hand seines Besitzers zurückkehren.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"28e89fe3-39f3-47f0-99ed-6daf76cb5879\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-853164183",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_04/W17_a204_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_04/DREAM_04_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-383795944"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1871071553"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1810070838"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2.png",
+          "sha256": "7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:43875877",
+          "rgbaSha256": "08e7f53ce77fc36232d86e1c11eb0cb93b48314cca7dba199b9a3d60e5af5bad"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4c0c05ddf6a8c9113afd7daea7c6318d196059e432c01ecf04a443897e88f01d.json",
+          "sha256": "4c0c05ddf6a8c9113afd7daea7c6318d196059e432c01ecf04a443897e88f01d",
+          "source": "cab-premiummaterials0:-1088404059"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꿈",
+            "CardTextInHand": "하수인 하나를 주인의 손으로 돌려보냅니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_04\">\n  <MasterPower>28e89fe3-39f3-47f0-99ed-6daf76cb5879</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dream</enUS>\n    <frFR>Rêve</frFR>\n    <zhTW>夢境</zhTW>\n    <zhCN>梦境</zhCN>\n    <ruRU>Сон</ruRU>\n    <ptBR>Sonho</ptBR>\n    <plPL>Sen</plPL>\n    <koKR>꿈</koKR>\n    <itIT>Sogno</itIT>\n    <esMX>Sueño</esMX>\n    <esES>Sueño</esES>\n    <deDE>Traum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Return a minion to its owner's hand.</enUS>\n    <frFR>Renvoie un serviteur dans la main de son propriétaire.</frFR>\n    <zhTW>使一個手下返回擁有者的手上</zhTW>\n    <zhCN>使一个随从移回其拥有者的手牌。</zhCN>\n    <ruRU>Возвращает выбранное существо в руку владельца.</ruRU>\n    <ptBR>Devolva um lacaio à mão do dono.</ptBR>\n    <plPL>Cofasz stronnika do ręki właściciela.</plPL>\n    <koKR>하수인 하나를 주인의 손으로 돌려보냅니다.</koKR>\n    <itIT>Fa tornare un servitore nella mano di chi lo controlla.</itIT>\n    <esMX>Devuelve un esbirro a la mano de su propietario.</esMX>\n    <esES>Devuelve a un esbirro a la mano de su dueño.</esES>\n    <deDE>Lasst einen Diener auf die Hand seines Besitzers zurückkehren.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"28e89fe3-39f3-47f0-99ed-6daf76cb5879\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-853164183",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_04/W17_a204_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_04/DREAM_04_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-383795944"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1871071553"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1810070838"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2.png",
+          "sha256": "7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:43875877",
+          "rgbaSha256": "08e7f53ce77fc36232d86e1c11eb0cb93b48314cca7dba199b9a3d60e5af5bad"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2cef7449945b79e01de66d55d692afa45636b373cefa43b126e537866ae43603.json",
+          "sha256": "2cef7449945b79e01de66d55d692afa45636b373cefa43b126e537866ae43603",
+          "source": "cab-premiummaterials0:-1088404059"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "꿈",
+            "CardTextInHand": "하수인 하나를 주인의 손으로 돌려보냅니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_04\">\n  <MasterPower>28e89fe3-39f3-47f0-99ed-6daf76cb5879</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Dream</enUS>\n    <frFR>Rêve</frFR>\n    <zhTW>夢境</zhTW>\n    <zhCN>梦境</zhCN>\n    <ruRU>Сон</ruRU>\n    <ptBR>Sonho</ptBR>\n    <plPL>Sen</plPL>\n    <koKR>꿈</koKR>\n    <itIT>Sogno</itIT>\n    <esMX>Sueño</esMX>\n    <esES>Sueño</esES>\n    <deDE>Traum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Return a minion to its owner's hand.</enUS>\n    <frFR>Renvoie un serviteur dans la main de son propriétaire.</frFR>\n    <zhTW>使一個手下返回擁有者的手上</zhTW>\n    <zhCN>使一个随从移回其拥有者的手牌。</zhCN>\n    <ruRU>Возвращает выбранное существо в руку владельца.</ruRU>\n    <ptBR>Devolva um lacaio à mão do dono.</ptBR>\n    <plPL>Cofasz stronnika do ręki właściciela.</plPL>\n    <koKR>하수인 하나를 주인의 손으로 돌려보냅니다.</koKR>\n    <itIT>Fa tornare un servitore nella mano di chi lo controlla.</itIT>\n    <esMX>Devuelve un esbirro a la mano de su propietario.</esMX>\n    <esES>Devuelve a un esbirro a la mano de su dueño.</esES>\n    <deDE>Lasst einen Diener auf die Hand seines Besitzers zurückkehren.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"28e89fe3-39f3-47f0-99ed-6daf76cb5879\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-853164183",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_04/W17_a204_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_04/DREAM_04_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-383795944"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1871071553"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1810070838"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2.png",
+          "sha256": "7fd7b396d9abd9fe28a7889ee4f0e949cab8f6401df67aa0474d2816e5ad3ab2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:43875877",
+          "rgbaSha256": "08e7f53ce77fc36232d86e1c11eb0cb93b48314cca7dba199b9a3d60e5af5bad"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ee0fff3d0f5251650fe289ca9b566229284935b169cea281f2c7b3d8331a198f.json",
+          "sha256": "ee0fff3d0f5251650fe289ca9b566229284935b169cea281f2c7b3d8331a198f",
+          "source": "cab-premiummaterials0:-1088404059"
+        }
+      }
+    ]
+  }
 }

@@ -140,5 +140,513 @@
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_112"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "강화 구슬 3000",
+            "CardTextInHand": "내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka3\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emboldener 3000</enUS>\n    <zhTW>勇氣給予者3000</zhTW>\n    <zhCN>壮胆机器人3000型</zhCN>\n    <ruRU>Воодушевитель 3000</ruRU>\n    <ptBR>Encorajador 3000</ptBR>\n    <plPL>Dopingator 3000</plPL>\n    <koKR>강화 구슬 3000</koKR>\n    <itIT>Ingrossatore 3000</itIT>\n    <frFR>Encourageur 3000</frFR>\n    <esMX>Fortalecedor 3000</esMX>\n    <esES>Corajizador 3000</esES>\n    <deDE>Kraftverstärker 3000</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>\n    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1</zhTW>\n    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>\n    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>\n    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>\n    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>\n    <koKR>내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>Alla fine del tuo turno, +1/+1 a un servitore casuale.</itIT>\n    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>\n    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>\n    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>\n    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Emboldening</enUS>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"87895dbc-a492-4910-b2ee-950caa9b5d4a\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1737831484",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka3/W12_a163_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka3/Mekka3_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1961993879"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:643054716"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-69381524"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6.png",
+          "sha256": "62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:551316600",
+          "rgbaSha256": "d05788b9e61bf00fb77fda796f55c27c577ad271faaae32b393ec62b8bb72573"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3ed3c2cf6835e5a5d12048e857fab9fb36dbf4baa4e62f72f6c676d4af3aa6df.json",
+          "sha256": "3ed3c2cf6835e5a5d12048e857fab9fb36dbf4baa4e62f72f6c676d4af3aa6df",
+          "source": "cab-premiummaterials0:-1925998132"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "강화 구슬 3000",
+            "CardTextInHand": "내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka3\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emboldener 3000</enUS>\n    <zhTW>勇氣給予者3000</zhTW>\n    <zhCN>壮胆机器人3000型</zhCN>\n    <ruRU>Воодушевитель 3000</ruRU>\n    <ptBR>Encorajador 3000</ptBR>\n    <plPL>Dopingator 3000</plPL>\n    <koKR>강화 구슬 3000</koKR>\n    <itIT>Ingrossatore 3000</itIT>\n    <frFR>Encourageur 3000</frFR>\n    <esMX>Fortalecedor 3000</esMX>\n    <esES>Corajizador 3000</esES>\n    <deDE>Kraftverstärker 3000</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>\n    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1</zhTW>\n    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>\n    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>\n    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>\n    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>\n    <koKR>내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>Alla fine del tuo turno, +1/+1 a un servitore casuale.</itIT>\n    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>\n    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>\n    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>\n    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Emboldening</enUS>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"87895dbc-a492-4910-b2ee-950caa9b5d4a\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1737831484",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka3/W12_a163_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka3/Mekka3_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1961993879"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:643054716"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-69381524"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6.png",
+          "sha256": "62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:551316600",
+          "rgbaSha256": "d05788b9e61bf00fb77fda796f55c27c577ad271faaae32b393ec62b8bb72573"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8738b3f4dd8e3f708df639d4e3163b650b46aabc69318f5ac8f42bde11a2d6b4.json",
+          "sha256": "8738b3f4dd8e3f708df639d4e3163b650b46aabc69318f5ac8f42bde11a2d6b4",
+          "source": "cab-premiummaterials0:-1925998132"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "강화 구슬 3000",
+            "CardTextInHand": "내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka3\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emboldener 3000</enUS>\n    <zhTW>勇氣給予者3000</zhTW>\n    <zhCN>壮胆机器人3000型</zhCN>\n    <ruRU>Воодушевитель 3000</ruRU>\n    <ptBR>Encorajador 3000</ptBR>\n    <plPL>Dopingator 3000</plPL>\n    <koKR>강화 구슬 3000</koKR>\n    <itIT>Ingrossatore 3000</itIT>\n    <frFR>Encourageur 3000</frFR>\n    <esMX>Fortalecedor 3000</esMX>\n    <esES>Corajizador 3000</esES>\n    <deDE>Kraftverstärker 3000</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>\n    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1</zhTW>\n    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>\n    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>\n    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>\n    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>\n    <koKR>내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>Alla fine del tuo turno, +1/+1 a un servitore casuale.</itIT>\n    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>\n    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>\n    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>\n    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Emboldening</enUS>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"87895dbc-a492-4910-b2ee-950caa9b5d4a\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1737831484",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka3/W12_a163_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka3/Mekka3_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1961993879"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:643054716"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-69381524"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6.png",
+          "sha256": "62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:551316600",
+          "rgbaSha256": "d05788b9e61bf00fb77fda796f55c27c577ad271faaae32b393ec62b8bb72573"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7a0905b2f8e11260674427a93c31a703c5a82282a65990c7d094b2d0dde160bd.json",
+          "sha256": "7a0905b2f8e11260674427a93c31a703c5a82282a65990c7d094b2d0dde160bd",
+          "source": "cab-premiummaterials0:-1925998132"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "강화 구슬 3000",
+            "CardTextInHand": "내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 4,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 4,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka3\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emboldener 3000</enUS>\n    <zhTW>勇氣給予者3000</zhTW>\n    <zhCN>壮胆机器人3000型</zhCN>\n    <ruRU>Воодушевитель 3000</ruRU>\n    <ptBR>Encorajador 3000</ptBR>\n    <plPL>Dopingator 3000</plPL>\n    <koKR>강화 구슬 3000</koKR>\n    <itIT>Ingrossatore 3000</itIT>\n    <frFR>Encourageur 3000</frFR>\n    <esMX>Fortalecedor 3000</esMX>\n    <esES>Corajizador 3000</esES>\n    <deDE>Kraftverstärker 3000</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>\n    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1</zhTW>\n    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>\n    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>\n    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>\n    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>\n    <koKR>내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>Alla fine del tuo turno, +1/+1 a un servitore casuale.</itIT>\n    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>\n    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>\n    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>\n    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Emboldening</enUS>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"87895dbc-a492-4910-b2ee-950caa9b5d4a\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1737831484",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka3/W12_a163_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka3/Mekka3_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1961993879"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:643054716"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-69381524"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6.png",
+          "sha256": "62299709e6ed20f37a5cccb0451283b4f7ffbd0286f982169b4d508ccc841fc6",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:551316600",
+          "rgbaSha256": "d05788b9e61bf00fb77fda796f55c27c577ad271faaae32b393ec62b8bb72573"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5a4743071624fa772c91c46b9b4ba8f5f5f290f1f762bfadb89a56e059d942f2.json",
+          "sha256": "5a4743071624fa772c91c46b9b4ba8f5f5f290f1f762bfadb89a56e059d942f2",
+          "source": "cab-premiummaterials0:-1925998132"
+        }
+      }
+    ]
+  }
 }

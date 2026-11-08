@@ -110,5 +110,413 @@
       "matchingWindowsBuild": "1.0.0.5314",
       "windowsPatchAppliedKo": "2014-05-09"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_625"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신 붕괴",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_625t2\">\n  <MasterPower>464bf8cb-0432-4785-aa28-d040dc995d66</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Shatter</enUS>\n    <frFR>Briser l’esprit</frFR>\n    <zhTW>心靈碎裂</zhTW>\n    <zhCN>心灵碎裂</zhCN>\n    <ruRU>Расстройство ума</ruRU>\n    <ptBR>Ruptura Mental</ptBR>\n    <plPL>Strzaskanie umysłu</plPL>\n    <koKR>정신 붕괴</koKR>\n    <itIT>Frantumazione Mentale</itIT>\n    <esMX>Despedazamiento mental</esMX>\n    <esES>Despedazamiento mental</esES>\n    <deDE>Gedankenzersplitterung</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 3 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 3 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成3點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成3点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 3 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 3 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 3 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 3 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 3 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 3 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 3 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 3 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"464bf8cb-0432-4785-aa28-d040dc995d66\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1999308856",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_625t2/W18_a032_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_625t2/EX1_625t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:775413415"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1843333591"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:932814858"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e.png",
+          "sha256": "0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:283860755",
+          "rgbaSha256": "c5accf3ad6e9abb4a160798720f5339952a6876942eae53307d5e857347f778e"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c601a60f966851816a60b5cef8b2a10731802aec1a8968e5302a7e037b37e5f5.json",
+          "sha256": "c601a60f966851816a60b5cef8b2a10731802aec1a8968e5302a7e037b37e5f5",
+          "source": "cab-premiummaterials0:-1660440891"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신 붕괴",
+            "CardTextInHand": "<b>영웅 능력</b>\\n피해를 3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_625t2\">\n  <MasterPower>464bf8cb-0432-4785-aa28-d040dc995d66</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Shatter</enUS>\n    <frFR>Briser l’esprit</frFR>\n    <zhTW>心靈碎裂</zhTW>\n    <zhCN>心灵碎裂</zhCN>\n    <ruRU>Расстройство ума</ruRU>\n    <ptBR>Ruptura Mental</ptBR>\n    <plPL>Strzaskanie umysłu</plPL>\n    <koKR>정신 붕괴</koKR>\n    <itIT>Frantumazione Mentale</itIT>\n    <esMX>Despedazamiento mental</esMX>\n    <esES>Despedazamiento mental</esES>\n    <deDE>Gedankenzersplitterung</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 3 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInflige 3 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成3點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成3点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Наносит 3 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nCause 3 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nZadaj 3 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n피해를 3 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nInfligge 3 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 de daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nVerursacht 3 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"464bf8cb-0432-4785-aa28-d040dc995d66\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1999308856",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_625t2/W18_a032_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_625t2/EX1_625t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:775413415"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1843333591"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:932814858"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e.png",
+          "sha256": "0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:283860755",
+          "rgbaSha256": "c5accf3ad6e9abb4a160798720f5339952a6876942eae53307d5e857347f778e"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3f39398d08efbcb5e6d48121306c0cff1b0e4dd4eb684627e25ed5a106bb8801.json",
+          "sha256": "3f39398d08efbcb5e6d48121306c0cff1b0e4dd4eb684627e25ed5a106bb8801",
+          "source": "cab-premiummaterials0:-1660440891"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신 붕괴",
+            "CardTextInHand": "<b>영웅 능력</b>\\n피해를 3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_625t2\">\n  <MasterPower>464bf8cb-0432-4785-aa28-d040dc995d66</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Shatter</enUS>\n    <frFR>Briser l’esprit</frFR>\n    <zhTW>心靈碎裂</zhTW>\n    <zhCN>心灵碎裂</zhCN>\n    <ruRU>Расстройство ума</ruRU>\n    <ptBR>Ruptura Mental</ptBR>\n    <plPL>Strzaskanie umysłu</plPL>\n    <koKR>정신 붕괴</koKR>\n    <itIT>Frantumazione Mentale</itIT>\n    <esMX>Despedazamiento mental</esMX>\n    <esES>Despedazamiento mental</esES>\n    <deDE>Gedankenzersplitterung</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 3 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInflige 3 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成3點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成3点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Наносит 3 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nCause 3 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nZadaj 3 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n피해를 3 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nInfligge 3 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 de daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nVerursacht 3 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"464bf8cb-0432-4785-aa28-d040dc995d66\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1999308856",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_625t2/W18_a032_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_625t2/EX1_625t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:775413415"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1843333591"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:932814858"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e.png",
+          "sha256": "0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:283860755",
+          "rgbaSha256": "c5accf3ad6e9abb4a160798720f5339952a6876942eae53307d5e857347f778e"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c3f255b20849d0ce1788bf474667ca2d43b9d2af3fc8ae025524ce8d46731765.json",
+          "sha256": "c3f255b20849d0ce1788bf474667ca2d43b9d2af3fc8ae025524ce8d46731765",
+          "source": "cab-premiummaterials0:-1660440891"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신 붕괴",
+            "CardTextInHand": "<b>영웅 능력</b>\\n피해를 3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 6,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_625t2\">\n  <MasterPower>464bf8cb-0432-4785-aa28-d040dc995d66</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Shatter</enUS>\n    <frFR>Briser l’esprit</frFR>\n    <zhTW>心靈碎裂</zhTW>\n    <zhCN>心灵碎裂</zhCN>\n    <ruRU>Расстройство ума</ruRU>\n    <ptBR>Ruptura Mental</ptBR>\n    <plPL>Strzaskanie umysłu</plPL>\n    <koKR>정신 붕괴</koKR>\n    <itIT>Frantumazione Mentale</itIT>\n    <esMX>Despedazamiento mental</esMX>\n    <esES>Despedazamiento mental</esES>\n    <deDE>Gedankenzersplitterung</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 3 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInflige 3 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成3點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成3点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Наносит 3 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nCause 3 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nZadaj 3 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n피해를 3 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nInfligge 3 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 de daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInflige 3 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nVerursacht 3 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"464bf8cb-0432-4785-aa28-d040dc995d66\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1999308856",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_625t2/W18_a032_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_625t2/EX1_625t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:775413415"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1843333591"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:932814858"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e.png",
+          "sha256": "0acd3c00e885ebce639edba8e678318d2715f2d297cc62e20464e565cc28083e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:283860755",
+          "rgbaSha256": "c5accf3ad6e9abb4a160798720f5339952a6876942eae53307d5e857347f778e"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/37922a2855e06b770913e935c606663a432d19b6e87e5a020b5e0586dc2b5d85.json",
+          "sha256": "37922a2855e06b770913e935c606663a432d19b6e87e5a020b5e0586dc2b5d85",
+          "source": "cab-premiummaterials0:-1660440891"
+        }
+      }
+    ]
+  }
 }

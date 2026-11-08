@@ -107,5 +107,469 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_130"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수호자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 5,
+              "name": "Class"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_130a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defender</enUS>\n    <frFR>Défenseur</frFR>\n    <zhTW>防衛者</zhTW>\n    <zhCN>防御者</zhCN>\n    <ruRU>Защитник</ruRU>\n    <ptBR>Defensor</ptBR>\n    <plPL>Obrońca</plPL>\n    <koKR>수호자</koKR>\n    <itIT>Difensore</itIT>\n    <esMX>Defensor</esMX>\n    <esES>Defensor</esES>\n    <deDE>Verteidiger</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "1895129464",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_130a/W6_219a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_130a/EX1_130a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:688593779"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:505933194"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:1279679927"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224.png",
+          "sha256": "a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-595550520",
+          "rgbaSha256": "3432bd87f208e3b1dec77323706df886099d1d84b00d41fcdc87e0a722ee9bbe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/be5246b3a538f9546a1f886911bf473606cd93371b3ac0770ec3a0e2e51b48d7.json",
+          "sha256": "be5246b3a538f9546a1f886911bf473606cd93371b3ac0770ec3a0e2e51b48d7",
+          "source": "cab-premiummaterials0:-1020833983"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수호자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 5,
+              "name": "Class"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_130a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defender</enUS>\n    <frFR>Défenseur</frFR>\n    <zhTW>防衛者</zhTW>\n    <zhCN>防御者</zhCN>\n    <ruRU>Защитник</ruRU>\n    <ptBR>Defensor</ptBR>\n    <plPL>Obrońca</plPL>\n    <koKR>수호자</koKR>\n    <itIT>Difensore</itIT>\n    <esMX>Defensor</esMX>\n    <esES>Defensor</esES>\n    <deDE>Verteidiger</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "1895129464",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_130a/W6_219a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_130a/EX1_130a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:688593779"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:505933194"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:1279679927"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224.png",
+          "sha256": "a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-595550520",
+          "rgbaSha256": "3432bd87f208e3b1dec77323706df886099d1d84b00d41fcdc87e0a722ee9bbe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/25d4543ed4e159c6f18c8451651d14db468e26cde571c88ad8b2198c618d7dfc.json",
+          "sha256": "25d4543ed4e159c6f18c8451651d14db468e26cde571c88ad8b2198c618d7dfc",
+          "source": "cab-premiummaterials0:-1020833983"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수호자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 5,
+              "name": "Class"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_130a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defender</enUS>\n    <frFR>Défenseur</frFR>\n    <zhTW>防衛者</zhTW>\n    <zhCN>防御者</zhCN>\n    <ruRU>Защитник</ruRU>\n    <ptBR>Defensor</ptBR>\n    <plPL>Obrońca</plPL>\n    <koKR>수호자</koKR>\n    <itIT>Difensore</itIT>\n    <esMX>Defensor</esMX>\n    <esES>Defensor</esES>\n    <deDE>Verteidiger</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "1895129464",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_130a/W6_219a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_130a/EX1_130a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:688593779"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:505933194"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:1279679927"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224.png",
+          "sha256": "a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-595550520",
+          "rgbaSha256": "3432bd87f208e3b1dec77323706df886099d1d84b00d41fcdc87e0a722ee9bbe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/765de081f98a500aafd2c64ae8ea32c6c1e0b6451c484f14f63b80e170ceeea6.json",
+          "sha256": "765de081f98a500aafd2c64ae8ea32c6c1e0b6451c484f14f63b80e170ceeea6",
+          "source": "cab-premiummaterials0:-1020833983"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "수호자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 5,
+              "name": "Class"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_130a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defender</enUS>\n    <frFR>Défenseur</frFR>\n    <zhTW>防衛者</zhTW>\n    <zhCN>防御者</zhCN>\n    <ruRU>Защитник</ruRU>\n    <ptBR>Defensor</ptBR>\n    <plPL>Obrońca</plPL>\n    <koKR>수호자</koKR>\n    <itIT>Difensore</itIT>\n    <esMX>Defensor</esMX>\n    <esES>Defensor</esES>\n    <deDE>Verteidiger</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "1895129464",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_130a/W6_219a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_130a/EX1_130a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:688593779"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:505933194"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:1279679927"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224.png",
+          "sha256": "a5cd4f7a77fa2a3c28c15c66810f528ab76fe95ce4b20604a8e0aa258bd66224",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-595550520",
+          "rgbaSha256": "3432bd87f208e3b1dec77323706df886099d1d84b00d41fcdc87e0a722ee9bbe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0119f7d12b6ce4fb6721b85587eddcdd150066153e50dee77123941df28c8ed5.json",
+          "sha256": "0119f7d12b6ce4fb6721b85587eddcdd150066153e50dee77123941df28c8ed5",
+          "source": "cab-premiummaterials0:-1020833983"
+        }
+      }
+    ]
   }
 }

@@ -97,5 +97,469 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_572"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "에메랄드 비룡"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 7,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": 7,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_03\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emerald Drake</enUS>\n    <frFR>Drake émeraude</frFR>\n    <zhTW>翡翠龍</zhTW>\n    <zhCN>翡翠幼龙</zhCN>\n    <ruRU>Изумрудный дракон</ruRU>\n    <ptBR>Draco Esmeralda</ptBR>\n    <plPL>Szmaragdowy smokowiec</plPL>\n    <koKR>에메랄드 비룡</koKR>\n    <itIT>Draco di Smeraldo</itIT>\n    <esMX>Draco esmeralda</esMX>\n    <esES>Draco esmeralda</esES>\n    <deDE>Smaragddrache</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"7\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-202432898",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_03/w13_143_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_03/DREAM_03_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-956781103"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1692826952"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1291157293"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1.png",
+          "sha256": "0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-98629080",
+          "rgbaSha256": "d2759965a5fc6c67854bfda389f427011783f0bcc1177832b7a35337c7f08d55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/50114b2090c238d50e895d6c8426816a3cf4c35f303dddaa57845ec8f79f5b0c.json",
+          "sha256": "50114b2090c238d50e895d6c8426816a3cf4c35f303dddaa57845ec8f79f5b0c",
+          "source": "cab-premiummaterials0:2064200585"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "에메랄드 비룡"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 7,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": 7,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_03\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emerald Drake</enUS>\n    <frFR>Drake émeraude</frFR>\n    <zhTW>翡翠龍</zhTW>\n    <zhCN>翡翠幼龙</zhCN>\n    <ruRU>Изумрудный дракон</ruRU>\n    <ptBR>Draco Esmeralda</ptBR>\n    <plPL>Szmaragdowy smokowiec</plPL>\n    <koKR>에메랄드 비룡</koKR>\n    <itIT>Draco di Smeraldo</itIT>\n    <esMX>Draco esmeralda</esMX>\n    <esES>Draco esmeralda</esES>\n    <deDE>Smaragddrache</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"7\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-202432898",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_03/w13_143_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_03/DREAM_03_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-956781103"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1692826952"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1291157293"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1.png",
+          "sha256": "0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-98629080",
+          "rgbaSha256": "d2759965a5fc6c67854bfda389f427011783f0bcc1177832b7a35337c7f08d55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/9e213d5fc820d30e802c674a634b3e4795beb0a5d7b2f7e53473eca341c976af.json",
+          "sha256": "9e213d5fc820d30e802c674a634b3e4795beb0a5d7b2f7e53473eca341c976af",
+          "source": "cab-premiummaterials0:2064200585"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "에메랄드 비룡"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 7,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": 7,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_03\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emerald Drake</enUS>\n    <frFR>Drake émeraude</frFR>\n    <zhTW>翡翠龍</zhTW>\n    <zhCN>翡翠幼龙</zhCN>\n    <ruRU>Изумрудный дракон</ruRU>\n    <ptBR>Draco Esmeralda</ptBR>\n    <plPL>Szmaragdowy smokowiec</plPL>\n    <koKR>에메랄드 비룡</koKR>\n    <itIT>Draco di Smeraldo</itIT>\n    <esMX>Draco esmeralda</esMX>\n    <esES>Draco esmeralda</esES>\n    <deDE>Smaragddrache</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"7\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-202432898",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_03/w13_143_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_03/DREAM_03_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-956781103"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1692826952"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1291157293"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1.png",
+          "sha256": "0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-98629080",
+          "rgbaSha256": "d2759965a5fc6c67854bfda389f427011783f0bcc1177832b7a35337c7f08d55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/aef0bfb54b3ce69174ea6961af50d27c65be75941823b3206ebc048b366434ed.json",
+          "sha256": "aef0bfb54b3ce69174ea6961af50d27c65be75941823b3206ebc048b366434ed",
+          "source": "cab-premiummaterials0:2064200585"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "에메랄드 비룡"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 4,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 7,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 6,
+              "name": "Health"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 4,
+            "attack": 7,
+            "health": 6,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_03\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Emerald Drake</enUS>\n    <frFR>Drake émeraude</frFR>\n    <zhTW>翡翠龍</zhTW>\n    <zhCN>翡翠幼龙</zhCN>\n    <ruRU>Изумрудный дракон</ruRU>\n    <ptBR>Draco Esmeralda</ptBR>\n    <plPL>Szmaragdowy smokowiec</plPL>\n    <koKR>에메랄드 비룡</koKR>\n    <itIT>Draco di Smeraldo</itIT>\n    <esMX>Draco esmeralda</esMX>\n    <esES>Draco esmeralda</esES>\n    <deDE>Smaragddrache</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"7\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-202432898",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_03/w13_143_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_03/DREAM_03_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-956781103"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1692826952"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1291157293"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1.png",
+          "sha256": "0e68d65227b5d73d8239783304bc4a6358a3b842fb7b6baf36eb719a1f4c51c1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-98629080",
+          "rgbaSha256": "d2759965a5fc6c67854bfda389f427011783f0bcc1177832b7a35337c7f08d55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/eb4c3a263e0741f8dc6eade432d06c8d57089e1d22446699bd892c14f3778ac2.json",
+          "sha256": "eb4c3a263e0741f8dc6eade432d06c8d57089e1d22446699bd892c14f3778ac2",
+          "source": "cab-premiummaterials0:2064200585"
+        }
+      }
+    ]
   }
 }

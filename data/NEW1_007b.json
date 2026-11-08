@@ -118,5 +118,369 @@
       "platform": "Windows",
       "rawText": "하수인 하나에게 피해를 $5 줍니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "NEW1_007"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "별똥별",
+            "CardTextInHand": "하수인 하나에게 피해를 $5 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_007b\">\n  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Starfall</enUS>\n    <frFR>Météores</frFR>\n    <zhTW>星殞術</zhTW>\n    <zhCN>星辰坠落</zhCN>\n    <ruRU>Звездопад</ruRU>\n    <ptBR>Chuva Estelar</ptBR>\n    <plPL>Spadające gwiazdy</plPL>\n    <koKR>별똥별</koKR>\n    <itIT>Pioggia di Stelle</itIT>\n    <esMX>Lluvia de estrellas</esMX>\n    <esES>Lluvia de estrellas</esES>\n    <deDE>Sternenregen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $5 damage to a minion.</enUS>\n    <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$5點傷害</zhTW>\n    <zhCN>对一个随从造成$5点伤害。</zhCN>\n    <ruRU>Наносит существу $5 ед. урона.</ruRU>\n    <ptBR>Cause $5 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $5 줍니다.</koKR>\n    <itIT>Infligge $5 danni a un servitore.</itIT>\n    <esMX>Inflige $5 de daño a un esbirro.</esMX>\n    <esES>Inflige $5 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $5 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"90885d05-d9e7-4275-a327-80239b5cae8b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "341545784",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_007/W14_a122_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_007/NEW1_007_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d.png",
+          "sha256": "bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-684692372",
+          "rgbaSha256": "3357de93982b50e30852dc074d96492459a987639be8faa88c813c20e18bdbd9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/01e0f0b10c1cf8072dafb8ee2b70dbefd21e23561b6791eb6674d11529884889.json",
+          "sha256": "01e0f0b10c1cf8072dafb8ee2b70dbefd21e23561b6791eb6674d11529884889",
+          "source": "cab-premiummaterials0:-1227161637"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "별똥별",
+            "CardTextInHand": "하수인 하나에게 피해를 $5 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_007b\">\n  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Starfall</enUS>\n    <frFR>Météores</frFR>\n    <zhTW>星殞術</zhTW>\n    <zhCN>星辰坠落</zhCN>\n    <ruRU>Звездопад</ruRU>\n    <ptBR>Chuva Estelar</ptBR>\n    <plPL>Spadające gwiazdy</plPL>\n    <koKR>별똥별</koKR>\n    <itIT>Pioggia di Stelle</itIT>\n    <esMX>Lluvia de estrellas</esMX>\n    <esES>Lluvia de estrellas</esES>\n    <deDE>Sternenregen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $5 damage to a minion.</enUS>\n    <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$5點傷害</zhTW>\n    <zhCN>对一个随从造成$5点伤害。</zhCN>\n    <ruRU>Наносит существу $5 ед. урона.</ruRU>\n    <ptBR>Cause $5 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $5 줍니다.</koKR>\n    <itIT>Infligge $5 danni a un servitore.</itIT>\n    <esMX>Inflige $5 de daño a un esbirro.</esMX>\n    <esES>Inflige $5 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $5 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"90885d05-d9e7-4275-a327-80239b5cae8b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "341545784",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_007/W14_a122_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_007/NEW1_007_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d.png",
+          "sha256": "bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-684692372",
+          "rgbaSha256": "3357de93982b50e30852dc074d96492459a987639be8faa88c813c20e18bdbd9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8feefcb794e538c08b2d89eea4d0bf2d622564d2cc5ba25a00c75846e29ce704.json",
+          "sha256": "8feefcb794e538c08b2d89eea4d0bf2d622564d2cc5ba25a00c75846e29ce704",
+          "source": "cab-premiummaterials0:-1227161637"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "별똥별",
+            "CardTextInHand": "하수인 하나에게 피해를 $5 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_007b\">\n  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Starfall</enUS>\n    <frFR>Météores</frFR>\n    <zhTW>星殞術</zhTW>\n    <zhCN>星辰坠落</zhCN>\n    <ruRU>Звездопад</ruRU>\n    <ptBR>Chuva Estelar</ptBR>\n    <plPL>Spadające gwiazdy</plPL>\n    <koKR>별똥별</koKR>\n    <itIT>Pioggia di Stelle</itIT>\n    <esMX>Lluvia de estrellas</esMX>\n    <esES>Lluvia de estrellas</esES>\n    <deDE>Sternenregen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $5 damage to a minion.</enUS>\n    <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$5點傷害</zhTW>\n    <zhCN>对一个随从造成$5点伤害。</zhCN>\n    <ruRU>Наносит существу $5 ед. урона.</ruRU>\n    <ptBR>Cause $5 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $5 줍니다.</koKR>\n    <itIT>Infligge $5 danni a un servitore.</itIT>\n    <esMX>Inflige $5 de daño a un esbirro.</esMX>\n    <esES>Inflige $5 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $5 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"90885d05-d9e7-4275-a327-80239b5cae8b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "341545784",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_007/W14_a122_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_007/NEW1_007_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d.png",
+          "sha256": "bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-684692372",
+          "rgbaSha256": "3357de93982b50e30852dc074d96492459a987639be8faa88c813c20e18bdbd9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5f45307aedf2e1cddce8f388f509ca24d8c8414af679ff074462e20879f4e715.json",
+          "sha256": "5f45307aedf2e1cddce8f388f509ca24d8c8414af679ff074462e20879f4e715",
+          "source": "cab-premiummaterials0:-1227161637"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "별똥별",
+            "CardTextInHand": "하수인 하나에게 피해를 $5 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_007b\">\n  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Starfall</enUS>\n    <frFR>Météores</frFR>\n    <zhTW>星殞術</zhTW>\n    <zhCN>星辰坠落</zhCN>\n    <ruRU>Звездопад</ruRU>\n    <ptBR>Chuva Estelar</ptBR>\n    <plPL>Spadające gwiazdy</plPL>\n    <koKR>별똥별</koKR>\n    <itIT>Pioggia di Stelle</itIT>\n    <esMX>Lluvia de estrellas</esMX>\n    <esES>Lluvia de estrellas</esES>\n    <deDE>Sternenregen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $5 damage to a minion.</enUS>\n    <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$5點傷害</zhTW>\n    <zhCN>对一个随从造成$5点伤害。</zhCN>\n    <ruRU>Наносит существу $5 ед. урона.</ruRU>\n    <ptBR>Cause $5 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $5 줍니다.</koKR>\n    <itIT>Infligge $5 danni a un servitore.</itIT>\n    <esMX>Inflige $5 de daño a un esbirro.</esMX>\n    <esES>Inflige $5 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $5 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"90885d05-d9e7-4275-a327-80239b5cae8b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "341545784",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_007/W14_a122_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_007/NEW1_007_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d.png",
+          "sha256": "bde22752adc5e4b7931f83cfd6a53c1b63b8a8b38593f76767ec79e00bf7e58d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-684692372",
+          "rgbaSha256": "3357de93982b50e30852dc074d96492459a987639be8faa88c813c20e18bdbd9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f2a7d77db514c2d5a8e47fbba47416c45ad6fcfedaddcd17e93e0866e938f435.json",
+          "sha256": "f2a7d77db514c2d5a8e47fbba47416c45ad6fcfedaddcd17e93e0866e938f435",
+          "source": "cab-premiummaterials0:-1227161637"
+        }
+      }
+    ]
+  }
 }

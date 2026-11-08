@@ -133,5 +133,513 @@
       "platform": "Windows",
       "rawText": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_112"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "유도 닭",
+            "CardTextInHand": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka1\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Homing Chicken</enUS>\n    <zhTW>自動導航小雞</zhTW>\n    <zhCN>导航小鸡</zhCN>\n    <ruRU>Реактивная курица</ruRU>\n    <ptBR>Galinha Teleguiada</ptBR>\n    <plPL>Samonaprowadzany kurczak</plPL>\n    <koKR>유도 닭</koKR>\n    <itIT>Gallina a Ricerca</itIT>\n    <frFR>Poulet à tête chercheuse</frFR>\n    <esMX>Pollo buscador</esMX>\n    <esES>Pollo buscador</esES>\n    <deDE>Zielsuchendes Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Pecking</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, destroy this minion and draw 3 cards.</enUS>\n    <zhTW>在你的回合開始時，摧毀這個手下並抽3張牌</zhTW>\n    <zhCN>在你的回合开始时，消灭该随从，并抽三张牌。</zhCN>\n    <ruRU>В начале вашего хода это существо будет уничтожено. Вы берете 3 карты.</ruRU>\n    <ptBR>No início do seu turno, destrua este lacaio e compre 3 cards.</ptBR>\n    <plPL>Na początku swojej tury zniszcz tego stronnika i dobierz 3 karty.</plPL>\n    <koKR>내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.</koKR>\n    <itIT>All'inizio del tuo turno, questo servitore si autodistrugge e fa pescare 3 carte.</itIT>\n    <frFR>Au début de votre tour, ce serviteur est détruit et vous piochez 3 cartes.</frFR>\n    <esMX>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esMX>\n    <esES>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esES>\n    <deDE>Vernichtet zu Beginn Eures Zuges diesen Diener und zieht 3 Karten.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"c39045c0-e9bf-4364-b06b-cfb20e4b9d35\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "330816893",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka1/W4_214_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka1/Mekka1_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2042428667"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1893401305"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1034366971"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e.png",
+          "sha256": "ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1376491463",
+          "rgbaSha256": "0c3cf8aa615b7bffc20417855ae43d8d6820368d119fa32543e1a4f3495c0cc1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d16bbd1d3ce926c27510ff097f20d079e3dc4de57c3d3c5a4acc9917b5be827e.json",
+          "sha256": "d16bbd1d3ce926c27510ff097f20d079e3dc4de57c3d3c5a4acc9917b5be827e",
+          "source": "cab-premiummaterials0:1837014641"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "유도 닭",
+            "CardTextInHand": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka1\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Homing Chicken</enUS>\n    <zhTW>自動導航小雞</zhTW>\n    <zhCN>导航小鸡</zhCN>\n    <ruRU>Реактивная курица</ruRU>\n    <ptBR>Galinha Teleguiada</ptBR>\n    <plPL>Samonaprowadzany kurczak</plPL>\n    <koKR>유도 닭</koKR>\n    <itIT>Gallina a Ricerca</itIT>\n    <frFR>Poulet à tête chercheuse</frFR>\n    <esMX>Pollo buscador</esMX>\n    <esES>Pollo buscador</esES>\n    <deDE>Zielsuchendes Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Pecking</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, destroy this minion and draw 3 cards.</enUS>\n    <zhTW>在你的回合開始時，摧毀這個手下並抽3張牌</zhTW>\n    <zhCN>在你的回合开始时，消灭该随从，并抽三张牌。</zhCN>\n    <ruRU>В начале вашего хода это существо будет уничтожено. Вы берете 3 карты.</ruRU>\n    <ptBR>No início do seu turno, destrua este lacaio e compre 3 cards.</ptBR>\n    <plPL>Na początku swojej tury zniszcz tego stronnika i dobierz 3 karty.</plPL>\n    <koKR>내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.</koKR>\n    <itIT>All'inizio del tuo turno, questo servitore si autodistrugge e fa pescare 3 carte.</itIT>\n    <frFR>Au début de votre tour, ce serviteur est détruit et vous piochez 3 cartes.</frFR>\n    <esMX>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esMX>\n    <esES>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esES>\n    <deDE>Vernichtet zu Beginn Eures Zuges diesen Diener und zieht 3 Karten.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"c39045c0-e9bf-4364-b06b-cfb20e4b9d35\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "330816893",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka1/W4_214_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka1/Mekka1_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2042428667"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1893401305"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1034366971"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e.png",
+          "sha256": "ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1376491463",
+          "rgbaSha256": "0c3cf8aa615b7bffc20417855ae43d8d6820368d119fa32543e1a4f3495c0cc1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/26a6153664a624db416b3e68a9e7b1938cd70ef6a2bcc2ed99699d86ab894449.json",
+          "sha256": "26a6153664a624db416b3e68a9e7b1938cd70ef6a2bcc2ed99699d86ab894449",
+          "source": "cab-premiummaterials0:1837014641"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "유도 닭",
+            "CardTextInHand": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka1\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Homing Chicken</enUS>\n    <zhTW>自動導航小雞</zhTW>\n    <zhCN>导航小鸡</zhCN>\n    <ruRU>Реактивная курица</ruRU>\n    <ptBR>Galinha Teleguiada</ptBR>\n    <plPL>Samonaprowadzany kurczak</plPL>\n    <koKR>유도 닭</koKR>\n    <itIT>Gallina a Ricerca</itIT>\n    <frFR>Poulet à tête chercheuse</frFR>\n    <esMX>Pollo buscador</esMX>\n    <esES>Pollo buscador</esES>\n    <deDE>Zielsuchendes Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Pecking</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, destroy this minion and draw 3 cards.</enUS>\n    <zhTW>在你的回合開始時，摧毀這個手下並抽3張牌</zhTW>\n    <zhCN>在你的回合开始时，消灭该随从，并抽三张牌。</zhCN>\n    <ruRU>В начале вашего хода это существо будет уничтожено. Вы берете 3 карты.</ruRU>\n    <ptBR>No início do seu turno, destrua este lacaio e compre 3 cards.</ptBR>\n    <plPL>Na początku swojej tury zniszcz tego stronnika i dobierz 3 karty.</plPL>\n    <koKR>내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.</koKR>\n    <itIT>All'inizio del tuo turno, questo servitore si autodistrugge e fa pescare 3 carte.</itIT>\n    <frFR>Au début de votre tour, ce serviteur est détruit et vous piochez 3 cartes.</frFR>\n    <esMX>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esMX>\n    <esES>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esES>\n    <deDE>Vernichtet zu Beginn Eures Zuges diesen Diener und zieht 3 Karten.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"c39045c0-e9bf-4364-b06b-cfb20e4b9d35\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "330816893",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka1/W4_214_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka1/Mekka1_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2042428667"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1893401305"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1034366971"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e.png",
+          "sha256": "ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1376491463",
+          "rgbaSha256": "0c3cf8aa615b7bffc20417855ae43d8d6820368d119fa32543e1a4f3495c0cc1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/152434d3fb228681c356e89b64735c516ffdcfe0c2282cce4b5f1b1442c66f72.json",
+          "sha256": "152434d3fb228681c356e89b64735c516ffdcfe0c2282cce4b5f1b1442c66f72",
+          "source": "cab-premiummaterials0:1837014641"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "유도 닭",
+            "CardTextInHand": "내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 2,
+              "name": "Faction"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 0,
+              "name": "Atk"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            },
+            {
+              "tagId": 32,
+              "value": 1,
+              "name": "TriggerVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 0,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka1\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Homing Chicken</enUS>\n    <zhTW>自動導航小雞</zhTW>\n    <zhCN>导航小鸡</zhCN>\n    <ruRU>Реактивная курица</ruRU>\n    <ptBR>Galinha Teleguiada</ptBR>\n    <plPL>Samonaprowadzany kurczak</plPL>\n    <koKR>유도 닭</koKR>\n    <itIT>Gallina a Ricerca</itIT>\n    <frFR>Poulet à tête chercheuse</frFR>\n    <esMX>Pollo buscador</esMX>\n    <esES>Pollo buscador</esES>\n    <deDE>Zielsuchendes Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"CardTextInPlay\" enumID=\"252\" type=\"String\">\n    <enUS>Pecking</enUS>\n  </Tag>\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>At the start of your turn, destroy this minion and draw 3 cards.</enUS>\n    <zhTW>在你的回合開始時，摧毀這個手下並抽3張牌</zhTW>\n    <zhCN>在你的回合开始时，消灭该随从，并抽三张牌。</zhCN>\n    <ruRU>В начале вашего хода это существо будет уничтожено. Вы берете 3 карты.</ruRU>\n    <ptBR>No início do seu turno, destrua este lacaio e compre 3 cards.</ptBR>\n    <plPL>Na początku swojej tury zniszcz tego stronnika i dobierz 3 karty.</plPL>\n    <koKR>내 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.</koKR>\n    <itIT>All'inizio del tuo turno, questo servitore si autodistrugge e fa pescare 3 carte.</itIT>\n    <frFR>Au début de votre tour, ce serviteur est détruit et vous piochez 3 cartes.</frFR>\n    <esMX>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esMX>\n    <esES>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esES>\n    <deDE>Vernichtet zu Beginn Eures Zuges diesen Diener und zieht 3 Karten.</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"0\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"TriggerVisual\" enumID=\"32\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"c39045c0-e9bf-4364-b06b-cfb20e4b9d35\" />\n  <TriggeredPowerHistoryInfo effectIndex=\"0\" showInHistory=\"False\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "330816893",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka1/W4_214_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka1/Mekka1_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-2042428667"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-1893401305"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1034366971"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e.png",
+          "sha256": "ed54925326c8aed1d8998c43be9f982315761f81895230fdc29ea8e463efeb3e",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1376491463",
+          "rgbaSha256": "0c3cf8aa615b7bffc20417855ae43d8d6820368d119fa32543e1a4f3495c0cc1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/75c816c9b04f0d9f5bbc86256bf5e07ec5691dfd2f53506ea4e26d0c0f171576.json",
+          "sha256": "75c816c9b04f0d9f5bbc86256bf5e07ec5691dfd2f53506ea4e26d0c0f171576",
+          "source": "cab-premiummaterials0:1837014641"
+        }
+      }
+    ]
+  }
 }

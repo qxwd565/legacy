@@ -96,5 +96,413 @@
       "platform": "Windows",
       "rawText": "카드를 1장 뽑습니다. <i>(마나 수정은 10개까지만 보유 가능)</i>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "CS2_013"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "넘치는 마나",
+            "CardTextInHand": "카드를 1장 뽑습니다. <i>(마나 수정은 10개까지만 보유 가능)</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"CS2_013t\">\n  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Excess Mana</enUS>\n    <zhTW>法力溢出</zhTW>\n    <zhCN>法力过剩</zhCN>\n    <ruRU>Избыток маны</ruRU>\n    <ptBR>Excesso de Mana</ptBR>\n    <plPL>Nadmiar many</plPL>\n    <koKR>넘치는 마나</koKR>\n    <itIT>Eccesso di Mana</itIT>\n    <frFR>Excès de mana</frFR>\n    <esMX>Exceso de maná</esMX>\n    <esES>Maná sobrante</esES>\n    <deDE>Überschüssiges Mana</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>\n    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶)&lt;/i&gt;</zhTW>\n    <zhCN>抽一张牌。&lt;i&gt;（你最多可以拥有10个法力水晶。）&lt;/i&gt;</zhCN>\n    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>\n    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>\n    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku).&lt;/i&gt;</plPL>\n    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>\n    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>\n    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>\n    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>\n    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>\n    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"afbc46d9-471b-4963-944a-fddb08f7df86\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1845738771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/CS2_013t/wow_lead_018_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/CS2_013t/CS2_013t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1221200116"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-2084975193"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:38801348"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527.png",
+          "sha256": "1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:686434143",
+          "rgbaSha256": "ada9860befa4af1c5f9eafaaee60b67f25b134ddd6847c9acf85866338dd31f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f4965cb45addc93a63b7dc1266f231fb3858be8cfb6d1838845b46b39b43a30b.json",
+          "sha256": "f4965cb45addc93a63b7dc1266f231fb3858be8cfb6d1838845b46b39b43a30b",
+          "source": "cab-premiummaterials0:304902127"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "넘치는 마나",
+            "CardTextInHand": "카드를 1장 뽑습니다. <i>(마나 수정은 10개까지만 보유 가능)</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"CS2_013t\">\n  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Excess Mana</enUS>\n    <zhTW>法力溢出</zhTW>\n    <zhCN>法力过剩</zhCN>\n    <ruRU>Избыток маны</ruRU>\n    <ptBR>Excesso de Mana</ptBR>\n    <plPL>Nadmiar many</plPL>\n    <koKR>넘치는 마나</koKR>\n    <itIT>Eccesso di Mana</itIT>\n    <frFR>Excès de mana</frFR>\n    <esMX>Exceso de maná</esMX>\n    <esES>Maná sobrante</esES>\n    <deDE>Überschüssiges Mana</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>\n    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶)&lt;/i&gt;</zhTW>\n    <zhCN>抽一张牌。&lt;i&gt;（你最多可以拥有10个法力水晶。）&lt;/i&gt;</zhCN>\n    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>\n    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>\n    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku).&lt;/i&gt;</plPL>\n    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>\n    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>\n    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>\n    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>\n    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>\n    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"afbc46d9-471b-4963-944a-fddb08f7df86\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1845738771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/CS2_013t/wow_lead_018_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/CS2_013t/CS2_013t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1221200116"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-2084975193"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:38801348"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527.png",
+          "sha256": "1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:686434143",
+          "rgbaSha256": "ada9860befa4af1c5f9eafaaee60b67f25b134ddd6847c9acf85866338dd31f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d9b816c1aa468627f7e23f457a402c7c9ec8240c1c7deabf9490dbb566361164.json",
+          "sha256": "d9b816c1aa468627f7e23f457a402c7c9ec8240c1c7deabf9490dbb566361164",
+          "source": "cab-premiummaterials0:304902127"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "넘치는 마나",
+            "CardTextInHand": "카드를 1장 뽑습니다. <i>(마나 수정은 10개까지만 보유 가능)</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"CS2_013t\">\n  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Excess Mana</enUS>\n    <zhTW>法力溢出</zhTW>\n    <zhCN>法力过剩</zhCN>\n    <ruRU>Избыток маны</ruRU>\n    <ptBR>Excesso de Mana</ptBR>\n    <plPL>Nadmiar many</plPL>\n    <koKR>넘치는 마나</koKR>\n    <itIT>Eccesso di Mana</itIT>\n    <frFR>Excès de mana</frFR>\n    <esMX>Exceso de maná</esMX>\n    <esES>Maná sobrante</esES>\n    <deDE>Überschüssiges Mana</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>\n    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶)&lt;/i&gt;</zhTW>\n    <zhCN>抽一张牌。&lt;i&gt;（你最多可以拥有10个法力水晶。）&lt;/i&gt;</zhCN>\n    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>\n    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>\n    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku).&lt;/i&gt;</plPL>\n    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>\n    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>\n    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>\n    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>\n    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>\n    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"afbc46d9-471b-4963-944a-fddb08f7df86\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1845738771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/CS2_013t/wow_lead_018_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/CS2_013t/CS2_013t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1221200116"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-2084975193"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:38801348"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527.png",
+          "sha256": "1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:686434143",
+          "rgbaSha256": "ada9860befa4af1c5f9eafaaee60b67f25b134ddd6847c9acf85866338dd31f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/04b2d2178cae8bb6c2b601d13d0f01a26a6969a8a6b127b87c305637fb6b564d.json",
+          "sha256": "04b2d2178cae8bb6c2b601d13d0f01a26a6969a8a6b127b87c305637fb6b564d",
+          "source": "cab-premiummaterials0:304902127"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "넘치는 마나",
+            "CardTextInHand": "카드를 1장 뽑습니다. <i>(마나 수정은 10개까지만 보유 가능)</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"CS2_013t\">\n  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Excess Mana</enUS>\n    <zhTW>法力溢出</zhTW>\n    <zhCN>法力过剩</zhCN>\n    <ruRU>Избыток маны</ruRU>\n    <ptBR>Excesso de Mana</ptBR>\n    <plPL>Nadmiar many</plPL>\n    <koKR>넘치는 마나</koKR>\n    <itIT>Eccesso di Mana</itIT>\n    <frFR>Excès de mana</frFR>\n    <esMX>Exceso de maná</esMX>\n    <esES>Maná sobrante</esES>\n    <deDE>Überschüssiges Mana</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>\n    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶)&lt;/i&gt;</zhTW>\n    <zhCN>抽一张牌。&lt;i&gt;（你最多可以拥有10个法力水晶。）&lt;/i&gt;</zhCN>\n    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>\n    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>\n    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku).&lt;/i&gt;</plPL>\n    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>\n    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>\n    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>\n    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>\n    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>\n    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"afbc46d9-471b-4963-944a-fddb08f7df86\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1845738771",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/CS2_013t/wow_lead_018_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/CS2_013t/CS2_013t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1221200116"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-2084975193"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:38801348"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527.png",
+          "sha256": "1e883634eba9fc735abb9b8fa2af2fc5666e2d5a9ccce15d1b29120cda134527",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:686434143",
+          "rgbaSha256": "ada9860befa4af1c5f9eafaaee60b67f25b134ddd6847c9acf85866338dd31f9"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/51f35c10d97d040f38f2491b9b330172fa0aac6df498de1980be39a3c7bac775.json",
+          "sha256": "51f35c10d97d040f38f2491b9b330172fa0aac6df498de1980be39a3c7bac775",
+          "source": "cab-premiummaterials0:304902127"
+        }
+      }
+    ]
+  }
 }

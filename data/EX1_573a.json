@@ -111,5 +111,433 @@
       "platform": "Windows",
       "rawText": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_573"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "반신의 총애",
+            "CardTextInHand": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 7,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_573a\">\n  <MasterPower>f52f098d-dd17-41af-b8d7-694ba480e7ba</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Demigod's Favor</enUS>\n    <frFR>Faveur du demi-dieu</frFR>\n    <zhTW>半神的恩眷</zhTW>\n    <zhCN>半神的恩赐</zhCN>\n    <ruRU>Милость полубога</ruRU>\n    <ptBR>Presente de Semideus</ptBR>\n    <plPL>Łaska półboga</plPL>\n    <koKR>반신의 총애</koKR>\n    <itIT>Favore del Semidio</itIT>\n    <esMX>Favor de semidiós</esMX>\n    <esES>Favor del semidiós</esES>\n    <deDE>Gunst des Halbgotts</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your other minions +2/+2.</enUS>\n    <frFR>Confère +2/+2 à vos autres serviteurs.</frFR>\n    <zhTW>賦予你其他手下+2/+2</zhTW>\n    <zhCN>使你的所有其他随从获得+2/+2。</zhCN>\n    <ruRU>Остальные ваши существа получают +2/+2.</ruRU>\n    <ptBR>Conceda aos seus outros lacaios +2/+2.</ptBR>\n    <plPL>Twoi pozostali stronnicy otrzymują +2/+2.</plPL>\n    <koKR>내 다른 아군 하수인들에게 +2/+2를 부여합니다.</koKR>\n    <itIT>+2/+2 a tutti gli altri tuoi servitori.</itIT>\n    <esMX>Otorga +2/+2 a tus otros esbirros.</esMX>\n    <esES>Otorga +2/+2 a tus otros esbirros.</esES>\n    <deDE>Verleiht Euren anderen Dienern +2/+2.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f52f098d-dd17-41af-b8d7-694ba480e7ba\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1664355529",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_573a/W13_280_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_573a/EX1_573a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-544906261"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:306322198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1428191248"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca.png",
+          "sha256": "74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1607341581",
+          "rgbaSha256": "ddf63dfa155c9a8bf1105a70be0174bfc97f04ea50ee16819911f09105eb4109"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/48496ef7b62cc8e23a7f95e0e86f0d56d3f4a5ccbf84880bf7d3e5b73ab76a06.json",
+          "sha256": "48496ef7b62cc8e23a7f95e0e86f0d56d3f4a5ccbf84880bf7d3e5b73ab76a06",
+          "source": "cab-premiummaterials0:-2096001602"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "반신의 총애",
+            "CardTextInHand": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 7,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_573a\">\n  <MasterPower>f52f098d-dd17-41af-b8d7-694ba480e7ba</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Demigod's Favor</enUS>\n    <frFR>Faveur du demi-dieu</frFR>\n    <zhTW>半神的恩眷</zhTW>\n    <zhCN>半神的恩赐</zhCN>\n    <ruRU>Милость полубога</ruRU>\n    <ptBR>Presente de Semideus</ptBR>\n    <plPL>Łaska półboga</plPL>\n    <koKR>반신의 총애</koKR>\n    <itIT>Favore del Semidio</itIT>\n    <esMX>Favor de semidiós</esMX>\n    <esES>Favor del semidiós</esES>\n    <deDE>Gunst des Halbgotts</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your other minions +2/+2.</enUS>\n    <frFR>Confère +2/+2 à vos autres serviteurs.</frFR>\n    <zhTW>賦予你其他手下+2/+2</zhTW>\n    <zhCN>使你的所有其他随从获得+2/+2。</zhCN>\n    <ruRU>Остальные ваши существа получают +2/+2.</ruRU>\n    <ptBR>Conceda aos seus outros lacaios +2/+2.</ptBR>\n    <plPL>Twoi pozostali stronnicy otrzymują +2/+2.</plPL>\n    <koKR>내 다른 아군 하수인들에게 +2/+2를 부여합니다.</koKR>\n    <itIT>+2/+2 a tutti gli altri tuoi servitori.</itIT>\n    <esMX>Otorga +2/+2 a tus otros esbirros.</esMX>\n    <esES>Otorga +2/+2 a tus otros esbirros.</esES>\n    <deDE>Verleiht Euren anderen Dienern +2/+2.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f52f098d-dd17-41af-b8d7-694ba480e7ba\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1664355529",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_573a/W13_280_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_573a/EX1_573a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-544906261"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:306322198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1428191248"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca.png",
+          "sha256": "74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1607341581",
+          "rgbaSha256": "ddf63dfa155c9a8bf1105a70be0174bfc97f04ea50ee16819911f09105eb4109"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6f805ab0a5384a849cf8c510f99acc89ea4c3c15165872cb656c6fca1dc0ea14.json",
+          "sha256": "6f805ab0a5384a849cf8c510f99acc89ea4c3c15165872cb656c6fca1dc0ea14",
+          "source": "cab-premiummaterials0:-2096001602"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "반신의 총애",
+            "CardTextInHand": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 7,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_573a\">\n  <MasterPower>f52f098d-dd17-41af-b8d7-694ba480e7ba</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Demigod's Favor</enUS>\n    <frFR>Faveur du demi-dieu</frFR>\n    <zhTW>半神的恩眷</zhTW>\n    <zhCN>半神的恩赐</zhCN>\n    <ruRU>Милость полубога</ruRU>\n    <ptBR>Presente de Semideus</ptBR>\n    <plPL>Łaska półboga</plPL>\n    <koKR>반신의 총애</koKR>\n    <itIT>Favore del Semidio</itIT>\n    <esMX>Favor de semidiós</esMX>\n    <esES>Favor del semidiós</esES>\n    <deDE>Gunst des Halbgotts</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your other minions +2/+2.</enUS>\n    <frFR>Confère +2/+2 à vos autres serviteurs.</frFR>\n    <zhTW>賦予你其他手下+2/+2</zhTW>\n    <zhCN>使你的所有其他随从获得+2/+2。</zhCN>\n    <ruRU>Остальные ваши существа получают +2/+2.</ruRU>\n    <ptBR>Conceda aos seus outros lacaios +2/+2.</ptBR>\n    <plPL>Twoi pozostali stronnicy otrzymują +2/+2.</plPL>\n    <koKR>내 다른 아군 하수인들에게 +2/+2를 부여합니다.</koKR>\n    <itIT>+2/+2 a tutti gli altri tuoi servitori.</itIT>\n    <esMX>Otorga +2/+2 a tus otros esbirros.</esMX>\n    <esES>Otorga +2/+2 a tus otros esbirros.</esES>\n    <deDE>Verleiht Euren anderen Dienern +2/+2.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f52f098d-dd17-41af-b8d7-694ba480e7ba\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1664355529",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_573a/W13_280_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_573a/EX1_573a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-544906261"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:306322198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1428191248"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca.png",
+          "sha256": "74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1607341581",
+          "rgbaSha256": "ddf63dfa155c9a8bf1105a70be0174bfc97f04ea50ee16819911f09105eb4109"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a385eca45d6db50d3eebd914493ebafa07d9c83a3a7a9274f26aebc286a7f8c5.json",
+          "sha256": "a385eca45d6db50d3eebd914493ebafa07d9c83a3a7a9274f26aebc286a7f8c5",
+          "source": "cab-premiummaterials0:-2096001602"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "반신의 총애",
+            "CardTextInHand": "내 다른 아군 하수인들에게 +2/+2를 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 7,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_573a\">\n  <MasterPower>f52f098d-dd17-41af-b8d7-694ba480e7ba</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Demigod's Favor</enUS>\n    <frFR>Faveur du demi-dieu</frFR>\n    <zhTW>半神的恩眷</zhTW>\n    <zhCN>半神的恩赐</zhCN>\n    <ruRU>Милость полубога</ruRU>\n    <ptBR>Presente de Semideus</ptBR>\n    <plPL>Łaska półboga</plPL>\n    <koKR>반신의 총애</koKR>\n    <itIT>Favore del Semidio</itIT>\n    <esMX>Favor de semidiós</esMX>\n    <esES>Favor del semidiós</esES>\n    <deDE>Gunst des Halbgotts</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give your other minions +2/+2.</enUS>\n    <frFR>Confère +2/+2 à vos autres serviteurs.</frFR>\n    <zhTW>賦予你其他手下+2/+2</zhTW>\n    <zhCN>使你的所有其他随从获得+2/+2。</zhCN>\n    <ruRU>Остальные ваши существа получают +2/+2.</ruRU>\n    <ptBR>Conceda aos seus outros lacaios +2/+2.</ptBR>\n    <plPL>Twoi pozostali stronnicy otrzymują +2/+2.</plPL>\n    <koKR>내 다른 아군 하수인들에게 +2/+2를 부여합니다.</koKR>\n    <itIT>+2/+2 a tutti gli altri tuoi servitori.</itIT>\n    <esMX>Otorga +2/+2 a tus otros esbirros.</esMX>\n    <esES>Otorga +2/+2 a tus otros esbirros.</esES>\n    <deDE>Verleiht Euren anderen Dienern +2/+2.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f52f098d-dd17-41af-b8d7-694ba480e7ba\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "-1664355529",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_573a/W13_280_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_573a/EX1_573a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-544906261"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:306322198"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1428191248"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca.png",
+          "sha256": "74e4c8259483fce7e2e26fbc9b5d7f2c810b42b0b3176656d1470255179cb9ca",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1607341581",
+          "rgbaSha256": "ddf63dfa155c9a8bf1105a70be0174bfc97f04ea50ee16819911f09105eb4109"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/257983a3d58a01fca0e3614b16ffe335962b0ce4d12cbf23f62af101908fff38.json",
+          "sha256": "257983a3d58a01fca0e3614b16ffe335962b0ce4d12cbf23f62af101908fff38",
+          "source": "cab-premiummaterials0:-2096001602"
+        }
+      }
+    ]
+  }
 }

@@ -112,5 +112,489 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_554"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "뱀"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_554t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Snake</enUS>\n    <frFR>Serpent</frFR>\n    <zhTW>蛇</zhTW>\n    <zhCN>蛇</zhCN>\n    <ruRU>Змея</ruRU>\n    <ptBR>Cobra</ptBR>\n    <plPL>Wąż</plPL>\n    <koKR>뱀</koKR>\n    <itIT>Serpe</itIT>\n    <esMX>Culebra</esMX>\n    <esES>Culebra</esES>\n    <deDE>Schlange</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2108052010",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_554t/W6_240_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_554t/EX1_554t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-413847735"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:125025040"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1657314432"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21.png",
+          "sha256": "664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1303784104",
+          "rgbaSha256": "23fe42bfea766a03a7de2b2611bfb37af9da12a45d67d43c3f3312419fbbd786"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0723e5d7e2e36fb357afa4b4f7d62d6e5fd498e2451fb23f8ee4e9c9eb46ec65.json",
+          "sha256": "0723e5d7e2e36fb357afa4b4f7d62d6e5fd498e2451fb23f8ee4e9c9eb46ec65",
+          "source": "cab-premiummaterials0:1685474896"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "뱀"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_554t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Snake</enUS>\n    <frFR>Serpent</frFR>\n    <zhTW>蛇</zhTW>\n    <zhCN>蛇</zhCN>\n    <ruRU>Змея</ruRU>\n    <ptBR>Cobra</ptBR>\n    <plPL>Wąż</plPL>\n    <koKR>뱀</koKR>\n    <itIT>Serpe</itIT>\n    <esMX>Culebra</esMX>\n    <esES>Culebra</esES>\n    <deDE>Schlange</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2108052010",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_554t/W6_240_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_554t/EX1_554t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-413847735"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:125025040"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1657314432"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21.png",
+          "sha256": "664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1303784104",
+          "rgbaSha256": "23fe42bfea766a03a7de2b2611bfb37af9da12a45d67d43c3f3312419fbbd786"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0737f58cac82aee7c558436cf71872680b336e498dd3822f78445de5b7bc11bf.json",
+          "sha256": "0737f58cac82aee7c558436cf71872680b336e498dd3822f78445de5b7bc11bf",
+          "source": "cab-premiummaterials0:1685474896"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "뱀"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_554t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Snake</enUS>\n    <frFR>Serpent</frFR>\n    <zhTW>蛇</zhTW>\n    <zhCN>蛇</zhCN>\n    <ruRU>Змея</ruRU>\n    <ptBR>Cobra</ptBR>\n    <plPL>Wąż</plPL>\n    <koKR>뱀</koKR>\n    <itIT>Serpe</itIT>\n    <esMX>Culebra</esMX>\n    <esES>Culebra</esES>\n    <deDE>Schlange</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2108052010",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_554t/W6_240_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_554t/EX1_554t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-413847735"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:125025040"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1657314432"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21.png",
+          "sha256": "664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1303784104",
+          "rgbaSha256": "23fe42bfea766a03a7de2b2611bfb37af9da12a45d67d43c3f3312419fbbd786"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ddaecaa44f1a11164020fd892152099bc1b14c734d728c42d5871bafb571e4f3.json",
+          "sha256": "ddaecaa44f1a11164020fd892152099bc1b14c734d728c42d5871bafb571e4f3",
+          "source": "cab-premiummaterials0:1685474896"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "뱀"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_554t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Snake</enUS>\n    <frFR>Serpent</frFR>\n    <zhTW>蛇</zhTW>\n    <zhCN>蛇</zhCN>\n    <ruRU>Змея</ruRU>\n    <ptBR>Cobra</ptBR>\n    <plPL>Wąż</plPL>\n    <koKR>뱀</koKR>\n    <itIT>Serpe</itIT>\n    <esMX>Culebra</esMX>\n    <esES>Culebra</esES>\n    <deDE>Schlange</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2108052010",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_554t/W6_240_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_554t/EX1_554t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-413847735"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:125025040"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1657314432"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21.png",
+          "sha256": "664ca663be56e8f2539aec94194dd11a715ba988083b9233e206f45ea2576b21",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1303784104",
+          "rgbaSha256": "23fe42bfea766a03a7de2b2611bfb37af9da12a45d67d43c3f3312419fbbd786"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5b2c67799d2c608de20a03e5e84fb79b09a689faf2223ff1ef49bda9b3cc6c56.json",
+          "sha256": "5b2c67799d2c608de20a03e5e84fb79b09a689faf2223ff1ef49bda9b3cc6c56",
+          "source": "cab-premiummaterials0:1685474896"
+        }
+      }
+    ]
   }
 }

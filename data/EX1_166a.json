@@ -106,5 +106,393 @@
       "platform": "Windows",
       "rawText": "피해를 2 줍니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_166"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "달빛 섬광",
+            "CardTextInHand": "피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166a\">\n  <MasterPower>50d10cab-1438-47aa-b71a-639e7984fa26</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Moonfire</enUS>\n    <frFR>Éclat lunaire</frFR>\n    <zhTW>月火術</zhTW>\n    <zhCN>月火术</zhCN>\n    <ruRU>Лунный огонь</ruRU>\n    <ptBR>Fogo Lunar</ptBR>\n    <plPL>Księżycowy ogień</plPL>\n    <koKR>달빛 섬광</koKR>\n    <itIT>Fuoco Lunare</itIT>\n    <esMX>Fuego lunar</esMX>\n    <esES>Fuego lunar</esES>\n    <deDE>Mondfeuer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal 2 damage.</enUS>\n    <frFR>Inflige 2 points de dégâts.</frFR>\n    <zhTW>造成2點傷害</zhTW>\n    <zhCN>造成2点伤害。</zhCN>\n    <ruRU>Наносит 2 ед. урона.</ruRU>\n    <ptBR>Cause 2 de dano.</ptBR>\n    <plPL>Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>피해를 2 줍니다.</koKR>\n    <itIT>Infligge 2 danni.</itIT>\n    <esMX>Inflige 2 de daño.</esMX>\n    <esES>Inflige 2 p. de daño.</esES>\n    <deDE>Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Power definition=\"50d10cab-1438-47aa-b71a-639e7984fa26\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2053651873",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166a/W2_103_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166a/EX1_166a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1573170264"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:497659649"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-864279206"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb.png",
+          "sha256": "2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2095970740",
+          "rgbaSha256": "388af91b7d8d850bfb6b7ec1aa60f09d924ff91f26c706ff87dd417c520321f7"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6fd44417d0783cbc0165b4e129ae8e548728065021a1d225d238762a04acd11e.json",
+          "sha256": "6fd44417d0783cbc0165b4e129ae8e548728065021a1d225d238762a04acd11e",
+          "source": "cab-premiummaterials0:1504211595"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "달빛 섬광",
+            "CardTextInHand": "피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166a\">\n  <MasterPower>50d10cab-1438-47aa-b71a-639e7984fa26</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Moonfire</enUS>\n    <frFR>Éclat lunaire</frFR>\n    <zhTW>月火術</zhTW>\n    <zhCN>月火术</zhCN>\n    <ruRU>Лунный огонь</ruRU>\n    <ptBR>Fogo Lunar</ptBR>\n    <plPL>Księżycowy ogień</plPL>\n    <koKR>달빛 섬광</koKR>\n    <itIT>Fuoco Lunare</itIT>\n    <esMX>Fuego lunar</esMX>\n    <esES>Fuego lunar</esES>\n    <deDE>Mondfeuer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal 2 damage.</enUS>\n    <frFR>Inflige 2 points de dégâts.</frFR>\n    <zhTW>造成2點傷害</zhTW>\n    <zhCN>造成2点伤害。</zhCN>\n    <ruRU>Наносит 2 ед. урона.</ruRU>\n    <ptBR>Cause 2 de dano.</ptBR>\n    <plPL>Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>피해를 2 줍니다.</koKR>\n    <itIT>Infligge 2 danni.</itIT>\n    <esMX>Inflige 2 de daño.</esMX>\n    <esES>Inflige 2 p. de daño.</esES>\n    <deDE>Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Power definition=\"50d10cab-1438-47aa-b71a-639e7984fa26\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2053651873",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166a/W2_103_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166a/EX1_166a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1573170264"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:497659649"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-864279206"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb.png",
+          "sha256": "2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2095970740",
+          "rgbaSha256": "388af91b7d8d850bfb6b7ec1aa60f09d924ff91f26c706ff87dd417c520321f7"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2c5717c392762007d766e9e88ef159beb8234c543c36bfb4d3af0648a3e34852.json",
+          "sha256": "2c5717c392762007d766e9e88ef159beb8234c543c36bfb4d3af0648a3e34852",
+          "source": "cab-premiummaterials0:1504211595"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "달빛 섬광",
+            "CardTextInHand": "피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166a\">\n  <MasterPower>50d10cab-1438-47aa-b71a-639e7984fa26</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Moonfire</enUS>\n    <frFR>Éclat lunaire</frFR>\n    <zhTW>月火術</zhTW>\n    <zhCN>月火术</zhCN>\n    <ruRU>Лунный огонь</ruRU>\n    <ptBR>Fogo Lunar</ptBR>\n    <plPL>Księżycowy ogień</plPL>\n    <koKR>달빛 섬광</koKR>\n    <itIT>Fuoco Lunare</itIT>\n    <esMX>Fuego lunar</esMX>\n    <esES>Fuego lunar</esES>\n    <deDE>Mondfeuer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal 2 damage.</enUS>\n    <frFR>Inflige 2 points de dégâts.</frFR>\n    <zhTW>造成2點傷害</zhTW>\n    <zhCN>造成2点伤害。</zhCN>\n    <ruRU>Наносит 2 ед. урона.</ruRU>\n    <ptBR>Cause 2 de dano.</ptBR>\n    <plPL>Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>피해를 2 줍니다.</koKR>\n    <itIT>Infligge 2 danni.</itIT>\n    <esMX>Inflige 2 de daño.</esMX>\n    <esES>Inflige 2 p. de daño.</esES>\n    <deDE>Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Power definition=\"50d10cab-1438-47aa-b71a-639e7984fa26\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2053651873",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166a/W2_103_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166a/EX1_166a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1573170264"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:497659649"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-864279206"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb.png",
+          "sha256": "2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2095970740",
+          "rgbaSha256": "388af91b7d8d850bfb6b7ec1aa60f09d924ff91f26c706ff87dd417c520321f7"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d03d282abf0235bb7f4c57ee20a741576da0234aded6bb345b9322b339a62d99.json",
+          "sha256": "d03d282abf0235bb7f4c57ee20a741576da0234aded6bb345b9322b339a62d99",
+          "source": "cab-premiummaterials0:1504211595"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "달빛 섬광",
+            "CardTextInHand": "피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_166a\">\n  <MasterPower>50d10cab-1438-47aa-b71a-639e7984fa26</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Moonfire</enUS>\n    <frFR>Éclat lunaire</frFR>\n    <zhTW>月火術</zhTW>\n    <zhCN>月火术</zhCN>\n    <ruRU>Лунный огонь</ruRU>\n    <ptBR>Fogo Lunar</ptBR>\n    <plPL>Księżycowy ogień</plPL>\n    <koKR>달빛 섬광</koKR>\n    <itIT>Fuoco Lunare</itIT>\n    <esMX>Fuego lunar</esMX>\n    <esES>Fuego lunar</esES>\n    <deDE>Mondfeuer</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal 2 damage.</enUS>\n    <frFR>Inflige 2 points de dégâts.</frFR>\n    <zhTW>造成2點傷害</zhTW>\n    <zhCN>造成2点伤害。</zhCN>\n    <ruRU>Наносит 2 ед. урона.</ruRU>\n    <ptBR>Cause 2 de dano.</ptBR>\n    <plPL>Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>피해를 2 줍니다.</koKR>\n    <itIT>Infligge 2 danni.</itIT>\n    <esMX>Inflige 2 de daño.</esMX>\n    <esES>Inflige 2 p. de daño.</esES>\n    <deDE>Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Power definition=\"50d10cab-1438-47aa-b71a-639e7984fa26\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "2053651873",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_166a/W2_103_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_166a/EX1_166a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1573170264"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:497659649"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-864279206"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb.png",
+          "sha256": "2eb16be433712eefa09479df116f19de6b0a4ca6180bd5c2b64a449767d26ffb",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2095970740",
+          "rgbaSha256": "388af91b7d8d850bfb6b7ec1aa60f09d924ff91f26c706ff87dd417c520321f7"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6a3e518fc4e57701e8682eea6cf066c6b83078c543665b7bf5709b988982e211.json",
+          "sha256": "6a3e518fc4e57701e8682eea6cf066c6b83078c543665b7bf5709b988982e211",
+          "source": "cab-premiummaterials0:1504211595"
+        }
+      }
+    ]
+  }
 }

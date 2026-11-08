@@ -118,5 +118,465 @@
       "platform": "Windows",
       "rawText": "<b>돌진</b>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "NEW1_031"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "킁킁이",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 197,
+              "value": 1,
+              "name": "Charge"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 4,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_034\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Huffer</enUS>\n    <frFR>Souffleur</frFR>\n    <zhTW>胡佛</zhTW>\n    <zhCN>霍弗</zhCN>\n    <ruRU>Хаффер</ruRU>\n    <ptBR>Bufo</ptBR>\n    <plPL>Prychacz</plPL>\n    <koKR>킁킁이</koKR>\n    <itIT>Huffer</itIT>\n    <esMX>Bufar</esMX>\n    <esES>Bufar</esES>\n    <deDE>Grummel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Charge\" enumID=\"197\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"00bca6a8-1155-4ab6-816c-2c8a020342b9\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-861441743",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_034/W19_a206_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_034/NEW1_034_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-453138837"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-489940458"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f.png",
+          "sha256": "30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-154487779",
+          "rgbaSha256": "d70392be748ff32a42a3af49d491a240d12995c7206364e85c1c1993769b57b6"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f8582371342c7ef5315d9f52a22d83e7b4438e0ae023ceeba767bb01e4edf4b9.json",
+          "sha256": "f8582371342c7ef5315d9f52a22d83e7b4438e0ae023ceeba767bb01e4edf4b9",
+          "source": "cab-premiummaterials0:871661806"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "킁킁이",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 197,
+              "value": 1,
+              "name": "Charge"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 4,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_034\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Huffer</enUS>\n    <frFR>Souffleur</frFR>\n    <zhTW>胡佛</zhTW>\n    <zhCN>霍弗</zhCN>\n    <ruRU>Хаффер</ruRU>\n    <ptBR>Bufo</ptBR>\n    <plPL>Prychacz</plPL>\n    <koKR>킁킁이</koKR>\n    <itIT>Huffer</itIT>\n    <esMX>Bufar</esMX>\n    <esES>Bufar</esES>\n    <deDE>Grummel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Charge\" enumID=\"197\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"00bca6a8-1155-4ab6-816c-2c8a020342b9\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-861441743",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_034/W19_a206_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_034/NEW1_034_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-453138837"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-489940458"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f.png",
+          "sha256": "30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-154487779",
+          "rgbaSha256": "d70392be748ff32a42a3af49d491a240d12995c7206364e85c1c1993769b57b6"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/341e7d46b30cd68226779d4da3516fac04ff99e012e760c352defa04815d1d50.json",
+          "sha256": "341e7d46b30cd68226779d4da3516fac04ff99e012e760c352defa04815d1d50",
+          "source": "cab-premiummaterials0:871661806"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "킁킁이",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 197,
+              "value": 1,
+              "name": "Charge"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 4,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_034\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Huffer</enUS>\n    <frFR>Souffleur</frFR>\n    <zhTW>胡佛</zhTW>\n    <zhCN>霍弗</zhCN>\n    <ruRU>Хаффер</ruRU>\n    <ptBR>Bufo</ptBR>\n    <plPL>Prychacz</plPL>\n    <koKR>킁킁이</koKR>\n    <itIT>Huffer</itIT>\n    <esMX>Bufar</esMX>\n    <esES>Bufar</esES>\n    <deDE>Grummel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Charge\" enumID=\"197\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"00bca6a8-1155-4ab6-816c-2c8a020342b9\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-861441743",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_034/W19_a206_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_034/NEW1_034_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-453138837"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-489940458"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f.png",
+          "sha256": "30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-154487779",
+          "rgbaSha256": "d70392be748ff32a42a3af49d491a240d12995c7206364e85c1c1993769b57b6"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0c3da7214ef2a2c3744173c67e982daa1a24217b16362c7ebedc35fafffdc749.json",
+          "sha256": "0c3da7214ef2a2c3744173c67e982daa1a24217b16362c7ebedc35fafffdc749",
+          "source": "cab-premiummaterials0:871661806"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "킁킁이",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 2,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 4,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 2,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 3,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            },
+            {
+              "tagId": 203,
+              "value": 1,
+              "name": "Rarity"
+            },
+            {
+              "tagId": 199,
+              "value": 3,
+              "name": "Class"
+            },
+            {
+              "tagId": 197,
+              "value": 1,
+              "name": "Charge"
+            }
+          ],
+          "stats": {
+            "cost": 3,
+            "attack": 4,
+            "health": 2,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_034\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Huffer</enUS>\n    <frFR>Souffleur</frFR>\n    <zhTW>胡佛</zhTW>\n    <zhCN>霍弗</zhCN>\n    <ruRU>Хаффер</ruRU>\n    <ptBR>Bufo</ptBR>\n    <plPL>Prychacz</plPL>\n    <koKR>킁킁이</koKR>\n    <itIT>Huffer</itIT>\n    <esMX>Bufar</esMX>\n    <esES>Bufar</esES>\n    <deDE>Grummel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"2\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"Charge\" enumID=\"197\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"00bca6a8-1155-4ab6-816c-2c8a020342b9\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-861441743",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/00 Basic/NEW1_034/W19_a206_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/00 Basic/NEW1_034/NEW1_034_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-453138837"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-489940458"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f.png",
+          "sha256": "30494b0994e97573af790f7e9542b61961ce635b9949525ed231718c7c93ee8f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-154487779",
+          "rgbaSha256": "d70392be748ff32a42a3af49d491a240d12995c7206364e85c1c1993769b57b6"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f0224a41960a082df12dddf65e77077db61864b3b96ac149e04079541e972261.json",
+          "sha256": "f0224a41960a082df12dddf65e77077db61864b3b96ac149e04079541e972261",
+          "source": "cab-premiummaterials0:871661806"
+        }
+      }
+    ]
+  }
 }

@@ -102,5 +102,409 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_116"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "새끼용"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-2147426208",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1132903620"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1587556433"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1397590899"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+          "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-863456905",
+          "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2df72702cfe0ea7f51445a6ea49293e5bf067aa1c606083871ba2f256c3e4e08.json",
+          "sha256": "2df72702cfe0ea7f51445a6ea49293e5bf067aa1c606083871ba2f256c3e4e08",
+          "source": "cab-premiummaterials0:1583056474"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "새끼용"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-2147426208",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1132903620"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1587556433"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1397590899"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+          "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-863456905",
+          "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/476b2f1822bf4a2c5fc4cdddc9ed66b94291a616c60b89c688ff4ddab23bc426.json",
+          "sha256": "476b2f1822bf4a2c5fc4cdddc9ed66b94291a616c60b89c688ff4ddab23bc426",
+          "source": "cab-premiummaterials0:1583056474"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "새끼용"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-2147426208",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1132903620"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1587556433"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1397590899"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+          "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-863456905",
+          "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b6fa1c41f1c2aa72abb0faf9ed1225235f19d02de73d2b1f54f5501a82092662.json",
+          "sha256": "b6fa1c41f1c2aa72abb0faf9ed1225235f19d02de73d2b1f54f5501a82092662",
+          "source": "cab-premiummaterials0:1583056474"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "새끼용"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 200,
+              "value": 24,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-2147426208",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-1132903620"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:1587556433"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1397590899"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+          "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-863456905",
+          "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5f1ef0c759a0347e015a5262038a551eb6e4664e2c53ef0b99893619c05f15fd.json",
+          "sha256": "5f1ef0c759a0347e015a5262038a551eb6e4664e2c53ef0b99893619c05f15fd",
+          "source": "cab-premiummaterials0:1583056474"
+        }
+      }
+    ]
   }
 }

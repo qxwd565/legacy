@@ -108,5 +108,413 @@
       "platform": "Windows",
       "rawText": "<i>오, 닭이다!</i>"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_112"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "444280839",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4t/W12_a222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4t/Mekka4t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980.png",
+          "sha256": "e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:2027990709",
+          "rgbaSha256": "262f30cc012790d6843313ae305ce4490490c6211410fa319c9f93369c6d88ec"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/cc53a02297efc5c256dadbe93cb9a5f5d95428836f0d41d74ca1a59944e146bc.json",
+          "sha256": "cc53a02297efc5c256dadbe93cb9a5f5d95428836f0d41d74ca1a59944e146bc",
+          "source": "cab-premiummaterials0:-274311054"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "444280839",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4t/W12_a222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4t/Mekka4t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980.png",
+          "sha256": "e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:2027990709",
+          "rgbaSha256": "262f30cc012790d6843313ae305ce4490490c6211410fa319c9f93369c6d88ec"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7e1e981a03101131904d35c241a0b5384b2a0cdcd8830196497271dba8fe4d00.json",
+          "sha256": "7e1e981a03101131904d35c241a0b5384b2a0cdcd8830196497271dba8fe4d00",
+          "source": "cab-premiummaterials0:-274311054"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "444280839",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4t/W12_a222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4t/Mekka4t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980.png",
+          "sha256": "e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:2027990709",
+          "rgbaSha256": "262f30cc012790d6843313ae305ce4490490c6211410fa319c9f93369c6d88ec"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/72d8a7949e0be50f0b4688bc3441bba70b74a03efedafbdbd3f27f546b5780b3.json",
+          "sha256": "72d8a7949e0be50f0b4688bc3441bba70b74a03efedafbdbd3f27f546b5780b3",
+          "source": "cab-premiummaterials0:-274311054"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 11,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 1,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 200,
+              "value": 20,
+              "name": "Race"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": 1,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+            "serializedFile": "CAB-cards1",
+            "pathId": "444280839",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4t/W12_a222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4t/Mekka4t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980.png",
+          "sha256": "e5c9a5ec26f50d37dc617d70d282a3e926eed4005ce10043785b4554a394d980",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:2027990709",
+          "rgbaSha256": "262f30cc012790d6843313ae305ce4490490c6211410fa319c9f93369c6d88ec"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/59f99854ec17b9c6425ffb54af1ff4e1f41db5ab783804c6f28944dcaa527e13.json",
+          "sha256": "59f99854ec17b9c6425ffb54af1ff4e1f41db5ab783804c6f28944dcaa527e13",
+          "source": "cab-premiummaterials0:-274311054"
+        }
+      }
+    ]
+  }
 }

@@ -106,5 +106,409 @@
       "platform": "Windows",
       "rawText": "공격력을 +4 부여합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_155"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "공격력을 +4 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_155a\">\n  <MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Attack.</enUS>\n    <frFR>+4 ATQ.</frFR>\n    <zhTW>+4攻擊力</zhTW>\n    <zhCN>+4攻击力。</zhCN>\n    <ruRU>+4 к атаке.</ruRU>\n    <ptBR>+4 de Ataque</ptBR>\n    <plPL>+4 do ataku.</plPL>\n    <koKR>공격력을 +4 부여합니다.</koKR>\n    <itIT>+4 Attacco.</itIT>\n    <esMX>+4 de Ataque.</esMX>\n    <esES>+4 p. de ataque.</esES>\n    <deDE>+4 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"0671c592-ad07-41e3-a91b-484778498e07\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "2142569114",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_155/W6_024_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_155/EX1_155_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31.png",
+          "sha256": "6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:502120214",
+          "rgbaSha256": "b9d5bbf995023bdf7083ced88d7a72a0ea7881b03837f206437875cd8210904c"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ed3d21be85e01f6d4070be23dd27242ac0310f520dffeaa98e3684153624168e.json",
+          "sha256": "ed3d21be85e01f6d4070be23dd27242ac0310f520dffeaa98e3684153624168e",
+          "source": "cab-premiummaterials0:452462244"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "공격력을 +4 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_155a\">\n  <MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Attack.</enUS>\n    <frFR>+4 ATQ.</frFR>\n    <zhTW>+4攻擊力</zhTW>\n    <zhCN>+4攻击力。</zhCN>\n    <ruRU>+4 к атаке.</ruRU>\n    <ptBR>+4 de Ataque</ptBR>\n    <plPL>+4 do ataku.</plPL>\n    <koKR>공격력을 +4 부여합니다.</koKR>\n    <itIT>+4 Attacco.</itIT>\n    <esMX>+4 de Ataque.</esMX>\n    <esES>+4 p. de ataque.</esES>\n    <deDE>+4 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"0671c592-ad07-41e3-a91b-484778498e07\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "2142569114",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_155/W6_024_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_155/EX1_155_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31.png",
+          "sha256": "6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:502120214",
+          "rgbaSha256": "b9d5bbf995023bdf7083ced88d7a72a0ea7881b03837f206437875cd8210904c"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2881963245f64b40b34852802491c067bd3a96a60e28c532933a1b55d8b78ba9.json",
+          "sha256": "2881963245f64b40b34852802491c067bd3a96a60e28c532933a1b55d8b78ba9",
+          "source": "cab-premiummaterials0:452462244"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "공격력을 +4 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_155a\">\n  <MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Attack.</enUS>\n    <frFR>+4 ATQ.</frFR>\n    <zhTW>+4攻擊力</zhTW>\n    <zhCN>+4攻击力。</zhCN>\n    <ruRU>+4 к атаке.</ruRU>\n    <ptBR>+4 de Ataque</ptBR>\n    <plPL>+4 do ataku.</plPL>\n    <koKR>공격력을 +4 부여합니다.</koKR>\n    <itIT>+4 Attacco.</itIT>\n    <esMX>+4 de Ataque.</esMX>\n    <esES>+4 p. de ataque.</esES>\n    <deDE>+4 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"0671c592-ad07-41e3-a91b-484778498e07\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "2142569114",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_155/W6_024_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_155/EX1_155_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31.png",
+          "sha256": "6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:502120214",
+          "rgbaSha256": "b9d5bbf995023bdf7083ced88d7a72a0ea7881b03837f206437875cd8210904c"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/54a53dd125c329d3afe20a4de4c3d27c8b68e639dc89caf8ee5f54966547925d.json",
+          "sha256": "54a53dd125c329d3afe20a4de4c3d27c8b68e639dc89caf8ee5f54966547925d",
+          "source": "cab-premiummaterials0:452462244"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "공격력을 +4 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_155a\">\n  <MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Attack.</enUS>\n    <frFR>+4 ATQ.</frFR>\n    <zhTW>+4攻擊力</zhTW>\n    <zhCN>+4攻击力。</zhCN>\n    <ruRU>+4 к атаке.</ruRU>\n    <ptBR>+4 de Ataque</ptBR>\n    <plPL>+4 do ataku.</plPL>\n    <koKR>공격력을 +4 부여합니다.</koKR>\n    <itIT>+4 Attacco.</itIT>\n    <esMX>+4 de Ataque.</esMX>\n    <esES>+4 p. de ataque.</esES>\n    <deDE>+4 Angriff.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"0671c592-ad07-41e3-a91b-484778498e07\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "2142569114",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_155/W6_024_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_155/EX1_155_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31.png",
+          "sha256": "6447ac5fc19018de57bca9142833461d7b4b8b186e4bf2a416aab7aa8e9fad31",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:502120214",
+          "rgbaSha256": "b9d5bbf995023bdf7083ced88d7a72a0ea7881b03837f206437875cd8210904c"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/df0f318df8f7db70ebac358e6b2253e9a03deeb16908e764d8448a808d1ae537.json",
+          "sha256": "df0f318df8f7db70ebac358e6b2253e9a03deeb16908e764d8448a808d1ae537",
+          "source": "cab-premiummaterials0:452462244"
+        }
+      }
+    ]
+  }
 }

@@ -113,5 +113,373 @@
       "platform": "Windows",
       "rawText": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_572"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1455051099",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_05/W16_a062_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_05/DREAM_05_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a.png",
+          "sha256": "ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:2133481163",
+          "rgbaSha256": "a2f1f20b343aa5cd1b71ccb32f5a65f8b5bd0941111bdb79a596e96d744fa7a8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e7640fd3e9233fc32616e4e91a16ecc4c4cf114841f6a9afaec45f0c29184b14.json",
+          "sha256": "e7640fd3e9233fc32616e4e91a16ecc4c4cf114841f6a9afaec45f0c29184b14",
+          "source": "cab-premiummaterials0:1823712807"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1455051099",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_05/W16_a062_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_05/DREAM_05_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a.png",
+          "sha256": "ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:2133481163",
+          "rgbaSha256": "a2f1f20b343aa5cd1b71ccb32f5a65f8b5bd0941111bdb79a596e96d744fa7a8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/bd534b51b605971d4126f70e41bd9c394409734ba1bdb4d408e255bbe89eb2a3.json",
+          "sha256": "bd534b51b605971d4126f70e41bd9c394409734ba1bdb4d408e255bbe89eb2a3",
+          "source": "cab-premiummaterials0:1823712807"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1455051099",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_05/W16_a062_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_05/DREAM_05_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a.png",
+          "sha256": "ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:2133481163",
+          "rgbaSha256": "a2f1f20b343aa5cd1b71ccb32f5a65f8b5bd0941111bdb79a596e96d744fa7a8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4f66cd459a3fa7115ead958a83afa40083ff7167381cd5a005db31a5b694745b.json",
+          "sha256": "4f66cd459a3fa7115ead958a83afa40083ff7167381cd5a005db31a5b694745b",
+          "source": "cab-premiummaterials0:1823712807"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 0,
+              "name": "Cost"
+            },
+            {
+              "tagId": 199,
+              "value": 11,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 0,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1455051099",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_05/W16_a062_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_05/DREAM_05_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a.png",
+          "sha256": "ee77dc43877e0f78929531d5fbde5a39f59927111c805a6427db7174c40b3d5a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:2133481163",
+          "rgbaSha256": "a2f1f20b343aa5cd1b71ccb32f5a65f8b5bd0941111bdb79a596e96d744fa7a8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/36cee518b3c950399b3100cc50b2bb0dcdc12ae013910bf67734845b633490bc.json",
+          "sha256": "36cee518b3c950399b3100cc50b2bb0dcdc12ae013910bf67734845b633490bc",
+          "source": "cab-premiummaterials0:1823712807"
+        }
+      }
+    ]
+  }
 }

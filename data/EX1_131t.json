@@ -100,5 +100,449 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_131"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "데피아즈단 무법자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 7,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_131t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defias Bandit</enUS>\n    <frFR>Bandit défias</frFR>\n    <zhTW>迪菲亞強盜</zhTW>\n    <zhCN>迪菲亚强盗</zhCN>\n    <ruRU>Бандит Братства</ruRU>\n    <ptBR>Bandido Défias</ptBR>\n    <plPL>Bandyta Nieskornych</plPL>\n    <koKR>데피아즈단 무법자</koKR>\n    <itIT>Bandito dei Defias</itIT>\n    <esMX>Bandido Defias</esMX>\n    <esES>Bandido Defias</esES>\n    <deDE>Bandit der Defias</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"7\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1085134165",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_131t/w2_361_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_131t/EX1_131t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1835979543"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:93958360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1980597707"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a.png",
+          "sha256": "41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1947103947",
+          "rgbaSha256": "b3adbbf176ef218b5422d67cfcca2f9809931f396a40e9e8559d9bed9bcafa55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/da51c404512903bfb551e2119df164fcf9007b0c321275f6e71f4495aa329dfb.json",
+          "sha256": "da51c404512903bfb551e2119df164fcf9007b0c321275f6e71f4495aa329dfb",
+          "source": "cab-premiummaterials0:-523592377"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "데피아즈단 무법자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 7,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_131t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defias Bandit</enUS>\n    <frFR>Bandit défias</frFR>\n    <zhTW>迪菲亞強盜</zhTW>\n    <zhCN>迪菲亚强盗</zhCN>\n    <ruRU>Бандит Братства</ruRU>\n    <ptBR>Bandido Défias</ptBR>\n    <plPL>Bandyta Nieskornych</plPL>\n    <koKR>데피아즈단 무법자</koKR>\n    <itIT>Bandito dei Defias</itIT>\n    <esMX>Bandido Defias</esMX>\n    <esES>Bandido Defias</esES>\n    <deDE>Bandit der Defias</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"7\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1085134165",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_131t/w2_361_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_131t/EX1_131t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1835979543"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:93958360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1980597707"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a.png",
+          "sha256": "41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1947103947",
+          "rgbaSha256": "b3adbbf176ef218b5422d67cfcca2f9809931f396a40e9e8559d9bed9bcafa55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/07f40eed5782d6a6028b459b2b8dd0ce8a358f3a51181f6d994717ecb9d5ec33.json",
+          "sha256": "07f40eed5782d6a6028b459b2b8dd0ce8a358f3a51181f6d994717ecb9d5ec33",
+          "source": "cab-premiummaterials0:-523592377"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "데피아즈단 무법자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 7,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_131t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defias Bandit</enUS>\n    <frFR>Bandit défias</frFR>\n    <zhTW>迪菲亞強盜</zhTW>\n    <zhCN>迪菲亚强盗</zhCN>\n    <ruRU>Бандит Братства</ruRU>\n    <ptBR>Bandido Défias</ptBR>\n    <plPL>Bandyta Nieskornych</plPL>\n    <koKR>데피아즈단 무법자</koKR>\n    <itIT>Bandito dei Defias</itIT>\n    <esMX>Bandido Defias</esMX>\n    <esES>Bandido Defias</esES>\n    <deDE>Bandit der Defias</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"7\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1085134165",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_131t/w2_361_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_131t/EX1_131t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1835979543"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:93958360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1980597707"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a.png",
+          "sha256": "41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1947103947",
+          "rgbaSha256": "b3adbbf176ef218b5422d67cfcca2f9809931f396a40e9e8559d9bed9bcafa55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/1359f5edc8406b4bb90ee02e6e81474b85f8d384769d0d1133cf13225106e697.json",
+          "sha256": "1359f5edc8406b4bb90ee02e6e81474b85f8d384769d0d1133cf13225106e697",
+          "source": "cab-premiummaterials0:-523592377"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "데피아즈단 무법자"
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 4,
+              "name": "CardType"
+            },
+            {
+              "tagId": 47,
+              "value": 2,
+              "name": "Atk"
+            },
+            {
+              "tagId": 45,
+              "value": 1,
+              "name": "Health"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 7,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 6,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": 2,
+            "health": 1,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "MINION",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_131t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Defias Bandit</enUS>\n    <frFR>Bandit défias</frFR>\n    <zhTW>迪菲亞強盜</zhTW>\n    <zhCN>迪菲亚强盗</zhCN>\n    <ruRU>Бандит Братства</ruRU>\n    <ptBR>Bandido Défias</ptBR>\n    <plPL>Bandyta Nieskornych</plPL>\n    <koKR>데피아즈단 무법자</koKR>\n    <itIT>Bandito dei Defias</itIT>\n    <esMX>Bandido Defias</esMX>\n    <esES>Bandido Defias</esES>\n    <deDE>Bandit der Defias</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"7\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"6\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "-1085134165",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_131t/w2_361_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_131t/EX1_131t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1835979543"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:93958360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1980597707"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a.png",
+          "sha256": "41eace8714f95ff2ff32191d7c17a309c9f89a6ae1829fb5cdbc557ed5ec363a",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1947103947",
+          "rgbaSha256": "b3adbbf176ef218b5422d67cfcca2f9809931f396a40e9e8559d9bed9bcafa55"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6c38a49af48605ee1260618c2cc7f6f58282e59d4c87e862245507ebe865dc2b.json",
+          "sha256": "6c38a49af48605ee1260618c2cc7f6f58282e59d4c87e862245507ebe865dc2b",
+          "source": "cab-premiummaterials0:-523592377"
+        }
+      }
+    ]
   }
 }

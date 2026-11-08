@@ -128,5 +128,409 @@
       "platform": "Windows",
       "rawText": "하수인 하나에게 피해를 $3 줍니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_154"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "천벌",
+            "CardTextInHand": "하수인 하나에게 피해를 $3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_154a\">\n  <MasterPower>68f1b82c-7a25-4b09-af67-4f54eb066960</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Wrath</enUS>\n    <frFR>Colère</frFR>\n    <zhTW>憤怒</zhTW>\n    <zhCN>愤怒</zhCN>\n    <ruRU>Гнев</ruRU>\n    <ptBR>Ira</ptBR>\n    <plPL>Gniew</plPL>\n    <koKR>천벌</koKR>\n    <itIT>Ira Silvana</itIT>\n    <esMX>Cólera</esMX>\n    <esES>Cólera</esES>\n    <deDE>Zorn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $3 damage to a minion.</enUS>\n    <frFR>Inflige $3 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$3點傷害</zhTW>\n    <zhCN>对一个随从造成$3点伤害。</zhCN>\n    <ruRU>Наносит существу $3 ед. урона.</ruRU>\n    <ptBR>Cause $3 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $3 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $3 줍니다.</koKR>\n    <itIT>Infligge $3 danni a un servitore.</itIT>\n    <esMX>Inflige $3 de daño a un esbirro.</esMX>\n    <esES>Inflige $3 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $3 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"68f1b82c-7a25-4b09-af67-4f54eb066960\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-12352567",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_154/W17_a102_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_154/EX1_154_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2.png",
+          "sha256": "7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1705064924",
+          "rgbaSha256": "562dbedeef5ebcf7615d5f077041e5475a8dabe1768f899734ad83f0d0ff4a22"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0f382dc3a0be7280b9494ec0a738c60872cea89a7c6d29f1ff4cbd810320d4da.json",
+          "sha256": "0f382dc3a0be7280b9494ec0a738c60872cea89a7c6d29f1ff4cbd810320d4da",
+          "source": "cab-premiummaterials0:1505802669"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "천벌",
+            "CardTextInHand": "하수인 하나에게 피해를 $3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_154a\">\n  <MasterPower>68f1b82c-7a25-4b09-af67-4f54eb066960</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Wrath</enUS>\n    <frFR>Colère</frFR>\n    <zhTW>憤怒</zhTW>\n    <zhCN>愤怒</zhCN>\n    <ruRU>Гнев</ruRU>\n    <ptBR>Ira</ptBR>\n    <plPL>Gniew</plPL>\n    <koKR>천벌</koKR>\n    <itIT>Ira Silvana</itIT>\n    <esMX>Cólera</esMX>\n    <esES>Cólera</esES>\n    <deDE>Zorn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $3 damage to a minion.</enUS>\n    <frFR>Inflige $3 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$3點傷害</zhTW>\n    <zhCN>对一个随从造成$3点伤害。</zhCN>\n    <ruRU>Наносит существу $3 ед. урона.</ruRU>\n    <ptBR>Cause $3 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $3 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $3 줍니다.</koKR>\n    <itIT>Infligge $3 danni a un servitore.</itIT>\n    <esMX>Inflige $3 de daño a un esbirro.</esMX>\n    <esES>Inflige $3 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $3 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"68f1b82c-7a25-4b09-af67-4f54eb066960\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-12352567",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_154/W17_a102_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_154/EX1_154_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2.png",
+          "sha256": "7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1705064924",
+          "rgbaSha256": "562dbedeef5ebcf7615d5f077041e5475a8dabe1768f899734ad83f0d0ff4a22"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/939c0fab99b07026b73074e127a25602b61fee78d719858c8179977c43a7669c.json",
+          "sha256": "939c0fab99b07026b73074e127a25602b61fee78d719858c8179977c43a7669c",
+          "source": "cab-premiummaterials0:1505802669"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "천벌",
+            "CardTextInHand": "하수인 하나에게 피해를 $3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_154a\">\n  <MasterPower>68f1b82c-7a25-4b09-af67-4f54eb066960</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Wrath</enUS>\n    <frFR>Colère</frFR>\n    <zhTW>憤怒</zhTW>\n    <zhCN>愤怒</zhCN>\n    <ruRU>Гнев</ruRU>\n    <ptBR>Ira</ptBR>\n    <plPL>Gniew</plPL>\n    <koKR>천벌</koKR>\n    <itIT>Ira Silvana</itIT>\n    <esMX>Cólera</esMX>\n    <esES>Cólera</esES>\n    <deDE>Zorn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $3 damage to a minion.</enUS>\n    <frFR>Inflige $3 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$3點傷害</zhTW>\n    <zhCN>对一个随从造成$3点伤害。</zhCN>\n    <ruRU>Наносит существу $3 ед. урона.</ruRU>\n    <ptBR>Cause $3 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $3 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $3 줍니다.</koKR>\n    <itIT>Infligge $3 danni a un servitore.</itIT>\n    <esMX>Inflige $3 de daño a un esbirro.</esMX>\n    <esES>Inflige $3 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $3 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"68f1b82c-7a25-4b09-af67-4f54eb066960\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-12352567",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_154/W17_a102_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_154/EX1_154_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2.png",
+          "sha256": "7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1705064924",
+          "rgbaSha256": "562dbedeef5ebcf7615d5f077041e5475a8dabe1768f899734ad83f0d0ff4a22"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/861dd2c85271127e95b972fd95359a3ea3128a19199fdea173b9d247bf6cb62a.json",
+          "sha256": "861dd2c85271127e95b972fd95359a3ea3128a19199fdea173b9d247bf6cb62a",
+          "source": "cab-premiummaterials0:1505802669"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "천벌",
+            "CardTextInHand": "하수인 하나에게 피해를 $3 줍니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_154a\">\n  <MasterPower>68f1b82c-7a25-4b09-af67-4f54eb066960</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Wrath</enUS>\n    <frFR>Colère</frFR>\n    <zhTW>憤怒</zhTW>\n    <zhCN>愤怒</zhCN>\n    <ruRU>Гнев</ruRU>\n    <ptBR>Ira</ptBR>\n    <plPL>Gniew</plPL>\n    <koKR>천벌</koKR>\n    <itIT>Ira Silvana</itIT>\n    <esMX>Cólera</esMX>\n    <esES>Cólera</esES>\n    <deDE>Zorn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Deal $3 damage to a minion.</enUS>\n    <frFR>Inflige $3 |4(point,points) de dégâts à un serviteur.</frFR>\n    <zhTW>對一個手下造成$3點傷害</zhTW>\n    <zhCN>对一个随从造成$3点伤害。</zhCN>\n    <ruRU>Наносит существу $3 ед. урона.</ruRU>\n    <ptBR>Cause $3 de dano a um lacaio.</ptBR>\n    <plPL>Zadaj $3 pkt. obrażeń stronnikowi.</plPL>\n    <koKR>하수인 하나에게 피해를 $3 줍니다.</koKR>\n    <itIT>Infligge $3 danni a un servitore.</itIT>\n    <esMX>Inflige $3 de daño a un esbirro.</esMX>\n    <esES>Inflige $3 p. de daño a un esbirro.</esES>\n    <deDE>Fügt einem Diener $3 Schaden zu.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"68f1b82c-7a25-4b09-af67-4f54eb066960\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-12352567",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_154/W17_a102_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_154/EX1_154_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2.png",
+          "sha256": "7dcd44c8223c13dafa1a5259fd09803a3b713a796de00174cfe9ff81d6d835e2",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-1705064924",
+          "rgbaSha256": "562dbedeef5ebcf7615d5f077041e5475a8dabe1768f899734ad83f0d0ff4a22"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3a37326f76e08765238848909bf07f72f4030ba0c284ebfdf35acc2866db1656.json",
+          "sha256": "3a37326f76e08765238848909bf07f72f4030ba0c284ebfdf35acc2866db1656",
+          "source": "cab-premiummaterials0:1505802669"
+        }
+      }
+    ]
+  }
 }

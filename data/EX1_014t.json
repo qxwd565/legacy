@@ -108,5 +108,393 @@
       "platform": "Windows",
       "rawText": "하수인 하나에게 +1/+1을 부여합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_014"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "바나나",
+            "CardTextInHand": "하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_014t\">\n  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Bananas</enUS>\n    <frFR>Banane</frFR>\n    <zhTW>香蕉</zhTW>\n    <zhCN>香蕉</zhCN>\n    <ruRU>Бананы</ruRU>\n    <ptBR>Bananas</ptBR>\n    <plPL>Banany</plPL>\n    <koKR>바나나</koKR>\n    <itIT>Banana</itIT>\n    <esMX>Bananas</esMX>\n    <esES>Plátanos</esES>\n    <deDE>Banane</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +1/+1.</enUS>\n    <frFR>Confère +1/+1 à un serviteur.</frFR>\n    <zhTW>賦予一個手下+1/+1</zhTW>\n    <zhCN>使一个随从获得+1/+1。</zhCN>\n    <ruRU>Выбранное существо получает +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>\n    <plPL>Daj stronnikowi +1/+1.</plPL>\n    <koKR>하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a un servitore.</itIT>\n    <esMX>Otorga +1/+1 a un esbirro.</esMX>\n    <esES>Otorga +1/+1 a un esbirro.</esES>\n    <deDE>Verleiht einem Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"3f3ed805-a9b8-4b68-b438-a11cf3628033\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1821590483",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_014t/bananas2_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_014t/EX1_014t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1706146211"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:531330965"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:919733236"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c.png",
+          "sha256": "5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1389887236",
+          "rgbaSha256": "fa7d91358d92161a232e7a22bee76cabdde5edbe3f762b589cbf9ec40b3df736"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/51c317520ec47258cb7fdc9e868db7529a724283a2208c7708761f4e1d406fc0.json",
+          "sha256": "51c317520ec47258cb7fdc9e868db7529a724283a2208c7708761f4e1d406fc0",
+          "source": "cab-premiummaterials0:-1084943393"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "바나나",
+            "CardTextInHand": "하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_014t\">\n  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Bananas</enUS>\n    <frFR>Banane</frFR>\n    <zhTW>香蕉</zhTW>\n    <zhCN>香蕉</zhCN>\n    <ruRU>Бананы</ruRU>\n    <ptBR>Bananas</ptBR>\n    <plPL>Banany</plPL>\n    <koKR>바나나</koKR>\n    <itIT>Banana</itIT>\n    <esMX>Bananas</esMX>\n    <esES>Plátanos</esES>\n    <deDE>Banane</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +1/+1.</enUS>\n    <frFR>Confère +1/+1 à un serviteur.</frFR>\n    <zhTW>賦予一個手下+1/+1</zhTW>\n    <zhCN>使一个随从获得+1/+1。</zhCN>\n    <ruRU>Выбранное существо получает +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>\n    <plPL>Daj stronnikowi +1/+1.</plPL>\n    <koKR>하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a un servitore.</itIT>\n    <esMX>Otorga +1/+1 a un esbirro.</esMX>\n    <esES>Otorga +1/+1 a un esbirro.</esES>\n    <deDE>Verleiht einem Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"3f3ed805-a9b8-4b68-b438-a11cf3628033\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1821590483",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_014t/bananas2_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_014t/EX1_014t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1706146211"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:531330965"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:919733236"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c.png",
+          "sha256": "5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1389887236",
+          "rgbaSha256": "fa7d91358d92161a232e7a22bee76cabdde5edbe3f762b589cbf9ec40b3df736"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/bc0fa14eda36ae2e642b8284d9b5c6aa31ef610adc6724dddff035678791fb47.json",
+          "sha256": "bc0fa14eda36ae2e642b8284d9b5c6aa31ef610adc6724dddff035678791fb47",
+          "source": "cab-premiummaterials0:-1084943393"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "바나나",
+            "CardTextInHand": "하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_014t\">\n  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Bananas</enUS>\n    <frFR>Banane</frFR>\n    <zhTW>香蕉</zhTW>\n    <zhCN>香蕉</zhCN>\n    <ruRU>Бананы</ruRU>\n    <ptBR>Bananas</ptBR>\n    <plPL>Banany</plPL>\n    <koKR>바나나</koKR>\n    <itIT>Banana</itIT>\n    <esMX>Bananas</esMX>\n    <esES>Plátanos</esES>\n    <deDE>Banane</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +1/+1.</enUS>\n    <frFR>Confère +1/+1 à un serviteur.</frFR>\n    <zhTW>賦予一個手下+1/+1</zhTW>\n    <zhCN>使一个随从获得+1/+1。</zhCN>\n    <ruRU>Выбранное существо получает +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>\n    <plPL>Daj stronnikowi +1/+1.</plPL>\n    <koKR>하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a un servitore.</itIT>\n    <esMX>Otorga +1/+1 a un esbirro.</esMX>\n    <esES>Otorga +1/+1 a un esbirro.</esES>\n    <deDE>Verleiht einem Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"3f3ed805-a9b8-4b68-b438-a11cf3628033\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1821590483",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_014t/bananas2_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_014t/EX1_014t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1706146211"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:531330965"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:919733236"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c.png",
+          "sha256": "5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1389887236",
+          "rgbaSha256": "fa7d91358d92161a232e7a22bee76cabdde5edbe3f762b589cbf9ec40b3df736"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/94a88aedfe32f81bb1a10332a54e31b52f3d31f6f65a59224610bb88186e834d.json",
+          "sha256": "94a88aedfe32f81bb1a10332a54e31b52f3d31f6f65a59224610bb88186e834d",
+          "source": "cab-premiummaterials0:-1084943393"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "바나나",
+            "CardTextInHand": "하수인 하나에게 +1/+1을 부여합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 48,
+              "value": 1,
+              "name": "Cost"
+            },
+            {
+              "tagId": 330,
+              "value": 0,
+              "name": "EnchantmentBirthVisual"
+            },
+            {
+              "tagId": 331,
+              "value": 0,
+              "name": "EnchantmentIdleVisual"
+            }
+          ],
+          "stats": {
+            "cost": 1,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_014t\">\n  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Bananas</enUS>\n    <frFR>Banane</frFR>\n    <zhTW>香蕉</zhTW>\n    <zhCN>香蕉</zhCN>\n    <ruRU>Бананы</ruRU>\n    <ptBR>Bananas</ptBR>\n    <plPL>Banany</plPL>\n    <koKR>바나나</koKR>\n    <itIT>Banana</itIT>\n    <esMX>Bananas</esMX>\n    <esES>Plátanos</esES>\n    <deDE>Banane</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +1/+1.</enUS>\n    <frFR>Confère +1/+1 à un serviteur.</frFR>\n    <zhTW>賦予一個手下+1/+1</zhTW>\n    <zhCN>使一个随从获得+1/+1。</zhCN>\n    <ruRU>Выбранное существо получает +1/+1.</ruRU>\n    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>\n    <plPL>Daj stronnikowi +1/+1.</plPL>\n    <koKR>하수인 하나에게 +1/+1을 부여합니다.</koKR>\n    <itIT>+1/+1 a un servitore.</itIT>\n    <esMX>Otorga +1/+1 a un esbirro.</esMX>\n    <esES>Otorga +1/+1 a un esbirro.</esES>\n    <deDE>Verleiht einem Diener +1/+1.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"3f3ed805-a9b8-4b68-b438-a11cf3628033\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1821590483",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_014t/bananas2_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_014t/EX1_014t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1706146211"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:531330965"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:919733236"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c.png",
+          "sha256": "5f9f7fd8a8d57a003f5d5e304a9d33e3df5c3222b989e030f8f75148632bf66c",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1389887236",
+          "rgbaSha256": "fa7d91358d92161a232e7a22bee76cabdde5edbe3f762b589cbf9ec40b3df736"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6fc8049808b0776dc4c4b5b0e2bc54793cd41bc5118535e3cfe6ca06e1f99476.json",
+          "sha256": "6fc8049808b0776dc4c4b5b0e2bc54793cd41bc5118535e3cfe6ca06e1f99476",
+          "source": "cab-premiummaterials0:-1084943393"
+        }
+      }
+    ]
+  }
 }

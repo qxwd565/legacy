@@ -116,5 +116,369 @@
       "platform": "Windows",
       "rawText": "마나 수정을 2개 획득합니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_164"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "육성",
+            "CardTextInHand": "마나 수정을 2개 획득합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_164a\">\n  <MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nourish</enUS>\n    <frFR>Nourrir</frFR>\n    <zhTW>滋補術</zhTW>\n    <zhCN>滋养</zhCN>\n    <ruRU>Дар природы</ruRU>\n    <ptBR>Nutrir</ptBR>\n    <plPL>Nasycenie</plPL>\n    <koKR>육성</koKR>\n    <itIT>Nutrizione</itIT>\n    <esMX>Nutrir</esMX>\n    <esES>Nutrir</esES>\n    <deDE>Pflege</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Gain 2 Mana Crystals.</enUS>\n    <frFR>Vous gagnez 2 cristaux de mana.</frFR>\n    <zhTW>獲得2顆法力水晶</zhTW>\n    <zhCN>获得两个法力水晶。</zhCN>\n    <ruRU>Вы получаете 2 кристалла маны.</ruRU>\n    <ptBR>Receba 2 Cristais de Mana.</ptBR>\n    <plPL>Otrzymujesz 2 kryształy many.</plPL>\n    <koKR>마나 수정을 2개 획득합니다.</koKR>\n    <itIT>Ottieni 2 Cristalli di Mana.</itIT>\n    <esMX>Obtienes 2 Cristales de maná.</esMX>\n    <esES>Obtén 2 cristales de maná.</esES>\n    <deDE>Erhaltet 2 Manakristalle.</deDE>\n  </Tag>\n  <Power definition=\"b7d09f14-695d-499e-819e-24c3d330e1db\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-973022125",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_164/W11_127(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_164/EX1_164_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3.png",
+          "sha256": "4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1874396581",
+          "rgbaSha256": "d1c1f409c600c7c717908e91982c933a593a7c397e8d2a026ec8f01564caab8f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/442ae239ff91386385d14ab64373f861d18a8a3c81e3643844cce64ec8d823ca.json",
+          "sha256": "442ae239ff91386385d14ab64373f861d18a8a3c81e3643844cce64ec8d823ca",
+          "source": "cab-premiummaterials0:1466898868"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "육성",
+            "CardTextInHand": "마나 수정을 2개 획득합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_164a\">\n  <MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nourish</enUS>\n    <frFR>Nourrir</frFR>\n    <zhTW>滋補術</zhTW>\n    <zhCN>滋养</zhCN>\n    <ruRU>Дар природы</ruRU>\n    <ptBR>Nutrir</ptBR>\n    <plPL>Nasycenie</plPL>\n    <koKR>육성</koKR>\n    <itIT>Nutrizione</itIT>\n    <esMX>Nutrir</esMX>\n    <esES>Nutrir</esES>\n    <deDE>Pflege</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Gain 2 Mana Crystals.</enUS>\n    <frFR>Vous gagnez 2 cristaux de mana.</frFR>\n    <zhTW>獲得2顆法力水晶</zhTW>\n    <zhCN>获得两个法力水晶。</zhCN>\n    <ruRU>Вы получаете 2 кристалла маны.</ruRU>\n    <ptBR>Receba 2 Cristais de Mana.</ptBR>\n    <plPL>Otrzymujesz 2 kryształy many.</plPL>\n    <koKR>마나 수정을 2개 획득합니다.</koKR>\n    <itIT>Fornisce 2 Cristalli di Mana.</itIT>\n    <esMX>Obtienes 2 Cristales de maná.</esMX>\n    <esES>Obtén 2 cristales de maná.</esES>\n    <deDE>Erhaltet 2 Manakristalle.</deDE>\n  </Tag>\n  <Power definition=\"b7d09f14-695d-499e-819e-24c3d330e1db\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-973022125",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_164/W11_127(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_164/EX1_164_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3.png",
+          "sha256": "4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1874396581",
+          "rgbaSha256": "d1c1f409c600c7c717908e91982c933a593a7c397e8d2a026ec8f01564caab8f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a797e7d1cfcaa4c2f31e6a3984fb8860dcba2b6eb5efaac44b33394c9ef817db.json",
+          "sha256": "a797e7d1cfcaa4c2f31e6a3984fb8860dcba2b6eb5efaac44b33394c9ef817db",
+          "source": "cab-premiummaterials0:1466898868"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "육성",
+            "CardTextInHand": "마나 수정을 2개 획득합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_164a\">\n  <MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nourish</enUS>\n    <frFR>Nourrir</frFR>\n    <zhTW>滋補術</zhTW>\n    <zhCN>滋养</zhCN>\n    <ruRU>Дар природы</ruRU>\n    <ptBR>Nutrir</ptBR>\n    <plPL>Nasycenie</plPL>\n    <koKR>육성</koKR>\n    <itIT>Nutrizione</itIT>\n    <esMX>Nutrir</esMX>\n    <esES>Nutrir</esES>\n    <deDE>Pflege</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Gain 2 Mana Crystals.</enUS>\n    <frFR>Vous gagnez 2 cristaux de mana.</frFR>\n    <zhTW>獲得2顆法力水晶</zhTW>\n    <zhCN>获得两个法力水晶。</zhCN>\n    <ruRU>Вы получаете 2 кристалла маны.</ruRU>\n    <ptBR>Receba 2 Cristais de Mana.</ptBR>\n    <plPL>Otrzymujesz 2 kryształy many.</plPL>\n    <koKR>마나 수정을 2개 획득합니다.</koKR>\n    <itIT>Fornisce 2 Cristalli di Mana.</itIT>\n    <esMX>Obtienes 2 Cristales de maná.</esMX>\n    <esES>Obtén 2 cristales de maná.</esES>\n    <deDE>Erhaltet 2 Manakristalle.</deDE>\n  </Tag>\n  <Power definition=\"b7d09f14-695d-499e-819e-24c3d330e1db\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-973022125",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_164/W11_127(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_164/EX1_164_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3.png",
+          "sha256": "4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1874396581",
+          "rgbaSha256": "d1c1f409c600c7c717908e91982c933a593a7c397e8d2a026ec8f01564caab8f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e50bbd90b527dec77c80c940cc1773d68a2113cb1ff9ce449eae9fcdb81d0b06.json",
+          "sha256": "e50bbd90b527dec77c80c940cc1773d68a2113cb1ff9ce449eae9fcdb81d0b06",
+          "source": "cab-premiummaterials0:1466898868"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "육성",
+            "CardTextInHand": "마나 수정을 2개 획득합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_164a\">\n  <MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nourish</enUS>\n    <frFR>Nourrir</frFR>\n    <zhTW>滋補術</zhTW>\n    <zhCN>滋养</zhCN>\n    <ruRU>Дар природы</ruRU>\n    <ptBR>Nutrir</ptBR>\n    <plPL>Nasycenie</plPL>\n    <koKR>육성</koKR>\n    <itIT>Nutrizione</itIT>\n    <esMX>Nutrir</esMX>\n    <esES>Nutrir</esES>\n    <deDE>Pflege</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Gain 2 Mana Crystals.</enUS>\n    <frFR>Vous gagnez 2 cristaux de mana.</frFR>\n    <zhTW>獲得2顆法力水晶</zhTW>\n    <zhCN>获得两个法力水晶。</zhCN>\n    <ruRU>Вы получаете 2 кристалла маны.</ruRU>\n    <ptBR>Receba 2 Cristais de Mana.</ptBR>\n    <plPL>Otrzymujesz 2 kryształy many.</plPL>\n    <koKR>마나 수정을 2개 획득합니다.</koKR>\n    <itIT>Fornisce 2 Cristalli di Mana.</itIT>\n    <esMX>Obtienes 2 Cristales de maná.</esMX>\n    <esES>Obtén 2 cristales de maná.</esES>\n    <deDE>Erhaltet 2 Manakristalle.</deDE>\n  </Tag>\n  <Power definition=\"b7d09f14-695d-499e-819e-24c3d330e1db\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+            "serializedFile": "CAB-cards0",
+            "pathId": "-973022125",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_164/W11_127(EA)_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_164/EX1_164_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": null,
+            "m_HistoryTileHalfPortrait": null,
+            "m_HistoryTileFullPortrait": null,
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3.png",
+          "sha256": "4958ae388d80ff332af9786e8c6c4c77d640ca85c9abddc5df6aadf683d7d1c3",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:1874396581",
+          "rgbaSha256": "d1c1f409c600c7c717908e91982c933a593a7c397e8d2a026ec8f01564caab8f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5962e79a2fbc7d05d17dc46a763ea3f95e7f02a649ade8042cd9d2097e15aeee.json",
+          "sha256": "5962e79a2fbc7d05d17dc46a763ea3f95e7f02a649ade8042cd9d2097e15aeee",
+          "source": "cab-premiummaterials0:1466898868"
+        }
+      }
+    ]
+  }
 }

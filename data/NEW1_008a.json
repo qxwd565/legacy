@@ -101,5 +101,353 @@
       "platform": "Windows",
       "rawText": "카드를 2장 뽑습니다."
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "NEW1_008"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 지식",
+            "CardTextInHand": "카드를 2장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_008a\">\n  <MasterPower>8074149a-0a02-44bc-bebb-751039a7ea46</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Teachings</enUS>\n    <frFR>Connaissances anciennes</frFR>\n    <zhTW>古老的教誨</zhTW>\n    <zhCN>古老的教诲</zhCN>\n    <ruRU>Древние учения</ruRU>\n    <ptBR>Ensinamentos Ancestrais</ptBR>\n    <plPL>Pradawne nauki</plPL>\n    <koKR>고대의 지식</koKR>\n    <itIT>Insegnamenti Antichi</itIT>\n    <esMX>Enseñanzas ancestrales</esMX>\n    <esES>Enseñanzas antiguas</esES>\n    <deDE>Uralte Lehren</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw 2 cards.</enUS>\n    <frFR>Vous piochez 2 cartes.</frFR>\n    <zhTW>抽2張牌</zhTW>\n    <zhCN>抽两张牌。</zhCN>\n    <ruRU>Вы берете 2 карты.</ruRU>\n    <ptBR>Compre 2 cards.</ptBR>\n    <plPL>Dobierz 2 karty.</plPL>\n    <koKR>카드를 2장 뽑습니다.</koKR>\n    <itIT>Pesca 2 carte.</itIT>\n    <esMX>Roba 2 cartas.</esMX>\n    <esES>Roba 2 cartas.</esES>\n    <deDE>Zieht 2 Karten.</deDE>\n  </Tag>\n  <Power definition=\"8074149a-0a02-44bc-bebb-751039a7ea46\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1831122153",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_008a/W2_399_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_008a/NEW1_008a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1935512366"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1741544720"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1475726536"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1.png",
+          "sha256": "ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1070790980",
+          "rgbaSha256": "73b7fc325a7f2daa3e255e9998027ebf3556a5a1c7ec8d4d608e94c7c7f8b925"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/38c77d0c8d779ecb3de078b69ef99338e362390e88a2c978c69cd1ac1c9f0a93.json",
+          "sha256": "38c77d0c8d779ecb3de078b69ef99338e362390e88a2c978c69cd1ac1c9f0a93",
+          "source": "cab-premiummaterials0:-1493590008"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 지식",
+            "CardTextInHand": "카드를 2장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_008a\">\n  <MasterPower>8074149a-0a02-44bc-bebb-751039a7ea46</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Teachings</enUS>\n    <frFR>Connaissances anciennes</frFR>\n    <zhTW>古老的教誨</zhTW>\n    <zhCN>古老的教诲</zhCN>\n    <ruRU>Древние учения</ruRU>\n    <ptBR>Ensinamentos Ancestrais</ptBR>\n    <plPL>Pradawne nauki</plPL>\n    <koKR>고대의 지식</koKR>\n    <itIT>Insegnamenti Antichi</itIT>\n    <esMX>Enseñanzas ancestrales</esMX>\n    <esES>Enseñanzas antiguas</esES>\n    <deDE>Uralte Lehren</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw 2 cards.</enUS>\n    <frFR>Vous piochez 2 cartes.</frFR>\n    <zhTW>抽2張牌</zhTW>\n    <zhCN>抽两张牌。</zhCN>\n    <ruRU>Вы берете 2 карты.</ruRU>\n    <ptBR>Compre 2 cards.</ptBR>\n    <plPL>Dobierz 2 karty.</plPL>\n    <koKR>카드를 2장 뽑습니다.</koKR>\n    <itIT>Pesca 2 carte.</itIT>\n    <esMX>Roba 2 cartas.</esMX>\n    <esES>Roba 2 cartas.</esES>\n    <deDE>Zieht 2 Karten.</deDE>\n  </Tag>\n  <Power definition=\"8074149a-0a02-44bc-bebb-751039a7ea46\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1831122153",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_008a/W2_399_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_008a/NEW1_008a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1935512366"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1741544720"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1475726536"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1.png",
+          "sha256": "ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1070790980",
+          "rgbaSha256": "73b7fc325a7f2daa3e255e9998027ebf3556a5a1c7ec8d4d608e94c7c7f8b925"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/251a1a45c8ea369c30854941c1729bbc1f3c16f4a7dd34d29b05c4f24157f558.json",
+          "sha256": "251a1a45c8ea369c30854941c1729bbc1f3c16f4a7dd34d29b05c4f24157f558",
+          "source": "cab-premiummaterials0:-1493590008"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 지식",
+            "CardTextInHand": "카드를 2장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_008a\">\n  <MasterPower>8074149a-0a02-44bc-bebb-751039a7ea46</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Teachings</enUS>\n    <frFR>Connaissances anciennes</frFR>\n    <zhTW>古老的教誨</zhTW>\n    <zhCN>古老的教诲</zhCN>\n    <ruRU>Древние учения</ruRU>\n    <ptBR>Ensinamentos Ancestrais</ptBR>\n    <plPL>Pradawne nauki</plPL>\n    <koKR>고대의 지식</koKR>\n    <itIT>Insegnamenti Antichi</itIT>\n    <esMX>Enseñanzas ancestrales</esMX>\n    <esES>Enseñanzas antiguas</esES>\n    <deDE>Uralte Lehren</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw 2 cards.</enUS>\n    <frFR>Vous piochez 2 cartes.</frFR>\n    <zhTW>抽2張牌</zhTW>\n    <zhCN>抽两张牌。</zhCN>\n    <ruRU>Вы берете 2 карты.</ruRU>\n    <ptBR>Compre 2 cards.</ptBR>\n    <plPL>Dobierz 2 karty.</plPL>\n    <koKR>카드를 2장 뽑습니다.</koKR>\n    <itIT>Pesca 2 carte.</itIT>\n    <esMX>Roba 2 cartas.</esMX>\n    <esES>Roba 2 cartas.</esES>\n    <deDE>Zieht 2 Karten.</deDE>\n  </Tag>\n  <Power definition=\"8074149a-0a02-44bc-bebb-751039a7ea46\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1831122153",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_008a/W2_399_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_008a/NEW1_008a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1935512366"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1741544720"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1475726536"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1.png",
+          "sha256": "ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1070790980",
+          "rgbaSha256": "73b7fc325a7f2daa3e255e9998027ebf3556a5a1c7ec8d4d608e94c7c7f8b925"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/fdc6e5a5e445c2a2bff6e27cacee14d5369393a2fea41c99a7181607e3ff0249.json",
+          "sha256": "fdc6e5a5e445c2a2bff6e27cacee14d5369393a2fea41c99a7181607e3ff0249",
+          "source": "cab-premiummaterials0:-1493590008"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 지식",
+            "CardTextInHand": "카드를 2장 뽑습니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 5,
+              "name": "CardType"
+            },
+            {
+              "tagId": 199,
+              "value": 2,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": null,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "ABILITY",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"NEW1_008a\">\n  <MasterPower>8074149a-0a02-44bc-bebb-751039a7ea46</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Teachings</enUS>\n    <frFR>Connaissances anciennes</frFR>\n    <zhTW>古老的教誨</zhTW>\n    <zhCN>古老的教诲</zhCN>\n    <ruRU>Древние учения</ruRU>\n    <ptBR>Ensinamentos Ancestrais</ptBR>\n    <plPL>Pradawne nauki</plPL>\n    <koKR>고대의 지식</koKR>\n    <itIT>Insegnamenti Antichi</itIT>\n    <esMX>Enseñanzas ancestrales</esMX>\n    <esES>Enseñanzas antiguas</esES>\n    <deDE>Uralte Lehren</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Draw 2 cards.</enUS>\n    <frFR>Vous piochez 2 cartes.</frFR>\n    <zhTW>抽2張牌</zhTW>\n    <zhCN>抽两张牌。</zhCN>\n    <ruRU>Вы берете 2 карты.</ruRU>\n    <ptBR>Compre 2 cards.</ptBR>\n    <plPL>Dobierz 2 karty.</plPL>\n    <koKR>카드를 2장 뽑습니다.</koKR>\n    <itIT>Pesca 2 carte.</itIT>\n    <esMX>Roba 2 cartas.</esMX>\n    <esES>Roba 2 cartas.</esES>\n    <deDE>Zieht 2 Karten.</deDE>\n  </Tag>\n  <Power definition=\"8074149a-0a02-44bc-bebb-751039a7ea46\" />\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "1831122153",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_008a/W2_399_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_008a/NEW1_008a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1935512366"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1741544720"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1475726536"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1.png",
+          "sha256": "ec006d92523b9946ac05c4d6b461296fd6b78009faa4a8e9e16c1de1861eb3b1",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures1:-1070790980",
+          "rgbaSha256": "73b7fc325a7f2daa3e255e9998027ebf3556a5a1c7ec8d4d608e94c7c7f8b925"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d8bd3b1f5bf1838f240f28d8fc749e62eeff5c8515b6ffbf34a9c9eb67c41403.json",
+          "sha256": "d8bd3b1f5bf1838f240f28d8fc749e62eeff5c8515b6ffbf34a9c9eb67c41403",
+          "source": "cab-premiummaterials0:-1493590008"
+        }
+      }
+    ]
+  }
 }

@@ -132,5 +132,413 @@
       "matchingWindowsBuild": "1.0.0.5314",
       "windowsPatchAppliedKo": "2014-05-09"
     }
-  ]
+  ],
+  "historicalTokenSources": {
+    "parents": [
+      "EX1_323"
+    ],
+    "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+    "versions": [
+      {
+        "build": "1.0.0",
+        "platform": "iOS",
+        "archiveId": "14836313",
+        "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불!",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 6/6 지옥불정령을 하나 소환합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk33\">\n  <MasterPower>16a251c6-90b4-42d3-9c4c-9cba842258ad</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>INFERNO!</enUS>\n    <frFR>FEU D’ENFER !</frFR>\n    <zhTW>煉獄!</zhTW>\n    <zhCN>地狱火！</zhCN>\n    <ruRU>ПЕКЛО!</ruRU>\n    <ptBR>INFERNO!</ptBR>\n    <plPL>INFERNO!</plPL>\n    <koKR>지옥불!</koKR>\n    <itIT>INFERNO!</itIT>\n    <esMX>¡INFERNO!</esMX>\n    <esES>¡Inferno!</esES>\n    <deDE>INFERNO!</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Summon a 6/6 Infernal.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInvoque un infernal 6/6.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n召喚一個6/6煉獄火</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n召唤一个6/6的地狱火。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Призывает на поле боя инфернала 6/6.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Evoque um Infernal 6/6.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Przyzwij infernala 6/6.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 6/6 지옥불정령을 하나 소환합니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nEvoca un Infernale 6/6.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Invoca un Infernal 6/6.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Invoca a un infernal 6/6.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Beschwört eine Höllenbestie (6/6).</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Power definition=\"16a251c6-90b4-42d3-9c4c-9cba842258ad\">\n    <PlayRequirement reqID=\"12\" param=\"1\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "14836313",
+            "version": "1.0.0",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "2022338765",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk33/W14_a047_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk33/EX1_tk33_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:399964805"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1030370453"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1701256276"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363.png",
+          "sha256": "ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2045141382",
+          "rgbaSha256": "8a73fb00df7ec18394e23a64b90509c40e696a2bf1bc515186d5eb4f4fe07ee1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f4470175f7c9310356ce029e1748ffa8f275f82ea61855491f7b689fff80250b.json",
+          "sha256": "f4470175f7c9310356ce029e1748ffa8f275f82ea61855491f7b689fff80250b",
+          "source": "cab-premiummaterials0:1133102917"
+        }
+      },
+      {
+        "build": "1.0.5361",
+        "platform": "iOS",
+        "archiveId": "563785077",
+        "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불!",
+            "CardTextInHand": "<b>영웅 능력</b>\\n6/6 지옥불정령을 하나 소환합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk33\">\n  <MasterPower>16a251c6-90b4-42d3-9c4c-9cba842258ad</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>INFERNO!</enUS>\n    <frFR>FEU D’ENFER !</frFR>\n    <zhTW>煉獄!</zhTW>\n    <zhCN>地狱火！</zhCN>\n    <ruRU>ПЕКЛО!</ruRU>\n    <ptBR>INFERNO!</ptBR>\n    <plPL>INFERNO!</plPL>\n    <koKR>지옥불!</koKR>\n    <itIT>INFERNO!</itIT>\n    <esMX>¡INFERNO!</esMX>\n    <esES>¡Inferno!</esES>\n    <deDE>INFERNO!</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Summon a 6/6 Infernal.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInvoque un infernal 6/6.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n召喚一個6/6煉獄火</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n召唤一个6/6的地狱火。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Призывает на поле боя инфернала 6/6.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nEvoque um Infernal 6/6.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nPrzyzwij infernala 6/6.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n6/6 지옥불정령을 하나 소환합니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nEvoca un Infernale 6/6.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un Infernal 6/6.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un infernal 6/6.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nBeschwört eine Höllenbestie (6/6).</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Power definition=\"16a251c6-90b4-42d3-9c4c-9cba842258ad\">\n    <PlayRequirement reqID=\"12\" param=\"1\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "563785077",
+            "version": "1.0.5361",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "2022338765",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk33/W14_a047_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk33/EX1_tk33_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:399964805"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1030370453"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1701256276"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363.png",
+          "sha256": "ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2045141382",
+          "rgbaSha256": "8a73fb00df7ec18394e23a64b90509c40e696a2bf1bc515186d5eb4f4fe07ee1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/1aa2876346f4dadaaf424a7c70761653e36248a6f18449cd21313fc559d95be5.json",
+          "sha256": "1aa2876346f4dadaaf424a7c70761653e36248a6f18449cd21313fc559d95be5",
+          "source": "cab-premiummaterials0:1133102917"
+        }
+      },
+      {
+        "build": "1.0.5435",
+        "platform": "iOS",
+        "archiveId": "588883794",
+        "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불!",
+            "CardTextInHand": "<b>영웅 능력</b>\\n6/6 지옥불정령을 하나 소환합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk33\">\n  <MasterPower>16a251c6-90b4-42d3-9c4c-9cba842258ad</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>INFERNO!</enUS>\n    <frFR>FEU D’ENFER !</frFR>\n    <zhTW>煉獄!</zhTW>\n    <zhCN>地狱火！</zhCN>\n    <ruRU>ПЕКЛО!</ruRU>\n    <ptBR>INFERNO!</ptBR>\n    <plPL>INFERNO!</plPL>\n    <koKR>지옥불!</koKR>\n    <itIT>INFERNO!</itIT>\n    <esMX>¡INFERNO!</esMX>\n    <esES>¡Inferno!</esES>\n    <deDE>INFERNO!</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Summon a 6/6 Infernal.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInvoque un infernal 6/6.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n召喚一個6/6煉獄火</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n召唤一个6/6的地狱火。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Призывает на поле боя инфернала 6/6.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nEvoque um Infernal 6/6.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nPrzyzwij infernala 6/6.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n6/6 지옥불정령을 하나 소환합니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nEvoca un Infernale 6/6.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un Infernal 6/6.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un infernal 6/6.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nBeschwört eine Höllenbestie (6/6).</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Power definition=\"16a251c6-90b4-42d3-9c4c-9cba842258ad\">\n    <PlayRequirement reqID=\"12\" param=\"1\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "588883794",
+            "version": "1.0.5435",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "2022338765",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk33/W14_a047_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk33/EX1_tk33_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:399964805"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1030370453"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1701256276"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363.png",
+          "sha256": "ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2045141382",
+          "rgbaSha256": "8a73fb00df7ec18394e23a64b90509c40e696a2bf1bc515186d5eb4f4fe07ee1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4f06cc57aa44d750b878ff55ab9cecde6be1b7473e72b421ef1f31a8b0d42776.json",
+          "sha256": "4f06cc57aa44d750b878ff55ab9cecde6be1b7473e72b421ef1f31a8b0d42776",
+          "source": "cab-premiummaterials0:1133102917"
+        }
+      },
+      {
+        "build": "1.0.5834",
+        "platform": "iOS",
+        "archiveId": "608602673",
+        "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불!",
+            "CardTextInHand": "<b>영웅 능력</b>\\n6/6 지옥불정령을 하나 소환합니다."
+          },
+          "tags": [
+            {
+              "tagId": 183,
+              "value": 3,
+              "name": "CardSet"
+            },
+            {
+              "tagId": 202,
+              "value": 10,
+              "name": "CardType"
+            },
+            {
+              "tagId": 201,
+              "value": 3,
+              "name": "Faction"
+            },
+            {
+              "tagId": 48,
+              "value": 2,
+              "name": "Cost"
+            },
+            {
+              "tagId": 251,
+              "value": 1,
+              "name": "AttackVisualType"
+            },
+            {
+              "tagId": 199,
+              "value": 9,
+              "name": "Class"
+            }
+          ],
+          "stats": {
+            "cost": 2,
+            "attack": null,
+            "health": null,
+            "armor": null,
+            "durability": null,
+            "tavernTier": null
+          },
+          "type": "HERO_POWER",
+          "collectible": false,
+          "nativeXml": "<Entity version=\"2\" CardID=\"EX1_tk33\">\n  <MasterPower>16a251c6-90b4-42d3-9c4c-9cba842258ad</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>INFERNO!</enUS>\n    <frFR>FEU D’ENFER !</frFR>\n    <zhTW>煉獄!</zhTW>\n    <zhCN>地狱火！</zhCN>\n    <ruRU>ПЕКЛО!</ruRU>\n    <ptBR>INFERNO!</ptBR>\n    <plPL>INFERNO!</plPL>\n    <koKR>지옥불!</koKR>\n    <itIT>INFERNO!</itIT>\n    <esMX>¡INFERNO!</esMX>\n    <esES>¡Inferno!</esES>\n    <deDE>INFERNO!</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Summon a 6/6 Infernal.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\\nInvoque un infernal 6/6.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n召喚一個6/6煉獄火</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n召唤一个6/6的地狱火。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\\n Призывает на поле боя инфернала 6/6.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\\nEvoque um Infernal 6/6.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\\nPrzyzwij infernala 6/6.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\\n6/6 지옥불정령을 하나 소환합니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\\nEvoca un Infernale 6/6.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un Infernal 6/6.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\\nInvoca un infernal 6/6.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\\nBeschwört eine Höllenbestie (6/6).</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n  <Power definition=\"16a251c6-90b4-42d3-9c4c-9cba842258ad\">\n    <PlayRequirement reqID=\"12\" param=\"1\" />\n  </Power>\n</Entity>",
+          "references": []
+        },
+        "cardDefinition": {
+          "source": {
+            "archiveId": "608602673",
+            "version": "1.0.5834",
+            "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+            "serializedFile": "CAB-cards2",
+            "pathId": "2022338765",
+            "type": "MonoBehaviour"
+          },
+          "nativeFields": {
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk33/W14_a047_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk33/EX1_tk33_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": null,
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:399964805"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1030370453"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1701256276"
+            },
+            "m_CustomDeckPortrait": null,
+            "m_DeckPickerPortrait": null,
+            "m_PracticeAIPortrait": null,
+            "m_DeckBoxPortrait": null
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363.png",
+          "sha256": "ab980495d909ba9270545ae3890decdb9422ed65f2df826462cae2b3bf9a8363",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cardtextures0:-2045141382",
+          "rgbaSha256": "8a73fb00df7ec18394e23a64b90509c40e696a2bf1bc515186d5eb4f4fe07ee1"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a2c89b37ee44beff57a66e53fd409b19345e758e73295285328721e273ac01d1.json",
+          "sha256": "a2c89b37ee44beff57a66e53fd409b19345e758e73295285328721e273ac01d1",
+          "source": "cab-premiummaterials0:1133102917"
+        }
+      }
+    ]
+  }
 }
