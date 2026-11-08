@@ -21,8 +21,7 @@
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
     "mechanics": [
-      "BATTLECRY",
-      "TRADEABLE"
+      "BATTLECRY"
     ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_005",
@@ -129,8 +128,17 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "cost": 4,
-          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다."
+          "cost": 4
+        }
+      },
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+          "mechanics": [
+            "BATTLECRY",
+            "TRADEABLE"
+          ]
         }
       }
     ]

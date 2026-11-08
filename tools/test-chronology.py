@@ -107,6 +107,17 @@ def main():
     assert value_at("EX1_565", "cost", "2020-01-01") == 3
     assert value_at("EX1_565", "health", "2022-01-01") == 2
     assert value_at("EX1_565", "health", "2025-01-01") == 3
+    # Core 2024 effects must not leak into the initial release or 2021 state.
+    assert "TRADEABLE" not in value_at("EX1_005", "mechanics", "2024-03-11")
+    assert "TRADEABLE" in value_at("EX1_005", "mechanics", "2024-03-12")
+    assert "교환성" not in value_at("EX1_005", "text", "2024-03-11")
+    assert "교환성" in value_at("EX1_005", "text", "2024-03-12")
+    assert "무작위" in value_at("EX1_085", "text", "2024-03-11")
+    assert "무작위" not in value_at("EX1_085", "text", "2024-03-12")
+    assert "장소" not in value_at("EX1_312", "text", "2024-03-11")
+    assert "장소" in value_at("EX1_312", "text", "2024-03-12")
+    assert "둘" not in value_at("EX1_572", "text", "2024-03-11")
+    assert "둘" in value_at("EX1_572", "text", "2024-03-12")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "date": "2024-03-12",
+  "patch": "29.0",
+  "scope": "Four confirmed Legacy gameplay changes from the official Year of the Pegasus Core adjustment list. This is a bounded audit, not an assertion of complete historical coverage.",
+  "sources": [
+    {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
+      "evidence": "Korean notes explicitly state card balance adjustments apply March 12, including Core balance changes, separately from the March 20 Core rotation."
+    },
+    {
+      "url": "https://hearthstone.blizzard.com/ko-kr/news/24056182",
+      "evidence": "Official Korean Core update links the card adjustment list."
+    },
+    {
+      "url": "https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/PWXNR8C30NNJ1707514840395.pdf",
+      "evidence": "Official Korean list specifies Big Game Hunter gains Tradeable; Mind Control Tech is targeted and costs 5; Twisting Nether also destroys locations; Ysera gives two Dream cards each turn."
+    }
+  ],
+  "cards": {
+    "EX1_005": {
+      "correction": "Move Tradeable text from 2021-03-26 to 2024-03-12, remove Tradeable from initial mechanics and add it at the real patch. Keep existing 2021 mana change."
+    },
+    "EX1_085": {
+      "correction": "Move selectable-target text from 2021-03-26 to 2024-03-12 alongside existing 5-mana change."
+    },
+    "EX1_312": {
+      "correction": "Move location-destruction effect from 2021-03-26 to 2024-03-12. Keep existing spell-school introduction."
+    },
+    "EX1_572": {
+      "correction": "Move two-Dream-card effect from 2021-03-26 to 2024-03-12."
+    }
+  }
+}
