@@ -1,7 +1,11 @@
-# 고전
+# HSdeck legacy 카드 API
 
-고전(Classic) 카드 데이터입니다.
+- `data/<카드ID>.json`: 카드 원본 정보와 `card.history`의 날짜별 변경점
+- `cards.json`: WordPress 카드 JSON 관리자에서 가져올 현재 카드 정보
+- `render.json`: WebGL 렌더러용 경량 카드 정보
+- `history.json`: 날짜별로 바뀐 부분만 담은 경량 조회용 파일
+- `art/`: 원화 원본 (있는 경우)
+- `tools/build-api.py`: 현재 `cards.json`은 보존하고 두 경량 색인을 다시 생성
+- `history-pending.json`: 아직 저장소가 없는 카드 44종의 이관 대기 기록 (사이트 로딩에 사용하지 않음)
 
-## 황금 원화 데이터
-
-`golden/index.json`에서 고전 카드 282장의 카드 ID와 DBF ID로 설정 경로를 찾을 수 있습니다. 각 설정의 `material`에는 원본 셰이더, 값, 애니메이션 곡선, 텍스처 경로와 샘플러 설정이 들어 있습니다. 경로는 저장소 루트 기준이며 `golden/textures/<SHA-256>.bin`은 중복을 제거한 HS Plus HPT1 텍스처입니다. 카드별 프레임이나 전체 장면은 포함하지 않습니다. 황금 효과는 클라이언트에서 이 설정과 셰이더를 읽어 재생해야 합니다.
+`cards.json`, `render.json`, `history.json`은 서로 다른 소비자를 위해 필요한 출력이므로 임의로 삭제하지 않습니다. 이전 일회용 마이그레이션 스크립트와 전체 규칙 복사본은 제거했습니다.
