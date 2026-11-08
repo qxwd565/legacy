@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "description": "Minion types and spell schools become visible only on or after their first applied Korean-calendar patch date. Used to materialize sparse per-card history.",
+  "minionTypes": {
+    "MECHANICAL": "2014-12-05",
+    "MECH": "2014-12-05",
+    "ELEMENTAL": "2017-04-05",
+    "QUILBOAR": "2021-05-05",
+    "UNDEAD": "2022-11-30",
+    "DRAENEI": "2024-10-30"
+  },
+  "spellSchools": {
+    "ARCANE": "2021-03-26",
+    "FEL": "2021-03-26",
+    "FIRE": "2021-03-26",
+    "FROST": "2021-03-26",
+    "HOLY": "2021-03-26",
+    "SHADOW": "2021-03-26",
+    "NATURE": "2021-03-26"
+  },
+  "sources": {
+    "MECHANICAL": "https://hearthstone.wiki.gg/wiki/Patch_2.0.0.7234",
+    "ELEMENTAL": "https://hearthstone.wiki.gg/wiki/Patch_8.0.0.18336",
+    "QUILBOAR": "https://hearthstone.blizzard.com/ko-kr/news/23665634/20-2-patch-notes",
+    "UNDEAD": "https://hearthstone.blizzard.com/ko-kr/news/23882860/25-0-patch-notes",
+    "DRAENEI": "https://hearthstone.blizzard.com/ko-kr/news/24149389",
+    "spellSchools": "https://hearthstone.blizzard.com/ko-kr/news/23642550/20-0-patch-notes",
+    "cardTypeIntroductions": {
+      "giants": "https://hearthstone.blizzard.com/en-us/news/21943493",
+      "beast": "https://hearthstone.wiki.gg/wiki/The_Beast",
+      "coreHound": "https://hearthstone.wiki.gg/wiki/Core_Hound",
+      "emeraldSkytalon": "https://hearthstone.wiki.gg/wiki/Emerald_Skytalon"
+    }
+  },
+  "cardTypeIntroductions": {
+    "EX1_105": {
+      "ELEMENTAL": "2018-07-11"
+    },
+    "EX1_620": {
+      "ELEMENTAL": "2018-07-11"
+    },
+    "EX1_577": {
+      "ELEMENTAL": "2026-02-10"
+    },
+    "CS2_201": {
+      "ELEMENTAL": "2026-02-10"
+    },
+    "LEG_CS3_037": {
+      "ELEMENTAL": "2022-11-30"
+    }
+  },
+  "priorRaces": {
+    "CS2_201": [
+      "BEAST"
+    ],
+    "LEG_CS3_037": [
+      "BEAST"
+    ]
+  }
+}

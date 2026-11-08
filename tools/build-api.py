@@ -3,6 +3,8 @@
 
 Source of current card data: cards.json (approved card catalogue).
 Source of historical deltas: data/<cardId>.json (card.history).
+Historically introduced races/spell schools are dated in taxonomy-history.json,
+materialized as sparse card.history overrides, and published for date lookup.
 Never overwrite curated current data with raw client snapshots.
 Card release dates are loaded from release-policy.json (Asia/Seoul).
 
@@ -28,6 +30,13 @@ RENDER_FIELDS = (
     "watermark", "classes",
 )
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+TAXONOMY_RULE = "taxonomy-introduction"
+RACE_KOREAN = {
+    "BEAST": "야수", "DEMON": "악마", "DRAGON": "용족", "MURLOC": "멀록",
+    "PIRATE": "해적", "TOTEM": "토템", "MECHANICAL": "기계", "MECH": "기계",
+    "ELEMENTAL": "정령", "QUILBOAR": "가시멧돼지", "UNDEAD": "언데드",
+    "DRAENEI": "드레나이", "NAGA": "나가",
+}
 
 
 def load(path: Path):
@@ -108,6 +117,95 @@ def release_for_card(record: dict, policy: dict):
     return day, status
 
 
+
+def read_taxonomy_policy(path: Path):
+    """Load calendar-day feature introduction dates, recorded in Asia/Seoul."""
+    if not path.exists():
+        return None
+    policy = load(path)
+    if policy.get("schema") != 1 or policy.get("timezone") != "Asia/Seoul":
+        raise ValueError("taxonomy-history.json must use schema 1 and Asia/Seoul")
+    from datetime import date
+    for key in ("minionTypes", "spellSchools"):
+        rules = policy.get(key)
+        if not isinstance(rules, dict):
+            raise ValueError(f"taxonomy-history.json: {key} must be a map")
+        for kind, day in rules.items():
+            if not isinstance(kind, str) or not isinstance(day, str) or not DATE_RE.fullmatch(day):
+                raise ValueError(f"Invalid {key} introduction: {kind}")
+            date.fromisoformat(day)
+    overrides = policy.get("cardTypeIntroductions", {})
+    if not isinstance(overrides, dict):
+        raise ValueError("cardTypeIntroductions must be a map")
+    for cid, rules in overrides.items():
+        if not isinstance(rules, dict):
+            raise ValueError(f"{cid}: cardTypeIntroductions must contain a map")
+        for tribe, day in rules.items():
+            if not isinstance(day, str) or not DATE_RE.fullmatch(day):
+                raise ValueError(f"{cid}: invalid tribe date {tribe}")
+            date.fromisoformat(day)
+    older = policy.get("priorRaces", {})
+    if not isinstance(older, dict) or any(not isinstance(k, str) or not isinstance(v, list)
+                                           or any(not isinstance(r, str) for r in v)
+                                           for k, v in older.items()):
+        raise ValueError("priorRaces must be a map of card IDs to race lists")
+    return policy
+
+
+def historic_race_label(original: str, remaining: list[str]) -> str:
+    """Keep the existing original/Korean label when it still identifies a surviving type."""
+    if not remaining:
+        return ""
+    if original in remaining or original in (RACE_KOREAN.get(t) for t in remaining):
+        return original
+    return RACE_KOREAN.get(remaining[0], remaining[0]) if original in RACE_KOREAN.values() else remaining[0]
+
+
+def taxonomy_revisions(record: dict, release_day: str | None, policy: dict) -> list[dict]:
+    """Sparse past overrides. Latest boundary first so the oldest state wins when overlapping."""
+    minion_types = policy["minionTypes"]
+    spell_schools = policy["spellSchools"]
+    races = record.get("races") if record.get("type") == "MINION" else []
+    races = races if isinstance(races, list) else []
+    # A card can acquire an existing tribe years after the tribe first debuted.
+    per_card = policy.get("cardTypeIntroductions", {}).get(record["id"], {})
+    race_dates = {race: per_card.get(race, minion_types.get(race)) for race in races}
+    previous_races = policy.get("priorRaces", {}).get(record["id"], [])
+    spell = record.get("spellSchool") if record.get("type") == "SPELL" else None
+    boundaries = set()
+
+    for race in races:
+        day = race_dates.get(race)
+        if day and (not release_day or release_day < day):
+            boundaries.add(day)
+    spell_day = spell_schools.get(spell) if isinstance(spell, str) else None
+    if spell_day and (not release_day or release_day < spell_day):
+        boundaries.add(spell_day)
+
+    revisions = []
+    for before in sorted(boundaries, reverse=True):
+        changes = {}
+        older_races = [race for race in races
+                       if not (race_dates.get(race) and before <= race_dates[race])]
+        # Older source records can retain the original Korean tribe label in
+        # race while omitting it from the current races list. Preserve it.
+        for race in reversed(previous_races):
+            if race not in older_races:
+                older_races.insert(0, race)
+        if older_races != races:
+            changes["races"] = older_races
+            changes["race"] = historic_race_label(record.get("race") or "", older_races)
+        if spell_day and before <= spell_day:
+            changes["spellSchool"] = ""
+        if changes:
+            revisions.append({
+                "before": before,
+                "changes": changes,
+                "generatedBy": TAXONOMY_RULE,
+            })
+    return revisions
+
+
 def main():
     source_path = ROOT / "cards.json"
     catalog = load(source_path)
@@ -116,6 +214,7 @@ def main():
     detailed = ROOT / "data"
     release_policy_path = ROOT / "release-policy.json"
     release_policy = load(release_policy_path) if release_policy_path.exists() else None
+    taxonomy_policy = read_taxonomy_policy(ROOT / "taxonomy-history.json")
     if release_policy is not None and release_policy.get("timezone") != "Asia/Seoul":
         raise ValueError("Release dates must use Korea (Asia/Seoul)")
     release_counts = {"verified": 0, "estimated": 0, "pending": 0}
@@ -130,6 +229,7 @@ def main():
         if cid in seen:
             raise ValueError(f"Duplicate card ID {cid}")
         seen.add(cid)
+        release_date = release_for_card(record, release_policy)[0] if release_policy is not None else record.get("releasedAt")
         path = detailed / (cid + ".json")
         data = read_catalog_source(path, record)
         revisions = []
@@ -143,6 +243,12 @@ def main():
             # Preserve the approved current card catalogue exactly. Individual
             # JSON owns historical changes only until current data is reconciled.
             revisions = read_history(card, cid)
+            if taxonomy_policy is not None:
+                curated = [rev for rev in revisions if rev.get("generatedBy") != TAXONOMY_RULE]
+                revisions = curated + taxonomy_revisions(record, release_date, taxonomy_policy)
+                if revisions != card.get("history", []):
+                    card["history"] = revisions
+                revisions = read_history(card, cid)
             if revisions:
                 history[str(record["dbfId"])] = {"id": cid, "history": revisions}
             elif record.get("history"):

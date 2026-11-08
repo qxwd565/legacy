@@ -5,6 +5,7 @@ on:
       - '.github/workflows/normalize-card-history.yml'
       - 'tools/build-api.py'
       - 'release-policy.json'
+      - 'taxonomy-history.json'
       - 'cards.json'
       - 'data/**'
   workflow_dispatch:
