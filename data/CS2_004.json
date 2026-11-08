@@ -110,14 +110,16 @@
       {
         "date": "2020-03-27",
         "changes": {
-          "text": "하수인에게 생명력을 +2 부여합니다."
+          "text": "하수인에게 생명력을 +2 부여합니다.",
+          "cost": 0
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
           "text": "[x]하수인에게 생명력을\n+2 부여합니다.\n카드를 뽑습니다.",
-          "spellSchool": "HOLY"
+          "spellSchool": "HOLY",
+          "cost": 1
         }
       }
     ]

@@ -90,9 +90,22 @@
         }
       },
       {
+        "date": "2019-02-06",
+        "changes": {
+          "cost": 4
+        }
+      },
+      {
         "date": "2021-03-26",
         "changes": {
-          "spellSchool": "HOLY"
+          "spellSchool": "HOLY",
+          "cost": 3
+        }
+      },
+      {
+        "date": "2022-04-06",
+        "changes": {
+          "cost": 2
         }
       }
     ]
