@@ -93,8 +93,15 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2014-05-09",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅이 공격받은 직후, 방어도를 +8 얻습니다."
+        }
+      },
+      {
         "from": "2013-10-11",
-        "before": "2014-03-13",
+        "before": "2014-05-09",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 공격받으면 방어도를 +8 얻습니다."
         }
@@ -135,7 +142,8 @@
       "build": "1.0.5361",
       "platform": "iOS",
       "rawText": "<b>비밀:</b> 내 영웅이 공격받은 직후, 방어도를 +8 얻습니다.",
-      "observedOn": "2014-05-03"
+      "matchingWindowsBuild": "1.0.0.5314",
+      "windowsPatchAppliedKo": "2014-05-09"
     }
   ]
 }
