@@ -118,6 +118,13 @@ def main():
     assert "장소" in value_at("EX1_312", "text", "2024-03-12")
     assert "둘" not in value_at("EX1_572", "text", "2024-03-11")
     assert "둘" in value_at("EX1_572", "text", "2024-03-12")
+    # Verified effect changes must not be backdated to the 2021 Core revamp.
+    holy = get("EX1_365")["patches"]
+    assert not any(e["date"] == "2021-03-26" and "text" in e["changes"] for e in holy)
+    assert any(e["date"] == "2025-11-14" and "하수인에게" in e["changes"].get("text","") for e in holy)
+    sorc = get("EX1_608")["patches"]
+    assert next(e for e in sorc if e["date"] == "2021-03-26")["changes"]["text"] == "내 주문들의 비용이 (1) 감소합니다."
+    assert any(e["date"] == "2024-08-30" and "1보다 낮아지진" in e["changes"].get("text","") for e in sorc)
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

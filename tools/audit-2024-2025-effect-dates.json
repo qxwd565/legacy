@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "Move two real gameplay text changes from incorrectly backdated 2021 snapshots into their actual balance patches. No cosmetic or tooltip-only adjustments.",
+  "changes": {
+    "EX1_365": {
+      "date": "2025-11-14",
+      "fields": [
+        "text"
+      ],
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/24247520/34-0-2",
+      "effect": "Holy Wrath gains minion-only restriction on the same date its cost changes from 5 to 3"
+    },
+    "EX1_608": {
+      "date": "2024-08-30",
+      "fields": [
+        "text"
+      ],
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/24134638",
+      "effect": "Sorcerer's Apprentice spells can no longer be reduced below 1 on the same date its cost changes from 4 to 2"
+    }
+  }
+}
