@@ -480,6 +480,976 @@
           "source": "cab-premiummaterials0:1823712807"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <enGB>Nightmare</enGB>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>\n    <zhCN>使一个随从获得+5/+5。在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Niszczysz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다.</koKR>\n    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <enGB>Give a minion +5/+5.  At the start of your next turn, destroy it.</enGB>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f1a71855bc3698f63573c3c6509055567f281feb1bb21a68cff5fcfafc1d8642.json",
+          "sha256": "f1a71855bc3698f63573c3c6509055567f281feb1bb21a68cff5fcfafc1d8642",
+          "source": "cab-cards0:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다.</koKR>\n    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/70a818c958390060ce3c4ae58bd082673b9ff058b8efba7ff3d384a93d939156.json",
+          "sha256": "70a818c958390060ce3c4ae58bd082673b9ff058b8efba7ff3d384a93d939156",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다.</koKR>\n    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/409293d81e5b1adec1ef1f64485d534ea17f9a709debc383426f6cf09058265d.json",
+          "sha256": "409293d81e5b1adec1ef1f64485d534ea17f9a709debc383426f6cf09058265d",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2eeea3e52dc7da86d9112900fa3da936335afba69c1878eb0980e7b4fee1bfd5.json",
+          "sha256": "2eeea3e52dc7da86d9112900fa3da936335afba69c1878eb0980e7b4fee1bfd5",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e16c23e2e058295be7b553c8f4848eaf06a6fc431b30f53102052bf3765b7b2e.json",
+          "sha256": "e16c23e2e058295be7b553c8f4848eaf06a6fc431b30f53102052bf3765b7b2e",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2b1bb2a4042cc70808399e477ab2bfaea3703e11a55c0dd3955e66cd2bddd6d9.json",
+          "sha256": "2b1bb2a4042cc70808399e477ab2bfaea3703e11a55c0dd3955e66cd2bddd6d9",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1503712707",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2133481163"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1823712807"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de.png",
+          "sha256": "28602d908d95176c36c2fefaaa139f4ab6f40fafd20c7c5853a7ae60897317de",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2133481163",
+          "rgbaSha256": "b135500fb3a221f50c74c360fc7cdebe507fae1071d9248bde8a277bf2131efe"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7ae04d6a8baf4a4ad4464509cdd257c6147349c9783ce1803d1ae8a0d89e8d61.json",
+          "sha256": "7ae04d6a8baf4a4ad4464509cdd257c6147349c9783ce1803d1ae8a0d89e8d61",
+          "source": "cab-cards2:1823712807"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "악몽",
+            "CardTextInHand": "하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "11"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "90db08f8-87af-4e7b-8578-36621fd7065b"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"DREAM_05\">\n  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Nightmare</enUS>\n    <frFR>Cauchemar</frFR>\n    <zhTW>夢魘</zhTW>\n    <zhCN>噩梦</zhCN>\n    <ruRU>Кошмар</ruRU>\n    <ptBR>Pesadelo</ptBR>\n    <plPL>Koszmar</plPL>\n    <koKR>악몽</koKR>\n    <itIT>Incubo</itIT>\n    <esMX>Pesadilla</esMX>\n    <esES>Pesadilla</esES>\n    <deDE>Alptraum</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>\n    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>\n    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>\n    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>\n    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>\n    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>\n    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>\n    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>\n    <itIT>+5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>\n    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>\n    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>\n    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>\n  </Tag>\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"11\" />\n  <Power definition=\"90db08f8-87af-4e7b-8578-36621fd7065b\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1455051099",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/DREAM_05/W16_a062_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/DREAM_05/DREAM_05_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-1087861253"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1234969182"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1734740205"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Spells/Warlock_PowerOverwhelming_FX",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

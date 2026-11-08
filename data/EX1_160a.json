@@ -521,6 +521,1117 @@
           "source": "cab-premiummaterials0:-1510375465"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera.</esES>\n    <enGB>Summon a Panther</enGB>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹。</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <enGB>Summon a 3/2 Panther.</enGB>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:1045846156"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": null
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:1045846156",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹。</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/cac63debefc92f3420b87c5abb66b3d9c394598169a653b0615b3e9604233b3f.json",
+          "sha256": "cac63debefc92f3420b87c5abb66b3d9c394598169a653b0615b3e9604233b3f",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹。</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3ac775c20637120d4c4040208e26697655788382e48494c629c22f845a1de956.json",
+          "sha256": "3ac775c20637120d4c4040208e26697655788382e48494c629c22f845a1de956",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 1마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 1마리 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/65bccd3d1a4f6613e4e496c3cd136c54f55c2d6f657a2775f3c12059a562c716.json",
+          "sha256": "65bccd3d1a4f6613e4e496c3cd136c54f55c2d6f657a2775f3c12059a562c716",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 1마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 1마리 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/9c486d5b4972a81108af2d6bbb4dc5b772f73e5737763dcfa68487df53238a14.json",
+          "sha256": "9c486d5b4972a81108af2d6bbb4dc5b772f73e5737763dcfa68487df53238a14",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 1마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 1마리 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/675847d33399f0aa57211cd82c6430edeaf3f895661781584d33b546879130ad.json",
+          "sha256": "675847d33399f0aa57211cd82c6430edeaf3f895661781584d33b546879130ad",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 1마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 1마리 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-502674595",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1717147151"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1510375465"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9.png",
+          "sha256": "5fb27d62105b6eddc634f938274f4b0957025e24171587ea3265ce12564438c9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1717147151",
+          "rgbaSha256": "3cdb27e7d88a44e478e804669fbba03054ad5b11c5c86eaa3dde5dae4dd2deee"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4342d2e71ab8ff564a83a5c3bd85ed778f58ff30fea73125e25f57d980f642cd.json",
+          "sha256": "4342d2e71ab8ff564a83a5c3bd85ed778f58ff30fea73125e25f57d980f642cd",
+          "source": "cab-cards0:-1510375465"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 소환",
+            "CardTextInHand": "3/2 표범을 1마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "d689b0f7-5eb5-4828-98f4-472fd79dec00"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160a\">\n  <MasterPower>d689b0f7-5eb5-4828-98f4-472fd79dec00</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Summon a Panther</enUS>\n    <frFR>Invocation de panthère</frFR>\n    <zhTW>召喚一隻獵豹</zhTW>\n    <zhCN>召唤猎豹</zhCN>\n    <ruRU>Призыв пантеры</ruRU>\n    <ptBR>Evoque uma Pantera</ptBR>\n    <plPL>Przyzwij panterę</plPL>\n    <koKR>표범 소환</koKR>\n    <itIT>Evocazione: Pantera</itIT>\n    <esMX>Invoca una Pantera</esMX>\n    <esES>Invoca una pantera</esES>\n    <deDE>Panther herbeirufen</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon a 3/2 Panther.</enUS>\n    <frFR>Invoque une panthère 3/2.</frFR>\n    <zhTW>召喚一隻3/2獵豹</zhTW>\n    <zhCN>召唤一个3/2的猎豹。</zhCN>\n    <ruRU>Призывает на поле боя пантеру 3/2.</ruRU>\n    <ptBR>Evoque uma Pantera 3/2.</ptBR>\n    <plPL>Przyzwij panterę 3/2.  </plPL>\n    <koKR>3/2 표범을 1마리 소환합니다.</koKR>\n    <itIT>Evoca una Pantera 3/2.</itIT>\n    <esMX>Invoca una Pantera 3/2.</esMX>\n    <esES>Invoca una pantera 3/2.</esES>\n    <deDE>Ruft einen Panther (3/2) herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"d689b0f7-5eb5-4828-98f4-472fd79dec00\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-1795674242",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160/W17_a030_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160/EX1_160_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

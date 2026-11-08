@@ -598,6 +598,1224 @@
           "source": "cab-premiummaterials0:1600484078"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <enGB>Hyena</enGB>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/52ba0f04657da5fc10e55ce2d6cbf3b5a6911832e7f865fc7bdd85b5e1157393.json",
+          "sha256": "52ba0f04657da5fc10e55ce2d6cbf3b5a6911832e7f865fc7bdd85b5e1157393",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/18ba234bd181cf7d3415191921967162acbdafead3ef38b7ce74fe5345dc0643.json",
+          "sha256": "18ba234bd181cf7d3415191921967162acbdafead3ef38b7ce74fe5345dc0643",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f6047cb3ba7175af666318d42201b4a4eedccada860c7bf50aa5e6b1da6464ad.json",
+          "sha256": "f6047cb3ba7175af666318d42201b4a4eedccada860c7bf50aa5e6b1da6464ad",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e3293b7a7312b223ab5740b26e34274bc96889426a61ab79e223d46b78854eec.json",
+          "sha256": "e3293b7a7312b223ab5740b26e34274bc96889426a61ab79e223d46b78854eec",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4a88079cb486a9a5bf6855a4f25a9d1fb1ad16059688b5bd57c6893a46f7d4b3.json",
+          "sha256": "4a88079cb486a9a5bf6855a4f25a9d1fb1ad16059688b5bd57c6893a46f7d4b3",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/928080b2a609788327f610fc35fe2bad34b99921e45211d4d4a142722e483934.json",
+          "sha256": "928080b2a609788327f610fc35fe2bad34b99921e45211d4d4a142722e483934",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "93919273",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-2040959936"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1600484078"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef.png",
+          "sha256": "be6564b3f7bc6b099a22a69c72f26870c6eedb8605e6fb593cd60c4170c1ebef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-2040959936",
+          "rgbaSha256": "fa382ab622a9fa3138015a72c1a02ae63ac6d743e0efd323ac7190bab2fc200f"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a58f0d7b4a5cd926d96dcea926d01b1aa91a4339a7f7e8ba47310e953e62fc3a.json",
+          "sha256": "a58f0d7b4a5cd926d96dcea926d01b1aa91a4339a7f7e8ba47310e953e62fc3a",
+          "source": "cab-cards0:1600484078"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "하이에나"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "3"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "3"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "ArtistName",
+              "enumID": "342",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_534t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Hyena</enUS>\n    <zhTW>土狼</zhTW>\n    <zhCN>土狼</zhCN>\n    <ruRU>Гиена</ruRU>\n    <ptBR>Hiena</ptBR>\n    <plPL>Hiena</plPL>\n    <koKR>하이에나</koKR>\n    <itIT>Iena</itIT>\n    <frFR>Hyène</frFR>\n    <esMX>Hiena</esMX>\n    <esES>Hiena</esES>\n    <deDE>Hyäne</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"3\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"3\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"ArtistName\" enumID=\"342\" type=\"String\">\n    <enUS>Andrew Robinson</enUS>\n  </Tag>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-1322623873",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_534t/W11_222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_534t/EX1_534t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": "cab-cards0:21961842"
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-1180958011"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:393249029"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-802697647"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_534t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

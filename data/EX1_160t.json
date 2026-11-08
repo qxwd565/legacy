@@ -595,6 +595,1216 @@
           "source": "cab-premiummaterials0:914957564"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <enGB>Panther</enGB>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/817d0623450e7cc00fa26e7a65ca2e6770d26b559519aa15a6a4f7051b0ea486.json",
+          "sha256": "817d0623450e7cc00fa26e7a65ca2e6770d26b559519aa15a6a4f7051b0ea486",
+          "source": "cab-cards1:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/2c73538e341ab2a1c8459b9c164a0ea92cb634fffe7dc6ca9b94c87017b6d996.json",
+          "sha256": "2c73538e341ab2a1c8459b9c164a0ea92cb634fffe7dc6ca9b94c87017b6d996",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/be735244498c6eec8c3693e87fe14132fcf8b31c961f7b63a888958830beb4a7.json",
+          "sha256": "be735244498c6eec8c3693e87fe14132fcf8b31c961f7b63a888958830beb4a7",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b7fad5ad8770414cdbd150027f929a1c7c2c5a99288d03c1aa8fada8b2e9dc8a.json",
+          "sha256": "b7fad5ad8770414cdbd150027f929a1c7c2c5a99288d03c1aa8fada8b2e9dc8a",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/7077947817abe318241fb753b9626a8f18a7f5b1901342253396d0d6d52b183e.json",
+          "sha256": "7077947817abe318241fb753b9626a8f18a7f5b1901342253396d0d6d52b183e",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d0c18c30a014c688ef3d099a8b3c6b18f3cfeb201b8a89fc589883ff55c23860.json",
+          "sha256": "d0c18c30a014c688ef3d099a8b3c6b18f3cfeb201b8a89fc589883ff55c23860",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2046172257",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-1985534777"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:914957564"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7.png",
+          "sha256": "2d060695a7ec90cf50757a891b660c46312d740de3f53055314ee65126ab8bc7",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-1985534777",
+          "rgbaSha256": "0b82aec220ce7285280e0af9e2a7929440350ab9bff59f8d00dc2c1762c1def8"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/186efb7458b26c876f1ad9e08aa65b90047e2c4a1669bc59b24f5cfa280cfd41.json",
+          "sha256": "186efb7458b26c876f1ad9e08aa65b90047e2c4a1669bc59b24f5cfa280cfd41",
+          "source": "cab-cards2:914957564"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "3"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "8bea2771-b810-42a4-9a4d-34cb0633eb6a"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_160t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Panther</enUS>\n    <frFR>Panthère</frFR>\n    <zhTW>獵豹</zhTW>\n    <zhCN>猎豹</zhCN>\n    <ruRU>Пантера</ruRU>\n    <ptBR>Pantera</ptBR>\n    <plPL>Pantera</plPL>\n    <koKR>표범</koKR>\n    <itIT>Pantera</itIT>\n    <esMX>Pantera</esMX>\n    <esES>Pantera</esES>\n    <deDE>Panther</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"1\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Power definition=\"8bea2771-b810-42a4-9a4d-34cb0633eb6a\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "1836892488",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_160t/W7_096_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_160t/EX1_160t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:1332916270"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-670361814"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-546226269"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_160t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

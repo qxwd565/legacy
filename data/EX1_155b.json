@@ -514,6 +514,1117 @@
           "source": "cab-premiummaterials0:452462244"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <enGB>Mark of Nature</enGB>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <enGB>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enGB>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1265598280"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": null
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1265598280",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/979fec6d94b5316ce56a175615793f1378736a10a2bf9741ca115df09d63973f.json",
+          "sha256": "979fec6d94b5316ce56a175615793f1378736a10a2bf9741ca115df09d63973f",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/94f0e2f2716a6c27872d3580fc81a365897f1537f281415557f588fe88c9a465.json",
+          "sha256": "94f0e2f2716a6c27872d3580fc81a365897f1537f281415557f588fe88c9a465",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f70b83c230867a2d1235f4c191a3aecdd3b9dfe191b5e68d9d7c4a4dbbe0a0ab.json",
+          "sha256": "f70b83c230867a2d1235f4c191a3aecdd3b9dfe191b5e68d9d7c4a4dbbe0a0ab",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/d10397e745be10f1f9ccc8140a5df495f47b845c67e6a7460a76d7ac7d42510a.json",
+          "sha256": "d10397e745be10f1f9ccc8140a5df495f47b845c67e6a7460a76d7ac7d42510a",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/57702c1683ba364364183acb255f8feb7fa37db741d2109a3a1eea31ecaa1e77.json",
+          "sha256": "57702c1683ba364364183acb255f8feb7fa37db741d2109a3a1eea31ecaa1e77",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-662491537",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:502120214"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:452462244"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4.png",
+          "sha256": "013685e15790e31f55f67fcd1bd46c10223f37353821170d48d038a882013de4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:502120214",
+          "rgbaSha256": "2843d72ffa515926782f749caa69aeba6ef55fe1d293a14a7c983a6589dc9d65"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4b5c0c8fd620efbcf5a1a5224bf177f4fa2a56785ecd731ddd5b8aac322870cc.json",
+          "sha256": "4b5c0c8fd620efbcf5a1a5224bf177f4fa2a56785ecd731ddd5b8aac322870cc",
+          "source": "cab-cards0:452462244"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "자연의 징표",
+            "CardTextInHand": "생명력 +4와 <b>도발</b>을 부여합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e3ff87a1-9d18-4097-b74b-64d74d061cdf"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_155b\">\n  <MasterPower>e3ff87a1-9d18-4097-b74b-64d74d061cdf</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mark of Nature</enUS>\n    <frFR>Marque de la nature</frFR>\n    <zhTW>自然印記</zhTW>\n    <zhCN>自然印记</zhCN>\n    <ruRU>Знак Природы</ruRU>\n    <ptBR>Marca da Natureza</ptBR>\n    <plPL>Znak natury</plPL>\n    <koKR>자연의 징표</koKR>\n    <itIT>Marchio della Natura</itIT>\n    <esMX>Marca de la naturaleza</esMX>\n    <esES>Marca de la Naturaleza</esES>\n    <deDE>Mal der Natur</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>+4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>+4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>\n    <ruRU>+4 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>+4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>+4 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>\n    <koKR>생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>\n    <itIT>+4 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>+4 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>+4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>+4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e3ff87a1-9d18-4097-b74b-64d74d061cdf\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n    <PlayRequirement reqID=\"1\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "1613595635",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_155/W6_024_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_155/EX1_155_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": null
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": null
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

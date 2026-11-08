@@ -585,6 +585,1168 @@
           "source": "cab-premiummaterials0:671183827"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <enGB>Cat Form</enGB>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <enGB>&lt;b&gt;Charge&lt;/b&gt;</enGB>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4a3d2af8439f7b00d64e1c4066ceebeec6f1a2913a936aade28c37c28fd9bed6.json",
+          "sha256": "4a3d2af8439f7b00d64e1c4066ceebeec6f1a2913a936aade28c37c28fd9bed6",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/3be71d40e44f85911c7bfd6276a9e1aabd13dc6a496bd57dc29ca3b9737e28ae.json",
+          "sha256": "3be71d40e44f85911c7bfd6276a9e1aabd13dc6a496bd57dc29ca3b9737e28ae",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a7feb62dc2c61fdae61ec53ef997bd0568cc66f403b02718835245f71123c191.json",
+          "sha256": "a7feb62dc2c61fdae61ec53ef997bd0568cc66f403b02718835245f71123c191",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/cc085d66e7170d779a08ceacafe0737e8b3bfa1d251f867493ea133ca65089d4.json",
+          "sha256": "cc085d66e7170d779a08ceacafe0737e8b3bfa1d251f867493ea133ca65089d4",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/192cc345c7028d8d39698be9d2a26e2b88cc16efe5faa8fc603f389bac352027.json",
+          "sha256": "192cc345c7028d8d39698be9d2a26e2b88cc16efe5faa8fc603f389bac352027",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/288c94ddd45e3f6d82513c3ed5139cbc1659d86376f258babed14c10bcb3a390.json",
+          "sha256": "288c94ddd45e3f6d82513c3ed5139cbc1659d86376f258babed14c10bcb3a390",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1336509841",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:1330306931"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:671183827"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848.png",
+          "sha256": "1d31f086ebb0ee9cc4ae5a564f7b850fe029581a0ce4059c1beae62f9b774848",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:1330306931",
+          "rgbaSha256": "3a00ccecf8eeeddfd44c5425642d66f73ab5e66d54693040642c1e8cb160af84"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8e126a2b4c82591c9ded81d9b2405fb759a6fa6009912283834aa8b38dd8ff31.json",
+          "sha256": "8e126a2b4c82591c9ded81d9b2405fb759a6fa6009912283834aa8b38dd8ff31",
+          "source": "cab-cards1:671183827"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "표범 변신",
+            "CardTextInHand": "<b>돌진</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165a\">\n  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Cat Form</enUS>\n    <frFR>Forme de félin</frFR>\n    <zhTW>獵豹形態</zhTW>\n    <zhCN>猎豹形态</zhCN>\n    <ruRU>Облик кошки</ruRU>\n    <ptBR>Forma de Felino</ptBR>\n    <plPL>Postać kota</plPL>\n    <koKR>표범 변신</koKR>\n    <itIT>Forma Felina</itIT>\n    <esMX>Forma felina</esMX>\n    <esES>Forma felina</esES>\n    <deDE>Katzengestalt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-1583823192",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165a/W12_A087_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165a/EX1_165a_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-978105424"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:800182080"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-523410490"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

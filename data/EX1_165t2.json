@@ -610,6 +610,1264 @@
           "source": "cab-premiummaterials0:1699719714"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid pazura</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <enGB>Druid of the Claw</enGB>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/18f9ca700de8616481497fb7f4b6b80d31afb59f31d909c58d3b1d7fddee2a1d.json",
+          "sha256": "18f9ca700de8616481497fb7f4b6b80d31afb59f31d909c58d3b1d7fddee2a1d",
+          "source": "cab-cards0:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6002c2c5c05155db05f7ae6052dacc532b1548ab74c4206a8e855c1d344e8d21.json",
+          "sha256": "6002c2c5c05155db05f7ae6052dacc532b1548ab74c4206a8e855c1d344e8d21",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ac860f7f9ab49cfdb9dd3f0cffb4d7574193071e969d9b78466e9dcbb918138a.json",
+          "sha256": "ac860f7f9ab49cfdb9dd3f0cffb4d7574193071e969d9b78466e9dcbb918138a",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5f74b5802a1dd97655c962c0e0dd29a7b60a19715b567a62f105855953496e24.json",
+          "sha256": "5f74b5802a1dd97655c962c0e0dd29a7b60a19715b567a62f105855953496e24",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/29201819777519b3efff45aa13c8a9a42b47f8a1983574ded3bfa014b04b681a.json",
+          "sha256": "29201819777519b3efff45aa13c8a9a42b47f8a1983574ded3bfa014b04b681a",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/a85227efb6d266ccb982c3ee84c5dcca355c5ca57ee039137cc58eaae5d0d09e.json",
+          "sha256": "a85227efb6d266ccb982c3ee84c5dcca355c5ca57ee039137cc58eaae5d0d09e",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-2032920254",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-479701809"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1699719714"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9.png",
+          "sha256": "bbb6716d47447d3ee245b295363ade2163cf97fc692cdf8af364c5c883ff32f9",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-479701809",
+          "rgbaSha256": "65e8c7a7551cc128fc434c8f1e4f30a00ec1aeb27f1c2aa519de628c4f1c598b"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/4683547c614aa3147bc995482c5c88bcd7d3701da651fbfb4703aac7c94904d7.json",
+          "sha256": "4683547c614aa3147bc995482c5c88bcd7d3701da651fbfb4703aac7c94904d7",
+          "source": "cab-cards2:1699719714"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "발톱의 드루이드",
+            "CardTextInHand": "<b>도발</b>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "5"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "4"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "Taunt",
+              "enumID": "190",
+              "type": "Bool",
+              "value": "1"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "9295d5a3-74a0-4c70-9b02-8ad8a5714a99"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_165t2\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Druid of the Claw</enUS>\n    <frFR>Druide de la Griffe</frFR>\n    <zhTW>利爪德魯伊</zhTW>\n    <zhCN>利爪德鲁伊</zhCN>\n    <ruRU>Друид когтя</ruRU>\n    <ptBR>Druida da Garra</ptBR>\n    <plPL>Druid Szponów</plPL>\n    <koKR>발톱의 드루이드</koKR>\n    <itIT>Druido dell'Unghia</itIT>\n    <esMX>Druida de la Zarpa</esMX>\n    <esES>Druida de la Zarpa</esES>\n    <deDE>Druide der Klaue</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"5\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>\n    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>\n    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"Taunt\" enumID=\"190\" type=\"Bool\" value=\"1\" />\n  <Power definition=\"9295d5a3-74a0-4c70-9b02-8ad8a5714a99\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "580853070",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_165t2/W7_127a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_165t2/EX1_165t2_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:2070601601"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:1254552339"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1541642494"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_165t2/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

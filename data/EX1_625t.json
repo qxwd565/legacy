@@ -522,6 +522,1069 @@
           "source": "cab-premiummaterials0:1110263134"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Kolec umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <enGB>Mind Spike</enGB>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害。</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <enGB>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enGB>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": null
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害。</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/eeaffc405cc295863f53513d62bb43b716f12cee565246c8a3d5134a7b1f49ef.json",
+          "sha256": "eeaffc405cc295863f53513d62bb43b716f12cee565246c8a3d5134a7b1f49ef",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害。</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/55db46274e330d662d389c214a15b3552cd511141f4b3c0fd2b2884559711b17.json",
+          "sha256": "55db46274e330d662d389c214a15b3552cd511141f4b3c0fd2b2884559711b17",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/fe4a88571af9ec4db0c058dffa0fed75277e795af124d7a728c763165126c35a.json",
+          "sha256": "fe4a88571af9ec4db0c058dffa0fed75277e795af124d7a728c763165126c35a",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/aa5ca71e7b05cb559e7a4ac4d6fb378e8ef99fc2997a37cdf1291828a2abfc5a.json",
+          "sha256": "aa5ca71e7b05cb559e7a4ac4d6fb378e8ef99fc2997a37cdf1291828a2abfc5a",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e15f9d1cfe0e686e512c80b9f190204b409d7a154df157a61728f920c5d8d7e6.json",
+          "sha256": "e15f9d1cfe0e686e512c80b9f190204b409d7a154df157a61728f920c5d8d7e6",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-703342826",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:-168080878"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1110263134"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665.png",
+          "sha256": "a6aec24c299598ae4431a108735ec141a8f85047e3719d0d4f776a684c5dd665",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:-168080878",
+          "rgbaSha256": "77c95c03d7a8bea92887449e1777a7c68f7160185d1f3da18d5caf45c1cee8a3"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/11c268a359a21937fce21585fbdb23da215f8a79cb30301a1896793670a1a8d2.json",
+          "sha256": "11c268a359a21937fce21585fbdb23da215f8a79cb30301a1896793670a1a8d2",
+          "source": "cab-cards2:1110263134"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "정신의 쐐기",
+            "CardTextInHand": "<b>영웅 능력</b> \\n 피해를 2 줍니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "10"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "2"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "6"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "229425c1-cca1-4e74-8985-2ba7689d9fb8"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_625t\">\n  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Mind Spike</enUS>\n    <frFR>Pointe mentale</frFR>\n    <zhTW>心靈鑽刺</zhTW>\n    <zhCN>心灵尖刺</zhCN>\n    <ruRU>Пронзание разума</ruRU>\n    <ptBR>Aguilhão Mental</ptBR>\n    <plPL>Igła umysłu</plPL>\n    <koKR>정신의 쐐기</koKR>\n    <itIT>Aculeo Mentale</itIT>\n    <esMX>Púa mental</esMX>\n    <esES>Púa mental</esES>\n    <deDE>Gedankenstachel</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"10\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"2\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"6\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \\n Deal 2 damage.</enUS>\n    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \\nInflige 2 points de dégâts.</frFR>\n    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\\n造成2點傷害</zhTW>\n    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\\n造成2点伤害。</zhCN>\n    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \\n Наносит 2 ед. урона.</ruRU>\n    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \\n Cause 2 de dano.</ptBR>\n    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \\n Zadaj 2 pkt. obrażeń.</plPL>\n    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \\n 피해를 2 줍니다.</koKR>\n    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \\nInfligge 2 danni.</itIT>\n    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige de 2 daño.</esMX>\n    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \\n Inflige 2 p. de daño.</esES>\n    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \\n Verursacht 2 Schaden.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"229425c1-cca1-4e74-8985-2ba7689d9fb8\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-1575825837",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_625t/W8_179a_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_625t/EX1_626t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:387715840"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-266648531"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:1232708699"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Shared/Effects/Spells/WarlockSkull_Missile/Warlock_Skull_Missile",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

@@ -493,6 +493,992 @@
           "source": "cab-premiummaterials0:-1197366466"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <enGB>Heavy Axe</enGB>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef.png",
+          "sha256": "f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:136787480",
+          "rgbaSha256": "300dc58e3b2bbd9b6cc288a66dba26aeff4a371d116285d89961c2b40fc0a159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b63a03e1c099005b96ecb19f3717323794199e43862d60e810e683fd94f6be34.json",
+          "sha256": "b63a03e1c099005b96ecb19f3717323794199e43862d60e810e683fd94f6be34",
+          "source": "cab-cards1:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef.png",
+          "sha256": "f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "300dc58e3b2bbd9b6cc288a66dba26aeff4a371d116285d89961c2b40fc0a159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/9c36354c4f46f42bb4b167a3aae2700834b03b93c1f6559a915935ca5bcd02b8.json",
+          "sha256": "9c36354c4f46f42bb4b167a3aae2700834b03b93c1f6559a915935ca5bcd02b8",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef.png",
+          "sha256": "f20d3d7b13fdec00f691230ea3356961870a89225b7d73dfcc131307e8103aef",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "300dc58e3b2bbd9b6cc288a66dba26aeff4a371d116285d89961c2b40fc0a159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/0bb1e45a4f8e1909d62f28d57b57421e3a39d156580c1f8c2d44d41549d7a535.json",
+          "sha256": "0bb1e45a4f8e1909d62f28d57b57421e3a39d156580c1f8c2d44d41549d7a535",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4.png",
+          "sha256": "816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "b41407eafc32ed2310b305742c4cbf65206471dd181990dbcd9ed9cab0ac323a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/52ab76390a2f754e300a8585855be798b561ff6f34822daee30b08990e9ff2d6.json",
+          "sha256": "52ab76390a2f754e300a8585855be798b561ff6f34822daee30b08990e9ff2d6",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4.png",
+          "sha256": "816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "b41407eafc32ed2310b305742c4cbf65206471dd181990dbcd9ed9cab0ac323a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f3aaf61af24c79d9e3b7d3e4620c8b2f9c366c8ce9600b4cb04de851da2d0969.json",
+          "sha256": "f3aaf61af24c79d9e3b7d3e4620c8b2f9c366c8ce9600b4cb04de851da2d0969",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4.png",
+          "sha256": "816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "b41407eafc32ed2310b305742c4cbf65206471dd181990dbcd9ed9cab0ac323a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/882ef42171266dde9049d774336dc5c2c83b1165eccabedb1656f5658eb920f2.json",
+          "sha256": "882ef42171266dde9049d774336dc5c2c83b1165eccabedb1656f5658eb920f2",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-450995217",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:136787480"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:-1197366466"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4.png",
+          "sha256": "816f7df9e15168708c80fef0feda75ec13c35506bb4ba97e856630c419985eb4",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:136787480",
+          "rgbaSha256": "b41407eafc32ed2310b305742c4cbf65206471dd181990dbcd9ed9cab0ac323a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ca99c058abf86c5e3f9ab1f2fe50da76110251227d788bdc5a0dca5e28165bd0.json",
+          "sha256": "ca99c058abf86c5e3f9ab1f2fe50da76110251227d788bdc5a0dca5e28165bd0",
+          "source": "cab-cards2:-1197366466"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "무거운 도끼"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "7"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "10"
+            },
+            {
+              "name": "Durability",
+              "enumID": "187",
+              "type": "Number",
+              "value": "3"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_409t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Heavy Axe</enUS>\n    <frFR>Hache lourde</frFR>\n    <zhTW>重斧</zhTW>\n    <zhCN>重斧</zhCN>\n    <ruRU>Тяжелый топор</ruRU>\n    <ptBR>Machado Pesado</ptBR>\n    <plPL>Ciężki topór</plPL>\n    <koKR>무거운 도끼</koKR>\n    <itIT>Ascia Pesante</itIT>\n    <esMX>Hacha pesada</esMX>\n    <esES>Hacha pesada</esES>\n    <deDE>Schwere Axt</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"7\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"10\" />\n  <Tag name=\"Durability\" enumID=\"187\" type=\"Number\" value=\"3\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-570411934",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_409t/w14_a142_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_409t/EX1_409t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-496567522"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-344760360"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-1955949320"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

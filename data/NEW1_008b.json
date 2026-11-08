@@ -488,6 +488,1012 @@
           "source": "cab-premiummaterials0:-1821136399"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 8 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <enGB>Ancient Secrets</enGB>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 8 Health.</enUS>\n    <frFR>Rend 8 points de vie.</frFR>\n    <zhTW>恢復8點生命值。</zhTW>\n    <zhCN>恢复8点生命值。</zhCN>\n    <ruRU>Восстанавливает 8 ед. здоровья.</ruRU>\n    <ptBR>Restaure 8 de Vida.</ptBR>\n    <plPL>Przywróć 8 pkt. zdrowia.</plPL>\n    <koKR>생명력을 8 회복시킵니다.</koKR>\n    <itIT>Rigenera 8 Salute.</itIT>\n    <esMX>Restaura 8 de Salud.</esMX>\n    <esES>Restaura 8 p. de salud.</esES>\n    <enGB>Restore 8 Health.</enGB>\n    <deDE>Stellt 8 Leben wieder her.</deDE>\n  </Tag>\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/e8f659094bf41bc9f01416b23f14625aa6fca4c93bd54077822df386e5efe1d8.json",
+          "sha256": "e8f659094bf41bc9f01416b23f14625aa6fca4c93bd54077822df386e5efe1d8",
+          "source": "cab-cards1:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值。</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/14287cc30110d069c4ed1786cf31cb55c672e71e10faf97d3e1c11889d5b9bff.json",
+          "sha256": "14287cc30110d069c4ed1786cf31cb55c672e71e10faf97d3e1c11889d5b9bff",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值。</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/44825c5c4aa3054d5d26740d451b97bb32a36be998abf3fce48b046aaf30d989.json",
+          "sha256": "44825c5c4aa3054d5d26740d451b97bb32a36be998abf3fce48b046aaf30d989",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/962465ff45ef061dbbda871085d2f6c7d23db6b46f4790a8392e3f027683d554.json",
+          "sha256": "962465ff45ef061dbbda871085d2f6c7d23db6b46f4790a8392e3f027683d554",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/bb4c7746e73697c2438c1feb8c891a1e8d7d9b2357e504418f2ea4a833def48f.json",
+          "sha256": "bb4c7746e73697c2438c1feb8c891a1e8d7d9b2357e504418f2ea4a833def48f",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/9ca2cec879d48f0743b489acbdfafe81ae905d2d6610e01560df2e7794ac812d.json",
+          "sha256": "9ca2cec879d48f0743b489acbdfafe81ae905d2d6610e01560df2e7794ac812d",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "247177736",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:-1993789184"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-1821136399"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d.png",
+          "sha256": "0d25b5f8334b4e77f3e6fa61929f01e5162982e493fbdcd0864e8f59d849a23d",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:-1993789184",
+          "rgbaSha256": "2f25d679847098eaee17e485e10cdcaa9eff3f6764cdca92d7d4e65f5b01ef36"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/8b077a60ecc174d4a34feb469d6b7fe7084d316b2ea58f6aa511370273fa794f.json",
+          "sha256": "8b077a60ecc174d4a34feb469d6b7fe7084d316b2ea58f6aa511370273fa794f",
+          "source": "cab-cards0:-1821136399"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "고대의 비밀",
+            "CardTextInHand": "생명력을 5 회복시킵니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "86973367-f3b2-4554-888d-21faf7cc09fe"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"NEW1_008b\">\n  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Ancient Secrets</enUS>\n    <frFR>Secrets anciens</frFR>\n    <zhTW>古老的秘密</zhTW>\n    <zhCN>古老的秘密</zhCN>\n    <ruRU>Древние тайны</ruRU>\n    <ptBR>Segredos Ancestrais</ptBR>\n    <plPL>Pradawne tajemnice</plPL>\n    <koKR>고대의 비밀</koKR>\n    <itIT>Segreti Antichi</itIT>\n    <esMX>Secretos ancestrales</esMX>\n    <esES>Secretos antiguos</esES>\n    <deDE>Uralte Geheimnisse</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Restore 5 Health.</enUS>\n    <frFR>Rend 5 points de vie.</frFR>\n    <zhTW>恢復5點生命值</zhTW>\n    <zhCN>恢复5点生命值。</zhCN>\n    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>\n    <ptBR>Restaure 5 de Vida.</ptBR>\n    <plPL>Przywróć 5 pkt. zdrowia.</plPL>\n    <koKR>생명력을 5 회복시킵니다.</koKR>\n    <itIT>Rigenera 5 Salute.</itIT>\n    <esMX>Restaura 5 de Salud.</esMX>\n    <esES>Restaura 5 p. de salud.</esES>\n    <deDE>Stellt 5 Leben wieder her.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"86973367-f3b2-4554-888d-21faf7cc09fe\">\n    <PlayRequirement reqID=\"11\" param=\"\" />\n  </Power>\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-247183646",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/NEW1_008b/W13_222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/NEW1_008b/NEW1_008b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:2069643197"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-315098027"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:125993107"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

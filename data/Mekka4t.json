@@ -515,6 +515,1040 @@
           "source": "cab-premiummaterials0:-274311054"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "4"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <frFR>Poulet</frFR>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <enGB>Chicken</enGB>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <enGB>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enGB>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/02 Reward/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/02 Reward/Mekka4t/Death",
+            "m_AttackSpellPath": "Assets/Game/Cards/02 Reward/Mekka4t/Attack",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6df48f50b6f38c6b75a3f468afb4dca22e98ba06bb47d2486c8ba3f4805920d2.json",
+          "sha256": "6df48f50b6f38c6b75a3f468afb4dca22e98ba06bb47d2486c8ba3f4805920d2",
+          "source": "cab-cards0:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/6ebef47c835eee3d72027b6e87b98c3a50bfd0dc0f28e88f02486c3e292179d0.json",
+          "sha256": "6ebef47c835eee3d72027b6e87b98c3a50bfd0dc0f28e88f02486c3e292179d0",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/ae546feef32b916866f2ece899a1ef6fa6e7985bc3ee0ad95be1a37df3af3a4a.json",
+          "sha256": "ae546feef32b916866f2ece899a1ef6fa6e7985bc3ee0ad95be1a37df3af3a4a",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c5174611914dd4ad2e5fb6817e29e97b9a11a70659d05bdac26dcb1e17a84fe2.json",
+          "sha256": "c5174611914dd4ad2e5fb6817e29e97b9a11a70659d05bdac26dcb1e17a84fe2",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/30f7896634cc10926501f8738d2b244f02c6c736044fe9ebe183612ed8081af3.json",
+          "sha256": "30f7896634cc10926501f8738d2b244f02c6c736044fe9ebe183612ed8081af3",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/287b278b9d63df6c901126faa8a291afd9be6d17d29d0bbc4f6eb16153256dc4.json",
+          "sha256": "287b278b9d63df6c901126faa8a291afd9be6d17d29d0bbc4f6eb16153256dc4",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-614598631",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:2146091044"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:-274311054"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212.png",
+          "sha256": "11c7675e96b06050347380d8cc2b2003c4941d4edeaeba8986e7d0f154292212",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:2146091044",
+          "rgbaSha256": "857c89a93deb1d10e428a57ecddaec6420301ab44dbf3eca06812de8b3226159"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/c8dbfd7e226959e40126fd9f62e17940bbedda39ec0000f487859c5f1cdcc4e7.json",
+          "sha256": "c8dbfd7e226959e40126fd9f62e17940bbedda39ec0000f487859c5f1cdcc4e7",
+          "source": "cab-cards1:-274311054"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "닭",
+            "CardTextInHand": "<i>오, 닭이다!</i>"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "11"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "1"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "0"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "20"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"Mekka4t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Chicken</enUS>\n    <zhTW>雞</zhTW>\n    <zhCN>小鸡</zhCN>\n    <ruRU>Курица</ruRU>\n    <ptBR>Galinha</ptBR>\n    <plPL>Kurczak</plPL>\n    <koKR>닭</koKR>\n    <itIT>Gallina</itIT>\n    <frFR>Poulet</frFR>\n    <esMX>Pollo</esMX>\n    <esES>Pollo</esES>\n    <deDE>Huhn</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>\n    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>\n    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>\n    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>\n    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>\n    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>\n    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>\n    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>\n    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>\n    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>\n    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>\n    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>\n  </Tag>\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"0\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"20\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "444280839",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/Mekka4t/W12_a222_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/Mekka4t/Mekka4t_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:1003363402"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:920519711"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1084132351"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/05 Promo/Mekka4t/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

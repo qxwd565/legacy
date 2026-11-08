@@ -555,6 +555,1108 @@
           "source": "cab-premiummaterials0:1331468504"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b>하는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>大导师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Shan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <enGB>Shan'do's Lesson</enGB>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人。</zhTW>\n    <zhCN>召唤2个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt;하는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <enGB>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enGB>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/df32d27032253462cdc931898684457d607914a18f6fe5bbcbd7392c00ee6a3a.json",
+          "sha256": "df32d27032253462cdc931898684457d607914a18f6fe5bbcbd7392c00ee6a3a",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 2마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>大导师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人。</zhTW>\n    <zhCN>召唤2个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 2마리 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/659cd42128686a1f5b77ef92acbef20259b09206ec501b748e28b29b51db9337.json",
+          "sha256": "659cd42128686a1f5b77ef92acbef20259b09206ec501b748e28b29b51db9337",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 2마리 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>大导师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人。</zhTW>\n    <zhCN>召唤2个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 2마리 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/419f5fdcf3f770cfd7eb04b7405d737b3481694ef22afd2ea24951aebc3d4d1c.json",
+          "sha256": "419f5fdcf3f770cfd7eb04b7405d737b3481694ef22afd2ea24951aebc3d4d1c",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>恩师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>\n    <zhCN>召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/dc41814d6de1f2f9e6f4cdc715a62500232b57d6e4f320608b02eb766009e01b.json",
+          "sha256": "dc41814d6de1f2f9e6f4cdc715a62500232b57d6e4f320608b02eb766009e01b",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>恩师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>\n    <zhCN>召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/5faa6237dd8f40f16f5af3543a29fd03080c8b977777c35bf9c9aa7a7ae5f92c.json",
+          "sha256": "5faa6237dd8f40f16f5af3543a29fd03080c8b977777c35bf9c9aa7a7ae5f92c",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>恩师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>\n    <zhCN>召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/bea3306330cd7d7630b24ff70a9fd4db863b6f17cf5059efe809e3282f097487.json",
+          "sha256": "bea3306330cd7d7630b24ff70a9fd4db863b6f17cf5059efe809e3282f097487",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>恩师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>\n    <zhCN>召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "-2048174337",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards1:-826427888"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards1:1331468504"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f.png",
+          "sha256": "00fc2b0909cd22cd7dde857d18c986d9b5e8a1df54068b85e7fa66b5bbeef95f",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards1:-826427888",
+          "rgbaSha256": "f18623f287d0a216203b21a4d7c548b3f2e56dc5169022b5c240abc1a1042571"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/03e985f03d1205b5c838c1c091b2502226319f84a430c0250c46a6bf58bc84fa.json",
+          "sha256": "03e985f03d1205b5c838c1c091b2502226319f84a430c0250c46a6bf58bc84fa",
+          "source": "cab-cards1:1331468504"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "샨도의 가르침",
+            "CardTextInHand": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "5"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "2"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "7"
+            },
+            {
+              "name": "CardTextInHand",
+              "enumID": "184",
+              "type": "String"
+            },
+            {
+              "name": "EnchantmentBirthVisual",
+              "enumID": "330",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            },
+            {
+              "name": "EnchantmentIdleVisual",
+              "enumID": "331",
+              "type": "EnchantmentVisualType",
+              "value": "0"
+            }
+          ],
+          "powerDefinitions": [
+            {
+              "definition": "e66f1bb3-dec4-40cd-a851-cdc6fcb761e6"
+            }
+          ],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_573b\">\n  <MasterPower>e66f1bb3-dec4-40cd-a851-cdc6fcb761e6</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Shan'do's Lesson</enUS>\n    <frFR>Leçon de Shan’do</frFR>\n    <zhTW>尊師的教導</zhTW>\n    <zhCN>恩师的教诲</zhCN>\n    <ruRU>Урок Шан'до</ruRU>\n    <ptBR>Lição de Shan'do</ptBR>\n    <plPL>Lekcja Szan'do</plPL>\n    <koKR>샨도의 가르침</koKR>\n    <itIT>Lezione di Shan'do</itIT>\n    <esMX>Lección de Shan'do</esMX>\n    <esES>Lección del shan'do</esES>\n    <deDE>Lektion des Shan'do</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"2\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"7\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>\n    <frFR>Invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>\n    <zhTW>召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>\n    <zhCN>召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>\n    <ruRU>Призывает на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>\n    <ptBR>Evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>\n    <plPL>Przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>\n    <koKR>&lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>\n    <itIT>Evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>\n    <esMX>Invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>\n    <esES>Invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>\n    <deDE>Ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"e66f1bb3-dec4-40cd-a851-cdc6fcb761e6\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards1",
+          "pathId": "94314133",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_573b/W16_a032ABILITY_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_573b/EX1_573b_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards1:310778902"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards1:-919941252"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards1:-1900523687"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }

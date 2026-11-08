@@ -590,6 +590,1184 @@
           "source": "cab-premiummaterials0:1075448223"
         }
       }
+    ],
+    "betaObservations": [
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <enGB>Infernal</enGB>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+          "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+          "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards0",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards0:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards0:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards0:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards0:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards0:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd.png",
+          "sha256": "f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards0:1682810615",
+          "rgbaSha256": "c6d1fce4c3e02066af4a209d54f2649e9ff4e8f92d1938bad3ecf5ba60f0c37a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/96abb52f708fe00129f2590bd9b29b5926e1fc9e3ece8094d7ffdf65d20bbf9b.json",
+          "sha256": "96abb52f708fe00129f2590bd9b29b5926e1fc9e3ece8094d7ffdf65d20bbf9b",
+          "source": "cab-cards0:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+          "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd.png",
+          "sha256": "f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "c6d1fce4c3e02066af4a209d54f2649e9ff4e8f92d1938bad3ecf5ba60f0c37a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/906bfae24778f0d05d39429445046f7ecbe260d1d8f4e67cf200a247312b6e27.json",
+          "sha256": "906bfae24778f0d05d39429445046f7ecbe260d1d8f4e67cf200a247312b6e27",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.3937",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+          "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+          "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+          "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd.png",
+          "sha256": "f2b2d73bfabc581d21f90492fa505bb0a765587eebc694d832c0c4b7430059bd",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "c6d1fce4c3e02066af4a209d54f2649e9ff4e8f92d1938bad3ecf5ba60f0c37a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/65bdf68f6e7dfec9c2dffb154aa08b624bd14e55733a89165ff8a9451b30761a.json",
+          "sha256": "65bdf68f6e7dfec9c2dffb154aa08b624bd14e55733a89165ff8a9451b30761a",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be.png",
+          "sha256": "66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "f766cc8fc16c9ba068ddaa4c93435e17d732288b5cfaae3d25144aa02456758a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/f7d7f8c453dee36bd0c956937550bac8ab533a7255379b18067f38bbea59166c.json",
+          "sha256": "f7d7f8c453dee36bd0c956937550bac8ab533a7255379b18067f38bbea59166c",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.4243",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be.png",
+          "sha256": "66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "f766cc8fc16c9ba068ddaa4c93435e17d732288b5cfaae3d25144aa02456758a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/45b770dbbfcd4e0470ac6b89f7b6437fcd7b75fd650d517917764fa56ca28412.json",
+          "sha256": "45b770dbbfcd4e0470ac6b89f7b6437fcd7b75fd650d517917764fa56ca28412",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be.png",
+          "sha256": "66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "f766cc8fc16c9ba068ddaa4c93435e17d732288b5cfaae3d25144aa02456758a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/215502bc04085a8b460e4abd4cf6eddc66727dd63701cf31feaa74194fc5b686.json",
+          "sha256": "215502bc04085a8b460e4abd4cf6eddc66727dd63701cf31feaa74194fc5b686",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.4482",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+          "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+          "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+          "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "-20369699",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexture": {
+              "ref": "cab-cards2:1682810615"
+            },
+            "m_PremiumPortraitMaterial": {
+              "ref": "cab-cards2:1075448223"
+            },
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "extracted",
+          "path": "art/historical/textures/66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be.png",
+          "sha256": "66479e0c406e801b89720b37565eb39eeae85666a9f30b1a5266a5b2c54ef5be",
+          "width": 512,
+          "height": 512,
+          "source": "cab-cards2:1682810615",
+          "rgbaSha256": "f766cc8fc16c9ba068ddaa4c93435e17d732288b5cfaae3d25144aa02456758a"
+        },
+        "golden": {
+          "status": "extracted",
+          "path": "golden/historical/materials/b0871f055ade297890cd02a71f06e195b3c63b368ed4e0fedca0902dbdd393f1.json",
+          "sha256": "b0871f055ade297890cd02a71f06e195b3c63b368ed4e0fedca0902dbdd393f1",
+          "source": "cab-cards2:1075448223"
+        }
+      },
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "cardData": {
+          "localizedKoKR": {
+            "CardName": "지옥불정령"
+          },
+          "tags": [
+            {
+              "name": "CardName",
+              "enumID": "185",
+              "type": "String"
+            },
+            {
+              "name": "CardSet",
+              "enumID": "183",
+              "type": "CardSet",
+              "value": "3"
+            },
+            {
+              "name": "CardType",
+              "enumID": "202",
+              "type": "CardType",
+              "value": "4"
+            },
+            {
+              "name": "Faction",
+              "enumID": "201",
+              "type": "Faction",
+              "value": "3"
+            },
+            {
+              "name": "Rarity",
+              "enumID": "203",
+              "type": "Rarity",
+              "value": "1"
+            },
+            {
+              "name": "Atk",
+              "enumID": "47",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Health",
+              "enumID": "45",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "AttackVisualType",
+              "enumID": "251",
+              "type": "AttackVisualType",
+              "value": "1"
+            },
+            {
+              "name": "Race",
+              "enumID": "200",
+              "type": "Race",
+              "value": "15"
+            },
+            {
+              "name": "Cost",
+              "enumID": "48",
+              "type": "Number",
+              "value": "6"
+            },
+            {
+              "name": "Class",
+              "enumID": "199",
+              "type": "Class",
+              "value": "9"
+            }
+          ],
+          "powerDefinitions": [],
+          "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_tk34\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Infernal</enUS>\n    <frFR>Infernal</frFR>\n    <zhTW>煉獄火</zhTW>\n    <zhCN>地狱火</zhCN>\n    <ruRU>Инфернал</ruRU>\n    <ptBR>Infernal</ptBR>\n    <plPL>Infernal</plPL>\n    <koKR>지옥불정령</koKR>\n    <itIT>Infernale</itIT>\n    <esMX>Infernal</esMX>\n    <esES>Infernal</esES>\n    <deDE>Höllenbestie</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Faction\" enumID=\"201\" type=\"Faction\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"6\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"15\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"6\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"9\" />\n</Entity>"
+        },
+        "sourceBundleSha256": {
+          "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+          "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+          "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+          "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678"
+        },
+        "cardDefinition": {
+          "serializedFile": "CAB-cards2",
+          "pathId": "658724936",
+          "nativeFields": {
+            "m_Enabled": 1,
+            "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/EX1_tk34/W19_a198_D.psd",
+            "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/EX1_tk34/EX1_tk34_PremiumCard.mat",
+            "m_PremiumPortraitTexturePath": "",
+            "m_DeckCardBarPortrait": {
+              "ref": null
+            },
+            "m_EnchantmentPortrait": {
+              "ref": "cab-cards2:-988632236"
+            },
+            "m_HistoryTileHalfPortrait": {
+              "ref": "cab-cards2:-1437883248"
+            },
+            "m_HistoryTileFullPortrait": {
+              "ref": "cab-cards2:-51719045"
+            },
+            "m_CustomDeckPortrait": {
+              "ref": null
+            },
+            "m_DeckPickerPortrait": {
+              "ref": null
+            },
+            "m_PracticeAIPortrait": {
+              "ref": null
+            },
+            "m_DeckBoxPortrait": {
+              "ref": null
+            },
+            "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Play",
+            "m_BattlecrySpellPath": "",
+            "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Attack",
+            "m_SubOptionSpellPaths": [],
+            "m_TriggerSpellPaths": [],
+            "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/EX1_tk34/Death",
+            "m_LifetimeSpellPath": "",
+            "m_CustomSummonSpellPath": "",
+            "m_GoldenCustomSummonSpellPath": "",
+            "m_CustomSpawnSpellPath": "",
+            "m_GoldenCustomSpawnSpellPath": "",
+            "m_AnnouncerLinePath": "",
+            "m_CustomDeathSpellPath": "",
+            "m_GoldenCustomDeathSpellPath": "",
+            "m_EmoteDefs": []
+          }
+        },
+        "art": {
+          "status": "not referenced by source card definition"
+        },
+        "golden": {
+          "status": "not referenced by source card definition"
+        }
+      }
     ]
   }
 }
