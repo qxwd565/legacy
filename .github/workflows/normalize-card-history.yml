@@ -6,6 +6,9 @@ on:
       - 'tools/build-api.py'
       - 'tools/migrate-chronology.py'
       - 'tools/normalize-release-chronology.py'
+      - 'tools/import-archived-stats.py'
+      - 'tools/archived-build-dates.json'
+      - 'tools/legacy-balance-candidates.json'
       - 'tools/test-chronology.py'
       - 'tools/verified-legacy-balances.json'
       - 'tools/apply-verified-balances.py'
@@ -27,6 +30,8 @@ jobs:
         run: python3 tools/normalize-release-chronology.py
       - name: Apply independently verified Legacy balance history
         run: python3 tools/apply-verified-balances.py
+      - name: Import verified archived Legacy numeric changes
+        run: python3 tools/import-archived-stats.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Verify baseline, patches, current cache, and historical lookups
@@ -35,7 +40,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json history.json data
+          git add -- cards.json render.json history.json data tools/legacy-stat-reconstruction-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish card API indexes [skip ci]"
             git push
