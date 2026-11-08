@@ -498,5 +498,19 @@
         }
       ]
     }
+  },
+  "releaseCorrections": {
+    "EX1_187": {
+      "date": "2019-07-02",
+      "status": "estimated",
+      "obsoletePreReleaseFields": [
+        "races",
+        "race"
+      ],
+      "baselineFromCurrent": [
+        "races",
+        "race"
+      ]
+    }
   }
 }

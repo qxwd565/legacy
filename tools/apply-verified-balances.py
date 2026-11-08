@@ -47,6 +47,23 @@ def main():
         if (card.get("id") != cid or card.get("dbfId") != modern.get("dbfId")
                 or "history" in card or not isinstance(card.get("patches"), list)):
             raise ValueError(f"{cid}: not a canonical forward-history card")
+        correction = rules.get("releaseCorrections", {}).get(cid)
+        if correction:
+            day = correction["date"]
+            # These old taxonomy events existed only because this 2019 card
+            # was previously misidentified as an August 2013 release.
+            old_events = []
+            for item in card["patches"]:
+                if item["date"] < day:
+                    if (item["changes"].keys() <= set(correction["obsoletePreReleaseFields"])):
+                        continue
+                    raise ValueError(f"{cid}: unmatched pre-release patch {item}")
+                old_events.append(item)
+            card["patches"] = old_events
+            for field in correction.get("baselineFromCurrent", []):
+                card[field] = copy.deepcopy(modern[field])
+            card["releasedAt"] = day
+            card["releaseStatus"] = correction.get("status", "estimated")
         events = {event["date"]: copy.deepcopy(event) for event in card["patches"]}
         for field, original in rule.get("baseline", {}).items():
             if field not in fields:
