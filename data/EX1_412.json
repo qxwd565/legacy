@@ -104,7 +104,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2018-04-11",
         "changes": {
           "text": "<b>격노:</b> <b>질풍</b>, 공격력 +1"
         }
@@ -135,12 +135,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>격노:</b> <b>질풍</b>, 공격력 +1",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "흉포한 늑대인간",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "10.4.23576",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>격노:</b> <b>질풍</b>, 공격력 +1"
+    },
+    {
+      "build": "11.0.23966",
+      "platform": "iOS",
+      "name": "흉포한 늑대인간",
+      "rawText": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-04-11"
     }
   ]
 }

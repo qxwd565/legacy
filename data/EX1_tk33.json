@@ -73,13 +73,6 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2014-05-09",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>6/6 지옥불정령을 하나 소환합니다."
-        }
-      },
-      {
         "from": "2013-08-17",
         "before": "2013-12-11",
         "changes": {
@@ -91,6 +84,27 @@
         "before": "2014-05-09",
         "changes": {
           "text": "<b>영웅 능력</b> <br> 6/6 지옥불정령을 하나 소환합니다."
+        }
+      },
+      {
+        "from": "2014-05-09",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>영웅 능력</b><br>6/6 지옥불정령을 하나 소환합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2020-03-27",
+        "changes": {
+          "text": "<b>영웅 능력</b><br>6/6 지옥불정령을 소환합니다."
+        }
+      },
+      {
+        "from": "2020-03-27",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b><br>6/6 지옥불악마를 소환합니다."
         }
       }
     ]
@@ -119,7 +133,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>영웅 능력</b> \\n 6/6 지옥불정령을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "지옥불!",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -130,14 +150,59 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>영웅 능력</b> \\n 6/6 지옥불정령을 하나 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "지옥불!",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0",
+      "displayFromKst": "2013-12-11"
     },
     {
       "build": "1.0.5361",
       "platform": "iOS",
       "rawText": "<b>영웅 능력</b>\\n6/6 지옥불정령을 하나 소환합니다.",
       "matchingWindowsBuild": "1.0.0.5314",
-      "windowsPatchAppliedKo": "2014-05-09"
+      "windowsPatchAppliedKo": "2014-05-09",
+      "name": "지옥불!",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2014-05-09"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "지옥불!",
+      "rawText": "<b>영웅 능력</b>\n6/6 지옥불정령을 하나 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "지옥불!",
+      "rawText": "<b>영웅 능력</b>\n6/6 지옥불정령을 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2018-10-03"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "지옥불!",
+      "rawText": "<b>영웅 능력</b>\n6/6 지옥불악마를 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ],
   "historicalTokenSources": {

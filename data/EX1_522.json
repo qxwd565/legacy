@@ -111,9 +111,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2017-03-01",
         "changes": {
           "text": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 죽습니다."
+        }
+      },
+      {
+        "from": "2017-03-01",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>은신</b><br><b>독성</b>"
         }
       }
     ]
@@ -142,7 +149,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "침착한 암살자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -153,7 +166,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "침착한 암살자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "7.0.15590",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "7.1.17720",
+      "platform": "iOS",
+      "name": "침착한 암살자",
+      "rawText": "<b>은신</b>\n<b>독성</b>",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-03-01"
     }
   ]
 }

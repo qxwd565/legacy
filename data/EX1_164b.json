@@ -81,14 +81,15 @@
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "육성",
           "text": "카드를 세 장 뽑습니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-03-12",
+        "before": "2019-04-05",
         "changes": {
-          "text": "카드를 3장 뽑습니다."
+          "name": "육성"
         }
       }
     ]
@@ -117,7 +118,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "카드를 세 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "육성",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -128,7 +135,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "카드를 3장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "육성",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "13.4.29349",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "14.0.29961",
+      "platform": "iOS",
+      "name": "풍요로움",
+      "rawText": "카드를 3장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-04-05"
     }
   ],
   "historicalTokenSources": {

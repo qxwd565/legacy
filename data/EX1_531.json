@@ -102,15 +102,8 @@
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
-        }
-      },
-      {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다."
         }
@@ -141,7 +134,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "야수가 죽을 때마다 +2/+1을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "청소부 하이에나",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -152,13 +151,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "청소부 하이에나",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "청소부 하이에나",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "청소부 하이에나",
+      "rawText": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-04-25"
     }
   ]
 }

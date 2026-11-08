@@ -98,14 +98,8 @@
         "from": "2013-08-17",
         "before": "2013-12-11",
         "changes": {
+          "name": "풀려남",
           "text": "공격력 +1, <b>돌진</b>"
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>돌진</b>"
         }
       }
     ]
@@ -134,7 +128,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "공격력 +1, <b>돌진</b>",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "풀려남",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,7 +145,13 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>돌진</b>",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "사냥개",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-12-11"
     }
   ],
   "historicalTokenSources": {

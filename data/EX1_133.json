@@ -109,9 +109,23 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 대신 피해를 2 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>피해를 1 줍니다.<br><b>연계:</b> 대신 피해를<br>2 줍니다."
         }
       }
     ]
@@ -140,12 +154,40 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "전멸의 비수",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다."
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "전멸의 비수",
+      "rawText": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 대신 피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "전멸의 비수",
+      "rawText": "<b>전투의 함성:</b>\n피해를 1 줍니다.\n<b>연계:</b> 대신 피해를\n2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

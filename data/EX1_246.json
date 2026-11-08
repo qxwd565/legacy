@@ -111,7 +111,7 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
         }
@@ -121,6 +121,13 @@
         "before": "2023-04-05",
         "changes": {
           "cost": 4
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]하수인을 <b>도발</b> 능력이<br>있는 0/1 개구리로<br>변신시킵니다."
         }
       }
     ],
@@ -151,7 +158,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "사술",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -162,13 +175,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "하수인을 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "사술",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "사술",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "사술",
+      "rawText": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

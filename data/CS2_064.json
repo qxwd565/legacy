@@ -108,23 +108,40 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2013-08-17",
+        "changes": {
+          "name": "공포의 지옥불정령"
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "공포의 지옥불정령",
           "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해를 1 줍니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
+          "name": "공포의 지옥불정령",
           "text": "<b>전투의 함성:</b> 다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
         }
       },
       {
-        "before": "2020-03-26",
+        "from": "2016-08-10",
+        "before": "2020-03-27",
         "changes": {
-          "name": "공포의 지옥불정령"
+          "name": "공포의 지옥불정령",
+          "text": "<b>전투의 함성:</b><br>다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
+        }
+      },
+      {
+        "from": "2020-03-27",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다."
         }
       }
     ],
@@ -155,7 +172,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해를 1 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "공포의 지옥불정령",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -166,7 +189,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "공포의 지옥불정령",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "공포의 지옥불정령",
+      "rawText": "<b>전투의 함성:</b>\n다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "공포의 지옥불악마",
+      "rawText": "<b>전투의 함성:</b>\n다른 <b>모든</b> 캐릭터에게 피해를 1 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

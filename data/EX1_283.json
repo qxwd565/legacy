@@ -130,9 +130,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 캐릭터 하나를 <b>빙결</b> 상태로 만듭니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>캐릭터 하나를 <b>빙결</b> 상태로 만듭니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>캐릭터를 <b>빙결</b><br>상태로 만듭니다."
         }
       }
     ]
@@ -161,7 +175,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 캐릭터를 <b>얼어붙음</b> 상태로 만듭니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "냉기 정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -172,13 +192,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 캐릭터를 <b>빙결</b> 상태로 만듭니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "냉기 정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 캐릭터 하나를 <b>빙결</b> 상태로 만듭니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "냉기 정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "냉기 정령",
+      "rawText": "<b>전투의 함성:</b>\n캐릭터 하나를 <b>빙결</b> 상태로 만듭니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "냉기 정령",
+      "rawText": "<b>전투의 함성:</b>\n캐릭터를 <b>빙결</b>\n상태로 만듭니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

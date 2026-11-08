@@ -103,9 +103,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 무기의 공격력만큼 공격력을 얻습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b><br>내 무기의 공격력만큼<br>공격력을 얻습니다."
         }
       }
     ]
@@ -134,7 +141,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "붉은해적단 약탈자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,7 +158,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 내 무기의 공격력만큼 공격력을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "붉은해적단 약탈자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "붉은해적단 약탈자",
+      "rawText": "[x]<b>전투의 함성:</b>\n내 무기의 공격력만큼\n공격력을 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

@@ -111,9 +111,30 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "<b>도발</b>. <b>과부하:</b> (3)"
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2017-08-09",
+        "changes": {
+          "text": "<b>도발</b><br><b>과부하:</b> (3)"
+        }
+      },
+      {
+        "from": "2017-08-09",
+        "before": "2017-12-07",
+        "changes": {
+          "text": "<b>도발</b><br><b>과부하</b>: (3)"
+        }
+      },
+      {
+        "from": "2017-12-07",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b><br><b>과부하:</b> (3)"
         }
       }
     ]
@@ -142,12 +163,51 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>과부하:</b> (3)",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "대지의 정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>과부하:</b> (3)"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "대지의 정령",
+      "rawText": "<b>도발</b>\n<b>과부하:</b> (3)",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.4.20022",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "9.0.20374",
+      "platform": "iOS",
+      "name": "대지의 정령",
+      "rawText": "<b>도발</b>\n<b>과부하</b>: (3)",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "9.4.22115",
+      "displayFromKst": "2017-08-09"
+    },
+    {
+      "build": "10.0.22583",
+      "platform": "iOS",
+      "name": "대지의 정령",
+      "rawText": "<b>도발</b>\n<b>과부하:</b> (3)",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-12-07"
     }
   ]
 }

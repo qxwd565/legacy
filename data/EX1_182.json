@@ -75,7 +75,24 @@
     "nativeRawText": "다른 직업의 무작위 카드를 내 손으로 가져옵니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2018-11-06",
+        "before": "2019-07-02",
+        "changes": {
+          "name": "슬쩍",
+          "text": "[x]<i>상대편 직업</i>의 무작위<br>카드를 내 손으로<br>가져옵니다."
+        }
+      },
+      {
+        "from": "2019-07-02",
+        "before": "2021-03-26",
+        "changes": {
+          "name": "슬쩍"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
@@ -95,5 +112,29 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "12.4.27405",
+      "platform": "iOS",
+      "name": "슬쩍",
+      "rawText": "[x]<i>상대편 직업</i>의 무작위\n카드를 내 손으로\n가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "14.4.31353",
+      "displayFromKst": "2018-11-06"
+    },
+    {
+      "build": "14.6.31761",
+      "platform": "iOS",
+      "name": "슬쩍",
+      "rawText": "다른 직업의 무작위 카드를 내 손으로 가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-07-02"
+    }
+  ]
 }

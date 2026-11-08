@@ -106,9 +106,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2017-07-11",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다."
+        }
+      },
+      {
+        "from": "2017-07-11",
+        "before": "2017-08-09",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다."
         }
       }
     ]
@@ -137,7 +144,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 당신의 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "얼음 방패",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -148,7 +161,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "얼음 방패",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.2.19632",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "8.4.20022",
+      "platform": "iOS",
+      "name": "얼음 방패",
+      "rawText": "<b>비밀:</b> 내 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.4.20022",
+      "displayFromKst": "2017-07-11"
+    },
+    {
+      "build": "9.0.20374",
+      "platform": "iOS",
+      "name": "얼음 방패",
+      "rawText": "<b>비밀:</b> 내 영웅이 치명적인 피해를 받으면, 피해를 막고 이번 턴에 <b>면역</b> 상태가 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-08-09"
     }
   ]
 }

@@ -93,13 +93,6 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-08-17",
-        "before": "2013-10-03",
-        "changes": {
-          "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
-        }
-      },
-      {
         "from": "2013-10-03",
         "before": "2013-12-11",
         "changes": {
@@ -107,10 +100,10 @@
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
+        "from": "2015-04-01",
+        "before": "2015-08-19",
         "changes": {
-          "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
+          "text": "무작위로 선택된 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
         }
       }
     ]
@@ -139,7 +132,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "갈래 번개",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -150,13 +149,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 2마리에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "갈래 번개",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "갈래 번개",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "갈래 번개",
+      "rawText": "무작위로 선택된 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "갈래 번개",
+      "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ]
 }

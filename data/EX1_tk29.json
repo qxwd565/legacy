@@ -87,7 +87,8 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": []
   },
   "root": false,
   "relatedIds": [],
@@ -2137,5 +2138,18 @@
         "northAmericaPatchDateKst": "2014-03-12"
       }
     ]
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "name": "데빌사우루스",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
+    }
+  ]
 }

@@ -109,7 +109,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2021-03-26",
         "changes": {
           "text": "<b>연계:</b> 피해를 2 줍니다."
         }
@@ -140,7 +140,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>연계:</b> 피해를 2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "SI:7 요원",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

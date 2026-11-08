@@ -96,7 +96,7 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 처치합니다."
         }
@@ -127,7 +127,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 파괴합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "나무정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -138,7 +144,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 처치합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "나무정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "나무정령",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-04-25"
     }
   ]
 }

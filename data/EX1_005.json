@@ -96,6 +96,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2016-04-25",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -111,15 +117,9 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다."
-        }
-      },
-      {
-        "before": "2016-04-25",
-        "changes": {
-          "cost": 3
         }
       },
       {
@@ -127,6 +127,20 @@
         "before": "2021-03-26",
         "changes": {
           "cost": 5
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 공격력이<br>7 이상인 하수인을<br>하나 처치합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>공격력이 7 이상인<br>하수인을 처치합니다."
         }
       }
     ],
@@ -157,7 +171,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 파괴합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "나 이런 사냥꾼이야",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -168,13 +188,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 1마리 처치합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "나 이런 사냥꾼이야",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 처치합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "나 이런 사냥꾼이야",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "나 이런 사냥꾼이야",
+      "rawText": "[x]<b>전투의 함성:</b> 공격력이\n7 이상인 하수인을\n하나 처치합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "나 이런 사냥꾼이야",
+      "rawText": "<b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

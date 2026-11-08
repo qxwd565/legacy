@@ -108,6 +108,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2016-04-25",
+        "changes": {
+          "cost": 2
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-12-11",
         "changes": {
@@ -116,15 +122,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인을 하나 <b>침묵</b>시킵니다."
         }
       },
       {
-        "before": "2016-04-25",
+        "from": "2015-08-19",
+        "before": "2018-04-11",
         "changes": {
-          "cost": 2
+          "text": "<b>전투의 함성:</b> 하수인 하나를 <b>침묵</b>시킵니다."
+        }
+      },
+      {
+        "from": "2018-04-11",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의_함성:</b> 하수인 하나를 <b>침묵</b>시킵니다."
         }
       }
     ],
@@ -155,7 +169,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "무쇠부리 올빼미",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -166,7 +186,46 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인을 하나 <b>침묵</b>시킵니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "무쇠부리 올빼미",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "무쇠부리 올빼미",
+      "rawText": "<b>전투의 함성:</b> 하수인 하나를 <b>침묵</b>시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "10.4.23576",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "11.0.23966",
+      "platform": "iOS",
+      "name": "무쇠부리 올빼미",
+      "rawText": "<b>전투의_함성:</b> 하수인 하나를 <b>침묵</b>시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2018-04-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "무쇠부리 올빼미",
+      "rawText": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

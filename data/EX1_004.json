@@ -96,9 +96,30 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 생명력을 +1 부여합니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 생명력을 +1 부여합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때,<br>다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
         }
       }
     ]
@@ -127,7 +148,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "젊은 여사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -138,7 +165,46 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "젊은 여사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "젊은 여사제",
+      "rawText": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 생명력을 +1 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "젊은 여사제",
+      "rawText": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 생명력을 +1 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "젊은 여사제",
+      "rawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

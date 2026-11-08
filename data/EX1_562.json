@@ -123,9 +123,30 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-07-13",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다."
+        }
+      },
+      {
+        "from": "2016-07-13",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 내 하수인을 소환할<br>공간이 다 찰 때까지 1/1<br>새끼용을 소환합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2017-12-07",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다."
+        }
+      },
+      {
+        "from": "2017-12-07",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 내 전장을 1/1 새끼용으로<br>가득 채웁니다."
         }
       }
     ]
@@ -154,7 +175,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "오닉시아",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -165,7 +192,46 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "오닉시아",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "오닉시아",
+      "rawText": "[x]<b>전투의 함성:</b> 내 하수인을 소환할\n공간이 다 찰 때까지 1/1\n새끼용을 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "오닉시아",
+      "rawText": "<b>전투의 함성:</b> 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "9.4.22115",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "10.0.22583",
+      "platform": "iOS",
+      "name": "오닉시아",
+      "rawText": "<b>전투의 함성:</b> 내 전장을 1/1 새끼용으로\n가득 채웁니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-12-07"
     }
   ]
 }

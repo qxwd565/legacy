@@ -91,13 +91,6 @@
     "nativeTextBuilder": 0,
     "history": [
       {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "피해를 $10 줍니다."
-        }
-      },
-      {
         "before": "2014-01-17",
         "changes": {
           "cost": 8
@@ -131,7 +124,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "피해를 $10 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "불덩이 작렬",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

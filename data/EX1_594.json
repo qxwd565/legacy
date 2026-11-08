@@ -96,14 +96,22 @@
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "기화",
           "text": "<b>비밀:</b> 하수인이 당신의 영웅을 공격하면, 그 하수인을 파괴합니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>비밀:</b> 하수인이 내 영웅을 공격하면, 그 하수인을 처치합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>비밀:</b> 하수인이<br>내 영웅을 공격하면,<br>그 하수인을 처치합니다."
         }
       }
     ]
@@ -132,7 +140,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 하수인이 당신의 영웅을 공격하면, 그 하수인을 파괴합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "기화",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +157,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 하수인이 내 영웅을 공격하면, 그 하수인을 처치합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "증발시키기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "증발시키기",
+      "rawText": "[x]<b>비밀:</b> 하수인이\n내 영웅을 공격하면,\n그 하수인을 처치합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

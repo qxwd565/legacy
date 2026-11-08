@@ -111,6 +111,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2023-09-29",
+        "changes": {
+          "cost": 9
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -119,15 +125,9 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2021-03-26",
         "changes": {
           "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다."
-        }
-      },
-      {
-        "before": "2023-09-29",
-        "changes": {
-          "cost": 9
         }
       }
     ],
@@ -202,7 +202,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "군주 자락서스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -213,7 +219,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "군주 자락서스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

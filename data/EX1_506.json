@@ -125,17 +125,17 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
+        "from": "2013-12-11",
+        "before": "2016-08-10",
         "changes": {
-          "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다."
+          "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 1마리 소환합니다."
         }
       },
       {
-        "from": "2013-12-11",
-        "before": "2014-07-23",
+        "from": "2016-08-10",
+        "before": "2018-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 1마리 소환합니다."
+          "text": "[x]<b>전투의 함성:</b><br>1/1 멀록 정찰병을<br>1마리 소환합니다."
         }
       }
     ]
@@ -166,7 +166,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "멀록 바다사냥꾼",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -177,7 +183,35 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 1마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "멀록 바다사냥꾼",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "멀록 바다사냥꾼",
+      "rawText": "[x]<b>전투의 함성:</b>\n1/1 멀록 정찰병을\n1마리 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "멀록 바다사냥꾼",
+      "rawText": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

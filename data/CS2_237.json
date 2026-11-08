@@ -110,9 +110,37 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2017-12-07",
+        "changes": {
+          "text": "[x]내가 야수를 소환할 때마다<br> 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2017-12-07",
+        "before": "2018-04-11",
+        "changes": {
+          "text": "[x]내가 야수를 소환할 때마다<br>카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2018-04-11",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다."
         }
       }
     ]
@@ -141,7 +169,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신이 야수를 소환할 때마다 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "굶주린 대머리수리",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -152,13 +186,80 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "굶주린 대머리수리",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "굶주린 대머리수리",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "굶주린 대머리수리",
+      "rawText": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "굶주린 대머리수리",
+      "rawText": "[x]내가 야수를 소환할 때마다\n 카드를 1장 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "9.4.22115",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "10.0.22583",
+      "platform": "iOS",
+      "name": "굶주린 대머리수리",
+      "rawText": "[x]내가 야수를 소환할 때마다\n카드를 1장 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "10.4.23576",
+      "displayFromKst": "2017-12-07"
+    },
+    {
+      "build": "11.0.23966",
+      "platform": "iOS",
+      "name": "굶주린 대머리수리",
+      "rawText": "내가 야수를 소환할 때마다 카드를 1장 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2018-04-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "굶주린 대머리수리",
+      "rawText": "내가 야수를 소환할 때마다 카드를 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

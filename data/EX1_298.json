@@ -118,6 +118,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2014-12-04",
+        "changes": {
+          "legacyArt": true
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -133,15 +139,37 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다."
         }
       },
       {
-        "before": "2014-12-04",
+        "from": "2015-04-01",
+        "before": "2015-08-19",
         "changes": {
-          "legacyArt": true
+          "text": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위로 선택된 적 하나에게 피해를 8 줍니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때, 무작위 적 하나에게 피해를 8 줍니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2020-03-27",
+        "changes": {
+          "text": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때, 무작위 적에게 피해를 8 줍니다."
+        }
+      },
+      {
+        "from": "2020-03-27",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "공격할 수 없습니다.<br>내 턴이 끝날 때,<br>무작위 적에게<br>피해를 8 줍니다."
         }
       }
     ],
@@ -172,7 +200,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이 하수인은 공격할 수 없습니다. 당신의 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "불의 군주 라그나로스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -183,13 +217,71 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "이 하수인은 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "불의 군주 라그나로스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위 적에게 피해를 8 줍니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "불의 군주 라그나로스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "불의 군주 라그나로스",
+      "rawText": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때 무작위로 선택된 적 하나에게 피해를 8 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "불의 군주 라그나로스",
+      "rawText": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때, 무작위 적 하나에게 피해를 8 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "불의 군주 라그나로스",
+      "rawText": "이 하수인은 적을 공격할 수 없습니다. 내 턴이 끝날 때, 무작위 적에게 피해를 8 줍니다.",
+      "sets": [
+        3,
+        4
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2018-10-03"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "불의 군주 라그나로스",
+      "rawText": "공격할 수 없습니다.\n내 턴이 끝날 때,\n무작위 적에게\n피해를 8 줍니다.",
+      "sets": [
+        3,
+        4
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

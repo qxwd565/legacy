@@ -95,13 +95,6 @@
         }
       },
       {
-        "from": "2014-05-09",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "하수인 하나에게 \"죽음의 메아리: 이 하수인을 다시 소환합니다.\" 능력을 부여합니다."
-        }
-      },
-      {
         "from": "2013-10-03",
         "before": "2013-12-11",
         "changes": {
@@ -113,6 +106,27 @@
         "before": "2014-05-09",
         "changes": {
           "text": "하수인 하나를 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다."
+        }
+      },
+      {
+        "from": "2014-05-09",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "하수인 하나에게 \"죽음의 메아리: 이 하수인을 다시 소환합니다.\" 능력을 부여합니다."
+        }
+      },
+      {
+        "from": "2014-07-23",
+        "before": "2015-12-05",
+        "changes": {
+          "text": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환합니다.\" 능력을 부여합니다."
+        }
+      },
+      {
+        "from": "2015-12-05",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다."
         }
       }
     ]
@@ -141,7 +155,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "고대의 영혼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -152,20 +172,71 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "하수인을 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "고대의 영혼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "하수인 하나를 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "고대의 영혼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0",
+      "displayFromKst": "2013-12-11"
     },
     {
       "build": "1.0.5361",
       "platform": "iOS",
       "rawText": "하수인 하나에게 \"죽음의 메아리: 이 하수인을 다시 소환합니다.\" 능력을 부여합니다.",
       "matchingWindowsBuild": "1.0.0.5314",
-      "windowsPatchAppliedKo": "2014-05-09"
+      "windowsPatchAppliedKo": "2014-05-09",
+      "name": "고대의 영혼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.5834",
+      "displayFromKst": "2014-05-09"
+    },
+    {
+      "build": "1.1.6069",
+      "platform": "iOS",
+      "name": "고대의 영혼",
+      "rawText": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환합니다.\" 능력을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.0.10833",
+      "displayFromKst": "2014-07-23"
+    },
+    {
+      "build": "4.1.10956",
+      "platform": "iOS",
+      "name": "고대의 영혼",
+      "rawText": "하수인 하나에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2015-12-05"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "고대의 영혼",
+      "rawText": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

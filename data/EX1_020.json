@@ -96,15 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>천상의 보호막</b>"
-        }
-      }
-    ]
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -130,7 +122,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>천상의 보호막</b>",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "붉은십자군 성전사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

@@ -96,9 +96,16 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>상대편의 무기 내구도를 1 감소시킵니다."
         }
       }
     ]
@@ -127,12 +134,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "붉은해적단 바다사냥꾼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다."
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "붉은해적단 바다사냥꾼",
+      "rawText": "<b>전투의 함성:</b>\n상대편의 무기 내구도를 1 감소시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

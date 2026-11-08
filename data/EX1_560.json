@@ -106,7 +106,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2017-04-05",
         "changes": {
           "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다. "
         }
@@ -137,12 +137,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "플레이어들의 턴 제한 시간이 15초로 감소합니다. ",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "노즈도르무",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "7.1.18015",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "플레이어들의 턴 제한 시간이 15초로 감소합니다. "
+    },
+    {
+      "build": "8.0.18336",
+      "platform": "iOS",
+      "name": "노즈도르무",
+      "rawText": "플레이어들의 턴 제한 시간이 15초로 감소합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-04-05"
     }
   ]
 }

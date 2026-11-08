@@ -100,6 +100,13 @@
         }
       },
       {
+        "from": "2013-10-03",
+        "before": "2014-05-09",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅이 공격받으면 방어도를 +8 얻습니다."
+        }
+      },
+      {
         "from": "2014-05-09",
         "before": "2014-07-23",
         "changes": {
@@ -107,8 +114,8 @@
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2014-05-09",
+        "from": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅이 공격받으면 방어도를 +8 얻습니다."
         }
@@ -139,7 +146,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 당신의 영웅이 공격받으면 방어도를 8 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "얼음 보호막",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -150,14 +163,48 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 영웅이 공격받으면 방어도를 +8 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "얼음 보호막",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.5361",
       "platform": "iOS",
       "rawText": "<b>비밀:</b> 내 영웅이 공격받은 직후, 방어도를 +8 얻습니다.",
       "matchingWindowsBuild": "1.0.0.5314",
-      "windowsPatchAppliedKo": "2014-05-09"
+      "windowsPatchAppliedKo": "2014-05-09",
+      "name": "얼음 보호막",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.5834",
+      "displayFromKst": "2014-05-09"
+    },
+    {
+      "build": "1.1.6069",
+      "platform": "iOS",
+      "name": "얼음 보호막",
+      "rawText": "<b>비밀:</b> 내 영웅이 공격받으면 방어도를 +8 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2014-07-23"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "얼음 보호막",
+      "rawText": "<b>비밀:</b> 내 영웅이 공격받으면, 방어도를 +8 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ]
 }

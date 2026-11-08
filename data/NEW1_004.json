@@ -74,7 +74,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "모든 하수인을 주인의 손으로 돌려보냅니다."
         }
@@ -105,12 +105,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 하수인을 주인의 손으로 돌려보냅니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "소멸",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "모든 하수인을 주인의 손으로 돌려보냅니다."
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "소멸",
+      "rawText": "<b>모든</b> 하수인을 주인의 손으로 돌려보냅니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ]
 }

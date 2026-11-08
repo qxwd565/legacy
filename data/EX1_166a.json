@@ -74,9 +74,9 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-03-12",
+        "before": "2014-10-30",
         "changes": {
-          "text": "피해를 2 줍니다."
+          "name": "달빛 섬광"
         }
       }
     ]
@@ -105,12 +105,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "피해를 2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "달빛 섬광",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.2.6485",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "피해를 2 줍니다."
+    },
+    {
+      "build": "1.3.6898",
+      "platform": "iOS",
+      "name": "달빛섬광",
+      "rawText": "피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2014-10-30"
     }
   ],
   "historicalTokenSources": {

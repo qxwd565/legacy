@@ -98,9 +98,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-11-30",
         "changes": {
           "text": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
         }
       }
     ]
@@ -133,7 +140,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "야생의 힘",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -144,13 +157,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "야생의 힘",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "야생의 힘",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "야생의 힘",
+      "rawText": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "야생의 힘",
+      "rawText": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

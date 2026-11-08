@@ -89,7 +89,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2021-03-26",
         "changes": {
           "text": "생명력을 #6 회복시킵니다."
         }
@@ -120,7 +120,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "생명력을 #6 회복시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "성스러운 빛",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

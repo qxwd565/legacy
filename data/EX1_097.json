@@ -118,9 +118,23 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "<b>도발</b>. <b>죽음의 메아리:</b><br><b>모든</b> 캐릭터에게 피해를 2 줍니다."
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>도발</b><br><b>죽음의 메아리:</b><br><b>모든</b> 캐릭터에게 피해를 2 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b><br><b>죽음의 메아리:</b><br><b>모든</b> 캐릭터에게<br>피해를 2 줍니다."
         }
       }
     ]
@@ -149,7 +163,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>죽음의 신음:</b> 모든 캐릭터에게 피해를 2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "누더기골렘",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -160,7 +180,46 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>죽음의 메아리:</b>\\n<b>모든</b> 캐릭터에게 피해를 2 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "누더기골렘",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "누더기골렘",
+      "rawText": "<b>도발</b>. <b>죽음의 메아리:</b>\n<b>모든</b> 캐릭터에게 피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "누더기골렘",
+      "rawText": "<b>도발</b>\n<b>죽음의 메아리:</b>\n<b>모든</b> 캐릭터에게 피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "누더기골렘",
+      "rawText": "<b>도발</b>\n<b>죽음의 메아리:</b>\n<b>모든</b> 캐릭터에게\n피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

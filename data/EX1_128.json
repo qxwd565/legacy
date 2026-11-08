@@ -96,6 +96,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2013-10-03",
+        "changes": {
+          "cost": 0
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -104,15 +110,9 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다."
-        }
-      },
-      {
-        "before": "2013-10-03",
-        "changes": {
-          "cost": 0
         }
       }
     ],
@@ -143,7 +143,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "은폐",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -154,7 +160,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "나의 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "은폐",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "은폐",
+      "rawText": "내 다음 턴까지 아군 하수인들에게 <b>은신</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

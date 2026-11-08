@@ -101,16 +101,23 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2019-07-01",
+        "changes": {
+          "legacyArt": true
+        }
+      },
+      {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
         }
       },
       {
-        "before": "2019-07-01",
+        "from": "2016-08-10",
+        "before": "2021-03-26",
         "changes": {
-          "legacyArt": true
+          "text": "각 플레이어가 <b>비밀</b>을<br>낼 때마다 +1/+1을 얻습니다."
         }
       }
     ],
@@ -141,12 +148,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "비밀지기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "비밀지기",
+      "rawText": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

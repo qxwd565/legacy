@@ -110,10 +110,10 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
+        "from": "2015-06-16",
+        "before": "2016-04-25",
         "changes": {
-          "text": "하수인이 죽을 때마다 공격력을 +1 얻습니다."
+          "text": "하수인 하나가 죽을 때마다 공격력을 +1 얻습니다."
         }
       }
     ]
@@ -142,12 +142,40 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "하수인이 죽을 때마다 공격력을 +1 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "굶주린 식인 구울",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.6.8834",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "하수인이 죽을 때마다 공격력을 +1 얻습니다."
+    },
+    {
+      "build": "2.7.9166",
+      "platform": "iOS",
+      "name": "굶주린 식인 구울",
+      "rawText": "하수인 하나가 죽을 때마다 공격력을 +1 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2015-06-16"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "굶주린 식인 구울",
+      "rawText": "하수인이 죽을 때마다 공격력을 +1 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-04-25"
     }
   ]
 }

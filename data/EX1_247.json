@@ -96,15 +96,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>과부하:</b> (1)"
-        }
-      }
-    ]
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -130,7 +122,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>과부하:</b> (1)",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "폭풍으로 벼려낸 도끼",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

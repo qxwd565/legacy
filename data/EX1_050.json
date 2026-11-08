@@ -113,9 +113,23 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 모든 플레이어가 카드를 2장 뽑습니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 각 플레이어가 카드를 2장씩 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>각 플레이어가 카드를 2장씩 뽑습니다."
         }
       }
     ]
@@ -144,7 +158,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 모든 플레이어가 카드를 두 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "시린빛 점쟁이",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,7 +175,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 모든 플레이어가 카드를 2장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "시린빛 점쟁이",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "시린빛 점쟁이",
+      "rawText": "<b>전투의 함성:</b> 각 플레이어가 카드를 2장씩 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "시린빛 점쟁이",
+      "rawText": "<b>전투의 함성:</b>\n각 플레이어가 카드를 2장씩 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

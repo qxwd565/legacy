@@ -42,7 +42,7 @@ def publish(path: Path, value):
         rendered = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
     if path.exists() and path.read_text(encoding="utf-8") == rendered:
         return False
-    path.write_text(rendered, encoding="utf-8")
+    path.write_text(rendered, encoding="utf-8", newline="\n")
     return True
 
 
@@ -62,6 +62,24 @@ def read_history(card: dict, name: str):
         if all(k in rev for k in ("from", "before")) and rev["from"] >= rev["before"]:
             raise ValueError(f"{name}: invalid history interval")
     return versions
+
+
+def read_catalog_source(path: Path, record: dict):
+    if not path.is_file():
+        return None
+    data = load(path)
+    card = data.get("card") if isinstance(data, dict) else None
+    cid = record["id"]
+    if not isinstance(card, dict) or card.get("id") != cid:
+        raise ValueError(f"{cid}: source card ID mismatch")
+    # A separately archived native token is not an asserted DBF mapping. Keep
+    # the approved current catalog, but never attach its archived history to
+    # a numeric ID or manufacture a DBF ID in the source document.
+    if card.get("dbfId") is None and data.get("apiAvailability", "").startswith("standalone historical source;"):
+        return None
+    if card.get("dbfId") != record.get("dbfId"):
+        raise ValueError(f"{cid}: source card ID mismatch")
+    return data
 
 
 
@@ -113,16 +131,15 @@ def main():
             raise ValueError(f"Duplicate card ID {cid}")
         seen.add(cid)
         path = detailed / (cid + ".json")
-        if not path.is_file():
+        data = read_catalog_source(path, record)
+        revisions = []
+        if data is None:
             if record.get("history"):
                 raise ValueError(f"{cid}: historical data requires {path.name}")
             # Preserve cards that have no detailed source yet.
             record.pop("history", None)
         else:
-            data = load(path)
-            card = data.get("card") if isinstance(data, dict) else None
-            if not isinstance(card, dict) or card.get("id") != cid or card.get("dbfId") != record.get("dbfId"):
-                raise ValueError(f"{cid}: source card ID mismatch")
+            card = data["card"]
             # Preserve the approved current card catalogue exactly. Individual
             # JSON owns historical changes only until current data is reconciled.
             revisions = read_history(card, cid)
@@ -135,7 +152,7 @@ def main():
         render_card = {field: record[field] for field in RENDER_FIELDS if field in record}
         # A single runtime endpoint: the current card and its sparse dated
         # differences are delivered together. Absence of history means current.
-        if path.is_file() and revisions:
+        if data is not None and revisions:
             render_card["history"] = revisions
         if release_policy is not None:
             release_date, release_status = release_for_card(record, release_policy)
@@ -145,7 +162,7 @@ def main():
             # Consumers must not hide cards based on an estimated release date.
             render_card["releaseStatus"] = release_status
             release_counts[release_status] += 1
-            if path.is_file():
+            if data is not None:
                 card["releasedAt"] = release_date
                 card["releaseStatus"] = release_status
                 if publish(path, data):

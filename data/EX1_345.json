@@ -103,9 +103,44 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "상대편의 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "상대편 덱에서 무작위로 선택된 하수인 하나를 복사하여 내 전장에 놓습니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "상대편 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "[x]상대편 덱에서 무작위<br>하수인 하나를 복사하여<br>내 전장에 놓습니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]상대편의 덱에서 무작위<br>하수인 하나를 복사하여<br>내 전장에 놓습니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2019-09-11",
+        "changes": {
+          "text": "[x]상대편의 덱에서 무작위<br>하수인을 복사하여<br>내 전장에 놓습니다."
         }
       }
     ]
@@ -136,7 +171,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "상대편의 덱에서 무작위 하수인을 복사하여 당신의 전장에 놓습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "심리 조작",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -147,13 +188,91 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "상대편의 덱에서 무작위 하수인을 복사하여 내 전장에 놓습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "심리 조작",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "상대편의 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "심리 조작",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "상대편 덱에서 무작위로 선택된 하수인 하나를 복사하여 내 전장에 놓습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "상대편 덱에서 무작위 하수인 하나를 복사하여 내 전장에 놓습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "[x]상대편 덱에서 무작위\n하수인 하나를 복사하여\n내 전장에 놓습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "[x]상대편의 덱에서 무작위\n하수인 하나를 복사하여\n내 전장에 놓습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "[x]상대편의 덱에서 무작위\n하수인을 복사하여\n내 전장에 놓습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "15.0.33157",
+      "displayFromKst": "2018-10-03"
+    },
+    {
+      "build": "15.2.33717",
+      "platform": "iOS",
+      "name": "심리 조작",
+      "rawText": "상대편의 덱에서 무작위 하수인을 복사하여 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-09-11"
     }
   ]
 }

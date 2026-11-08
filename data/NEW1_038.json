@@ -101,7 +101,7 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2017-04-05",
         "changes": {
           "text": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다."
         }
@@ -132,7 +132,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "각 턴이 끝날 때마다 +1/+1을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "그룰",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +149,24 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "그룰",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "7.1.18015",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "8.0.18336",
+      "platform": "iOS",
+      "name": "그룰",
+      "rawText": "각 턴이 끝날 때, +1/+1을 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-04-05"
     }
   ]
 }

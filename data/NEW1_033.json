@@ -86,7 +86,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-06-16",
         "changes": {
           "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
         }
@@ -117,12 +117,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "다른 아군 하수인들이 공격력을 +1 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "레오크",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.6.8834",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+    },
+    {
+      "build": "2.7.9166",
+      "platform": "iOS",
+      "name": "레오크",
+      "rawText": "내 다른 하수인들이 공격력을 +1 얻습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-06-16"
     }
   ],
   "historicalTokenSources": {

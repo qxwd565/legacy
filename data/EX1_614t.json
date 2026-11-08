@@ -77,7 +77,16 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2013-08-17",
+        "before": "2020-03-27",
+        "changes": {
+          "name": "아지노스의 불꽃"
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],
@@ -1939,5 +1948,29 @@
         "northAmericaPatchDateKst": "2014-03-12"
       }
     ]
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.3664",
+      "platform": "Windows",
+      "name": "아지노스의 불꽃",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2013-08-17"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "사비안 사티로스",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
+    }
+  ]
 }

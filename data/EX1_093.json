@@ -123,15 +123,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 +1/+1과 <b>도발</b>을 부여합니다."
-        }
-      }
-    ]
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -157,7 +149,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 양옆의 하수인들에게 +1/+1과 <b>도발</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "아르거스의 수호자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

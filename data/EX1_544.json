@@ -94,7 +94,7 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
         }
@@ -104,6 +104,34 @@
         "before": "2021-03-26",
         "changes": {
           "cost": 2
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>모든</b> 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "<b>모든</b> 하수인이 <b>은신</b><br>상태에서 벗어납니다.<br>적의 모든 <b>비밀</b>을 없앱니다.<br>카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.<br>적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.<br>적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다."
         }
       }
     ],
@@ -134,7 +162,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 모든 적의 <b>비밀</b>을 파괴합니다. 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "섬광",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,7 +179,57 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "섬광",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "섬광",
+      "rawText": "<b>모든</b> 하수인이 <b>은신</b> 상태에서 벗어납니다. 적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "섬광",
+      "rawText": "<b>모든</b> 하수인이 <b>은신</b>\n상태에서 벗어납니다.\n적의 모든 <b>비밀</b>을 없앱니다.\n카드를 1장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "섬광",
+      "rawText": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.\n적의 모든 <b>비밀</b>을 없앱니다. 카드를 1장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "섬광",
+      "rawText": "<b>모든</b> 하수인이 <b>은신</b>을 잃습니다.\n적의 모든 <b>비밀</b>을 없앱니다. 카드를 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

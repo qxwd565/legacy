@@ -106,9 +106,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-11-30",
         "changes": {
           "text": "<b>선택</b> - 피해를 2 줍니다. 또는 하수인 하나를 <b>침묵</b>시킵니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>선택 -</b> 피해를 2 줍니다. 또는 하수인 하나를 <b>침묵</b>시킵니다."
         }
       }
     ]
@@ -140,7 +147,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 피해를 2 줍니다. 또는 하수인을 <b>침묵</b>시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "숲의 수호자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -151,7 +164,35 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 피해를 2 줍니다. 또는 하수인 하나를 <b>침묵</b>시킵니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "숲의 수호자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "숲의 수호자",
+      "rawText": "<b>선택 -</b> 피해를 2 줍니다. 또는 하수인 하나를 <b>침묵</b>시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "숲의 수호자",
+      "rawText": "<b>선택 -</b> 피해를 2 줍니다. 또는 하수인을 <b>침묵</b>시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

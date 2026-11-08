@@ -105,17 +105,17 @@
         }
       },
       {
-        "from": "2014-03-12",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다."
-        }
-      },
-      {
         "from": "2013-10-03",
         "before": "2014-03-12",
         "changes": {
           "text": "내 턴이 끝날 때, 50%의 확률로 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2014-03-12",
+        "before": "2016-04-25",
+        "changes": {
+          "text": "내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다."
         }
       }
     ]
@@ -144,7 +144,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 턴이 끝날 때, 50%의 확률로 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "내트 페이글",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,13 +161,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때, 50%의 확률로 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "내트 페이글",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.4482",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4944",
       "platform": "Windows",
       "rawText": "내 턴이 시작될 때, 50%의 확률로 추가 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2014-03-12"
+      "northAmericaPatchDateKst": "2014-03-12",
+      "name": "내트 페이글",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2014-03-12"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "내트 페이글",
+      "rawText": "내 턴이 시작될 때, 50%의 확률로 카드를 1장 더 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-04-25"
     }
   ]
 }

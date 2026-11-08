@@ -106,9 +106,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-07-30",
         "changes": {
           "text": "전장에 내 하수인이 소환될 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
+        }
+      },
+      {
+        "from": "2015-07-30",
+        "before": "2015-12-05",
+        "changes": {
+          "text": "내가 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
         }
       }
     ]
@@ -137,7 +144,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신이 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "정의의 칼날",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -148,7 +161,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "전장에 내 하수인이 소환될 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "정의의 칼날",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.7.9166",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "2.8.9554",
+      "platform": "iOS",
+      "name": "정의의 칼날",
+      "rawText": "내가 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.0.10833",
+      "displayFromKst": "2015-07-30"
+    },
+    {
+      "build": "4.1.10956",
+      "platform": "iOS",
+      "name": "정의의 칼날",
+      "rawText": "내 하수인이 소환된 후에, 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-12-05"
     }
   ]
 }

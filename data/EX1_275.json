@@ -113,9 +113,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "선택한 하수인과 그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "선택한 하수인과<br>그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다."
         }
       }
     ]
@@ -144,7 +151,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "하수인과 그 양옆의 하수인들을 <b>얼어붙음</b> 상태로 만들고 피해를 $1 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "냉기 돌풍",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,13 +168,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "하수인과 그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "냉기 돌풍",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "선택한 하수인과 그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "냉기 돌풍",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "냉기 돌풍",
+      "rawText": "선택한 하수인과\n그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

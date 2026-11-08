@@ -110,13 +110,6 @@
         "changes": {
           "text": "당신 주문의 피해량과 치유량을 두 배 증가시킵니다."
         }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "내 주문과 영웅 능력의 피해량과 치유량을 2배 증가시킵니다."
-        }
       }
     ]
   },
@@ -144,7 +137,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신 주문의 피해량과 치유량을 두 배 증가시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "예언자 벨렌",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,7 +154,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 주문과 영웅 능력의 피해량과 치유량을 2배 증가시킵니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "예언자 벨렌",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

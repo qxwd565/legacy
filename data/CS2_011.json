@@ -88,13 +88,6 @@
         "changes": {
           "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다."
         }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "이번 턴에 내 캐릭터들에게 공격력을 +2 부여합니다."
-        }
       }
     ]
   },
@@ -122,7 +115,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "야생의 포효",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -133,7 +132,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "이번 턴에 내 캐릭터들에게 공격력을 +2 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "야생의 포효",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

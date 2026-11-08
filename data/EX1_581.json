@@ -91,7 +91,7 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "적 하수인 하나를 상대편의 손으로 돌려보냅니다."
         }
@@ -122,7 +122,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "적 하수인을 주인의 손으로 돌려보냅니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "혼절시키기",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -133,7 +139,24 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "적 하수인 하나를 상대편의 손으로 돌려보냅니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "혼절시키기",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "혼절시키기",
+      "rawText": "적 하수인을 상대편의 손으로 돌려보냅니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

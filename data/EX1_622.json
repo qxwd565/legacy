@@ -76,9 +76,16 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2020-03-27",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "소실",
           "text": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다."
         }
       },
@@ -91,15 +98,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "공격력 5 이상인 하수인을 하나 처치합니다."
         }
       },
       {
-        "before": "2020-03-27",
+        "from": "2016-08-10",
+        "before": "2018-10-03",
         "changes": {
-          "cost": 3
+          "text": "[x]공격력이 5 이상인<br>하수인을 하나<br>처치합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "공격력이 5 이상인 하수인을<br>처치합니다."
         }
       }
     ],
@@ -173,7 +188,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "소실",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -184,13 +205,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "공격력 5 이상인 하수인을 1마리 처치합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "어둠의 권능: 죽음",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "공격력 5 이상인 하수인을 하나 처치합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "어둠의 권능: 죽음",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "어둠의 권능: 죽음",
+      "rawText": "[x]공격력이 5 이상인\n하수인을 하나\n처치합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "어둠의 권능: 죽음",
+      "rawText": "공격력이 5 이상인 하수인을\n처치합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

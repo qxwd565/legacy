@@ -98,9 +98,30 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 무작위로 선택된 다른 캐릭터 하나를 공격하게 됩니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터 하나를 공격하게 됩니다."
         }
       }
     ]
@@ -129,7 +150,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "눈속임",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -140,13 +167,69 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "눈속임",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "눈속임",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "눈속임",
+      "rawText": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 무작위로 선택된 다른 캐릭터 하나를 공격하게 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "눈속임",
+      "rawText": "<b>비밀:</b> 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "눈속임",
+      "rawText": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터 하나를 공격하게 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "눈속임",
+      "rawText": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터를 공격하게 됩니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

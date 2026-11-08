@@ -113,9 +113,30 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2017-08-09",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 공격력이 2 이하인 적 하수인 하나를 내 편으로 만듭니다."
+        }
+      },
+      {
+        "from": "2017-08-09",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 공격력이<br>2 이하인 적 하수인<br>하나를 가져옵니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>전투의 함성:</b><br>공격력이 2 이하인<br>적 하수인을 가져옵니다."
         }
       }
     ]
@@ -144,7 +165,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "비밀결사단 어둠사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,13 +182,58 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 1마리를 우리편으로 만듭니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "비밀결사단 어둠사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "비밀결사단 어둠사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "비밀결사단 어둠사제",
+      "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 적 하수인 하나를 내 편으로 만듭니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.4.20022",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "9.0.20374",
+      "platform": "iOS",
+      "name": "비밀결사단 어둠사제",
+      "rawText": "[x]<b>전투의 함성:</b> 공격력이\n2 이하인 적 하수인\n하나를 가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2017-08-09"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "비밀결사단 어둠사제",
+      "rawText": "<b>전투의 함성:</b>\n공격력이 2 이하인\n적 하수인을 가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

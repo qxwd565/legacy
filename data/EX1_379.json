@@ -94,9 +94,23 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-03-15",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다."
+        }
+      },
+      {
+        "from": "2016-03-15",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인의 생명력이 1로 감소합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>비밀:</b> 상대편이 하수인을<br>낸 후에, 그 하수인의<br>생명력이 1로 감소합니다."
         }
       }
     ]
@@ -125,12 +139,40 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "참회",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.1.10956",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다."
+    },
+    {
+      "build": "4.2.11767",
+      "platform": "iOS",
+      "name": "참회",
+      "rawText": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인의 생명력이 1로 감소합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-03-15"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "참회",
+      "rawText": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인의\n생명력이 1로 감소합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

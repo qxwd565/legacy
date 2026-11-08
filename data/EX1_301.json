@@ -123,9 +123,30 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "<b>도발</b>. <b>전투의 함성:</b><br>내 마나 수정 1개를 파괴합니다."
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2016-07-13",
+        "changes": {
+          "text": "<b>도발</b><br><b>전투의 함성:</b><br>내 마나 수정 1개를 파괴합니다."
+        }
+      },
+      {
+        "from": "2016-07-13",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "[x]<b>도발</b><br><b>전투의 함성:</b> 내 마나 수정<br>1개를 파괴합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>도발</b>, <b>전투의 함성:</b><br>내 마나 수정을 1개 파괴합니다."
         }
       }
     ]
@@ -154,7 +175,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>전투의 함성:</b> 당신의 마나 수정 하나를 파괴합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "지옥수호병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -165,7 +192,57 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>도발</b>. <b>전투의 함성:</b>\\n내 마나 수정 1개를 파괴합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "지옥수호병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "지옥수호병",
+      "rawText": "<b>도발</b>. <b>전투의 함성:</b>\n내 마나 수정 1개를 파괴합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "지옥수호병",
+      "rawText": "<b>도발</b>\n<b>전투의 함성:</b>\n내 마나 수정 1개를 파괴합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "지옥수호병",
+      "rawText": "[x]<b>도발</b>\n<b>전투의 함성:</b> 내 마나 수정\n1개를 파괴합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "지옥수호병",
+      "rawText": "<b>도발</b>, <b>전투의 함성:</b>\n내 마나 수정을 1개 파괴합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

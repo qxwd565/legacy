@@ -123,23 +123,55 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2013-08-17",
+        "changes": {
+          "name": "파멸의 수호병"
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "파멸의 수호병",
           "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 두 장 버립니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
+        "changes": {
+          "name": "파멸의 수호병",
+          "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "name": "파멸의 수호병",
+          "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 선택된 카드 2장을 버립니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-04-25",
+        "changes": {
+          "name": "파멸의 수호병",
+          "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다."
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다."
         }
       },
       {
-        "before": "2015-08-18",
+        "from": "2016-08-10",
+        "before": "2021-03-26",
         "changes": {
-          "name": "파멸의 수호병"
+          "text": "<b>돌진</b>, <b>전투의 함성:</b> 무작위로 카드를<br>2장 버립니다."
         }
       }
     ],
@@ -170,7 +202,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 두 장 버립니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "파멸의 수호병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -181,7 +219,57 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "파멸의 수호병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "파멸의 수호병",
+      "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 선택된 카드 2장을 버립니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "파멸의 수호병",
+      "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "파멸수호병",
+      "rawText": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 2장 버립니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "파멸수호병",
+      "rawText": "<b>돌진</b>, <b>전투의 함성:</b> 무작위로 카드를\n2장 버립니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

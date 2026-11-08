@@ -102,10 +102,10 @@
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "from": "2016-07-13",
+        "before": "2016-08-10",
         "changes": {
-          "text": "생명력을 회복시키는 내 카드와 능력들이 이제 그만큼의 피해를 줍니다."
+          "text": "[x]생명력을 회복시키는 내<br>카드와 능력들이 이제 그만큼의<br>피해를 줍니다."
         }
       }
     ]
@@ -134,7 +134,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "생명력을 회복시키는 당신의 카드와 능력들이 이제 그만큼의 피해를 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "아키나이 영혼사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,7 +151,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "생명력을 회복시키는 내 카드와 능력들이 이제 그만큼의 피해를 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "아키나이 영혼사제",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "아키나이 영혼사제",
+      "rawText": "[x]생명력을 회복시키는 내\n카드와 능력들이 이제 그만큼의\n피해를 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "아키나이 영혼사제",
+      "rawText": "생명력을 회복시키는 내 카드와 능력들이 이제 그만큼의 피해를 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

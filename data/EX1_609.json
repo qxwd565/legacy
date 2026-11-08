@@ -84,9 +84,30 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-03-15",
+        "changes": {
+          "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인에게 피해를 $4 줍니다."
+        }
+      },
+      {
+        "from": "2016-03-15",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인에게 피해를 $4 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>비밀:</b> 상대편이 하수인을<br>낸 후에, 그 하수인에게<br>피해를 $4 줍니다."
         }
       }
     ]
@@ -115,12 +136,51 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "저격",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다."
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "저격",
+      "rawText": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인에게 피해를 $4 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.1.10956",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "4.2.11767",
+      "platform": "iOS",
+      "name": "저격",
+      "rawText": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인에게 피해를 $4 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-03-15"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "저격",
+      "rawText": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인에게\n피해를 $4 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

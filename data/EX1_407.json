@@ -103,9 +103,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 처치합니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "무작위로 선택된 하수인 하나를 제외한 모든 하수인을 처치합니다."
         }
       }
     ]
@@ -134,7 +141,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 파괴합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "난투",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,13 +158,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "무작위로 선정된 하수인 1마리를 제외한 모든 하수인을 처치합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "난투",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 처치합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "난투",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "난투",
+      "rawText": "무작위로 선택된 하수인 하나를 제외한 모든 하수인을 처치합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "난투",
+      "rawText": "무작위 하수인 하나를 제외한 <b>모든</b> 하수인을 처치합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ]
 }

@@ -106,9 +106,16 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-04-11",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 상대편에게 바나나를 2개 줍니다."
         }
       }
     ]
@@ -139,12 +146,40 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "밀림의 왕 무클라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다."
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "밀림의 왕 무클라",
+      "rawText": "<b>전투의 함성:</b> 상대편에게 바나나를 2개 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "10.4.23576",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "11.0.23966",
+      "platform": "iOS",
+      "name": "밀림의 왕 무클라",
+      "rawText": "<b>전투의_함성:</b> 상대편에게 바나나를 2개 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-04-11"
     }
   ]
 }

@@ -94,9 +94,16 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-07-13",
         "changes": {
           "text": "모든 적 하수인에게 피해를 $4 줍니다."
+        }
+      },
+      {
+        "from": "2016-07-13",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]모든 적 하수인에게<br>피해를 $4 줍니다."
         }
       }
     ]
@@ -125,12 +132,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 적 하수인에게 피해를 $4 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "불기둥",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "모든 적 하수인에게 피해를 $4 줍니다."
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "불기둥",
+      "rawText": "[x]모든 적 하수인에게\n피해를 $4 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-07-13"
     }
   ]
 }

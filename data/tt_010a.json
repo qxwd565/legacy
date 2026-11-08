@@ -117,7 +117,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b></b> ",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "주문왜곡사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -128,7 +134,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b></b>",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "주문왜곡사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.5834",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "1.1.6069",
+      "platform": "iOS",
+      "name": "주문왜곡사",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2014-07-23"
     }
   ],
   "historicalTokenSources": {

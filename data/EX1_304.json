@@ -105,13 +105,6 @@
         "changes": {
           "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다."
         }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다."
-        }
       }
     ]
   },
@@ -139,7 +132,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "공허의 괴물",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -150,7 +149,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "공허의 괴물",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

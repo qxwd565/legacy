@@ -103,9 +103,37 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "무작위로 선택된 적 하수인 둘에게 피해를 $2 줍니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-07-13",
+        "changes": {
+          "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다."
+        }
+      },
+      {
+        "from": "2016-07-13",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "[x]무작위 적 하수인<br>둘에게 피해를<br>$2 줍니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "무작위 적 하수인 둘에게<br>피해를 $2 줍니다."
         }
       }
     ]
@@ -134,7 +162,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "회전베기",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,13 +179,69 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 2마리에게 피해를 $2 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "회전베기",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "회전베기",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "회전베기",
+      "rawText": "무작위로 선택된 적 하수인 둘에게 피해를 $2 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "회전베기",
+      "rawText": "무작위 적 하수인 둘에게 피해를 $2 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "회전베기",
+      "rawText": "[x]무작위 적 하수인\n둘에게 피해를\n$2 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "회전베기",
+      "rawText": "무작위 적 하수인 둘에게\n피해를 $2 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-11-30"
     }
   ]
 }

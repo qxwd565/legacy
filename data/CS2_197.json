@@ -108,13 +108,6 @@
         "changes": {
           "text": "<b>주문력 +1</b> "
         }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>주문 공격력 +1</b>"
-        }
       }
     ]
   },
@@ -142,7 +135,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>주문력 +1</b> ",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "오우거 마법사",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -153,7 +152,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>주문 공격력 +1</b>",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "오우거 마법사",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

@@ -96,16 +96,44 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2014-12-05",
+        "changes": {
+          "cost": 0
+        }
+      },
+      {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."
         }
       },
       {
-        "before": "2014-12-05",
+        "from": "2015-04-01",
+        "before": "2015-08-19",
         "changes": {
-          "cost": 0
+          "text": "피해를 $4 줍니다. 무작위로 선택된 카드 1장을 버립니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]피해를 $4 줍니다.<br>무작위로 카드를<br>1장 버립니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]피해를 $4 줍니다.<br>무작위로 카드를<br>버립니다."
         }
       }
     ],
@@ -136,7 +164,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "피해를 $4 줍니다. 무작위로 카드를 한 장 버립니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "영혼의 불꽃",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -147,20 +181,82 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "영혼의 불꽃",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.4243",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4458",
       "platform": "Windows",
       "rawText": "피해를 $3 줍니다. 무작위로 카드를 1장 버립니다.",
       "invalidDescription": true,
-      "northAmericaPatchDateKst": "2014-01-17"
+      "northAmericaPatchDateKst": "2014-01-17",
+      "name": "영혼의 불꽃",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.4458",
+      "displayFromKst": "2014-01-17"
     },
     {
       "build": "1.0.0.4482",
       "platform": "Windows",
       "rawText": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.",
-      "northAmericaPatchDateKst": "2014-01-18"
+      "northAmericaPatchDateKst": "2014-01-18",
+      "name": "영혼의 불꽃",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2014-01-18"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "영혼의 불꽃",
+      "rawText": "피해를 $4 줍니다. 무작위로 선택된 카드 1장을 버립니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "영혼의 불꽃",
+      "rawText": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "영혼의 불꽃",
+      "rawText": "[x]피해를 $4 줍니다.\n무작위로 카드를\n1장 버립니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "영혼의 불꽃",
+      "rawText": "[x]피해를 $4 줍니다.\n무작위로 카드를\n버립니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

@@ -118,9 +118,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2017-04-05",
         "changes": {
           "text": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다."
+        }
+      },
+      {
+        "from": "2017-04-05",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>연계:</b> 이번 턴에<br>앞서 낸 카드 1장당<br>+2/+2를 얻습니다."
         }
       }
     ]
@@ -149,18 +156,47 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "에드윈 밴클리프",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3664",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
-      "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다."
+      "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다.",
+      "name": "에드윈 밴클리프",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-09-01"
     },
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "에드윈 밴클리프",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "7.1.18015",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "8.0.18336",
+      "platform": "iOS",
+      "name": "에드윈 밴클리프",
+      "rawText": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-04-05"
     }
   ],
   "unresolvedHistoricalTextDates": [

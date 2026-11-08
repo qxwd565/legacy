@@ -91,23 +91,16 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 4
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
           "text": "모든 캐릭터에게 피해를 $3 줍니다."
-        }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "<b>모든</b> 캐릭터에게 피해를 $3 줍니다."
-        }
-      },
-      {
-        "before": "2023-04-05",
-        "changes": {
-          "cost": 4
         }
       }
     ],
@@ -138,7 +131,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 캐릭터에게 피해를 $3 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "지옥의 불길",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -149,7 +148,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>모든</b> 캐릭터에게 피해를 $3 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "지옥의 불길",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

@@ -107,10 +107,17 @@
         }
       },
       {
-        "from": "2014-01-17",
-        "before": "2014-03-12",
+        "from": "2016-10-04",
+        "before": "2018-10-03",
         "changes": {
-          "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다."
+          "text": "아군 하수인 하나에게 <b>돌진</b>을 부여합니다.<br>그 하수인은 이번 턴에<br>영웅을 공격할 수 없습니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "아군 하수인에게 <b>돌진</b>을 부여합니다.<br>그 하수인은 이번 턴에<br>영웅을 공격할 수 없습니다."
         }
       }
     ]
@@ -139,7 +146,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "아군 하수인에게 <b>돌진</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "돌진",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -150,13 +163,47 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "아군 하수인 하나에게 <b>돌진</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "돌진",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.4243",
+      "displayFromKst": "2013-12-11"
     },
     {
       "build": "1.0.0.4458",
       "platform": "Windows",
       "rawText": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2014-01-17"
+      "northAmericaPatchDateKst": "2014-01-17",
+      "name": "돌진",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "6.1.14366",
+      "displayFromKst": "2014-01-17"
+    },
+    {
+      "build": "6.1.14830",
+      "platform": "iOS",
+      "name": "돌진",
+      "rawText": "아군 하수인 하나에게 <b>돌진</b>을 부여합니다.\n그 하수인은 이번 턴에\n영웅을 공격할 수 없습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-10-04"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "돌진",
+      "rawText": "아군 하수인에게 <b>돌진</b>을 부여합니다.\n그 하수인은 이번 턴에\n영웅을 공격할 수 없습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

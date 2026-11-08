@@ -91,9 +91,23 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "피해를 $3 줍니다. 전장에 내 야수가 있다면 피해를 $5 줍니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "피해를 $3 줍니다. 내 전장에 야수가 있으면, 피해를 $5 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]피해를 $3 줍니다.<br>내 전장에 야수가 있으면,<br>피해를 $5 줍니다."
         }
       }
     ]
@@ -122,7 +136,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "피해를 $3 줍니다. 전장에 당신의 야수가 있다면 피해를 $5 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "살상 명령",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -133,7 +153,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "피해를 $3 줍니다. 전장에 내 야수가 있다면 피해를 $5 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "살상 명령",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "살상 명령",
+      "rawText": "피해를 $3 줍니다. 내 전장에 야수가 있으면, 피해를 $5 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "살상 명령",
+      "rawText": "[x]피해를 $3 줍니다.\n내 전장에 야수가 있으면,\n피해를 $5 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

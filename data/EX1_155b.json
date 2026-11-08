@@ -79,7 +79,15 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2019-04-05",
+        "changes": {
+          "name": "자연의 징표",
+          "text": "생명력 +4와 <b>도발</b>을 부여합니다."
+        }
+      },
+      {
+        "from": "2019-04-05",
+        "before": "2021-03-26",
         "changes": {
           "text": "생명력 +4와 <b>도발</b>을 부여합니다."
         }
@@ -110,12 +118,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "생명력 +4와 <b>도발</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "자연의 징표",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "13.4.29349",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "생명력 +4와 <b>도발</b>을 부여합니다."
+    },
+    {
+      "build": "14.0.29961",
+      "platform": "iOS",
+      "name": "두터운 가죽",
+      "rawText": "생명력 +4와 <b>도발</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-04-05"
     }
   ],
   "historicalTokenSources": {

@@ -101,9 +101,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-04-25",
         "changes": {
           "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>은신</b>을 부여합니다."
+        }
+      },
+      {
+        "from": "2016-04-25",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 나의 다음 턴까지 아군 하수인 하나에게 <b>은신</b>을 부여합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 내 다음 턴까지 아군 하수인 하나에게 <b>은신</b>을 부여합니다."
         }
       }
     ]
@@ -132,7 +146,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 아군 하수인에게 <b>은신</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "위장의 대가",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +163,46 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>은신</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "위장의 대가",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "위장의 대가",
+      "rawText": "<b>전투의 함성:</b> 나의 다음 턴까지 아군 하수인 하나에게 <b>은신</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-04-25"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "위장의 대가",
+      "rawText": "<b>전투의 함성:</b> 내 다음 턴까지 아군 하수인 하나에게 <b>은신</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "위장의 대가",
+      "rawText": "<b>전투의 함성:</b> 내 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

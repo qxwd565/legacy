@@ -98,13 +98,6 @@
         "changes": {
           "text": "카드를 두 장 뽑습니다."
         }
-      },
-      {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "카드를 2장 뽑습니다."
-        }
       }
     ]
   },
@@ -132,7 +125,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "카드를 두 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "신비한 지능",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +142,13 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "카드를 2장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "신비한 지능",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-10-03"
     }
   ]
 }

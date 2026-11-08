@@ -113,9 +113,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2014-12-05",
         "changes": {
           "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 상대편의 손에 넣습니다."
+        }
+      },
+      {
+        "from": "2014-12-05",
+        "before": "2015-04-01",
+        "changes": {
+          "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 넣습니다."
         }
       }
     ]
@@ -144,7 +151,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 다른 플레이어의 손에 넣습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "전승지기 초",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,13 +168,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 상대편의 손에 널습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "전승지기 초",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 상대편의 손에 넣습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "전승지기 초",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.3.6898",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.0.7283",
+      "platform": "iOS",
+      "name": "전승지기 초",
+      "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 넣습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2014-12-05"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "전승지기 초",
+      "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-04-01"
     }
   ]
 }

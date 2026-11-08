@@ -113,9 +113,16 @@
       },
       {
         "from": "2014-01-17",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 이번 턴에<br>하수인에게 공격력을<br>+2 부여합니다."
         }
       }
     ]
@@ -144,7 +151,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "가혹한 하사관",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,13 +168,36 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 이번 턴에 아군 하수인 하나에게 공격력을 +2 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "가혹한 하사관",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.4243",
+      "displayFromKst": "2013-12-11"
     },
     {
       "build": "1.0.0.4458",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다.",
-      "northAmericaPatchDateKst": "2014-01-17"
+      "northAmericaPatchDateKst": "2014-01-17",
+      "name": "가혹한 하사관",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2014-01-17"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "가혹한 하사관",
+      "rawText": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n+2 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

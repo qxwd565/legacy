@@ -89,7 +89,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2020-03-27",
         "changes": {
           "text": "피해를 $2 줍니다."
         }
@@ -122,12 +122,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "피해를 $2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "성스러운 일격",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "피해를 $2 줍니다."
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "성스러운 일격",
+      "rawText": "하수인에게 피해를 $3 줍니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

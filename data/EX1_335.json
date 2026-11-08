@@ -93,15 +93,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "이 하수인의 공격력은 항상 생명력과 같습니다."
-        }
-      }
-    ]
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -127,7 +119,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이 하수인의 공격력은 항상 생명력과 같습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "빛의 정령",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

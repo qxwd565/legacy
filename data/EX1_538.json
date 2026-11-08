@@ -81,6 +81,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2014-05-09",
+        "changes": {
+          "cost": 2
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -92,19 +98,6 @@
         "before": "2013-12-11",
         "changes": {
           "text": "내 야수들에게 공격력 +1과 <b>돌진</b>을 부여합니다."
-        }
-      },
-      {
-        "from": "2013-12-11",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다."
-        }
-      },
-      {
-        "before": "2014-05-09",
-        "changes": {
-          "cost": 2
         }
       }
     ],
@@ -137,7 +130,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 야수들에게 공격력 +1과 <b>돌진</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "개들을 풀어라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -148,13 +147,25 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 야수들에게 공격력 +1과 <b>돌진</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "개들을 풀어라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "개들을 풀어라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-12-11"
     }
   ]
 }

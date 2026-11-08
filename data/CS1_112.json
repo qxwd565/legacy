@@ -86,16 +86,23 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2020-03-27",
+        "changes": {
+          "cost": 5
+        }
+      },
+      {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2020-03-27",
         "changes": {
           "text": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다."
         }
       },
       {
-        "before": "2020-03-27",
+        "from": "2020-03-27",
+        "before": "2021-03-26",
         "changes": {
-          "cost": 5
+          "text": "[x]모든 적 하수인에게<br>피해를 $2 줍니다. 모든<br>아군 캐릭터의 생명력을<br>#2 회복시킵니다."
         }
       },
       {
@@ -133,12 +140,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "신성한 폭발",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다."
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "신성한 폭발",
+      "rawText": "[x]모든 적 하수인에게\n피해를 $2 줍니다. 모든\n아군 캐릭터의 생명력을\n#2 회복시킵니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

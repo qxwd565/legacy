@@ -61,15 +61,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-03-12",
-        "changes": {
-          "text": "심리 조작 실패! 상대편에게 하수인이 없었습니다!"
-        }
-      }
-    ]
+    "history": []
   },
   "root": false,
   "relatedIds": [],
@@ -95,7 +87,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "심리 조작 실패! 상대편에게 하수인이 없었습니다!",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "허무의 그림자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",

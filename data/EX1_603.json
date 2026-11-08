@@ -93,15 +93,8 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2013-08-17",
-        "before": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
-        }
-      },
-      {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나에게 피해를 1 주고 공격력을 +2 부여합니다."
         }
@@ -132,7 +125,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "잔인한 감독관",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +142,24 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인 하나에게 피해를 1 주고 공격력을 +2 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "잔인한 감독관",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "잔인한 감독관",
+      "rawText": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

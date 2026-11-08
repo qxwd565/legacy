@@ -112,17 +112,31 @@
         }
       },
       {
+        "from": "2013-10-03",
+        "before": "2014-03-12",
+        "changes": {
+          "text": "내가 주문을 시전할 때마다, <b>모든</b> 하수인에게 피해를 1 줍니다."
+        }
+      },
+      {
         "from": "2014-03-12",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "내 주문이 시전된 후에, <b>모든</b> 하수인에게 피해를 1 줍니다."
         }
       },
       {
-        "from": "2013-10-03",
-        "before": "2014-03-12",
+        "from": "2016-08-10",
+        "before": "2020-09-09",
         "changes": {
-          "text": "내가 주문을 시전할 때마다, <b>모든</b> 하수인에게 피해를 1 줍니다."
+          "text": "내 주문이 시전된 후에, <b>모든</b> 하수인에게<br>피해를 1 줍니다."
+        }
+      },
+      {
+        "from": "2020-09-09",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "내가 주문을 시전한 후에, <b>모든</b> 하수인에게<br>피해를 1 줍니다."
         }
       }
     ]
@@ -151,7 +165,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신이 주문을 시전한 후, 모든 하수인에게 피해를 1 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "광기의 화염술사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -162,13 +182,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내가 주문을 시전할 때마다, <b>모든</b> 하수인에게 피해를 1 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "광기의 화염술사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.4482",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4944",
       "platform": "Windows",
       "rawText": "내 주문이 시전된 후에, <b>모든</b> 하수인에게 피해를 1 줍니다.",
-      "northAmericaPatchDateKst": "2014-03-12"
+      "northAmericaPatchDateKst": "2014-03-12",
+      "name": "광기의 화염술사",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2014-03-12"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "광기의 화염술사",
+      "rawText": "내 주문이 시전된 후에, <b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "18.0.56359",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "18.2.57893",
+      "platform": "iOS",
+      "name": "광기의 화염술사",
+      "rawText": "내가 주문을 시전한 후에, <b>모든</b> 하수인에게\n피해를 1 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-09-09"
     }
   ]
 }

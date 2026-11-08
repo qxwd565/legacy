@@ -106,9 +106,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "내 하수인들의 비용이 (3) 증가합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "내 하수인들의 비용이<br>(3) 증가합니다."
         }
       }
     ]
@@ -137,7 +144,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신 하수인들의 비용이 (3) 증가합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "투자개발회사 용병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -148,7 +161,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 하수인들의 비용이 (3) 증가합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "투자개발회사 용병",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "투자개발회사 용병",
+      "rawText": "내 하수인들의 비용이\n(3) 증가합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
     }
   ]
 }

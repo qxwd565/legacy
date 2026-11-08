@@ -96,9 +96,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2017-09-19",
         "changes": {
           "text": "이번 턴에만 마나 수정을 2개 획득합니다."
+        }
+      },
+      {
+        "from": "2017-09-19",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "이번 턴에만 마나 수정을 1개 획득합니다."
         }
       }
     ]
@@ -127,7 +134,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이번 턴에만 마나 수정을 둘 획득합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "정신 자극",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -138,7 +151,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "이번 턴에만 마나 수정을 2개 획득합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "정신 자극",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "9.0.20374",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "9.1.20970",
+      "platform": "iOS",
+      "name": "정신 자극",
+      "rawText": "이번 턴에만 마나 수정을 1개 획득합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2017-09-19"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "정신 자극",
+      "rawText": "이번 턴에만 마나 수정을 1개 얻습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

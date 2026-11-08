@@ -103,9 +103,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2020-03-27",
         "changes": {
           "text": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+        }
+      },
+      {
+        "from": "2020-03-27",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "주문이나 영웅 능력의 대상으로 지정되지 않습니다."
         }
       }
     ]
@@ -134,7 +141,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "요정용",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,7 +158,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "요정용",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "요정용",
+      "rawText": "주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

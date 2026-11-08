@@ -103,13 +103,6 @@
     "releaseStatus": "estimated",
     "history": [
       {
-        "from": "2014-03-12",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
-        }
-      },
-      {
         "from": "2013-08-17",
         "before": "2013-12-11",
         "changes": {
@@ -121,6 +114,34 @@
         "before": "2014-03-12",
         "changes": {
           "text": "<b>전투의 함성:</b> 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
+        }
+      },
+      {
+        "from": "2014-03-12",
+        "before": "2015-04-01",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 무작위로 선택된 다른 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 다른 무작위<br>하수인을 5/5 데빌사우루스<br>또는 1/1 다람쥐로<br>변신시킵니다."
         }
       }
     ]
@@ -152,7 +173,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "수석땜장이 오버스파크",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -163,13 +190,58 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "수석땜장이 오버스파크",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.4482",
+      "displayFromKst": "2013-12-11"
     },
     {
       "build": "1.0.0.4944",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2014-03-12"
+      "northAmericaPatchDateKst": "2014-03-12",
+      "name": "수석땜장이 오버스파크",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2014-03-12"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "수석땜장이 오버스파크",
+      "rawText": "<b>전투의 함성:</b> 무작위로 선택된 다른 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "수석땜장이 오버스파크",
+      "rawText": "<b>전투의 함성:</b> 다른 무작위 하수인 하나를 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "수석땜장이 오버스파크",
+      "rawText": "[x]<b>전투의 함성:</b> 다른 무작위\n하수인을 5/5 데빌사우루스\n또는 1/1 다람쥐로\n변신시킵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

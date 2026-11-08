@@ -69,7 +69,7 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
         }
@@ -100,12 +100,29 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "깨어난 이세라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "깨어난 이세라",
+      "rawText": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ],
   "historicalTokenSources": {

@@ -82,7 +82,8 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": []
   },
   "root": false,
   "relatedIds": [],
@@ -1012,5 +1013,18 @@
       "relationship": "unverified; distinct IDs coexist in 4944 and iOS",
       "evidence": "same name and stats; identical iOS visual fields; earlier Leeroy description mentions Whelps"
     }
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "1.0.0.4944",
+      "platform": "Windows",
+      "name": "새끼용",
+      "rawText": "",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2014-03-12"
+    }
+  ]
 }

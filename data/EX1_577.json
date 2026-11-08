@@ -136,6 +136,14 @@
     "history": [
       {
         "from": "2013-08-17",
+        "before": "2013-08-30",
+        "changes": {
+          "name": "야수",
+          "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+        }
+      },
+      {
+        "from": "2013-08-30",
         "before": "2013-10-03",
         "changes": {
           "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
@@ -143,7 +151,21 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-07-13",
+        "changes": {
+          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+        }
+      },
+      {
+        "from": "2016-07-13",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "[x]<b>죽음의 메아리:</b> 상대편에게<br>3/3 핑클 아인혼을<br>소환해 줍니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2021-03-26",
         "changes": {
           "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
         }
@@ -176,18 +198,70 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "야수",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3664",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
-      "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+      "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
+      "name": "괴수",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-09-01"
     },
     {
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "괴수",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "괴수",
+      "rawText": "[x]<b>죽음의 메아리:</b> 상대편에게\n3/3 핑클 아인혼을\n소환해 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "괴수",
+      "rawText": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-08-10"
+    }
+  ],
+  "unresolvedHistoricalTextDates": [
+    {
+      "from": "2013-08-30",
+      "before": "2013-09-01",
+      "fields": [
+        "name"
+      ],
+      "reason": "The 3749 patch cutover in Korea is unresolved within these dates; no dated value is assigned for the affected field.",
+      "olderBuild": "1.0.0.3664",
+      "newerBuild": "1.0.0.3749"
     }
   ]
 }

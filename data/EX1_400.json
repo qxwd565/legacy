@@ -81,15 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "history": [
-      {
-        "from": "2013-08-17",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다."
-        }
-      }
-    ]
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -115,7 +107,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 하수인에게 피해를 $1 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "소용돌이",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -126,20 +124,38 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "소용돌이",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.4243",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4458",
       "platform": "Windows",
       "rawText": "<b>모든</b> 하수인에게 피해를 $1 주고 카드를 1장 뽑습니다.",
       "invalidDescription": true,
-      "northAmericaPatchDateKst": "2014-01-17"
+      "northAmericaPatchDateKst": "2014-01-17",
+      "name": "소용돌이",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.4458",
+      "displayFromKst": "2014-01-17"
     },
     {
       "build": "1.0.0.4482",
       "platform": "Windows",
       "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
-      "northAmericaPatchDateKst": "2014-01-18"
+      "northAmericaPatchDateKst": "2014-01-18",
+      "name": "소용돌이",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2014-01-18"
     }
   ]
 }

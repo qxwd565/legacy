@@ -65,7 +65,16 @@
     "nativeRawText": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": [
+      {
+        "from": "2020-05-13",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>영웅 능력</b><br>이번 턴에 공격력을 +1 얻습니다."
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],
@@ -85,5 +94,18 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "17.2.47374",
+      "platform": "iOS",
+      "name": "악마의 발톱",
+      "rawText": "<b>영웅 능력</b>\n이번 턴에 공격력을 +1 얻습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-05-13"
+    }
+  ]
 }

@@ -81,9 +81,30 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "무작위 동료 야수를 1마리 소환합니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "무작위로 선택된 동료 야수 1마리를 소환합니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "무작위 동료 야수 1마리를 소환합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]무작위 동료 야수<br>1마리를 소환합니다."
         }
       }
     ]
@@ -116,7 +137,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "무작위 동료 야수를 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "야생의 벗",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -127,7 +154,57 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "무작위 동료 야수를 1마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "야생의 벗",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "야생의 벗",
+      "rawText": "무작위로 선택된 동료 야수 1마리를 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "야생의 벗",
+      "rawText": "무작위 동료 야수 1마리를 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "야생의 벗",
+      "rawText": "[x]무작위 동료 야수\n1마리를 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "야생의 벗",
+      "rawText": "무작위 동료_야수를 소환합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

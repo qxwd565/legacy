@@ -101,9 +101,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-11-30",
         "changes": {
           "text": "<b>선택</b> - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>선택 -</b> 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
         }
       }
     ]
@@ -135,7 +142,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "자연의 징표",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -146,7 +159,35 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "자연의 징표",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "자연의 징표",
+      "rawText": "<b>선택 -</b> 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "자연의 징표",
+      "rawText": "<b>선택 -</b> 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

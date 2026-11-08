@@ -96,9 +96,44 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위 악마 하나를 소환합니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2015-08-19",
+        "changes": {
+          "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위로 선택된 악마 하나를 소환합니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-08-10",
+        "changes": {
+          "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마 하나를 소환합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2017-08-09",
+        "changes": {
+          "text": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마를 하나 소환합니다."
+        }
+      },
+      {
+        "from": "2017-08-09",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "캐릭터 하나에게 피해를 $2 줍니다. 이 피해로 대상이 죽으면, 무작위 악마를 하나 소환합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]캐릭터에게 피해를<br>$2 줍니다. 이 피해로<br>대상이 죽으면, 무작위<br>악마를 소환합니다."
         }
       }
     ]
@@ -127,7 +162,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "캐릭터에게 피해를 $2 줍니다. 캐릭터가 죽으면 무작위 악마를 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "운명의 파멸",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -138,7 +179,68 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위 악마 하나를 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "운명의 파멸",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "운명의 파멸",
+      "rawText": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위로 선택된 악마 하나를 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "운명의 파멸",
+      "rawText": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마 하나를 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "운명의 파멸",
+      "rawText": "캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면, 무작위 악마를 하나 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.4.20022",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "9.0.20374",
+      "platform": "iOS",
+      "name": "운명의 파멸",
+      "rawText": "캐릭터 하나에게 피해를 $2 줍니다. 이 피해로 대상이 죽으면, 무작위 악마를 하나 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2017-08-09"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "운명의 파멸",
+      "rawText": "[x]캐릭터에게 피해를\n$2 줍니다. 이 피해로\n대상이 죽으면, 무작위\n악마를 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

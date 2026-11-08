@@ -86,6 +86,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2023-04-05",
+        "changes": {
+          "cost": 3
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -94,15 +100,23 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-07-13",
         "changes": {
           "text": "모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다."
         }
       },
       {
-        "before": "2023-04-05",
+        "from": "2016-07-13",
+        "before": "2018-10-03",
         "changes": {
-          "cost": 3
+          "text": "[x]모든 적 하수인에게<br>피해를 $1 줍니다.<br>카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]모든 적 하수인에게<br>피해를 $1 줍니다.<br>카드를 뽑습니다."
         }
       }
     ],
@@ -133,7 +147,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 적 하수인에게 피해를 $1 줍니다. 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "칼날 부채",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -144,7 +164,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "칼날 부채",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "칼날 부채",
+      "rawText": "[x]모든 적 하수인에게\n피해를 $1 줍니다.\n카드를 1장 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-07-13"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "칼날 부채",
+      "rawText": "[x]모든 적 하수인에게\n피해를 $1 줍니다.\n카드를 뽑습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

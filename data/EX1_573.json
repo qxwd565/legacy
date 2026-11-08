@@ -106,6 +106,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2021-03-26",
+        "changes": {
+          "cost": 9
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -121,15 +127,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
         }
       },
       {
+        "from": "2016-08-10",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다.<br>또는 <b>도발</b> 능력이 있는<br>2/2 나무정령을<br>둘 소환합니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
         "before": "2021-03-26",
         "changes": {
-          "cost": 9
+          "text": "<b>선택 -</b> 내 다른 하수인들에게 +2/+2를 부여합니다.<br>또는 <b>도발</b> 능력이 있는<br>2/2 나무정령을<br>둘 소환합니다."
         }
       }
     ],
@@ -164,7 +178,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 당신의 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b>하는 2/2 나무정령을 둘 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "세나리우스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -175,13 +195,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b> 능력이 있는 2/2 나무정령을 2마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "세나리우스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "세나리우스",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "세나리우스",
+      "rawText": "<b>선택</b> - 내 다른 하수인들에게 +2/+2를 부여합니다.\n또는 <b>도발</b> 능력이 있는\n2/2 나무정령을\n둘 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "세나리우스",
+      "rawText": "<b>선택 -</b> 내 다른 하수인들에게 +2/+2를 부여합니다.\n또는 <b>도발</b> 능력이 있는\n2/2 나무정령을\n둘 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-11-30"
     }
   ]
 }

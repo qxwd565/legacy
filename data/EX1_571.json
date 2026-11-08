@@ -91,6 +91,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2016-04-25",
+        "changes": {
+          "cost": 6
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -106,15 +112,9 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
-        "changes": {
-          "text": "<b>돌진</b> 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다."
-        }
-      },
-      {
         "before": "2016-04-25",
         "changes": {
-          "cost": 6
+          "text": "<b>돌진</b> 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다."
         }
       }
     ],
@@ -145,7 +145,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>돌진</b>을 가진 2/2 나무정령을 셋 소환합니다. 이들은 당신의 턴이 끝날 때 모두 죽습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "자연의 군대",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -156,13 +162,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>돌진</b> 능력이 있는 2/2 나무정령을 3마리 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "자연의 군대",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>돌진</b> 능력이 있는 2/2 나무정령을 셋 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "자연의 군대",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "4.3.12266",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "5.0.12574",
+      "platform": "iOS",
+      "name": "자연의 군대",
+      "rawText": "2/2 나무정령을 셋 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-04-25"
     }
   ]
 }

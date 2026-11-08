@@ -96,6 +96,12 @@
     "nativeTextBuilder": 0,
     "history": [
       {
+        "before": "2013-12-19",
+        "changes": {
+          "cost": 2
+        }
+      },
+      {
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
@@ -104,15 +110,16 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-07-13",
         "changes": {
           "text": "모든 적 하수인을 <b>빙결</b> 상태로 만듭니다."
         }
       },
       {
-        "before": "2013-12-19",
+        "from": "2016-07-13",
+        "before": "2021-03-26",
         "changes": {
-          "cost": 2
+          "text": "[x]모든 적 하수인을 <b>빙결</b><br>상태로 만듭니다."
         }
       }
     ],
@@ -143,7 +150,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 적 하수인을 <b>얼어붙음</b> 상태로 만듭니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "얼음 회오리",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -154,7 +167,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "모든 적 하수인을 <b>빙결</b> 상태로 만듭니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "얼음 회오리",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.0.12574",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "5.2.13557",
+      "platform": "iOS",
+      "name": "얼음 회오리",
+      "rawText": "[x]모든 적 하수인을 <b>빙결</b>\n상태로 만듭니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-07-13"
     }
   ]
 }

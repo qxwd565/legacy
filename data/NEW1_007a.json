@@ -71,14 +71,15 @@
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "별똥별",
           "text": "모든 적에게 피해를 $2 줍니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-03-12",
+        "before": "2019-04-05",
         "changes": {
-          "text": "모든 적 하수인에게 피해를 $2 줍니다."
+          "name": "별똥별"
         }
       }
     ]
@@ -107,7 +108,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "모든 적에게 피해를 $2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "별똥별",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -118,7 +125,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "모든 적 하수인에게 피해를 $2 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "별똥별",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "13.4.29349",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "14.0.29961",
+      "platform": "iOS",
+      "name": "항성 이동",
+      "rawText": "모든 적 하수인에게 피해를 $2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-04-05"
     }
   ],
   "historicalTokenSources": {

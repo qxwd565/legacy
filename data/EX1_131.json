@@ -121,9 +121,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 1명 소환합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다."
         }
       }
     ]
@@ -154,7 +161,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "데피아즈단 두목",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -165,7 +178,24 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>연계:</b> 2/1 데피아즈단 무법자를 1명 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "데피아즈단 두목",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "데피아즈단 두목",
+      "rawText": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

@@ -101,9 +101,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "이 하수인은 적을 공격할 수 없습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2020-03-27",
+        "changes": {
+          "text": "이 하수인은 적을<br>공격할 수 없습니다."
         }
       }
     ]
@@ -132,7 +139,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이 하수인은 공격할 수 없습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "고대의 감시자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -143,7 +156,35 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "이 하수인은 적을 공격할 수 없습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "고대의 감시자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "고대의 감시자",
+      "rawText": "이 하수인은 적을\n공격할 수 없습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "16.6.43246",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "고대의 감시자",
+      "rawText": "공격할 수 없습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
     }
   ]
 }

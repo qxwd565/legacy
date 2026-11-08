@@ -68,17 +68,24 @@
     "releaseStatus": "estimated",
     "history": [
       {
+        "from": "2013-08-17",
+        "before": "2014-05-09",
+        "changes": {
+          "text": "<b>영웅 능력</b> <br> 피해를 2 줍니다."
+        }
+      },
+      {
         "from": "2014-05-09",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>영웅 능력</b><br>피해를 2 줍니다."
         }
       },
       {
-        "from": "2013-08-17",
-        "before": "2014-05-09",
+        "from": "2015-08-19",
+        "before": "2021-03-26",
         "changes": {
-          "text": "<b>영웅 능력</b> <br> 피해를 2 줍니다."
+          "text": "<b>영웅 능력</b><br>피해를 $2 줍니다."
         }
       }
     ]
@@ -107,7 +114,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>영웅 능력</b> \\n 피해를 2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "정신의 쐐기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -119,7 +132,35 @@
       "platform": "iOS",
       "rawText": "<b>영웅 능력</b>\\n피해를 2 줍니다.",
       "matchingWindowsBuild": "1.0.0.5314",
-      "windowsPatchAppliedKo": "2014-05-09"
+      "windowsPatchAppliedKo": "2014-05-09",
+      "name": "정신의 쐐기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2014-05-09"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "정신의 쐐기",
+      "rawText": "<b>영웅 능력</b>\n피해를 2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "정신의 쐐기",
+      "rawText": "<b>영웅 능력</b>\n피해를 $2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2015-08-19"
     }
   ],
   "historicalTokenSources": {

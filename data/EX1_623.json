@@ -103,9 +103,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b><br>아군 하수인 하나에게 생명력을 +3 부여합니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 아군 하수인<br>하나에게 생명력을<br>+3 부여합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b> 아군<br>하수인에게 생명력을<br>+3 부여합니다."
         }
       }
     ]
@@ -134,7 +148,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 아군 하수인에게 생명력을 +3 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "사원 집행자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -145,13 +165,58 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b>\\n아군 하수인에게 생명력을 +3 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "사원 집행자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b>\\n아군 하수인 하나에게 생명력을 +3 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "사원 집행자",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "사원 집행자",
+      "rawText": "<b>전투의 함성:</b>\n아군 하수인 하나에게 생명력을 +3 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "사원 집행자",
+      "rawText": "[x]<b>전투의 함성:</b> 아군 하수인\n하나에게 생명력을\n+3 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "사원 집행자",
+      "rawText": "[x]<b>전투의 함성:</b> 아군\n하수인에게 생명력을\n+3 부여합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

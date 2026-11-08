@@ -113,7 +113,7 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-10-21",
         "changes": {
           "text": "다른 <b>모든</b> 멀록이 공격력을 +1 얻습니다."
         }
@@ -144,7 +144,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "다른 모든 멀록이 공격력을 +1 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "성난비늘 수련사",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -155,7 +161,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "다른 <b>모든</b> 멀록이 공격력을 +1 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "성난비늘 수련사",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "6.1.14830",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.2.15153",
+      "platform": "iOS",
+      "name": "성난비늘 수련사",
+      "rawText": "내 다른 멀록들이 공격력을 +1 얻습니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-10-21"
     }
   ]
 }

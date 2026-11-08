@@ -91,7 +91,7 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "<b>선택 -</b> 하수인 하나에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다."
         }
@@ -125,7 +125,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>선택 -</b> 적에게 피해를 $5 줍니다. 또는 모든 적에게 피해를 $2 줍니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "별똥별",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -136,7 +142,24 @@
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>선택 -</b> 하수인 하나에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "별똥별",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "별똥별",
+      "rawText": "<b>선택 -</b> 하수인에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

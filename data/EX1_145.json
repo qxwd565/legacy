@@ -91,7 +91,7 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2019-06-04",
         "changes": {
           "text": "이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다."
         }
@@ -122,7 +122,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "마음가짐",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -133,7 +139,24 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "마음가짐",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "14.2.30795",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "14.4.31268",
+      "platform": "iOS",
+      "name": "마음가짐",
+      "rawText": "이번 턴에 내가 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2019-06-04"
     }
   ]
 }

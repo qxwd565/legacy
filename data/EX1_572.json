@@ -130,9 +130,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
         "changes": {
           "text": "내 턴이 끝날 때,<br><b>꿈 카드</b>를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "내 턴이 끝날 때,<br><b>꿈 카드</b> 1장을 내 손으로 가져옵니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "내 턴이 끝날 때, <b>꿈_카드</b>를 내 손으로 가져옵니다."
         }
       }
     ]
@@ -167,7 +181,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "당신의 턴이 끝날 때, 꿈 카드를 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "이세라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -178,13 +198,58 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때,\\n<b>꿈 카드</b>를 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "이세라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "내 턴이 끝날 때,\\n<b>꿈 카드</b>를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "이세라",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.1.6245",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "1.2.6485",
+      "platform": "iOS",
+      "name": "이세라",
+      "rawText": "내 턴이 끝날 때,\n<b>꿈 카드</b>를 1장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2014-09-23"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "이세라",
+      "rawText": "내 턴이 끝날 때,\n<b>꿈 카드</b> 1장을 내 손으로 가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "이세라",
+      "rawText": "내 턴이 끝날 때, <b>꿈_카드</b>를 내 손으로 가져옵니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

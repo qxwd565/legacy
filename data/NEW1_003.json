@@ -88,9 +88,23 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2018-10-03",
         "changes": {
           "text": "악마를 하나 처치합니다. 내 영웅이 생명력을 #5 회복합니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2020-05-13",
+        "changes": {
+          "text": "[x]악마를 처치합니다.<br>내 영웅이 생명력을<br>#5 회복합니다."
+        }
+      },
+      {
+        "from": "2020-05-13",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]아군 악마를 처치합니다.<br>내 영웅이 생명력을<br>#5 회복합니다."
         }
       }
     ]
@@ -119,7 +133,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "악마를 파괴합니다. 당신의 영웅이 생명력을 #5 회복합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "희생의 서약",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -130,13 +150,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "악마를 처치합니다. 내 영웅이 생명력을 #5 회복합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "희생의 서약",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "악마를 하나 처치합니다. 내 영웅이 생명력을 #5 회복합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "희생의 서약",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "희생의 서약",
+      "rawText": "[x]악마를 처치합니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "17.0.44222",
+      "displayFromKst": "2018-10-03"
+    },
+    {
+      "build": "17.2.47374",
+      "platform": "iOS",
+      "name": "희생의 서약",
+      "rawText": "[x]아군 악마를 처치합니다.\n내 영웅이 생명력을\n#5 회복합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-05-13"
     }
   ]
 }

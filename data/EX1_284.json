@@ -123,9 +123,23 @@
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>주문 공격력 +1</b>. <b>전투의 함성:</b> 카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2018-10-03",
+        "changes": {
+          "text": "<b>주문 공격력 +1</b><br><b>전투의 함성:</b><br>카드를 1장 뽑습니다."
+        }
+      },
+      {
+        "from": "2018-10-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "<b>주문 공격력 +1</b><br><b>전투의 함성:</b><br>카드를 뽑습니다."
         }
       }
     ]
@@ -154,7 +168,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>주문력 +1</b>. <b>전투의 함성:</b> 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "하늘빛 비룡",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -165,7 +185,36 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>주문 공격력 +1</b>. <b>전투의 함성:</b> 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "하늘빛 비룡",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "하늘빛 비룡",
+      "rawText": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b>\n카드를 1장 뽑습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "12.0.26265",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "12.2.26727",
+      "platform": "iOS",
+      "name": "하늘빛 비룡",
+      "rawText": "<b>주문 공격력 +1</b>\n<b>전투의 함성:</b>\n카드를 뽑습니다.",
+      "sets": [
+        3,
+        4
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-10-03"
     }
   ]
 }

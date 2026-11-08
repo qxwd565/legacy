@@ -103,9 +103,16 @@
       },
       {
         "from": "2013-12-11",
-        "before": "2014-07-23",
+        "before": "2015-08-19",
         "changes": {
           "text": "<b>비밀:</b> 내 하수인이 공격받으면 1/1 뱀을 셋 소환합니다."
+        }
+      },
+      {
+        "from": "2015-08-19",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 셋 소환합니다."
         }
       }
     ]
@@ -136,7 +143,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 당신의 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "뱀 덫",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -147,13 +160,47 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 하수인이 공격받으면 1/1 뱀을 3마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "뱀 덫",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3937",
+      "displayFromKst": "2013-10-03"
     },
     {
       "build": "1.0.0.4217",
       "platform": "Windows",
       "rawText": "<b>비밀:</b> 내 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11"
+      "northAmericaPatchDateKst": "2013-12-11",
+      "name": "뱀 덫",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.8.9554",
+      "displayFromKst": "2013-12-11"
+    },
+    {
+      "build": "3.0.9786",
+      "platform": "iOS",
+      "name": "뱀 덫",
+      "rawText": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 셋 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2015-08-19"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "뱀 덫",
+      "rawText": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2016-11-30"
     }
   ]
 }

@@ -99,9 +99,30 @@
     "history": [
       {
         "from": "2013-08-17",
-        "before": "2014-07-23",
+        "before": "2016-08-10",
         "changes": {
           "text": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다."
+        }
+      },
+      {
+        "from": "2016-08-10",
+        "before": "2016-11-30",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 생명력을<br>2 회복시킵니다."
+        }
+      },
+      {
+        "from": "2016-11-30",
+        "before": "2018-08-03",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b><br>생명력을 2 회복시킵니다."
+        }
+      },
+      {
+        "from": "2018-08-03",
+        "before": "2021-03-26",
+        "changes": {
+          "text": "[x]<b>전투의 함성:</b><br>생명력을 #2 회복시킵니다."
         }
       }
     ]
@@ -130,12 +151,51 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "부두교 의술사",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "5.2.13865",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
       "platform": "Windows",
       "rawText": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다."
+    },
+    {
+      "build": "6.0.13921",
+      "platform": "iOS",
+      "name": "부두교 의술사",
+      "rawText": "<b>전투의 함성:</b> 생명력을\n2 회복시킵니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "6.2.15153",
+      "displayFromKst": "2016-08-10"
+    },
+    {
+      "build": "7.0.15590",
+      "platform": "iOS",
+      "name": "부두교 의술사",
+      "rawText": "[x]<b>전투의 함성:</b>\n생명력을 2 회복시킵니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "11.4.25252",
+      "displayFromKst": "2016-11-30"
+    },
+    {
+      "build": "12.0.25770",
+      "platform": "iOS",
+      "name": "부두교 의술사",
+      "rawText": "[x]<b>전투의 함성:</b>\n생명력을 #2 회복시킵니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2018-08-03"
     }
   ]
 }

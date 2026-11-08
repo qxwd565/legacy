@@ -75,7 +75,8 @@
     "nativeRawText": "하수인에게 +2/+6을 부여합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "estimated",
+    "history": []
   },
   "root": true,
   "relatedIds": [],
@@ -95,5 +96,18 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "17.0.44222",
+      "platform": "iOS",
+      "name": "마력 주입",
+      "rawText": "하수인에게 +2/+6을 부여합니다.",
+      "sets": [
+        2
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2020-03-27"
+    }
+  ]
 }

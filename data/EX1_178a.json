@@ -81,12 +81,21 @@
         "from": "2013-08-17",
         "before": "2013-10-03",
         "changes": {
+          "name": "뿌리 박기",
           "text": "생명력 +5와 <b>도발</b>을 얻습니다."
         }
       },
       {
         "from": "2013-10-03",
-        "before": "2014-07-23",
+        "before": "2015-04-01",
+        "changes": {
+          "name": "뿌리 박기",
+          "text": "생명력 +5와 <b>도발</b> 능력을 얻습니다."
+        }
+      },
+      {
+        "from": "2015-04-01",
+        "before": "2017-08-09",
         "changes": {
           "text": "생명력 +5와 <b>도발</b> 능력을 얻습니다."
         }
@@ -117,7 +126,13 @@
       "build": "1.0.0.3664",
       "platform": "Windows",
       "rawText": "생명력 +5와 <b>도발</b>을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d"
+      "sourceAsset": "Data/cards.unity3d",
+      "name": "뿌리 박기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "1.0.0.3749",
+      "displayFromKst": "2013-08-17"
     },
     {
       "build": "1.0.0.3749",
@@ -128,7 +143,35 @@
       "build": "1.0.0.3890",
       "platform": "Windows",
       "rawText": "생명력 +5와 <b>도발</b> 능력을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-10-03"
+      "northAmericaPatchDateKst": "2013-10-03",
+      "name": "뿌리 박기",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "2.3.8108",
+      "displayFromKst": "2013-10-03"
+    },
+    {
+      "build": "2.4.8311",
+      "platform": "iOS",
+      "name": "뿌리 내리기",
+      "rawText": "생명력 +5와 <b>도발</b> 능력을 얻습니다.",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "8.4.20022",
+      "displayFromKst": "2015-04-01"
+    },
+    {
+      "build": "9.0.20374",
+      "platform": "iOS",
+      "name": "뿌리 내리기",
+      "rawText": "생명력 +5, <b>도발</b>",
+      "sets": [
+        3
+      ],
+      "lastObservedBuild": "19.6.74257",
+      "displayFromKst": "2017-08-09"
     }
   ],
   "historicalTokenSources": {
