@@ -4,6 +4,7 @@
 Source of current card data: cards.json (approved card catalogue).
 Source of historical deltas: data/<cardId>.json (card.history).
 Never overwrite curated current data with raw client snapshots.
+Card release dates are loaded from release-policy.json (Asia/Seoul).
 
 
 Generated endpoints:
@@ -63,12 +64,44 @@ def read_history(card: dict, name: str):
     return versions
 
 
+
+def release_for_card(record: dict, policy: dict):
+    """Korean-local first playable date; unknown dates are never invented."""
+    cid = record["id"]
+    rule = policy.get("default", {"date": None, "status": "pending"})
+    for prefix in sorted(policy.get("prefixes", {}), key=len, reverse=True):
+        if cid.startswith(prefix):
+            rule = policy["prefixes"][prefix]
+            break
+    rule = policy.get("cards", {}).get(cid, rule)
+    if not isinstance(rule, dict):
+        raise ValueError(f"Invalid release policy for {cid}")
+    day = rule.get("date")
+    status = rule.get("status", "pending" if day is None else "verified")
+    if day is not None:
+        if not isinstance(day, str) or not DATE_RE.fullmatch(day):
+            raise ValueError(f"{cid}: invalid Korean release date")
+        from datetime import date
+        date.fromisoformat(day)
+    if status not in ("verified", "estimated", "pending"):
+        raise ValueError(f"{cid}: invalid release confidence")
+    if status == "verified" and not day:
+        raise ValueError(f"{cid}: verified date cannot be null")
+    return day, status
+
+
 def main():
     source_path = ROOT / "cards.json"
     catalog = load(source_path)
     if catalog.get("schema") != 1 or not isinstance(catalog.get("cards"), list):
         raise ValueError("Unexpected cards.json schema")
     detailed = ROOT / "data"
+    release_policy_path = ROOT / "release-policy.json"
+    release_policy = load(release_policy_path) if release_policy_path.exists() else None
+    if release_policy is not None and release_policy.get("timezone") != "Asia/Seoul":
+        raise ValueError("Release dates must use Korea (Asia/Seoul)")
+    release_counts = {"verified": 0, "estimated": 0, "pending": 0}
+    changed_individual = 0
     history = {}
     renderer = []
     seen = set()
@@ -104,6 +137,19 @@ def main():
         # differences are delivered together. Absence of history means current.
         if path.is_file() and revisions:
             render_card["history"] = revisions
+        if release_policy is not None:
+            release_date, release_status = release_for_card(record, release_policy)
+            record["releasedAt"] = release_date
+            record["releaseStatus"] = release_status
+            render_card["releasedAt"] = release_date
+            # Consumers must not hide cards based on an estimated release date.
+            render_card["releaseStatus"] = release_status
+            release_counts[release_status] += 1
+            if path.is_file():
+                card["releasedAt"] = release_date
+                card["releaseStatus"] = release_status
+                if publish(path, data):
+                    changed_individual += 1
         renderer.append(render_card)
 
     files = {
@@ -115,7 +161,8 @@ def main():
     print(json.dumps({
         "set": catalog["set"], "cards": len(renderer),
         "datedCards": len(history),
-        "published": changed,
+        "published": changed, "releaseDates": release_counts,
+        "individualCardsUpdated": changed_individual,
     }, ensure_ascii=False))
 
 if __name__ == "__main__":
