@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Publish HScard API indexes from canonical per-card JSON.
 
-Source of current render data: data/<cardId>.json (with cards.json as
-the existing public-card membership and art filename list).
-Source of historic changes: card.history in data/<cardId>.json.
+Source of current card data: cards.json (approved card catalogue).
+Source of historical deltas: data/<cardId>.json (card.history).
+Never overwrite curated current data with raw client snapshots.
+
 
 Generated endpoints:
   cards.json   - current cards for WP JSON imports
@@ -18,12 +19,6 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CARD_FIELDS = (
-    "name", "text", "cost", "attack", "health", "durability", "armor",
-    "type", "cardClass", "rarity", "collectible", "race", "races",
-    "spellSchool", "classes", "mechanics", "nativeTags", "watermark",
-    "portrait", "artist", "flavor",
-)
 RENDER_FIELDS = (
     "id", "dbfId", "name", "type", "cardClass", "rarity", "collectible",
     "cost", "text", "attack", "health", "durability", "armor", "art",
@@ -38,7 +33,11 @@ def load(path: Path):
 
 
 def publish(path: Path, value):
-    rendered = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
+    # Runtime catalogues are compact; the editor-facing catalog stays readable.
+    if path.name in ("render.json", "history.json"):
+        rendered = json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n"
+    else:
+        rendered = json.dumps(value, ensure_ascii=False, indent=2) + "\n"
     if path.exists() and path.read_text(encoding="utf-8") == rendered:
         return False
     path.write_text(rendered, encoding="utf-8")
@@ -72,7 +71,6 @@ def main():
     history = {}
     renderer = []
     seen = set()
-    changed_current = 0
     for record in catalog["cards"]:
         if not isinstance(record, dict) or not isinstance(record.get("id"), str):
             raise ValueError("Invalid card in cards.json")
@@ -91,12 +89,8 @@ def main():
             card = data.get("card") if isinstance(data, dict) else None
             if not isinstance(card, dict) or card.get("id") != cid or card.get("dbfId") != record.get("dbfId"):
                 raise ValueError(f"{cid}: source card ID mismatch")
-            # Preserve the catalog's published art filename and set mapping;
-            # individual JSON is authoritative for native card properties.
-            for field in CARD_FIELDS:
-                if field in card and card[field] is not None and record.get(field) != card[field]:
-                    record[field] = card[field]
-                    changed_current += 1
+            # Preserve the approved current card catalogue exactly. Individual
+            # JSON owns historical changes only until current data is reconciled.
             revisions = read_history(card, cid)
             if revisions:
                 history[str(record["dbfId"])] = {"id": cid, "history": revisions}
@@ -114,7 +108,7 @@ def main():
     changed = [name for name, value in files.items() if publish(ROOT / name, value)]
     print(json.dumps({
         "set": catalog["set"], "cards": len(renderer),
-        "datedCards": len(history), "currentFieldsUpdated": changed_current,
+        "datedCards": len(history),
         "published": changed,
     }, ensure_ascii=False))
 
