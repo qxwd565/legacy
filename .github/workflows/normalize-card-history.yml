@@ -19,11 +19,13 @@ jobs:
           persist-credentials: true
       - name: Normalize per-card JSON and render catalog
         run: python3 tools/normalize-history.py
+      - name: Build compact history index
+        run: python3 tools/build-history-index.py
       - name: Commit generated API data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json data
+          git add -- cards.json render.json history.json data
           if ! git diff --cached --quiet; then
             git commit -m "Normalize historical card JSON and compact render API [skip ci]"
             git push
