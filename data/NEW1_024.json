@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 5,
-    "health": 4,
+    "health": 5,
     "attack": 5,
     "armor": 0,
     "durability": 0,
@@ -102,7 +102,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 내 무기에 +1/+1을 부여합니다."
+          "text": "<b>전투의 함성:</b> 내 무기에 +1/+1을 부여합니다.",
+          "health": 4
         }
       }
     ]

@@ -12,7 +12,7 @@
     "battlegroundsBuddyDbfId": 0,
     "cost": 4,
     "health": 1,
-    "attack": 4,
+    "attack": 1,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -107,7 +107,8 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "<b>전투의 함성:</b> 내 손에 있는 카드 1장당 생명력을 +1 얻습니다."
+          "text": "<b>전투의 함성:</b> 내 손에 있는 카드 1장당 생명력을 +1 얻습니다.",
+          "attack": 4
         }
       },
       {

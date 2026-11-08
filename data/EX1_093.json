@@ -123,6 +123,18 @@
     "releaseStatus": "estimated",
     "patches": [
       {
+        "date": "2014-01-17",
+        "changes": {
+          "attack": 2
+        }
+      },
+      {
+        "date": "2021-03-26",
+        "changes": {
+          "attack": 3
+        }
+      },
+      {
         "date": "2024-10-30",
         "changes": {
           "races": [

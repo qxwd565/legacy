@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 8,
-    "health": 6,
+    "health": 5,
     "attack": 3,
     "armor": 0,
     "durability": 0,
@@ -139,7 +139,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>"
+          "text": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
+          "health": 6
         }
       }
     ]

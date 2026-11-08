@@ -11,7 +11,7 @@
     "battlegroundsRelatedCard": 0,
     "battlegroundsBuddyDbfId": 0,
     "cost": 5,
-    "health": 8,
+    "health": 7,
     "attack": 2,
     "armor": 0,
     "durability": 0,
@@ -113,7 +113,8 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "[x]이 하수인은 피해를\n받을 때마다 공격력을\n+3 얻습니다."
+          "text": "[x]이 하수인은 피해를\n받을 때마다 공격력을\n+3 얻습니다.",
+          "health": 8
         }
       }
     ]

@@ -11,8 +11,8 @@
     "battlegroundsRelatedCard": 1006,
     "battlegroundsBuddyDbfId": 0,
     "cost": 6,
-    "health": 7,
-    "attack": 9,
+    "health": 6,
+    "attack": 10,
     "armor": 0,
     "durability": 0,
     "nativeSetId": 3,
@@ -143,7 +143,9 @@
       {
         "date": "2013-10-03",
         "changes": {
-          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
+          "attack": 9,
+          "health": 7
         }
       },
       {
