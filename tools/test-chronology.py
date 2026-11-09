@@ -134,6 +134,28 @@ def main():
     assert "5/5" in value_at("EX1_110", "text", "2021-03-26")
     assert "피해를 2" in value_at("EX1_134", "text", "2025-03-18")
     assert "피해를 3" in value_at("EX1_134", "text", "2025-03-19")
+    # Later effect changes must not replace the 2021 snapshot.
+    assert "속공" in value_at("EX1_084", "text", "2023-04-04")
+    assert "돌진" in value_at("EX1_084", "text", "2023-04-05")
+    assert "5/4" in value_at("EX1_165", "text", "2023-04-04")
+    assert "7/6" in value_at("EX1_165", "text", "2023-04-05")
+    assert value_at("EX1_165t1", "mechanics", "2021-03-25") == ["CHARGE"]
+    assert value_at("EX1_165t1", "mechanics", "2021-03-26") == ["RUSH"]
+    assert "#2" in value_at("CS2_097", "text", "2023-04-04")
+    assert "#3" in value_at("CS2_097", "text", "2023-04-05")
+    assert "공격력을 +1" in value_at("CS3_014", "text", "2021-03-31")
+    assert "초과 치유" in value_at("CS3_014", "text", "2023-04-05")
+    assert "5 회복" in value_at("NEW1_008b", "text", "2023-04-04")
+    assert "7 회복" in value_at("NEW1_008b", "text", "2023-04-05")
+    assert "(2)" in value_at("EX1_259", "text", "2023-04-27")
+    assert "(1)" in value_at("EX1_259", "text", "2023-04-28")
+    assert "모든 적 하수인에게" in value_at("CS1_112", "text", "2023-04-04")
+    assert "모든 적에게" in value_at("CS1_112", "text", "2023-04-05")
+    assert "모든 적 하수인에게" in value_at("CS1_112", "text", "2023-04-28")
+    assert "$4" in value_at("EX1_609", "text", "2023-08-22")
+    assert "$6" in value_at("EX1_609", "text", "2023-08-23")
+    assert "$2" in value_at("EX1_320", "text", "2023-08-22")
+    assert "$3" in value_at("EX1_320", "text", "2023-08-23")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "CS3_014",
     "name": "진홍십자군 성직자",
-    "text": "<b>초과 치유:</b> 카드를 뽑습니다.",
+    "text": "[x]아군 캐릭터가 치유된 후에,<br></br>공격력을 +1 얻습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PRIEST",
@@ -86,7 +86,14 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2021-03-31",
     "releaseStatus": "verified",
-    "patches": []
+    "patches": [
+      {
+        "date": "2023-04-05",
+        "changes": {
+          "text": "<b>초과 치유:</b> 카드를 뽑습니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

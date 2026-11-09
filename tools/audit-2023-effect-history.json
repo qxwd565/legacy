@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "Ten Legacy cards including a form token; restore 2021 states and date verified later gameplay changes. Not an exhaustive set audit.",
+  "sources": {
+    "2021-state": "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+    "2021-date": "https://hearthstone.blizzard.com/ko-kr/news/23642550",
+    "2023-04-05-date": "https://hearthstone.blizzard.com/ko-kr/news/23934449",
+    "2023-04-05-core-specs": "https://bnetcmsus-a.akamaihd.net/cms/content_folder_media/J81FFJK7HBIY1679513476057.pdf",
+    "2023-04-28-specs": "https://hearthstone.blizzard.com/ko-kr/news/23935323",
+    "2023-04-28-kst-corroboration": "https://www.inven.co.kr/board/hs/3508/19703",
+    "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+  },
+  "dateBasis": "26.0 Korean notes explicitly say April 5; 27.2 says August 23. 26.0.4 live announcement is corroborated by Korean report April 28 01:00 and official US forum April 27 16:00 UTC.",
+  "changes": [
+    {
+      "id": "EX1_084",
+      "date": "2023-04-05",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "EX1_165",
+      "date": "2023-04-05",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "CS2_097",
+      "date": "2023-04-05",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "NEW1_008b",
+      "date": "2023-04-05",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "EX1_259",
+      "date": "2023-04-28",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "EX1_609",
+      "date": "2023-08-23",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "EX1_320",
+      "date": "2023-08-23",
+      "effect": "Restore 2021 state and date the later gameplay text change"
+    },
+    {
+      "id": "EX1_165t1",
+      "date": "2021-03-26",
+      "effect": "Date Charge to Rush mechanic consistently with existing text change"
+    },
+    {
+      "id": "CS3_014",
+      "date": "2023-04-05",
+      "effect": "Restore first-release attack-gain text before Overheal rework"
+    },
+    {
+      "id": "CS1_112",
+      "date": [
+        "2023-04-05",
+        "2023-04-28"
+      ],
+      "effect": "Restore temporary all-enemies targeting between Core refresh and 26.0.4"
+    }
+  ]
+}
