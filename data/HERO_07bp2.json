@@ -4,10 +4,15 @@
     "cost": 2,
     "id": "HERO_07bp2",
     "name": "영혼 전환",
-    "text": "<b>영웅 능력</b><br></br>카드를 뽑습니다.",
     "type": "HERO_POWER",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
     "collectible": false
+  },
+  "2015-08-25": {
+    "text": "<b>영웅 능력</b><br></br>카드를 1장 뽑습니다."
+  },
+  "2018-10-03": {
+    "text": "<b>영웅 능력</b><br></br>카드를 뽑습니다."
   }
 }

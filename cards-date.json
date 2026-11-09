@@ -36427,11 +36427,11 @@
       "cost": 2,
       "id": "HERO_02bp2",
       "name": "토템 지배",
-      "text": "<b>영웅 능력</b><br></br>내가 원하는 토템을 소환합니다.",
       "type": "HERO_POWER",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>내가 원하는 토템을 소환합니다."
     },
     {
       "art": "art/HERO_03bp.png",
@@ -36519,11 +36519,11 @@
       "cost": 2,
       "id": "HERO_03bp2",
       "name": "독 묻은 단검",
-      "text": "<b>영웅 능력</b><br></br>2/2 무기를 장착합니다.",
       "type": "HERO_POWER",
       "cardClass": "ROGUE",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>2/2 무기를 장착합니다."
     },
     {
       "art": "art/HERO_04bp.png",
@@ -36872,11 +36872,11 @@
       "cost": 2,
       "id": "HERO_07bp2",
       "name": "영혼 전환",
-      "text": "<b>영웅 능력</b><br></br>카드를 뽑습니다.",
       "type": "HERO_POWER",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>카드를 뽑습니다."
     },
     {
       "art": "art/HERO_08bp.png",
@@ -36964,11 +36964,11 @@
       "cost": 2,
       "id": "HERO_08bp2",
       "name": "강화된 화염 작렬",
-      "text": "<b>영웅 능력</b><br></br>피해를 $2 줍니다.",
       "type": "HERO_POWER",
       "cardClass": "MAGE",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>피해를 $2 줍니다."
     },
     {
       "art": "art/HERO_09bp.png",
@@ -37051,11 +37051,11 @@
       "cost": 2,
       "id": "HERO_09bp2",
       "name": "치유",
-      "text": "<b>영웅 능력</b><br></br>생명력을 #4 회복시킵니다.",
       "type": "HERO_POWER",
       "cardClass": "PRIEST",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>생명력을 #4 회복시킵니다."
     },
     {
       "art": "art/HERO_10bp.png",

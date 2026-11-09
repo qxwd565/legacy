@@ -7,10 +7,15 @@
     "type": "HERO_POWER",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "collectible": false,
+    "collectible": false
+  },
+  "2015-08-25": {
+    "text": "<b>영웅 능력</b><br></br> 방어도 +2.<br></br>이번 턴에만 공격력 +2."
+  },
+  "2017-08-09": {
     "text": "<b>영웅 능력</b><br></br>방어도를 +2 얻고, 이번 턴에 공격력을 +2 얻습니다."
   },
-  "2023-09-20": {
+  "2023-04-05": {
     "text": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다."
   }
 }

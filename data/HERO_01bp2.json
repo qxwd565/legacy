@@ -7,10 +7,12 @@
     "type": "HERO_POWER",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "collectible": false,
+    "collectible": false
+  },
+  "2015-08-25": {
     "text": "<b>영웅 능력</b><br></br>방어도를 +4 얻습니다."
   },
-  "2023-09-20": {
+  "2023-04-05": {
     "text": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다."
   }
 }
