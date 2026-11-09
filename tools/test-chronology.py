@@ -313,6 +313,13 @@ def main():
     assert "CHARGE" not in value_at("EX1_089", "mechanics", "2021-03-25")
     assert "CHARGE" in value_at("EX1_089", "mechanics", "2021-03-26")
     assert value_at("EX1_089", "health", "2021-03-26") == 2
+    # 17.0.2 was deployed on April 21 KST; April 17 was announcement.
+    assert value_at("BT_495", "attack", "2020-04-20") == 7
+    assert value_at("BT_495", "attack", "2020-04-21") == 6
+    assert "아군 악마" not in value_at("NEW1_003", "text", "2020-04-20")
+    assert "아군 악마" in value_at("NEW1_003", "text", "2020-04-21")
+    for cid in ("BT_495", "NEW1_003"):
+        assert not any(e["date"] in ("2020-04-18", "2020-05-13") for e in get(cid)["patches"])
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "build": "17.0.2.45932",
+  "effectiveDateKst": "2020-04-21",
+  "dateBasis": "2020-04-17 US was announcement, not deployment. Blizzard Korean forum on Apr 21 confirmed live. US patch wiki confirms live on Apr 20 US.",
+  "sources": [
+    "https://kr.forums.blizzard.com/ko/hearthstone/t/%EA%B3%B5%EC%A7%80-1702-%EB%B0%B8%EB%9F%B0%EC%8A%A4-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EC%95%88%EB%82%B4/1737",
+    "https://hearthstone.wiki.gg/wiki/Patch_17.0.2.45932",
+    "https://www.inven.co.kr/board/hs/3508/16197"
+  ],
+  "changes": [
+    {
+      "id": "BT_495",
+      "field": "attack",
+      "oldDate": "2020-04-18",
+      "newDate": "2020-04-21",
+      "from": 7,
+      "to": 6
+    },
+    {
+      "id": "NEW1_003",
+      "field": "text",
+      "oldDate": "2020-05-13",
+      "newDate": "2020-04-21",
+      "from": "Destroy a Demon",
+      "to": "Destroy a friendly Demon"
+    }
+  ],
+  "note": "Values and first-release baselines preserved; only patch effective dates corrected."
+}
