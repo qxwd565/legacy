@@ -264,6 +264,47 @@ def main():
     assert "STEALTH" in value_at("EX1_613", "mechanics", "2013-10-02")
     assert "STEALTH" not in value_at("EX1_613", "mechanics", "2013-10-03")
     assert "COMBO" in value_at("EX1_613", "mechanics", "2013-10-03")
+    # Cross-check the three full official beta balance notes in KST.
+    # 4217 was effective Dec 12 on the Korean server; 4458 Jan 17.
+    for cid, field, previous, updated in (
+        ("CS1_113", "cost", 8, 10),
+        ("CS2_237", "health", 2, 1),
+        ("EX1_067", "health", 3, 2),
+        ("EX1_019", "health", 3, 2),
+        ("EX1_538", "cost", 1, 4),
+    ):
+        assert value_at(cid, field, "2013-12-11") == previous, (cid, field, "before 4217")
+        assert value_at(cid, field, "2013-12-12") == updated, (cid, field, "after 4217")
+    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-11")
+    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-12")
+    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-11")
+    assert "사냥개" in value_at("EX1_538", "text", "2013-12-12")
+    for cid, field, previous, updated in (
+        ("EX1_538", "cost", 4, 2),
+        ("EX1_279", "cost", 8, 10),
+        ("CS2_059", "attack", 1, 0),
+        ("EX1_093", "attack", 3, 2),
+        ("EX1_015", "health", 2, 1),
+        ("EX1_016", "cost", 5, 6),
+    ):
+        assert value_at(cid, field, "2014-01-16") == previous, (cid, field, "before 4458")
+        assert value_at(cid, field, "2014-01-17") == updated, (cid, field, "after 4458")
+    assert "공격력 +2" not in value_at("CS2_103", "text", "2014-01-16")
+    assert "공격력 +2" in value_at("CS2_103", "text", "2014-01-17")
+    assert "공격력이 3 이하" in value_at("EX1_084", "text", "2014-01-17")
+    assert "이번 턴" not in value_at("EX1_046", "text", "2014-01-16")
+    assert "이번 턴" in value_at("EX1_046", "text", "2014-01-17")
+    assert "이번 턴" not in value_at("CS2_188", "text", "2014-01-16") or "아군" in value_at("CS2_188", "text", "2014-01-16")
+    assert "이번 턴" in value_at("CS2_188", "text", "2014-01-17")
+    # 4944 included two real gameplay changes but no rarity-only changes.
+    assert value_at("EX1_083", "attack", "2014-03-11") == 2
+    assert value_at("EX1_083", "health", "2014-03-11") == 2
+    assert value_at("EX1_083", "attack", "2014-03-12") == 3
+    assert value_at("EX1_083", "health", "2014-03-12") == 3
+    assert "다른 무작위" not in value_at("EX1_083", "text", "2014-03-11")
+    assert "다른 무작위" in value_at("EX1_083", "text", "2014-03-12")
+    assert "턴이 끝날 때" in value_at("EX1_557", "text", "2014-03-11")
+    assert "턴이 시작될 때" in value_at("EX1_557", "text", "2014-03-12")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

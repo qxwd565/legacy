@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "scope": "Closed-beta official balance notes full performance-change verification. All entries were already dated; no duplicate changes created. Cosmetic/bug-only/rarity-only changes excluded.",
+  "patches": [
+    {
+      "build": "1.0.0.4217",
+      "effectiveKst": "2013-12-12",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/11868609",
+      "dateEvidence": "beta-patch-dates.json and Korean regional rollout",
+      "checked": [
+        {
+          "card": "CS1_113",
+          "change": "cost 8→10"
+        },
+        {
+          "card": "CS2_237",
+          "change": "health 2→1"
+        },
+        {
+          "card": "EX1_319",
+          "change": "self-battlecry damage 2→3"
+        },
+        {
+          "card": "EX1_067",
+          "change": "health 3→2"
+        },
+        {
+          "card": "EX1_019",
+          "change": "health 3→2"
+        },
+        {
+          "card": "EX1_538",
+          "change": "1 mana old buff→4 mana summon a charging 1/1 for each enemy minion"
+        }
+      ]
+    },
+    {
+      "build": "1.0.0.4458",
+      "effectiveKst": "2014-01-17",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/12346803",
+      "checked": [
+        {
+          "card": "EX1_538",
+          "change": "cost 4→2"
+        },
+        {
+          "card": "EX1_279",
+          "change": "cost 8→10"
+        },
+        {
+          "card": "CS2_059",
+          "change": "attack 1→0 and Battlecry/Aura rework"
+        },
+        {
+          "card": "EX1_084",
+          "change": "Charge only to summoned minions with attack ≤3"
+        },
+        {
+          "card": "CS2_103",
+          "change": "spell grants +2 attack and Charge"
+        },
+        {
+          "card": "CS2_188",
+          "change": "buff now temporary this turn"
+        },
+        {
+          "card": "EX1_046",
+          "change": "buff now temporary this turn"
+        },
+        {
+          "card": "EX1_093",
+          "change": "attack 3→2"
+        },
+        {
+          "card": "EX1_015",
+          "change": "health 2→1"
+        },
+        {
+          "card": "EX1_016",
+          "change": "cost 5→6"
+        }
+      ]
+    },
+    {
+      "build": "1.0.0.4944",
+      "effectiveKst": "2014-03-12",
+      "source": "https://hearthstone.blizzard.com/en-gb/news/13154924",
+      "checked": [
+        {
+          "card": "EX1_083",
+          "change": "attack/health 2/2→3/3; transform random minion"
+        },
+        {
+          "card": "EX1_557",
+          "change": "draw chance moves from end to start of turn"
+        }
+      ]
+    }
+  ],
+  "result": "All 18 official changed-card entries are recorded, compatible and regression tested."
+}
