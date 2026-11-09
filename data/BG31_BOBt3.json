@@ -1,73 +1,13 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "card": {
+  "2024-12-11": {
     "id": "BG31_BOBt3",
     "dbfId": 117726,
     "name": "선술집 새로고침",
     "text": "비용이 3인 하수인을 <b>발견</b>합니다. 마나 수정을 3개 회복합니다.",
     "type": "SPELL",
-    "nativeSetId": 1941,
-    "set": "LEGACY",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
     "cost": 0,
-    "attack": 0,
-    "health": 0,
-    "armor": 0,
-    "durability": 0,
-    "collectible": false,
-    "installed": true,
-    "portrait": null,
-    "nativeTags": [
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 415,
-        "name": "발견",
-        "value": 1
-      },
-      {
-        "id": 684,
-        "name": "HIDE_COST",
-        "value": 1
-      },
-      {
-        "id": 1342,
-        "name": "USE_DISCOVER_VISUALS",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "비용이 3인 하수인을 <b>발견</b>합니다. 마나 수정을 3개 회복합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2024-12-11",
-    "releaseStatus": "verified",
-    "patches": []
-  },
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "collectible": false
   }
 }

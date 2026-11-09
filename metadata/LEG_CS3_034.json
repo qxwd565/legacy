@@ -1,0 +1,254 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LEG_CS3_034",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2021-03-31",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Malygos the Spellweaver",
+    "card": {
+      "dbfId": 120580,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 9,
+      "health": 12,
+      "attack": 4,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "DRAGON"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "LEG_CS3_034",
+      "name": "마법의 지배자 말리고스",
+      "text": "[x]<b>전투의 함성:</b><br></br>내 손이 가득 찰 때까지<br></br>주문을 뽑습니다.",
+      "set": "LEGACY",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "race": "용족",
+      "flavor": "수많은 해가 지나고, 말리고스는 필멸자들의 마법 사용을 허가했습니다. 모든 마법을요!",
+      "portrait": "CLA-052_M.tif:7d9d517b28b240d1aed97709d92dc841",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 12
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 858,
+          "name": "게임 태그 858",
+          "value": 66869
+        },
+        {
+          "id": 1413,
+          "name": "게임 태그 1413",
+          "value": 66869
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n내 손이 가득 찰 때까지\n주문을 뽑습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LEG_CS3_034",
+    "dbfId": 120580,
+    "name": "마법의 지배자 말리고스",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "[x]<b>전투의 함성:</b><br></br>내 손이 가득 찰 때까지<br></br>주문을 뽑습니다.",
+    "attack": 4,
+    "health": 12,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/LEG_CS3_034.png",
+    "set": "legacy",
+    "flavor": "수많은 해가 지나고, 말리고스는 필멸자들의 마법 사용을 허가했습니다. 모든 마법을요!",
+    "race": "용족",
+    "races": [
+      "DRAGON"
+    ],
+    "portrait": "CLA-052_M.tif:7d9d517b28b240d1aed97709d92dc841",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 12
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 66869
+      },
+      {
+        "id": 1413,
+        "name": "게임 태그 1413",
+        "value": 66869
+      }
+    ],
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

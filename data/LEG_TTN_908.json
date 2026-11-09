@@ -1,131 +1,14 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Crusader Aura",
-  "card": {
+  "2021-03-31": {
     "dbfId": 130586,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 4,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "LEG_TTN_908",
     "name": "성전사의 오라",
     "text": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.<br></br>3턴 동안 지속됩니다.",
-    "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "EPIC",
-    "flavor": "내 애니메이션 재생 속도도 20% 빨라집니다.",
     "spellSchool": "HOLY",
-    "portrait": "HS29-188_S.tif:7b47a05a5fb54afca2444e62909a15a1",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 2,
-        "name": "TAG_SCRIPT_DATA_NUMBER_1",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 535,
-        "name": "QUEST_PROGRESS_TOTAL",
-        "value": 3
-      },
-      {
-        "id": 858,
-        "name": "게임 태그 858",
-        "value": 96917
-      },
-      {
-        "id": 1413,
-        "name": "게임 태그 1413",
-        "value": 96917
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      },
-      {
-        "id": 1724,
-        "name": "게임 태그 1724",
-        "value": 1
-      },
-      {
-        "id": 2311,
-        "name": "OBJECTIVE",
-        "value": 1
-      },
-      {
-        "id": 3429,
-        "name": "PALADIN_AURA",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.\n@턴 동안 지속됩니다.",
-    "nativeTextBuilder": 7,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated",
-    "patches": []
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "collectible": true
   }
 }

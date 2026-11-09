@@ -1,194 +1,24 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Dragonling Mechanic",
-  "card": {
+  "2013-08-17": {
     "dbfId": 523,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 59,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 4,
     "health": 4,
     "attack": 2,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_025",
     "name": "기계용 정비사",
     "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "flavor": "앙앙이에게 로켓 발사기를 장착하려고 요즘 고민 중입니다.",
-    "portrait": "W2_265_D.psd:b64b9e832a54c7f4f8b0d61f1f8188c6",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 59
-      }
-    ],
-    "nativeRawText": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 1마리 소환합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b><br></br>2/1 소형 기계용을<br></br>1마리 소환합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [
-    59
-  ],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-12-12": {
+    "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 1마리 소환합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2016-08-10": {
+    "text": "[x]<b>전투의 함성:</b><br></br>2/1 소형 기계용을<br></br>1마리 소환합니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "기계용 정비사",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 2/1 소형 기계용을 1마리 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "기계용 정비사",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "기계용 정비사",
-      "rawText": "[x]<b>전투의 함성:</b>\n2/1 소형 기계용을\n1마리 소환합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "기계용 정비사",
-      "rawText": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
+  }
 }

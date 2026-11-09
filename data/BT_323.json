@@ -1,137 +1,19 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Sightless Watcher",
-  "card": {
+  "2020-04-08": {
     "dbfId": 56973,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 2,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "DEMON"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "BT_323",
     "name": "눈먼 감시자",
     "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 <br></br>카드 3장을 봅니다.<br></br>1장을 선택하여 내 덱 <br></br>맨 위에 놓습니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
     "race": "악마",
-    "flavor": "눈은 멀었지만, 그 대신 빛보다 빠른 손기술을 가졌습니다. 아니, 촉수기술이라 해야 하나요?",
-    "portrait": "HS19-010.tif:8f64b5e611624cd7a2500dc743b6513a",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 14
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 15
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 1
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1543,
-        "name": "게임 태그 1543",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "[x]<b>전투의 함성:</b> 내 덱에 있는 \n카드 3장을 봅니다.\n1장을 선택하여 내 덱 \n맨 위에 놓습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2020-04-08",
-    "releaseStatus": "verified",
-    "patches": []
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "17.0.44222",
-      "platform": "iOS",
-      "name": "눈먼 감시자",
-      "rawText": "[x]<b>전투의 함성:</b> 내 덱에 있는 \n카드 3장을 봅니다.\n1장을 선택하여 내 덱 \n맨 위에 놓습니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2020-03-27"
-    }
-  ]
+    "collectible": true
+  }
 }

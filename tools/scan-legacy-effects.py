@@ -61,7 +61,8 @@ def main():
             continue
         modern=wanted[cid]
         path=ROOT/"data"/f"{cid}.json"
-        card=json.loads(path.read_text(encoding="utf-8")).get("card",{}) if path.exists() else {}
+        from date_schema import compatibility_card
+        card=compatibility_card(ROOT,cid) if path.exists() else {}
         recent=[{"date":p["date"],"text":p["changes"]["text"]}
                 for p in card.get("patches",[])
                 if p["date"]>"2021-03-26" and "text" in p["changes"]]

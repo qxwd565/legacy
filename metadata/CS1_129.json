@@ -1,0 +1,249 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "CS1_129",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Inner Fire",
+    "card": {
+      "dbfId": 376,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 1,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "CS1_129",
+      "name": "내면의 열정",
+      "text": "하수인의 공격력을 생명력과 같은 수치로 바꿉니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "PRIEST",
+      "rarity": "COMMON",
+      "flavor": "추천: 하수인 강화하기. 비추: 불모의 땅에서 대화 상대 찾기",
+      "portrait": "W9_A132_D.psd:eef9e23cf7c8bf94e91dfe53b0c8f8f1",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]하수인의 공격력을\n생명력과 같은 수치로\n바꿉니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "하수인 하나의 공격력을 생명력과 같은 수치로 바꿉니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "[x]하수인의 공격력을<br></br>생명력과 같은 수치로<br></br>바꿉니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "하수인의 공격력을 생명력과 같은 수치로 바꿉니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "내면의 열정",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "하수인의 공격력을 생명력과 같은 수치로 바꿉니다."
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "하수인 하나의 공격력을 생명력과 같은 수치로 바꿉니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "내면의 열정",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "내면의 열정",
+        "rawText": "[x]하수인의 공격력을\n생명력과 같은 수치로\n바꿉니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "CS1_129",
+    "dbfId": 376,
+    "name": "내면의 열정",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]하수인의 공격력을<br></br>생명력과 같은 수치로<br></br>바꿉니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/CS1_129.png",
+    "artist": "Steve Prescott",
+    "flavor": "추천: 하수인 강화하기. 비추: 불모의 땅에서 대화 상대 찾기",
+    "set": "legacy",
+    "portrait": "W9_A132_D.psd:eef9e23cf7c8bf94e91dfe53b0c8f8f1",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

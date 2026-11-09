@@ -1,0 +1,76 @@
+{
+  "id": "EX1_323",
+  "correction": "Separate the original 3/15 Demon minion from the 20.0 playable hero card; keep EX1_323h transformed hero health separately.",
+  "effectiveKst": "2021-03-26",
+  "dateSource": "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
+  "datePolicy": "tools/archived-build-dates.json builds.20.0.0.77662",
+  "observations": [
+    {
+      "build": "2.4.0.8311",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "fileSha256": "4a53fc1c84431ea8631815755f88ae017145f41da6b1a4cc8233a77e820a78ad",
+      "dbfId": 777,
+      "tags": {
+        "45": {
+          "name": "HEALTH",
+          "value": "15",
+          "cardID": null
+        },
+        "47": {
+          "name": "ATK",
+          "value": "3",
+          "cardID": null
+        },
+        "48": {
+          "name": "COST",
+          "value": "9",
+          "cardID": null
+        },
+        "200": {
+          "name": "CARDRACE",
+          "value": "15",
+          "cardID": null
+        },
+        "202": {
+          "name": "CARDTYPE",
+          "value": "4",
+          "cardID": null
+        }
+      }
+    },
+    {
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "fileSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+      "dbfId": 777,
+      "tags": {
+        "45": {
+          "name": "HEALTH",
+          "value": "30",
+          "cardID": null
+        },
+        "48": {
+          "name": "COST",
+          "value": "9",
+          "cardID": null
+        },
+        "202": {
+          "name": "CARDTYPE",
+          "value": "3",
+          "cardID": null
+        },
+        "292": {
+          "name": "ARMOR",
+          "value": "5",
+          "cardID": null
+        },
+        "380": {
+          "name": "HERO_POWER",
+          "value": "1178",
+          "cardID": "EX1_tk33"
+        }
+      }
+    }
+  ],
+  "confidence": "20.0 transition verified; pre-existing release date remains estimated, all baseline fields not globally certified"
+}

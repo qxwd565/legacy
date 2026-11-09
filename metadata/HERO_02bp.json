@@ -1,0 +1,218 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "HERO_02bp",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Totemic Call",
+    "card": {
+      "dbfId": 687,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "HERO_02bp",
+      "name": "토템 소환",
+      "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
+      "set": "LEGACY",
+      "type": "HERO_POWER",
+      "cardClass": "SHAMAN",
+      "rarity": "FREE",
+      "flavor": "",
+      "portrait": "W11_138_D.psd:8bba5f9e9d6cbe94496db130c6fedc1a",
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 2
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 1086,
+          "name": "게임 태그 1086",
+          "value": 2742
+        }
+      ],
+      "nativeRawText": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2020-05-13",
+          "changes": {
+            "text": "<b>영웅 능력</b><br></br>무작위 토템을 소환합니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다."
+          }
+        }
+      ]
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "17.2.47374",
+        "platform": "iOS",
+        "name": "토템 소환",
+        "rawText": "<b>영웅 능력</b>\n무작위 토템을 소환합니다.",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2020-05-13"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "HERO_02bp",
+    "dbfId": 687,
+    "name": "토템 소환",
+    "type": "HERO_POWER",
+    "cardClass": "SHAMAN",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 2,
+    "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/HERO_02bp.png",
+    "set": "legacy",
+    "portrait": "W11_138_D.psd:8bba5f9e9d6cbe94496db130c6fedc1a",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 1086,
+        "name": "게임 태그 1086",
+        "value": 2742
+      }
+    ],
+    "watermark": "NONE",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

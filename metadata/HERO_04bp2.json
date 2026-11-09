@@ -1,0 +1,164 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "HERO_04bp2",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "The Silver Hand",
+    "card": {
+      "dbfId": 2740,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "HERO_04bp2",
+      "name": "은빛 성기사단",
+      "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
+      "set": "LEGACY",
+      "type": "HERO_POWER",
+      "cardClass": "PALADIN",
+      "rarity": "FREE",
+      "flavor": "",
+      "portrait": "Paladin_power2_D.psd:e7a6670877cf78141be8e90be7cb8064",
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        }
+      ],
+      "nativeRawText": "[x]<b>영웅 능력</b>\n{0} 은빛 성기사단\n신병을 2명 소환합니다.",
+      "nativeTextBuilder": 46,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "17.2.47374",
+        "platform": "iOS",
+        "name": "은빛 성기사단",
+        "rawText": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다.",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2020-05-13"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "HERO_04bp2",
+    "dbfId": 2740,
+    "name": "은빛 성기사단",
+    "type": "HERO_POWER",
+    "cardClass": "PALADIN",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 2,
+    "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/HERO_04bp2.png",
+    "set": "legacy",
+    "portrait": "Paladin_power2_D.psd:e7a6670877cf78141be8e90be7cb8064",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 10
+      }
+    ],
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

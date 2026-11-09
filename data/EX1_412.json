@@ -1,160 +1,21 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Raging Worgen",
-  "card": {
+  "2013-08-17": {
     "dbfId": 1155,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 3,
     "health": 3,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "ENRAGED"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_412",
     "name": "흉포한 늑대인간",
     "text": "<b>격노:</b> <b>질풍</b>, 공격력 +1",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "flavor": "지금 너무 흉포한가요? 조금만 기다려 주세요. 저희가 조만간 순하게 바꿔 드릴지도 모르니까요.",
-    "portrait": "EX1_412_D.psd:7d3fcc00a249c8248a772dc4c2d0d634",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 189,
-        "name": "질풍",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 212,
-        "name": "ENRAGED",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2018-04-11",
-        "changes": {
-          "text": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>격노:</b> <b>질풍</b>, 공격력 +1",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "흉포한 늑대인간",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "10.4.23576",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>격노:</b> <b>질풍</b>, 공격력 +1"
-    },
-    {
-      "build": "11.0.23966",
-      "platform": "iOS",
-      "name": "흉포한 늑대인간",
-      "rawText": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-04-11"
-    }
-  ]
+  "2018-04-11": {
+    "text": "피해를 받은 상태면 <b>질풍</b>과 공격력을 +1 얻습니다."
+  }
 }

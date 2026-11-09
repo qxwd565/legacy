@@ -1,152 +1,21 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Deathbringer Saurfang",
-  "card": {
+  "2021-03-31": {
     "dbfId": 130593,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 5,
     "health": 6,
     "attack": 4,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "races": [],
-    "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_082",
     "name": "죽음의 인도자 사울팽",
     "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br>이 하수인을 내 손으로 다시 가져옵니다. 마나 대신 생명력을 비용으로 사용합니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "LEGENDARY",
-    "race": "",
-    "flavor": "\"지금 돌아보면... 분노의 관문에서 얼라이언스 녀석들이 재미 보게 양보할 걸 그랬어.\"",
-    "portrait": "HS27-011_M.tif:eb97034271844038b509300ef0aefc75",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 6
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 1
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 11
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 858,
-        "name": "게임 태그 858",
-        "value": 78644
-      },
-      {
-        "id": 1413,
-        "name": "게임 태그 1413",
-        "value": 78644
-      },
-      {
-        "id": 1932,
-        "name": "HAS_DIAMOND_QUALITY",
-        "value": 1
-      },
-      {
-        "id": 2196,
-        "name": "혈기 룬 비용",
-        "value": 2
-      }
+    "collectible": true
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
     ],
-    "nativeRawText": "<b>도발</b>, <b>죽음의 메아리:</b>\n이 하수인을 내 손으로 다시 가져옵니다. 마나 대신 생명력을 비용으로 사용합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ],
-          "race": "언데드"
-        }
-      }
-    ]
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "race": "언데드"
   }
 }

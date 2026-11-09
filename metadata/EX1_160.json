@@ -1,0 +1,298 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_160",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Power of the Wild",
+    "card": {
+      "dbfId": 503,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "CHOOSE_ONE"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_160",
+      "name": "야생의 힘",
+      "text": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "flavor": "표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.",
+      "portrait": "W17_a030_D.psd:f3e7bd574425c3940af3c63e73ad60eb",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
+          }
+        },
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [
+      812,
+      835,
+      60
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "야생의 힘",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "야생의 힘",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "<b>선택</b> - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "야생의 힘",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "6.2.15153",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "7.0.15590",
+        "platform": "iOS",
+        "name": "야생의 힘",
+        "rawText": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2016-11-30"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "야생의 힘",
+        "rawText": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_160",
+    "dbfId": 503,
+    "name": "야생의 힘",
+    "type": "SPELL",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_160.png",
+    "artist": "Steve Tappin",
+    "flavor": "표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.",
+    "mechanics": [
+      "CHOOSE_ONE"
+    ],
+    "relatedDbfIds": [
+      812
+    ],
+    "set": "legacy",
+    "portrait": "W17_a030_D.psd:f3e7bd574425c3940af3c63e73ad60eb",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 2
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 443,
+        "name": "선택",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

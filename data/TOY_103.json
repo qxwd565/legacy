@@ -1,115 +1,15 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Warsong Grunt",
-  "card": {
+  "2024-03-20": {
     "dbfId": 109168,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 5,
     "health": 6,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "TOY_103",
     "name": "전쟁노래 그런트",
     "text": "[x]<b>속공</b>, 이 하수인은 공격하여<br></br>다른 하수인을 처치한 후에<br></br>다시 공격할 수 있습니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "flavor": "누가 화난 닭들을 만든 걸까요?",
-    "portrait": "HS31-216_M.tif:bd743ba0d0ac45898b27f51dd0c17e1f",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 6
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 791,
-        "name": "속공",
-        "value": 1
-      },
-      {
-        "id": 2589,
-        "name": "HAS_SIGNATURE_QUALITY",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "[x]<b>속공</b>, 이 하수인은 공격하여\n다른 하수인을 처치한 후에\n다시 공격할 수 있습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2024-03-20",
-    "releaseStatus": "verified",
-    "patches": []
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "collectible": true
   }
 }

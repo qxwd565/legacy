@@ -1,193 +1,27 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Novice Engineer",
-  "card": {
+  "2013-08-17": {
     "dbfId": 284,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 2,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_015",
     "name": "풋내기 기술자",
     "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "FREE",
-    "flavor": "\"수강생들의 반은 재수강도 하지 못할 걸요? 닭으로 변해 있을 테니까요.\" - 수석땜장이 오버스파크, 기계공학개론 101장 강의 중에서.",
-    "portrait": "W7_078_D.psd:f2422f71256f6a748a63a4ffd741d409",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>전투의 함성:</b>\n카드를 뽑습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 카드를 1장 뽑습니다."
-        }
-      },
-      {
-        "date": "2014-01-17",
-        "changes": {
-          "health": 1
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "<b>전투의 함성:</b><br></br>카드를 1장 뽑습니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b><br></br>카드를 뽑습니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "<b>전투의 함성:</b> 카드를 1장 뽑습니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2014-01-17": {
+    "health": 1
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "풋내기 기술자",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 카드를 1장 뽑습니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "풋내기 기술자",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "풋내기 기술자",
-      "rawText": "<b>전투의 함성:</b>\n카드를 1장 뽑습니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "풋내기 기술자",
-      "rawText": "<b>전투의 함성:</b>\n카드를 뽑습니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2016-08-10": {
+    "text": "<b>전투의 함성:</b><br></br>카드를 1장 뽑습니다."
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b><br></br>카드를 뽑습니다."
+  }
 }

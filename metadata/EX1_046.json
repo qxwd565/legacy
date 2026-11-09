@@ -1,0 +1,306 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_046",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Dark Iron Dwarf",
+    "card": {
+      "dbfId": 348,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 4,
+      "health": 4,
+      "attack": 4,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_046",
+      "name": "검은무쇠 드워프",
+      "text": "<b>전투의 함성:</b> 하수인에게 공격력을 +2 부여합니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "flavor": "검은무쇠 주괴의 수호자들입니다. 이 주괴가 필요한 자들에게는 참으로 귀찮은 존재가 아닐 수 없습니다.",
+      "portrait": "WoW_ALYN_010a_D.png:c2e1cb7c0e6365b4d9e11527d9599322",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n+2 부여합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 하수인 하나에게 공격력을 +2 부여합니다."
+          }
+        },
+        {
+          "date": "2014-01-17",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 하수인에게 공격력을 +2 부여합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "검은무쇠 드워프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 하수인에게 공격력을 +2 부여합니다."
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 하수인 하나에게 공격력을 +2 부여합니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "검은무쇠 드워프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.4243",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "1.0.0.4458",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 이번 턴에 하수인 하나에게 공격력을 +2 부여합니다.",
+        "northAmericaPatchDateKst": "2014-01-17",
+        "name": "검은무쇠 드워프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2014-01-17"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "검은무쇠 드워프",
+        "rawText": "[x]<b>전투의 함성:</b> 이번 턴에\n하수인에게 공격력을\n+2 부여합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_046",
+    "dbfId": 348,
+    "name": "검은무쇠 드워프",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 4,
+    "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
+    "attack": 4,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_046.png",
+    "artist": "Scott Hampton",
+    "flavor": "검은무쇠 주괴의 수호자들입니다. 이 주괴가 필요한 자들에게는 참으로 귀찮은 존재가 아닐 수 없습니다.",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "set": "legacy",
+    "portrait": "WoW_ALYN_010a_D.png:c2e1cb7c0e6365b4d9e11527d9599322",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 2
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

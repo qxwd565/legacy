@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "scope": "root compatibility endpoints only; canonical and -date outputs remain precise",
+  "source": "data date maps + metadata; regenerated on every build, not frozen copies",
+  "legacyConsumer": "qxwd565/HSdeck-plugin 78ce6fdc4e70f689880a70d6f22aa77a6c75e337 (unmodified)",
+  "rules": [
+    "Missing numeric fields use the prior integer-zero wire convention; cost is always present for old imports.",
+    "Weapon health mirrors durability only in this compatibility projection. Playable hero client health retains its legacy current-only value.",
+    "Absent race/spell school becomes an empty string, absent races/mechanics/classes an empty array when that field belongs to the card.",
+    "Reverse intervals contain ordinary changed values, never __remove, authoritative state or historySchema:2.",
+    "All original current catalogue IDs, DBFs, current nativeTags, relationship and artwork metadata are retained.",
+    "Root intervals retain inclusive from/exclusive before boundaries, including the old before-release fallback behavior. No new hiding or strict gating is enabled."
+  ],
+  "limitations": [
+    "Old consumers cannot distinguish absent numeric fields from zero, or faithfully implement arbitrary attribute removal.",
+    "The old PHP history whitelist does not apply races/classes/collectible/heroPowerDbfId or arbitrary effect data; precise information remains in canonical/-date outputs.",
+    "Installed current nativeTags can still leak into historical browser state. This cannot be fixed by API shape alone without the postponed plugin change.",
+    "The existing HERO_POWER/ENCHANTMENT frame restrictions, database zero storage and zero-durability renderer fallback remain unchanged.",
+    "Historical corrections work relative to imported current DB data; no live import or reconfiguration is performed here."
+  ],
+  "preciseEndpoints": {
+    "cards": "cards-date.json",
+    "render": "render-date.json",
+    "history": "history-date.json"
+  },
+  "siblingRule": "Explicit -date consumers map cards-date.json to render-date.json and history-date.json. Existing configured cards.json sources remain unchanged.",
+  "artRule": "All six bundles are siblings at the repository root; art/<ID> paths retain their original base directory."
+}

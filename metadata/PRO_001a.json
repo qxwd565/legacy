@@ -1,0 +1,1651 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "PRO_001a",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-12-12",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "I Am Murloc",
+    "card": {
+      "dbfId": 1843,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 4,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "PRO_001a",
+      "name": "나는야 멀록",
+      "text": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.",
+      "set": "LEGACY",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "flavor": "",
+      "portrait": null,
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "nativeRawText": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-12-12",
+      "releaseStatus": "verified",
+      "patches": [
+        {
+          "date": "2014-07-23",
+          "changes": {
+            "text": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다."
+          }
+        }
+      ]
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.",
+        "northAmericaPatchDateKst": "2013-12-11"
+      }
+    ],
+    "historicalTokenSources": {
+      "parents": [
+        "PRO_001"
+      ],
+      "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+      "versions": [
+        {
+          "build": "1.0.0",
+          "platform": "iOS",
+          "archiveId": "14836313",
+          "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 11,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 5,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 4,
+                "name": "Cost"
+              },
+              {
+                "tagId": 330,
+                "value": 0,
+                "name": "EnchantmentBirthVisual"
+              },
+              {
+                "tagId": 331,
+                "value": 0,
+                "name": "EnchantmentIdleVisual"
+              }
+            ],
+            "stats": {
+              "cost": 4,
+              "attack": null,
+              "health": null,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "ABILITY",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "14836313",
+              "version": "1.0.0",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+              "serializedFile": "CAB-cards1",
+              "pathId": "-104132853",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001a/W17_a106_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001a/PRO_001a_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c.png",
+            "sha256": "8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures0:1438234101",
+            "rgbaSha256": "b48b4cc1c8f1bda1f660628428bab66f06c222b001aeecebdf6074f2cc3c35bd"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/8d23283ca95415e28f877f7d6b7623b7e9c20ac8cc39d94776b9251e9750f378.json",
+            "sha256": "8d23283ca95415e28f877f7d6b7623b7e9c20ac8cc39d94776b9251e9750f378",
+            "source": "cab-premiummaterials0:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/f7b97e82d3f1f9235355229b7c48d81c210c2290b36900cf7caeb817fb944c79.json",
+                "sha256": "f7b97e82d3f1f9235355229b7c48d81c210c2290b36900cf7caeb817fb944c79"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/f7b97e82d3f1f9235355229b7c48d81c210c2290b36900cf7caeb817fb944c79.json",
+                "sha256": "f7b97e82d3f1f9235355229b7c48d81c210c2290b36900cf7caeb817fb944c79"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/7b41e32698c0df8e3c78f9f461983b0597e0ec865c13ba2ab1246f234bbfc893.json",
+              "sha256": "7b41e32698c0df8e3c78f9f461983b0597e0ec865c13ba2ab1246f234bbfc893",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/e9ff0b2a0f9c1d89d328564da75901e7664da2beead8566369023a0981624dc1.json",
+              "sha256": "e9ff0b2a0f9c1d89d328564da75901e7664da2beead8566369023a0981624dc1",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5361",
+          "platform": "iOS",
+          "archiveId": "563785077",
+          "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 11,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 5,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 4,
+                "name": "Cost"
+              },
+              {
+                "tagId": 330,
+                "value": 0,
+                "name": "EnchantmentBirthVisual"
+              },
+              {
+                "tagId": 331,
+                "value": 0,
+                "name": "EnchantmentIdleVisual"
+              }
+            ],
+            "stats": {
+              "cost": 4,
+              "attack": null,
+              "health": null,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "ABILITY",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "563785077",
+              "version": "1.0.5361",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+              "serializedFile": "CAB-cards1",
+              "pathId": "-104132853",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001a/W17_a106_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001a/PRO_001a_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c.png",
+            "sha256": "8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures0:1438234101",
+            "rgbaSha256": "b48b4cc1c8f1bda1f660628428bab66f06c222b001aeecebdf6074f2cc3c35bd"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/24bf22c558b8236dfc823912dbca398780e4ba639fb83704e72a1661ee449737.json",
+            "sha256": "24bf22c558b8236dfc823912dbca398780e4ba639fb83704e72a1661ee449737",
+            "source": "cab-premiummaterials0:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/e25f7ceb042af3684a64f40966f0f8bd1d2c70df69a47a74e1892c274cdff046.json",
+                "sha256": "e25f7ceb042af3684a64f40966f0f8bd1d2c70df69a47a74e1892c274cdff046"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/e25f7ceb042af3684a64f40966f0f8bd1d2c70df69a47a74e1892c274cdff046.json",
+                "sha256": "e25f7ceb042af3684a64f40966f0f8bd1d2c70df69a47a74e1892c274cdff046"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/9bbe3aca42e7e251a46467b0a5cb2c94c96d69b87e3473bd79ca9e5bec959af1.json",
+              "sha256": "9bbe3aca42e7e251a46467b0a5cb2c94c96d69b87e3473bd79ca9e5bec959af1",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/96e2acf684c6b94f84ec2eb4573555d50156fccbea87565e5243bf31cf5a3d8e.json",
+              "sha256": "96e2acf684c6b94f84ec2eb4573555d50156fccbea87565e5243bf31cf5a3d8e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5435",
+          "platform": "iOS",
+          "archiveId": "588883794",
+          "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 11,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 5,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 4,
+                "name": "Cost"
+              },
+              {
+                "tagId": 330,
+                "value": 0,
+                "name": "EnchantmentBirthVisual"
+              },
+              {
+                "tagId": 331,
+                "value": 0,
+                "name": "EnchantmentIdleVisual"
+              }
+            ],
+            "stats": {
+              "cost": 4,
+              "attack": null,
+              "health": null,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "ABILITY",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "588883794",
+              "version": "1.0.5435",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+              "serializedFile": "CAB-cards1",
+              "pathId": "-104132853",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001a/W17_a106_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001a/PRO_001a_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c.png",
+            "sha256": "8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures0:1438234101",
+            "rgbaSha256": "b48b4cc1c8f1bda1f660628428bab66f06c222b001aeecebdf6074f2cc3c35bd"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/0f2019bff7b1441d08a48c86c8630287eb3a82f1b77a9d7aa38503c3cd0a48cd.json",
+            "sha256": "0f2019bff7b1441d08a48c86c8630287eb3a82f1b77a9d7aa38503c3cd0a48cd",
+            "source": "cab-premiummaterials0:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/ad41c2c9c20e3eba60615fe0312e1b6a8ef57b8e3b0ab0323775d5a29b89bf3b.json",
+                "sha256": "ad41c2c9c20e3eba60615fe0312e1b6a8ef57b8e3b0ab0323775d5a29b89bf3b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/ad41c2c9c20e3eba60615fe0312e1b6a8ef57b8e3b0ab0323775d5a29b89bf3b.json",
+                "sha256": "ad41c2c9c20e3eba60615fe0312e1b6a8ef57b8e3b0ab0323775d5a29b89bf3b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/106440c28e9ed2db03d7af87c188d1b6d0cc2e03bc2046a2f66a7fd88b7df37f.json",
+              "sha256": "106440c28e9ed2db03d7af87c188d1b6d0cc2e03bc2046a2f66a7fd88b7df37f",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/600a04fe5adce52243b52e38ff173980ceab8eddc70e38f79d803131df6babbb.json",
+              "sha256": "600a04fe5adce52243b52e38ff173980ceab8eddc70e38f79d803131df6babbb",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5834",
+          "platform": "iOS",
+          "archiveId": "608602673",
+          "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 11,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 5,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 4,
+                "name": "Cost"
+              },
+              {
+                "tagId": 330,
+                "value": 0,
+                "name": "EnchantmentBirthVisual"
+              },
+              {
+                "tagId": 331,
+                "value": 0,
+                "name": "EnchantmentIdleVisual"
+              }
+            ],
+            "stats": {
+              "cost": 4,
+              "attack": null,
+              "health": null,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "ABILITY",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "608602673",
+              "version": "1.0.5834",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards1.unity3d",
+              "serializedFile": "CAB-cards1",
+              "pathId": "-104132853",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001a/W17_a106_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001a/PRO_001a_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c.png",
+            "sha256": "8fb233437f3d01473c685063e5448155ae6b2a261e59f06307f43c50717b117c",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures0:1438234101",
+            "rgbaSha256": "b48b4cc1c8f1bda1f660628428bab66f06c222b001aeecebdf6074f2cc3c35bd"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/c94ec58e61fad50831107bbf08124dd897a0a97ad4ee7a7b45d3f4229e7ccac4.json",
+            "sha256": "c94ec58e61fad50831107bbf08124dd897a0a97ad4ee7a7b45d3f4229e7ccac4",
+            "source": "cab-premiummaterials0:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/126ef56fc6a3e899493178d69ec922750a5d752570b19a173e6b94171ba4caa8.json",
+                "sha256": "126ef56fc6a3e899493178d69ec922750a5d752570b19a173e6b94171ba4caa8"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/126ef56fc6a3e899493178d69ec922750a5d752570b19a173e6b94171ba4caa8.json",
+                "sha256": "126ef56fc6a3e899493178d69ec922750a5d752570b19a173e6b94171ba4caa8"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/dc5211f343f09ac6ffbb0296e7fbb89c74fa1ee672153a4e959ec4026c919218.json",
+              "sha256": "dc5211f343f09ac6ffbb0296e7fbb89c74fa1ee672153a4e959ec4026c919218",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/1fd12fb41f8ee86182977caa1bbebc34dfe9589c2b27b3abf6e3da3b1272d661.json",
+              "sha256": "1fd12fb41f8ee86182977caa1bbebc34dfe9589c2b27b3abf6e3da3b1272d661",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        }
+      ],
+      "betaObservations": [
+        {
+          "build": "1.0.0.3749",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+            "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+            "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+          },
+          "visualStatus": "not found in this client card XML or scanned card bundles",
+          "availabilityEvidence": {
+            "exactCardId": "absent",
+            "localizedEnglishName": "absent",
+            "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+            "dateOfIntroduction": "unconfirmed"
+          }
+        },
+        {
+          "build": "1.0.0.3890",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+            "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+          },
+          "visualStatus": "not found in this client card XML or scanned card bundles",
+          "availabilityEvidence": {
+            "exactCardId": "absent",
+            "localizedEnglishName": "absent",
+            "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+            "dateOfIntroduction": "unconfirmed"
+          },
+          "northAmericaPatchDateKst": "2013-10-03"
+        },
+        {
+          "build": "1.0.0.3937",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+            "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+          },
+          "visualStatus": "not found in this client card XML or scanned card bundles",
+          "availabilityEvidence": {
+            "exactCardId": "absent",
+            "localizedEnglishName": "absent",
+            "firstObservedAmongCheckedBuilds": "1.0.0.4217",
+            "dateOfIntroduction": "unconfirmed"
+          },
+          "northAmericaPatchDateKst": "2013-10-18"
+        },
+        {
+          "build": "1.0.0.4217",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "11"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "5"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "4"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              },
+              {
+                "name": "EnchantmentBirthVisual",
+                "enumID": "330",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              },
+              {
+                "name": "EnchantmentIdleVisual",
+                "enumID": "331",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              }
+            ],
+            "powerDefinitions": [
+              {
+                "definition": "129391e2-531b-495b-a5ff-8dc0d7747e01"
+              }
+            ],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards1",
+            "pathId": "-104132853",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards1:1438234101"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards1:-167200007"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Shared/Effects/Spells/Unique/ETC_IamMurloc_FX",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553.png",
+            "sha256": "6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards1:1438234101",
+            "rgbaSha256": "0c65b7dad646e85daff2ac53f34fdab314c8053137de7431d42f7a282fbef0aa"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/f2a06b668c1f71be0bc8cc4d45f5324ba0e99fb11881a2e175cb12832032deff.json",
+            "sha256": "f2a06b668c1f71be0bc8cc4d45f5324ba0e99fb11881a2e175cb12832032deff",
+            "source": "cab-cards1:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/df926ff7119f79d0093eba8b779c2c12d93404a94995241cdddf170466253723.json",
+                "sha256": "df926ff7119f79d0093eba8b779c2c12d93404a94995241cdddf170466253723"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/df926ff7119f79d0093eba8b779c2c12d93404a94995241cdddf170466253723.json",
+                "sha256": "df926ff7119f79d0093eba8b779c2c12d93404a94995241cdddf170466253723"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/07deafce4154a646dc894047e0117a5f245bf88c6cd9271d4bd62c02c87e7289.json",
+              "sha256": "07deafce4154a646dc894047e0117a5f245bf88c6cd9271d4bd62c02c87e7289",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/852b2155431d85e49de1f42781794dfcf49d7386881cf25682852a98c2f65281.json",
+              "sha256": "852b2155431d85e49de1f42781794dfcf49d7386881cf25682852a98c2f65281",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-12-11"
+        },
+        {
+          "build": "1.0.0.4243",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "11"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "5"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "4"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              },
+              {
+                "name": "EnchantmentBirthVisual",
+                "enumID": "330",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              },
+              {
+                "name": "EnchantmentIdleVisual",
+                "enumID": "331",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              }
+            ],
+            "powerDefinitions": [
+              {
+                "definition": "129391e2-531b-495b-a5ff-8dc0d7747e01"
+              }
+            ],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards1",
+            "pathId": "-104132853",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards1:1438234101"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards1:-167200007"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Shared/Effects/Spells/Unique/ETC_IamMurloc_FX",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553.png",
+            "sha256": "6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards1:1438234101",
+            "rgbaSha256": "0c65b7dad646e85daff2ac53f34fdab314c8053137de7431d42f7a282fbef0aa"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/2f9aa3a446b1bf478ddd0b1ce1c44ff32c5d46ed45a719a1027942fabfb57016.json",
+            "sha256": "2f9aa3a446b1bf478ddd0b1ce1c44ff32c5d46ed45a719a1027942fabfb57016",
+            "source": "cab-cards1:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/109714b84dfbba371cf49d912d43aa9e14578e3db048400021589025fcc4e87b.json",
+                "sha256": "109714b84dfbba371cf49d912d43aa9e14578e3db048400021589025fcc4e87b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/109714b84dfbba371cf49d912d43aa9e14578e3db048400021589025fcc4e87b.json",
+                "sha256": "109714b84dfbba371cf49d912d43aa9e14578e3db048400021589025fcc4e87b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/c4352422ad22a6285e7a1d5e08e0895f497e25c4d2e3e05f4f788961145f8c55.json",
+              "sha256": "c4352422ad22a6285e7a1d5e08e0895f497e25c4d2e3e05f4f788961145f8c55",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/6e63b8ef989184a212d990e08cf5a77408f337e326800f27282992822bb7ad1d.json",
+              "sha256": "6e63b8ef989184a212d990e08cf5a77408f337e326800f27282992822bb7ad1d",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-12-19"
+        },
+        {
+          "build": "1.0.0.4458",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "11"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "5"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "4"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              },
+              {
+                "name": "EnchantmentBirthVisual",
+                "enumID": "330",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              },
+              {
+                "name": "EnchantmentIdleVisual",
+                "enumID": "331",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              }
+            ],
+            "powerDefinitions": [
+              {
+                "definition": "129391e2-531b-495b-a5ff-8dc0d7747e01"
+              }
+            ],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards1",
+            "pathId": "-104132853",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards1:1438234101"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards1:-167200007"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Shared/Effects/Spells/Unique/ETC_IamMurloc_FX",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553.png",
+            "sha256": "6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards1:1438234101",
+            "rgbaSha256": "0c65b7dad646e85daff2ac53f34fdab314c8053137de7431d42f7a282fbef0aa"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/4b10097d0ca4404f2a7febf6cc1fd03330efb6eecfec39bfba172cc024f0246c.json",
+            "sha256": "4b10097d0ca4404f2a7febf6cc1fd03330efb6eecfec39bfba172cc024f0246c",
+            "source": "cab-cards1:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/e5fb11c25bdd3e343f008abf6305e6b8ca3c6c20ae6c3d684da7245448a77a52.json",
+                "sha256": "e5fb11c25bdd3e343f008abf6305e6b8ca3c6c20ae6c3d684da7245448a77a52"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/e5fb11c25bdd3e343f008abf6305e6b8ca3c6c20ae6c3d684da7245448a77a52.json",
+                "sha256": "e5fb11c25bdd3e343f008abf6305e6b8ca3c6c20ae6c3d684da7245448a77a52"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/f9f5a9bd003d92c86ceb4126a0e0b775cf31984b375354fda6ca11ddaf72244d.json",
+              "sha256": "f9f5a9bd003d92c86ceb4126a0e0b775cf31984b375354fda6ca11ddaf72244d",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/d4c7935ec9e6791172a139e54b87d19b4ebd7b0286816c2892fd6d7f23890f20.json",
+              "sha256": "d4c7935ec9e6791172a139e54b87d19b4ebd7b0286816c2892fd6d7f23890f20",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-01-17"
+        },
+        {
+          "build": "1.0.0.4482",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "11"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "5"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "4"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              },
+              {
+                "name": "EnchantmentBirthVisual",
+                "enumID": "330",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              },
+              {
+                "name": "EnchantmentIdleVisual",
+                "enumID": "331",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              }
+            ],
+            "powerDefinitions": [
+              {
+                "definition": "129391e2-531b-495b-a5ff-8dc0d7747e01"
+              }
+            ],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards1",
+            "pathId": "-104132853",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards1:1438234101"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards1:-167200007"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Shared/Effects/Spells/Unique/ETC_IamMurloc_FX",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553.png",
+            "sha256": "6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards1:1438234101",
+            "rgbaSha256": "0c65b7dad646e85daff2ac53f34fdab314c8053137de7431d42f7a282fbef0aa"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/a4e34b202ef3315598359e21420b2b2c7546b9b6091b82159626b09ae2494d4e.json",
+            "sha256": "a4e34b202ef3315598359e21420b2b2c7546b9b6091b82159626b09ae2494d4e",
+            "source": "cab-cards1:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/465ff4a883e17261882f42b5a0156da4e74dd616dff2080ba332521d191fdf22.json",
+                "sha256": "465ff4a883e17261882f42b5a0156da4e74dd616dff2080ba332521d191fdf22"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/465ff4a883e17261882f42b5a0156da4e74dd616dff2080ba332521d191fdf22.json",
+                "sha256": "465ff4a883e17261882f42b5a0156da4e74dd616dff2080ba332521d191fdf22"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/3521ca3006737cb412e060bc6de885a397e7cc994b1b935a93c5bb681cf0c7cd.json",
+              "sha256": "3521ca3006737cb412e060bc6de885a397e7cc994b1b935a93c5bb681cf0c7cd",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/bb9c1b1f0e763f8c5b0cf035a9bba7be9cf4e7f48026df654ac9b52a54cdac60.json",
+              "sha256": "bb9c1b1f0e763f8c5b0cf035a9bba7be9cf4e7f48026df654ac9b52a54cdac60",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-01-18"
+        },
+        {
+          "build": "1.0.0.4944",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "나는야 멀록",
+              "CardTextInHand": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "11"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "5"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "4"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              },
+              {
+                "name": "EnchantmentBirthVisual",
+                "enumID": "330",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              },
+              {
+                "name": "EnchantmentIdleVisual",
+                "enumID": "331",
+                "type": "EnchantmentVisualType",
+                "value": "0"
+              }
+            ],
+            "powerDefinitions": [
+              {
+                "definition": "129391e2-531b-495b-a5ff-8dc0d7747e01"
+              }
+            ],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"PRO_001a\">\n  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>I Am Murloc</enUS>\n    <zhTW>我是魚人</zhTW>\n    <zhCN>我是鱼人</zhCN>\n    <ruRU>«I Am Murloc»</ruRU>\n    <ptBR>Eu Sou Murloc</ptBR>\n    <plPL>Jestem murlokiem</plPL>\n    <koKR>나는야 멀록</koKR>\n    <itIT>I Am Murloc</itIT>\n    <frFR>Je suis murloc</frFR>\n    <esMX>I Am Murloc</esMX>\n    <esES>I Am Murloc</esES>\n    <deDE>„I Am Murloc“</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"11\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"5\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"4\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>\n    <zhTW>召喚三至五隻1/1魚人</zhTW>\n    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>\n    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>\n    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>\n    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>\n    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>\n    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>\n    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>\n    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>\n    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>\n    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>\n  </Tag>\n  <Tag name=\"EnchantmentBirthVisual\" enumID=\"330\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Tag name=\"EnchantmentIdleVisual\" enumID=\"331\" type=\"EnchantmentVisualType\" value=\"0\" />\n  <Power definition=\"129391e2-531b-495b-a5ff-8dc0d7747e01\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+            "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+            "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+            "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678",
+            "cardtextures0.unity3d": "cbffc9bddfaad294bf3ebe97fad4c6baa2f05eb3d2f4bd80e443593246f4f4fe",
+            "cardtextures1.unity3d": "74a613cc3e9850d954883089a379e3d2c502372dd0ee1b0b393199c344e7f0d6",
+            "premiummaterials0.unity3d": "f781aab009d087f8e72f0c09191da28e5a3be0eb320c3dc81f14d2199586bfd5",
+            "shared0.unity3d": "e5c3dcb478cdc56d72a9dc98ca9450eb7ef51c678d76ae80ec134b09e18c90b1",
+            "shared1.unity3d": "fc1360cc1b6481280c4073f16533a53a3c661ca36ce61f93fcecad1c80c1da90"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards1",
+            "pathId": "-104132853",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexturePath": "Assets/Game/Cards/05 Promo/PRO_001a/W17_a106_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/05 Promo/PRO_001a/PRO_001a_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:-1539678517"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-453637641"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Shared/Effects/Spells/Unique/ETC_IamMurloc_FX",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553.png",
+            "sha256": "6990a26b98e8a6cca4471e53119c2237729d489df6a89084fda1ea2164b2e553",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures0:1438234101",
+            "rgbaSha256": "0c65b7dad646e85daff2ac53f34fdab314c8053137de7431d42f7a282fbef0aa"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/005f8ead139153c1c72116b6237532ec7376ec3c812657142efdef617cf9b6ea.json",
+            "sha256": "005f8ead139153c1c72116b6237532ec7376ec3c812657142efdef617cf9b6ea",
+            "source": "cab-premiummaterials0:-167200007"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1539678517",
+              "material": {
+                "path": "art/historical/tile-materials/1f4ab58a9aa93f2b6e8796fd2798283c01bf3fef5601dfe3cc71bb0df8a1cbe6.json",
+                "sha256": "1f4ab58a9aa93f2b6e8796fd2798283c01bf3fef5601dfe3cc71bb0df8a1cbe6"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.10999999940395355,
+                "_OffsetY": -0.30000001192092896,
+                "_Scale": 1.5499999523162842
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-453637641",
+              "material": {
+                "path": "art/historical/tile-materials/1f4ab58a9aa93f2b6e8796fd2798283c01bf3fef5601dfe3cc71bb0df8a1cbe6.json",
+                "sha256": "1f4ab58a9aa93f2b6e8796fd2798283c01bf3fef5601dfe3cc71bb0df8a1cbe6"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.17000000178813934,
+                "_OffsetY": -0.17000000178813934,
+                "_Scale": 1.6399999856948853
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/3aef726f03b71541f923946cf4451e823a97dd79f3efdbb13fb27f9380a56132.json",
+              "sha256": "3aef726f03b71541f923946cf4451e823a97dd79f3efdbb13fb27f9380a56132",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/7c21843d0471496a9fc61583449a759ef26e16c01547395925f8f81f760951b6.json",
+              "sha256": "7c21843d0471496a9fc61583449a759ef26e16c01547395925f8f81f760951b6",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-03-12"
+        }
+      ]
+    }
+  },
+  "currentCatalog": {
+    "id": "PRO_001a",
+    "dbfId": 1843,
+    "name": "나는야 멀록",
+    "type": "SPELL",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 4,
+    "text": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/PRO_001a.png",
+    "set": "legacy",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      }
+    ],
+    "releasedAt": "2013-12-12",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

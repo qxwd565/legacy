@@ -1,0 +1,348 @@
+{
+  "set": "legacy",
+  "scope": "One-time migration decoding only, not a runtime zero fallback",
+  "source": "Installed client tags retained in immutable metadata originalSource; CARDTYPE 7 uses HEALTH tag45 for weapon durability",
+  "corrections": [
+    {
+      "id": "DS1_188",
+      "dbfId": 311,
+      "originalDurability": 0,
+      "nativeHealthDurability": 2,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_133",
+      "dbfId": 391,
+      "originalDurability": 0,
+      "nativeHealthDurability": 2,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_247",
+      "dbfId": 960,
+      "originalDurability": 0,
+      "nativeHealthDurability": 3,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_323w",
+      "dbfId": 1660,
+      "originalDurability": 0,
+      "nativeHealthDurability": 8,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_366",
+      "dbfId": 643,
+      "originalDurability": 0,
+      "nativeHealthDurability": 5,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_383t",
+      "dbfId": 1730,
+      "originalDurability": 0,
+      "nativeHealthDurability": 3,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_398t",
+      "dbfId": 1707,
+      "originalDurability": 0,
+      "nativeHealthDurability": 2,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_409t",
+      "dbfId": 1661,
+      "originalDurability": 0,
+      "nativeHealthDurability": 3,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_411",
+      "dbfId": 810,
+      "originalDurability": 0,
+      "nativeHealthDurability": 1,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_536",
+      "dbfId": 1662,
+      "originalDurability": 0,
+      "nativeHealthDurability": 2,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    },
+    {
+      "id": "EX1_567",
+      "dbfId": 352,
+      "originalDurability": 0,
+      "nativeHealthDurability": 8,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        }
+      ],
+      "originalSourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a"
+    }
+  ],
+  "zeroRule": "Explicit canonical and generic fixture durability:0 remains zero; only these reviewed source IDs are decoded.",
+  "archivedCrossChecks": [
+    {
+      "build": "2.4.0.8311",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "fileSha256": "4a53fc1c84431ea8631815755f88ae017145f41da6b1a4cc8233a77e820a78ad",
+      "cards": {
+        "DS1_188": {
+          "47": "5",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_133": {
+          "47": "2",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_247": {
+          "47": "2",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_323w": {
+          "47": "3",
+          "187": "8",
+          "202": "7"
+        },
+        "EX1_366": {
+          "47": "1",
+          "187": "5",
+          "202": "7"
+        },
+        "EX1_383t": {
+          "47": "5",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_398t": {
+          "47": "2",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_409t": {
+          "47": "1",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_411": {
+          "47": "7",
+          "187": "1",
+          "202": "7"
+        },
+        "EX1_536": {
+          "47": "3",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_567": {
+          "47": "2",
+          "187": "8",
+          "202": "7"
+        }
+      }
+    },
+    {
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "fileSha256": "36879caf88f629052e57d728d1fb3649a21f7198f649ab1cdc916c72ab1b8e29",
+      "cards": {
+        "DS1_188": {
+          "47": "5",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_133": {
+          "47": "2",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_247": {
+          "47": "2",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_323w": {
+          "47": "3",
+          "187": "8",
+          "202": "7"
+        },
+        "EX1_366": {
+          "47": "1",
+          "187": "5",
+          "202": "7"
+        },
+        "EX1_383t": {
+          "47": "5",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_398t": {
+          "47": "2",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_409t": {
+          "47": "1",
+          "187": "3",
+          "202": "7"
+        },
+        "EX1_411": {
+          "47": "7",
+          "187": "1",
+          "202": "7"
+        },
+        "EX1_536": {
+          "47": "3",
+          "187": "2",
+          "202": "7"
+        },
+        "EX1_567": {
+          "47": "2",
+          "187": "8",
+          "202": "7"
+        }
+      }
+    }
+  ],
+  "historyAudit": {
+    "path": "tools/legacy-balance-candidates.json",
+    "buildsRead": 334,
+    "result": "No recorded stat transitions for these 11 card IDs across the existing archived-build audit. Source release estimates and partially verified baseline status remain unchanged; no historical dates are promoted."
+  }
+}

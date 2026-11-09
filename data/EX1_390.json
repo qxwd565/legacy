@@ -1,178 +1,25 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Tauren Warrior",
-  "card": {
+  "2013-08-17": {
     "dbfId": 45,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 3,
     "health": 3,
     "attack": 2,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "ENRAGED",
       "TAUNT"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_390",
     "name": "타우렌 전사",
     "text": "<b>도발</b>. <b>격노:</b> 공격력 +3",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
-    "flavor": "타우렌 전사: 멀고어의 용사, 가시멧돼지 학살자, 썬더블러프 승강기 애호가",
-    "portrait": "W17_a171_D.psd:aa0ccb7fcd4bfe444b01c69155c9851f",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 212,
-        "name": "ENRAGED",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>도발</b>\n피해를 받은 상태면 공격력을 +3 얻습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2016-04-25",
-        "changes": {
-          "text": "<b>도발</b><br></br><b>격노:</b> 공격력 +3"
-        }
-      },
-      {
-        "date": "2018-04-11",
-        "changes": {
-          "text": "<b>도발</b><br></br>피해를 받은 상태면 공격력을 +3 얻습니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2016-04-25": {
+    "text": "<b>도발</b><br></br><b>격노:</b> 공격력 +3"
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>도발</b>. <b>격노:</b> 공격력 +3",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "타우렌 전사",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "4.3.12266",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>도발</b>. <b>격노:</b> 공격력 +3"
-    },
-    {
-      "build": "5.0.12574",
-      "platform": "iOS",
-      "name": "타우렌 전사",
-      "rawText": "<b>도발</b>\n<b>격노:</b> 공격력 +3",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "10.4.23576",
-      "displayFromKst": "2016-04-25"
-    },
-    {
-      "build": "11.0.23966",
-      "platform": "iOS",
-      "name": "타우렌 전사",
-      "rawText": "<b>도발</b>\n피해를 받은 상태면 공격력을 +3 얻습니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-04-11"
-    }
-  ]
+  "2018-04-11": {
+    "text": "<b>도발</b><br></br>피해를 받은 상태면 공격력을 +3 얻습니다."
+  }
 }

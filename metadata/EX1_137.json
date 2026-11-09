@@ -1,0 +1,303 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_137",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Headcrack",
+    "card": {
+      "dbfId": 708,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "COMBO"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_137",
+      "name": "머리 후려치기",
+      "text": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "ROGUE",
+      "rarity": "RARE",
+      "flavor": "모든 공격이 실패해도, 머리 후려치기만큼은 당신을 배신하지 않을 겁니다.",
+      "portrait": "CLA-019.psd:5e29edb47a0a41b2bf20f9eeaad9febe",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 220,
+          "name": "연계",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "legacyArt": true,
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "cost": 3,
+            "text": "적 영웅에게 피해를 $2 줍니다.<br></br><b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "적 영웅에게<br></br>피해를 $2 줍니다.<br></br><b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "text": "적 영웅에게<br></br>피해를 $2 줍니다.<br></br><b>연계:</b> 다음 턴에 이 카드를<br></br>내 손으로 다시 가져옵니다."
+          }
+        },
+        {
+          "date": "2019-07-01",
+          "changes": {
+            "legacyArt": false
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "머리 후려치기",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "적 영웅에게 피해를 $2 줍니다.\\n<b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "머리 후려치기",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.1.6245",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.2.6485",
+        "platform": "iOS",
+        "name": "머리 후려치기",
+        "rawText": "적 영웅에게 피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2014-09-23"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "머리 후려치기",
+        "rawText": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를 다시 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "6.2.15153",
+        "displayFromKst": "2016-08-10"
+      },
+      {
+        "build": "7.0.15590",
+        "platform": "iOS",
+        "name": "머리 후려치기",
+        "rawText": "적 영웅에게\n피해를 $2 줍니다.\n<b>연계:</b> 다음 턴에 이 카드를\n내 손으로 다시 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-11-30"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_137",
+    "dbfId": 708,
+    "name": "머리 후려치기",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "적 영웅에게<br></br>피해를 $2 줍니다.<br></br><b>연계:</b> 다음 턴에 이 카드를<br></br>내 손으로 다시 가져옵니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_137.png",
+    "artist": "Ludo Lullabi",
+    "flavor": "모든 공격이 실패해도, 머리 후려치기만큼은 당신을 배신하지 않을 겁니다.",
+    "mechanics": [
+      "COMBO"
+    ],
+    "set": "legacy",
+    "portrait": "CLA-019.psd:5e29edb47a0a41b2bf20f9eeaad9febe",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 220,
+        "name": "연계",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "legacyArt",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

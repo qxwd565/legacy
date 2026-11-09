@@ -1,0 +1,288 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "NEW1_018",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Bloodsail Raider",
+    "card": {
+      "dbfId": 999,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 3,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "PIRATE"
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "NEW1_018",
+      "name": "붉은해적단 약탈자",
+      "text": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "COMMON",
+      "race": "PIRATE",
+      "flavor": "\"난 '요'가 포함된 요일에만 약탈을 하지.\"",
+      "portrait": "W5_155_D.psd:ba215f1a24c3cfd4eae67a432206ac17",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 23
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n내 무기의 공격력만큼\n공격력을 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 내 무기의 공격력만큼 공격력을 얻습니다."
+          }
+        },
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b><br></br>내 무기의 공격력만큼<br></br>공격력을 얻습니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "붉은해적단 약탈자",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 내 무기의 공격력만큼 공격력을 얻습니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "붉은해적단 약탈자",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "붉은해적단 약탈자",
+        "rawText": "[x]<b>전투의 함성:</b>\n내 무기의 공격력만큼\n공격력을 얻습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-08-10"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "NEW1_018",
+    "dbfId": 999,
+    "name": "붉은해적단 약탈자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "[x]<b>전투의 함성:</b><br></br>내 무기의 공격력만큼<br></br>공격력을 얻습니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/NEW1_018.png",
+    "artist": "Jim Nelson",
+    "flavor": "\"난 '요'가 포함된 요일에만 약탈을 하지.\"",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "races": [
+      "PIRATE"
+    ],
+    "race": "PIRATE",
+    "set": "legacy",
+    "portrait": "W5_155_D.psd:ba215f1a24c3cfd4eae67a432206ac17",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 23
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

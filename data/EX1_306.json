@@ -1,299 +1,37 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Felstalker",
-  "card": {
+  "2013-08-17": {
     "dbfId": 592,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 3,
     "attack": 4,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "DEMON"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_306",
     "name": "서큐버스",
     "text": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "FREE",
     "race": "악마",
-    "flavor": "신발은 물론 카드도 물어뜯습니다.",
-    "portrait": "CLA-004.psd:5d9e9652738a43eabc6a268980e865bf",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 15
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 268,
-        "name": "게임 태그 268",
-        "value": 2
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 890,
-        "name": "게임 태그 890",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
-        }
-      },
-      {
-        "date": "2015-04-01",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 무작위로 선택된 카드 1장을 버립니다."
-        }
-      },
-      {
-        "date": "2015-08-19",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b><br></br>무작위로 카드를 버립니다."
-        }
-      },
-      {
-        "date": "2019-07-02",
-        "changes": {
-          "name": "지옥사냥개"
-        }
-      },
-      {
-        "date": "2020-03-27",
-        "changes": {
-          "name": "지옥파수견"
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2015-04-01": {
+    "text": "<b>전투의 함성:</b> 무작위로 선택된 카드 1장을 버립니다."
   },
-  "historicalSources": [
-    {
-      "key": "succubus",
-      "id": "EX1_306",
-      "sourceId": "VAN_EX1_306",
-      "name": "서큐버스",
-      "text": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
-      "kind": "MINION",
-      "cardClass": "WARLOCK",
-      "sourceSet": "EXPERT1",
-      "rarity": "FREE",
-      "race": "악마",
-      "dbfId": 592,
-      "sourceDbfId": 68460,
-      "rowId": 2000000004,
-      "mana": 2,
-      "attack": 4,
-      "health": 3,
-      "armor": 0,
-      "removed": true,
-      "preset": {
-        "watermark": "Set1_Icon",
-        "artwork": "succubus_2016",
-        "name": "서큐버스"
-      },
-      "archives": {
-        "normal": "33444f3c1d7a099f35590375ff2b7a52479ea88d0f954d754d0047131db45f68",
-        "golden": "7eff68e7dfa9fb218cc090813155b66c2475932b91131bd737e39dc819fcc89e"
-      },
-      "sourceVersion": "6000.3.11.3145967",
-      "sources": {
-        "essential_base_global-texture-2.unity3d": "26047733:639275082148117234",
-        "essential_base_global-material-0.unity3d": "498177:639275082144082134",
-        "essential_base_global-mesh-0.unity3d": "6793482:639275082143799789",
-        "essential_base_global-shader-0.unity3d": "1199727:639275081879107966",
-        "initial_base_global-910a3655-mesh-0.unity3d": "2350877:639216100405791575",
-        "essential_base_global-prefab-0.unity3d": "3914913:639275082143799789",
-        "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
-        "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
-      }
-    }
-  ],
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "서큐버스",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "서큐버스",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "2.3.8108",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "2.4.8311",
-      "platform": "iOS",
-      "name": "서큐버스",
-      "rawText": "<b>전투의 함성:</b> 무작위로 선택된 카드 1장을 버립니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "2.8.9554",
-      "displayFromKst": "2015-04-01"
-    },
-    {
-      "build": "3.0.9786",
-      "platform": "iOS",
-      "name": "서큐버스",
-      "rawText": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2015-08-19"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "서큐버스",
-      "rawText": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "14.4.31353",
-      "displayFromKst": "2018-10-03"
-    },
-    {
-      "build": "14.6.31761",
-      "platform": "iOS",
-      "name": "지옥사냥개",
-      "rawText": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "16.6.43246",
-      "displayFromKst": "2019-07-02"
-    },
-    {
-      "build": "17.0.44222",
-      "platform": "iOS",
-      "name": "지옥파수견",
-      "rawText": "<b>전투의 함성:</b>\n무작위로 카드를 버립니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2020-03-27"
-    }
-  ]
+  "2015-08-19": {
+    "text": "<b>전투의 함성:</b> 무작위로 카드를 1장 버립니다."
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b><br></br>무작위로 카드를 버립니다."
+  },
+  "2019-07-02": {
+    "name": "지옥사냥개"
+  },
+  "2020-03-27": {
+    "name": "지옥파수견"
+  }
 }

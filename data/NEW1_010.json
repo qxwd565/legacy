@@ -1,208 +1,36 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Al'Akir the Windlord",
-  "card": {
+  "2013-08-17": {
     "dbfId": 32,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 8,
     "health": 5,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "races": [],
     "mechanics": [
       "CHARGE",
       "DIVINE_SHIELD",
       "TAUNT",
       "WINDFURY"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "NEW1_010",
     "name": "바람의 군주 알아키르",
     "text": "<b>질풍, 돌진, 천상의 보호막, 도발</b>",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "LEGENDARY",
-    "race": "",
-    "flavor": "정령 군주 넷 중에 가장 약합니다. 그리고 나머지 셋이 그 사실을 확실하게 각인시키죠.",
-    "portrait": "W14_a190_D.psd:79d0c22c452f3bc45b1de4e96626c8c0",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 6
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 189,
-        "name": "질풍",
-        "value": 1
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 194,
-        "name": "천상의 보호막",
-        "value": 1
-      },
-      {
-        "id": 197,
-        "name": "돌진",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 18
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
+    "collectible": true
+  },
+  "2013-10-03": {
+    "text": "<b>질풍, 돌진, 도발, 천상의 보호막</b>"
+  },
+  "2016-08-10": {
+    "text": "<b>질풍, 돌진,<br></br>도발, 천상의 보호막</b>"
+  },
+  "2017-04-05": {
+    "races": [
+      "ELEMENTAL"
     ],
-    "nativeRawText": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>질풍, 돌진, 도발, 천상의 보호막</b>"
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "<b>질풍, 돌진,<br></br>도발, 천상의 보호막</b>"
-        }
-      },
-      {
-        "date": "2017-04-05",
-        "changes": {
-          "races": [
-            "ELEMENTAL"
-          ],
-          "race": "ELEMENTAL"
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "health": 6
-        }
-      }
-    ]
+    "race": "ELEMENTAL"
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>질풍, 돌진, 천상의 보호막, 도발</b>",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "바람의 군주 알아키르",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>질풍, 돌진, 천상의 보호막, 도발</b>"
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>질풍, 돌진, 도발, 천상의 보호막</b>",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "바람의 군주 알아키르",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "바람의 군주 알아키르",
-      "rawText": "<b>질풍, 돌진,\n도발, 천상의 보호막</b>",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2016-08-10"
-    }
-  ]
+  "2021-03-26": {
+    "health": 6
+  }
 }

@@ -1,0 +1,1127 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_116t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Whelp",
+    "card": {
+      "dbfId": 1912,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "DRAGON"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_116t",
+      "name": "새끼용",
+      "text": "",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "race": "DRAGON",
+      "flavor": "",
+      "portrait": "ONY_STK_013_D.psd:1c7a40617b2d8844b9ba73c4344f2c40",
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2355,
+          "name": "WHELP",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTokenSources": {
+      "parents": [
+        "EX1_116"
+      ],
+      "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+      "versions": [
+        {
+          "build": "1.0.0",
+          "platform": "iOS",
+          "archiveId": "14836313",
+          "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "새끼용"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 1,
+                "name": "Cost"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 45,
+                "value": 1,
+                "name": "Health"
+              },
+              {
+                "tagId": 200,
+                "value": 24,
+                "name": "Race"
+              }
+            ],
+            "stats": {
+              "cost": 1,
+              "attack": 1,
+              "health": 1,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "14836313",
+              "version": "1.0.0",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+              "serializedFile": "CAB-cards2",
+              "pathId": "-2147426208",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": {
+                "ref": "cab-cards1:-1132903620"
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:1587556433"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-1397590899"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+            "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-863456905",
+            "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/2df72702cfe0ea7f51445a6ea49293e5bf067aa1c606083871ba2f256c3e4e08.json",
+            "sha256": "2df72702cfe0ea7f51445a6ea49293e5bf067aa1c606083871ba2f256c3e4e08",
+            "source": "cab-premiummaterials0:1583056474"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:1587556433",
+              "material": {
+                "path": "art/historical/tile-materials/c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a.json",
+                "sha256": "c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.11999999731779099,
+                "_OffsetY": -0.3100000023841858,
+                "_Scale": 1.399999976158142
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1397590899",
+              "material": {
+                "path": "art/historical/tile-materials/c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a.json",
+                "sha256": "c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.12999999523162842,
+                "_OffsetY": -0.10999999940395355,
+                "_Scale": 1.309999942779541
+              }
+            },
+            "m_EnchantmentPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1132903620",
+              "material": {
+                "path": "art/historical/tile-materials/c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a.json",
+                "sha256": "c3869c98ae8f696d22559f35383d886ec49015812ab8591bfec9631c65cdbd9a"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.07000000029802322,
+                "_OffsetY": -0.019999999552965164,
+                "_Scale": 1.149999976158142
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/06d1f32740895982ba66afe45988fe7a6429277c27c382c85b37d1539b255df1.json",
+              "sha256": "06d1f32740895982ba66afe45988fe7a6429277c27c382c85b37d1539b255df1",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/084ffcebb167a137e637b451878c02fae2ab8ce7534645e1eb9062b38891676e.json",
+              "sha256": "084ffcebb167a137e637b451878c02fae2ab8ce7534645e1eb9062b38891676e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5361",
+          "platform": "iOS",
+          "archiveId": "563785077",
+          "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "새끼용"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 1,
+                "name": "Cost"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 45,
+                "value": 1,
+                "name": "Health"
+              },
+              {
+                "tagId": 200,
+                "value": 24,
+                "name": "Race"
+              }
+            ],
+            "stats": {
+              "cost": 1,
+              "attack": 1,
+              "health": 1,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "563785077",
+              "version": "1.0.5361",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+              "serializedFile": "CAB-cards2",
+              "pathId": "-2147426208",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": {
+                "ref": "cab-cards1:-1132903620"
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:1587556433"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-1397590899"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+            "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-863456905",
+            "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/476b2f1822bf4a2c5fc4cdddc9ed66b94291a616c60b89c688ff4ddab23bc426.json",
+            "sha256": "476b2f1822bf4a2c5fc4cdddc9ed66b94291a616c60b89c688ff4ddab23bc426",
+            "source": "cab-premiummaterials0:1583056474"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:1587556433",
+              "material": {
+                "path": "art/historical/tile-materials/01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c.json",
+                "sha256": "01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.11999999731779099,
+                "_OffsetY": -0.3100000023841858,
+                "_Scale": 1.399999976158142
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1397590899",
+              "material": {
+                "path": "art/historical/tile-materials/01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c.json",
+                "sha256": "01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.12999999523162842,
+                "_OffsetY": -0.10999999940395355,
+                "_Scale": 1.309999942779541
+              }
+            },
+            "m_EnchantmentPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1132903620",
+              "material": {
+                "path": "art/historical/tile-materials/01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c.json",
+                "sha256": "01a107ca0fd63ce1d17be01983a30f7c28d9aad2c43b1b9f7627f7131711a38c"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.07000000029802322,
+                "_OffsetY": -0.019999999552965164,
+                "_Scale": 1.149999976158142
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/051549bd949ba3ab08b3b276704c214aafab6840abf37ea7c08c086681da2af6.json",
+              "sha256": "051549bd949ba3ab08b3b276704c214aafab6840abf37ea7c08c086681da2af6",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/5e8ca992db0ab751f045a789f90ba704dfdf76418dd4bc92b5309f05ebac5d1c.json",
+              "sha256": "5e8ca992db0ab751f045a789f90ba704dfdf76418dd4bc92b5309f05ebac5d1c",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5435",
+          "platform": "iOS",
+          "archiveId": "588883794",
+          "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "새끼용"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 1,
+                "name": "Cost"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 45,
+                "value": 1,
+                "name": "Health"
+              },
+              {
+                "tagId": 200,
+                "value": 24,
+                "name": "Race"
+              }
+            ],
+            "stats": {
+              "cost": 1,
+              "attack": 1,
+              "health": 1,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "588883794",
+              "version": "1.0.5435",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+              "serializedFile": "CAB-cards2",
+              "pathId": "-2147426208",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": {
+                "ref": "cab-cards1:-1132903620"
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:1587556433"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-1397590899"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+            "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-863456905",
+            "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/b6fa1c41f1c2aa72abb0faf9ed1225235f19d02de73d2b1f54f5501a82092662.json",
+            "sha256": "b6fa1c41f1c2aa72abb0faf9ed1225235f19d02de73d2b1f54f5501a82092662",
+            "source": "cab-premiummaterials0:1583056474"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:1587556433",
+              "material": {
+                "path": "art/historical/tile-materials/8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487.json",
+                "sha256": "8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.11999999731779099,
+                "_OffsetY": -0.3100000023841858,
+                "_Scale": 1.399999976158142
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1397590899",
+              "material": {
+                "path": "art/historical/tile-materials/8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487.json",
+                "sha256": "8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.12999999523162842,
+                "_OffsetY": -0.10999999940395355,
+                "_Scale": 1.309999942779541
+              }
+            },
+            "m_EnchantmentPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1132903620",
+              "material": {
+                "path": "art/historical/tile-materials/8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487.json",
+                "sha256": "8841ed38e306c3ab22d7b0f3416d258822c8f94d9aa536f9b4d860d09b40e487"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.07000000029802322,
+                "_OffsetY": -0.019999999552965164,
+                "_Scale": 1.149999976158142
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/c4dba6a65962964c27fa018ff4614f1d06e4d82e5f641cbecb905c98c5ec928d.json",
+              "sha256": "c4dba6a65962964c27fa018ff4614f1d06e4d82e5f641cbecb905c98c5ec928d",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/bf6ea2eeff647cddaa549487f90a798a1b7054b3fa3ee28eecd5f583e847c031.json",
+              "sha256": "bf6ea2eeff647cddaa549487f90a798a1b7054b3fa3ee28eecd5f583e847c031",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5834",
+          "platform": "iOS",
+          "archiveId": "608602673",
+          "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "새끼용"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 48,
+                "value": 1,
+                "name": "Cost"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 45,
+                "value": 1,
+                "name": "Health"
+              },
+              {
+                "tagId": 200,
+                "value": 24,
+                "name": "Race"
+              }
+            ],
+            "stats": {
+              "cost": 1,
+              "attack": 1,
+              "health": 1,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "608602673",
+              "version": "1.0.5834",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards2.unity3d",
+              "serializedFile": "CAB-cards2",
+              "pathId": "-2147426208",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": {
+                "ref": "cab-cards1:-1132903620"
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:1587556433"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-1397590899"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97.png",
+            "sha256": "1a5b5f1add503e5006ab3184e89b0d7a0693a6824ca8ebcaed0615051b6c3f97",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-863456905",
+            "rgbaSha256": "a19965c6b0e157573981da9cae747ee7046ec7eb5137c8ad68fe9825fedf18b3"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/5f1ef0c759a0347e015a5262038a551eb6e4664e2c53ef0b99893619c05f15fd.json",
+            "sha256": "5f1ef0c759a0347e015a5262038a551eb6e4664e2c53ef0b99893619c05f15fd",
+            "source": "cab-premiummaterials0:1583056474"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:1587556433",
+              "material": {
+                "path": "art/historical/tile-materials/68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24.json",
+                "sha256": "68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.11999999731779099,
+                "_OffsetY": -0.3100000023841858,
+                "_Scale": 1.399999976158142
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1397590899",
+              "material": {
+                "path": "art/historical/tile-materials/68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24.json",
+                "sha256": "68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.12999999523162842,
+                "_OffsetY": -0.10999999940395355,
+                "_Scale": 1.309999942779541
+              }
+            },
+            "m_EnchantmentPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1132903620",
+              "material": {
+                "path": "art/historical/tile-materials/68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24.json",
+                "sha256": "68160b65b2d447001cab02ac0e63025d05e388eeb2e2c1e50e721978d7e57e24"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.07000000029802322,
+                "_OffsetY": -0.019999999552965164,
+                "_Scale": 1.149999976158142
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/0a1fab5cf7d6f66cb3589bc14b7ac26a4cabe7f45a1c306499da7c1436a4008e.json",
+              "sha256": "0a1fab5cf7d6f66cb3589bc14b7ac26a4cabe7f45a1c306499da7c1436a4008e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/79ea24781f56570ea5c8bec8bf60aa9b4a51d072ae27b276824f9019b30d9214.json",
+              "sha256": "79ea24781f56570ea5c8bec8bf60aa9b4a51d072ae27b276824f9019b30d9214",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        }
+      ],
+      "betaObservations": [
+        {
+          "build": "1.0.0.3749",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+            "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+            "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles"
+        },
+        {
+          "build": "1.0.0.3890",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+            "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2013-10-03"
+        },
+        {
+          "build": "1.0.0.3937",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+            "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2013-10-18"
+        },
+        {
+          "build": "1.0.0.4217",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2013-12-11"
+        },
+        {
+          "build": "1.0.0.4243",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2013-12-19"
+        },
+        {
+          "build": "1.0.0.4458",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2014-01-17"
+        },
+        {
+          "build": "1.0.0.4482",
+          "platform": "Windows",
+          "cardData": null,
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+          },
+          "visualStatus": "no exact card ID found in scanned card bundles",
+          "northAmericaPatchDateKst": "2014-01-18"
+        },
+        {
+          "build": "1.0.0.4944",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "새끼용"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Cost",
+                "enumID": "48",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Race",
+                "enumID": "200",
+                "type": "Race",
+                "value": "24"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"EX1_116t\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Whelp</enUS>\n    <zhTW>幼龍</zhTW>\n    <zhCN>雏龙</zhCN>\n    <ruRU>Дракончик</ruRU>\n    <ptBR>Dragonete</ptBR>\n    <plPL>Pisklę</plPL>\n    <koKR>새끼용</koKR>\n    <itIT>Draghetto</itIT>\n    <frFR>Dragonnet</frFR>\n    <esMX>Cría</esMX>\n    <esES>Cría</esES>\n    <deDE>Welpling</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Cost\" enumID=\"48\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Race\" enumID=\"200\" type=\"Race\" value=\"24\" />\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+            "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+            "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+            "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678",
+            "cardtextures0.unity3d": "cbffc9bddfaad294bf3ebe97fad4c6baa2f05eb3d2f4bd80e443593246f4f4fe",
+            "cardtextures1.unity3d": "74a613cc3e9850d954883089a379e3d2c502372dd0ee1b0b393199c344e7f0d6",
+            "premiummaterials0.unity3d": "f781aab009d087f8e72f0c09191da28e5a3be0eb320c3dc81f14d2199586bfd5",
+            "shared0.unity3d": "e5c3dcb478cdc56d72a9dc98ca9450eb7ef51c678d76ae80ec134b09e18c90b1",
+            "shared1.unity3d": "fc1360cc1b6481280c4073f16533a53a3c661ca36ce61f93fcecad1c80c1da90"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards2",
+            "pathId": "-2147426208",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ONY_STK_013_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/ds1_whelptoken_PremiumCard.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": "cab-cards1:-1132903620"
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards1:1587556433"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards1:-1397590899"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/ds1_whelptoken/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "Assets/Shared/Effects/Spells/Custom_Spawn/LeeroyWhelp_CustomSpawn",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/b9a013747b9acefbe0a3c803849f0098cbc4fa7c066ed45e50824e84d4e0cbfe.png",
+            "sha256": "b9a013747b9acefbe0a3c803849f0098cbc4fa7c066ed45e50824e84d4e0cbfe",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-863456905",
+            "rgbaSha256": "b2a1984c974f049c7c617b5a509ad4779e85acebe835dbc4adedf29694249932"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/0dce8378d3103466685c400ef534521a584b36b177fb6c5c99b94c34927a9665.json",
+            "sha256": "0dce8378d3103466685c400ef534521a584b36b177fb6c5c99b94c34927a9665",
+            "source": "cab-premiummaterials0:1583056474"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:1587556433",
+              "material": {
+                "path": "art/historical/tile-materials/79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b.json",
+                "sha256": "79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.11999999731779099,
+                "_OffsetY": -0.3100000023841858,
+                "_Scale": 1.399999976158142
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1397590899",
+              "material": {
+                "path": "art/historical/tile-materials/79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b.json",
+                "sha256": "79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.12999999523162842,
+                "_OffsetY": -0.10999999940395355,
+                "_Scale": 1.309999942779541
+              }
+            },
+            "m_EnchantmentPortrait": {
+              "status": "extracted",
+              "source": "cab-cards1:-1132903620",
+              "material": {
+                "path": "art/historical/tile-materials/79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b.json",
+                "sha256": "79d636a26d67693051fc014ee91abd562558f8b7b24a5310267efd915a21c58b"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.07000000029802322,
+                "_OffsetY": -0.019999999552965164,
+                "_Scale": 1.149999976158142
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/c23da2d01619643a9fde2b99f9ac137914abb8360d3ff45031893e24c2687226.json",
+              "sha256": "c23da2d01619643a9fde2b99f9ac137914abb8360d3ff45031893e24c2687226",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/184a5e6c3044d0a82d131f73b3886292aded35839e38f3908621a9b49d0fde4e.json",
+              "sha256": "184a5e6c3044d0a82d131f73b3886292aded35839e38f3908621a9b49d0fde4e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-03-12"
+        }
+      ],
+      "earlierWhelpCandidate": {
+        "cardId": "ds1_whelptoken",
+        "relationship": "unverified; distinct IDs coexist in 4944 and iOS",
+        "evidence": "same name and stats; identical iOS visual fields; earlier Leeroy description mentions Whelps"
+      }
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.4944",
+        "platform": "Windows",
+        "name": "새끼용",
+        "rawText": "",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2014-03-12"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_116t",
+    "dbfId": 1912,
+    "name": "새끼용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_116t.png",
+    "races": [
+      "DRAGON"
+    ],
+    "race": "DRAGON",
+    "set": "legacy",
+    "portrait": "ONY_STK_013_D.psd:1c7a40617b2d8844b9ba73c4344f2c40",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2355,
+        "name": "WHELP",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

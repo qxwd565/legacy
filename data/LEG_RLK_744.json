@@ -1,137 +1,21 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Stitched Giant",
-  "card": {
+  "2021-03-31": {
     "dbfId": 130583,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 9,
     "health": 8,
     "attack": 8,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "races": [],
-    "battlegroundsAssociatedRaces": null,
     "id": "LEG_RLK_744",
     "name": "기워 붙인 거인",
     "text": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
-    "race": "",
-    "flavor": "기울 땐 기워야죠!",
-    "portrait": "CLA-094_M.tif:6f7630a18caa49018649360ecd03d6b9",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 8
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 8
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 9
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 1
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 11
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 858,
-        "name": "게임 태그 858",
-        "value": 82072
-      },
-      {
-        "id": 1413,
-        "name": "게임 태그 1413",
-        "value": 82072
-      },
-      {
-        "id": 2198,
-        "name": "부정 룬 비용",
-        "value": 1
-      },
-      {
-        "id": 2559,
-        "name": "시체",
-        "value": 1
-      }
+    "collectible": true
+  },
+  "2022-11-30": {
+    "races": [
+      "UNDEAD"
     ],
-    "nativeRawText": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2022-11-30",
-        "changes": {
-          "races": [
-            "UNDEAD"
-          ],
-          "race": "언데드"
-        }
-      }
-    ]
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "race": "언데드"
   }
 }

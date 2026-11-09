@@ -1,0 +1,285 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_384",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Avenging Wrath",
+    "card": {
+      "dbfId": 1174,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 6,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "ImmuneToSpellpower"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_384",
+      "name": "응징의 격노",
+      "text": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "rarity": "EPIC",
+      "flavor": "쿠쾅쾅쾅쾅쾅쾅쾅!",
+      "spellSchool": "",
+      "portrait": "W15_A055_D.psd:e7106226e17979242b8bc59ba0de71ce",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "nativeRawText": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "적 캐릭터들에게 $8의 피해를 무작위로 나누어 입힙니다."
+          }
+        },
+        {
+          "date": "2015-04-01",
+          "changes": {
+            "text": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "응징의 격노",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "적 캐릭터들에게 $8의 피해를 무작위로 나누어 입힙니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "응징의 격노",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.3.8108",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "2.4.8311",
+        "platform": "iOS",
+        "name": "응징의 격노",
+        "rawText": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2015-04-01"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_384",
+    "dbfId": 1174,
+    "name": "응징의 격노",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 6,
+    "text": "모든 적에게 $8의 피해를 무작위로 나누어 입힙니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_384.png",
+    "artist": "Alex Garner",
+    "flavor": "쿠쾅쾅쾅쾅쾅쾅쾅!",
+    "mechanics": [
+      "ImmuneToSpellpower"
+    ],
+    "spellSchool": "HOLY",
+    "set": "legacy",
+    "portrait": "W15_A055_D.psd:e7106226e17979242b8bc59ba0de71ce",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 6
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ]
+}

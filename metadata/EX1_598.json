@@ -1,0 +1,227 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_598",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Imp",
+    "card": {
+      "dbfId": 76,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "DEMON"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_598",
+      "name": "임프",
+      "text": "",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "race": "악마",
+      "flavor": "",
+      "portrait": "WOW_AWK_001a_D.psd:1e1e33f7dc997b14aa6da32279bc852d",
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 15
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 1965,
+          "name": "IMP",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "name": "임프",
+        "rawText": "",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2013-08-17"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_598",
+    "dbfId": 76,
+    "name": "임프",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_598.png",
+    "set": "legacy",
+    "race": "악마",
+    "races": [
+      "DEMON"
+    ],
+    "portrait": "WOW_AWK_001a_D.psd:1e1e33f7dc997b14aa6da32279bc852d",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 15
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 1965,
+        "name": "IMP",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

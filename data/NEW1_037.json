@@ -1,214 +1,33 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Master Swordsmith",
-  "card": {
+  "2013-08-17": {
     "dbfId": 351,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 3,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "TRIGGER_VISUAL"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "NEW1_037",
     "name": "검 제작의 대가",
     "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "flavor": "현재는 다른 모든 대장장이들의 만류에도 불구하고, \"도리깨 도끼\"라는 무기를 제작하고 있습니다.",
-    "portrait": "W6_047_D.png:bf1c2787d8a92b0458e90055e5225789",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
-        }
-      },
-      {
-        "date": "2015-04-01",
-        "changes": {
-          "text": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 공격력을 +1 부여합니다."
-        }
-      },
-      {
-        "date": "2015-08-19",
-        "changes": {
-          "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2015-04-01": {
+    "text": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 공격력을 +1 부여합니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "검 제작의 대가",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "검 제작의 대가",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "2.3.8108",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "2.4.8311",
-      "platform": "iOS",
-      "name": "검 제작의 대가",
-      "rawText": "내 턴이 끝날 때, 무작위로 선택된 다른 아군 하수인 하나에게 공격력을 +1 부여합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "2.8.9554",
-      "displayFromKst": "2015-04-01"
-    },
-    {
-      "build": "3.0.9786",
-      "platform": "iOS",
-      "name": "검 제작의 대가",
-      "rawText": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2015-08-19"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "검 제작의 대가",
-      "rawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "검 제작의 대가",
-      "rawText": "내 턴이 끝날 때,\n다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2015-08-19": {
+    "text": "내 턴이 끝날 때, 다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
+  },
+  "2016-08-10": {
+    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인 하나에게 공격력을 +1 부여합니다."
+  },
+  "2018-10-03": {
+    "text": "내 턴이 끝날 때,<br></br>다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
+  }
 }

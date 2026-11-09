@@ -276,6 +276,10 @@ def publish_forward_card(card: dict, current: dict, name: str):
 
 
 def main():
+    # The migrated source is date-first; never materialize old card wrappers.
+    if (ROOT / "metadata").is_dir():
+        from build_date_api import build
+        return build(ROOT)
     source_path = ROOT / "cards.json"
     catalog = load(source_path)
     if catalog.get("schema") != 1 or not isinstance(catalog.get("cards"), list):

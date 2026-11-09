@@ -1,0 +1,285 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_625",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Shadowform",
+    "card": {
+      "dbfId": 1368,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 1622,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 3,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_625",
+      "name": "어둠의 형상",
+      "text": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "PRIEST",
+      "rarity": "EPIC",
+      "flavor": "빛을 어둠으로 돌리는 건 쉽지만, 어둠을 빛으로 돌리는 건 어렵다는 걸 보여주는 좋은 예라고 할 수 있죠.",
+      "spellSchool": "",
+      "portrait": "WOW_CHI_027_D.psd:c5516efb407f8a14faff758c13f87c76",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+          "value": 1622
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeRawText": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "내 영웅 능력이 '피해를 2 줍니다.'가 됩니다. 이미 어둠의 형상이었다면 피해를 3 줍니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 피해 3)"
+          }
+        },
+        {
+          "date": "2015-12-05",
+          "changes": {
+            "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 3)"
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+            "spellSchool": "SHADOW",
+            "cost": 2
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [
+      1622,
+      1623
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "어둠의 형상",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "내 영웅 능력이 '피해를 2 줍니다.'가 됩니다. 이미 어둠의 형상이었다면 피해를 3 줍니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "어둠의 형상",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 피해 3)",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "어둠의 형상",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "4.0.10833",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "4.1.10956",
+        "platform": "iOS",
+        "name": "어둠의 형상",
+        "rawText": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. (이미 어둠의 형상이었다면 3)",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2015-12-05"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_625",
+    "dbfId": 1368,
+    "name": "어둠의 형상",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_625.png",
+    "artist": "Alex Horley Orlandelli",
+    "flavor": "빛을 어둠으로 돌리는 건 쉽지만, 어둠을 빛으로 돌리는 건 어렵다는 걸 보여주는 좋은 예라고 할 수 있죠.",
+    "spellSchool": "SHADOW",
+    "relatedDbfIds": [
+      1622,
+      1623
+    ],
+    "set": "legacy",
+    "portrait": "WOW_CHI_027_D.psd:c5516efb407f8a14faff758c13f87c76",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+        "value": 1622
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ]
+}

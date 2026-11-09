@@ -18,6 +18,10 @@ import sys
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
+# Superseded mutators cannot rewrite the canonical date-map format.
+if __name__ == "__main__" and (ROOT / "metadata").is_dir():
+    raise SystemExit("Date-map source detected. Edit data/<ID>.json and its evidence metadata; this legacy wrapper importer is disabled. See docs/date-schema.md.")
+
 
 
 def mpq_bundle(archive_path, library_path):

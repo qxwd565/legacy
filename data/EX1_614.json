@@ -1,272 +1,37 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Xavius",
-  "card": {
+  "2013-08-17": {
     "dbfId": 556,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 1751,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 6,
     "health": 5,
     "attack": 7,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "DEMON"
     ],
     "mechanics": [
       "TRIGGER_VISUAL"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_614",
     "name": "일리단 스톰레이지",
     "text": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
     "race": "DEMON",
-    "flavor": "자비우스는 살게라스를 이 세계에 소환하고 싶어합니다. 하지만 일단은 사티로스로 만족해야겠군요.",
-    "portrait": "W21_A203.tif:1a68bdbf3c0de2d43bdeee73bef4b63a",
     "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 7
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 6
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 15
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 1751
-      }
-    ],
-    "nativeRawText": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "legacyArt": true,
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
-        }
-      },
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
-        }
-      },
-      {
-        "date": "2020-03-27",
-        "changes": {
-          "name": "자비우스",
-          "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
-          "legacyArt": false
-        }
-      }
-    ]
+    "legacyArt": true
   },
-  "root": true,
-  "relatedIds": [
-    1751
-  ],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2013-12-12": {
+    "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다."
   },
-  "historicalSources": [
-    {
-      "key": "illidan",
-      "id": "EX1_614",
-      "sourceId": "VAN_EX1_614",
-      "name": "일리단 스톰레이지",
-      "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
-      "kind": "MINION",
-      "cardClass": "NEUTRAL",
-      "sourceSet": "EXPERT1",
-      "rarity": "LEGENDARY",
-      "race": "악마",
-      "dbfId": 556,
-      "sourceDbfId": 70054,
-      "rowId": 2000000002,
-      "mana": 6,
-      "attack": 7,
-      "health": 5,
-      "armor": 0,
-      "removed": true,
-      "preset": {
-        "watermark": "Set1_Icon"
-      },
-      "archives": {
-        "normal": "4eeb9025801f36c4e87856d5c6b9c1a0f8a0486c1f0cc9b927420b7703f4ee5f",
-        "golden": "ada77417319ecc301fbfe53bc16fd771cd6d4ac37bf142507d294778860627d3"
-      },
-      "sourceVersion": "6000.3.11.3145967",
-      "sources": {
-        "essential_base_global-texture-2.unity3d": "26047733:639275082148117234",
-        "essential_base_global-material-0.unity3d": "498177:639275082144082134",
-        "essential_base_global-mesh-0.unity3d": "6793482:639275082143799789",
-        "essential_base_global-shader-0.unity3d": "1199727:639275081879107966",
-        "initial_base_global-910a3655-mesh-0.unity3d": "2350877:639216100405791575",
-        "essential_base_global-prefab-0.unity3d": "3914913:639275082143799789",
-        "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
-        "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
-      }
-    }
-  ],
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "일리단 스톰레이지",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "일리단 스톰레이지",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 하나 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "일리단 스톰레이지",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "일리단 스톰레이지",
-      "rawText": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "16.6.43246",
-      "displayFromKst": "2018-10-03"
-    },
-    {
-      "build": "17.0.44222",
-      "platform": "iOS",
-      "name": "자비우스",
-      "rawText": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2020-03-27"
-    }
-  ]
+  "2018-10-03": {
+    "text": "내가 카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
+  },
+  "2020-03-27": {
+    "name": "자비우스",
+    "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
+    "legacyArt": false
+  }
 }

@@ -1,0 +1,154 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EDR_100t1",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2025-03-26",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "card": {
+      "id": "EDR_100t1",
+      "dbfId": 113797,
+      "name": "푹 쉼",
+      "text": "+2/+2와 <b>모면</b>을 부여합니다.",
+      "type": "SPELL",
+      "nativeSetId": 1946,
+      "set": "LEGACY",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "cost": 0,
+      "attack": 0,
+      "health": 0,
+      "armor": 0,
+      "durability": 0,
+      "collectible": false,
+      "installed": true,
+      "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
+      "nativeTags": [
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 684,
+          "name": "HIDE_COST",
+          "value": 1
+        },
+        {
+          "id": 1211,
+          "name": "지정 불가",
+          "value": 1
+        },
+        {
+          "id": 3567,
+          "name": "IS_NIGHTMARE_BONUS",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "+2/+2와 <b>모면</b>을 부여합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2025-03-26",
+      "releaseStatus": "verified",
+      "patches": []
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "EDR_100t1",
+    "dbfId": 113797,
+    "name": "푹 쉼",
+    "type": "SPELL",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 0,
+    "text": "+2/+2와 <b>모면</b>을 부여합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EDR_100t1.png",
+    "set": "legacy",
+    "portrait": "HS34-218_S.tif:7e143443e55a48cfacb0755ceeab127a",
+    "nativeTags": [
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 684,
+        "name": "HIDE_COST",
+        "value": 1
+      },
+      {
+        "id": 1211,
+        "name": "지정 불가",
+        "value": 1
+      },
+      {
+        "id": 3567,
+        "name": "IS_NIGHTMARE_BONUS",
+        "value": 1
+      }
+    ],
+    "releasedAt": "2025-03-26",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

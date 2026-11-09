@@ -1,185 +1,28 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Patient Assassin",
-  "card": {
+  "2013-08-17": {
     "dbfId": 1133,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 1,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "POISONOUS",
       "STEALTH"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_522",
     "name": "침착한 암살자",
     "text": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "ROGUE",
     "rarity": "EPIC",
-    "flavor": "사실 그리 침착한 성격은 아닙니다. 상대가 사정거리에 들어오는 데 시간이 많이 걸릴 뿐이죠.",
-    "portrait": "W16_a105_D.psd:5f8282f9ec9419d40818df03787e2949",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 191,
-        "name": "은신",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 363,
-        "name": "독성",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>은신</b>\n<b>독성</b>",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 죽습니다."
-        }
-      },
-      {
-        "date": "2017-03-01",
-        "changes": {
-          "text": "<b>은신</b><br></br><b>독성</b>"
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "health": 2
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 죽습니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2017-03-01": {
+    "text": "<b>은신</b><br></br><b>독성</b>"
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "침착한 암살자",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "침착한 암살자",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "7.0.15590",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "7.1.17720",
-      "platform": "iOS",
-      "name": "침착한 암살자",
-      "rawText": "<b>은신</b>\n<b>독성</b>",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2017-03-01"
-    }
-  ]
+  "2021-03-26": {
+    "health": 2
+  }
 }

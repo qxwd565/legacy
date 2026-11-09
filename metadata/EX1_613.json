@@ -1,0 +1,343 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_613",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Edwin VanCleef",
+    "card": {
+      "dbfId": 306,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 3,
+      "health": 1,
+      "attack": 1,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "COMBO",
+        "STEALTH"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_613",
+      "name": "에드윈 밴클리프",
+      "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "rarity": "LEGENDARY",
+      "flavor": "그는 스톰윈드를 재건하는 석공 길드를 이끌었는데, 귀족들이 돈을 지불하지 않자 데피아즈단을 결성해 <i>오히려</i> 스톰윈드를 마구 부쉈답니다.",
+      "portrait": "R7_a065_D.psd:71111c0e9ec0ec143adc29566a1aa346",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 220,
+          "name": "연계",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-08-30",
+          "changes": {
+            "text": "[x]<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드 1장당<br></br>+2/+2를 얻습니다."
+          }
+        },
+        {
+          "date": "2013-09-01",
+          "changes": {
+            "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다."
+          }
+        },
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다.",
+            "attack": 2,
+            "health": 2,
+            "mechanics": [
+              "COMBO"
+            ]
+          }
+        },
+        {
+          "date": "2017-04-05",
+          "changes": {
+            "text": "[x]<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드 1장당<br></br>+2/+2를 얻습니다."
+          }
+        },
+        {
+          "date": "2021-01-09",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "cost": 3
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "에드윈 밴클리프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3664",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>은신</b>. <b>연계:</b> 이번 턴에 앞서 낸 카드 한 장당 +2/+2를 얻습니다.",
+        "name": "에드윈 밴클리프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-09-01"
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "<b>연계:</b> 이번 턴에 앞서 낸 카드 1장당 +2/+2를 얻습니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "에드윈 밴클리프",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "7.1.18015",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "8.0.18336",
+        "platform": "iOS",
+        "name": "에드윈 밴클리프",
+        "rawText": "[x]<b>연계:</b> 이번 턴에\n앞서 낸 카드 1장당\n+2/+2를 얻습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2017-04-05"
+      }
+    ],
+    "unresolvedHistoricalTextDates": [
+      {
+        "from": "2013-08-30",
+        "before": "2013-09-01",
+        "reason": "The 3749 patch was deployed on August 30 US time; exact Korea-time cutover within these two dates is unverified.",
+        "olderBuild": "1.0.0.3664",
+        "newerBuild": "1.0.0.3749"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_613",
+    "dbfId": 306,
+    "name": "에드윈 밴클리프",
+    "type": "MINION",
+    "cardClass": "ROGUE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 3,
+    "text": "[x]<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드 1장당<br></br>+2/+2를 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_613.png",
+    "artist": "Efrem Palacios",
+    "flavor": "그는 스톰윈드를 재건하는 석공 길드를 이끌었는데, 귀족들이 돈을 지불하지 않자 데피아즈단을 결성해 <i>오히려</i> 스톰윈드를 마구 부쉈답니다.",
+    "mechanics": [
+      "COMBO"
+    ],
+    "set": "legacy",
+    "portrait": "R7_a065_D.psd:71111c0e9ec0ec143adc29566a1aa346",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 220,
+        "name": "연계",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

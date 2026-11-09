@@ -1,0 +1,224 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LEG_RLK_710",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2021-03-31",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Rimefang Sword",
+    "card": {
+      "dbfId": 113193,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 3,
+      "health": 3,
+      "attack": 2,
+      "armor": 0,
+      "durability": 3,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "LEG_RLK_710",
+      "name": "서릿발송곳니 검",
+      "text": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다.",
+      "set": "LEGACY",
+      "type": "WEAPON",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": "RARE",
+      "flavor": "누구 송곳니를 본떠 만들었을까요?",
+      "portrait": "r6_a047_W_W.tif:14bf6d8881c780640ad8b42a700877dc",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 858,
+          "name": "게임 태그 858",
+          "value": 80649
+        },
+        {
+          "id": 2197,
+          "name": "냉기 룬 비용",
+          "value": 2
+        }
+      ],
+      "nativeRawText": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LEG_RLK_710",
+    "dbfId": 113193,
+    "name": "서릿발송곳니 검",
+    "type": "WEAPON",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다.",
+    "attack": 2,
+    "health": 3,
+    "durability": 3,
+    "armor": 0,
+    "art": "art/LEG_RLK_710.png",
+    "set": "legacy",
+    "flavor": "누구 송곳니를 본떠 만들었을까요?",
+    "portrait": "r6_a047_W_W.tif:14bf6d8881c780640ad8b42a700877dc",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 80649
+      },
+      {
+        "id": 2197,
+        "name": "냉기 룬 비용",
+        "value": 2
+      }
+    ],
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "durability",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

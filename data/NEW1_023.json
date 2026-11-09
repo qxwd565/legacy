@@ -1,25 +1,9 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Faerie Dragon",
-  "card": {
+  "2013-08-17": {
     "dbfId": 609,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 2,
     "health": 2,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "DRAGON"
     ],
@@ -27,156 +11,25 @@
       "CANT_BE_TARGETED_BY_SPELLS",
       "CANT_BE_TARGETED_BY_HERO_POWERS"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "NEW1_023",
     "name": "요정용",
     "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "COMMON",
     "race": "DRAGON",
-    "flavor": "깜찍합니다. 마법에 면역입니다. 바닥에 쉬를 하지도 않습니다. 정말 완벽한 애완동물 아닌가요?",
-    "portrait": "faerieDragon_D.psd:e2012754ca1ca7748a75bffec02c9b07",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 2
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 24
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1211,
-        "name": "지정 불가",
-        "value": 1
-      }
+    "collectible": true
+  },
+  "2013-10-03": {
+    "text": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+  },
+  "2020-03-27": {
+    "text": "주문이나 영웅 능력의 대상으로 지정되지 않습니다."
+  },
+  "2024-03-12": {
+    "mechanics": [
+      "ELUSIVE"
     ],
-    "nativeRawText": "<b>모면</b>",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다."
-        }
-      },
-      {
-        "date": "2020-03-27",
-        "changes": {
-          "text": "주문이나 영웅 능력의 대상으로 지정되지 않습니다."
-        }
-      },
-      {
-        "date": "2024-03-12",
-        "changes": {
-          "text": "<b>모면</b>",
-          "mechanics": [
-            "ELUSIVE"
-          ]
-        }
-      }
-    ]
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "요정용",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "요정용",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "16.6.43246",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "17.0.44222",
-      "platform": "iOS",
-      "name": "요정용",
-      "rawText": "주문이나 영웅 능력의 대상으로 지정되지 않습니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2020-03-27"
-    }
-  ]
+    "text": "<b>모면</b>"
+  }
 }

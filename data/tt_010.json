@@ -1,187 +1,25 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Spellbender",
-  "card": {
+  "2013-08-17": {
     "dbfId": 366,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 1086,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 3,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "SECRET"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "tt_010",
     "name": "주문왜곡사",
     "text": "<b>비밀:</b> 적이 하수인에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 소환합니다.",
-    "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "EPIC",
-    "flavor": "적의 번개 화살을 훔치는 건 즐거운 일이지만, 주문왜곡사들은 오히려 야생의 징표를 훔치는 걸 훨씬 좋아합니다. 그게 더 재미있거든요. 블러드 엘프들이 원래 좀... 야비하잖아요.",
-    "portrait": "W9_A039_D.psd:f4942f5173c3c154781cb0444b8e4345",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 4
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 219,
-        "name": "비밀",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 2
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 1086
-      }
-    ],
-    "nativeRawText": "[x]<b>비밀:</b> 적이 하수인에게\n주문을 시전하면, 그 효과를\n대신 받는 1/3 하수인을\n소환합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인 하나를 소환합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 하나 소환합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "[x]<b>비밀:</b> 적이 하수인에게<br></br>주문을 시전하면, 그 효과를<br></br>대신 받는 1/3 하수인을<br></br>소환합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [
-    1086
-  ],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-12-12": {
+    "text": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인 하나를 소환합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2016-08-10": {
+    "text": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 하나 소환합니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>비밀:</b> 적이 하수인에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 소환합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "주문왜곡사",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>비밀:</b> 적이 하수인에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 소환합니다."
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인 하나를 소환합니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "주문왜곡사",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "주문왜곡사",
-      "rawText": "<b>비밀:</b> 적이 하수인 하나에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 하나 소환합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "주문왜곡사",
-      "rawText": "[x]<b>비밀:</b> 적이 하수인에게\n주문을 시전하면, 그 효과를\n대신 받는 1/3 하수인을\n소환합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2018-10-03": {
+    "text": "[x]<b>비밀:</b> 적이 하수인에게<br></br>주문을 시전하면, 그 효과를<br></br>대신 받는 1/3 하수인을<br></br>소환합니다."
+  }
 }

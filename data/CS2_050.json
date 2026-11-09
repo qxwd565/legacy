@@ -1,132 +1,19 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Searing Totem",
-  "card": {
+  "2013-08-17": {
     "dbfId": 537,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 1,
     "health": 1,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "TOTEM"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "CS2_050",
     "name": "불타는 토템",
     "text": "",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
     "race": "토템",
-    "flavor": "",
-    "portrait": "W10_A129_D.psd:66f4c36fb1515ba4eae9e6f29dcfd673",
-    "collectible": false,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 21
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 3
-      },
-      {
-        "id": 1107,
-        "name": "HIDE_WATERMARK",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": []
-  },
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "name": "불타는 토템",
-      "rawText": "",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2013-08-17"
-    }
-  ]
+    "collectible": false
+  }
 }

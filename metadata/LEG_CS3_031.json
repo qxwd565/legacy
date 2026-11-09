@@ -1,0 +1,244 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LEG_CS3_031",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2021-03-31",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Alexstrasza the Life-Binder",
+    "card": {
+      "dbfId": 113183,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 9,
+      "health": 8,
+      "attack": 8,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "DRAGON"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "LEG_CS3_031",
+      "name": "생명의 어머니 알렉스트라자",
+      "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다.",
+      "set": "LEGACY",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "race": "용족",
+      "flavor": "아군 공격: 불가",
+      "portrait": "CLA-049_M.tif:df3b230c0f4641f998f436211fa03ff8",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 858,
+          "name": "게임 태그 858",
+          "value": 66864
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b> 캐릭터를\n선택합니다. 아군 캐릭터라면\n생명력을 #8 회복시킵니다.\n적 캐릭터라면 피해를\n8 줍니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "estimated",
+      "patches": []
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LEG_CS3_031",
+    "dbfId": 113183,
+    "name": "생명의 어머니 알렉스트라자",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다.",
+    "attack": 8,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/LEG_CS3_031.png",
+    "set": "legacy",
+    "flavor": "아군 공격: 불가",
+    "race": "용족",
+    "races": [
+      "DRAGON"
+    ],
+    "portrait": "CLA-049_M.tif:df3b230c0f4641f998f436211fa03ff8",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 8
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 66864
+      }
+    ],
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

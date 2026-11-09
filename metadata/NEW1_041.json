@@ -1,0 +1,374 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "NEW1_041",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Stampeding Kodo",
+    "card": {
+      "dbfId": 1371,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 5,
+      "health": 5,
+      "attack": 3,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "BEAST"
+      ],
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "NEW1_041",
+      "name": "날뛰는 코도",
+      "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "race": "BEAST",
+      "flavor": "이 코도가 미쳐 날뛰고 있습니다!",
+      "portrait": "W8_135_D.png:6dcdb94493bdd9d40ae1668d3c251b60",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
+          }
+        },
+        {
+          "date": "2015-04-01",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 하수인 하나를 처치합니다."
+          }
+        },
+        {
+          "date": "2015-06-16",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 적 하수인 하나를 처치합니다."
+          }
+        },
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
+          }
+        },
+        {
+          "date": "2018-04-11",
+          "changes": {
+            "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "날뛰는 코도",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "날뛰는 코도",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "날뛰는 코도",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.3.8108",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "2.4.8311",
+        "platform": "iOS",
+        "name": "날뛰는 코도",
+        "rawText": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 하수인 하나를 처치합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.6.8834",
+        "displayFromKst": "2015-04-01"
+      },
+      {
+        "build": "2.7.9166",
+        "platform": "iOS",
+        "name": "날뛰는 코도",
+        "rawText": "<b>전투의 함성:</b> 무작위로 선택된 공격력 2 이하의 적 하수인 하나를 처치합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.8.9554",
+        "displayFromKst": "2015-06-16"
+      },
+      {
+        "build": "3.0.9786",
+        "platform": "iOS",
+        "name": "날뛰는 코도",
+        "rawText": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "10.4.23576",
+        "displayFromKst": "2015-08-19"
+      },
+      {
+        "build": "11.0.23966",
+        "platform": "iOS",
+        "name": "날뛰는 코도",
+        "rawText": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인 하나를 처치합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2018-04-11"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "날뛰는 코도",
+        "rawText": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "NEW1_041",
+    "dbfId": 1371,
+    "name": "날뛰는 코도",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/NEW1_041.png",
+    "artist": "Daren Bader",
+    "flavor": "이 코도가 미쳐 날뛰고 있습니다!",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "BEAST",
+    "set": "legacy",
+    "portrait": "W8_135_D.png:6dcdb94493bdd9d40ae1668d3c251b60",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_567",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Doomhammer",
+    "card": {
+      "dbfId": 352,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 5,
+      "health": 8,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "OVERLOAD",
+        "WINDFURY"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_567",
+      "name": "둠해머",
+      "text": "<b>질풍, 과부하:</b> (2)",
+      "set": "EXPERT1",
+      "type": "WEAPON",
+      "cardClass": "SHAMAN",
+      "rarity": "EPIC",
+      "flavor": "오그림 둠해머는 자신의 전설적인 무기를 스랄에게 주었습니다. 무기와 그의 이름이 같은 건... 그저 우연입니다.",
+      "portrait": "JP_Cataclysm_Book_Cover_Final_D.psd:c5ae289b14b32a44981b0324a98214a7",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 189,
+          "name": "질풍",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>질풍</b>\n<b>과부하:</b> (2)",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "<b>질풍</b><br></br><b>과부하:</b> (2)"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>질풍, 과부하:</b> (2)",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "둠해머",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>질풍, 과부하:</b> (2)"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "둠해머",
+        "rawText": "<b>질풍</b>\n<b>과부하:</b> (2)",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-08-10"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_567",
+    "dbfId": 352,
+    "name": "둠해머",
+    "type": "WEAPON",
+    "cardClass": "SHAMAN",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 5,
+    "text": "<b>질풍</b><br></br><b>과부하:</b> (2)",
+    "attack": 2,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_567.png",
+    "artist": "John Polidora",
+    "flavor": "오그림 둠해머는 자신의 전설적인 무기를 스랄에게 주었습니다. 무기와 그의 이름이 같은 건... 그저 우연입니다.",
+    "mechanics": [
+      "OVERLOAD",
+      "WINDFURY"
+    ],
+    "set": "legacy",
+    "portrait": "JP_Cataclysm_Book_Cover_Final_D.psd:c5ae289b14b32a44981b0324a98214a7",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 189,
+        "name": "질풍",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "durability",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "legacyWeaponEncoding": "health-tag45; durability field was exporter placeholder zero"
+}

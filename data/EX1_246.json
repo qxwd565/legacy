@@ -1,207 +1,31 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Hex",
-  "card": {
+  "2013-08-17": {
     "dbfId": 766,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 548,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 3,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_246",
     "name": "사술",
     "text": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다.",
-    "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "flavor": "멀록에게 사술을 써보셨나요? 네, 외관 상 큰 변화는 없을 겁니다.",
-    "spellSchool": "",
-    "portrait": "W5_120_D.tif:380e01e443d8cba4e8e69f0c8aaf517a",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 548
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "nativeRawText": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "하수인을 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
-        }
-      },
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
-        }
-      },
-      {
-        "date": "2017-09-19",
-        "changes": {
-          "cost": 4
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "[x]하수인을 <b>도발</b> 능력이<br></br>있는 0/1 개구리로<br></br>변신시킵니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "NATURE"
-        }
-      },
-      {
-        "date": "2023-04-05",
-        "changes": {
-          "cost": 3
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "하수인을 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2013-12-12": {
+    "text": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "사술",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "하수인을 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "사술",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "하수인 하나를 <b>도발</b> 능력이 있는 0/1 개구리로 변신시킵니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "사술",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "사술",
-      "rawText": "[x]하수인을 <b>도발</b> 능력이\n있는 0/1 개구리로\n변신시킵니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2017-09-19": {
+    "cost": 4
+  },
+  "2018-10-03": {
+    "text": "[x]하수인을 <b>도발</b> 능력이<br></br>있는 0/1 개구리로<br></br>변신시킵니다."
+  },
+  "2021-03-26": {
+    "spellSchool": "NATURE"
+  },
+  "2023-04-05": {
+    "cost": 3
+  }
 }

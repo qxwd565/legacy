@@ -1,0 +1,2278 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "tt_010a",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Spellbender",
+    "card": {
+      "dbfId": 1086,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 1,
+      "health": 3,
+      "attack": 1,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "tt_010a",
+      "name": "주문왜곡사",
+      "text": "<b></b> ",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "rarity": "FREE",
+      "flavor": "",
+      "portrait": "W9_A039a_D.psd:dc1ebe52981c1c0439f71749c969e382",
+      "collectible": false,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 2
+        }
+      ],
+      "nativeRawText": "",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "<b></b>"
+          }
+        },
+        {
+          "date": "2014-07-23",
+          "changes": {
+            "text": ""
+          }
+        }
+      ]
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b></b> ",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "주문왜곡사",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b></b> "
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "<b></b>",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "주문왜곡사",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.5834",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.1.6069",
+        "platform": "iOS",
+        "name": "주문왜곡사",
+        "rawText": "",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2014-07-23"
+      }
+    ],
+    "historicalTokenSources": {
+      "parents": [
+        "tt_010"
+      ],
+      "relationshipSource": "relatedIds of collectible cards in legacy API; both IDs present in iOS 1.0.0",
+      "versions": [
+        {
+          "build": "1.0.0",
+          "platform": "iOS",
+          "archiveId": "14836313",
+          "sourceSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 203,
+                "value": 4,
+                "name": "Rarity"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 45,
+                "value": 3,
+                "name": "Health"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 199,
+                "value": 4,
+                "name": "Class"
+              },
+              {
+                "tagId": 251,
+                "value": 2,
+                "name": "AttackVisualType"
+              }
+            ],
+            "stats": {
+              "cost": null,
+              "attack": 1,
+              "health": 3,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "14836313",
+              "version": "1.0.0",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+              "serializedFile": "CAB-cards0",
+              "pathId": "277590187",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+            "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-1143295930",
+            "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/a14aec4b8d909c980d979a3fe090126d993cdee24606f7b41b6e17ec51b61774.json",
+            "sha256": "a14aec4b8d909c980d979a3fe090126d993cdee24606f7b41b6e17ec51b61774",
+            "source": "cab-premiummaterials0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/6fabd63161f2288c3016b4f82aa2afd6a829f79c95e35e242e3a1185748687f9.json",
+                "sha256": "6fabd63161f2288c3016b4f82aa2afd6a829f79c95e35e242e3a1185748687f9"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/6fabd63161f2288c3016b4f82aa2afd6a829f79c95e35e242e3a1185748687f9.json",
+                "sha256": "6fabd63161f2288c3016b4f82aa2afd6a829f79c95e35e242e3a1185748687f9"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/06d1f32740895982ba66afe45988fe7a6429277c27c382c85b37d1539b255df1.json",
+              "sha256": "06d1f32740895982ba66afe45988fe7a6429277c27c382c85b37d1539b255df1",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/084ffcebb167a137e637b451878c02fae2ab8ce7534645e1eb9062b38891676e.json",
+              "sha256": "084ffcebb167a137e637b451878c02fae2ab8ce7534645e1eb9062b38891676e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5361",
+          "platform": "iOS",
+          "archiveId": "563785077",
+          "sourceSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 203,
+                "value": 4,
+                "name": "Rarity"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 45,
+                "value": 3,
+                "name": "Health"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 199,
+                "value": 4,
+                "name": "Class"
+              },
+              {
+                "tagId": 251,
+                "value": 2,
+                "name": "AttackVisualType"
+              }
+            ],
+            "stats": {
+              "cost": null,
+              "attack": 1,
+              "health": 3,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "563785077",
+              "version": "1.0.5361",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+              "serializedFile": "CAB-cards0",
+              "pathId": "277590187",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+            "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-1143295930",
+            "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/799adef235a04f92f100f746ef99f39799c9c65bf82c7837db28bed88516a658.json",
+            "sha256": "799adef235a04f92f100f746ef99f39799c9c65bf82c7837db28bed88516a658",
+            "source": "cab-premiummaterials0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/a20d248e406a79d153b7ea37ba78aa3348f2fea40234ea3aa7dfeb2e5806ceb8.json",
+                "sha256": "a20d248e406a79d153b7ea37ba78aa3348f2fea40234ea3aa7dfeb2e5806ceb8"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/a20d248e406a79d153b7ea37ba78aa3348f2fea40234ea3aa7dfeb2e5806ceb8.json",
+                "sha256": "a20d248e406a79d153b7ea37ba78aa3348f2fea40234ea3aa7dfeb2e5806ceb8"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/051549bd949ba3ab08b3b276704c214aafab6840abf37ea7c08c086681da2af6.json",
+              "sha256": "051549bd949ba3ab08b3b276704c214aafab6840abf37ea7c08c086681da2af6",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/5e8ca992db0ab751f045a789f90ba704dfdf76418dd4bc92b5309f05ebac5d1c.json",
+              "sha256": "5e8ca992db0ab751f045a789f90ba704dfdf76418dd4bc92b5309f05ebac5d1c",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5435",
+          "platform": "iOS",
+          "archiveId": "588883794",
+          "sourceSha256": "f415baa8b1c6b47341145ca1f23487f506cb406360367e087e413562ba60ed3b",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 203,
+                "value": 4,
+                "name": "Rarity"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 45,
+                "value": 3,
+                "name": "Health"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 199,
+                "value": 4,
+                "name": "Class"
+              },
+              {
+                "tagId": 251,
+                "value": 2,
+                "name": "AttackVisualType"
+              }
+            ],
+            "stats": {
+              "cost": null,
+              "attack": 1,
+              "health": 3,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "588883794",
+              "version": "1.0.5435",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+              "serializedFile": "CAB-cards0",
+              "pathId": "277590187",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+            "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-1143295930",
+            "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/8e6c2bd690476a45e1a467ad52dd17580a83c0c28f494cc4bfefd77ea38dccb3.json",
+            "sha256": "8e6c2bd690476a45e1a467ad52dd17580a83c0c28f494cc4bfefd77ea38dccb3",
+            "source": "cab-premiummaterials0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/a2691efbee64a845f6c2ca9b6eea725932c1df38c3dd5fcce21a1ff11dbb05e8.json",
+                "sha256": "a2691efbee64a845f6c2ca9b6eea725932c1df38c3dd5fcce21a1ff11dbb05e8"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/a2691efbee64a845f6c2ca9b6eea725932c1df38c3dd5fcce21a1ff11dbb05e8.json",
+                "sha256": "a2691efbee64a845f6c2ca9b6eea725932c1df38c3dd5fcce21a1ff11dbb05e8"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/c4dba6a65962964c27fa018ff4614f1d06e4d82e5f641cbecb905c98c5ec928d.json",
+              "sha256": "c4dba6a65962964c27fa018ff4614f1d06e4d82e5f641cbecb905c98c5ec928d",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/bf6ea2eeff647cddaa549487f90a798a1b7054b3fa3ee28eecd5f583e847c031.json",
+              "sha256": "bf6ea2eeff647cddaa549487f90a798a1b7054b3fa3ee28eecd5f583e847c031",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.5834",
+          "platform": "iOS",
+          "archiveId": "608602673",
+          "sourceSha256": "bb3606505b1893998d64ea7483cdda4385affbf4ef6c4c58f3ac5ff29395f74e",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "tagId": 183,
+                "value": 3,
+                "name": "CardSet"
+              },
+              {
+                "tagId": 203,
+                "value": 4,
+                "name": "Rarity"
+              },
+              {
+                "tagId": 202,
+                "value": 4,
+                "name": "CardType"
+              },
+              {
+                "tagId": 45,
+                "value": 3,
+                "name": "Health"
+              },
+              {
+                "tagId": 47,
+                "value": 1,
+                "name": "Atk"
+              },
+              {
+                "tagId": 199,
+                "value": 4,
+                "name": "Class"
+              },
+              {
+                "tagId": 251,
+                "value": 2,
+                "name": "AttackVisualType"
+              }
+            ],
+            "stats": {
+              "cost": null,
+              "attack": 1,
+              "health": 3,
+              "armor": null,
+              "durability": null,
+              "tavernTier": null
+            },
+            "type": "MINION",
+            "collectible": false,
+            "nativeXml": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>",
+            "references": []
+          },
+          "cardDefinition": {
+            "source": {
+              "archiveId": "608602673",
+              "version": "1.0.5834",
+              "bundle": "Payload/hearthstone.app/Data/Raw/Data/cards0.unity3d",
+              "serializedFile": "CAB-cards0",
+              "pathId": "277590187",
+              "type": "MonoBehaviour"
+            },
+            "nativeFields": {
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": null,
+              "m_EnchantmentPortrait": null,
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": null,
+              "m_DeckPickerPortrait": null,
+              "m_PracticeAIPortrait": null,
+              "m_DeckBoxPortrait": null
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb.png",
+            "sha256": "19f47e1650d57ac918c3594f53733638a7c066a10566c93c44c06e7cb4a71fdb",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-1143295930",
+            "rgbaSha256": "52cf44e116acaedad50bbf2ad0c3e115754bc1505d89d21f2815ca68ee78dc50"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/34b0292d1d83bfd0dedc584363df5f7271725ddc7687a3eec1be7c473ce8908b.json",
+            "sha256": "34b0292d1d83bfd0dedc584363df5f7271725ddc7687a3eec1be7c473ce8908b",
+            "source": "cab-premiummaterials0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/8dc7942a19ad170f9ba56da0955fa40e65f17a5a31fc3e9227d1face32519435.json",
+                "sha256": "8dc7942a19ad170f9ba56da0955fa40e65f17a5a31fc3e9227d1face32519435"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/8dc7942a19ad170f9ba56da0955fa40e65f17a5a31fc3e9227d1face32519435.json",
+                "sha256": "8dc7942a19ad170f9ba56da0955fa40e65f17a5a31fc3e9227d1face32519435"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/0a1fab5cf7d6f66cb3589bc14b7ac26a4cabe7f45a1c306499da7c1436a4008e.json",
+              "sha256": "0a1fab5cf7d6f66cb3589bc14b7ac26a4cabe7f45a1c306499da7c1436a4008e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/79ea24781f56570ea5c8bec8bf60aa9b4a51d072ae27b276824f9019b30d9214.json",
+              "sha256": "79ea24781f56570ea5c8bec8bf60aa9b4a51d072ae27b276824f9019b30d9214",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        }
+      ],
+      "betaObservations": [
+        {
+          "build": "1.0.0.3749",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b> "
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginacz zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <enGB>Spellbender</enGB>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt; </koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <enGB>&lt;b&gt;&lt;/b&gt;</enGB>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "d308125aa3b6569926288fdd4d525177c0f934c77d8a40bbf987781b9da5727e",
+            "cards1.unity3d": "e473af95495c104c6db3e478457e79b82e277b7f11267c29fc4e803c9e9ba0d1",
+            "cardxml0.unity3d": "08712e71cda70911f6f050c3d0ce4f13bb115c9e117f2fee35a3ca098023df8e"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:1388471592"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_AnnouncerLinePath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d.png",
+            "sha256": "044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "2b9585a99843ea81cbbefd9d77ab9e0148dafc85ffbead40a9a638e25c58f759"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/0a0aa553d64cf5e86a4b1019024bb6868c0f4b96235332dcd648d7e4d6d66b96.json",
+            "sha256": "0a0aa553d64cf5e86a4b1019024bb6868c0f4b96235332dcd648d7e4d6d66b96",
+            "source": "cab-cards0:1388471592"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/c27b0e2c8a8ca90d6961cab40bc99c484740ff33ad73ce7b8aa443ceba9dd0af.json",
+                "sha256": "c27b0e2c8a8ca90d6961cab40bc99c484740ff33ad73ce7b8aa443ceba9dd0af"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/c27b0e2c8a8ca90d6961cab40bc99c484740ff33ad73ce7b8aa443ceba9dd0af.json",
+                "sha256": "c27b0e2c8a8ca90d6961cab40bc99c484740ff33ad73ce7b8aa443ceba9dd0af"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/47fe7b69bd29ac4ab1e15dcdf06737577d93db06fad8805baf3e7a2147548a24.json",
+              "sha256": "47fe7b69bd29ac4ab1e15dcdf06737577d93db06fad8805baf3e7a2147548a24",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/ab73cb4f35265231ccb8b219c6d2a458396c23c584496ad87155d6a6d11a9103.json",
+              "sha256": "ab73cb4f35265231ccb8b219c6d2a458396c23c584496ad87155d6a6d11a9103",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          }
+        },
+        {
+          "build": "1.0.0.3890",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "69d837dd4d3f2edbf6452a58d381a4ca4ebf1c6cbaffbc30e4c98e72ad955563",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "de2245ac6a2dbc8ac04440ee3eb6503830301594a6fd0befc2effefc7719cfd0",
+            "cardxml0.unity3d": "2a3f110b59c4d1d3ac117c93fce00dd716e2c0003d0cdb7dbd323987bc2cadbc"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d.png",
+            "sha256": "044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "2b9585a99843ea81cbbefd9d77ab9e0148dafc85ffbead40a9a638e25c58f759"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/834fa29cdc266f155c31484d45464669f14daab34eceebd14531557bfd49b2a2.json",
+            "sha256": "834fa29cdc266f155c31484d45464669f14daab34eceebd14531557bfd49b2a2",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/5a2ff2dea3e65a0c5be21d2fc64af4fa39aa5dd86ffd55e426e6d85e54da4c35.json",
+                "sha256": "5a2ff2dea3e65a0c5be21d2fc64af4fa39aa5dd86ffd55e426e6d85e54da4c35"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/5a2ff2dea3e65a0c5be21d2fc64af4fa39aa5dd86ffd55e426e6d85e54da4c35.json",
+                "sha256": "5a2ff2dea3e65a0c5be21d2fc64af4fa39aa5dd86ffd55e426e6d85e54da4c35"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/1a3ee474ce986dcb84887f0245a52a5e96a674b0336e6458b12d7ecd2eb1535f.json",
+              "sha256": "1a3ee474ce986dcb84887f0245a52a5e96a674b0336e6458b12d7ecd2eb1535f",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/957b9543a505384c49a27c3c8f7259333011c32e5b8da749e5471c07f1cc81af.json",
+              "sha256": "957b9543a505384c49a27c3c8f7259333011c32e5b8da749e5471c07f1cc81af",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-10-03"
+        },
+        {
+          "build": "1.0.0.3937",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <MasterPower>\n  </MasterPower>\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "c02de56b3c7bfa245de26a536745244d856893b6f06b17ca909b90816df8241b",
+            "cards1.unity3d": "bae49e085978958da89173c3f1c19f932390a1ea5deebe64cfce28448135d20c",
+            "cards2.unity3d": "90eec06691aa805002fe3931f2bc5857280f02f726686436caf01def95cb9e22",
+            "cardxml0.unity3d": "6f939bb52bc4a7b3270e8a2882bdcfe311dc23182a20fbae39621f8265498293"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d.png",
+            "sha256": "044aceb91f038f4554e69076e5bb710248bebc2d7c82e7aa32833ed53b65760d",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "2b9585a99843ea81cbbefd9d77ab9e0148dafc85ffbead40a9a638e25c58f759"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/60166209c3dd5b2b15a63202465620105ee92bd386c97902bcb6f6239cc6d07a.json",
+            "sha256": "60166209c3dd5b2b15a63202465620105ee92bd386c97902bcb6f6239cc6d07a",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/d1acccf5075e07d4a0ce3fa218a16349891bf2fda68f8fdcf8b3e0b48e9bb1c0.json",
+                "sha256": "d1acccf5075e07d4a0ce3fa218a16349891bf2fda68f8fdcf8b3e0b48e9bb1c0"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/d1acccf5075e07d4a0ce3fa218a16349891bf2fda68f8fdcf8b3e0b48e9bb1c0.json",
+                "sha256": "d1acccf5075e07d4a0ce3fa218a16349891bf2fda68f8fdcf8b3e0b48e9bb1c0"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/58e89f5a051c3aa797e095f3a1b5ecf5d9d7318a8f8a6e7f9543f258b7ed8d47.json",
+              "sha256": "58e89f5a051c3aa797e095f3a1b5ecf5d9d7318a8f8a6e7f9543f258b7ed8d47",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/1e2435b24ae1afdfd607749ff53af8126920ea5314ae2eebe25a0ddc0a9e48a3.json",
+              "sha256": "1e2435b24ae1afdfd607749ff53af8126920ea5314ae2eebe25a0ddc0a9e48a3",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-10-18"
+        },
+        {
+          "build": "1.0.0.4217",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "6e83ad322b29928f36c4220e761d80dc4c312a3c312b8028d3615458a7a3480e"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5.png",
+            "sha256": "c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "8d6ac32bfb46939c1a402f2a46f11c4cbbd9a9579c4c64fb5d37babc67a30b79"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/6b5d8ed87f9a9fb73b40d9a56d66f15e992e439207aadb3562d0482508e4bcab.json",
+            "sha256": "6b5d8ed87f9a9fb73b40d9a56d66f15e992e439207aadb3562d0482508e4bcab",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/68fe7898591e11614b849a935d570f0583611e48554dbfd18603bd552ee3f736.json",
+                "sha256": "68fe7898591e11614b849a935d570f0583611e48554dbfd18603bd552ee3f736"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/68fe7898591e11614b849a935d570f0583611e48554dbfd18603bd552ee3f736.json",
+                "sha256": "68fe7898591e11614b849a935d570f0583611e48554dbfd18603bd552ee3f736"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/e68a1a22072c867511e66ea2029d74d1458bcc87e1b19465bfe4f2b05155e001.json",
+              "sha256": "e68a1a22072c867511e66ea2029d74d1458bcc87e1b19465bfe4f2b05155e001",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/01d1e3df6618c9f5445aaba4a2a12634a610aefa06cb6f997d5c26b77bd1c6c2.json",
+              "sha256": "01d1e3df6618c9f5445aaba4a2a12634a610aefa06cb6f997d5c26b77bd1c6c2",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-12-11"
+        },
+        {
+          "build": "1.0.0.4243",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "e0beb509f079f5b8e6678c0ec6b115ef061100f224965ce9c60adde6d5705a5a"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5.png",
+            "sha256": "c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "8d6ac32bfb46939c1a402f2a46f11c4cbbd9a9579c4c64fb5d37babc67a30b79"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/a013a19b18d8db034b5c496a54b10124e864dea521c8117903ac05b475fab113.json",
+            "sha256": "a013a19b18d8db034b5c496a54b10124e864dea521c8117903ac05b475fab113",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/1769eb8d37c5ef3a8ca675b3eb57f14372ecffa87f98f1c90c9d5b547d9d72ae.json",
+                "sha256": "1769eb8d37c5ef3a8ca675b3eb57f14372ecffa87f98f1c90c9d5b547d9d72ae"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/1769eb8d37c5ef3a8ca675b3eb57f14372ecffa87f98f1c90c9d5b547d9d72ae.json",
+                "sha256": "1769eb8d37c5ef3a8ca675b3eb57f14372ecffa87f98f1c90c9d5b547d9d72ae"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/3da89a30ec236c2af48c4aeb74f3f68c201a8da5fde503e03eb0f6cd8ff124bf.json",
+              "sha256": "3da89a30ec236c2af48c4aeb74f3f68c201a8da5fde503e03eb0f6cd8ff124bf",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/f49644074a25aa918a06d26d988ce83a38936c6367e6d37235cf6503fbe56519.json",
+              "sha256": "f49644074a25aa918a06d26d988ce83a38936c6367e6d37235cf6503fbe56519",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2013-12-19"
+        },
+        {
+          "build": "1.0.0.4458",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "fde1484d5ecdf9e6004bdc50012a5ce6e829e2fe16f9128572060c2275e74b2c"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5.png",
+            "sha256": "c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "8d6ac32bfb46939c1a402f2a46f11c4cbbd9a9579c4c64fb5d37babc67a30b79"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/df44eb2900aafe3d8b508cc92c84567bdad424a24c0f8b6356089b2c1fbd7327.json",
+            "sha256": "df44eb2900aafe3d8b508cc92c84567bdad424a24c0f8b6356089b2c1fbd7327",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/0b7c839772eaba6ab5dbcb2877cc38117f84882f2c7d360015ea2861e14fc0cd.json",
+                "sha256": "0b7c839772eaba6ab5dbcb2877cc38117f84882f2c7d360015ea2861e14fc0cd"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/0b7c839772eaba6ab5dbcb2877cc38117f84882f2c7d360015ea2861e14fc0cd.json",
+                "sha256": "0b7c839772eaba6ab5dbcb2877cc38117f84882f2c7d360015ea2861e14fc0cd"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/2ad1e519c49071c9515909672baf37889d20dad3f729c174bbb74e8888cbbb72.json",
+              "sha256": "2ad1e519c49071c9515909672baf37889d20dad3f729c174bbb74e8888cbbb72",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/88735e9072665c6628fe7bb71de0308cb20c6cc72946a0c07463ffe12fad0a3d.json",
+              "sha256": "88735e9072665c6628fe7bb71de0308cb20c6cc72946a0c07463ffe12fad0a3d",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-01-17"
+        },
+        {
+          "build": "1.0.0.4482",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "80a578d7b5d1bb9f65f6bcf9f818ebb42aca813ba005da1c8e5e792b2d39445f",
+            "cards1.unity3d": "7e24accd54b914534ead34c9066031d2c5aca2433190d8c25b8f61b75e6788d0",
+            "cards2.unity3d": "a93cbcf7f42c6291c74e365da2e75b4542f35d31640de510db662822aeee4b58",
+            "cardxml0.unity3d": "a1308cd031422e49a74a05303d5d16afecb97dfecb77cb1b9befbe3ad38d3cc2"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "-1276624326",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexture": {
+                "ref": "cab-cards0:-1143295930"
+              },
+              "m_PremiumPortraitMaterial": {
+                "ref": "cab-cards0:-130402862"
+              },
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5.png",
+            "sha256": "c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cards0:-1143295930",
+            "rgbaSha256": "8d6ac32bfb46939c1a402f2a46f11c4cbbd9a9579c4c64fb5d37babc67a30b79"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/7d4d49980d26d9340f3d721e2b9e84bd5671a838cfff93d3c3e259fa7bae1c88.json",
+            "sha256": "7d4d49980d26d9340f3d721e2b9e84bd5671a838cfff93d3c3e259fa7bae1c88",
+            "source": "cab-cards0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/572c92e4d648b1a6391957c960cc832bf171daed60d0337429bd685d7d24ab7d.json",
+                "sha256": "572c92e4d648b1a6391957c960cc832bf171daed60d0337429bd685d7d24ab7d"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/572c92e4d648b1a6391957c960cc832bf171daed60d0337429bd685d7d24ab7d.json",
+                "sha256": "572c92e4d648b1a6391957c960cc832bf171daed60d0337429bd685d7d24ab7d"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/3b05d95e8833f52964f818f5f90eafcecc760a05dc3a06485161efb2cd1bd4fe.json",
+              "sha256": "3b05d95e8833f52964f818f5f90eafcecc760a05dc3a06485161efb2cd1bd4fe",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/d7b621a505160896ab1dac862b9118c298b64f2b2224e3dd85e3caa4cbbb991f.json",
+              "sha256": "d7b621a505160896ab1dac862b9118c298b64f2b2224e3dd85e3caa4cbbb991f",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-01-18"
+        },
+        {
+          "build": "1.0.0.4944",
+          "platform": "Windows",
+          "cardData": {
+            "localizedKoKR": {
+              "CardName": "주문왜곡사",
+              "CardTextInHand": "<b></b>"
+            },
+            "tags": [
+              {
+                "name": "CardName",
+                "enumID": "185",
+                "type": "String"
+              },
+              {
+                "name": "CardSet",
+                "enumID": "183",
+                "type": "CardSet",
+                "value": "3"
+              },
+              {
+                "name": "Rarity",
+                "enumID": "203",
+                "type": "Rarity",
+                "value": "4"
+              },
+              {
+                "name": "CardType",
+                "enumID": "202",
+                "type": "CardType",
+                "value": "4"
+              },
+              {
+                "name": "Health",
+                "enumID": "45",
+                "type": "Number",
+                "value": "3"
+              },
+              {
+                "name": "Atk",
+                "enumID": "47",
+                "type": "Number",
+                "value": "1"
+              },
+              {
+                "name": "Class",
+                "enumID": "199",
+                "type": "Class",
+                "value": "4"
+              },
+              {
+                "name": "AttackVisualType",
+                "enumID": "251",
+                "type": "AttackVisualType",
+                "value": "2"
+              },
+              {
+                "name": "CardTextInHand",
+                "enumID": "184",
+                "type": "String"
+              }
+            ],
+            "powerDefinitions": [],
+            "xmlNormalized": "<Entity version=\"2\" CardID=\"tt_010a\">\n  <Tag name=\"CardName\" enumID=\"185\" type=\"String\">\n    <enUS>Spellbender</enUS>\n    <frFR>Courbe-sort</frFR>\n    <zhTW>法術扭曲者</zhTW>\n    <zhCN>扰咒师</zhCN>\n    <ruRU>Чароплет</ruRU>\n    <ptBR>Dobradora de Feitiços</ptBR>\n    <plPL>Naginaczka zaklęć</plPL>\n    <koKR>주문왜곡사</koKR>\n    <itIT>Flettimagie</itIT>\n    <esMX>Dominahechizos</esMX>\n    <esES>Tuercehechizos</esES>\n    <deDE>Zauberformerin</deDE>\n  </Tag>\n  <Tag name=\"CardSet\" enumID=\"183\" type=\"CardSet\" value=\"3\" />\n  <Tag name=\"Rarity\" enumID=\"203\" type=\"Rarity\" value=\"4\" />\n  <Tag name=\"CardType\" enumID=\"202\" type=\"CardType\" value=\"4\" />\n  <Tag name=\"Health\" enumID=\"45\" type=\"Number\" value=\"3\" />\n  <Tag name=\"Atk\" enumID=\"47\" type=\"Number\" value=\"1\" />\n  <Tag name=\"Class\" enumID=\"199\" type=\"Class\" value=\"4\" />\n  <Tag name=\"AttackVisualType\" enumID=\"251\" type=\"AttackVisualType\" value=\"2\" />\n  <Tag name=\"CardTextInHand\" enumID=\"184\" type=\"String\">\n    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>\n    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>\n    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>\n    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>\n    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>\n    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>\n    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>\n    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>\n    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>\n    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>\n    <esES>&lt;b&gt;&lt;/b&gt;</esES>\n    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>\n  </Tag>\n</Entity>"
+          },
+          "sourceBundleSha256": {
+            "cards0.unity3d": "306b5341ab4ef6d37566d0c25292d84c91f44c5aa840ff240654bfad74e98fa0",
+            "cards1.unity3d": "966d975cc34152b9b72f9c5315e1706a08d5f4539a63e76b778c994398116c0f",
+            "cards2.unity3d": "23c8adc4b33b505b69b621bf6418ef46bdac8349013407e7c1c3c0e50f2e4d12",
+            "cardxml0.unity3d": "d5a2426db0c59a48e6460b48d3efe84c0246199d82a4b051d4dbf5d4adeea678",
+            "cardtextures0.unity3d": "cbffc9bddfaad294bf3ebe97fad4c6baa2f05eb3d2f4bd80e443593246f4f4fe",
+            "cardtextures1.unity3d": "74a613cc3e9850d954883089a379e3d2c502372dd0ee1b0b393199c344e7f0d6",
+            "premiummaterials0.unity3d": "f781aab009d087f8e72f0c09191da28e5a3be0eb320c3dc81f14d2199586bfd5",
+            "shared0.unity3d": "e5c3dcb478cdc56d72a9dc98ca9450eb7ef51c678d76ae80ec134b09e18c90b1",
+            "shared1.unity3d": "fc1360cc1b6481280c4073f16533a53a3c661ca36ce61f93fcecad1c80c1da90"
+          },
+          "cardDefinition": {
+            "serializedFile": "CAB-cards0",
+            "pathId": "277590187",
+            "nativeFields": {
+              "m_Enabled": 1,
+              "m_PortraitTexturePath": "Assets/Game/Cards/01 Expert/tt_010a/W9_A039a_D.psd",
+              "m_PremiumPortraitMaterialPath": "Assets/Game/Cards/01 Expert/tt_010a/tt_010a_PremiumCard_new.mat",
+              "m_PremiumPortraitTexturePath": "",
+              "m_DeckCardBarPortrait": {
+                "ref": null
+              },
+              "m_EnchantmentPortrait": {
+                "ref": null
+              },
+              "m_HistoryTileHalfPortrait": {
+                "ref": "cab-cards0:124811319"
+              },
+              "m_HistoryTileFullPortrait": {
+                "ref": "cab-cards0:-1346559315"
+              },
+              "m_CustomDeckPortrait": {
+                "ref": null
+              },
+              "m_DeckPickerPortrait": {
+                "ref": null
+              },
+              "m_PracticeAIPortrait": {
+                "ref": null
+              },
+              "m_DeckBoxPortrait": {
+                "ref": null
+              },
+              "m_PlaySpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Play",
+              "m_BattlecrySpellPath": "",
+              "m_AttackSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Attack",
+              "m_SubOptionSpellPaths": [],
+              "m_TriggerSpellPaths": [],
+              "m_DeathSpellPath": "Assets/Game/Cards/01 Expert/tt_010a/Death",
+              "m_LifetimeSpellPath": "",
+              "m_CustomSummonSpellPath": "",
+              "m_GoldenCustomSummonSpellPath": "",
+              "m_CustomSpawnSpellPath": "",
+              "m_GoldenCustomSpawnSpellPath": "",
+              "m_AnnouncerLinePath": "",
+              "m_CustomDeathSpellPath": "",
+              "m_GoldenCustomDeathSpellPath": "",
+              "m_EmoteDefs": []
+            }
+          },
+          "art": {
+            "status": "extracted",
+            "path": "art/historical/textures/c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5.png",
+            "sha256": "c6e569498a36ca4e9ef820bd7b7113ec68d12a9d45ed9a12d0186210951c2cf5",
+            "width": 512,
+            "height": 512,
+            "source": "cab-cardtextures1:-1143295930",
+            "rgbaSha256": "8d6ac32bfb46939c1a402f2a46f11c4cbbd9a9579c4c64fb5d37babc67a30b79"
+          },
+          "golden": {
+            "status": "extracted",
+            "path": "golden/historical/materials/a2fbb50c07b4a82bef486220917f4a5b7df26e3670f1bf7ddec7d74b71418182.json",
+            "sha256": "a2fbb50c07b4a82bef486220917f4a5b7df26e3670f1bf7ddec7d74b71418182",
+            "source": "cab-premiummaterials0:-130402862"
+          },
+          "tileMaterials": {
+            "m_HistoryTileHalfPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:124811319",
+              "material": {
+                "path": "art/historical/tile-materials/6f7d4acad0f0ffe660336a015910684315a2ad8726711d1e709b5808d6dadfcf.json",
+                "sha256": "6f7d4acad0f0ffe660336a015910684315a2ad8726711d1e709b5808d6dadfcf"
+              },
+              "nativeValues": {
+                "_OffsetX": 0.09000000357627869,
+                "_OffsetY": 0.12999999523162842,
+                "_Scale": 0.9599999785423279
+              }
+            },
+            "m_HistoryTileFullPortrait": {
+              "status": "extracted",
+              "source": "cab-cards0:-1346559315",
+              "material": {
+                "path": "art/historical/tile-materials/6f7d4acad0f0ffe660336a015910684315a2ad8726711d1e709b5808d6dadfcf.json",
+                "sha256": "6f7d4acad0f0ffe660336a015910684315a2ad8726711d1e709b5808d6dadfcf"
+              },
+              "nativeValues": {
+                "_OffsetX": -0.15000000596046448,
+                "_OffsetY": -0.07000000029802322,
+                "_Scale": 1.5199999809265137
+              }
+            }
+          },
+          "portraitLayout": {
+            "coordinateSpace": "Unity local/object coordinates and mesh UV; not screen pixels",
+            "normal": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/c23da2d01619643a9fde2b99f9ac137914abb8360d3ff45031893e24c2687226.json",
+              "sha256": "c23da2d01619643a9fde2b99f9ac137914abb8360d3ff45031893e24c2687226",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            },
+            "golden": {
+              "status": "extracted",
+              "path": "art/historical/portrait-layouts/184a5e6c3044d0a82d131f73b3886292aded35839e38f3908621a9b49d0fde4e.json",
+              "sha256": "184a5e6c3044d0a82d131f73b3886292aded35839e38f3908621a9b49d0fde4e",
+              "selection": "Actor.m_portraitMesh and Actor.m_portraitMatIdx"
+            }
+          },
+          "northAmericaPatchDateKst": "2014-03-12"
+        }
+      ]
+    }
+  },
+  "currentCatalog": {
+    "id": "tt_010a",
+    "dbfId": 1086,
+    "name": "주문왜곡사",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 1,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/tt_010a.png",
+    "set": "legacy",
+    "portrait": "W9_A039a_D.psd:dc1ebe52981c1c0439f71749c969e382",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 2
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

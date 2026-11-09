@@ -1,0 +1,292 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_365",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Holy Wrath",
+    "card": {
+      "dbfId": 435,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 5,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "AFFECTED_BY_SPELL_POWER"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_365",
+      "name": "신의 격노",
+      "text": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "rarity": "RARE",
+      "flavor": "제발, 용암 거인아 나와라!",
+      "spellSchool": "",
+      "portrait": "W11_034(EA)_D.psd:80b8e26edcb738c42b02ad280f521887",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 5
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 370,
+          "name": "AFFECTED_BY_SPELL_POWER",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "nativeRawText": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "카드를 뽑고<br></br>그 카드의 비용만큼 피해를 줍니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        },
+        {
+          "date": "2025-11-14",
+          "changes": {
+            "cost": 3,
+            "text": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "신의 격노",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다."
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "신의 격노",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "신의 격노",
+        "rawText": "카드를 뽑고\n그 카드의 비용만큼 피해를 줍니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_365",
+    "dbfId": 435,
+    "name": "신의 격노",
+    "type": "SPELL",
+    "cardClass": "PALADIN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_365.png",
+    "artist": "Justin Sweet",
+    "flavor": "제발, 용암 거인아 나와라!",
+    "mechanics": [
+      "AFFECTED_BY_SPELL_POWER"
+    ],
+    "spellSchool": "HOLY",
+    "set": "legacy",
+    "portrait": "W11_034(EA)_D.psd:80b8e26edcb738c42b02ad280f521887",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 5
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 5
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 370,
+        "name": "AFFECTED_BY_SPELL_POWER",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ]
+}

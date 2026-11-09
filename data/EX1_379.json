@@ -1,174 +1,25 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Repentance",
-  "card": {
+  "2013-08-17": {
     "dbfId": 232,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 1,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "SECRET"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_379",
     "name": "참회",
     "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다.",
-    "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "rarity": "COMMON",
-    "flavor": "누구든 죄는 짓는 법이니까요.",
-    "spellSchool": "",
-    "portrait": "W12_a129_D.psd:408e1a195cdb5484bbf2b48062f2d097",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 219,
-        "name": "비밀",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "nativeRawText": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인의\n생명력이 1로 감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2016-03-15",
-        "changes": {
-          "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인의 생명력이 1로 감소합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "[x]<b>비밀:</b> 상대편이 하수인을<br></br>낸 후에, 그 하수인의<br></br>생명력이 1로 감소합니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "HOLY"
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2016-03-15": {
+    "text": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인의 생명력이 1로 감소합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2016-08-10": {
+    "text": "[x]<b>비밀:</b> 상대편이 하수인을<br></br>낸 후에, 그 하수인의<br></br>생명력이 1로 감소합니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "참회",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "4.1.10956",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다."
-    },
-    {
-      "build": "4.2.11767",
-      "platform": "iOS",
-      "name": "참회",
-      "rawText": "<b>비밀:</b> 상대편이 하수인을 낸 후에, 그 하수인의 생명력이 1로 감소합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2016-03-15"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "참회",
-      "rawText": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인의\n생명력이 1로 감소합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2016-08-10"
-    }
-  ]
+  "2021-03-26": {
+    "spellSchool": "HOLY"
+  }
 }

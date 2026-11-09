@@ -1,134 +1,19 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Onyxia the Broodmother",
-  "card": {
+  "2021-03-31": {
     "dbfId": 120581,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 54,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 9,
     "health": 8,
     "attack": 8,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "DRAGON"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "LEG_CS3_032",
     "name": "무리어미 오닉시아",
     "text": "[x]각 턴이 끝날 때,<br></br>내 전장을 1/1 새끼용으로<br></br>가득 채웁니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
     "race": "용족",
-    "flavor": "도트 더 넣어요! 도트! 도트 계속 넣으라고요!",
-    "portrait": "CLA-050_M.tif:1e4fd9cf926e42d9b4a654f17c4fe2a6",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 8
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 8
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 9
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 24
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 858,
-        "name": "게임 태그 858",
-        "value": 66866
-      },
-      {
-        "id": 1413,
-        "name": "게임 태그 1413",
-        "value": 66866
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 54
-      }
-    ],
-    "nativeRawText": "[x]각 턴이 끝날 때,\n내 전장을 1/1 새끼용으로\n가득 채웁니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated",
-    "patches": []
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "collectible": true
   }
 }

@@ -1,0 +1,190 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "CS3_002",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2021-03-31",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Ritual of Doom",
+    "card": {
+      "dbfId": 89144,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 63157,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 0,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "CS3_002",
+      "name": "파멸의 의식",
+      "text": "아군 하수인을 처치합니다. 하수인이 다섯 이상 있었다면, 5/5 악마를 소환합니다.",
+      "set": "LEGACY",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "rarity": "RARE",
+      "flavor": "\"같이 파멸의 노래 부를래?\"",
+      "spellSchool": "SHADOW",
+      "portrait": "CLA-036_S.tif:6bdb2a7397704376870bb8d8a5bdb462",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+          "value": 63157
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeRawText": "아군 하수인을 처치합니다. 하수인이 다섯 이상 있었다면, 5/5 악마를 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "verified",
+      "patches": []
+    },
+    "root": true,
+    "relatedIds": [
+      63157
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "CS3_002",
+    "dbfId": 89144,
+    "name": "파멸의 의식",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 0,
+    "text": "아군 하수인을 처치합니다. 하수인이 다섯 이상 있었다면, 5/5 악마를 소환합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/CS3_002.png",
+    "set": "legacy",
+    "flavor": "\"같이 파멸의 노래 부를래?\"",
+    "spellSchool": "SHADOW",
+    "portrait": "CLA-036_S.tif:6bdb2a7397704376870bb8d8a5bdb462",
+    "nativeTags": [
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+        "value": 63157
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "relatedDbfIds": [
+      63157
+    ],
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ]
+}

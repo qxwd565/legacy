@@ -1,168 +1,24 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Gruul",
-  "card": {
+  "2013-08-17": {
     "dbfId": 526,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 8,
     "health": 7,
     "attack": 7,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "TRIGGER_VISUAL"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "NEW1_038",
     "name": "그룰",
     "text": "각 턴이 끝날 때마다 +1/+1을 얻습니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
-    "flavor": "그룰은 \"용 학살자\"입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.",
-    "portrait": "W17_a162_D.psd:a572b9546d9ce6045997c4454e5b6a83",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 7
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 7
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "각 턴이 끝날 때, +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다."
-        }
-      },
-      {
-        "date": "2017-04-05",
-        "changes": {
-          "text": "각 턴이 끝날 때, +1/+1을 얻습니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-12-12": {
+    "text": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "각 턴이 끝날 때마다 +1/+1을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "그룰",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "각 턴이 끝날 때마다 +1/+1을 얻습니다."
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "그룰",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "7.1.18015",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "8.0.18336",
-      "platform": "iOS",
-      "name": "그룰",
-      "rawText": "각 턴이 끝날 때, +1/+1을 얻습니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2017-04-05"
-    }
-  ]
+  "2017-04-05": {
+    "text": "각 턴이 끝날 때, +1/+1을 얻습니다."
+  }
 }

@@ -1,155 +1,21 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Silver Hand Recruit",
-  "card": {
+  "2013-08-17": {
     "dbfId": 105921,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 1,
     "health": 1,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "races": [],
-    "battlegroundsAssociatedRaces": null,
     "id": "CS2_101t6",
     "name": "은빛 성기사단 신병",
     "text": "",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "race": "",
-    "flavor": "",
-    "portrait": "HS30-113_M.tif:07fed5cce10944308d8eb7b9ba48aeb6",
-    "collectible": false,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 3444,
-        "name": "게임 태그 3444",
-        "value": 1
-      }
+    "collectible": false
+  },
+  "2024-10-30": {
+    "races": [
+      "DRAENEI"
     ],
-    "nativeRawText": "",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2024-10-30",
-        "changes": {
-          "races": [
-            "DRAENEI"
-          ],
-          "race": "드레나이"
-        }
-      }
-    ]
-  },
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalSources": [
-    {
-      "key": "draenei_recruit",
-      "id": "CS2_101t6",
-      "sourceId": "CS2_101t6",
-      "name": "은빛 성기사단 신병",
-      "text": "",
-      "kind": "MINION",
-      "cardClass": "PALADIN",
-      "sourceSet": "LEGACY",
-      "rarity": "FREE",
-      "race": "드레나이",
-      "dbfId": 105921,
-      "sourceDbfId": 105921,
-      "rowId": 105921,
-      "mana": 1,
-      "attack": 1,
-      "health": 1,
-      "armor": 0,
-      "removed": true,
-      "preset": {},
-      "archives": {
-        "normal": "1e41a8575b1b720917e81a944c53248260d55d98ae80091f5e2467896ffe6dc8",
-        "golden": "3d2134aba5d9646a5bb679579329e23ace29c7da0cc0e7fe9366bdc2aba2b345"
-      },
-      "sourceVersion": "6000.3.11.3145967",
-      "sources": {
-        "essential_base_global-texture-2.unity3d": "26047733:639275082148117234",
-        "essential_base_global-material-0.unity3d": "498177:639275082144082134",
-        "essential_base_global-mesh-0.unity3d": "6793482:639275082143799789",
-        "essential_base_global-shader-0.unity3d": "1199727:639275081879107966",
-        "initial_base_global-910a3655-mesh-0.unity3d": "2350877:639216100405791575",
-        "essential_base_global-prefab-0.unity3d": "3914913:639275082143799789",
-        "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
-        "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
-      }
-    }
-  ]
+    "race": "드레나이"
+  }
 }

@@ -1,0 +1,324 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_100",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Lorewalker Cho",
+    "card": {
+      "dbfId": 1135,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 4,
+      "attack": 1,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_100",
+      "name": "전승지기 초",
+      "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 다른 플레이어의 손에 넣습니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "LEGENDARY",
+      "flavor": "전승지기 초는 판다리아의 이야기들을 수집하고 기록합니다. 최근에는 판다리아의 야한 연애 소설을 모으는 중이라는군요.",
+      "portrait": "Cho_minion_D.psd:e238521b917736246837b6233b9589ca",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 상대편의 손에 널습니다.",
+            "attack": 0
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 상대편의 손에 넣습니다."
+          }
+        },
+        {
+          "date": "2014-12-05",
+          "changes": {
+            "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 넣습니다."
+          }
+        },
+        {
+          "date": "2015-04-01",
+          "changes": {
+            "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 다른 플레이어의 손에 넣습니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "전승지기 초",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 다른 플레이어의 손에 넣습니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 상대편의 손에 널습니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "전승지기 초",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 상대편의 손에 넣습니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "전승지기 초",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.3.6898",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "2.0.7283",
+        "platform": "iOS",
+        "name": "전승지기 초",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 넣습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.3.8108",
+        "displayFromKst": "2014-12-05"
+      },
+      {
+        "build": "2.4.8311",
+        "platform": "iOS",
+        "name": "전승지기 초",
+        "rawText": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2015-04-01"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_100",
+    "dbfId": 1135,
+    "name": "전승지기 초",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 2,
+    "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다.",
+    "attack": 0,
+    "health": 4,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_100.png",
+    "artist": "Mark Zug",
+    "flavor": "전승지기 초는 판다리아의 이야기들을 수집하고 기록합니다. 최근에는 판다리아의 야한 연애 소설을 모으는 중이라는군요.",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "set": "legacy",
+    "portrait": "Cho_minion_D.psd:e238521b917736246837b6233b9589ca",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 4
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

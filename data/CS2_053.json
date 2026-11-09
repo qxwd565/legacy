@@ -1,155 +1,19 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Far Sight",
-  "card": {
+  "2013-08-17": {
     "dbfId": 818,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 3,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "CS2_053",
     "name": "천리안",
     "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
-    "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "SHAMAN",
     "rarity": "EPIC",
-    "flavor": "드렉타르는 앞을 볼 수 없습니다. 하지만 잘 보인다고 하는군요. 뭔 소리냐고요? 글쎄요.",
-    "portrait": "W13_275_D.psd:6426eb0aa1730bb4dbe17e6babae99e1",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 4
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 3
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "카드를 뽑습니다. 그 카드의 비용이\n(3) 감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "카드를 뽑습니다. 그 카드의 비용이<br></br>(3) 감소합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "천리안",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "천리안",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "천리안",
-      "rawText": "카드를 뽑습니다. 그 카드의 비용이\n(3) 감소합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+  "2018-10-03": {
+    "text": "카드를 뽑습니다. 그 카드의 비용이<br></br>(3) 감소합니다."
+  }
 }

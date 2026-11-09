@@ -1,0 +1,391 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_559",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Archmage Antonidas",
+    "card": {
+      "dbfId": 1080,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 315,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 7,
+      "health": 7,
+      "attack": 5,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_559",
+      "name": "대마법사 안토니다스",
+      "text": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "rarity": "LEGENDARY",
+      "flavor": "안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라 할 수 있죠.",
+      "portrait": "Antonidas_D.psd:0797818530cc03a4e8a628e619038515",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+          "value": 315
+        },
+        {
+          "id": 4533,
+          "name": "CRAFTABLE_OUTPUT_POWER",
+          "value": 1
+        },
+        {
+          "id": 4930,
+          "name": "게임 태그 4930",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "내가 주문을 시전할 때마다& '화염구' 주문을 내 손으로 가져옵니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2016-04-15",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "[x]내가 주문을 시전할 때마다<br></br>'화염구' 카드 1장을<br></br>내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "대마법사 안토니다스",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "내가 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "대마법사 안토니다스",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 손으로 가져옵니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "대마법사 안토니다스",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "4.2.11767",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "4.3.12266",
+        "platform": "iOS",
+        "name": "대마법사 안토니다스",
+        "rawText": "내가 주문을 시전할 때마다 '화염구' 카드 1장을 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2016-04-15"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "대마법사 안토니다스",
+        "rawText": "[x]내가 주문을 시전할 때마다\n '화염구' 카드 1장을\n내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "9.4.22115",
+        "displayFromKst": "2016-08-10"
+      },
+      {
+        "build": "10.0.22583",
+        "platform": "iOS",
+        "name": "대마법사 안토니다스",
+        "rawText": "[x]내가 주문을 시전할 때마다\n'화염구' 카드 1장을\n내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2017-12-07"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "대마법사 안토니다스",
+        "rawText": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_559",
+    "dbfId": 1080,
+    "name": "대마법사 안토니다스",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 7,
+    "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다.",
+    "attack": 5,
+    "health": 7,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_559.png",
+    "artist": "Wayne Reynolds",
+    "flavor": "안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라 할 수 있죠.",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "set": "legacy",
+    "portrait": "Antonidas_D.psd:0797818530cc03a4e8a628e619038515",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 7
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 5
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+        "value": 315
+      },
+      {
+        "id": 4533,
+        "name": "CRAFTABLE_OUTPUT_POWER",
+        "value": 1
+      },
+      {
+        "id": 4930,
+        "name": "게임 태그 4930",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

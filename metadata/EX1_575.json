@@ -1,0 +1,315 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_575",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Mana Tide Totem",
+    "card": {
+      "dbfId": 513,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 3,
+      "health": 3,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "TOTEM"
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_575",
+      "name": "마나 해일 토템",
+      "text": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "rarity": "RARE",
+      "race": "TOTEM",
+      "flavor": "주술사들의 여름철 필수품입니다.",
+      "portrait": "W9_A126_D.psd:d02a987a841361243b2fe4477c4b899f",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 21
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "내 턴이 끝날 때,\n카드를 뽑습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "내 턴이 끝날 때, 카드를 1장 뽑습니다."
+          }
+        },
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "내 턴이 끝날 때,<br></br>카드를 1장 뽑습니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "내 턴이 끝날 때,<br></br>카드를 뽑습니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "마나 해일 토템",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "내 턴이 끝날 때, 카드를 1장 뽑습니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "마나 해일 토템",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "마나 해일 토템",
+        "rawText": "내 턴이 끝날 때,\n카드를 1장 뽑습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2016-08-10"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "마나 해일 토템",
+        "rawText": "내 턴이 끝날 때,\n카드를 뽑습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_575",
+    "dbfId": 513,
+    "name": "마나 해일 토템",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 턴이 끝날 때,<br></br>카드를 뽑습니다.",
+    "attack": 0,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_575.png",
+    "artist": "Scott Altmann",
+    "flavor": "주술사들의 여름철 필수품입니다.",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "races": [
+      "TOTEM"
+    ],
+    "race": "TOTEM",
+    "set": "legacy",
+    "portrait": "W9_A126_D.psd:d02a987a841361243b2fe4477c4b899f",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 21
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

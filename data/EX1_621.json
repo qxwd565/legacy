@@ -1,135 +1,19 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Circle of Healing",
-  "card": {
+  "2013-08-17": {
     "dbfId": 1362,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 0,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_621",
     "name": "치유의 마법진",
     "text": "모든 하수인의 생명력을 #4 회복시킵니다.",
-    "set": "EXPERT1",
     "type": "SPELL",
     "cardClass": "PRIEST",
     "rarity": "COMMON",
-    "flavor": "마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.",
-    "spellSchool": "",
-    "portrait": "W7_100_D.psd:edce1ccadabdf284bbc67e804c7a2551",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 5
-      }
-    ],
-    "nativeRawText": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "HOLY"
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "모든 하수인의 생명력을 #4 회복시킵니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "치유의 마법진",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "모든 하수인의 생명력을 #4 회복시킵니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>모든</b> 하수인의 생명력을 #4 회복시킵니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "치유의 마법진",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2013-10-03"
-    }
-  ]
+  "2021-03-26": {
+    "spellSchool": "HOLY"
+  }
 }

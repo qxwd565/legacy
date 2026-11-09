@@ -1,193 +1,27 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Truesilver Champion",
-  "card": {
+  "2013-08-17": {
     "dbfId": 847,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 4,
-    "health": 2,
     "attack": 4,
-    "armor": 0,
     "durability": 2,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "CS2_097",
     "name": "용사의 진은검",
     "text": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다.",
-    "set": "LEGACY",
     "type": "WEAPON",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "flavor": "베고 찌르는 것 이외에 통조림을 따는 용도로도 쓸 수 있지만... 권하지는 않습니다.",
-    "portrait": "WOW_EQU_010_D.tif:027f0bd8180fea24fb97c171329c5870",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 7
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "[x]내 영웅이 공격할\n때마다 생명력을\n#3 회복합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "내 영웅이 공격할 때마다 생명력을 2 회복합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>2 회복합니다."
-        }
-      },
-      {
-        "date": "2018-08-03",
-        "changes": {
-          "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#2 회복합니다."
-        }
-      },
-      {
-        "date": "2023-04-05",
-        "changes": {
-          "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#3 회복합니다."
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2013-10-03": {
+    "text": "내 영웅이 공격할 때마다 생명력을 2 회복합니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+  "2016-08-10": {
+    "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>2 회복합니다."
   },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "용사의 진은검",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "내 영웅이 공격할 때마다 생명력을 2 회복합니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "용사의 진은검",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "용사의 진은검",
-      "rawText": "[x]내 영웅이 공격할\n때마다 생명력을\n2 회복합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "11.4.25252",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.0.25770",
-      "platform": "iOS",
-      "name": "용사의 진은검",
-      "rawText": "[x]내 영웅이 공격할\n때마다 생명력을\n#2 회복합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-08-03"
-    }
-  ]
+  "2018-08-03": {
+    "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#2 회복합니다."
+  },
+  "2023-04-05": {
+    "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#3 회복합니다."
+  }
 }

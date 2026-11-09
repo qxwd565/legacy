@@ -1,0 +1,315 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_608",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Sorcerer's Apprentice",
+    "card": {
+      "dbfId": 614,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 2,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "AURA"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_608",
+      "name": "마술사의 수습생",
+      "text": "당신이 쓰는 주문의 비용이 (1) 감소합니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "rarity": "COMMON",
+      "flavor": "수습생들은 이래라 저래라 시키기 좋습니다. \"마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!\"",
+      "portrait": "W2_210_D.psd:c9920db8022c1294e944750e8907eb34",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "내가 쓰는 주문의 비용이 (1) 감소합니다.",
+            "attack": 3
+          }
+        },
+        {
+          "date": "2016-04-25",
+          "changes": {
+            "text": "내 주문의 비용이 (1) 감소합니다."
+          }
+        },
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "내 주문의 비용이<br></br>(1) 감소합니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "text": "내 주문들의 비용이 (1) 감소합니다."
+          }
+        },
+        {
+          "date": "2022-01-26",
+          "changes": {
+            "cost": 4
+          }
+        },
+        {
+          "date": "2024-08-30",
+          "changes": {
+            "cost": 2,
+            "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "당신이 쓰는 주문의 비용이 (1) 감소합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "마술사의 수습생",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "당신이 쓰는 주문의 비용이 (1) 감소합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "내가 쓰는 주문의 비용이 (1) 감소합니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "마술사의 수습생",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "4.3.12266",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "5.0.12574",
+        "platform": "iOS",
+        "name": "마술사의 수습생",
+        "rawText": "내 주문의 비용이 (1) 감소합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2016-04-25"
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "마술사의 수습생",
+        "rawText": "내 주문의 비용이\n(1) 감소합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-08-10"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_608",
+    "dbfId": 614,
+    "name": "마술사의 수습생",
+    "type": "MINION",
+    "cardClass": "MAGE",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
+    "attack": 3,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_608.png",
+    "artist": "Alex Horley Orlandelli",
+    "flavor": "수습생들은 이래라 저래라 시키기 좋습니다. \"마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!\"",
+    "mechanics": [
+      "AURA"
+    ],
+    "set": "legacy",
+    "portrait": "W2_210_D.psd:c9920db8022c1294e944750e8907eb34",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 4
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 362,
+        "name": "지속 효과",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

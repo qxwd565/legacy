@@ -1,0 +1,302 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "NEW1_026",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Violet Teacher",
+    "card": {
+      "dbfId": 1029,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 378,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 4,
+      "health": 5,
+      "attack": 3,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "NEW1_026",
+      "name": "보랏빛 교사",
+      "text": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "RARE",
+      "flavor": "수업에 집중하지 않으면 당신을 돼지로 만들어 버릴지도 모릅니다. 그리고 당신의 이름이 칠판에 적히겠죠.",
+      "portrait": "W7_064_D.psd:90c805ff16632964280dc2a56fef7d57",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+          "value": 378
+        }
+      ],
+      "nativeRawText": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "name": "보랏빛 여교사",
+            "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 1명 소환합니다."
+          }
+        },
+        {
+          "date": "2018-10-03",
+          "changes": {
+            "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [
+      378
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "보랏빛 교사",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "보랏빛 여교사",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 1명 소환합니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "보랏빛 여교사",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "12.0.26265",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "12.2.26727",
+        "platform": "iOS",
+        "name": "보랏빛 여교사",
+        "rawText": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-10-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "NEW1_026",
+    "dbfId": 1029,
+    "name": "보랏빛 여교사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 4,
+    "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/NEW1_026.png",
+    "artist": "James Ryman",
+    "flavor": "수업에 집중하지 않으면 당신을 돼지로 만들어 버릴지도 모릅니다. 그리고 당신의 이름이 칠판에 적히겠죠.",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "relatedDbfIds": [
+      378
+    ],
+    "set": "legacy",
+    "portrait": "W7_064_D.psd:90c805ff16632964280dc2a56fef7d57",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1452,
+        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
+        "value": 378
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

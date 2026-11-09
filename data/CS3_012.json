@@ -1,105 +1,15 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Nordrassil Druid",
-  "card": {
+  "2021-03-31": {
     "dbfId": 89146,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 4,
     "health": 5,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "CS3_012",
     "name": "놀드랏실 드루이드",
     "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>내가 시전하는 다음 주문은<br></br>비용이 (3) 감소합니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "flavor": "세계수 놀드랏실은 세계에 생명력을 불어넣습니다. 물론 마나 소비도 줄여주죠.",
-    "portrait": "CLA-025_M.tif:0ed565b36c094f9bbc831b6e5eaef649",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "[x]<b>전투의 함성:</b> 이번 턴에\n내가 시전하는 다음 주문은\n비용이 (3) 감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "verified",
-    "patches": []
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "collectible": true
   }
 }

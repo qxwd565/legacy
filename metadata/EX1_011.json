@@ -1,0 +1,296 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_011",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Voodoo Doctor",
+    "card": {
+      "dbfId": 132,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 1,
+      "health": 1,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_011",
+      "name": "부두교 의술사",
+      "text": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다.",
+      "set": "LEGACY",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "rarity": "FREE",
+      "flavor": "한동안 이 카드의 이름은 \"더러운 트롤 의술사\"였습니다.",
+      "portrait": "wow_dbl_011_D.psd:98bc2ad7eadcc5c4a80f07498523adfd",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 1
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 2
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 6
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n생명력을 #2 회복시킵니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2016-08-10",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 생명력을<br></br>2 회복시킵니다."
+          }
+        },
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b><br></br>생명력을 2 회복시킵니다."
+          }
+        },
+        {
+          "date": "2018-08-03",
+          "changes": {
+            "text": "[x]<b>전투의 함성:</b><br></br>생명력을 #2 회복시킵니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "부두교 의술사",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "5.2.13865",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다."
+      },
+      {
+        "build": "6.0.13921",
+        "platform": "iOS",
+        "name": "부두교 의술사",
+        "rawText": "<b>전투의 함성:</b> 생명력을\n2 회복시킵니다.",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "6.2.15153",
+        "displayFromKst": "2016-08-10"
+      },
+      {
+        "build": "7.0.15590",
+        "platform": "iOS",
+        "name": "부두교 의술사",
+        "rawText": "[x]<b>전투의 함성:</b>\n생명력을 2 회복시킵니다.",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "11.4.25252",
+        "displayFromKst": "2016-11-30"
+      },
+      {
+        "build": "12.0.25770",
+        "platform": "iOS",
+        "name": "부두교 의술사",
+        "rawText": "[x]<b>전투의 함성:</b>\n생명력을 #2 회복시킵니다.",
+        "sets": [
+          2
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2018-08-03"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_011",
+    "dbfId": 132,
+    "name": "부두교 의술사",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]<b>전투의 함성:</b><br></br>생명력을 #2 회복시킵니다.",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_011.png",
+    "set": "legacy",
+    "flavor": "한동안 이 카드의 이름은 \"더러운 트롤 의술사\"였습니다.",
+    "portrait": "wow_dbl_011_D.psd:98bc2ad7eadcc5c4a80f07498523adfd",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 1
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 6
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "NONE",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

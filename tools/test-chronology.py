@@ -3,6 +3,7 @@
 from __future__ import annotations
 import json
 from pathlib import Path
+from date_schema import compatibility_card, apply
 
 ROOT = Path(__file__).resolve().parents[1]
 SPECS = (
@@ -13,9 +14,9 @@ SPECS = (
 
 
 def main():
-    catalog = json.loads((ROOT / "cards.json").read_text(encoding="utf-8"))
-    render = json.loads((ROOT / "render.json").read_text(encoding="utf-8"))
-    backward = json.loads((ROOT / "history.json").read_text(encoding="utf-8"))["cards"]
+    catalog = json.loads((ROOT / "cards-date.json").read_text(encoding="utf-8"))
+    render = json.loads((ROOT / "render-date.json").read_text(encoding="utf-8"))
+    backward = json.loads((ROOT / "history-date.json").read_text(encoding="utf-8"))["cards"]
     render_by_id = {c["id"]: c for c in render["cards"]}
     if catalog.get("set") != "legacy" or render.get("set") != "legacy":
         raise AssertionError("Wrong card set")
@@ -25,8 +26,8 @@ def main():
         path = ROOT / "data" / (cid + ".json")
         if not path.is_file():
             continue
-        document = json.loads(path.read_text(encoding="utf-8"))
-        card = document["card"]
+        document = json.loads((ROOT / "metadata" / path.name).read_text(encoding="utf-8"))["originalSource"]
+        card = compatibility_card(ROOT, cid)
         if (card.get("dbfId") is None and
                 document.get("apiAvailability", "").startswith("standalone historical source;")):
             continue
@@ -34,7 +35,7 @@ def main():
             raise AssertionError(f"{cid}: not migrated to forward patches")
         if card.get("id") != cid or card.get("dbfId") != modern.get("dbfId"):
             raise AssertionError(f"{cid}: identity mismatch")
-        baseline = {field: card[field] for field in SPECS if field in card}
+        baseline = {field: card[field] for field in SPECS + ("id", "dbfId", "legacyArt", "heroPowerDbfId") if field in card}
         dates = []
         for ev in card["patches"]:
             d = ev["date"]
@@ -44,15 +45,7 @@ def main():
                 raise AssertionError(f"{cid}: patch before release")
             if not ev["changes"]:
                 raise AssertionError(f"{cid}: empty patch")
-            for key, value in ev["changes"].items():
-                if key in baseline:
-                    if value == baseline[key]:
-                        raise AssertionError(f"{cid}: redundant patch on {d} for {key}")
-                    baseline[key] = value
-                elif key == "legacyArt" and "legacyArt" in card:
-                    baseline[key] = value
-                else:
-                    raise AssertionError(f"{cid}: no baseline for {key}")
+            baseline = apply(baseline, ev["changes"], validate=True)
             dates.append(d)
         for field in SPECS:
             if field in baseline or field in modern:
@@ -68,7 +61,7 @@ def main():
             raise AssertionError(f"{cid}: backward compatibility mismatch")
         migrated += 1
     def get(cid):
-        return json.loads((ROOT / "data" / (cid + ".json")).read_text(encoding="utf-8"))["card"]
+        return compatibility_card(ROOT, cid)
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6
@@ -86,11 +79,11 @@ def main():
         raise AssertionError("Fireball spell school introduction missing")
     def value_at(cid, field, day):
         card = get(cid)
-        value = card[field]
+        state = dict(card)
         for revision in card["patches"]:
-            if revision["date"] <= day and field in revision["changes"]:
-                value = revision["changes"][field]
-        return value
+            if revision["date"] <= day:
+                state = apply(state, revision["changes"])
+        return state.get(field)
     assert value_at("NEW1_019", "attack", "2015-01-01") == 3
     assert value_at("NEW1_019", "attack", "2017-01-01") == 2
     assert value_at("NEW1_019", "attack", "2022-01-01") == 3

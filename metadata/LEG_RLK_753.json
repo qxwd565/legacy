@@ -1,0 +1,272 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LEG_RLK_753",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2021-03-31",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Bonedigger Geist",
+    "card": {
+      "dbfId": 113189,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 2,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 1635,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [],
+      "battlegroundsAssociatedRaces": null,
+      "id": "LEG_RLK_753",
+      "name": "뼈도굴 외눈깨비",
+      "text": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다.",
+      "set": "LEGACY",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": "RARE",
+      "race": "",
+      "flavor": "무덤을 반만 골라 파는 외눈깨비입니다.",
+      "portrait": "HS27-131_M.tif:c3de597fbde841c8be6e1bcdeb8f59e5",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 858,
+          "name": "게임 태그 858",
+          "value": 82269
+        },
+        {
+          "id": 2198,
+          "name": "부정 룬 비용",
+          "value": 1
+        },
+        {
+          "id": 2559,
+          "name": "시체",
+          "value": 1
+        },
+        {
+          "id": 4058,
+          "name": "CORPSE_SPENDER",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "UNDEAD"
+            ],
+            "race": "언데드"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LEG_RLK_753",
+    "dbfId": 113189,
+    "name": "뼈도굴 외눈깨비",
+    "type": "MINION",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 2,
+    "text": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/LEG_RLK_753.png",
+    "set": "legacy",
+    "flavor": "무덤을 반만 골라 파는 외눈깨비입니다.",
+    "race": "언데드",
+    "races": [
+      "UNDEAD"
+    ],
+    "portrait": "HS27-131_M.tif:c3de597fbde841c8be6e1bcdeb8f59e5",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 858,
+        "name": "게임 태그 858",
+        "value": 82269
+      },
+      {
+        "id": 2198,
+        "name": "부정 룬 비용",
+        "value": 1
+      },
+      {
+        "id": 2559,
+        "name": "시체",
+        "value": 1
+      },
+      {
+        "id": 4058,
+        "name": "CORPSE_SPENDER",
+        "value": 1
+      }
+    ],
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

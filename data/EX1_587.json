@@ -1,203 +1,30 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Windspeaker",
-  "card": {
+  "2013-08-17": {
     "dbfId": 178,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 4,
     "health": 3,
     "attack": 3,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "races": [],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_587",
     "name": "바람예언자",
     "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다.",
-    "set": "LEGACY",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "",
-    "flavor": "입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?",
-    "portrait": "W9_A139_D.psd:87debe89df671ce489f1a27ee4bcd632",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 189,
-        "name": "질풍",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 8
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 2
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
+    "collectible": true
+  },
+  "2013-12-12": {
+    "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>질풍</b>을 부여합니다."
+  },
+  "2016-08-10": {
+    "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인 하나에게<br></br><b>질풍</b>을 부여합니다."
+  },
+  "2018-10-03": {
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>질풍</b>을 부여합니다."
+  },
+  "2024-10-30": {
+    "races": [
+      "DRAENEI"
     ],
-    "nativeRawText": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>질풍</b>을 부여합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-12-12",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>질풍</b>을 부여합니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인 하나에게<br></br><b>질풍</b>을 부여합니다."
-        }
-      },
-      {
-        "date": "2018-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>질풍</b>을 부여합니다."
-        }
-      },
-      {
-        "date": "2024-10-30",
-        "changes": {
-          "races": [
-            "DRAENEI"
-          ],
-          "race": "드레나이"
-        }
-      }
-    ]
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "바람예언자",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "1.0.0.3937",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다."
-    },
-    {
-      "build": "1.0.0.4217",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 아군 하수인 하나에게 <b>질풍</b>을 부여합니다.",
-      "northAmericaPatchDateKst": "2013-12-11",
-      "name": "바람예언자",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-12-11"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "바람예언자",
-      "rawText": "[x]<b>전투의 함성:</b>\n아군 하수인 하나에게\n<b>질풍</b>을 부여합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "12.0.26265",
-      "displayFromKst": "2016-08-10"
-    },
-    {
-      "build": "12.2.26727",
-      "platform": "iOS",
-      "name": "바람예언자",
-      "rawText": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>질풍</b>을 부여합니다.",
-      "sets": [
-        2
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2018-10-03"
-    }
-  ]
+    "race": "드레나이"
+  }
 }

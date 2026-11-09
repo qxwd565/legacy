@@ -1,0 +1,306 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_531",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Scavenging Hyena",
+    "card": {
+      "dbfId": 1281,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 2,
+      "health": 2,
+      "attack": 2,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "races": [
+        "BEAST"
+      ],
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_531",
+      "name": "청소부 하이에나",
+      "text": "야수가 죽을 때마다 +2/+1을 얻습니다.",
+      "set": "EXPERT1",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "rarity": "COMMON",
+      "race": "BEAST",
+      "flavor": "하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...",
+      "portrait": "W11_071_D.psd:e570844c84e716e499ab83edec23743f",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "TRIGGER_VISUAL",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다."
+          }
+        },
+        {
+          "date": "2016-04-25",
+          "changes": {
+            "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "야수가 죽을 때마다 +2/+1을 얻습니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "청소부 하이에나",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "야수가 죽을 때마다 +2/+1을 얻습니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "청소부 하이에나",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "아군 야수 1마리가 죽을 때마다 +2/+1을 얻습니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "청소부 하이에나",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "4.3.12266",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "5.0.12574",
+        "platform": "iOS",
+        "name": "청소부 하이에나",
+        "rawText": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-04-25"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_531",
+    "dbfId": 1281,
+    "name": "청소부 하이에나",
+    "type": "MINION",
+    "cardClass": "HUNTER",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 2,
+    "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
+    "attack": 2,
+    "health": 2,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_531.png",
+    "artist": "Jim Nelson",
+    "flavor": "하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "races": [
+      "BEAST"
+    ],
+    "race": "BEAST",
+    "set": "legacy",
+    "portrait": "W11_071_D.psd:e570844c84e716e499ab83edec23743f",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "TRIGGER_VISUAL",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 2
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 3
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

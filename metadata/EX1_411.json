@@ -1,0 +1,255 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_411",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Gorehowl",
+    "card": {
+      "dbfId": 810,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 7,
+      "health": 1,
+      "attack": 7,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_411",
+      "name": "피의 울음소리",
+      "text": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다.",
+      "set": "EXPERT1",
+      "type": "WEAPON",
+      "cardClass": "WARRIOR",
+      "rarity": "EPIC",
+      "flavor": "그롬마쉬 헬스크림이 다루던 유서 깊은 도끼입니다. 어떻게 공작 말체자르의 손에 들어갔는지는 아직도 알 수 없네요.",
+      "portrait": "W8_111_D.psd:d9b5fb2477825d1449de55d54cba8f29",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "피의 울음소리",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다."
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "피의 울음소리",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2013-12-11"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_411",
+    "dbfId": 810,
+    "name": "피의 울음소리",
+    "type": "WEAPON",
+    "cardClass": "WARRIOR",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 7,
+    "text": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다.",
+    "attack": 7,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_411.png",
+    "artist": "Zoltan & Gabor",
+    "flavor": "그롬마쉬 헬스크림이 다루던 유서 깊은 도끼입니다. 어떻게 공작 말체자르의 손에 들어갔는지는 아직도 알 수 없네요.",
+    "set": "legacy",
+    "portrait": "W8_111_D.psd:d9b5fb2477825d1449de55d54cba8f29",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 7
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "durability",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "legacyWeaponEncoding": "health-tag45; durability field was exporter placeholder zero"
+}

@@ -1,272 +1,45 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "The Beast",
-  "card": {
+  "2013-08-17": {
     "dbfId": 962,
-    "heroPowerDbfId": 0,
-    "techLevel": 3,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 58394,
-    "battlegroundsRelatedCard": 1006,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 6,
     "health": 6,
     "attack": 10,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "races": [
       "BEAST"
     ],
     "mechanics": [
       "DEATHRATTLE"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_577",
     "name": "야수",
     "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
     "race": "BEAST",
-    "flavor": "검은바위 산에 살고, 노움을 먹습니다. 더 할 말이 없네요.",
-    "portrait": "R2_003_D.tif:accf7ca3d24413841ba07376d260ecc6",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 7
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 9
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 6
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 20
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 3
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 217,
-        "name": "죽음의 메아리",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1429,
-        "name": "BACON_TRIPLE_UPGRADE_MINION_ID",
-        "value": 58394
-      },
-      {
-        "id": 1440,
-        "name": "TECH_LEVEL",
-        "value": 3
-      },
-      {
-        "id": 1452,
-        "name": "COLLECTION_RELATED_CARD_DATABASE_ID",
-        "value": 1006
-      },
-      {
-        "id": 1594,
-        "name": "BACON_SUBSET_BEAST",
-        "value": 1
-      },
-      {
-        "id": 2540,
-        "name": "게임 태그 2540",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-08-30",
-        "changes": {
-          "name": "괴수"
-        }
-      },
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-          "attack": 9,
-          "health": 7
-        }
-      },
-      {
-        "date": "2016-07-13",
-        "changes": {
-          "text": "[x]<b>죽음의 메아리:</b> 상대편에게<br></br>3/3 핑클 아인혼을<br></br>소환해 줍니다."
-        }
-      },
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
-        }
-      },
-      {
-        "date": "2021-10-13",
-        "changes": {
-          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다."
-        }
-      },
-      {
-        "date": "2026-02-10",
-        "changes": {
-          "races": [
-            "ELEMENTAL",
-            "BEAST"
-          ]
-        }
-      }
+    "collectible": true
+  },
+  "2013-08-30": {
+    "name": "괴수"
+  },
+  "2013-10-03": {
+    "health": 7,
+    "attack": 9,
+    "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+  },
+  "2016-07-13": {
+    "text": "[x]<b>죽음의 메아리:</b> 상대편에게<br></br>3/3 핑클 아인혼을<br></br>소환해 줍니다."
+  },
+  "2016-08-10": {
+    "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+  },
+  "2021-10-13": {
+    "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다."
+  },
+  "2026-02-10": {
+    "races": [
+      "ELEMENTAL",
+      "BEAST"
     ]
-  },
-  "root": true,
-  "relatedIds": [
-    1006
-  ],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "야수",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3664",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "name": "괴수",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-09-01"
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "괴수",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.0.12574",
-      "displayFromKst": "2013-10-03"
-    },
-    {
-      "build": "5.2.13557",
-      "platform": "iOS",
-      "name": "괴수",
-      "rawText": "[x]<b>죽음의 메아리:</b> 상대편에게\n3/3 핑클 아인혼을\n소환해 줍니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2016-07-13"
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "괴수",
-      "rawText": "<b>죽음의 메아리:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2016-08-10"
-    }
-  ],
-  "unresolvedHistoricalTextDates": [
-    {
-      "from": "2013-08-30",
-      "before": "2013-09-01",
-      "fields": [
-        "name"
-      ],
-      "reason": "The 3749 patch cutover in Korea is unresolved within these dates; no dated value is assigned for the affected field.",
-      "olderBuild": "1.0.0.3664",
-      "newerBuild": "1.0.0.3749"
-    }
-  ]
+  }
 }

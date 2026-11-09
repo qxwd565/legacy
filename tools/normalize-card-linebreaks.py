@@ -16,6 +16,24 @@ def main():
     for path in sorted((ROOT/'data').glob('*.json')):
         before = path.read_text(encoding='utf-8')
         doc = json.loads(before)
+        if "card" not in doc:
+            from date_schema import apply, delta, put, validate_timeline
+            before_state = {}
+            normalized_state = {}
+            cleaned = {}
+            for day, change in doc.items():
+                before_state = apply(before_state, change)
+                state = dict(before_state)
+                for field in FIELDS:
+                    if field in state:
+                        value = normalize(state[field]); fields += value != state[field]; state[field] = value
+                diff = delta(normalized_state, state)
+                if diff: cleaned[day] = diff
+                else: redundant += 1
+                normalized_state = state
+            validate_timeline(cleaned)
+            files += put(path, cleaned)
+            continue
         card = doc.get('card', {})
         for field in FIELDS:
             if field in card:

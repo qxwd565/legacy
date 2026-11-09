@@ -1,0 +1,249 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_145",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Preparation",
+    "card": {
+      "dbfId": 1158,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 0,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_145",
+      "name": "마음가짐",
+      "text": "이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "ROGUE",
+      "rarity": "EPIC",
+      "flavor": "\"항상 대비하라.\" - 도적 격언",
+      "portrait": "W4_052_D.tif:b3fdcb8c286449d439f73ba3277a55f1",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "HAS_SIGNATURE_QUALITY",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "이번 턴에 내가 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다."
+          }
+        },
+        {
+          "date": "2019-06-04",
+          "changes": {
+            "text": "이번 턴에 내가 시전하는 다음 주문의 비용이 (2) 감소합니다."
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "마음가짐",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "마음가짐",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "14.2.30795",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "14.4.31268",
+        "platform": "iOS",
+        "name": "마음가짐",
+        "rawText": "이번 턴에 내가 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2019-06-04"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_145",
+    "dbfId": 1158,
+    "name": "마음가짐",
+    "type": "SPELL",
+    "cardClass": "ROGUE",
+    "rarity": "EPIC",
+    "collectible": true,
+    "cost": 0,
+    "text": "이번 턴에 내가 시전하는 다음 주문의 비용이 (2) 감소합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_145.png",
+    "artist": "Clint Langley",
+    "flavor": "\"항상 대비하라.\" - 도적 격언",
+    "set": "legacy",
+    "portrait": "W4_052_D.tif:b3fdcb8c286449d439f73ba3277a55f1",
+    "nativeTags": [
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 7
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 4
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2589,
+        "name": "HAS_SIGNATURE_QUALITY",
+        "value": 1
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

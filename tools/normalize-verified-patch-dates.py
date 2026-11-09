@@ -5,6 +5,10 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Superseded mutators cannot rewrite the canonical date-map format.
+if __name__ == "__main__" and (ROOT / "metadata").is_dir():
+    raise SystemExit("Date-map source detected. Edit data/<ID>.json and its evidence metadata; this legacy wrapper importer is disabled. See docs/date-schema.md.")
+
 # 4217 reached Korea on December 12; December 11 KST was the NA deployment.
 # Source: https://hearthstone.blizzard.com/ko-kr/news/11868609
 CORRECTIONS = {"2013-12-11": "2013-12-12"}

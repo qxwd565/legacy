@@ -1,167 +1,25 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Secretkeeper",
-  "card": {
+  "2013-08-17": {
     "dbfId": 158,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 1,
     "health": 2,
     "attack": 1,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
     "mechanics": [
       "TRIGGER_VISUAL"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_080",
     "name": "비밀지기",
     "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다.",
-    "set": "EXPERT1",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "RARE",
-    "flavor": "만크릭의 부인이 어디 있는지 절대로 말하지 않겠다고 하는군요.",
-    "portrait": "CLA-006.psd:2ea4315f347849e08938fd6dde9e7f4e",
     "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "TRIGGER_VISUAL",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 201,
-        "name": "진영",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 219,
-        "name": "비밀",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 6
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "legacyArt": true,
-    "patches": [
-      {
-        "date": "2016-08-10",
-        "changes": {
-          "text": "각 플레이어가 <b>비밀</b>을<br></br>낼 때마다 +1/+1을 얻습니다."
-        }
-      },
-      {
-        "date": "2019-07-01",
-        "changes": {
-          "legacyArt": false
-        }
-      }
-    ]
+    "legacyArt": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
+  "2016-08-10": {
+    "text": "각 플레이어가 <b>비밀</b>을<br></br>낼 때마다 +1/+1을 얻습니다."
   },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "비밀지기",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "5.2.13865",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
-    },
-    {
-      "build": "6.0.13921",
-      "platform": "iOS",
-      "name": "비밀지기",
-      "rawText": "각 플레이어가 <b>비밀</b>을\n낼 때마다 +1/+1을 얻습니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2016-08-10"
-    }
-  ]
+  "2019-07-01": {
+    "legacyArt": false
+  }
 }

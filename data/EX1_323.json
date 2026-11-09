@@ -1,228 +1,40 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Lord Jaraxxus",
-  "card": {
+  "2013-08-17": {
     "dbfId": 777,
-    "heroPowerDbfId": 1178,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 9,
     "health": 15,
-    "attack": 0,
-    "armor": 5,
-    "durability": 0,
-    "nativeSetId": 3,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
+    "attack": 3,
     "mechanics": [
       "BATTLECRY"
     ],
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_323",
     "name": "군주 자락서스",
     "text": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다.",
-    "set": "EXPERT1",
-    "type": "HERO",
+    "type": "MINION",
     "cardClass": "WARLOCK",
     "rarity": "LEGENDARY",
-    "flavor": "\"벼에서 쌀을!!!!\"",
-    "portrait": "W6_010_HERO_D.psd:76e46208180a76942b60e1075358d472",
     "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 30
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 9
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 3
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 251,
-        "name": "게임 태그 251",
-        "value": 1
-      },
-      {
-        "id": 292,
-        "name": "방어도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 380,
-        "name": "HERO_POWER",
-        "value": 1178
-      },
-      {
-        "id": 4533,
-        "name": "CRAFTABLE_OUTPUT_POWER",
-        "value": 1
-      },
-      {
-        "id": 4546,
-        "name": "게임 태그 4546",
-        "value": 1
-      }
+    "races": [
+      "DEMON"
     ],
-    "nativeRawText": "<b>전투의 함성</b>:&\n3/8 피의 격노를 장착합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>전투의 함성</b>:<br></br>3/8 피의 격노를 장착합니다.",
-          "health": 30
-        }
-      },
-      {
-        "date": "2023-09-29",
-        "changes": {
-          "cost": 8
-        }
-      }
+    "race": "악마"
+  },
+  "2013-10-03": {
+    "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다."
+  },
+  "2021-03-26": {
+    "text": "<b>전투의 함성</b>:<br></br>3/8 피의 격노를 장착합니다.",
+    "type": "HERO",
+    "heroPowerDbfId": 1178,
+    "armor": 5,
+    "__remove": [
+      "attack",
+      "health",
+      "race",
+      "races"
     ]
   },
-  "root": true,
-  "relatedIds": [
-    1178,
-    1660,
-    1143
-  ],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalSources": [
-    {
-      "key": "jaraxxus_minion",
-      "id": "EX1_323",
-      "sourceId": "VAN_EX1_323",
-      "name": "군주 자락서스",
-      "text": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다.",
-      "kind": "MINION",
-      "cardClass": "WARLOCK",
-      "sourceSet": "EXPERT1",
-      "rarity": "LEGENDARY",
-      "race": "악마",
-      "dbfId": 777,
-      "sourceDbfId": 69925,
-      "rowId": 2000000003,
-      "mana": 9,
-      "attack": 3,
-      "health": 15,
-      "armor": 0,
-      "removed": false,
-      "preset": {
-        "watermark": "Set1_Icon"
-      },
-      "archives": {
-        "normal": "f87ea74c29affa221f060e413475ae102766c5959db544e9222ee2c376f4183d",
-        "golden": "fb47f54536b906994056a09097132e04da3ea29aa69df67176d2b3648462aa40"
-      },
-      "sourceVersion": "6000.3.11.3145967",
-      "sources": {
-        "essential_base_global-texture-2.unity3d": "26047733:639275082148117234",
-        "essential_base_global-material-0.unity3d": "498177:639275082144082134",
-        "essential_base_global-mesh-0.unity3d": "6793482:639275082143799789",
-        "essential_base_global-shader-0.unity3d": "1199727:639275081879107966",
-        "initial_base_global-910a3655-mesh-0.unity3d": "2350877:639216100405791575",
-        "essential_base_global-prefab-0.unity3d": "3914913:639275082143799789",
-        "initial_base_global-2ebe64b8-prefab-0.unity3d": "1131797:639275082148736537",
-        "initial_base_global-910a3655-material-0.unity3d": "111754:639216100406464370"
-      }
-    }
-  ],
-  "historicalTextObservations": [
-    {
-      "build": "1.0.0.3664",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다.",
-      "sourceAsset": "Data/cards.unity3d",
-      "name": "군주 자락서스",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "1.0.0.3749",
-      "displayFromKst": "2013-08-17"
-    },
-    {
-      "build": "1.0.0.3749",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다."
-    },
-    {
-      "build": "1.0.0.3890",
-      "platform": "Windows",
-      "rawText": "<b>전투의 함성:</b> 내 영웅을 군주 자락서스로 교체합니다.",
-      "northAmericaPatchDateKst": "2013-10-03",
-      "name": "군주 자락서스",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2013-10-03"
-    }
-  ]
+  "2023-09-29": {
+    "cost": 8
+  }
 }

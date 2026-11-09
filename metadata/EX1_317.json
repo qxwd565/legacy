@@ -1,0 +1,335 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "EX1_317",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2013-08-17",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Sense Demons",
+    "card": {
+      "dbfId": 860,
+      "heroPowerDbfId": 0,
+      "techLevel": 0,
+      "battlegroundsNormalDbfId": 0,
+      "battlegroundsPremiumDbfId": 0,
+      "battlegroundsRelatedCard": 0,
+      "battlegroundsBuddyDbfId": 0,
+      "cost": 3,
+      "health": 0,
+      "attack": 0,
+      "armor": 0,
+      "durability": 0,
+      "nativeSetId": 3,
+      "battlegroundsSkinParentId": 0,
+      "installed": true,
+      "isBattlegroundsDuosExclusive": false,
+      "chooseOne": false,
+      "battlegroundsAssociatedRaces": null,
+      "id": "EX1_317",
+      "name": "악마 감지",
+      "text": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다.",
+      "set": "EXPERT1",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "rarity": "COMMON",
+      "flavor": "일반적으로 악마들은 굉장히 눈에 띄는 존재여서, 굳이 주문까지 사용하지 않아도 감지할 수 있습니다.",
+      "spellSchool": "",
+      "portrait": "W11_193_D.psd:b9aa44cd8cf4fa942b2af7d1126cdc7d",
+      "collectible": true,
+      "isBattlegroundsPoolMinion": false,
+      "isBattlegroundsPoolSpell": false,
+      "battlegroundsHero": false,
+      "isBattlegroundsBuddy": false,
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 251,
+          "name": "게임 태그 251",
+          "value": 1
+        },
+        {
+          "id": 268,
+          "name": "게임 태그 268",
+          "value": 2
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeRawText": "내 덱에서 악마를 둘 뽑습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2013-10-03",
+          "changes": {
+            "text": "덱에 있는 무작위 악마 2마리를 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2013-12-12",
+          "changes": {
+            "text": "덱에 있는 무작위 악마 둘을 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2015-04-01",
+          "changes": {
+            "text": "내 덱에서 무작위로 선택된 악마 카드 2장을 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "내 덱에서 무작위 악마 둘을 내 손으로 가져옵니다."
+          }
+        },
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "text": "내 덱에서 악마를 둘 뽑습니다."
+          }
+        },
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "SHADOW"
+          }
+        }
+      ]
+    },
+    "root": true,
+    "relatedIds": [
+      1723
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "setOrder": 47,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "1.0.0.3664",
+        "platform": "Windows",
+        "rawText": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다.",
+        "sourceAsset": "Data/cards.unity3d",
+        "name": "악마 감지",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3749",
+        "displayFromKst": "2013-08-17"
+      },
+      {
+        "build": "1.0.0.3749",
+        "platform": "Windows",
+        "rawText": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다."
+      },
+      {
+        "build": "1.0.0.3890",
+        "platform": "Windows",
+        "rawText": "덱에 있는 무작위 악마 2마리를 내 손으로 가져옵니다.",
+        "northAmericaPatchDateKst": "2013-10-03",
+        "name": "악마 감지",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "1.0.0.3937",
+        "displayFromKst": "2013-10-03"
+      },
+      {
+        "build": "1.0.0.4217",
+        "platform": "Windows",
+        "rawText": "덱에 있는 무작위 악마 둘을 내 손으로 가져옵니다.",
+        "northAmericaPatchDateKst": "2013-12-11",
+        "name": "악마 감지",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.3.8108",
+        "displayFromKst": "2013-12-11"
+      },
+      {
+        "build": "2.4.8311",
+        "platform": "iOS",
+        "name": "악마 감지",
+        "rawText": "내 덱에서 무작위로 선택된 악마 카드 2장을 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "2.8.9554",
+        "displayFromKst": "2015-04-01"
+      },
+      {
+        "build": "3.0.9786",
+        "platform": "iOS",
+        "name": "악마 감지",
+        "rawText": "내 덱에서 무작위 악마 둘을 내 손으로 가져옵니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "6.2.15153",
+        "displayFromKst": "2015-08-19"
+      },
+      {
+        "build": "7.0.15590",
+        "platform": "iOS",
+        "name": "악마 감지",
+        "rawText": "내 덱에서 악마를 둘 뽑습니다.",
+        "sets": [
+          3
+        ],
+        "lastObservedBuild": "19.6.74257",
+        "displayFromKst": "2016-11-30"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "EX1_317",
+    "dbfId": 860,
+    "name": "악마 감지",
+    "type": "SPELL",
+    "cardClass": "WARLOCK",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 3,
+    "text": "내 덱에서 악마를 둘 뽑습니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/EX1_317.png",
+    "artist": "Raven Mimura",
+    "flavor": "일반적으로 악마들은 굉장히 눈에 띄는 존재여서, 굳이 주문까지 사용하지 않아도 감지할 수 있습니다.",
+    "spellSchool": "SHADOW",
+    "relatedDbfIds": [
+      1723
+    ],
+    "set": "legacy",
+    "portrait": "W11_193_D.psd:b9aa44cd8cf4fa942b2af7d1126cdc7d",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 3
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 201,
+        "name": "진영",
+        "value": 3
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 251,
+        "name": "게임 태그 251",
+        "value": 1
+      },
+      {
+        "id": 268,
+        "name": "게임 태그 268",
+        "value": 2
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "watermark": "Set1_Icon",
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ]
+}

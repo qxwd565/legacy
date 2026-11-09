@@ -4,6 +4,13 @@ on:
     paths:
       - '.github/workflows/normalize-card-history.yml'
       - 'tools/build-api.py'
+      - 'tools/build_date_api.py'
+      - 'tools/legacy_projection.py'
+      - 'tools/test-legacy-compatibility.py'
+      - 'tools/date_schema.py'
+      - 'tools/migrate-date-schema.py'
+      - 'tools/test-date-schema.py'
+      - 'metadata/**'
       - 'tools/migrate-chronology.py'
       - 'tools/normalize-release-chronology.py'
       - 'tools/normalize-verified-patch-dates.py'
@@ -26,27 +33,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Convert legacy cards to release baselines and dated changes
-        run: python3 tools/migrate-chronology.py
-      - name: Correct independently verified Korean patch dates
-        run: python3 tools/normalize-verified-patch-dates.py
-      - name: Normalize corrected first playable dates
-        run: python3 tools/normalize-release-chronology.py
-      - name: Apply independently verified Legacy balance history
-        run: python3 tools/apply-verified-balances.py
-      - name: Import verified archived Legacy numeric changes
-        run: python3 tools/import-archived-stats.py
+        with:
+          # Preservation tests read the pinned pre-migration source commit.
+          fetch-depth: 0
+      - name: Migrate old wrappers only once, preserving evidence
+        run: python3 tools/migrate-date-schema.py
       - name: Normalize display line breaks without changing raw evidence
         run: python3 tools/normalize-card-linebreaks.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Verify baseline, patches, current cache, and historical lookups
         run: python3 tools/test-chronology.py
+      - name: Verify date-map state, preservation, and API boundaries
+        run: python3 tools/test-date-schema.py
+      - name: Verify unchanged-plugin compatibility projection
+        run: python3 tools/test-legacy-compatibility.py
       - name: Commit changed API indexes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json history.json data tools/legacy-stat-reconstruction-report.json
+          git add -- cards.json render.json history.json cards-date.json render-date.json history-date.json data metadata tools/legacy-compatibility-losses.json
           if ! git diff --cached --quiet; then
             git commit -m "Publish card API indexes [skip ci]"
             git push

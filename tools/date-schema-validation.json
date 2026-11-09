@@ -1,0 +1,6054 @@
+{
+  "result": "pass",
+  "sourceCards": 609,
+  "currentCards": 609,
+  "datedSources": 607,
+  "undatedSources": [
+    "skele21",
+    "ds1_whelptoken"
+  ],
+  "sourceReleaseStatus": {
+    "verified": 74,
+    "estimated": 533,
+    "pending": 2
+  },
+  "boundarySnapshots": 6718,
+  "losslessSourceChecks": 609,
+  "runtimeTypes": {
+    "MINION": 332,
+    "SPELL": 232,
+    "WEAPON": 19,
+    "HERO_POWER": 24,
+    "HERO": 2
+  },
+  "syntheticTypes": [
+    "MINION",
+    "SPELL",
+    "WEAPON",
+    "HERO",
+    "LOCATION",
+    "HERO_POWER",
+    "ENCHANTMENT"
+  ],
+  "strict": "opt-in; all incompletely verified baselines refused, no confidence promotion",
+  "historyBytes": 492774,
+  "intentionalCurrentProjectionChanges": [
+    {
+      "id": "BG31_BOB",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BG31_BOBt",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BG31_BOBt2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BG31_BOBt3",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BG31_BOBt4",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_035",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_036",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_036t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_142",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_235",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_323",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_352",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_352t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_495",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "BT_512",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_740",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "BT_921",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CORE_EDR_004",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS1_042",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS1_069",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS1_112",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS1_113",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS1_129",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS1_130",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_003",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_004",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_005",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_007",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_008",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_009",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_011",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_012",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_013",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_013t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_022",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_023",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_024",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_025",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_026",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_027",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_028",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_029",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_031",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_032",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_033",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_037",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_038",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_039",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_041",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_042",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_045",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_046",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_050",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_051",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_052",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_053",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_057",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_058",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_059",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_061",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_062",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_063",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_064",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_065",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_072",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_073",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_074",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_075",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_076",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_077",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_080",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_082",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_084",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_087",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_088",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_089",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_091",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_092",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_093",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_094",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_097",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t3",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t4",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t5",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t6",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t7",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_101t8",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_102_H3",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_103",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_104",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_105",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_106",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_108",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_112",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_114",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_117",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_118",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_119",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_120",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_121",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_122",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_124",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_125",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_127",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_131",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_141",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_142",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_146",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_147",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_150",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_151",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_152",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_155",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_161",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_162",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_168",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_169",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_171",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_172",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_173",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_179",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_181",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_182",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_186",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_187",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_188",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_189",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_196",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_197",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_200",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_201",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_203",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_213",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_221",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_222",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_226",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_227",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_231",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_232",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_233",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_234",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_235",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_236",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS2_237",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_boar",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_mirror",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS2_tk1",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_002",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_003",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_005",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_008",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_009",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_012",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_014",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_016",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_019",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_021",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "CS3_027",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_029",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_030",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DREAM_01",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DREAM_02",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DREAM_03",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DREAM_04",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DREAM_05",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DS1_055",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DS1_070",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DS1_175",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DS1_178",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "DS1_183",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DS1_184",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DS1_185",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DS1_188",
+      "changes": {
+        "durability": 2,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "DS1_233",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t1",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t13",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t3",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t5",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t6",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t7",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t8",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EDR_100t9",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_001",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_002",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_004",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_005",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_006",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_007",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_008",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_009",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_010",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_011",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_012",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_014",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_014t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_015",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_016",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_017",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_019",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_020",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_021",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_023",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_025",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_025t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_028",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_029",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_032",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_033",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_043",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_044",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_045",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_046",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_048",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_049",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_050",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_055",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_057",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_058",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_059",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_062",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_066",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_067",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_076",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_080",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_082",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_083",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_084",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_085",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_089",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_091",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_093",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_095",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_096",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_097",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_100",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_102",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_103",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_105",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_110",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_110t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_112",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_116",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_116t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_124",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_126",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_128",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_129",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_130",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_130a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_131",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_131t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_132",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_133",
+      "changes": {
+        "durability": 2,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_134",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_136",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_137",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_144",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_145",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_154",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_154a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_154b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_155",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_155a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_155b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_158",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_158t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_160",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_160a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_160b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_160t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_161",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_162",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_164",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_164a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_164b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_165",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_165a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_165b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_165t1",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_165t2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_166",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_166a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_166b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_169",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_170",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_173",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_178",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_178a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_178b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_179",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_180",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_181",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_182",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_183",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_184",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_185",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_186",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_187",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_188",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_189",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_190",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_191",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_192",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_193",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_194",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_195",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_196",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_197",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_198",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_238",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_241",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_243",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_244",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_245",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_246",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_247",
+      "changes": {
+        "durability": 3,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_248",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_249",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_250",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_251",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_258",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_259",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_274",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_275",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_277",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_278",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_279",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_283",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_284",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_287",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_289",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_294",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_295",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_298",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_301",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_302",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_303",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_304",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_306",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_308",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_309",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_310",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_312",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_313",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_315",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_316",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_317",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_317t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_319",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_320",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_323",
+      "changes": {
+        "heroPowerDbfId": 1178,
+        "__remove": [
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_323h",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "cost",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_323w",
+      "changes": {
+        "durability": 8,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_332",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_334",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_335",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_339",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_341",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_345",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_345t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_349",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_350",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_354",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_355",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_360",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_362",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_363",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_365",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_366",
+      "changes": {
+        "durability": 5,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_371",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_379",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_382",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_383",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_383t",
+      "changes": {
+        "durability": 3,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_384",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_390",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_391",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_392",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_393",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_396",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_398",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_398t",
+      "changes": {
+        "durability": 2,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_399",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_400",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_402",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_405",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_407",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_408",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_409",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_409t",
+      "changes": {
+        "durability": 3,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_410",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_411",
+      "changes": {
+        "durability": 1,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_412",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_414",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_506",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_506a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_507",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_508",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_509",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_522",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_531",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_533",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_534",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_534t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_536",
+      "changes": {
+        "durability": 2,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_537",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_538",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_538t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_539",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_543",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_544",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_549",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_554",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_554t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_556",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_557",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_558",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_559",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_560",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_561",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_562",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_563",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_564",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_565",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_567",
+      "changes": {
+        "durability": 8,
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_570",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_571",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_572",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_573",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_573a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_573b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_573t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_575",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_577",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_578",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_581",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_582",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_583",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_584",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_586",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_587",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_590",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_591",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_593",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_594",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_595",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_596",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_597",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_598",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_603",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_604",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_606",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_607",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_608",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_609",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_610",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_611",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_612",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_613",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_614",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_614t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_616",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_617",
+      "changes": {
+        "legacyArt": false,
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_619",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_620",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_621",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_622",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_623",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_624",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_625",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_625t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_625t2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_626",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_finkle",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk11",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk28",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk29",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk33",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk34",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "EX1_tk9",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_01",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_02",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_03",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_04",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_05",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_06",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_07",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_08",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_09",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_10",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_11",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "GIFT_12",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_01bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_01bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_02bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_02bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_03bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_03bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_04bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_04bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_05bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_05bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_06bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_06bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_07bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_07bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_08bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_08bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_09bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_09bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_10bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_10bp2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_001",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_013",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_015",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_017",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_028",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_031",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_032",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_033",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_034",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_036",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_CS3_037",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_034",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_039",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_071",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_077",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_079",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_082",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_085",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_101",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_115",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_125",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_224",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_226",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_705",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_710",
+      "changes": {
+        "__remove": [
+          "armor",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_715",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_744",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_752",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_RLK_753",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "LEG_TTN_908",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "Mekka1",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "Mekka2",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "Mekka3",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "Mekka4",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "Mekka4t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_003",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_004",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_005",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_007",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_007a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_007b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_008",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_008a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_008b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_009",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_010",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_011",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_012",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_014",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_016",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_017",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_018",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_019",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_020",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_021",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_022",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_023",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_024",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_025",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_026",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_026t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_027",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_029",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_030",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_031",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_032",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_033",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_034",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_036",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_037",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_038",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_040",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_040t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "NEW1_041",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "OG_047a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "OG_047b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "PRO_001",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "PRO_001a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "PRO_001at",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "PRO_001b",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "PRO_001c",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "TOY_100",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "TOY_101",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "TOY_102",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "TOY_103",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "WON_113",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "WON_145",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "ds1_whelptoken",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "hexfrog",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "skele21",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "tt_004",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "tt_010",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health"
+        ]
+      }
+    },
+    {
+      "id": "tt_010a",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    }
+  ]
+}

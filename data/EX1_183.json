@@ -1,121 +1,16 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Gift of the Wild",
-  "card": {
+  "2019-07-02": {
     "dbfId": 54833,
-    "heroPowerDbfId": 0,
-    "techLevel": 0,
-    "battlegroundsNormalDbfId": 0,
-    "battlegroundsPremiumDbfId": 0,
-    "battlegroundsRelatedCard": 0,
-    "battlegroundsBuddyDbfId": 0,
     "cost": 8,
-    "health": 0,
-    "attack": 0,
-    "armor": 0,
-    "durability": 0,
-    "nativeSetId": 1635,
-    "battlegroundsSkinParentId": 0,
-    "installed": true,
-    "isBattlegroundsDuosExclusive": false,
-    "chooseOne": false,
-    "battlegroundsAssociatedRaces": null,
     "id": "EX1_183",
     "name": "야생의 선물",
     "text": "내 하수인들에게 +2/+2와 <b>도발</b>을 부여합니다.",
-    "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "COMMON",
-    "flavor": "온 누리에 발바닥을!",
-    "spellSchool": "",
-    "portrait": "CLA-010.psd:e38c13b279974f98a24ca2d28f2a37ec",
-    "collectible": true,
-    "isBattlegroundsPoolMinion": false,
-    "isBattlegroundsPoolSpell": false,
-    "battlegroundsHero": false,
-    "isBattlegroundsBuddy": false,
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 8
-      },
-      {
-        "id": 190,
-        "name": "도발",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 1635,
-        "name": "주문 속성",
-        "value": 4
-      }
-    ],
-    "nativeRawText": "내 하수인들에게 +2/+2와 <b>도발</b>을 부여합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2019-07-02",
-    "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "spellSchool": "NATURE"
-        }
-      }
-    ]
+    "collectible": true
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "setOrder": 47,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "14.6.31761",
-      "platform": "iOS",
-      "name": "야생의 선물",
-      "rawText": "내 하수인들에게 +2/+2와 <b>도발</b>을 부여합니다.",
-      "sets": [
-        3
-      ],
-      "lastObservedBuild": "19.6.74257",
-      "displayFromKst": "2019-07-02"
-    }
-  ]
+  "2021-03-26": {
+    "spellSchool": "NATURE"
+  }
 }
