@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "scope": "5.0.0.12574 official list and 20.0 unnerf; one new mechanics field added to two existing dated patch records, all others were already recorded.",
+  "sources": [
+    {
+      "date": "2016-04-25",
+      "url": "https://hearthstone.blizzard.com/en-us/news/20097359",
+      "reference": "Old Gods 5.0 patch balance list"
+    },
+    {
+      "date": "2021-03-26",
+      "url": "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
+      "reference": "20.0 Arcane Golem charge restore"
+    }
+  ],
+  "changes": [
+    {
+      "id": "EX1_089",
+      "date": "2016-04-25",
+      "before": [
+        "BATTLECRY",
+        "CHARGE"
+      ],
+      "after": [
+        "BATTLECRY"
+      ],
+      "status": "new mechanic history; health 2→4 already recorded"
+    },
+    {
+      "id": "EX1_089",
+      "date": "2021-03-26",
+      "before": [
+        "BATTLECRY"
+      ],
+      "after": [
+        "BATTLECRY",
+        "CHARGE"
+      ],
+      "status": "new mechanic history; health 4→2 already recorded"
+    }
+  ],
+  "priorCardChangesAlreadyPresent": [
+    {
+      "card": "NEW1_008",
+      "change": "draw two→one"
+    },
+    {
+      "card": "EX1_571",
+      "change": "Force of Nature cost/treant effect"
+    },
+    {
+      "card": "EX1_166",
+      "change": "health 4→2"
+    },
+    {
+      "card": "CS2_203",
+      "change": "cost 2→3"
+    },
+    {
+      "card": "EX1_005",
+      "change": "cost 3→5"
+    },
+    {
+      "card": "CS2_084",
+      "change": "cost 0→1"
+    },
+    {
+      "card": "CS2_233",
+      "change": "cost 2→4 and all enemies→minions"
+    },
+    {
+      "card": "NEW1_019",
+      "change": "attack 3→2"
+    },
+    {
+      "card": "EX1_029",
+      "change": "attack 2→1"
+    },
+    {
+      "card": "EX1_620",
+      "change": "cost 20→25"
+    },
+    {
+      "card": "NEW1_014",
+      "change": "Stealth granted only until next turn"
+    }
+  ],
+  "result": "New historically accurate gameplay mechanics in original and reverse compatibility history."
+}

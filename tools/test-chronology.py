@@ -305,6 +305,14 @@ def main():
     assert "다른 무작위" in value_at("EX1_083", "text", "2014-03-12")
     assert "턴이 끝날 때" in value_at("EX1_557", "text", "2014-03-11")
     assert "턴이 시작될 때" in value_at("EX1_557", "text", "2014-03-12")
+    # 5.0 Arcane Golem loses Charge, and 20.0 restores it.
+    assert "CHARGE" in value_at("EX1_089", "mechanics", "2016-04-24")
+    assert "CHARGE" not in value_at("EX1_089", "mechanics", "2016-04-25")
+    assert value_at("EX1_089", "health", "2016-04-24") == 2
+    assert value_at("EX1_089", "health", "2016-04-25") == 4
+    assert "CHARGE" not in value_at("EX1_089", "mechanics", "2021-03-25")
+    assert "CHARGE" in value_at("EX1_089", "mechanics", "2021-03-26")
+    assert value_at("EX1_089", "health", "2021-03-26") == 2
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
