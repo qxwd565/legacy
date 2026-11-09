@@ -3,7 +3,7 @@
   "id": "PRO_001c",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-12-12",
+    "date": "2013-12-11",
     "status": "verified"
   },
   "baselineStatus": "partially-verified",
@@ -1724,7 +1724,7 @@
         "value": 5
       }
     ],
-    "releasedAt": "2013-12-12",
+    "releasedAt": "2013-12-11",
     "releaseStatus": "verified"
   },
   "currentOnlyFields": [
@@ -1748,5 +1748,11 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "version": "1.0.0.4217",
+    "region": "North America",
+    "appliedAtKST": "2013-12-11T02:45:00+09:00",
+    "source": "https://www.hearthpwn.com/news/225-hearthstone-beta-patch-4217-blizzcon-reward-card"
+  }
 }

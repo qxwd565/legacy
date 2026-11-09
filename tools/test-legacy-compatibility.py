@@ -43,6 +43,8 @@ def main(fixture=None):
     for obj in (catalog_other,original_other):
         for row in obj['cards']:
             row.pop('text',None)
+            if row['id'] in ('PRO_001','PRO_001a','PRO_001at','PRO_001b','PRO_001c'):
+                row.pop('releasedAt',None)  # Verified North American beta release in KST.
             if row['id'] in ('skele21','ds1_whelptoken'):
                 row.pop('releasedAt',None); row.pop('releaseStatus',None)
     assert json_equal(catalog_other,original_other),'Non-text legacy catalogue drifted'

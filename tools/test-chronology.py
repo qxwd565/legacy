@@ -180,8 +180,8 @@ def main():
     assert "번개 화살" in value_at("GIFT_06", "text", "2024-03-28")
     assert "번개 폭풍" in value_at("GIFT_06", "text", "2024-03-29")
     for cid in ("PRO_001", "PRO_001a", "PRO_001at", "PRO_001b", "PRO_001c"):
-        assert get(cid)["releasedAt"] == "2013-12-12"
-        assert not any(e["date"] <= "2013-12-12" for e in get(cid)["patches"])
+        assert get(cid)["releasedAt"] == "2013-12-11"
+        assert not any(e["date"] <= "2013-12-11" for e in get(cid)["patches"])
     assert "디버그" not in get("PRO_001")["text"]
     for cid in ("BG31_BOB", "BG31_BOBt", "BG31_BOBt2", "BG31_BOBt3", "BG31_BOBt4"):
         assert get(cid)["releasedAt"] == "2024-12-11"

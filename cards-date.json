@@ -23939,12 +23939,12 @@
       ],
       "id": "CS2_058",
       "name": "힘의 토템",
-      "text": "[x]내 턴이 끝날 때,<br></br>다른 무작위 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다.",
       "type": "MINION",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "race": "토템",
-      "collectible": false
+      "collectible": false,
+      "text": "[x]내 턴이 끝날 때,<br></br>다른 무작위 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다."
     },
     {
       "art": "art/CS2_061.png",
@@ -40643,7 +40643,7 @@
         318,
         420
       ],
-      "releasedAt": "2013-12-12",
+      "releasedAt": "2013-12-11",
       "releaseStatus": "verified",
       "dbfId": 1754,
       "cost": 5,
@@ -40677,7 +40677,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-12",
+      "releasedAt": "2013-12-11",
       "releaseStatus": "verified",
       "dbfId": 1843,
       "cost": 4,
@@ -40720,7 +40720,7 @@
           "value": 4
         }
       ],
-      "releasedAt": "2013-12-12",
+      "releasedAt": "2013-12-11",
       "releaseStatus": "verified",
       "dbfId": 1844,
       "cost": 0,
@@ -40758,7 +40758,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-12",
+      "releasedAt": "2013-12-11",
       "releaseStatus": "verified",
       "dbfId": 1845,
       "cost": 4,
@@ -40791,7 +40791,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-12",
+      "releasedAt": "2013-12-11",
       "releaseStatus": "verified",
       "dbfId": 1846,
       "cost": 4,
