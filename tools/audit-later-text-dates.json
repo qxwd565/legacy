@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "Five corrected post-2021 text/name timelines. Unbound Elemental trigger timing is gameplay; Pip rename and 35.0 consistency text are explicitly distinguished from numeric balance.",
+  "changes": [
+    {
+      "cards": [
+        "EX1_258"
+      ],
+      "date": "2021-06-04",
+      "change": "Whenever -> After playing an Overload card; was backdated to 2021-03-26."
+    },
+    {
+      "cards": [
+        "EX1_577",
+        "EX1_finkle"
+      ],
+      "date": "2021-10-13",
+      "change": "Finkle Einhorn -> Pip Quickwit; was backdated to 2021-03-26."
+    },
+    {
+      "cards": [
+        "EX1_302",
+        "EX1_320"
+      ],
+      "date": "2026-03-11",
+      "change": "If that kills it -> If it dies consistency update. Keep Bane damage increase at 2023-08-23 with its actual Korean text from archive."
+    }
+  ],
+  "sources": [
+    "https://hearthstone.blizzard.com/ko-kr/news/23676205/20-4-patch-notes",
+    "https://hearthstone.blizzard.com/ko-kr/news/23732808/21-4-patch-notes",
+    "https://hearthstone.blizzard.com/ko-kr/news/23699737/10-13",
+    "https://hearthstone.blizzard.com/ko-kr/news/24267727/35-0-patch-notes",
+    "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62",
+    "https://github.com/HearthSim/hsdata/commit/0403e1f741685c19216e432ca8f097e07c7ff32e"
+  ]
+}

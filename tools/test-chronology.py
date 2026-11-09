@@ -198,6 +198,16 @@ def main():
     assert value_at("EX1_538", "cost", "2013-12-12") == 4
     assert value_at("EX1_019", "health", "2013-12-11") == 3
     assert value_at("EX1_019", "health", "2013-12-12") == 2
+    assert "낼 때마다" in value_at("EX1_258", "text", "2021-06-03")
+    assert "낸 후에" in value_at("EX1_258", "text", "2021-06-04")
+    assert "핑클 아인혼" in value_at("EX1_577", "text", "2021-10-12")
+    assert "핍 퀵위트" in value_at("EX1_577", "text", "2021-10-13")
+    assert value_at("EX1_finkle", "name", "2021-10-12") == "핑클 아인혼"
+    assert value_at("EX1_finkle", "name", "2021-10-13") == "핍 퀵위트"
+    for cid in ("EX1_302", "EX1_320"):
+        assert "이 피해로" in value_at(cid, "text", "2026-03-10")
+        assert "이 피해로" not in value_at(cid, "text", "2026-03-11")
+    assert "$3" in value_at("EX1_320", "text", "2023-08-23")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
