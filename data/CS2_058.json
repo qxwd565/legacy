@@ -9,11 +9,13 @@
     ],
     "id": "CS2_058",
     "name": "힘의 토템",
-    "text": "[x]내 턴이 끝날 때,<br></br>다른 무작위 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다.",
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
     "race": "토템",
     "collectible": false
+  },
+  "2021-03-26": {
+    "text": "[x]내 턴이 끝날 때,<br></br>다른 무작위 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다."
   }
 }
