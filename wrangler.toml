@@ -1,7 +1,11 @@
-# Cloudflare Workers Static Assets: publish the existing Legacy API as-is.
-# Keep all card JSON, artwork and historical resource paths unchanged.
+# Continue to serve original paths while adding /legacy/ URL aliases.
+# Once hsdeck.com is an active Cloudflare zone, attach these two Custom Domains
+# to this SAME Worker: api.hsdeck.com and art.hsdeck.com.
 name = "legacy"
 compatibility_date = "2026-11-09"
+main = "./cdn-router.js"
 
 [assets]
 directory = "./"
+binding = "ASSETS"
+run_worker_first = ["/legacy/*"]
