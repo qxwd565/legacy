@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "description": "Cross-check all changed Legacy IDs against the official 2025 Year of the Raptor and 2026 Year of the Scarab Core adjustment lists; only same-ID Legacy changes apply here.",
+  "sources": {
+    "yearOfRaptorNotes": "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0",
+    "yearOfRaptorAdjustmentList": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5L4LK5ASYDUL1739227664823.pdf",
+    "yearOfScarabNotes": "https://hearthstone.blizzard.com/en-us/news/24267727/35-0-patch-notes",
+    "yearOfScarabAdjustmentList": "https://bnetcmsus-a.akamaihd.net/cms/page_media/dp/DPFBD4AIU6P41770084120938.pdf"
+  },
+  "patches": [
+    {
+      "date": "2025-03-19",
+      "id": "EX1_198",
+      "changes": {
+        "cost": 7,
+        "attack": 7
+      },
+      "before": {
+        "cost": 8,
+        "attack": 8
+      },
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_131",
+      "changes": {
+        "attack": 3
+      },
+      "before": {
+        "attack": 2
+      },
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_134",
+      "effect": "Combo damage 2 -> 3",
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_250",
+      "changes": {
+        "health": 9
+      },
+      "before": {
+        "health": 8
+      },
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_110",
+      "mechanic": "TAUNT",
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_002",
+      "mechanic": "TRADEABLE",
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2025-03-19",
+      "id": "EX1_014",
+      "changes": {
+        "health": 6
+      },
+      "before": {
+        "health": 5
+      },
+      "status": "already in card.patches"
+    },
+    {
+      "date": "2026-03-11",
+      "id": "EX1_189",
+      "changes": {
+        "cost": 2
+      },
+      "before": {
+        "cost": 3
+      },
+      "status": "already in card.patches"
+    }
+  ],
+  "excluded": "Other adjustments in these official lists belong to separate expansion or Core IDs; do not move them into the Legacy API or create text-only history for no-functional-change wording.",
+  "result": "All eight dated same-ID Legacy adjustments present; tests are added to prevent regression."
+}

@@ -208,6 +208,25 @@ def main():
         assert "이 피해로" in value_at(cid, "text", "2026-03-10")
         assert "이 피해로" not in value_at(cid, "text", "2026-03-11")
     assert "$3" in value_at("EX1_320", "text", "2023-08-23")
+    # Official 2025 Raptor and 2026 Scarab Core audits. The date is
+    # when the actual card text/stat changed (KST), not Core rotation day.
+    for cid, field, before, after in (
+        ("EX1_198", "cost", 8, 7),
+        ("EX1_198", "attack", 8, 7),
+        ("EX1_131", "attack", 2, 3),
+        ("EX1_250", "health", 8, 9),
+        ("EX1_014", "health", 5, 6),
+    ):
+        assert value_at(cid, field, "2025-03-18") == before, (cid, field, "before 32.0")
+        assert value_at(cid, field, "2025-03-19") == after, (cid, field, "after 32.0")
+    assert value_at("EX1_189", "cost", "2026-03-10") == 3
+    assert value_at("EX1_189", "cost", "2026-03-11") == 2
+    assert "TRADEABLE" not in value_at("EX1_002", "mechanics", "2025-03-18")
+    assert "TRADEABLE" in value_at("EX1_002", "mechanics", "2025-03-19")
+    assert "TAUNT" not in value_at("EX1_110", "mechanics", "2025-03-18")
+    assert "TAUNT" in value_at("EX1_110", "mechanics", "2025-03-19")
+    assert "피해를 2" in value_at("EX1_134", "text", "2025-03-18")
+    assert "피해를 3" in value_at("EX1_134", "text", "2025-03-19")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
