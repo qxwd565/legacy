@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_03bp2",
     "name": "독 묻은 단검",
-    "text": "<b>영웅 능력</b>\n2/2 무기를 장착합니다.",
+    "text": "<b>영웅 능력</b><br></br>2/2 무기를 장착합니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "ROGUE",
@@ -56,20 +56,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>2/2 무기를 장착합니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>영웅 능력</b>\n2/2 무기를 장착합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

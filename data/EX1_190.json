@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_190",
     "name": "종교재판관 화이트메인",
-    "text": "<b>전투의 함성:</b><br>이번 턴에 죽은<br>모든 아군 하수인을 소환합니다.",
+    "text": "<b>전투의 함성:</b><br></br>이번 턴에 죽은<br></br>모든 아군 하수인을 소환합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -90,7 +90,6 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b>\n이번 턴에 죽은\n모든 아군 하수인을 소환합니다.",
           "attack": 5,
           "cost": 6,
           "health": 7

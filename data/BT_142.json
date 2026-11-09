@@ -26,7 +26,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_142",
     "name": "그림자발굽 학살자",
-    "text": "[x]<b>전투의 함성:</b> 이번 턴에<br>내 영웅에게 공격력을<br>+1 부여합니다.",
+    "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>내 영웅에게 공격력을<br></br>+1 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
@@ -90,14 +90,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b> 이번 턴에\n내 영웅에게 공격력을\n+1 부여합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

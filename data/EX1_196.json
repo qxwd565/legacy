@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_196",
     "name": "붉은십자군 정복자",
-    "text": "<b>전투의 함성:</b><br>내 다음 턴까지 적 하수인에게 공격력을 -2 부여합니다.",
+    "text": "<b>전투의 함성:</b><br></br>내 다음 턴까지 적 하수인에게 공격력을 -2 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "PRIEST",
@@ -81,14 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-03-27",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>전투의 함성:</b>\n내 다음 턴까지 적 하수인에게 공격력을 -2 부여합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

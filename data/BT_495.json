@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_495",
     "name": "쌍날검 숙련자",
-    "text": "<b>전투의 함성:</b> 이번 턴에<br>내 영웅이 공격했다면, 피해를 4 줍니다.",
+    "text": "<b>전투의 함성:</b> 이번 턴에<br></br>내 영웅이 공격했다면, 피해를 4 줍니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
@@ -86,12 +86,6 @@
         "date": "2020-04-18",
         "changes": {
           "attack": 6
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 이번 턴에\n내 영웅이 공격했다면, 피해를 4 줍니다."
         }
       }
     ]

@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001b",
     "name": "도적은 뒤를 치지...",
-    "text": "[x]피해를 $4 줍니다.\n카드를 뽑습니다.",
+    "text": "[x]피해를 $4 줍니다.<br></br>카드를 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
@@ -66,7 +66,7 @@
       {
         "date": "2014-07-23",
         "changes": {
-          "text": "[x]피해를 $4 줍니다.\n카드를 뽑습니다."
+          "text": "[x]피해를 $4 줍니다.<br></br>카드를 뽑습니다."
         }
       }
     ]

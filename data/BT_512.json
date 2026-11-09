@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_512",
     "name": "내면의 악마",
-    "text": "이번 턴에<br>내 영웅이 공격력을 +8 얻습니다.",
+    "text": "이번 턴에<br></br>내 영웅이 공격력을 +8 얻습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
@@ -66,14 +66,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "이번 턴에\n내 영웅이 공격력을 +8 얻습니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

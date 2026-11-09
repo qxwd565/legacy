@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_04bp2",
     "name": "은빛 성기사단",
-    "text": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다.",
+    "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "PALADIN",
@@ -56,20 +56,7 @@
     "nativeTextBuilder": 46,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "[x]<b>영웅 능력</b><br>1/1 은빛 성기사단<br>신병을 2명 소환합니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

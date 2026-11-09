@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_036",
     "name": "협공",
-    "text": "[x]<b>속공</b> 능력이 있는<br>1/1 일리다리를<br>셋 소환합니다.",
+    "text": "[x]<b>속공</b> 능력이 있는<br></br>1/1 일리다리를<br></br>셋 소환합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
@@ -76,14 +76,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "[x]<b>속공</b> 능력이 있는\n1/1 일리다리를\n셋 소환합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [

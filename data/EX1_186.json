@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_186",
     "name": "SI:7 침투요원",
-    "text": "<b>전투의 함성:</b><br>무작위 적 <b>비밀</b>을 없앱니다.",
+    "text": "<b>전투의 함성:</b><br></br>무작위 적 <b>비밀</b>을 없앱니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -91,14 +91,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2019-07-02",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>전투의 함성:</b>\n무작위 적 <b>비밀</b>을 없앱니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [],

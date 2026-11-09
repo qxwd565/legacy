@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_07bp2",
     "name": "영혼 전환",
-    "text": "<b>영웅 능력</b>\n카드를 뽑습니다.",
+    "text": "<b>영웅 능력</b><br></br>카드를 뽑습니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "WARLOCK",
@@ -56,20 +56,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>카드를 뽑습니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>영웅 능력</b>\n카드를 뽑습니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

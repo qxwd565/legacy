@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_192",
     "name": "광휘",
-    "text": "[x]내 영웅의 생명력을<br>#5 회복시킵니다.",
+    "text": "[x]내 영웅의 생명력을<br></br>#5 회복시킵니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "PRIEST",
@@ -76,7 +76,6 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "[x]내 영웅의 생명력을\n#5 회복시킵니다.",
           "spellSchool": "HOLY"
         }
       }

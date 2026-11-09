@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_07bp",
     "name": "생명력 전환",
-    "text": "<b>영웅 능력</b>\n피해를 $2 입는 대신 카드를 뽑습니다.",
+    "text": "<b>영웅 능력</b><br></br>피해를 $2 입는 대신 카드를 뽑습니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "WARLOCK",
@@ -81,20 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>피해를 $2 입는 대신 카드를 뽑습니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>영웅 능력</b>\n피해를 $2 입는 대신 카드를 뽑습니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

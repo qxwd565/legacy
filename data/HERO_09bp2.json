@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_09bp2",
     "name": "치유",
-    "text": "<b>영웅 능력</b>\n생명력을 #4 회복시킵니다.",
+    "text": "<b>영웅 능력</b><br></br>생명력을 #4 회복시킵니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "PRIEST",
@@ -56,20 +56,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>생명력을 #4 회복시킵니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>영웅 능력</b>\n생명력을 #4 회복시킵니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

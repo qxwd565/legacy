@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_01bp2",
     "name": "방어도 상승!",
-    "text": "<b>영웅 능력</b>\n방어도를 $d4 얻습니다.",
+    "text": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "WARRIOR",
@@ -60,13 +60,13 @@
       {
         "date": "2020-05-13",
         "changes": {
-          "text": "<b>영웅 능력</b><br>방어도를 +4 얻습니다."
+          "text": "<b>영웅 능력</b><br></br>방어도를 +4 얻습니다."
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>영웅 능력</b>\n방어도를 $d4 얻습니다."
+          "text": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다."
         }
       }
     ]

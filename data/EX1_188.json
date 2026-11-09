@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_188",
     "name": "불모의 땅 마구간지기",
-    "text": "<b>전투의 함성:</b><br>무작위 야수를 소환합니다.",
+    "text": "<b>전투의 함성:</b><br></br>무작위 야수를 소환합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -85,7 +85,6 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>전투의 함성:</b>\n무작위 야수를 소환합니다.",
           "attack": 5,
           "health": 5
         }

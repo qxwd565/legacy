@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_02bp",
     "name": "토템 소환",
-    "text": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다.",
+    "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "SHAMAN",
@@ -80,13 +80,13 @@
       {
         "date": "2020-05-13",
         "changes": {
-          "text": "<b>영웅 능력</b><br>무작위 토템을 소환합니다."
+          "text": "<b>영웅 능력</b><br></br>무작위 토템을 소환합니다."
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다."
+          "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다."
         }
       }
     ]

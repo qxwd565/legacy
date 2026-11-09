@@ -26,7 +26,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_189",
     "name": "빛나래",
-    "text": "[x]<b>전투의 함성:</b><br>무작위 <b>전설</b> 하수인을<br>내 손으로 가져옵니다.",
+    "text": "[x]<b>전투의 함성:</b><br></br>무작위 <b>전설</b> 하수인을<br></br>내 손으로 가져옵니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -96,12 +96,6 @@
     "releasedAt": "2019-07-02",
     "releaseStatus": "estimated",
     "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b>\n무작위 <b>전설</b> 하수인을\n내 손으로 가져옵니다."
-        }
-      },
       {
         "date": "2026-03-11",
         "changes": {

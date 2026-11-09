@@ -24,7 +24,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_191",
     "name": "역병인도자",
-    "text": "<b>전투의 함성:</b><br>아군 하수인에게<br><b>독성</b>을 부여합니다.",
+    "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>독성</b>을 부여합니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "ROGUE",
@@ -94,12 +94,6 @@
     "releasedAt": "2019-07-02",
     "releaseStatus": "estimated",
     "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>전투의 함성:</b>\n아군 하수인에게\n<b>독성</b>을 부여합니다."
-        }
-      },
       {
         "date": "2022-11-30",
         "changes": {

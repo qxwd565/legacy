@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_625t",
     "name": "정신의 쐐기",
-    "text": "<b>영웅 능력</b> <br> 피해를 2 줍니다.",
+    "text": "<b>영웅 능력</b> <br></br>피해를 2 줍니다.",
     "set": "EXPERT1",
     "type": "HERO_POWER",
     "cardClass": "PRIEST",
@@ -65,13 +65,13 @@
       {
         "date": "2014-05-09",
         "changes": {
-          "text": "<b>영웅 능력</b><br>피해를 2 줍니다."
+          "text": "<b>영웅 능력</b><br></br>피해를 2 줍니다."
         }
       },
       {
         "date": "2015-08-19",
         "changes": {
-          "text": "<b>영웅 능력</b><br>피해를 $2 줍니다."
+          "text": "<b>영웅 능력</b><br></br>피해를 $2 줍니다."
         }
       },
       {

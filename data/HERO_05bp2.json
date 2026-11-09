@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_05bp2",
     "name": "쇠뇌 사격",
-    "text": "<b>영웅 능력</b>\n적 영웅에게 피해를 $3 줍니다.",
+    "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "HUNTER",
@@ -60,13 +60,13 @@
       {
         "date": "2020-05-13",
         "changes": {
-          "text": "<b>영웅 능력</b><br>적 영웅에게 피해를 $3 줍니다.@<b>영웅 능력</b><br>피해를 $3 줍니다."
+          "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다.@<b>영웅 능력</b><br></br>피해를 $3 줍니다."
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>영웅 능력</b>\n적 영웅에게 피해를 $3 줍니다."
+          "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다."
         }
       }
     ]

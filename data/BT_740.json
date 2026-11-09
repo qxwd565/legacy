@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_740",
     "name": "영혼 베어내기",
-    "text": "<b>생명력 흡수</b><br>무작위 적 하수인 둘에게 피해를 $2 줍니다.",
+    "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
@@ -81,7 +81,6 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>생명력 흡수</b>\n무작위 적 하수인 둘에게 피해를 $2 줍니다.",
           "spellSchool": "SHADOW"
         }
       }

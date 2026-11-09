@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_10bp",
     "name": "악마의 발톱",
-    "text": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다.",
+    "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "DEMONHUNTER",
@@ -65,13 +65,13 @@
       {
         "date": "2020-05-13",
         "changes": {
-          "text": "<b>영웅 능력</b><br>이번 턴에 공격력을 +1 얻습니다."
+          "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +1 얻습니다."
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다."
+          "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다."
         }
       }
     ]

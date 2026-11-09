@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "HERO_03bp",
     "name": "단검의 대가",
-    "text": "<b>영웅 능력</b>\n1/2 단검을 장착합니다.",
+    "text": "<b>영웅 능력</b><br></br>1/2 단검을 장착합니다.",
     "set": "LEGACY",
     "type": "HERO_POWER",
     "cardClass": "ROGUE",
@@ -81,20 +81,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": [
-      {
-        "date": "2020-05-13",
-        "changes": {
-          "text": "<b>영웅 능력</b><br>1/2 단검을 장착합니다."
-        }
-      },
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "<b>영웅 능력</b>\n1/2 단검을 장착합니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": false,
   "relatedIds": [],

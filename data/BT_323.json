@@ -26,7 +26,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "BT_323",
     "name": "눈먼 감시자",
-    "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 <br>카드 3장을 봅니다.<br>1장을 선택하여 내 덱 <br>맨 위에 놓습니다.",
+    "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 <br></br>카드 3장을 봅니다.<br></br>1장을 선택하여 내 덱 <br></br>맨 위에 놓습니다.",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "DEMONHUNTER",
@@ -100,14 +100,7 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2020-04-08",
     "releaseStatus": "verified",
-    "patches": [
-      {
-        "date": "2021-03-26",
-        "changes": {
-          "text": "[x]<b>전투의 함성:</b> 내 덱에 있는 \n카드 3장을 봅니다.\n1장을 선택하여 내 덱 \n맨 위에 놓습니다."
-        }
-      }
-    ]
+    "patches": []
   },
   "root": true,
   "relatedIds": [],
