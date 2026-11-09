@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "description": "Cross-check all 2023 26.0 same-ID Legacy changes from the official Year of the Wolf adjustment list. Cards in other expansion repositories are explicitly excluded.",
+  "source": "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/6TFP77K62FEJ1679527943503.pdf",
+  "effectiveDateSource": "https://hearthstone.blizzard.com/en-us/news/23934449",
+  "effectiveDateKst": "2023-04-05",
+  "fields": [
+    {
+      "id": "EX1_158",
+      "changes": {
+        "cost": 3
+      }
+    },
+    {
+      "id": "EX1_165",
+      "changes": {
+        "cost": 6,
+        "attack": 4,
+        "health": 6,
+        "text": "Transforms into 7/6 Rush or 4/9 Taunt"
+      }
+    },
+    {
+      "id": "NEW1_008",
+      "changes": {
+        "attack": 7,
+        "health": 7,
+        "text": "Draw two or restore seven"
+      }
+    },
+    {
+      "id": "EX1_534",
+      "changes": {
+        "attack": 7
+      }
+    },
+    {
+      "id": "CS2_094",
+      "changes": {
+        "cost": 3
+      }
+    },
+    {
+      "id": "CS2_097",
+      "changes": {
+        "text": "Restore 3 Health"
+      }
+    },
+    {
+      "id": "CS2_093",
+      "changes": {
+        "cost": 3
+      }
+    },
+    {
+      "id": "CS3_014",
+      "changes": {
+        "text": "Overheal: Draw a card"
+      }
+    },
+    {
+      "id": "CS1_112",
+      "changes": {
+        "text": "Damages all enemies (reverted in 26.0.4)"
+      }
+    },
+    {
+      "id": "EX1_129",
+      "changes": {
+        "cost": 2
+      }
+    },
+    {
+      "id": "EX1_246",
+      "changes": {
+        "cost": 3
+      }
+    },
+    {
+      "id": "CS2_062",
+      "changes": {
+        "cost": 3
+      }
+    },
+    {
+      "id": "EX1_002",
+      "changes": {
+        "cost": 4,
+        "attack": 4,
+        "health": 4
+      }
+    }
+  ],
+  "result": "All relevant Legacy same-ID fields already dated correctly; added regression tests."
+}

@@ -227,6 +227,34 @@ def main():
     assert "TAUNT" in value_at("EX1_110", "mechanics", "2025-03-19")
     assert "피해를 2" in value_at("EX1_134", "text", "2025-03-18")
     assert "피해를 3" in value_at("EX1_134", "text", "2025-03-19")
+    # 26.0 Korean-local Legacy card adjustments (Core text changes on Apr 5,
+    # not the later Apr 12 Core list rotation).
+    for cid, field, before, after in (
+        ("EX1_158", "cost", 4, 3),
+        ("EX1_165", "cost", 5, 6),
+        ("EX1_165", "attack", 5, 4),
+        ("EX1_165", "health", 4, 6),
+        ("NEW1_008", "attack", 5, 7),
+        ("NEW1_008", "health", 5, 7),
+        ("EX1_534", "attack", 6, 7),
+        ("CS2_094", "cost", 4, 3),
+        ("CS2_093", "cost", 4, 3),
+        ("EX1_129", "cost", 3, 2),
+        ("EX1_246", "cost", 4, 3),
+        ("CS2_062", "cost", 4, 3),
+        ("EX1_002", "cost", 6, 4),
+        ("EX1_002", "health", 5, 4),
+    ):
+        assert value_at(cid, field, "2023-04-04") == before, (cid, field, "pre-26.0")
+        assert value_at(cid, field, "2023-04-05") == after, (cid, field, "26.0")
+    assert "생명력을" in value_at("CS2_097", "text", "2023-04-04")
+    assert "#2" in value_at("CS2_097", "text", "2023-04-04")
+    assert "#3" in value_at("CS2_097", "text", "2023-04-05")
+    assert "초과 치유" not in value_at("CS3_014", "text", "2023-04-04")
+    assert "초과 치유" in value_at("CS3_014", "text", "2023-04-05")
+    assert "모든 적 하수인" in value_at("CS1_112", "text", "2023-04-04")
+    assert "모든 적에게" in value_at("CS1_112", "text", "2023-04-05")
+    assert "모든 적 하수인" in value_at("CS1_112", "text", "2023-04-28")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
