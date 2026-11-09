@@ -3,11 +3,11 @@
   "id": "ds1_whelptoken",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": null,
-    "status": "pending"
+    "date": "2013-08-17",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Release is verified from native beta evidence; the remaining historical baseline remains partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 1,
@@ -2363,7 +2363,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2386,22 +2386,26 @@
     "id",
     "name",
     "race",
+    "races",
+    "rarity",
+    "text",
     "type"
   ],
-  "undated": {
-    "baseline": {
-      "id": "ds1_whelptoken",
-      "dbfId": null,
-      "name": "새끼용",
-      "type": "MINION",
-      "cardClass": "NEUTRAL",
-      "collectible": false,
-      "cost": 1,
-      "attack": 1,
-      "health": 1,
-      "race": "DRAGON"
-    },
-    "patches": [],
-    "reason": "No verified or previously adopted release date; no synthetic date key is created."
+  "nativeIdentityVerification": {
+    "cardId": "ds1_whelptoken",
+    "dbfId": 54,
+    "source": "Native CARD DBF record",
+    "ipaVersion": "37.0.255790",
+    "archiveId": "893764358",
+    "archiveSha256": "5196f322ce5423a0af64f13db0a000bfd167e4dee60eea0965eb1909e8441adc",
+    "cardIdField": "NoteMiniGuid",
+    "dbfIdField": "ID"
+  },
+  "releaseEvidence": {
+    "firstPlayableBetaKst": "2013-08-17",
+    "firstNativeVersion": "1.0.0.3664",
+    "betaSource": "Data/cards.unity3d",
+    "dateBasis": "North America closed beta start converted to Korea time",
+    "officialSource": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013"
   }
 }

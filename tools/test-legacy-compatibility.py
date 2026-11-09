@@ -7,7 +7,7 @@ import subprocess
 from datetime import date,timedelta
 from pathlib import Path
 from urllib.parse import urljoin
-from date_schema import load,put,json_equal,read_card,resolve
+from date_schema import load,put,json_equal,read_card,resolve,has_unverified_native_mapping
 from legacy_projection import PHP_FIELDS
 ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
@@ -41,7 +41,10 @@ def main(fixture=None):
     catalog_other=copy.deepcopy(catalog); original_other=copy.deepcopy(original)
     catalog_other['cards'] = [row for row in catalog_other['cards'] if row['id'] not in ADDED_TOKEN_IDS]
     for obj in (catalog_other,original_other):
-        for row in obj['cards']:row.pop('text',None)
+        for row in obj['cards']:
+            row.pop('text',None)
+            if row['id'] in ('skele21','ds1_whelptoken'):
+                row.pop('releasedAt',None); row.pop('releaseStatus',None)
     assert json_equal(catalog_other,original_other),'Non-text legacy catalogue drifted'
     assets=set(subprocess.check_output(['git','ls-tree','-r','--name-only',source,'--','art'],cwd=ROOT,text=True).splitlines())
     cases=[];comparisons=0;art_checks=0;corrections=[]
@@ -69,7 +72,7 @@ def main(fixture=None):
             before=old_resolve(current,original_history.get(dbf,{}).get('history',[]),day)
             timeline,meta_source=read_card(ROOT,cid)
             source_state=resolve(timeline,meta_source,day)
-            if source_state is not None and (not meta_source['release']['date'] or day>=meta_source['release']['date']) and not meta_source['originalSource'].get('apiAvailability','').startswith('standalone historical source;'):
+            if source_state is not None and (not meta_source['release']['date'] or day>=meta_source['release']['date']) and not has_unverified_native_mapping(meta_source):
                 assert actual.get('text','')==source_state.get('text',''),(cid,day,'legacy text mismatch')
             for field in PHP_FIELDS:
                 if field=='text':continue

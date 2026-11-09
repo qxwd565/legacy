@@ -4,7 +4,7 @@ Never write this projection back to canonical data or confidence sidecars.
 """
 from __future__ import annotations
 import copy
-from date_schema import SPECS, apply, json_equal, resolve
+from date_schema import SPECS, apply, json_equal, resolve, has_unverified_native_mapping
 
 LEGACY_FIELDS = ("name", "type", "cardClass", "classes", "rarity", "collectible",
                  "cost", "attack", "health", "durability", "armor", "text",
@@ -49,7 +49,7 @@ def project_legacy(state, meta):
 
 def compile_legacy(timeline, meta, precise_record):
     record = copy.deepcopy(meta['currentCatalog'])
-    unmapped = meta['originalSource'].get('apiAvailability','').startswith('standalone historical source;')
+    unmapped = has_unverified_native_mapping(meta)
     if unmapped:
         # This catalogue row still has no proven relationship to the native
         # historical token. Keep its approved import behavior, never link it.
@@ -82,7 +82,8 @@ def compile_legacy(timeline, meta, precise_record):
         # sentinel. No __remove operation reaches an old parser.
         if changes:
             revision={'before':event['date'],'changes':changes}
-            if start:revision['from']=start
+            if start and not (meta.get('legacyUnboundedFirstBaseline') and start == next(iter(timeline), None)):
+                revision['from']=start
             revisions.append(revision)
         state=apply(state,event['changes'])
         start=event['date']

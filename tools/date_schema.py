@@ -41,6 +41,19 @@ SIDECAR_FIELDS = set(CURRENT_ONLY) | {
 BREAK = re.compile(r'<br\s*/?>\s*(?:</br>)?|\\r\\n|\\n|\\r|\r\n?|\n|/n', re.I)
 
 
+def has_unverified_native_mapping(metadata):
+    """Retain unmapped sources until their exact CARD identity is evidenced."""
+    original = metadata.get("originalSource", {})
+    if not original.get("apiAvailability", "").startswith("standalone historical source;"):
+        return False
+    proof = metadata.get("nativeIdentityVerification") or {}
+    current = metadata.get("currentCatalog") or {}
+    return not (proof.get("cardId") == metadata.get("id") == current.get("id")
+                and type(proof.get("dbfId")) is int and proof["dbfId"] == current.get("dbfId")
+                and proof.get("source") == "Native CARD DBF record"
+                and bool(re.fullmatch(r"[0-9a-f]{64}", proof.get("archiveSha256", ""))))
+
+
 def load(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 

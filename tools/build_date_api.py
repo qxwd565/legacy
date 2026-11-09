@@ -5,7 +5,7 @@ import json
 from collections import Counter
 from pathlib import Path
 from date_schema import (SPECS, CURRENT_ONLY, load, put, read_card, resolve,
-                         project, apply, delta, validate_timeline)
+                         project, apply, delta, validate_timeline, has_unverified_native_mapping)
 from legacy_projection import compile_legacy, RENDER_FIELDS, loss_report
 
 
@@ -54,7 +54,7 @@ def build(root):
         # Current snapshot metadata is not a historically dated card state.
         record = copy.deepcopy(meta["currentCatalog"] or old)
         state = resolve(timeline,meta)
-        unmapped = meta["originalSource"].get("apiAvailability","").startswith("standalone historical source;")
+        unmapped = has_unverified_native_mapping(meta)
         if unmapped:
             # Preserve approved numeric catalogue row, but NEVER attach the
             # standalone native source to its unverified numeric mapping.

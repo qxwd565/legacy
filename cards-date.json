@@ -41278,22 +41278,22 @@
       ],
       "watermark": "Set1_Icon",
       "releasedAt": "2013-08-17",
-      "releaseStatus": "estimated",
-      "id": "ds1_whelptoken",
+      "releaseStatus": "verified",
       "dbfId": 54,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "races": [
+        "DRAGON"
+      ],
+      "id": "ds1_whelptoken",
       "name": "새끼용",
+      "text": "",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": false,
-      "cost": 1,
-      "text": "",
-      "attack": 1,
-      "health": 1,
       "race": "용족",
-      "races": [
-        "DRAGON"
-      ]
+      "collectible": false
     },
     {
       "art": "art/hexfrog.png",
@@ -41402,8 +41402,8 @@
         }
       ],
       "watermark": "Set1_Icon",
-      "releasedAt": null,
-      "releaseStatus": "pending",
+      "releasedAt": "2013-08-17",
+      "releaseStatus": "verified",
       "dbfId": 471,
       "cost": 1,
       "health": 1,

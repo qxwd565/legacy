@@ -1,1 +1,21 @@
-{}
+{
+  "2013-08-17": {
+    "dbfId": 471,
+    "cost": 1,
+    "health": 1,
+    "attack": 2,
+    "id": "skele21",
+    "name": "손상된 골렘",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false
+  },
+  "2014-12-05": {
+    "races": [
+      "MECHANICAL"
+    ],
+    "race": "기계"
+  }
+}

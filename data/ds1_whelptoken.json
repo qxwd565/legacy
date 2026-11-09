@@ -1,1 +1,19 @@
-{}
+{
+  "2013-08-17": {
+    "dbfId": 54,
+    "cost": 1,
+    "health": 1,
+    "attack": 1,
+    "races": [
+      "DRAGON"
+    ],
+    "id": "ds1_whelptoken",
+    "name": "새끼용",
+    "text": "",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "race": "용족",
+    "collectible": false
+  }
+}

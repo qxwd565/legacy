@@ -3,11 +3,11 @@
   "id": "skele21",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": null,
-    "status": "pending"
+    "date": "2013-08-17",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Release is verified from native beta evidence; the remaining historical baseline remains partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -203,8 +203,8 @@
       }
     ],
     "watermark": "Set1_Icon",
-    "releasedAt": null,
-    "releaseStatus": "pending"
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -232,31 +232,12 @@
     "text",
     "type"
   ],
-  "undated": {
-    "baseline": {
-      "dbfId": 471,
-      "cost": 1,
-      "health": 1,
-      "attack": 2,
-      "id": "skele21",
-      "name": "손상된 골렘",
-      "text": "",
-      "type": "MINION",
-      "cardClass": "NEUTRAL",
-      "rarity": "FREE",
-      "collectible": false
-    },
-    "patches": [
-      {
-        "date": "2014-12-05",
-        "changes": {
-          "races": [
-            "MECHANICAL"
-          ],
-          "race": "기계"
-        }
-      }
-    ],
-    "reason": "No verified or previously adopted release date; no synthetic date key is created."
-  }
+  "releaseEvidence": {
+    "firstPlayableBetaKst": "2013-08-17",
+    "firstNativeVersion": "1.0.0.3664",
+    "betaSource": "Data/cards.unity3d",
+    "dateBasis": "North America closed beta start converted to Korea time",
+    "officialSource": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013"
+  },
+  "legacyUnboundedFirstBaseline": true
 }

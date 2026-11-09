@@ -9,7 +9,7 @@ from collections import Counter
 from datetime import date, timedelta
 from pathlib import Path
 from date_schema import (SPECS, REMOVE, apply, delta, fold, load, project,
-                         read_card, resolve, validate_timeline, UncertainHistory)
+                         read_card, resolve, validate_timeline, UncertainHistory, has_unverified_native_mapping)
 ROOT=Path(__file__).resolve().parents[1]
 
 
@@ -22,6 +22,11 @@ def require_source_commit(root, commit):
 
 def independent_expected(meta, day):
     raw=copy.deepcopy(meta['originalSource']['card'])
+    if meta.get('nativeIdentityVerification'):
+        assert not has_unverified_native_mapping(meta)
+        approved=meta['currentCatalog']
+        for field in ('dbfId','rarity','race','races','text'):
+            if field in approved: raw[field]=copy.deepcopy(approved[field])
     for event in raw.get('patches',[]):
         if day is None or event['date'] <= day:
             raw.update(copy.deepcopy(event['changes']))
@@ -150,7 +155,7 @@ def main():
             days.add((date.fromisoformat(d)-timedelta(days=1)).isoformat())
             days.add((date.fromisoformat(d)+timedelta(days=1)).isoformat())
         days.add('2026-11-09')
-        unmapped=original.get('apiAvailability','').startswith('standalone historical source;')
+        unmapped=has_unverified_native_mapping(meta)
         for day in sorted(days):
             actual=resolve(timeline,meta,day)
             if meta['release']['status']=='verified' and day<meta['release']['date']:
@@ -188,7 +193,7 @@ def main():
         for change in timeline.values():
             if 'text' in change:
                 assert '\n' not in change['text'] and '\\n' not in change['text'] and '/n' not in change['text']
-    assert statuses=={'estimated':533,'verified':80,'pending':2}
+    assert statuses=={'estimated':533,'verified':82}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
@@ -197,10 +202,14 @@ def main():
         assert token_meta['originalSource']['historicalTokenSources']['parents'] == [parent_id]
         assert token[release_day]['text'] == token_meta['originalSource']['card']['text']
         assert resolve(token, token_meta, (date.fromisoformat(release_day)-timedelta(days=1)).isoformat()) is None
-    assert load(ROOT/'data/skele21.json')=={}
-    assert load(ROOT/'data/ds1_whelptoken.json')=={}
-    assert load(ROOT/'metadata/ds1_whelptoken.json')['undated']['baseline']['dbfId'] is None
+    for token_id in ('skele21','ds1_whelptoken'):
+        token, token_meta=read_card(ROOT,token_id)
+        assert next(iter(token)) == '2013-08-17' and token['2013-08-17']['text'] == ''
+        assert token_meta['release'] == {'date':'2013-08-17','status':'verified'}
     assert current['ds1_whelptoken']['dbfId']==54
+    proof=load(ROOT/'metadata/ds1_whelptoken.json')['nativeIdentityVerification']
+    assert proof['cardId']=='ds1_whelptoken' and proof['dbfId']==54 and proof['ipaVersion']=='37.0.255790'
+    assert proof['archiveSha256']=='5196f322ce5423a0af64f13db0a000bfd167e4dee60eea0965eb1909e8441adc'
     jar,meta=read_card(ROOT,'EX1_323')
     assert resolve(jar,meta,'2021-03-25')['attack']==3
     assert resolve(jar,meta,'2021-03-26')['armor']==5
@@ -212,8 +221,8 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':615,'currentCards':615,'datedSources':613,
-            'undatedSources':['skele21','ds1_whelptoken'],'sourceReleaseStatus':dict(statuses),
+    report={'result':'pass','sourceCards':615,'currentCards':615,'datedSources':615,
+            'undatedSources':[],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],
             'strict':'opt-in; all incompletely verified baselines refused, no confidence promotion',
