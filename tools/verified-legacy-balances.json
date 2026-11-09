@@ -5,7 +5,7 @@
   "description": "Verified numeric balance patches absent from Legacy forward chronology. Existing recorded changes are never overwritten; apply in addition to prior patches. Dates denote Korea calendar days.",
   "sources": {
     "2013-10-03": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.3890",
-    "2013-12-11": "https://hearthstone.blizzard.com/en-us/news/11868609/hearthstone-closed-beta-patch-notes-1-0-0-4217-become-a-legend",
+    "2013-12-12": "https://hearthstone.blizzard.com/ko-kr/news/11868609",
     "2013-12-19": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.4243",
     "2014-01-17": "https://hearthstone.blizzard.com/en-gb/news/12346803/hearthstone-closed-beta-patch-notes-1004458",
     "2014-03-12": "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.4944",
@@ -141,7 +141,7 @@
       },
       "patches": [
         {
-          "date": "2013-12-11",
+          "date": "2013-12-12",
           "changes": {
             "health": 1
           }
@@ -170,7 +170,7 @@
       },
       "patches": [
         {
-          "date": "2013-12-11",
+          "date": "2013-12-12",
           "changes": {
             "health": 2
           }
@@ -183,7 +183,7 @@
       },
       "patches": [
         {
-          "date": "2013-12-11",
+          "date": "2013-12-12",
           "changes": {
             "health": 2
           }
@@ -628,7 +628,7 @@
       },
       "patches": [
         {
-          "date": "2013-12-11",
+          "date": "2013-12-12",
           "changes": {
             "cost": 10
           }

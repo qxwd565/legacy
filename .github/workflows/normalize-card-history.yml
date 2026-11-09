@@ -6,6 +6,7 @@ on:
       - 'tools/build-api.py'
       - 'tools/migrate-chronology.py'
       - 'tools/normalize-release-chronology.py'
+      - 'tools/normalize-verified-patch-dates.py'
       - 'tools/import-archived-stats.py'
       - 'tools/archived-build-dates.json'
       - 'tools/legacy-balance-candidates.json'
@@ -27,6 +28,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Convert legacy cards to release baselines and dated changes
         run: python3 tools/migrate-chronology.py
+      - name: Correct independently verified Korean patch dates
+        run: python3 tools/normalize-verified-patch-dates.py
       - name: Normalize corrected first playable dates
         run: python3 tools/normalize-release-chronology.py
       - name: Apply independently verified Legacy balance history

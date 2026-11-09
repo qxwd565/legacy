@@ -23,14 +23,15 @@
     "https://hearthstone.blizzard.com/en-us/news/23037180",
     "https://hearthstone.blizzard.com/en-us/news/23097372",
     "https://news.blizzard.com/ko-kr/article/23418923/17-2-5-13",
-    "https://news.blizzard.com/ko-kr/article/23509390/18-2"
+    "https://news.blizzard.com/ko-kr/article/23509390/18-2",
+    "https://hearthstone.blizzard.com/ko-kr/news/11868609"
   ],
   "patchDates": {
     "1.0.0.3664": "2013-08-17",
     "1.0.0.3749": "2013-09-01",
     "1.0.0.3890": "2013-10-03",
     "1.0.0.3937": "2013-10-18",
-    "1.0.0.4217": "2013-12-11",
+    "1.0.0.4217": "2013-12-12",
     "1.0.0.4243": "2013-12-19",
     "1.0.0.4458": "2014-01-17",
     "1.0.0.4482": "2014-01-18",
@@ -78,12 +79,44 @@
     "18.2.57893": "2020-09-09"
   },
   "uncertainIntervals": {
-    "EX1_613": [{"from": "2013-08-30", "before": "2013-09-01", "fields": ["text"]}],
-    "EX1_577": [{"from": "2013-08-30", "before": "2013-09-01", "fields": ["name"]}]
+    "EX1_613": [
+      {
+        "from": "2013-08-30",
+        "before": "2013-09-01",
+        "fields": [
+          "text"
+        ]
+      }
+    ],
+    "EX1_577": [
+      {
+        "from": "2013-08-30",
+        "before": "2013-09-01",
+        "fields": [
+          "name"
+        ]
+      }
+    ]
   },
   "displayOverrides": {
-    "EX1_308": [{"from": "2013-08-17", "before": "2014-07-23", "changes": {"text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."}}],
-    "EX1_400": [{"from": "2013-08-17", "before": "2014-07-23", "changes": {"text": "<b>모든</b> 하수인에게 피해를 $1 줍니다."}}]
+    "EX1_308": [
+      {
+        "from": "2013-08-17",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다."
+        }
+      }
+    ],
+    "EX1_400": [
+      {
+        "from": "2013-08-17",
+        "before": "2014-07-23",
+        "changes": {
+          "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다."
+        }
+      }
+    ]
   },
   "overrideReason": "Preserve the user's already-approved Soulfire and Whirlwind descriptions. Unmodified client strings, including the erroneous 4458 descriptions, remain in historicalTextObservations. The 3749 Korea cutover remains unresolved within August 30-31; September 1 is only the safe end of that uncertainty window."
 }

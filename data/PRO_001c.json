@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001c",
     "name": "호드의 힘",
-    "text": "무작위 호드_전사를 소환합니다.",
+    "text": "무작위 호드 전사 하나를 소환합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
@@ -54,15 +54,9 @@
     ],
     "nativeRawText": "무작위 호드_전사를 소환합니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": null,
-    "releaseStatus": "pending",
+    "releasedAt": "2013-12-12",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2013-12-11",
-        "changes": {
-          "text": "무작위 호드 전사 하나를 소환합니다."
-        }
-      },
       {
         "date": "2014-07-23",
         "changes": {

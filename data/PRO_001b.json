@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001b",
     "name": "도적은 뒤를 치지...",
-    "text": "[x]피해를 $4 줍니다.<br></br>카드를 뽑습니다.",
+    "text": "피해를 $4 줍니다. 카드를 1장 뽑습니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
@@ -54,15 +54,9 @@
     ],
     "nativeRawText": "[x]피해를 $4 줍니다.\n카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": null,
-    "releaseStatus": "pending",
+    "releasedAt": "2013-12-12",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2013-12-11",
-        "changes": {
-          "text": "피해를 $4 줍니다. 카드를 1장 뽑습니다."
-        }
-      },
       {
         "date": "2014-07-23",
         "changes": {

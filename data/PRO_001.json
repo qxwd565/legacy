@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001",
     "name": "정예 타우렌 족장",
-    "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 손으로 가져오고 로큰롤에 흠뻑 취합니다!",
+    "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!",
     "set": "LEGACY",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -84,21 +84,9 @@
     ],
     "nativeRawText": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 손으로 가져오고 로큰롤에 흠뻑 취합니다!",
     "nativeTextBuilder": 0,
-    "releasedAt": null,
-    "releaseStatus": "pending",
+    "releasedAt": "2013-12-12",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2013-10-03",
-        "changes": {
-          "text": "디버그 텍스트"
-        }
-      },
-      {
-        "date": "2013-12-11",
-        "changes": {
-          "text": "<b>전투의 함성:</b> 두 플레이어 모두 파워 코드 카드를 1장 뽑고 <b>로큰롤</b>에 흠뻑 취합니다!"
-        }
-      },
       {
         "date": "2014-07-23",
         "changes": {

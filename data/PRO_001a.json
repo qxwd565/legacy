@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "PRO_001a",
     "name": "나는야 멀록",
-    "text": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다.",
+    "text": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "NEUTRAL",
@@ -54,15 +54,9 @@
     ],
     "nativeRawText": "1/1 멀록을 3마리, 4마리, 또는 5마리 소환합니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": null,
-    "releaseStatus": "pending",
+    "releasedAt": "2013-12-12",
+    "releaseStatus": "verified",
     "patches": [
-      {
-        "date": "2013-12-11",
-        "changes": {
-          "text": "3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다."
-        }
-      },
       {
         "date": "2014-07-23",
         "changes": {

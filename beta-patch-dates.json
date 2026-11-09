@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Hearthstone beta, North American server timestamps converted to Asia/Seoul; not Korean server deployment dates",
+  "scope": "Hearthstone beta calendar dates in Asia/Seoul. Patch 4217 is verified against Korean-server deployment; other entries retain their individually stated North American or baseline evidence and must not be assumed to be Korean deployment dates.",
   "timezone": "Asia/Seoul",
   "dateGranularity": "calendar day; actual rollout can be later within the day",
   "events": [
@@ -42,12 +42,15 @@
     },
     {
       "build": "1.0.0.4217",
-      "effectiveDate": "2013-12-11",
-      "basis": "NA servers back online December 10 12:45 EST, converted to Korea time.",
-      "reportedAtKst": "2013-12-11T02:45:00+09:00",
+      "effectiveDate": "2013-12-12",
+      "basis": "Korean official patch notice dated December 12 says the patch has been applied. Contemporary December 11 Korean reporting explicitly describes the North American rollout and distinguishes the still-pending Korean update.",
       "sources": [
-        "https://www.hearthpwn.com/news/225-hearthstone-beta-patch-4217-blizzcon-reward-card"
-      ]
+        "https://www.hearthpwn.com/news/225-hearthstone-beta-patch-4217-blizzcon-reward-card",
+        "https://hearthstone.blizzard.com/ko-kr/news/11868609",
+        "https://www.gamemeca.com/view.php?gid=462101",
+        "https://m.slrclub.com/v/cf_slrstone/83"
+      ],
+      "northAmericaReportedAtKst": "2013-12-11T02:45:00+09:00"
     },
     {
       "build": "1.0.0.4243",

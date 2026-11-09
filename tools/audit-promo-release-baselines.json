@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "ETC first playable Korean release, Bob event availability and Recruit a Minion balance change. Correct known 4217 regional date mismatch without treating earlier beta entries as fully verified Korean-server dates.",
+  "releases": {
+    "2013-12-12": [
+      "PRO_001",
+      "PRO_001a",
+      "PRO_001at",
+      "PRO_001b",
+      "PRO_001c"
+    ],
+    "2024-12-11": [
+      "BG31_BOB",
+      "BG31_BOBt",
+      "BG31_BOBt2",
+      "BG31_BOBt3",
+      "BG31_BOBt4"
+    ]
+  },
+  "balance": {
+    "BG31_BOBt2": {
+      "date": "2025-03-19",
+      "before": "Take an enemy minion into your hand; opponent gets three Coins.",
+      "after": "Copy an enemy minion into your hand; opponent gets three Coins."
+    }
+  },
+  "sources": [
+    "https://hearthstone.blizzard.com/ko-kr/news/11868609",
+    "https://www.gamemeca.com/view.php?gid=462101",
+    "https://m.slrclub.com/v/cf_slrstone/83",
+    "https://hearthstone.blizzard.com/ko-kr/news/24163459",
+    "https://github.com/HearthSim/hsdata/commit/f33c13329522d75a76313cd8def4b03058d81c78",
+    "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0-patch-notes"
+  ],
+  "notes": [
+    "The 31.2 archive matches Bob and four options current numeric stats; Recruit a Minion has its original take-not-copy Korean text.",
+    "ETC prerelease debug descriptions are absorbed into the first actual released state, while raw historical observations are preserved.",
+    "Bob event reward availability is December 11; client preload on December 4 is not used as an obtainable release date."
+  ]
+}
