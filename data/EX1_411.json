@@ -6,13 +6,13 @@
     "durability": 1,
     "id": "EX1_411",
     "name": "피의 울음소리",
-    "text": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다.",
     "type": "WEAPON",
     "cardClass": "WARRIOR",
     "rarity": "EPIC",
-    "collectible": true
+    "collectible": true,
+    "text": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다."
   },
-  "2013-12-12": {
+  "2013-12-11": {
     "text": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다."
   }
 }

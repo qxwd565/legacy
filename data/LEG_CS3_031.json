@@ -9,11 +9,14 @@
     ],
     "id": "LEG_CS3_031",
     "name": "생명의 어머니 알렉스트라자",
-    "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "rarity": "LEGENDARY",
     "race": "용족",
-    "collectible": true
+    "collectible": true,
+    "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다."
+  },
+  "2026-03-11": {
+    "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다."
   }
 }

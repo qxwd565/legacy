@@ -4,16 +4,13 @@
     "cost": 2,
     "id": "HERO_06bp2",
     "name": "흉포한 변신",
-    "text": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다.",
     "type": "HERO_POWER",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "collectible": false
-  },
-  "2020-05-13": {
+    "collectible": false,
     "text": "<b>영웅 능력</b><br></br>방어도를 +2 얻고, 이번 턴에 공격력을 +2 얻습니다."
   },
-  "2021-03-26": {
+  "2023-09-20": {
     "text": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다."
   }
 }

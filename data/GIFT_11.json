@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_11",
     "name": "굴단의 선물",
-    "text": "<b>일시적</b>인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "WARLOCK",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다."
   }
 }

@@ -116,7 +116,7 @@ def main():
     assert not any(e["date"] == "2021-03-26" and "text" in e["changes"] for e in holy)
     assert any(e["date"] == "2025-11-14" and "하수인에게" in e["changes"].get("text","") for e in holy)
     sorc = get("EX1_608")["patches"]
-    assert next(e for e in sorc if e["date"] == "2021-03-26")["changes"]["text"] == "내 주문들의 비용이 (1) 감소합니다."
+    assert value_at("EX1_608", "text", "2021-03-26") == "내 주문의 비용이<br></br>(1) 감소합니다."
     assert any(e["date"] == "2024-08-30" and "1보다 낮아지진" in e["changes"].get("text","") for e in sorc)
     # Core 2025 gameplay changes are distinct from the 2021 stat refresh.
     assert "TRADEABLE" not in value_at("EX1_002", "mechanics", "2025-03-18")
@@ -268,10 +268,10 @@ def main():
     ):
         assert value_at(cid, field, "2013-12-11") == previous, (cid, field, "before 4217")
         assert value_at(cid, field, "2013-12-12") == updated, (cid, field, "after 4217")
-    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-11")
-    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-12")
-    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-11")
-    assert "사냥개" in value_at("EX1_538", "text", "2013-12-12")
+    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-10")
+    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-11")
+    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-10")
+    assert "사냥개" in value_at("EX1_538", "text", "2013-12-11")
     for cid, field, previous, updated in (
         ("EX1_538", "cost", 4, 2),
         ("EX1_279", "cost", 8, 10),

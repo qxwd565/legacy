@@ -4,16 +4,16 @@
     "cost": 3,
     "id": "EX1_155b",
     "name": "자연의 징표",
-    "text": "생명력 +4와 <b>도발</b>을 부여합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "collectible": false
+    "collectible": false,
+    "text": "생명력 +4와 <b>도발</b>을 부여합니다."
   },
   "2019-04-05": {
     "name": "두터운 가죽"
   },
-  "2021-03-26": {
+  "2021-11-03": {
     "text": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다."
   }
 }

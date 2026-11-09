@@ -200,11 +200,11 @@
       "cost": 0,
       "id": "EX1_607",
       "name": "내면의 분노",
-      "text": "하수인에게 피해를 $1 주고 공격력을 +2 증가시킵니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인에게 피해를 $1 주고 공격력을 +2 증가시킵니다."
     },
     {
       "art": "art/EX1_320.png",
@@ -261,11 +261,11 @@
       "cost": 5,
       "id": "EX1_320",
       "name": "운명의 파멸",
-      "text": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "EPIC",
       "collectible": true,
+      "text": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -587,11 +587,11 @@
       ],
       "id": "EX1_573",
       "name": "세나리우스",
-      "text": "<b>선택 -</b> 내 다른 하수인들에게 +2/+2를 부여합니다.<br></br>또는 <b>도발</b> 능력이 있는<br></br>2/2 나무정령을<br></br>둘 소환합니다.",
       "type": "MINION",
       "cardClass": "DRUID",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>선택 -</b> 내 다른 하수인들에게 +2/+2를 부여합니다.<br></br>또는 <b>도발</b> 능력이 있는<br></br>2/2 나무정령을<br></br>둘 소환합니다."
     },
     {
       "art": "art/EX1_076.png",
@@ -1089,11 +1089,11 @@
       ],
       "id": "CS2_151",
       "name": "은빛 성기사단 기사",
-      "text": "<b>전투의 함성:</b><br></br>2/2 종자를 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>2/2 종자를 소환합니다."
     },
     {
       "art": "art/EX1_407.png",
@@ -1150,11 +1150,11 @@
       "cost": 5,
       "id": "EX1_407",
       "name": "난투",
-      "text": "무작위 하수인 하나를 제외한 <b>모든</b> 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "무작위 하수인 하나를 제외한 <b>모든</b> 하수인을 처치합니다."
     },
     {
       "art": "art/NEW1_007.png",
@@ -1209,11 +1209,11 @@
       ],
       "id": "NEW1_007",
       "name": "별똥별",
-      "text": "<b>선택 -</b> 하수인에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "RARE",
       "collectible": true,
+      "text": "<b>선택 -</b> 하수인에게 피해를 $5 줍니다. 또는 모든 적 하수인에게 피해를 $2 줍니다.",
       "spellSchool": "ARCANE"
     },
     {
@@ -1650,11 +1650,11 @@
       ],
       "id": "NEW1_021",
       "name": "파멸의 예언자",
-      "text": "내 턴이 시작될 때, 모든 하수인을 처치합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "내 턴이 시작될 때,& 모든 하수인을 처치합니다."
     },
     {
       "art": "art/EX1_136.png",
@@ -1784,11 +1784,11 @@
       "cost": 4,
       "id": "EX1_345",
       "name": "심리 조작",
-      "text": "상대편의 덱에서 무작위 하수인을 복사하여 소환합니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "EPIC",
       "collectible": true,
+      "text": "상대편의 덱에서 무작위 하수인을 복사하여 소환합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -1859,11 +1859,11 @@
       ],
       "id": "EX1_303",
       "name": "암흑불길",
-      "text": "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "RARE",
       "collectible": true,
+      "text": "아군 하수인을 처치하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -1929,11 +1929,11 @@
       ],
       "id": "EX1_155",
       "name": "자연의 징표",
-      "text": "<b>선택 -</b> 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "<b>선택 -</b> 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -2086,11 +2086,11 @@
       ],
       "id": "CS2_031",
       "name": "얼음창",
-      "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "캐릭터를 <b>빙결</b> 상태로 만듭니다.<br></br>이미 <b>빙결</b> 상태라면, 피해를 $4 줍니다.",
       "spellSchool": "FROST"
     },
     {
@@ -2240,11 +2240,11 @@
       ],
       "id": "EX1_057",
       "name": "고대의 양조사",
-      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인을 내 손으로<br></br>다시 가져옵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인을 내 손으로<br></br>다시 가져옵니다."
     },
     {
       "art": "art/EX1_295.png",
@@ -2484,11 +2484,11 @@
       ],
       "id": "EX1_131",
       "name": "데피아즈단 두목",
-      "text": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다.",
       "type": "MINION",
       "cardClass": "ROGUE",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>연계</b>:& 2/1 데피아즈단 무법자를 소환합니다."
     },
     {
       "art": "art/EX1_554t.png",
@@ -2617,11 +2617,11 @@
       "attack": 8,
       "id": "EX1_586",
       "name": "바다 거인",
-      "text": "전장의 다른 하수인 하나당 비용이 (1)씩 감소합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "전장의 다른 하수인 하나당 비용이 (1)씩 감소합니다."
     },
     {
       "art": "art/DREAM_05.png",
@@ -2651,11 +2651,11 @@
       "cost": 0,
       "id": "DREAM_05",
       "name": "악몽",
-      "text": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다.",
       "type": "SPELL",
       "cardClass": "DREAM",
       "rarity": "FREE",
       "collectible": false,
+      "text": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -2713,11 +2713,11 @@
       "cost": 3,
       "id": "EX1_334",
       "name": "암흑의 광기",
-      "text": "[x]공격력이 3 이하인<br></br>적 하수인을 이번<br></br>턴에만 조종합니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "RARE",
       "collectible": true,
+      "text": "[x]공격력이 3 이하인<br></br>적 하수인을 이번<br></br>턴에만 조종합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -2845,11 +2845,11 @@
       "cost": 1,
       "id": "EX1_161",
       "name": "자연화",
-      "text": "[x]하수인을 처치합니다.<br></br>상대편이 카드를<br></br>2장 뽑습니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "[x]하수인을 처치합니다.<br></br>상대편이 카드를<br></br>2장 뽑습니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -2997,11 +2997,11 @@
       ],
       "id": "EX1_248",
       "name": "야수 정령",
-      "text": "<b>도발</b> 능력이 있는<br></br>2/3 늑대 정령을<br></br>둘 소환합니다.<br></br><b>과부하:</b> (1)",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "RARE",
       "collectible": true,
+      "text": "<b>도발</b> 능력이 있는<br></br>2/3 늑대 정령을<br></br>둘 소환합니다.<br></br><b>과부하:</b> (1)",
       "spellSchool": "NATURE"
     },
     {
@@ -3074,11 +3074,11 @@
       ],
       "id": "CS2_188",
       "name": "가혹한 하사관",
-      "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다."
     },
     {
       "art": "art/EX1_096.png",
@@ -3219,11 +3219,11 @@
       ],
       "id": "CS2_073",
       "name": "냉혈",
-      "text": "[x]하수인에게 공격력을<br></br>+2 부여합니다.<br></br><b>연계:</b> 대신 공격력을<br></br>+4 부여합니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]하수인에게 공격력을<br></br>+2 부여합니다.<br></br><b>연계:</b> 대신 공격력을<br></br>+4 부여합니다."
     },
     {
       "art": "art/EX1_091.png",
@@ -3295,11 +3295,11 @@
       ],
       "id": "EX1_091",
       "name": "비밀결사단 어둠사제",
-      "text": "<b>전투의 함성:</b><br></br>공격력이 2 이하인<br></br>적 하수인을 가져옵니다.",
       "type": "MINION",
       "cardClass": "PRIEST",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>공격력이 2 이하인<br></br>적 하수인을 가져옵니다."
     },
     {
       "art": "art/EX1_067.png",
@@ -3509,11 +3509,11 @@
       ],
       "id": "EX1_603",
       "name": "잔인한 감독관",
-      "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다.",
       "type": "MINION",
       "cardClass": "WARRIOR",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
     },
     {
       "art": "art/EX1_594.png",
@@ -3650,11 +3650,11 @@
       ],
       "id": "NEW1_005",
       "name": "납치범",
-      "text": "<b>연계:</b> 하수인을 주인의 손으로 돌려보냅니다.",
       "type": "MINION",
       "cardClass": "ROGUE",
       "rarity": "EPIC",
       "collectible": true,
+      "text": "<b>연계:</b> 하수인을 주인의 손으로 돌려보냅니다.",
       "races": [
         "UNDEAD"
       ],
@@ -3743,12 +3743,12 @@
       ],
       "id": "CS2_203",
       "name": "무쇠부리 올빼미",
-      "text": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
       "race": "BEAST",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의_함성:</b> 하수인을 <b>침묵</b>시킵니다."
     },
     {
       "art": "art/EX1_251.png",
@@ -3813,11 +3813,11 @@
       ],
       "id": "EX1_251",
       "name": "갈래 번개",
-      "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)",
       "spellSchool": "NATURE"
     },
     {
@@ -3853,11 +3853,11 @@
       "cost": 2,
       "id": "DREAM_02",
       "name": "깨어난 이세라",
-      "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
       "type": "SPELL",
       "cardClass": "DREAM",
       "rarity": "FREE",
       "collectible": false,
+      "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -3935,11 +3935,11 @@
       ],
       "id": "EX1_613",
       "name": "에드윈 밴클리프",
-      "text": "[x]<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드 1장당<br></br>+2/+2를 얻습니다.",
       "type": "MINION",
       "cardClass": "ROGUE",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>연계:</b> 이번 턴에<br></br>앞서 낸 카드 1장당<br></br>+2/+2를 얻습니다."
     },
     {
       "art": "art/DS1_188.png",
@@ -4215,11 +4215,11 @@
       ],
       "id": "EX1_249",
       "name": "남작 게돈",
-      "text": "내 턴이 끝날 때,<br></br>다른 <b>모든</b> 캐릭터에게 피해를 2 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "collectible": true,
+      "text": "내 턴이 끝날 때,<br></br>다른 <b>모든</b> 캐릭터에게 피해를 2 줍니다.",
       "races": [
         "ELEMENTAL"
       ],
@@ -4441,11 +4441,11 @@
       ],
       "id": "EX1_046",
       "name": "검은무쇠 드워프",
-      "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 이번 턴에<br></br>하수인에게 공격력을<br></br>+2 부여합니다."
     },
     {
       "art": "art/NEW1_037.png",
@@ -4745,11 +4745,11 @@
       "cost": 0,
       "id": "EX1_144",
       "name": "그림자 밟기",
-      "text": "아군 하수인을 내 손으로 다시 가져옵니다. 그 하수인의 비용이<br></br>(2) 감소합니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "아군 하수인을 내 손으로 다시 가져옵니다. 그 하수인의 비용이<br></br>(2) 감소합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -4818,11 +4818,11 @@
       ],
       "id": "tt_010",
       "name": "주문왜곡사",
-      "text": "[x]<b>비밀:</b> 적이 하수인에게<br></br>주문을 시전하면, 그 효과를<br></br>대신 받는 1/3 하수인을<br></br>소환합니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>비밀:</b> 적이 하수인에게<br></br>주문을 시전하면, 그 효과를<br></br>대신 받는 1/3 하수인을<br></br>소환합니다."
     },
     {
       "art": "art/EX1_298.png",
@@ -4915,12 +4915,12 @@
       ],
       "id": "EX1_298",
       "name": "불의 군주 라그나로스",
-      "text": "공격할 수 없습니다.<br></br>내 턴이 끝날 때,<br></br>무작위 적에게<br></br>피해를 8 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "collectible": true,
       "legacyArt": false,
+      "text": "공격할 수 없습니다.<br></br>내 턴이 끝날 때,<br></br>무작위 적에게<br></br>피해를 8 줍니다.",
       "races": [
         "ELEMENTAL"
       ],
@@ -4976,11 +4976,11 @@
       "cost": 1,
       "id": "CS1_129",
       "name": "내면의 열정",
-      "text": "[x]하수인의 공격력을<br></br>생명력과 같은 수치로<br></br>바꿉니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]하수인의 공격력을<br></br>생명력과 같은 수치로<br></br>바꿉니다."
     },
     {
       "art": "art/NEW1_026t.png",
@@ -5096,11 +5096,11 @@
       "cost": 3,
       "id": "EX1_158",
       "name": "숲의 영혼",
-      "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령을 소환함\" 능력을 부여합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "내 하수인들에게 \"<b>죽음의 메아리:</b> 2/2 나무정령을 소환함\" 능력을 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -5245,11 +5245,11 @@
       "cost": 5,
       "id": "EX1_537",
       "name": "폭발 사격",
-      "text": "하수인에게 피해를 $5 주고<br></br>그 양옆의 하수인들에게 피해를 $2 줍니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "RARE",
       "collectible": true,
+      "text": "하수인에게 피해를 $5 주고<br></br>그 양옆의 하수인들에게 피해를 $2 줍니다.",
       "spellSchool": "FIRE"
     },
     {
@@ -5392,11 +5392,11 @@
       "cost": 2,
       "id": "EX1_392",
       "name": "전투 격노",
-      "text": "피해를 받은 아군 캐릭터의 수만큼 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "피해를 받은 아군 캐릭터의 수만큼 카드를 뽑습니다."
     },
     {
       "art": "art/CS2_038.png",
@@ -5453,11 +5453,11 @@
       "cost": 2,
       "id": "CS2_038",
       "name": "고대의 영혼",
-      "text": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인에게 \"<b>죽음의 메아리:</b> 이 하수인을 다시 소환함\" 능력을 부여합니다."
     },
     {
       "art": "art/NEW1_012.png",
@@ -5677,11 +5677,11 @@
       ],
       "id": "EX1_049",
       "name": "젊은 양조사",
-      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인을 내 손으로<br></br>다시 가져옵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인을 내 손으로<br></br>다시 가져옵니다."
     },
     {
       "art": "art/EX1_110.png",
@@ -5777,11 +5777,11 @@
       ],
       "id": "EX1_110",
       "name": "케른 블러드후프",
-      "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>도발</b>, <b>죽음의 메아리</b>:& 5/5 바인 블러드후프를 소환합니다."
     },
     {
       "art": "art/EX1_583.png",
@@ -5922,11 +5922,11 @@
       ],
       "id": "EX1_275",
       "name": "냉기 돌풍",
-      "text": "선택한 하수인과<br></br>그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "선택한 하수인과<br></br>그 양옆의 하수인들을 <b>빙결</b> 상태로 만들고 피해를 $1 줍니다.",
       "spellSchool": "FROST"
     },
     {
@@ -5992,11 +5992,11 @@
       ],
       "id": "EX1_365",
       "name": "신의 격노",
-      "text": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "RARE",
       "collectible": true,
+      "text": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -6248,12 +6248,12 @@
       ],
       "id": "NEW1_017",
       "name": "굶주린 게",
-      "text": "<b>전투의_함성:</b> 멀록을 처치하고 +2/+2를 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
       "race": "BEAST",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의_함성:</b> 멀록을 처치하고 +2/+2를 얻습니다."
     },
     {
       "art": "art/EX1_103.png",
@@ -6328,12 +6328,12 @@
       ],
       "id": "EX1_103",
       "name": "시린빛 예언자",
-      "text": "[x]<b>전투의 함성:</b> 내 다른<br></br>멀록들에게 생명력을<br></br>+2 부여합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "race": "MURLOC",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 내 다른<br></br>멀록들에게 생명력을<br></br>+2 부여합니다."
     },
     {
       "art": "art/EX1_554.png",
@@ -6396,11 +6396,11 @@
       ],
       "id": "EX1_554",
       "name": "뱀 덫",
-      "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>비밀:</b> 내 하수인이 공격받으면, 1/1 뱀을 3마리 소환합니다."
     },
     {
       "art": "art/NEW1_024.png",
@@ -6605,11 +6605,11 @@
       ],
       "id": "NEW1_040t",
       "name": "놀",
-      "text": "<b>도발</b>",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>도발</b>"
     },
     {
       "art": "art/EX1_132.png",
@@ -6952,12 +6952,12 @@
       ],
       "id": "EX1_509",
       "name": "멀록 파도술사",
-      "text": "내가 멀록을 소환할 때마다 공격력을<br></br>+1 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "race": "MURLOC",
-      "collectible": true
+      "collectible": true,
+      "text": "내가 멀록을 소환할 때마다 공격력을<br></br>+1 얻습니다."
     },
     {
       "art": "art/EX1_578.png",
@@ -7012,11 +7012,11 @@
       ],
       "id": "EX1_578",
       "name": "야생성",
-      "text": "하수인에게<br></br>내 영웅의 공격력만큼 피해를 줍니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인에게<br></br>내 영웅의 공격력만큼 피해를 줍니다."
     },
     {
       "art": "art/EX1_131t.png",
@@ -7188,11 +7188,11 @@
       "cost": 5,
       "id": "EX1_571",
       "name": "자연의 군대",
-      "text": "2/2 나무정령을 셋 소환합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "EPIC",
       "collectible": true,
+      "text": "2/2 나무정령을 셋 소환합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -7251,11 +7251,11 @@
       ],
       "id": "EX1_160",
       "name": "야생의 힘",
-      "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>선택 -</b> 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
     },
     {
       "art": "art/EX1_238.png",
@@ -7477,11 +7477,11 @@
       ],
       "id": "EX1_283",
       "name": "냉기 정령",
-      "text": "<b>전투의 함성:</b><br></br>캐릭터를 <b>빙결</b><br></br>상태로 만듭니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>캐릭터를 <b>빙결</b><br></br>상태로 만듭니다.",
       "races": [
         "ELEMENTAL"
       ],
@@ -7721,11 +7721,11 @@
       ],
       "id": "EX1_611",
       "name": "빙결의 덫",
-      "text": "<b>비밀:</b> 적 하수인이 공격하면, 그 하수인을 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "<b>비밀:</b> 적 하수인이 공격하면, 그 하수인을 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다.",
       "spellSchool": "FROST"
     },
     {
@@ -7793,11 +7793,11 @@
       ],
       "id": "NEW1_038",
       "name": "그룰",
-      "text": "각 턴이 끝날 때, +1/+1을 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "각 턴이 끝날 때, +1/+1을 얻습니다."
     },
     {
       "art": "art/EX1_564.png",
@@ -8022,11 +8022,11 @@
       ],
       "id": "EX1_410",
       "name": "방패 밀쳐내기",
-      "text": "내 방어도만큼 하수인에게 피해를 줍니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "내 방어도만큼 하수인에게 피해를 줍니다."
     },
     {
       "art": "art/EX1_614.png",
@@ -8119,13 +8119,13 @@
       ],
       "id": "EX1_614",
       "name": "자비우스",
-      "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "race": "DEMON",
       "collectible": true,
-      "legacyArt": false
+      "legacyArt": false,
+      "text": "내가 카드를 낸 후에, 2/1 사티로스를 소환합니다."
     },
     {
       "art": "art/EX1_116.png",
@@ -8221,11 +8221,11 @@
       ],
       "id": "EX1_116",
       "name": "리로이 젠킨스",
-      "text": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리<br></br>소환해 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>돌진</b>, <b>전투의 함성:</b> 상대편에게 1/1 새끼용을 2마리<br></br>소환해 줍니다."
     },
     {
       "art": "art/EX1_033.png",
@@ -8383,11 +8383,11 @@
       ],
       "id": "EX1_083",
       "name": "수석땜장이 오버스파크",
-      "text": "[x]<b>전투의 함성:</b> 다른 무작위<br></br>하수인을 5/5 데빌사우루스<br></br>또는 1/1 다람쥐로<br></br>변신시킵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 다른 무작위<br></br>하수인을 5/5 데빌사우루스<br></br>또는 1/1 다람쥐로<br></br>변신시킵니다."
     },
     {
       "art": "art/EX1_570.png",
@@ -8597,11 +8597,11 @@
       ],
       "id": "EX1_130",
       "name": "고귀한 희생",
-      "text": "[x]<b>비밀:</b> 적이 공격할 때,<br></br>대신 맞아주는 2/1<br></br>수호자를 소환합니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>비밀:</b> 적이 공격할 때,<br></br>대신 맞아주는 2/1<br></br>수호자를 소환합니다."
     },
     {
       "art": "art/EX1_610.png",
@@ -8800,11 +8800,11 @@
       ],
       "id": "EX1_402",
       "name": "방어구 제작자",
-      "text": "아군 하수인이 피해를 받을 때마다 방어도를 +1 얻습니다.",
       "type": "MINION",
       "cardClass": "WARRIOR",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "아군 하수인이 피해를 받을 때마다 방어도를 +1 얻습니다."
     },
     {
       "art": "art/EX1_158t.png",
@@ -8937,11 +8937,11 @@
       ],
       "id": "EX1_166",
       "name": "숲의 수호자",
-      "text": "<b>선택 -</b> 피해를 2 줍니다. 또는 하수인을 <b>침묵</b>시킵니다.",
       "type": "MINION",
       "cardClass": "DRUID",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>선택 -</b> 피해를 2 줍니다. 또는 하수인을 <b>침묵</b>시킵니다."
     },
     {
       "art": "art/CS1_069.png",
@@ -9089,11 +9089,11 @@
       ],
       "id": "EX1_045",
       "name": "고대의 감시자",
-      "text": "공격할 수 없습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "공격할 수 없습니다."
     },
     {
       "art": "art/NEW1_023.png",
@@ -9235,11 +9235,11 @@
       ],
       "id": "EX1_608",
       "name": "마술사의 수습생",
-      "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>",
       "type": "MINION",
       "cardClass": "MAGE",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "내 주문들의 비용이 (1) 감소합니다. <i>(단, 1보다 낮아지진 않습니다.)</i>"
     },
     {
       "art": "art/EX1_243.png",
@@ -9571,12 +9571,12 @@
       ],
       "id": "EX1_310",
       "name": "파멸수호병",
-      "text": "<b>돌진</b>, <b>전투의 함성</b>: 무작위로 카드를 2장 버립니다.",
       "type": "MINION",
       "cardClass": "WARLOCK",
       "rarity": "RARE",
       "race": "DEMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>돌진</b>, <b>전투의 함성</b>:& 무작위로 카드를 2장 버립니다."
     },
     {
       "art": "art/NEW1_040.png",
@@ -9656,11 +9656,11 @@
       ],
       "id": "NEW1_040",
       "name": "들창코",
-      "text": "내 턴이 끝날 때,<br></br><b>도발</b> 능력이 있는 2/2 놀을 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "내 턴이 끝날 때,<br></br><b>도발</b> 능력이 있는 2/2 놀을 소환합니다."
     },
     {
       "art": "art/CS2_169.png",
@@ -10693,11 +10693,11 @@
       ],
       "id": "EX1_085",
       "name": "정신 지배 기술자",
-      "text": "[x]<b>전투의 함성:</b> 상대편에게<br></br>하수인이 넷 이상 있으면,<br></br>적 하수인을 가져옵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 상대편에게<br></br>하수인이 넷 이상 있으면,<br></br>적 하수인을 가져옵니다."
     },
     {
       "art": "art/EX1_612.png",
@@ -10774,11 +10774,11 @@
       ],
       "id": "EX1_612",
       "name": "키린 토 마법사",
-      "text": "<b>전투의 함성:</b> 이번 턴에 내는 내 다음 <b>비밀</b>의 비용이 (0)이 됩니다.",
       "type": "MINION",
       "cardClass": "MAGE",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 이번 턴에 내는 내 다음 <b>비밀</b>의 비용이 (0)이 됩니다."
     },
     {
       "art": "art/EX1_012.png",
@@ -10956,11 +10956,11 @@
       ],
       "id": "EX1_048",
       "name": "주문파괴자",
-      "text": "<b>전투의 함성:</b><br></br>하수인을 <b>침묵</b>시킵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>하수인을 <b>침묵</b>시킵니다."
     },
     {
       "art": "art/EX1_590.png",
@@ -11032,11 +11032,11 @@
       ],
       "id": "EX1_590",
       "name": "혈기사",
-      "text": "[x]<b>전투의 함성:</b> <b>모든</b><br></br>하수인의 <b>천상의 보호막</b>을<br></br>흡수하여 보호막 하나당<br></br>+3/+3을 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> <b>모든</b><br></br>하수인의 <b>천상의 보호막</b>을<br></br>흡수하여 보호막 하나당<br></br>+3/+3을 얻습니다."
     },
     {
       "art": "art/EX1_619.png",
@@ -11578,11 +11578,11 @@
       ],
       "id": "EX1_245",
       "name": "대지 충격",
-      "text": "[x]하수인을 <b>침묵</b>시키고<br></br>피해를 $1 줍니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "[x]하수인을 <b>침묵</b>시키고<br></br>피해를 $1 줍니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -11665,11 +11665,11 @@
       ],
       "id": "EX1_258",
       "name": "속박 풀린 정령",
-      "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
       "type": "MINION",
       "cardClass": "SHAMAN",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
       "races": [
         "ELEMENTAL"
       ],
@@ -11763,11 +11763,11 @@
       ],
       "id": "EX1_323",
       "name": "군주 자락서스",
-      "text": "<b>전투의 함성</b>:<br></br>3/8 피의 격노를 장착합니다.",
       "type": "HERO",
       "cardClass": "WARLOCK",
       "rarity": "LEGENDARY",
       "collectible": true,
+      "text": "<b>전투의 함성</b>:&<br></br>3/8 피의 격노를 장착합니다.",
       "heroPowerDbfId": 1178,
       "armor": 5
     },
@@ -11851,11 +11851,11 @@
       ],
       "id": "EX1_556",
       "name": "허수아비골렘",
-      "text": "[x]<b>죽음의 메아리:</b><br></br>2/1 손상된 골렘을<br></br>소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "[x]<b>죽음의 메아리:</b><br></br>2/1 손상된 골렘을<br></br>소환합니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -12168,11 +12168,11 @@
       ],
       "id": "EX1_341",
       "name": "빛샘",
-      "text": "내 턴이 시작될 때,<br></br>피해를 받은 아군 캐릭터의 생명력을<br></br>#3 회복시킵니다.",
       "type": "MINION",
       "cardClass": "PRIEST",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "내 턴이 시작될 때,<br></br>피해를 받은 아군 캐릭터의 생명력을<br></br>#3 회복시킵니다."
     },
     {
       "art": "art/EX1_059.png",
@@ -12249,11 +12249,11 @@
       ],
       "id": "EX1_059",
       "name": "광기의 연금술사",
-      "text": "<b>전투의 함성:</b><br></br>하수인의 공격력과<br></br>생명력을 바꿉니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>하수인의 공격력과<br></br>생명력을 바꿉니다.",
       "races": [
         "UNDEAD"
       ],
@@ -12343,11 +12343,11 @@
       "cost": 0,
       "id": "DREAM_04",
       "name": "꿈",
-      "text": "하수인을 주인의 손으로 돌려보냅니다.",
       "type": "SPELL",
       "cardClass": "DREAM",
       "rarity": "FREE",
       "collectible": false,
+      "text": "하수인을 주인의 손으로 돌려보냅니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -12412,11 +12412,11 @@
       "durability": 1,
       "id": "EX1_411",
       "name": "피의 울음소리",
-      "text": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다.",
       "type": "WEAPON",
       "cardClass": "WARRIOR",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "이 무기는 하수인을 공격할 때 내구도 대신 공격력이 1 감소합니다."
     },
     {
       "art": "art/EX1_595.png",
@@ -12493,11 +12493,11 @@
       ],
       "id": "EX1_595",
       "name": "이교도 지도자",
-      "text": "아군 하수인이 죽은 후에, 카드를 뽑습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "아군 하수인이 죽은 후에, 카드를 뽑습니다.",
       "races": [
         "UNDEAD"
       ],
@@ -12931,11 +12931,11 @@
       ],
       "id": "EX1_154",
       "name": "천벌",
-      "text": "<b>선택 -</b> 하수인에게 피해를 $3 줍니다.<br></br>또는 피해를 $1 주고 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "<b>선택 -</b> 하수인에게 피해를 $3 줍니다.<br></br>또는 피해를 $1 주고 카드를 뽑습니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -12998,11 +12998,11 @@
       "cost": 1,
       "id": "EX1_316",
       "name": "압도적인 힘",
-      "text": "아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.",
       "spellSchool": "SHADOW"
     },
     {
@@ -13206,11 +13206,11 @@
       "cost": 3,
       "id": "EX1_317",
       "name": "악마 감지",
-      "text": "내 덱에서 악마를 둘 뽑습니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "내 덱에서 악마를 둘 뽑습니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -13575,11 +13575,11 @@
       ],
       "id": "NEW1_014",
       "name": "위장의 대가",
-      "text": "<b>전투의 함성:</b> 내 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다.",
       "type": "MINION",
       "cardClass": "ROGUE",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 내 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다."
     },
     {
       "art": "art/EX1_383.png",
@@ -13686,11 +13686,11 @@
       ],
       "id": "EX1_383",
       "name": "티리온 폴드링",
-      "text": "<b>천상의 보호막</b>, <b>도발</b><br></br><b>죽음의 메아리</b>:<br></br>5/3 파멸의 인도자를 장착합니다.",
       "type": "MINION",
       "cardClass": "PALADIN",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>천상의 보호막</b>, <b>도발</b><br></br><b>죽음의 메아리</b>:&<br></br>5/3 파멸의 인도자를 장착합니다."
     },
     {
       "art": "art/EX1_058.png",
@@ -13889,11 +13889,11 @@
       "cost": 1,
       "id": "EX1_549",
       "name": "야수의 격노",
-      "text": "이번 턴에 아군 야수에게 공격력 +2와 <b>면역</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "이번 턴에 아군 야수에게 공격력 +2와 <b>면역</b>을 부여합니다."
     },
     {
       "art": "art/EX1_124.png",
@@ -14363,11 +14363,11 @@
       ],
       "id": "EX1_597",
       "name": "임프 소환사",
-      "text": "내 턴이 끝날 때, 피해를 1 받고 1/1 임프를 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "내 턴이 끝날 때, 피해를 1 받고 1/1 임프를 소환합니다."
     },
     {
       "art": "art/EX1_095.png",
@@ -14439,11 +14439,11 @@
       ],
       "id": "EX1_095",
       "name": "가젯잔 경매인",
-      "text": "내가 주문을 시전할 때마다 카드를 뽑습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "내가 주문을 시전할 때마다 카드를 뽑습니다."
     },
     {
       "art": "art/EX1_247.png",
@@ -14786,11 +14786,11 @@
       ],
       "id": "EX1_102",
       "name": "파괴전차",
-      "text": "[x]내 턴이 시작될 때,<br></br>무작위 적에게<br></br>피해를 2 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
+      "text": "[x]내 턴이 시작될 때,<br></br>무작위 적에게<br></br>피해를 2 줍니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -15418,11 +15418,11 @@
       ],
       "id": "NEW1_020",
       "name": "광기의 화염술사",
-      "text": "내가 주문을 시전한 후에, 모든 하수인에게 피해를 1 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
+      "text": "내가 주문을 시전한 후에,& 모든 하수인에게 피해를 1 줍니다.",
       "races": [
         "UNDEAD"
       ],
@@ -15588,11 +15588,11 @@
       ],
       "id": "EX1_362",
       "name": "여명회 파수병",
-      "text": "<b>전투의 함성:</b><br></br>아군 하수인에게 <b>천상의_보호막</b>을 부여합니다.",
       "type": "MINION",
       "cardClass": "PALADIN",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>아군 하수인에게 <b>천상의_보호막</b>을 부여합니다."
     },
     {
       "art": "art/NEW1_036.png",
@@ -15708,11 +15708,11 @@
       ],
       "id": "NEW1_026",
       "name": "보랏빛 여교사",
-      "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "내가 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
     },
     {
       "art": "art/EX1_178.png",
@@ -15784,11 +15784,11 @@
       ],
       "id": "EX1_178",
       "name": "전쟁의 고대정령",
-      "text": "<b>선택 -</b> 공격력 +5 또는 생명력 +5와 <b>도발</b>을 얻습니다.",
       "type": "MINION",
       "cardClass": "DRUID",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>선택 -</b> 공격력 +5 또는 생명력 +5와 <b>도발</b>을 얻습니다."
     },
     {
       "art": "art/EX1_043.png",
@@ -16084,11 +16084,11 @@
       ],
       "id": "NEW1_019",
       "name": "단검 곡예사",
-      "text": "[x]내 하수인이 소환된<br></br>후에, 무작위 적에게<br></br>피해를 1 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]내 하수인이 소환된<br></br>후에, 무작위 적에게<br></br>피해를 1 줍니다."
     },
     {
       "art": "art/EX1_391.png",
@@ -16140,11 +16140,11 @@
       "cost": 1,
       "id": "EX1_391",
       "name": "격돌",
-      "text": "하수인에게 피해를 $2 줍니다.<br></br>그 하수인이 생존하면, 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인에게 피해를 $2 줍니다.<br></br>그 하수인이 생존하면, 카드를 뽑습니다."
     },
     {
       "art": "art/EX1_559.png",
@@ -16236,11 +16236,11 @@
       ],
       "id": "EX1_559",
       "name": "대마법사 안토니다스",
-      "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다.",
       "type": "MINION",
       "cardClass": "MAGE",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "내가 주문을 시전할 때마다& '화염구' 주문을 내 손으로 가져옵니다."
     },
     {
       "art": "art/tt_010a.png",
@@ -16458,12 +16458,12 @@
       ],
       "id": "EX1_319",
       "name": "화염 임프",
-      "text": "<b>전투의 함성</b>: 내 영웅에게 피해를 3 줍니다.",
       "type": "MINION",
       "cardClass": "WARLOCK",
       "rarity": "COMMON",
       "race": "DEMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성</b>:& 내 영웅에게 피해를 3 줍니다."
     },
     {
       "art": "art/EX1_533.png",
@@ -16518,11 +16518,11 @@
       ],
       "id": "EX1_533",
       "name": "눈속임",
-      "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터를 공격하게 됩니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>비밀:</b> 내 영웅을 공격하는 적이 다른 무작위 캐릭터를 공격하게 됩니다."
     },
     {
       "art": "art/EX1_617.png",
@@ -16574,12 +16574,12 @@
       "cost": 3,
       "id": "EX1_617",
       "name": "치명적인 사격",
-      "text": "무작위 적 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "COMMON",
       "collectible": true,
-      "legacyArt": false
+      "legacyArt": false,
+      "text": "무작위 적 하수인을 처치합니다."
     },
     {
       "art": "art/EX1_170.png",
@@ -16731,11 +16731,11 @@
       "cost": 4,
       "id": "EX1_309",
       "name": "영혼 착취",
-      "text": "[x]하수인을 처치합니다.<br></br>내 영웅이 생명력을<br></br>#3 회복합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "RARE",
       "collectible": true,
+      "text": "[x]하수인을 처치합니다.<br></br>내 영웅이 생명력을<br></br>#3 회복합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -16793,11 +16793,11 @@
       "cost": 2,
       "id": "CS2_104",
       "name": "광란",
-      "text": "피해를 받은 하수인에게 +3/+3을 부여합니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "피해를 받은 하수인에게 +3/+3을 부여합니다."
     },
     {
       "art": "art/CS2_181.png",
@@ -17189,11 +17189,11 @@
       ],
       "id": "EX1_100",
       "name": "전승지기 초",
-      "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문을 다른 플레이어의 손에 추가합니다."
     },
     {
       "art": "art/EX1_250.png",
@@ -17341,11 +17341,11 @@
       "cost": 2,
       "id": "EX1_596",
       "name": "악마의 불꽃",
-      "text": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면, +2/+2를 부여합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면, +2/+2를 부여합니다.",
       "spellSchool": "FEL"
     },
     {
@@ -17791,11 +17791,11 @@
       ],
       "id": "EX1_382",
       "name": "알도르 평화감시단",
-      "text": "<b>전투의 함성:</b><br></br>적 하수인의 공격력을 1로 바꿉니다.",
       "type": "MINION",
       "cardClass": "PALADIN",
       "rarity": "RARE",
       "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>적 하수인의 공격력을 1로 바꿉니다.",
       "races": [
         "DRAENEI"
       ],
@@ -17909,11 +17909,11 @@
       "cost": 2,
       "id": "EX1_tk33",
       "name": "지옥불!",
-      "text": "6/6 지옥불악마를 소환합니다.",
       "type": "HERO_POWER",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "6/6 지옥불악마를 소환합니다."
     },
     {
       "art": "art/EX1_572.png",
@@ -18010,12 +18010,12 @@
       ],
       "id": "EX1_572",
       "name": "이세라",
-      "text": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "race": "DRAGON",
-      "collectible": true
+      "collectible": true,
+      "text": "내 턴이 끝날 때, 무작위 <b>꿈 카드</b>를 둘 얻습니다."
     },
     {
       "art": "art/EX1_332.png",
@@ -18080,11 +18080,11 @@
       ],
       "id": "EX1_332",
       "name": "침묵",
-      "text": "하수인을 <b>침묵</b>시킵니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "하수인을 <b>침묵</b>시킵니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -18285,11 +18285,11 @@
       "cost": 3,
       "id": "EX1_538",
       "name": "개들을 풀어라",
-      "text": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "적 하수인 하나당 <b>돌진</b> 능력이 있는 1/1 사냥개를 1마리씩 소환합니다."
     },
     {
       "art": "art/EX1_534.png",
@@ -18447,12 +18447,12 @@
       ],
       "id": "EX1_531",
       "name": "청소부 하이에나",
-      "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다.",
       "type": "MINION",
       "cardClass": "HUNTER",
       "rarity": "COMMON",
       "race": "BEAST",
-      "collectible": true
+      "collectible": true,
+      "text": "아군 야수가 죽을 때마다 +2/+1을 얻습니다."
     },
     {
       "art": "art/EX1_621.png",
@@ -18561,11 +18561,11 @@
       ],
       "id": "EX1_623",
       "name": "사원 집행자",
-      "text": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 생명력을<br></br>+3 부여합니다.",
       "type": "MINION",
       "cardClass": "PRIEST",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 아군<br></br>하수인에게 생명력을<br></br>+3 부여합니다."
     },
     {
       "art": "art/EX1_624.png",
@@ -18733,11 +18733,11 @@
       "cost": 2,
       "id": "EX1_625",
       "name": "어둠의 형상",
-      "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "EPIC",
       "collectible": true,
+      "text": "내 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -18808,12 +18808,12 @@
       ],
       "id": "NEW1_041",
       "name": "날뛰는 코도",
-      "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "race": "BEAST",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의_함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다."
     },
     {
       "art": "art/EX1_620.png",
@@ -18927,11 +18927,11 @@
       "cost": 1,
       "id": "EX1_363",
       "name": "지혜의 축복",
-      "text": "[x]하수인을 선택합니다.<br></br>그 하수인이 공격할<br></br>때마다 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "[x]하수인을 선택합니다.<br></br>그 하수인이 공격할<br></br>때마다 카드를 뽑습니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -18979,11 +18979,11 @@
       "cost": 5,
       "id": "EX1_355",
       "name": "축복받은 용사",
-      "text": "하수인의 공격력을 2배 증가시킵니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "RARE",
       "collectible": true,
+      "text": "하수인의 공격력을 2배 증가시킵니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -19019,11 +19019,11 @@
       "cost": 2,
       "id": "EX1_625t",
       "name": "정신의 쐐기",
-      "text": "피해를 $2 줍니다.",
       "type": "HERO_POWER",
       "cardClass": "PRIEST",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "피해를 $2 줍니다."
     },
     {
       "art": "art/EX1_625t2.png",
@@ -19052,11 +19052,11 @@
       "cost": 2,
       "id": "EX1_625t2",
       "name": "정신 붕괴",
-      "text": "피해를 $3 줍니다.",
       "type": "HERO_POWER",
       "cardClass": "PRIEST",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "피해를 $3 줍니다."
     },
     {
       "art": "art/EX1_534t.png",
@@ -19321,11 +19321,11 @@
       ],
       "id": "EX1_001",
       "name": "빛의 감시자",
-      "text": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
+      "text": "캐릭터가 치유될 때마다 공격력을 +2 얻습니다.",
       "races": [
         "DRAENEI"
       ],
@@ -19422,11 +19422,11 @@
       ],
       "id": "EX1_002",
       "name": "흑기사",
-      "text": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "collectible": true,
+      "text": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
       "races": [
         "UNDEAD"
       ],
@@ -19503,11 +19503,11 @@
       ],
       "id": "EX1_005",
       "name": "나 이런 사냥꾼이야",
-      "text": "[x]<b>교환성</b>, <b>전투의 함성:</b><br></br>공격력이 7 이상인<br></br>하수인을 처치합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>교환성</b>, <b>전투의 함성:</b><br></br>공격력이 7 이상인<br></br>하수인을 처치합니다."
     },
     {
       "art": "art/EX1_006.png",
@@ -19569,11 +19569,11 @@
       ],
       "id": "EX1_006",
       "name": "노움 자동경보기",
-      "text": "내 턴이 시작될 때,<br></br>이 하수인이 내 손에 있는 무작위 하수인과 교체됩니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
+      "text": "내 턴이 시작될 때,<br></br>이 하수인이 내 손에 있는 무작위 하수인과 교체됩니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -19644,11 +19644,11 @@
       ],
       "id": "EX1_007",
       "name": "고통의 수행사제",
-      "text": "이 하수인이 피해를 받을 때마다 카드를 뽑습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "이 하수인이 피해를 받을 때마다& 카드를 뽑습니다."
     },
     {
       "art": "art/EX1_323w.png",
@@ -20149,11 +20149,11 @@
       "cost": 1,
       "id": "EX1_014t",
       "name": "바나나",
-      "text": "하수인에게 +1/+1을 부여합니다.",
       "type": "SPELL",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "하수인에게 +1/+1을 부여합니다."
     },
     {
       "art": "art/EX1_398t.png",
@@ -20265,12 +20265,12 @@
       ],
       "id": "EX1_538t",
       "name": "사냥개",
-      "text": "<b>돌진</b>",
       "type": "MINION",
       "cardClass": "HUNTER",
       "rarity": "FREE",
       "race": "BEAST",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>돌진</b>"
     },
     {
       "art": "art/EX1_345t.png",
@@ -20378,11 +20378,11 @@
       ],
       "id": "EX1_016",
       "name": "실바나스 윈드러너",
-      "text": "<b>죽음의 메아리:</b><br></br>무작위 적 하수인을 가져옵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "collectible": true,
+      "text": "<b>죽음의 메아리:</b><br></br>무작위 적 하수인을 가져옵니다.",
       "races": [
         "UNDEAD"
       ],
@@ -21554,11 +21554,11 @@
       "cost": 3,
       "id": "BT_740",
       "name": "영혼 베어내기",
-      "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다.",
       "type": "SPELL",
       "cardClass": "DEMONHUNTER",
       "rarity": "FREE",
       "collectible": true,
+      "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -21722,12 +21722,12 @@
       ],
       "id": "CORE_EDR_004",
       "name": "랩터 전령",
-      "text": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의_선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
       "race": "야수",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의_선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다."
     },
     {
       "art": "art/CS1_042.png",
@@ -21860,11 +21860,11 @@
       "cost": 3,
       "id": "CS1_112",
       "name": "신성한 폭발",
-      "text": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "FREE",
       "collectible": true,
+      "text": "모든 적 하수인에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -21926,11 +21926,11 @@
       "cost": 9,
       "id": "CS1_113",
       "name": "정신 지배",
-      "text": "적 하수인을 가져옵니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "FREE",
       "collectible": true,
+      "text": "적 하수인을 가져옵니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -22120,11 +22120,11 @@
       "cost": 1,
       "id": "CS2_004",
       "name": "신의 권능: 보호막",
-      "text": "[x]하수인에게 생명력을<br></br>+2 부여합니다.<br></br>카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]하수인에게 생명력을<br></br>+2 부여합니다.<br></br>카드를 뽑습니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -22358,12 +22358,12 @@
       "cost": 2,
       "id": "CS2_009",
       "name": "야생의 징표",
-      "text": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "collectible": true,
       "legacyArt": false,
+      "text": "하수인에게 <b>도발</b>과 +2/+3을 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -22475,11 +22475,11 @@
       "cost": 3,
       "id": "CS2_012",
       "name": "휘둘러치기",
-      "text": "[x]적에게 피해를 $4 주고<br></br>다른 모든 적에게<br></br>피해를 $1 줍니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]적에게 피해를 $4 주고<br></br>다른 모든 적에게<br></br>피해를 $1 줍니다."
     },
     {
       "art": "art/CS2_013.png",
@@ -22533,11 +22533,11 @@
       "cost": 2,
       "id": "CS2_013",
       "name": "급속 성장",
-      "text": "빈 마나 수정을 얻습니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "collectible": true,
+      "text": "빈 마나 수정을 얻습니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -22632,11 +22632,11 @@
       "cost": 4,
       "id": "CS2_022",
       "name": "변이",
-      "text": "하수인을 1/1 양으로 변신시킵니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인을 1/1 양으로 변신시킵니다.",
       "spellSchool": "ARCANE"
     },
     {
@@ -22769,11 +22769,11 @@
       "cost": 2,
       "id": "CS2_024",
       "name": "얼음 화살",
-      "text": "[x]캐릭터에게<br></br>피해를 $3 주고<br></br><b>빙결</b> 상태로 만듭니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]캐릭터에게<br></br>피해를 $3 주고<br></br><b>빙결</b> 상태로 만듭니다.",
       "spellSchool": "FROST"
     },
     {
@@ -22977,11 +22977,11 @@
       "cost": 1,
       "id": "CS2_027",
       "name": "환영 복제",
-      "text": "[x]0/2 <b>도발</b> 하수인을<br></br>둘 소환합니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]0/2 <b>도발</b> 하수인을<br></br>둘 소환합니다."
     },
     {
       "art": "art/CS2_029.png",
@@ -23260,11 +23260,11 @@
       "cost": 1,
       "id": "CS2_037",
       "name": "냉기 충격",
-      "text": "[x]적 캐릭터에게<br></br>피해를 $1 주고<br></br><b>빙결</b> 상태로 만듭니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]적 캐릭터에게<br></br>피해를 $1 주고<br></br><b>빙결</b> 상태로 만듭니다.",
       "spellSchool": "FROST"
     },
     {
@@ -23326,11 +23326,11 @@
       "cost": 2,
       "id": "CS2_039",
       "name": "질풍",
-      "text": "하수인에게 <b>질풍</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 <b>질풍</b>을 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -23387,11 +23387,11 @@
       "cost": 0,
       "id": "CS2_041",
       "name": "선인의 치유력",
-      "text": "[x]하수인의 생명력을<br></br>모두 회복시키고<br></br><b>도발</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]하수인의 생명력을<br></br>모두 회복시키고<br></br><b>도발</b>을 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -23529,11 +23529,11 @@
       "cost": 2,
       "id": "CS2_045",
       "name": "대지의 무기",
-      "text": "이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -23875,11 +23875,11 @@
       "cost": 3,
       "id": "CS2_057",
       "name": "어둠의 화살",
-      "text": "하수인에게 피해를 $4 줍니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 피해를 $4 줍니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -24132,11 +24132,11 @@
       "cost": 1,
       "id": "CS2_063",
       "name": "부패",
-      "text": "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
       "collectible": true,
+      "text": "적 하수인을 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -24360,11 +24360,11 @@
       "cost": 0,
       "id": "CS2_072",
       "name": "기습",
-      "text": "피해를 받지 않은 하수인에게 피해를 $2 줍니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "피해를 받지 않은 하수인에게 피해를 $2 줍니다."
     },
     {
       "art": "art/CS2_074.png",
@@ -24551,11 +24551,11 @@
       "cost": 4,
       "id": "CS2_076",
       "name": "암살",
-      "text": "적 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "적 하수인을 처치합니다."
     },
     {
       "art": "art/CS2_077.png",
@@ -24802,11 +24802,11 @@
       "cost": 1,
       "id": "CS2_084",
       "name": "사냥꾼의 징표",
-      "text": "하수인의 생명력을 1로 바꿉니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인의 생명력을 1로 바꿉니다."
     },
     {
       "art": "art/CS2_087.png",
@@ -24867,11 +24867,11 @@
       "cost": 1,
       "id": "CS2_087",
       "name": "힘의 축복",
-      "text": "하수인에게 공격력을 +3 부여합니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 공격력을 +3 부여합니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -25133,11 +25133,11 @@
       "cost": 4,
       "id": "CS2_092",
       "name": "왕의 축복",
-      "text": "하수인에게 +4/+4를 부여합니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 +4/+4를 부여합니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -25851,11 +25851,11 @@
       "cost": 2,
       "id": "CS2_102_H3",
       "name": "방어도 증가!",
-      "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다."
     },
     {
       "art": "art/CS2_103.png",
@@ -25916,11 +25916,11 @@
       "cost": 3,
       "id": "CS2_103",
       "name": "돌진",
-      "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "아군 하수인 하나에게 공격력 +2와 <b>돌진</b>을 부여합니다."
     },
     {
       "art": "art/CS2_105.png",
@@ -26103,11 +26103,11 @@
       "cost": 1,
       "id": "CS2_108",
       "name": "마무리 일격",
-      "text": "피해를 받은<br></br>적 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "피해를 받은<br></br>적 하수인을 처치합니다."
     },
     {
       "art": "art/CS2_112.png",
@@ -26230,11 +26230,11 @@
       "cost": 2,
       "id": "CS2_114",
       "name": "회전베기",
-      "text": "무작위 적 하수인 둘에게<br></br>피해를 $2 줍니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "무작위 적 하수인 둘에게<br></br>피해를 $2 줍니다."
     },
     {
       "art": "art/CS2_118.png",
@@ -28182,11 +28182,11 @@
       "attack": 2,
       "id": "CS2_196",
       "name": "가시덩굴 사냥꾼",
-      "text": "<b>전투의 함성:</b><br></br>1/1 멧돼지를 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>1/1 멧돼지를 소환합니다."
     },
     {
       "art": "art/CS2_197.png",
@@ -28608,11 +28608,11 @@
       "attack": 4,
       "id": "CS2_226",
       "name": "서리늑대 전쟁군주",
-      "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다."
     },
     {
       "art": "art/CS2_232.png",
@@ -28730,11 +28730,11 @@
       "cost": 2,
       "id": "CS2_234",
       "name": "어둠의 권능: 고통",
-      "text": "공격력이<br></br>3 이하인 하수인을 처치합니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "FREE",
       "collectible": true,
+      "text": "공격력이<br></br>3 이하인 하수인을 처치합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -28798,11 +28798,11 @@
       "attack": 1,
       "id": "CS2_235",
       "name": "북녘골 성직자",
-      "text": "하수인이 치유될 때마다 카드를 뽑습니다.",
       "type": "MINION",
       "cardClass": "PRIEST",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인이 치유될 때마다 카드를 뽑습니다."
     },
     {
       "art": "art/CS2_236.png",
@@ -28848,11 +28848,11 @@
       "cost": 2,
       "id": "CS2_236",
       "name": "천상의 정신",
-      "text": "하수인의 생명력을 2배 증가시킵니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "COMMON",
       "collectible": true,
+      "text": "하수인의 생명력을 2배 증가시킵니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -28919,12 +28919,12 @@
       ],
       "id": "CS2_237",
       "name": "굶주린 대머리수리",
-      "text": "내가 야수를 소환할 때마다 카드를 뽑습니다.",
       "type": "MINION",
       "cardClass": "HUNTER",
       "rarity": "FREE",
       "race": "야수",
-      "collectible": true
+      "collectible": true,
+      "text": "내가 야수를 소환할 때마다 카드를 뽑습니다."
     },
     {
       "art": "art/CS2_boar.png",
@@ -30110,11 +30110,11 @@
       "attack": 4,
       "id": "DS1_070",
       "name": "사냥개조련사",
-      "text": "<b>전투의 함성:</b> 아군 야수에게 +2/+2와 <b>도발</b>을 부여합니다.",
       "type": "MINION",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 아군 야수에게 +2/+2와 <b>도발</b>을 부여합니다."
     },
     {
       "art": "art/DS1_175.png",
@@ -30332,11 +30332,11 @@
       "cost": 4,
       "id": "DS1_183",
       "name": "일제 사격",
-      "text": "[x]무작위 적 하수인<br></br>둘에게 피해를<br></br>$3 줍니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]무작위 적 하수인<br></br>둘에게 피해를<br></br>$3 줍니다."
     },
     {
       "art": "art/DS1_184.png",
@@ -31144,11 +31144,11 @@
       "attack": 3,
       "id": "EX1_019",
       "name": "무너진 태양 성직자",
-      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인에게<br></br>+1/+1을 부여합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b><br></br>아군 하수인에게<br></br>+1/+1을 부여합니다."
     },
     {
       "art": "art/EX1_025.png",
@@ -31224,11 +31224,11 @@
       "attack": 2,
       "id": "EX1_025",
       "name": "기계용 정비사",
-      "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
     },
     {
       "art": "art/EX1_025t.png",
@@ -31393,12 +31393,12 @@
       ],
       "id": "EX1_062",
       "name": "늙은 거먹눈 멀록",
-      "text": "[x]<b>돌진</b>, 전장의 다른<br></br>멀록 하나당 공격력을<br></br>+1 얻습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "race": "멀록",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>돌진</b>, 전장의 다른<br></br>멀록 하나당 공격력을<br></br>+1 얻습니다."
     },
     {
       "art": "art/EX1_066.png",
@@ -31631,11 +31631,11 @@
       "attack": 6,
       "id": "EX1_112",
       "name": "겔빈 멕카토크",
-      "text": "<b>전투의 함성:</b><br></br>끝내주는 발명품을<br></br>소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>끝내주는 발명품을<br></br>소환합니다."
     },
     {
       "art": "art/EX1_129.png",
@@ -31740,11 +31740,11 @@
       "cost": 2,
       "id": "EX1_154a",
       "name": "태양의 격노",
-      "text": "하수인에게 피해를 $3 줍니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "collectible": false,
+      "text": "하수인에게 피해를 $3 줍니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -31790,11 +31790,11 @@
       "cost": 2,
       "id": "EX1_154b",
       "name": "자연의 격노",
-      "text": "하수인에게 피해를 $1 줍니다. 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "collectible": false,
+      "text": "하수인에게 피해를 $1 줍니다. 카드를 뽑습니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -31835,11 +31835,11 @@
       "cost": 3,
       "id": "EX1_155a",
       "name": "호랑이의 분노",
-      "text": "하수인에게 공격력을 +4 부여합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "하수인에게 공격력을 +4 부여합니다."
     },
     {
       "art": "art/EX1_155b.png",
@@ -31884,11 +31884,11 @@
       "cost": 3,
       "id": "EX1_155b",
       "name": "두터운 가죽",
-      "text": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "하수인에게 생명력 +4와 <b>도발</b>을 부여합니다."
     },
     {
       "art": "art/EX1_160a.png",
@@ -31928,11 +31928,11 @@
       "cost": 2,
       "id": "EX1_160a",
       "name": "표범 소환",
-      "text": "3/2 표범을 소환합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "3/2 표범을 소환합니다."
     },
     {
       "art": "art/EX1_160b.png",
@@ -32165,11 +32165,11 @@
       "cost": 4,
       "id": "EX1_166b",
       "name": "무효화",
-      "text": "하수인을 <b>침묵</b>시킵니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "하수인을 <b>침묵</b>시킵니다."
     },
     {
       "art": "art/EX1_169.png",
@@ -33745,11 +33745,11 @@
       "cost": 3,
       "id": "EX1_246",
       "name": "사술",
-      "text": "[x]하수인을 <b>도발</b> 능력이<br></br>있는 0/1 개구리로<br></br>변신시킵니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]하수인을 <b>도발</b> 능력이<br></br>있는 0/1 개구리로<br></br>변신시킵니다.",
       "spellSchool": "NATURE"
     },
     {
@@ -33937,11 +33937,11 @@
       "cost": 1,
       "id": "EX1_302",
       "name": "필멸의 고리",
-      "text": "하수인에게 피해를 $1 줍니다.<br></br>그 하수인이 죽으면 카드를 뽑습니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 피해를 $1 줍니다.<br></br>그 하수인이 죽으면 카드를 뽑습니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -34099,11 +34099,11 @@
       "cost": 1,
       "id": "EX1_308",
       "name": "영혼의 불꽃",
-      "text": "[x]피해를 $4 줍니다.<br></br>무작위로 카드를<br></br>버립니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]피해를 $4 줍니다.<br></br>무작위로 카드를<br></br>버립니다.",
       "spellSchool": "FIRE"
     },
     {
@@ -34212,11 +34212,11 @@
       "cost": 1,
       "id": "EX1_360",
       "name": "겸손",
-      "text": "하수인의 공격력을 1로 만듭니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인의 공격력을 1로 만듭니다."
     },
     {
       "art": "art/EX1_371.png",
@@ -34277,11 +34277,11 @@
       "cost": 1,
       "id": "EX1_371",
       "name": "보호의 손길",
-      "text": "하수인에게 <b>천상의_보호막</b>을 부여합니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "하수인에게 <b>천상의_보호막</b>을 부여합니다.",
       "spellSchool": "HOLY"
     },
     {
@@ -34405,11 +34405,11 @@
       "cost": 1,
       "id": "EX1_400",
       "name": "소용돌이",
-      "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다."
     },
     {
       "art": "art/EX1_506.png",
@@ -34508,12 +34508,12 @@
       ],
       "id": "EX1_506",
       "name": "멀록 바다사냥꾼",
-      "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
       "race": "멀록",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다."
     },
     {
       "art": "art/EX1_506a.png",
@@ -34899,11 +34899,11 @@
       "cost": 8,
       "id": "EX1_573b",
       "name": "샨도의 가르침",
-      "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>도발</b> 능력이 있는 2/2 나무정령을 둘 소환합니다."
     },
     {
       "art": "art/EX1_581.png",
@@ -34954,11 +34954,11 @@
       "cost": 2,
       "id": "EX1_581",
       "name": "혼절시키기",
-      "text": "적 하수인을 상대편의 손으로 돌려보냅니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "적 하수인을 상대편의 손으로 돌려보냅니다."
     },
     {
       "art": "art/EX1_582.png",
@@ -35098,11 +35098,11 @@
       "attack": 3,
       "id": "EX1_587",
       "name": "바람예언자",
-      "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>질풍</b>을 부여합니다.",
       "type": "MINION",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
       "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br>아군 하수인에게<br></br><b>질풍</b>을 부여합니다.",
       "races": [
         "DRAENEI"
       ],
@@ -35339,11 +35339,11 @@
       "cost": 2,
       "id": "EX1_622",
       "name": "어둠의 권능: 죽음",
-      "text": "공격력이 5 이상인 하수인을<br></br>처치합니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "FREE",
       "collectible": true,
+      "text": "공격력이 5 이상인 하수인을<br></br>처치합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -35611,11 +35611,11 @@
       "cost": 1,
       "id": "GIFT_02",
       "name": "제이나의 선물",
-      "text": "<b>일시적</b>인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "MAGE",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_03.png",
@@ -35675,11 +35675,11 @@
       "cost": 1,
       "id": "GIFT_03",
       "name": "렉사르의 선물",
-      "text": "<b>일시적</b>인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_04.png",
@@ -35740,11 +35740,11 @@
       "cost": 1,
       "id": "GIFT_04",
       "name": "아서스의 선물",
-      "text": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_05.png",
@@ -35804,11 +35804,11 @@
       "cost": 1,
       "id": "GIFT_05",
       "name": "우서의 선물",
-      "text": "<b>일시적</b>인 평등, 신성화 또는 왕의 축복을 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 평등, 신성화 또는 왕의 축복을 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_06.png",
@@ -35868,11 +35868,11 @@
       "cost": 1,
       "id": "GIFT_06",
       "name": "스랄의 선물",
-      "text": "[x]<b>일시적</b>인 번개 폭풍,<br></br>사술 또는 피의 욕망을<br></br><b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "SHAMAN",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>일시적</b>인 번개 폭풍,<br></br>사술 또는 피의 욕망을<br></br><b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_07.png",
@@ -35932,11 +35932,11 @@
       "cost": 1,
       "id": "GIFT_07",
       "name": "가로쉬의 선물",
-      "text": "<b>일시적</b>인 마무리 일격, 방패 올리기 또는 난투를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "WARRIOR",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 마무리 일격, 방패 올리기 또는 난투를 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_08.png",
@@ -35996,11 +35996,11 @@
       "cost": 1,
       "id": "GIFT_08",
       "name": "일리단의 선물",
-      "text": "<b>일시적</b>인 지옥 포화, 혼돈의 일격 또는 혼돈의 회오리를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "DEMONHUNTER",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 지옥 포화, 혼돈의 일격 또는 혼돈의 회오리를 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_09.png",
@@ -36060,11 +36060,11 @@
       "cost": 1,
       "id": "GIFT_09",
       "name": "발리라의 선물",
-      "text": "<b>일시적</b>인 기습, 맹독 또는 칼날 부채를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "ROGUE",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 기습, 맹독 또는 칼날 부채를 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_10.png",
@@ -36124,11 +36124,11 @@
       "cost": 1,
       "id": "GIFT_10",
       "name": "말퓨리온의 선물",
-      "text": "<b>일시적</b>인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_11.png",
@@ -36188,11 +36188,11 @@
       "cost": 1,
       "id": "GIFT_11",
       "name": "굴단의 선물",
-      "text": "<b>일시적</b>인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 필멸의 고리, 영혼 착취 또는 뒤틀린 황천을 <b>발견</b>합니다."
     },
     {
       "art": "art/GIFT_12.png",
@@ -36253,11 +36253,11 @@
       "cost": 1,
       "id": "GIFT_12",
       "name": "안두인의 선물",
-      "text": "<b>일시적</b>인 신의 권능: 보호막, 어둠의 권능: 고통 또는 정신 지배를 <b>발견</b>합니다.",
       "type": "SPELL",
       "cardClass": "PRIEST",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>일시적</b>인 신의 권능: 보호막, 어둠의 권능: 고통 또는 정신 지배를 <b>발견</b>합니다."
     },
     {
       "art": "art/HERO_01bp.png",
@@ -36307,11 +36307,11 @@
       "cost": 2,
       "id": "HERO_01bp",
       "name": "방어도 증가!",
-      "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다."
     },
     {
       "art": "art/HERO_01bp2.png",
@@ -36340,11 +36340,11 @@
       "cost": 2,
       "id": "HERO_01bp2",
       "name": "방어도 상승!",
-      "text": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "WARRIOR",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다."
     },
     {
       "art": "art/HERO_02bp.png",
@@ -36394,11 +36394,11 @@
       "cost": 2,
       "id": "HERO_02bp",
       "name": "토템 소환",
-      "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
       "type": "HERO_POWER",
       "cardClass": "SHAMAN",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다."
     },
     {
       "art": "art/HERO_02bp2.png",
@@ -36573,11 +36573,11 @@
       "cost": 2,
       "id": "HERO_04bp",
       "name": "병력 충원",
-      "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 소환합니다.",
       "type": "HERO_POWER",
       "cardClass": "PALADIN",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "[x]<b>영웅 능력</b><br></br>{0} 은빛 성기사단<br></br>신병을 소환합니다."
     },
     {
       "art": "art/HERO_04bp2.png",
@@ -36606,11 +36606,11 @@
       "cost": 2,
       "id": "HERO_04bp2",
       "name": "은빛 성기사단",
-      "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
       "type": "HERO_POWER",
       "cardClass": "PALADIN",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "[x]<b>영웅 능력</b><br></br>{0} 은빛 성기사단<br></br>신병을 2명 소환합니다."
     },
     {
       "art": "art/HERO_05bp.png",
@@ -36660,11 +36660,11 @@
       "cost": 2,
       "id": "HERO_05bp",
       "name": "고정 사격",
-      "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $2 줍니다.",
       "type": "HERO_POWER",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $2 줍니다.@<b>영웅 능력</b><br></br>피해를 $2 줍니다."
     },
     {
       "art": "art/HERO_05bp2.png",
@@ -36693,11 +36693,11 @@
       "cost": 2,
       "id": "HERO_05bp2",
       "name": "쇠뇌 사격",
-      "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다.",
       "type": "HERO_POWER",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다.@<b>영웅 능력</b><br></br>피해를 $3 줍니다."
     },
     {
       "art": "art/HERO_06bp.png",
@@ -36747,11 +36747,11 @@
       "cost": 2,
       "id": "HERO_06bp",
       "name": "변신",
-      "text": "<b>영웅 능력</b><br></br>방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다."
     },
     {
       "art": "art/HERO_06bp2.png",
@@ -36780,11 +36780,11 @@
       "cost": 2,
       "id": "HERO_06bp2",
       "name": "흉포한 변신",
-      "text": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "DRUID",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다."
     },
     {
       "art": "art/HERO_07bp.png",
@@ -37089,11 +37089,11 @@
       "cost": 1,
       "id": "HERO_10bp",
       "name": "악마의 발톱",
-      "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "DEMONHUNTER",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다."
     },
     {
       "art": "art/HERO_10bp2.png",
@@ -37122,11 +37122,11 @@
       "cost": 1,
       "id": "HERO_10bp2",
       "name": "악마의 이빨",
-      "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a2 얻습니다.",
       "type": "HERO_POWER",
       "cardClass": "DEMONHUNTER",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a2 얻습니다."
     },
     {
       "art": "art/LEG_CS3_001.png",
@@ -37578,12 +37578,12 @@
       ],
       "id": "LEG_CS3_031",
       "name": "생명의 어머니 알렉스트라자",
-      "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "race": "용족",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]<b>전투의 함성:</b> 캐릭터를<br></br>선택합니다. 아군 캐릭터라면<br></br>생명력을 #8 회복시킵니다.<br></br>적 캐릭터라면 피해를<br></br>8 줍니다."
     },
     {
       "art": "art/LEG_CS3_032.png",
@@ -38075,11 +38075,11 @@
       "cost": 1,
       "id": "LEG_RLK_034",
       "name": "심장 강타",
-      "text": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다."
     },
     {
       "art": "art/LEG_RLK_039.png",
@@ -39534,12 +39534,12 @@
       "cost": 4,
       "id": "LEG_TTN_908",
       "name": "성전사의 오라",
-      "text": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.<br></br>3턴 동안 지속됩니다.",
       "type": "SPELL",
       "cardClass": "PALADIN",
       "rarity": "EPIC",
       "spellSchool": "HOLY",
-      "collectible": true
+      "collectible": true,
+      "text": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.<br></br>@턴 동안 지속됩니다."
     },
     {
       "art": "art/Mekka1.png",
@@ -39663,11 +39663,11 @@
       "attack": 0,
       "id": "Mekka2",
       "name": "수리로봇",
-      "text": "내 턴이 끝날 때, 피해를 받은 캐릭터의 생명력을 #6 회복시킵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
       "collectible": false,
+      "text": "내 턴이 끝날 때, 피해를 받은 캐릭터의 생명력을 #6 회복시킵니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -39726,11 +39726,11 @@
       "attack": 0,
       "id": "Mekka3",
       "name": "강화 구슬 3000",
-      "text": "내 턴이 끝날 때, 무작위 하수인에게 +1/+1을 부여합니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
       "collectible": false,
+      "text": "내 턴이 끝날 때, 무작위 하수인에게 +1/+1을 부여합니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -39789,11 +39789,11 @@
       "attack": 0,
       "id": "Mekka4",
       "name": "꼬꼬댁 변신장치",
-      "text": "내 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
       "collectible": false,
+      "text": "내 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다.",
       "races": [
         "MECHANICAL"
       ],
@@ -39887,11 +39887,11 @@
       "cost": 0,
       "id": "NEW1_003",
       "name": "희생의 서약",
-      "text": "[x]아군 악마를 처치합니다.<br></br>내 영웅이 생명력을<br></br>#5 회복합니다.",
       "type": "SPELL",
       "cardClass": "WARLOCK",
       "rarity": "FREE",
       "collectible": true,
+      "text": "[x]아군 악마를 처치합니다.<br></br>내 영웅이 생명력을<br></br>#5 회복합니다.",
       "spellSchool": "SHADOW"
     },
     {
@@ -40011,11 +40011,11 @@
       "cost": 5,
       "id": "NEW1_007b",
       "name": "별의 군주",
-      "text": "하수인에게 피해를 $5 줍니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "collectible": false,
+      "text": "하수인에게 피해를 $5 줍니다.",
       "spellSchool": "ARCANE"
     },
     {
@@ -40277,12 +40277,12 @@
       ],
       "id": "NEW1_016",
       "name": "선장의 앵무새",
-      "text": "<b>전투의_함성:</b> 내 덱에서 해적을 뽑습니다.",
       "type": "MINION",
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
       "race": "야수",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의_함성:</b> 내 덱에서 해적을 뽑습니다."
     },
     {
       "art": "art/NEW1_031.png",
@@ -40328,11 +40328,11 @@
       "cost": 3,
       "id": "NEW1_031",
       "name": "야생의 벗",
-      "text": "무작위 동료_야수를 소환합니다.",
       "type": "SPELL",
       "cardClass": "HUNTER",
       "rarity": "FREE",
-      "collectible": true
+      "collectible": true,
+      "text": "무작위 동료_야수를 소환합니다."
     },
     {
       "art": "art/NEW1_032.png",
@@ -40539,12 +40539,12 @@
       "id": "OG_047a",
       "dbfId": 38332,
       "name": "가시뼈 진화",
-      "text": "이번 턴에 내 영웅이 공격력을 +4 얻습니다.",
       "type": "SPELL",
       "cardClass": "DRUID",
       "rarity": "FREE",
       "cost": 3,
-      "collectible": false
+      "collectible": false,
+      "text": "이번 턴에 내 영웅이 공격력을 +4 얻습니다."
     },
     {
       "art": "art/OG_047b.png",
@@ -40797,11 +40797,11 @@
       "cost": 4,
       "id": "PRO_001c",
       "name": "호드의 힘",
-      "text": "무작위 호드_전사를 소환합니다.",
       "type": "SPELL",
       "cardClass": "NEUTRAL",
       "rarity": "FREE",
-      "collectible": false
+      "collectible": false,
+      "text": "무작위 호드_전사를 소환합니다."
     },
     {
       "art": "art/TOY_100.png",

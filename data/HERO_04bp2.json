@@ -4,10 +4,13 @@
     "cost": 2,
     "id": "HERO_04bp2",
     "name": "은빛 성기사단",
-    "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
     "type": "HERO_POWER",
     "cardClass": "PALADIN",
     "rarity": "FREE",
-    "collectible": false
+    "collectible": false,
+    "text": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다."
+  },
+  "2026-07-01": {
+    "text": "[x]<b>영웅 능력</b><br></br>{0} 은빛 성기사단<br></br>신병을 2명 소환합니다."
   }
 }

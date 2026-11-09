@@ -4,13 +4,13 @@
     "cost": 3,
     "id": "NEW1_031",
     "name": "야생의 벗",
-    "text": "무작위 동료 야수를 소환합니다.",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "FREE",
-    "collectible": true
+    "collectible": true,
+    "text": "무작위 동료 야수를 소환합니다."
   },
-  "2013-12-12": {
+  "2013-12-11": {
     "text": "무작위 동료 야수를 1마리 소환합니다."
   },
   "2015-04-01": {

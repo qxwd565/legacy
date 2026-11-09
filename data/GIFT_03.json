@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_03",
     "name": "렉사르의 선물",
-    "text": "<b>일시적</b>인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 신속 사격, 치명적인 사격 또는 폭발 사격을 <b>발견</b>합니다."
   }
 }

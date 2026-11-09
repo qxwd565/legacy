@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_10",
     "name": "말퓨리온의 선물",
-    "text": "<b>일시적</b>인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 야생의 분노, 급속 성장 또는 휘둘러치기를 <b>발견</b>합니다."
   }
 }

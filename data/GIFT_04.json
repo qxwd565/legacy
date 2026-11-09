@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_04",
     "name": "아서스의 선물",
-    "text": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 어둠의 변신, 울부짖는 한파 또는 죽음의 일격을 <b>발견</b>합니다."
   }
 }

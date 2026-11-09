@@ -4,16 +4,13 @@
     "cost": 2,
     "id": "HERO_01bp",
     "name": "방어도 증가!",
-    "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다.",
     "type": "HERO_POWER",
     "cardClass": "WARRIOR",
     "rarity": "FREE",
-    "collectible": false
-  },
-  "2020-05-13": {
+    "collectible": false,
     "text": "<b>영웅 능력</b><br></br>방어도를 +2 얻습니다."
   },
-  "2021-03-26": {
+  "2023-09-20": {
     "text": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다."
   }
 }

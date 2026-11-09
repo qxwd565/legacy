@@ -4,16 +4,13 @@
     "cost": 1,
     "id": "HERO_10bp",
     "name": "악마의 발톱",
-    "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다.",
     "type": "HERO_POWER",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "collectible": false
-  },
-  "2020-05-13": {
+    "collectible": false,
     "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +1 얻습니다."
   },
-  "2021-03-26": {
+  "2023-09-20": {
     "text": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다."
   }
 }

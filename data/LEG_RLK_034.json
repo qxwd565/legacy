@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "LEG_RLK_034",
     "name": "심장 강타",
-    "text": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "COMMON",
-    "collectible": true
+    "collectible": true,
+    "text": "하수인에게 피해를<br></br>$3 줍니다. 이 피해로 하수인이 죽으면 <b>시체</b>를 얻습니다."
+  },
+  "2026-03-11": {
+    "text": "하수인에게 피해를 $3 줍니다. 그 하수인이 죽으면 <b>시체</b>를 얻습니다."
   }
 }

@@ -4,18 +4,18 @@
     "cost": 2,
     "id": "DREAM_02",
     "name": "깨어난 이세라",
-    "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.",
     "type": "SPELL",
     "cardClass": "DREAM",
     "rarity": "FREE",
-    "collectible": false
+    "collectible": false,
+    "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
   },
   "2015-08-19": {
     "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다."
   },
   "2021-03-26": {
     "cost": 3,
-    "text": "이세라를 제외한 모든 하수인에게 피해를 $5 줍니다.",
+    "text": "이세라를 제외한 <b>모든</b> 하수인에게 피해를 $5 줍니다.",
     "spellSchool": "NATURE"
   },
   "2024-03-29": {

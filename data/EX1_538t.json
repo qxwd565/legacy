@@ -12,15 +12,17 @@
     ],
     "id": "EX1_538t",
     "name": "풀려남",
-    "text": "공격력 +1, <b>돌진</b>",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
     "race": "BEAST",
-    "collectible": false
+    "collectible": false,
+    "text": "공격력 +1, <b>돌진</b>"
+  },
+  "2013-12-11": {
+    "text": "<b>돌진</b>"
   },
   "2013-12-12": {
-    "name": "사냥개",
-    "text": "<b>돌진</b>"
+    "name": "사냥개"
   }
 }

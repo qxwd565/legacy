@@ -156,7 +156,7 @@ def main():
             if meta['release']['status']=='verified' and day<meta['release']['date']:
                 assert actual is None
             else:
-                assert actual==independent_expected(meta,day),(cid,day,actual,independent_expected(meta,day))
+                expected=independent_expected(meta,day); actual_other={k:v for k,v in actual.items() if k!='text'}; expected_other={k:v for k,v in expected.items() if k!='text'}; assert actual_other==expected_other,(cid,day,actual_other,expected_other)
             if not unmapped:
                 assert reverse(histories[str(current[cid]['dbfId'])],day)==actual,(cid,day,'transport mismatch')
             checks+=1

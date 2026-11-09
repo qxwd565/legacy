@@ -4,13 +4,13 @@
     "cost": 2,
     "id": "EX1_160a",
     "name": "표범 소환",
-    "text": "3/2 표범을 소환합니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
-    "collectible": false
+    "collectible": false,
+    "text": "3/2 표범을 소환합니다."
   },
-  "2013-12-12": {
+  "2013-12-11": {
     "text": "3/2 표범을 1마리 소환합니다."
   },
   "2018-10-03": {

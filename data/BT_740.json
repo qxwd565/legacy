@@ -4,13 +4,19 @@
     "cost": 3,
     "id": "BT_740",
     "name": "영혼 베어내기",
-    "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다.",
     "type": "SPELL",
     "cardClass": "DEMONHUNTER",
     "rarity": "FREE",
-    "collectible": true
+    "collectible": true,
+    "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다."
   },
   "2021-03-26": {
     "spellSchool": "SHADOW"
+  },
+  "2021-10-13": {
+    "text": "<b>생명력 흡수</b><br></br>무작위 적 둘에게 피해를 $2 줍니다."
+  },
+  "2021-12-01": {
+    "text": "<b>생명력 흡수</b><br></br>무작위 적 하수인 둘에게 피해를 $2 줍니다."
   }
 }

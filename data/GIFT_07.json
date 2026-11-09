@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_07",
     "name": "가로쉬의 선물",
-    "text": "<b>일시적</b>인 마무리 일격, 방패 올리기 또는 난투를 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 마무리 일격, 방패 올리기 또는 난투를 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 마무리 일격, 방패 올리기 또는 난투를 <b>발견</b>합니다."
   }
 }

@@ -4,10 +4,13 @@
     "cost": 1,
     "id": "GIFT_02",
     "name": "제이나의 선물",
-    "text": "<b>일시적</b>인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다.",
     "type": "SPELL",
     "cardClass": "MAGE",
     "rarity": "RARE",
-    "collectible": true
+    "collectible": true,
+    "text": "일시적인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다."
+  },
+  "2024-07-17": {
+    "text": "<b>일시적</b>인 얼음 화살, 신비한 지능 또는 화염구를 <b>발견</b>합니다."
   }
 }

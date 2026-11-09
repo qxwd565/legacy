@@ -3,11 +3,14 @@
     "id": "OG_047a",
     "dbfId": 38332,
     "name": "가시뼈 진화",
-    "text": "이번 턴에 내 영웅이 공격력을 +4 얻습니다.",
     "type": "SPELL",
     "cardClass": "DRUID",
     "rarity": "FREE",
     "cost": 3,
-    "collectible": false
+    "collectible": false,
+    "text": "이번 턴에 내 영웅에게 공격력을 +4 부여합니다."
+  },
+  "2017-08-09": {
+    "text": "이번 턴에 내 영웅이 공격력을 +4 얻습니다."
   }
 }

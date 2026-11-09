@@ -4,16 +4,13 @@
     "cost": 2,
     "id": "HERO_02bp",
     "name": "토템 소환",
-    "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
     "type": "HERO_POWER",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "collectible": false
-  },
-  "2020-05-13": {
+    "collectible": false,
     "text": "<b>영웅 능력</b><br></br>무작위 토템을 소환합니다."
   },
-  "2021-03-26": {
+  "2023-09-20": {
     "text": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다."
   }
 }
