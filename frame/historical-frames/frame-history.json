@@ -1,0 +1,1938 @@
+{
+  "schemaVersion": 1,
+  "dateBasis": "patchDate uses the English/US patch calendar; patchDateKorea is the Asia/Seoul calendar date in the linked Korean announcement. Expansion unlock dates are separate facts. This is reference metadata, not automatic renderer selection rules.",
+  "events": [
+    {
+      "patchVersion": "7.0.0.15590",
+      "patchDate": "2016-11-29",
+      "patchDateKorea": "2016-11-30",
+      "expansion": "비열한 거리의 가젯잔",
+      "expansionUnlockDate": "2016-12-01",
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedComponent": "종족 띠",
+      "change": "가젯잔 출시의 종족 띠 교체는 IPA에서 확인되지 않음. 6.2, 7.0, 7.1 일반·황금의 기본 띠 텍스처와 메시 형상/UV가 동일. 6.2·7.0·19.6에서 종족 텍스트는 작은 고정 크기.",
+      "evidence": "Direct RAM-only IPA reads: 6.2.15153 / 819262478, 7.0.15590 / 819447153, 7.1.17720 / 820153283. Full base texture bytes and decoded race-plate UV regions match; golden reflection/specular textures change in 7.1 separately. This supersedes the previous unverified Gadgetzan boundary.",
+      "sourceVersions": [
+        "6.2.15153",
+        "7.0.15590",
+        "7.1.17720"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/20382066",
+        "https://hearthstone.blizzard.com/ko-kr/news/20382066",
+        "https://hearthstone.wiki.gg/wiki/Patch_7.0.0.15590"
+      ],
+      "visualChangeVerified": false,
+      "nativeEvidence": {
+        "normal": {
+          "baseTextureSha256": "e2c6a6aed5f4dc3dc3f559bb4c1481a999106b44d57c5ab63442db475908d67c",
+          "platePixelsSha256": "1bbd39baf6f0f5e154845dbd5a078045a9a7fa260f15a3462977d1f61ef06665",
+          "geometryUvSha256": "6376916510dbefc2616e0c9e929938e2b6090749541a71c319680e30bc54e293"
+        },
+        "golden": {
+          "baseTextureSha256": "2013d3dd84024b3cfcf45b6e2adcac3cd511d7bda86ab3d2b9018b19f5c0d175",
+          "platePixelsSha256": "19e4ab0c390a6a7b9aa6ba536277814ec8f0a92f36991b2e88c9963bbf4b2341",
+          "geometryUvSha256": "db279948d19749fd787f9502914a85d76f29fdc63b611af29a9a38bfe09213d8"
+        }
+      },
+      "verifiedOnKorea": "2026-10-31",
+      "actualPlateReplacement": {
+        "patchVersion": null,
+        "patchDateKorea": null,
+        "status": "unverified"
+      }
+    },
+    {
+      "patchVersion": "18.0.0.54613",
+      "patchDate": "2020-07-30",
+      "patchDateKorea": "2020-07-31",
+      "expansion": "스칼로맨스 아카데미",
+      "expansionUnlockDate": "2020-08-06",
+      "affectedTypes": [
+        "WEAPON"
+      ],
+      "affectedComponent": "직업별 무기 외곽 프레임",
+      "change": "직업을 구별하는 무기 프레임 추가.",
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/23463127",
+        "https://hearthstone.wiki.gg/wiki/Patch_18.0.0.54613",
+        "https://hearthstone.blizzard.com/ko-kr/news/23463127"
+      ]
+    },
+    {
+      "patchVersion": "18.0.0.54613",
+      "patchDate": "2020-07-30",
+      "patchDateKorea": "2020-07-31",
+      "expansion": "스칼로맨스 아카데미",
+      "expansionUnlockDate": "2020-08-06",
+      "affectedClasses": [
+        "HUNTER"
+      ],
+      "affectedComponent": "직업 프레임 색상",
+      "change": "악마사냥꾼과 구별하도록 사냥꾼의 녹색이 밝아짐.",
+      "sources": [
+        "https://hearthstone.wiki.gg/wiki/Patch_18.0.0.54613",
+        "https://hearthstone.blizzard.com/ko-kr/news/23463127"
+      ]
+    },
+    {
+      "patchVersion": "20.0.0.77662",
+      "patchDate": "2021-03-25",
+      "patchDateKorea": "2021-03-26",
+      "expansion": "불모의 땅",
+      "expansionUnlockDate": "2021-03-30",
+      "expansionUnlockDateKorea": "2021-03-31",
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedComponent": "하수인 종족 텍스트",
+      "change": "일반·황금 모두 기본 FontSize 40 / CharacterSize 3.5를 유지하면서 높이 0.15→0.17 및 자동 크기 맞춤/확대 활성화. 짧은 종족명이 확대됨. 텍스트 위치도 함께 조정.",
+      "sourceVersions": [
+        "19.6.74257",
+        "20.0.77662"
+      ],
+      "nativeSettings": {
+        "before": {
+          "fontSize": 40,
+          "characterSize": 3.5,
+          "width": 0.85,
+          "height": 0.15,
+          "autoFit": false,
+          "autoGrow": false,
+          "normalTextLocalZ": 0.0135337607935071,
+          "goldenTextLocalZ": 0.0007092087180353701
+        },
+        "after": {
+          "fontSize": 40,
+          "characterSize": 3.5,
+          "width": 0.85,
+          "height": 0.17,
+          "autoFit": true,
+          "autoGrow": true,
+          "growStep": 0.05,
+          "normalTextLocalZ": 0.010999999940395355,
+          "goldenTextLocalZ": 0.004999999888241291
+        }
+      },
+      "nativeEvidence": {
+        "method": "Original IPA ZIP entries read/CRC-checked in RAM; no extraction or audit files. Actor prefab RacePlate_mesh/RaceUberText; bundled current single-race sizing/auto-fit settings also checked.",
+        "bundle": "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d",
+        "serializedFile": "CAB-9f714cdfa31a278b6b05093d6ad1edbe",
+        "before": {
+          "archiveId": "840473960",
+          "normalTextPathId": "6899914956955347288",
+          "normalTextSha256": "a4b1d63fd38db85324b5bf42d43b92a98ab2e8f51c28023d1ddc50561a43d9c9",
+          "goldenTextPathId": "-6561581939789417999",
+          "goldenTextSha256": "155a327a705fa4a6abc2c2e308d7f58b0c59bfcd2b6efd1674acb621fdd38373"
+        },
+        "after": {
+          "archiveId": "840752602",
+          "normalTextSha256": "212db1522334dd4626224fbadbf72268498e73bb885437e62e07e409078ebc5b",
+          "goldenTextSha256": "7c397c772ccb97be2919b619d912ca2037604c6bc0881a27dd19fd658ddbfecd"
+        }
+      },
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
+        "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+      ],
+      "sourceNotes": "Patch notes establish dates. The visual change is verified from the native IPA components, not described by those notes.",
+      "verifiedOnKorea": "2026-10-31",
+      "visualChangeVerified": true,
+      "changeObservedBetween": {
+        "beforeIpaVersion": "19.6.74257",
+        "afterIpaVersion": "20.0.77662"
+      }
+    },
+    {
+      "patchVersion": "20.0.0.77662",
+      "patchDate": "2021-03-25",
+      "patchDateKorea": "2021-03-26",
+      "expansion": "불모의 땅",
+      "expansionUnlockDate": "2021-03-30",
+      "expansionUnlockDateKorea": "2021-03-31",
+      "affectedTypes": [
+        "SPELL"
+      ],
+      "affectedComponent": "주문 속성 표시와 관련 프레임 배치",
+      "change": "과거 주문에도 주문 속성이 추가됨. 속성 표시 이전의 주문 프레임과 구분.",
+      "sourceVersions": [
+        "15.2.34104",
+        "19.6.74257"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/23642550/20-0-patch-notes",
+        "https://hearthstone.blizzard.com/ko-kr/news/23642550"
+      ]
+    },
+    {
+      "patchVersion": "25.4.0.165029",
+      "patchDate": "2023-02-14",
+      "patchDateKorea": "2023-02-15",
+      "expansion": "리치 왕의 진군",
+      "miniSet": "다시 낙스라마스로",
+      "miniSetUnlockDate": "2023-02-14",
+      "miniSetUnlockDateKorea": "2023-02-15",
+      "affectedClasses": [
+        "DEATHKNIGHT"
+      ],
+      "affectedTypes": [
+        "MINION",
+        "WEAPON"
+      ],
+      "affectedComponent": "하수인·무기 프레임 문양",
+      "change": "전사 프레임을 재색칠한 형태에서 죽음의 기사 고유 문양으로 변경. 같은 원본 쌍의 죽기 주문 텍스처는 동일.",
+      "sourceVersions": [
+        "25.2.162867",
+        "25.4.165029"
+      ],
+      "nativeEvidence": "assets/deathknight-source-audit.json: original IPA texture bytes, dimensions, decoded pixels and prefab mesh bindings.",
+      "sources": [
+        "https://hearthstone.blizzard.com/en-gb/news/23913671/25-4-patch-notes/",
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://hearthstone.wiki.gg/wiki/Death_Knight",
+        "https://www.hearthpwn.com/news/9833-patch-25-4-unannounced-changes-data-mining"
+      ]
+    },
+    {
+      "patchVersion": "5.2.0.13557",
+      "patchDate": "2016-07-12",
+      "patchDateKorea": "2016-07-13",
+      "affectedTypes": [
+        "MINION",
+        "WEAPON"
+      ],
+      "affectedComponent": "설명 영역과 한국어 수치 위치",
+      "change": "일반·황금 하수인 설명 높이 0.77→0.87, 무기 0.80→0.90. 한국어 하수인 설명 오프셋 y=-0.075→0, 비용·공격력·생명력/내구도 오프셋 y=-0.02 추가.",
+      "sourceVersions": [
+        "5.0.12574",
+        "5.2.13557"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20177158/하스스톤-업데이트-2016년-7월-13일-2016-07-13"
+      ],
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "8.0.0.18336",
+      "patchDate": "2017-04-04",
+      "patchDateKorea": null,
+      "affectedTypes": [
+        "SPELL"
+      ],
+      "affectedFinishes": [
+        "golden"
+      ],
+      "affectedComponent": "직업 표시 리본 메쉬·UV",
+      "change": "7.1.18015까지의 구형 황금 주문 리본과 8.0.18336의 리본이 다름. 본체와 뒷면 삼각형은 동일. 2.6 변경이라는 최초 후보 판정은 원본 대조로 기각.",
+      "sourceVersions": [
+        "2.5.8474",
+        "2.6.8834",
+        "7.0.15590",
+        "7.1.17720",
+        "7.1.18015",
+        "8.0.18336"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/en-us/news/20678265/hearthstone-update-april-4-4-4-2017"
+      ],
+      "dateNote": "US patch date verified; Korean calendar date not independently verified.",
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "18.4.0.60352",
+      "patchDate": "2020-09-29",
+      "patchDateKorea": "2020-09-30",
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedComponent": "종족 텍스트 자동 맞춤",
+      "change": "일반·황금 ResizeToFit 0→1, Height 0.15와 자동 확대 비활성화 유지.",
+      "sourceVersions": [
+        "18.2.57893",
+        "18.4.60352"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23523062/18-4"
+      ],
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "18.6.0.63160",
+      "patchDate": "2020-10-22",
+      "patchDateKorea": "2020-10-23",
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedComponent": "종족 텍스트 자동 맞춤 복귀",
+      "change": "ResizeToFit 1→0. 20.0의 영역 확대/자동 확대와 다른 변경.",
+      "sourceVersions": [
+        "18.4.60352",
+        "18.6.63160"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23534413/18-6-patch-notes"
+      ],
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "20.2.0.82032",
+      "patchDate": "2021-05-04",
+      "patchDateKorea": "2021-05-05",
+      "affectedTypes": [
+        "HERO_POWER"
+      ],
+      "affectedFinishes": [
+        "golden"
+      ],
+      "affectedComponent": "필드 배치 영웅 능력 본체 메쉬·재질 면 배정",
+      "change": "정점 844→841. 서브메쉬 인덱스 개수 [2433,18,561]→[2061,18,933]. 구형 원본 메쉬·UV·재질을 별도 선택 가능.",
+      "sourceVersions": [
+        "20.0.79904",
+        "20.2.82032"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23665634/20-2-patch-notes"
+      ],
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "26.4.0.175913",
+      "patchDate": "2023-05-31",
+      "patchDateKorea": "2023-06-01",
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedFinishes": [
+        "normal"
+      ],
+      "affectedComponent": "이중 종족 텍스트 깊이",
+      "change": "부모 포함 y 0.03929117→0.04529117 (+0.006). z=-1.26209438 유지.",
+      "sourceVersions": [
+        "25.2.162867",
+        "25.4.165029",
+        "25.6.168788",
+        "26.0.170824",
+        "26.2.174258",
+        "26.4.175913"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23957168"
+      ],
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    },
+    {
+      "patchVersion": "26.6.0.179020",
+      "patchDate": "2023-06-27",
+      "patchDateKorea": null,
+      "affectedTypes": [
+        "MINION"
+      ],
+      "affectedFinishes": [
+        "normal"
+      ],
+      "affectedComponent": "이중 종족 텍스트 세로 위치",
+      "change": "부모 포함 z -1.26209438→-1.25709438 (+0.005). 26.4에서 바뀐 y 유지. 27.0·27.2 및 후속 표본에서 유지.",
+      "sourceVersions": [
+        "26.4.175913",
+        "26.6.179020",
+        "27.0.181554",
+        "27.2.185054",
+        "28.0.189384",
+        "30.0.203120",
+        "33.0.223542",
+        "36.6.253216"
+      ],
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23973115/26-6-patch-notes"
+      ],
+      "dateNote": "Official release calendar date retained; exact Korea date not independently verified.",
+      "verifiedOnKorea": "2026-10-31",
+      "evidence": "Direct original IPA ZIP reads in RAM; source size and modification time preserved.",
+      "boundaryScope": "Adjacent available IPA snapshots; does not assert coverage of unavailable hotfix builds."
+    }
+  ],
+  "frameSources": [
+    {
+      "frame": "current",
+      "source": "Bundled installed-client rendering assets",
+      "historicalPatch": false
+    },
+    {
+      "frame": "6.2.15153",
+      "sourceVersion": "6.2.15153",
+      "types": [
+        "MINION"
+      ],
+      "raceCount": 1,
+      "affectedComponent": "종족 띠와 텍스트",
+      "description": "Original 6.2 race-plate component and fixed small text, normal/golden; shared remaining card body. Not an entire 6.2 card snapshot. The IPA base plate persists in 7.0/7.1."
+    },
+    {
+      "frame": "15.2.34104",
+      "sourceVersion": "15.2.34104",
+      "description": "Existing 2019 historical frame resources; source build is distinct from a frame-change patch.",
+      "minionCompatibility": "The retained MINION alias selects the 6.2 race-plate/text component, not a full 2019 minion frame. Its explicit source choice is 6.2.15153."
+    },
+    {
+      "frame": "19.6.74257",
+      "sourceVersion": "19.6.74257",
+      "description": "Existing Darkmoon frame resources, including the documented retained higher-resolution 2019 atlases.",
+      "raceText": "Original fixed 40/3.5, height 0.15, auto-fit and auto-grow disabled; before 20.0."
+    },
+    {
+      "frame": "19.6.74257-hunter",
+      "sourceVersion": "19.6.74257",
+      "classes": [
+        "HUNTER"
+      ],
+      "types": [
+        "SPELL"
+      ],
+      "description": "Original Darkmoon-era Hunter spell atlas variant."
+    },
+    {
+      "frame": "25.2.162867",
+      "sourceVersion": "25.2.162867",
+      "classes": [
+        "DEATHKNIGHT"
+      ],
+      "types": [
+        "MINION",
+        "SPELL",
+        "WEAPON"
+      ],
+      "description": "Native before-25.4 snapshot; original texture dimensions, geometry and materials. Shared text rendering is retained. Original normal-minion dual-race placement is now selected with this explicit frame.",
+      "textProfile": "25.2.162867"
+    },
+    {
+      "frame": "25.4.165029",
+      "sourceVersion": "25.4.165029",
+      "classes": [
+        "DEATHKNIGHT"
+      ],
+      "types": [
+        "MINION",
+        "SPELL",
+        "WEAPON"
+      ],
+      "description": "Native 25.4 snapshot with the revised DK minion and weapon ornament; shared text rendering is retained. Original normal-minion dual-race placement is now selected with this explicit frame.",
+      "textProfile": "25.2.162867"
+    },
+    {
+      "frame": "2.5.8474-spell",
+      "sourceVersion": "2.5.8474",
+      "types": [
+        "SPELL"
+      ],
+      "finish": "golden",
+      "affectedComponent": "황금 주문 직업 리본을 포함한 본체",
+      "description": "Verified native component snapshot; remaining layers use the shared renderer. Not an entire client-version snapshot.",
+      "evidence": {
+        "version": "2.5.8474",
+        "archiveId": "812232535",
+        "archiveSha256": "256eac063414505400b3bb5b87f688ccffd4accda5b587f192e861ee042319e9",
+        "bundles": {
+          "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "7e6e998f246f98038f9cfd2f35cb152c1eb31785b3d8584ae4b4df911a69425a",
+          "Payload/hearthstone.app/Data/Raw/Data/shared1.unity3d": "408a723991076ea2233bde0bf4481a08ec4391a48b7a514dba653f0dc1b67dc9",
+          "Payload/hearthstone.app/Data/Raw/Data/shared0.unity3d": "0f5055b4b1a9ca596d8a7da3a3862b6b69aa96f84a0ff58a7a1799ab549aa53d",
+          "Payload/hearthstone.app/Data/Raw/Data/shared2.unity3d": "98bb468f6bdbf8ec0403b4f872ec2647f2bc6be6e08910894ab09186e74fae49"
+        },
+        "archiveUnchanged": true
+      }
+    },
+    {
+      "frame": "20.0.79904-hero-power",
+      "sourceVersion": "20.0.79904",
+      "types": [
+        "HERO_POWER"
+      ],
+      "finish": "golden",
+      "affectedComponent": "황금 영웅 능력 본체",
+      "description": "Verified native component snapshot; remaining layers use the shared renderer. Not an entire client-version snapshot.",
+      "evidence": {
+        "version": "20.0.79904",
+        "archiveId": "841294165",
+        "archiveSha256": "264d72c4530fb41856c8380db61edcb093bcec1679048408dc339e5dc6dff008",
+        "bundles": {
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "bf1d2c8338eb897d878aeec677b5f510e1330fd147ecfce34af014ceb9f641a8",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "33c316882384f823f319899cb2734ac64ae5af0b8e31ebaa11fa5d8941e7390e",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-15.unity3d": "e5f16b957d3dc8345ada5d8cbd5e174335995e40acc40408e87ef004072e022a",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-16.unity3d": "134702c983aa564fc40bd2aee8d1501fbddbb8eef3f19706caa9a3f4ad9b500f",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-23.unity3d": "e5a41fc06c5b09cd07154b409807d9a310dccc2437177f916681c9766df6a292"
+        },
+        "archiveUnchanged": true
+      },
+      "presentation": "in_play",
+      "requires": {
+        "kind": "HERO_POWER",
+        "finish": "golden",
+        "in_play": true
+      },
+      "scope": "Card_Play_HeroPower_Premium 필드 배치 본체. 확대 카드 History_HeroPower_Premium과 별개이며 확대 카드에 덮어쓰지 않음."
+    },
+    {
+      "frame": "25.2.162867-location",
+      "sourceVersion": "25.2.162867",
+      "types": [
+        "LOCATION"
+      ],
+      "finish": "golden",
+      "affectedComponent": "황금 장소 본체 메쉬의 보조 UV·노멀·탄젠트",
+      "description": "Original geometry channels and material component. Vertex positions and primary UV match current geometry, but UV2, normals and tangents differ. Other layers use the shared renderer.",
+      "changePatchVersion": null,
+      "changePatchDateKorea": null,
+      "evidence": {
+        "version": "25.2.162867",
+        "archiveId": "854351914",
+        "archiveSha256": "6d7e6473527a1e751faf7e92fb27b11adc2648b66e0d107ed3632a802d9136f3",
+        "bundles": {
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-50.unity3d": "82ba919c0124666d1d49cedcc65193e175d3f0eb5e7295eec136a74ce006704b",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-53.unity3d": "fc0ae0d5eac410d2fe9fffa076bf1874bc4f8fdb0170c5e4134146d31e30ff6a",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-15.unity3d": "cc5670d85b9a2c230467b35752ebecd4ca856531aab6c7c1da9f25abddacb3ae",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-23.unity3d": "0bb138b387f5b50144139a3e41102fb632c605e58b04caa68042904639c7404a",
+          "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-21.unity3d": "70b7910b762e28a0dd773df669ac8bf591dc30e8f67d1266f1496c58b812618a"
+        },
+        "archiveUnchanged": true
+      }
+    }
+  ],
+  "textProfiles": [
+    {
+      "profile": "frame",
+      "description": "선택한 프레임의 설정. 죽기 25.2/25.4는 당시 이중 종족 좌표를 사용."
+    },
+    {
+      "profile": "current",
+      "description": "내장 현행 글자 설정을 명시적으로 사용."
+    },
+    {
+      "profile": "5.0.12574",
+      "types": [
+        "MINION",
+        "WEAPON"
+      ],
+      "components": [
+        "설명 영역·위치",
+        "한국어 비용·공격력·생명력/내구도 위치"
+      ],
+      "finish": "normal/golden"
+    },
+    {
+      "profile": "18.4.60352",
+      "types": [
+        "MINION"
+      ],
+      "components": [
+        "단일 종족 영역·위치·자동 맞춤"
+      ],
+      "finish": "normal/golden"
+    },
+    {
+      "profile": "25.2.162867",
+      "types": [
+        "MINION"
+      ],
+      "components": [
+        "일반 이중 종족 좌표"
+      ],
+      "unchangedThroughAvailableIPA": "26.2.174258"
+    },
+    {
+      "profile": "26.4.175913",
+      "types": [
+        "MINION"
+      ],
+      "components": [
+        "일반 이중 종족 중간 좌표"
+      ]
+    },
+    {
+      "profile": "27.2.185054-location",
+      "types": [
+        "LOCATION"
+      ],
+      "components": [
+        "일반 장소 제목 가로 비율·좌표·곡면 메쉬"
+      ],
+      "sourceVersion": "27.2.185054",
+      "changePatchVersion": null,
+      "changePatchDate": null,
+      "description": "25.2~27.2 원본 가로 비율 1.0, 현행 PC 0.9. 27.4/37.0 IPA 전체 prefab 번들에 장소 원본이 없어 정확한 변경 패치 및 플랫폼 차이는 미확정."
+    },
+    {
+      "profile": "pc-1.0.0.3664-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.3664",
+      "sourceDate": "2013-08-14",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.3749-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.3749",
+      "sourceDate": "2013-08-30",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.3890-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.3890",
+      "sourceDate": "2013-10-02",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.3937-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.3937",
+      "sourceDate": "2013-10-17",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.4217-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.4217",
+      "sourceDate": "2013-12-10",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.4243-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.4243",
+      "sourceDate": "2013-12-18",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.4458-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.4458",
+      "sourceDate": "2014-01-16",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.4482-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.4482",
+      "sourceDate": "2014-01-17",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "pc-1.0.0.4944-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "Windows",
+      "sourceVersion": "1.0.0.4944",
+      "sourceDate": "2014-03-11",
+      "sourceDateBasis": "Community patch chronology; regional dates can differ",
+      "sourceDateUrl": "https://hearthstone.wiki.gg/wiki/Patch",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 구성 요소. 현행 공용 글꼴·렌더러 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-1.0.0-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "1.0.0",
+      "sourceAppStoreReleaseDateUTC": null,
+      "observedVersionsWithSameSettings": [
+        "1.0.0"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-1.0.5361-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "1.0.5361",
+      "sourceAppStoreReleaseDateUTC": "2014-05-03T00:45:00Z",
+      "observedVersionsWithSameSettings": [
+        "1.0.5361",
+        "1.0.5435",
+        "1.0.5834"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-1.1.6069-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "1.1.6069",
+      "sourceAppStoreReleaseDateUTC": "2014-07-19T06:59:28Z",
+      "observedVersionsWithSameSettings": [
+        "1.1.6069",
+        "1.1.6141",
+        "1.1.6245",
+        "1.2.6485",
+        "1.3.6898"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-2.0.7283-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "2.0.7283",
+      "sourceAppStoreReleaseDateUTC": "2014-11-25T23:09:02Z",
+      "observedVersionsWithSameSettings": [
+        "2.0.7283",
+        "2.1.7628",
+        "2.2.7835",
+        "2.2.8070",
+        "2.3.8108"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-2.4.8311-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "2.4.8311",
+      "sourceAppStoreReleaseDateUTC": "2015-03-26T00:09:28Z",
+      "observedVersionsWithSameSettings": [
+        "2.4.8311"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-2.5.8416-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "2.5.8416",
+      "sourceAppStoreReleaseDateUTC": "2015-04-09T00:21:16Z",
+      "observedVersionsWithSameSettings": [
+        "2.5.8416",
+        "2.5.8474"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 DLL에서 정적으로 복원한 글자 설정 데이터. 현행 공용 글꼴·셰이더 사용; 화면 동일 여부와 전체 카드 프레임·조명은 미검증."
+    },
+    {
+      "profile": "ios-3.1.10378-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "3.1.10378",
+      "sourceAppStoreReleaseDateUTC": "2015-09-19T00:24:38Z",
+      "observedVersionsWithSameSettings": [
+        "3.1.10378",
+        "3.2.10548",
+        "4.0.10784",
+        "4.0.10833",
+        "4.1.10956"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-4.2.11767-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "4.2.11767",
+      "sourceAppStoreReleaseDateUTC": "2016-02-26T03:45:06Z",
+      "observedVersionsWithSameSettings": [
+        "4.2.11767",
+        "4.3.12266"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-5.0.12574-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "5.0.12574",
+      "sourceAppStoreReleaseDateUTC": "2016-04-16T01:14:10Z",
+      "observedVersionsWithSameSettings": [
+        "5.0.12574"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-5.2.13557-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "5.2.13557",
+      "sourceAppStoreReleaseDateUTC": "2016-07-01T19:43:22Z",
+      "observedVersionsWithSameSettings": [
+        "5.2.13557",
+        "5.2.13865",
+        "6.0.13921",
+        "6.1.14366",
+        "6.1.14830",
+        "6.2.15153",
+        "7.0.15590",
+        "7.1.17720",
+        "7.1.18015",
+        "8.0.18336",
+        "8.0.18780",
+        "8.2.19371",
+        "8.2.19632",
+        "8.4.20022",
+        "9.0.20374",
+        "9.1.20970",
+        "9.2.21517",
+        "9.4.22115",
+        "10.0.22583",
+        "10.2.23180",
+        "10.2.23321",
+        "10.4.23576",
+        "11.0.23966",
+        "11.1.24377",
+        "11.2.24763",
+        "11.4.25252",
+        "12.0.25770",
+        "12.0.26059",
+        "12.0.26265",
+        "12.2.26727",
+        "12.2.26967",
+        "12.2.27059",
+        "12.4.27405",
+        "13.0.27845",
+        "13.0.28116",
+        "13.2.28855",
+        "13.2.29035",
+        "13.4.29349",
+        "14.0.29961",
+        "14.2.30795",
+        "14.4.31268",
+        "14.4.31353",
+        "14.6.31761",
+        "14.6.32007",
+        "14.6.32097",
+        "15.0.32826",
+        "15.0.33157",
+        "15.2.33717",
+        "15.2.34104",
+        "15.4.34670",
+        "15.4.35057"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-15.6.35747-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "15.6.35747",
+      "sourceAppStoreReleaseDateUTC": "2019-10-25T18:56:02Z",
+      "observedVersionsWithSameSettings": [
+        "15.6.35747",
+        "15.6.36453"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-16.0.37060-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "16.0.37060",
+      "sourceAppStoreReleaseDateUTC": "2019-11-23T00:57:26Z",
+      "observedVersionsWithSameSettings": [
+        "16.0.37060",
+        "16.0.38203",
+        "16.2.39832",
+        "16.2.40734",
+        "16.4.42174",
+        "16.4.42698",
+        "16.6.43246",
+        "17.0.44222",
+        "17.2.47374",
+        "17.2.48705",
+        "17.4.49534",
+        "17.6.53261",
+        "18.0.54613",
+        "18.0.56359",
+        "18.2.57893",
+        "18.6.63160",
+        "19.0.65614",
+        "19.2.68600",
+        "19.2.71130",
+        "19.4.71176",
+        "19.4.72661",
+        "19.4.73652"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-18.4.60352-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "18.4.60352",
+      "sourceAppStoreReleaseDateUTC": "2020-09-24T16:08:26Z",
+      "observedVersionsWithSameSettings": [
+        "18.4.60352",
+        "18.4.61154"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-19.6.74257-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "19.6.74257",
+      "sourceAppStoreReleaseDateUTC": "2021-02-10T20:28:12Z",
+      "observedVersionsWithSameSettings": [
+        "19.6.74257"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-20.0.77662-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "20.0.77662",
+      "sourceAppStoreReleaseDateUTC": "2021-03-17T17:07:08Z",
+      "observedVersionsWithSameSettings": [
+        "20.0.77662",
+        "20.0.79904"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-20.2.82032-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "20.2.82032",
+      "sourceAppStoreReleaseDateUTC": "2021-05-01T16:26:08Z",
+      "observedVersionsWithSameSettings": [
+        "20.2.82032",
+        "20.2.82657",
+        "20.4.84593",
+        "20.4.85548",
+        "20.8.86601"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-21.0.88998-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "21.0.88998",
+      "sourceAppStoreReleaseDateUTC": "2021-07-21T16:48:42Z",
+      "observedVersionsWithSameSettings": [
+        "21.0.88998",
+        "21.2.91456",
+        "21.3.93849",
+        "21.4.95431",
+        "21.4.121569"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-21.6.124702-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "21.6.124702",
+      "sourceAppStoreReleaseDateUTC": "2021-10-29T05:29:02Z",
+      "observedVersionsWithSameSettings": [
+        "21.6.124702",
+        "21.8.125997",
+        "22.0.126807",
+        "22.0.127581",
+        "22.2.130051",
+        "22.4.131660",
+        "22.6.134355",
+        "22.6.134647",
+        "23.0.135540",
+        "23.2.137922",
+        "23.2.138759",
+        "23.4.139963",
+        "23.6.142295",
+        "23.6.143410",
+        "24.0.145077",
+        "24.2.148211",
+        "24.4.150659",
+        "24.6.154203",
+        "24.6.154818",
+        "25.0.156347",
+        "25.0.159202",
+        "25.0.162171",
+        "25.2.162867",
+        "25.4.165029",
+        "25.6.168788",
+        "26.0.170824",
+        "26.2.174258",
+        "26.4.175913",
+        "26.6.179020"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-27.0.181554-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "27.0.181554",
+      "sourceAppStoreReleaseDateUTC": "2023-07-17T17:08:54Z",
+      "observedVersionsWithSameSettings": [
+        "27.0.181554"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-27.2.183876-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "27.2.183876",
+      "sourceAppStoreReleaseDateUTC": "2023-08-16T16:38:16Z",
+      "observedVersionsWithSameSettings": [
+        "27.2.183876",
+        "27.2.185054",
+        "27.4.185749",
+        "27.4.186942",
+        "27.6.187190",
+        "27.6.188646",
+        "28.0.189017",
+        "28.0.189384",
+        "28.2.190416"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    },
+    {
+      "profile": "ios-28.4.192412-minion",
+      "types": [
+        "MINION"
+      ],
+      "finish": "normal",
+      "sourcePlatform": "iOS",
+      "sourceVersion": "28.4.192412",
+      "sourceAppStoreReleaseDateUTC": "2024-01-12T17:31:16Z",
+      "observedVersionsWithSameSettings": [
+        "28.4.192412",
+        "28.4.192896",
+        "28.6.193541",
+        "29.0.195635",
+        "29.2.197829",
+        "29.2.198314",
+        "29.4.199503",
+        "29.6.201108",
+        "29.6.201392",
+        "30.0.203120",
+        "30.2.205267",
+        "30.4.206605",
+        "30.6.208591",
+        "31.0.210009",
+        "31.0.210640",
+        "31.2.212197",
+        "31.2.213490",
+        "31.2.214002",
+        "31.4.214839",
+        "31.6.216423",
+        "32.0.217964",
+        "32.2.219846",
+        "32.4.221908",
+        "33.0.223542",
+        "33.2.225406",
+        "33.2.226021",
+        "33.4.226928",
+        "33.6.228587",
+        "33.6.229238",
+        "34.0.229984",
+        "34.0.231191",
+        "34.2.231720",
+        "34.4.233275",
+        "34.6.235290",
+        "34.6.236529",
+        "35.0.237510",
+        "35.0.238003",
+        "35.0.238087",
+        "35.2.239550",
+        "35.2.240397",
+        "35.2.240818",
+        "35.4.241170",
+        "35.4.241958",
+        "35.6.243002",
+        "35.6.244584",
+        "36.0.245258",
+        "36.0.246003",
+        "36.2.248348",
+        "36.4.250339",
+        "36.6.251952",
+        "36.6.253216",
+        "37.0.254477",
+        "37.0.255790"
+      ],
+      "sourceDateBasis": "App Store metadata date, not necessarily game patch date",
+      "components": [
+        "이름",
+        "설명",
+        "마나",
+        "공격력",
+        "생명력",
+        "종족 글자 설정·배치"
+      ],
+      "description": "원본 글자 설정 데이터의 비교이며 화면 차이의 증명은 아님. 현행 공용 글꼴·셰이더 사용; 당시 전체 카드 프레임·조명 및 픽셀 완전 재현은 미검증."
+    }
+  ],
+  "componentEvidence": {
+    "5.0.12574": {
+      "version": "5.0.12574",
+      "archiveId": "817133003",
+      "archiveSha256": "2c53cb4a7b22bde57c4619bc48583f66ebed793bc2624af1045de45a027f6e9f",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "3fb60e2ae828041337130f7b49056b53b104155c5d40e7ffd865bcde886515ad"
+      },
+      "archiveUnchanged": true
+    },
+    "18.4.60352": {
+      "version": "18.4.60352",
+      "archiveId": "837858194",
+      "archiveSha256": "776aae9722dc8d6f324da5a382192cd6ba7dbd241caf2c0e4a3b9415c64fc19f",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "216d700a99edfd70099315cfb10a0c9f9fd0cbf350ab120e951eaba9d4ec8209"
+      },
+      "archiveUnchanged": true
+    },
+    "25.2.162867": {
+      "version": "25.2.162867",
+      "archiveId": "854351914",
+      "archiveSha256": "6d7e6473527a1e751faf7e92fb27b11adc2648b66e0d107ed3632a802d9136f3",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "5c587befba2ee4e36dacf7cad171a1454391d5d57cb28e67617a54d4f674d6cf"
+      },
+      "archiveUnchanged": true
+    },
+    "26.4.175913": {
+      "version": "26.4.175913",
+      "archiveId": "857300486",
+      "archiveSha256": "24c3ff2a0a28a7b89becb27c0cab621b0707752c0e8cb607462ca8c8884f6958",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-2ebe64b8-prefab-0.unity3d": "a416983f9bde421eccbae966dfc2455164f1cf007402e6637e36812b45b12a13"
+      },
+      "archiveUnchanged": true
+    },
+    "27.2.185054-location": {
+      "version": "27.2.185054",
+      "archiveId": "859687314",
+      "archiveSha256": "6b41391bc9ddd6922a754e7d7f789728683c3186bd297dcb9a8920a0ec51ce08",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-2ebe64b8-prefab-1.unity3d": "bb3b8d36bd1fa0b330feb2f5d2c0f701c6fc8cd4a1bb75a5b8af0921bc24f15e",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-910a3655-mesh-0.unity3d": "f935a27aafba2301f4f94d225d49859d77ebe6445fe14e00a862844ed1c4eccc"
+      },
+      "archiveUnchanged": true
+    },
+    "pc-1.0.0.3664-minion": {
+      "version": "1.0.0.3664",
+      "platform": "Windows",
+      "bundles": {
+        "actors.unity3d": "2b852da53ed29f80eb7d7334e8b6754fbf1b2dd8d07f0aebf319771ec61adf9c"
+      }
+    },
+    "pc-1.0.0.3749-minion": {
+      "version": "1.0.0.3749",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "bc7893ea3bbf80e29839cc1bfc8f0eda08b70df9916199a813e963e75b8a2d0d"
+      }
+    },
+    "pc-1.0.0.3890-minion": {
+      "version": "1.0.0.3890",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "af3f59dd4ec7e64bb38ceef2aacf24fcf5fe018cf6cba0de70f89220c1565d2b"
+      }
+    },
+    "pc-1.0.0.3937-minion": {
+      "version": "1.0.0.3937",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "52cb2cd666a97cd278cca7c8d56cac8e2a751a62f4daaf862b9ef090435a3e4f"
+      }
+    },
+    "pc-1.0.0.4217-minion": {
+      "version": "1.0.0.4217",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "b3336d6584988e7962b5927acc5436e4ff1c1840e520fcb8b83eae00f8290dad"
+      }
+    },
+    "pc-1.0.0.4243-minion": {
+      "version": "1.0.0.4243",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "3ebe3a7b1a612c68fd2da65fcdc382643034820d7f1cde6dcb33897e82a70e92"
+      }
+    },
+    "pc-1.0.0.4458-minion": {
+      "version": "1.0.0.4458",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "76c9419327841e52818a65b45cc89b748fdcf1ffeab4492ce7231685f18f725a"
+      }
+    },
+    "pc-1.0.0.4482-minion": {
+      "version": "1.0.0.4482",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "76c9419327841e52818a65b45cc89b748fdcf1ffeab4492ce7231685f18f725a"
+      }
+    },
+    "pc-1.0.0.4944-minion": {
+      "version": "1.0.0.4944",
+      "platform": "Windows",
+      "bundles": {
+        "actors0.unity3d": "8d97507b35e789eadebfab814e81c28ed830e7c67559a2fb761bf8539fce154d",
+        "shared0.unity3d": "e5c3dcb478cdc56d72a9dc98ca9450eb7ef51c678d76ae80ec134b09e18c90b1",
+        "shared1.unity3d": "fc1360cc1b6481280c4073f16533a53a3c661ca36ce61f93fcecad1c80c1da90"
+      }
+    },
+    "ios-1.0.0-minion": {
+      "version": "1.0.0",
+      "archiveId": "14836313",
+      "archiveSha256": "0189f57decf2bfed82accd66b11ff89ec98e3c2f27e0a398f66f6d55054a1cc4",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "e57ca75ca520ce17ef2151caee0bad7f5b2b456356a983c5c3b47759da1f9b17"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-1.0.5361-minion": {
+      "version": "1.0.5361",
+      "archiveId": "563785077",
+      "archiveSha256": "87aecfb9e6a0583078efaf7385a72cbd8ab34c426f291b940f3725e02460b04d",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "de641d6ec49ab7868323ccd211d33e0dae0563e8b1ec80d94353a64c9ee3c47b"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-1.1.6069-minion": {
+      "version": "1.1.6069",
+      "archiveId": "623982647",
+      "archiveSha256": "e407c39a376f2c403fed978293dd8009a268cebd071a4d792de0157e52e92ffa",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "9db6ec9ecb668b2bd2614a4abb722cb3cf80f4a872cf8d2678340a51626ea5d8"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-2.0.7283-minion": {
+      "version": "2.0.7283",
+      "archiveId": "801762729",
+      "archiveSha256": "7cf443c24ab3ef7f3f68c875216675cb0c642b3ceabb20cfcbee734665c98ca2",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "7a7a92e453c59da47b87862d1bfb1d54b70616c8c3876c009d398e8c8d9c08bc"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-2.4.8311-minion": {
+      "version": "2.4.8311",
+      "archiveId": "812076053",
+      "archiveSha256": "0ae071c91e72bf5f9fdc69ef5212a6a0386058c949cb840ae5ea39b22378f4a3",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "4d1bfa940eb42f9c048be5afcbee6cdc2e9e75100a63a1e49ae938bc838fa78a"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-2.5.8416-minion": {
+      "version": "2.5.8416",
+      "archiveId": "812120155",
+      "archiveSha256": "4fb442bcfbdf5081dc74368f3276efb35e9041a4ff9eb1d1fea034ba5967d130",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "7e6e998f246f98038f9cfd2f35cb152c1eb31785b3d8584ae4b4df911a69425a"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-3.1.10378-minion": {
+      "version": "3.1.10378",
+      "archiveId": "813247744",
+      "archiveSha256": "64e087f0249f007d5fce4afe4bbd3d21ae0ce9cf482e2c3e4164965078de9aaf",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "5deed70d10104bd7ccfb2151e0755a5fc9e5ccf61be4f10b5e12ded4561d913d"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-4.2.11767-minion": {
+      "version": "4.2.11767",
+      "archiveId": "816334723",
+      "archiveSha256": "2c95b9923224f9d3b895288b5f9cd11bde2379ee2856a126e6af6f0bfe0150e5",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "ff90493edd19a681dfd0e82fe684ec7c5e809cc12710fbc0f5305a735fb59b0f"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-5.0.12574-minion": {
+      "version": "5.0.12574",
+      "archiveId": "817133003",
+      "archiveSha256": "2c53cb4a7b22bde57c4619bc48583f66ebed793bc2624af1045de45a027f6e9f",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "3fb60e2ae828041337130f7b49056b53b104155c5d40e7ffd865bcde886515ad"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-5.2.13557-minion": {
+      "version": "5.2.13557",
+      "archiveId": "817892838",
+      "archiveSha256": "5b51c25f6e9948b0eb8389c0bcf70de86876129559d41fb9b9bfdaab1520a7b9",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/actors0.unity3d": "1c4a23529df0cf2c64beb842d176d81ac2745f310138a4bbf8b3c1c777fdf8f9"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-15.6.35747-minion": {
+      "version": "15.6.35747",
+      "archiveId": "833201978",
+      "archiveSha256": "e294c165b8582f4be3a1f96d32d852646cdd74d9c50f8fb057f8b560f311f057",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/tutorial0.unity3d": "01a4e6c36e5f24f1cb54fd7bdd66c542f82035157f8764763c5935707b8c1253",
+        "Payload/hearthstone.app/Data/Raw/Data/shared6.unity3d": "ea347e9ad244566d829b9fe9d9a19e3c8700e683e84a71deb6ef3d0800b97994"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-16.0.37060-minion": {
+      "version": "16.0.37060",
+      "archiveId": "833727081",
+      "archiveSha256": "43bfaaa997d86ccb2b0ab388e65c829f2b76b71a258919393b0c8423537fc98f",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/tutorial0.unity3d": "5a37de01745be31cbd131ab0d51a3bbb993f497ae183e8f607d3dad24b7208db",
+        "Payload/hearthstone.app/Data/Raw/Data/shared6.unity3d": "e120cd1e00f8d4e2384ae9ac155f7e81f842da9d8c55ce9d4233505176ddea0a"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-18.4.60352-minion": {
+      "version": "18.4.60352",
+      "archiveId": "837858194",
+      "archiveSha256": "776aae9722dc8d6f324da5a382192cd6ba7dbd241caf2c0e4a3b9415c64fc19f",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "216d700a99edfd70099315cfb10a0c9f9fd0cbf350ab120e951eaba9d4ec8209",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "b194b4ca119b542de267a0da43010cb8a500d004f5cc1e33124a7973f5a636f6"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-19.6.74257-minion": {
+      "version": "19.6.74257",
+      "archiveId": "840473960",
+      "archiveSha256": "2e640ced20d44b46f3e4c2be6c75ef13b9634c6dd037536eea25259533cef2fd",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "725514788b696d8923fca58bdeaf927618717d36a6b78e3d4c1e5fbd05818dcc",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "535f3606919e168dec50b8a1c83ae2e9f11f21426cd786d38e4666b6d2b453d2"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-20.0.77662-minion": {
+      "version": "20.0.77662",
+      "archiveId": "840752602",
+      "archiveSha256": "d989b20aa6e8e97261fe9d81304a63507069a98bcb70a12ed8bf8688c129b67d",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "1f5f0718fc7fbb691853c6d01dab1cab163a113ae782f5bddd0760cebf4d4b13",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "1f723e4f02d5aba697bebf60f20b4844c28395a94f0d94cd33d159900bf2fce7"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-20.2.82032-minion": {
+      "version": "20.2.82032",
+      "archiveId": "841778183",
+      "archiveSha256": "0afa291ced0e4dc13ed811d273dce1501d5f1892cac5250b5a837380c391d0eb",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "0832a0e15f90a5c334a78e9b87e3defa7da879e8ac0067dc3711d3a84a6d370e",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "86ae77c4cf07dc7577bf4a228e6b9d23625955ffa8b03ff4bfa17fd881878252"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-21.0.88998-minion": {
+      "version": "21.0.88998",
+      "archiveId": "843100521",
+      "archiveSha256": "5a9de626dd82b5ebb9e6cada9715064839e47275fbd097aeba300a95ea8ab2b2",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "b816c42f956d340eb76673e28f9875466bd437d9ade3ceb5b00bc6a562a1cc9d",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "54aa65c0560594d58785a87dc502c59c751d4a5f3c95d090add08667a9dfd0c5"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-21.6.124702-minion": {
+      "version": "21.6.124702",
+      "archiveId": "844977416",
+      "archiveSha256": "e396d920f021c6f5a9c46cd8b16cb6eff817df14226d32d5caf6b55974c60d38",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-0.unity3d": "96cbe6747d3a780a4738c186d87feda814c4b82e55b280b93a66529d50467b56",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-14.unity3d": "403b0844ab8b467e6b827758b8ac75de0c2f3652e17382a619d81abcaee6a228"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-27.0.181554-minion": {
+      "version": "27.0.181554",
+      "archiveId": "858571402",
+      "archiveSha256": "9d59e2e4826a7a9e22326ddeac559029da060ca4aee8bf4e398aa56b3be83942",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-2ebe64b8-prefab-0.unity3d": "3c8009de0e1e17d515c67433f5b8c9f90e141eb92447712b3b7b105781bd973d",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-910a3655-mesh-0.unity3d": "f935a27aafba2301f4f94d225d49859d77ebe6445fe14e00a862844ed1c4eccc"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-27.2.183876-minion": {
+      "version": "27.2.183876",
+      "archiveId": "859240319",
+      "archiveSha256": "041340cfb2c3d64f696dee4e46e85927ecf6273555f58ad9ed11f3162e9de440",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-2ebe64b8-prefab-0.unity3d": "700f8bcde73e7e3b1793d62c9fd0f8e8e5abf63796e1aaed40f8ce07d1270225",
+        "Payload/hearthstone.app/Data/Raw/Data/initial_base_global-910a3655-mesh-0.unity3d": "f935a27aafba2301f4f94d225d49859d77ebe6445fe14e00a862844ed1c4eccc"
+      },
+      "archiveUnchanged": true
+    },
+    "ios-28.4.192412-minion": {
+      "version": "28.4.192412",
+      "archiveId": "862871365",
+      "archiveSha256": "57e911213dedf7f43c6bc21fee161f7301201120254b2bed7315641f1cc0e5de",
+      "bundles": {
+        "Payload/hearthstone.app/Data/Raw/Data/essential_base_global-prefab-0.unity3d": "1c16300364315062ec7eb618c791bb4450407bfcf39736c4eaec63b400556675",
+        "Payload/hearthstone.app/Data/Raw/Data/essential_base_global-mesh-0.unity3d": "e4dab083e0b6f7aa5d69f4cff3d0748e873e4e4913252b482ca96115575d090c"
+      },
+      "archiveUnchanged": true
+    }
+  },
+  "auditCorrections": [
+    {
+      "component": "황금 장소 본체",
+      "status": "additional_native_channels",
+      "evidence": "정점 위치·기본 UV·삼각형이 같아도 보조 UV·노멀·탄젠트는 다름. 따라서 25.2 원본 메쉬를 별도 추가. 단순 형상 동등성만으로 전체 메쉬 중복을 판정하지 않음.",
+      "triangleChannelMaxDelta": {
+        "vertices": 0,
+        "uv": 0,
+        "uv2": 0.6708547472953796,
+        "normals": 0.038046181201934814,
+        "tangents": 0.03802971541881561,
+        "colors": 0
+      },
+      "nativeSameChannelVersions": [
+        "25.2.162867",
+        "25.4.165029",
+        "25.6.168788",
+        "26.0.170824",
+        "26.2.174258",
+        "26.4.175913",
+        "26.6.179020",
+        "27.0.181554",
+        "27.2.183876"
+      ],
+      "changePatchVersion": null,
+      "changePatchDateKorea": null
+    },
+    {
+      "component": "종족 띠 그림",
+      "status": "design_replacement_unverified",
+      "evidence": "7.1→8.0 기본 텍스처 RGB 픽셀은 변경되지만 종족 띠 메쉬·UV·알파가 같음. 8.0→10.0도 작은 RGB 차이. 재압축/보정과 디자인 교체를 구분하며 가젯잔 교체로 단정하지 않음."
+    },
+    {
+      "component": "감사 범위",
+      "status": "bounded",
+      "evidence": "229개 보유 IPA의 기존 메타데이터에서 후보를 찾은 뒤 관련 원본을 직접 대조. 모든 실제 패치·모든 픽셀의 전수 연속성을 증명한 것은 아님. 프레임·텍스트 구성 요소만 포함하며 Diamond/Signature는 제외."
+    }
+  ],
+  "verifiedOnKorea": "2026-11-01",
+  "earlyMinionTextAudit": {
+    "sourceSnapshots": 229,
+    "decodedSnapshots": 224,
+    "unresolvedSnapshots": [
+      {
+        "version": "2.6.8834",
+        "count": 2
+      },
+      {
+        "version": "2.7.9166",
+        "count": 1
+      },
+      {
+        "version": "2.8.9554",
+        "count": 1
+      },
+      {
+        "version": "3.0.9786",
+        "count": 1
+      }
+    ],
+    "reason": "해당 IPA에 원본 Actor/UberText 직렬화 스키마 복원에 필요한 관리 어셈블리가 없어 텍스트 설정 확인 불가.",
+    "grouping": "원본 설정·배치 데이터 기준. 출력 변화 횟수로 해석하지 않음."
+  },
+  "normalMinionTypographySample": {
+    "verifiedOnKorea": "2026-11-01",
+    "scope": "Same normal minion, current shared frame, font and renderer; compares full PNG bytes for the specified sample only. This is not a historical game shader, lighting or font comparison.",
+    "request": {
+      "source_id": null,
+      "kind": "MINION",
+      "card_class": "MAGE",
+      "rarity": null,
+      "name": "원본 글자 배치 검증",
+      "description": "<b>전투의 함성:</b>\n가나다라마바사아자차카타파하\n글자 높이와 줄바꿈",
+      "mana": "5",
+      "attack": "4",
+      "health": "6",
+      "armor": null,
+      "durability": "3",
+      "tier": null,
+      "race": "야수",
+      "school": null,
+      "finish": null,
+      "frame": null,
+      "watermark": null,
+      "artwork_path": null,
+      "layer": null,
+      "output_path": null,
+      "battlegrounds": false,
+      "in_play": false,
+      "use_original_artwork": false
+    },
+    "groups": [
+      {
+        "label": "A",
+        "pngSha256": "5cfc2fa7e4981df84ed93bd93acdb00137e2aad283912a1be14f6d8c865d46de",
+        "profiles": [
+          "pc-1.0.0.3664-minion",
+          "pc-1.0.0.3749-minion"
+        ]
+      },
+      {
+        "label": "B",
+        "pngSha256": "8a2549030c2909eba2c23ce6b821001f5c94258f2ece4fa6fa93ad2e3faa8e25",
+        "profiles": [
+          "pc-1.0.0.3890-minion",
+          "pc-1.0.0.3937-minion",
+          "pc-1.0.0.4217-minion",
+          "pc-1.0.0.4243-minion",
+          "pc-1.0.0.4458-minion",
+          "pc-1.0.0.4482-minion",
+          "pc-1.0.0.4944-minion"
+        ]
+      },
+      {
+        "label": "C",
+        "pngSha256": "af035d6b1e2a990005e6980af62f0691a3733dceca1ffb218f8728027576c5c3",
+        "profiles": [
+          "ios-1.0.0-minion",
+          "ios-1.0.5361-minion",
+          "ios-1.1.6069-minion"
+        ]
+      },
+      {
+        "label": "D",
+        "pngSha256": "aa4156f262beb5875be9bee4509e567fedfe3abbc805cf32980171c9f360fb73",
+        "profiles": [
+          "ios-2.0.7283-minion"
+        ]
+      },
+      {
+        "label": "E",
+        "pngSha256": "466c11c838878ab7d7a5bf371aa1611dbadf79aa1d1d0e895ab81bd770729995",
+        "profiles": [
+          "ios-2.4.8311-minion",
+          "ios-2.5.8416-minion"
+        ]
+      },
+      {
+        "label": "F",
+        "pngSha256": "19b2708c0769744aa324d4469510baa86e095f3456d30d495cf3c7d50bd42bd8",
+        "profiles": [
+          "ios-3.1.10378-minion",
+          "ios-4.2.11767-minion",
+          "ios-5.0.12574-minion"
+        ]
+      },
+      {
+        "label": "G",
+        "pngSha256": "7904de17de8c1590094b802e3e981020a9992a9865b7f6823c377fa8af173f80",
+        "profiles": [
+          "ios-5.2.13557-minion",
+          "ios-15.6.35747-minion",
+          "ios-16.0.37060-minion",
+          "ios-19.6.74257-minion"
+        ]
+      },
+      {
+        "label": "H",
+        "pngSha256": "19ed925112e149155d6c75dbb3da56dd9245406909a1b2584ff0343d3c6e640a",
+        "profiles": [
+          "ios-18.4.60352-minion"
+        ]
+      },
+      {
+        "label": "I",
+        "pngSha256": "aadce14875f8e454da9b86a0688937f2ce6c19b156ba9e35f1a0bee2c71cb1a0",
+        "profiles": [
+          "ios-20.0.77662-minion"
+        ]
+      },
+      {
+        "label": "J",
+        "pngSha256": "216718d7febb6a026669967aa2fa3cd44f38be84a5441a09440c803d392859db",
+        "profiles": [
+          "ios-20.2.82032-minion"
+        ]
+      },
+      {
+        "label": "K",
+        "pngSha256": "e3065b0829e856fbb590140154c9fd87f0f738d8bfd8db18e5005920b16a4b76",
+        "profiles": [
+          "ios-21.0.88998-minion",
+          "ios-21.6.124702-minion",
+          "ios-27.0.181554-minion",
+          "ios-27.2.183876-minion",
+          "ios-28.4.192412-minion"
+        ]
+      }
+    ]
+  }
+}
