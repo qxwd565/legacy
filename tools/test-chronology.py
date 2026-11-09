@@ -158,13 +158,13 @@ def main():
     assert "$3" in value_at("EX1_320", "text", "2023-08-23")
     # Dream-card and Molten Giant functionality must follow actual patch dates.
     assert "하수인" in value_at("DREAM_02", "text", "2023-01-01")
-    assert "캐릭터" in value_at("DREAM_02", "text", "2024-03-28")
+    assert "캐릭터" in value_at("DREAM_02", "text", "2024-03-29")
     assert value_at("DREAM_04", "cost", "2022-01-01") == 1
-    assert value_at("DREAM_04", "cost", "2024-03-28") == 0
+    assert value_at("DREAM_04", "cost", "2024-03-29") == 0
     assert "적 하수인" in value_at("DREAM_04", "text", "2022-01-01")
-    assert "주인의 손" in value_at("DREAM_04", "text", "2024-03-28")
+    assert "주인의 손" in value_at("DREAM_04", "text", "2024-03-29")
     assert "+4/+4" in value_at("DREAM_05", "text", "2022-01-01")
-    assert "+5/+5" in value_at("DREAM_05", "text", "2024-03-28")
+    assert "+5/+5" in value_at("DREAM_05", "text", "2024-03-29")
     assert "받은 피해" in value_at("EX1_620", "text", "2024-07-16")
     assert "잃은 생명력" in value_at("EX1_620", "text", "2024-07-17")
     assert get("CS3_014")["releasedAt"] == "2022-04-06"
@@ -176,6 +176,16 @@ def main():
         assert "모면" not in value_at(cid, "text", "2024-03-11")
         assert value_at(cid, "mechanics", "2024-03-12") == ["ELUSIVE"]
         assert value_at(cid, "text", "2024-03-12") == "<b>모면</b>"
+    assert value_at("DREAM_02", "cost", "2024-03-28") == 3
+    assert value_at("DREAM_02", "cost", "2024-03-29") == 2
+    assert value_at("DREAM_04", "cost", "2024-03-28") == 1
+    assert "+4/+4" in value_at("DREAM_05", "text", "2024-03-28")
+    for number in range(1, 13):
+        cid = f"GIFT_{number:02d}"
+        assert get(cid)["releasedAt"] == "2024-02-14"
+        assert get(cid)["releaseStatus"] == "verified"
+    assert "번개 화살" in value_at("GIFT_06", "text", "2024-03-28")
+    assert "번개 폭풍" in value_at("GIFT_06", "text", "2024-03-29")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

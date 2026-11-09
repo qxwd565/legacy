@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "First playable baseline dates for Harth Stonebrew plus 11 class Gifts; Thrall Gift Lightning Bolt to Lightning Storm balance history. Cosmetic bolding on unchanged cards is retained rather than assigned an invented date.",
+  "release": "2024-02-14",
+  "cards": [
+    "GIFT_01",
+    "GIFT_02",
+    "GIFT_03",
+    "GIFT_04",
+    "GIFT_05",
+    "GIFT_06",
+    "GIFT_07",
+    "GIFT_08",
+    "GIFT_09",
+    "GIFT_10",
+    "GIFT_11",
+    "GIFT_12"
+  ],
+  "sources": [
+    "https://hearthstone.blizzard.com/ko-kr/news/24056184",
+    "https://www.inven.co.kr/board/hs/3508/20412",
+    "https://github.com/HearthSim/hsdata/commit/c3b395eca877e283473a9b7e9a8e851e9bb8cd0d",
+    "https://hearthstone.blizzard.com/ko-kr/news/24064739",
+    "https://www.inven.co.kr/board/hs/3508/20725"
+  ],
+  "patches": {
+    "GIFT_06": {
+      "date": "2024-03-29",
+      "before": "Lightning Bolt, Hex or Bloodlust",
+      "after": "Lightning Storm, Hex or Bloodlust"
+    }
+  }
+}

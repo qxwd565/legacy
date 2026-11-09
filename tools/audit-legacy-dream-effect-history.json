@@ -14,7 +14,7 @@
       "id": "DREAM_02",
       "dates": [
         "2021-03-26",
-        "2024-03-28"
+        "2024-03-29"
       ],
       "change": "Damage all characters -> all minions -> all characters",
       "source": "https://hearthstone.wiki.gg/wiki/Ysera_Awakens"
@@ -23,7 +23,7 @@
       "id": "DREAM_04",
       "dates": [
         "2021-03-26",
-        "2024-03-28"
+        "2024-03-29"
       ],
       "change": "0 mana any minion -> 1 mana enemy minion -> 0 mana any minion",
       "source": "https://hearthstone.wiki.gg/wiki/Dream"
@@ -32,7 +32,7 @@
       "id": "DREAM_05",
       "dates": [
         "2021-03-26",
-        "2024-03-28"
+        "2024-03-29"
       ],
       "change": "Give +5/+5 -> +4/+4 -> +5/+5",
       "source": "https://hearthstone.wiki.gg/wiki/Nightmare"
@@ -43,5 +43,15 @@
       "change": "cost reduction now uses missing Health instead of damage taken",
       "source": "https://hearthstone.wiki.gg/wiki/Molten_Giant"
     }
-  ]
+  ],
+  "korean29_0_3DateCorrection": {
+    "date": "2024-03-29",
+    "evidence": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24064739",
+      "https://us.forums.blizzard.com/en/hearthstone/t/2903-patch-notes/124049",
+      "https://www.inven.co.kr/board/hs/3508/20725"
+    ],
+    "scope": "Correct the Korean calendar date of the archived same-ID 29.0.3 card-definition changes. Do not conflate this with the separate 29.0.2 Dream-card generation selection hotfix.",
+    "separateHotfix": "https://us.forums.blizzard.com/en/hearthstone/t/2902-patch-notes/123384"
+  }
 }

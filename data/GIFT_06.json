@@ -23,7 +23,7 @@
     "battlegroundsAssociatedRaces": null,
     "id": "GIFT_06",
     "name": "스랄의 선물",
-    "text": "[x]<b>일시적</b>인 번개 폭풍,<br></br>사술 또는 피의 욕망을<br></br><b>발견</b>합니다.",
+    "text": "일시적인 번개 화살, 사술 또는 피의 욕망을 <b>발견</b>합니다.",
     "set": "LEGACY",
     "type": "SPELL",
     "cardClass": "SHAMAN",
@@ -79,9 +79,16 @@
     ],
     "nativeRawText": "[x]<b>일시적</b>인 번개 폭풍,\n사술 또는 피의 욕망을\n<b>발견</b>합니다.",
     "nativeTextBuilder": 0,
-    "releasedAt": null,
-    "releaseStatus": "pending",
-    "patches": []
+    "releasedAt": "2024-02-14",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2024-03-29",
+        "changes": {
+          "text": "[x]<b>일시적</b>인 번개 폭풍,<br></br>사술 또는 피의 욕망을<br></br><b>발견</b>합니다."
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [
