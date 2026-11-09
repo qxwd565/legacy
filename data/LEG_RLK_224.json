@@ -6,10 +6,12 @@
     "attack": 3,
     "id": "LEG_RLK_224",
     "name": "감독관 프리지다라",
-    "text": "<b>전투의 함성:</b> 주문을 둘 뽑습니다. 두 주문 모두 냉기 주문이면, 모든 적에게 피해도 2 줍니다.",
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "LEGENDARY",
     "collectible": true
+  },
+  "2022-12-07": {
+    "text": "<b>전투의 함성:</b> 주문을 둘 뽑습니다. 두 주문 모두 냉기 주문이면, 모든 적에게 피해도 2 줍니다."
   }
 }

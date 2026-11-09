@@ -4,11 +4,13 @@
     "cost": 1,
     "id": "LEG_RLK_715",
     "name": "룬벼리기",
-    "text": "[x]무기를 뽑습니다.<br></br><b>시체</b>를 소모해 그 무기의<br></br>비용이 (1) 감소합니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
     "spellSchool": "SHADOW",
     "collectible": true
+  },
+  "2022-12-07": {
+    "text": "[x]무기를 뽑습니다.<br></br><b>시체</b>를 소모해 그 무기의<br></br>비용이 (1) 감소합니다."
   }
 }

@@ -4,10 +4,15 @@
     "cost": 2,
     "id": "LEG_RLK_125",
     "name": "절멸",
-    "text": "하수인을 처치합니다. 내 영웅에게 피해를 3 줍니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
     "collectible": true
+  },
+  "2022-12-07": {
+    "text": "[x]하수인을 처치합니다.<br></br>그 하수인의 생명력만큼<br></br>내 영웅에게 피해를 줍니다."
+  },
+  "2022-12-20": {
+    "text": "하수인을 처치합니다. 내 영웅에게 피해를 3 줍니다."
   }
 }

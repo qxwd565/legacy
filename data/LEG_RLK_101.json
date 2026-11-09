@@ -4,11 +4,13 @@
     "cost": 2,
     "id": "LEG_RLK_101",
     "name": "해동",
-    "text": "카드를 뽑습니다. <b>시체</b>를 2개 소모해 카드를 추가로 뽑습니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
     "spellSchool": "FROST",
     "collectible": true
+  },
+  "2022-12-07": {
+    "text": "카드를 뽑습니다. <b>시체</b>를 2개 소모해 카드를 추가로 뽑습니다."
   }
 }

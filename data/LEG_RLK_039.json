@@ -4,10 +4,12 @@
     "cost": 1,
     "id": "LEG_RLK_039",
     "name": "역병에 오염된 곡물",
-    "text": "<b>시체</b>를 4개 얻습니다. 뽑을 때 2/2 언데드를 소환하는 상자 4개를 내 덱에 섞어 넣습니다.",
     "type": "SPELL",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
     "collectible": true
+  },
+  "2022-12-07": {
+    "text": "<b>시체</b>를 4개 얻습니다. 뽑을 때 2/2 언데드를 소환하는 상자 4개를 내 덱에 섞어 넣습니다."
   }
 }

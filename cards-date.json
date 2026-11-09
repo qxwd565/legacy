@@ -38139,11 +38139,11 @@
       "cost": 1,
       "id": "LEG_RLK_039",
       "name": "역병에 오염된 곡물",
-      "text": "<b>시체</b>를 4개 얻습니다. 뽑을 때 2/2 언데드를 소환하는 상자 4개를 내 덱에 섞어 넣습니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>시체</b>를 4개 얻습니다. 뽑을 때 2/2 언데드를 소환하는 상자 4개를 내 덱에 섞어 넣습니다."
     },
     {
       "art": "art/LEG_RLK_071.png",
@@ -38220,7 +38220,6 @@
       "attack": 4,
       "id": "LEG_RLK_071",
       "name": "패치워크",
-      "text": "<b>전투의 함성:</b> 상대편의<br></br>손, 덱, 전장에 있는 무작위 하수인을 처치합니다. ",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "LEGENDARY",
@@ -38228,7 +38227,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>전투의 함성:</b> 상대편의<br></br>손, 덱, 전장에 있는 무작위 하수인을 처치합니다. "
     },
     {
       "art": "art/LEG_RLK_077.png",
@@ -38315,11 +38315,11 @@
       "attack": 3,
       "id": "LEG_RLK_077",
       "name": "정신지배자",
-      "text": "<b>전투의 함성:</b><br></br><b>속공</b>과 <b>환생</b> 능력이 있는 1/1 싸움꾼을 둘 소환합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "COMMON",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b><br></br><b>속공</b>과 <b>환생</b> 능력이 있는 1/1 싸움꾼을 둘 소환합니다."
     },
     {
       "art": "art/LEG_RLK_079.png",
@@ -38391,7 +38391,6 @@
       "attack": 1,
       "id": "LEG_RLK_079",
       "name": "맹독 송장",
-      "text": "<b>전투의 함성:</b> 적과<br></br>내 영웅에게 피해를<br></br>2 줍니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
@@ -38399,7 +38398,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>전투의 함성:</b> 적과<br></br>내 영웅에게 피해를<br></br>2 줍니다."
     },
     {
       "art": "art/LEG_RLK_082.png",
@@ -38491,7 +38491,6 @@
       "attack": 4,
       "id": "LEG_RLK_082",
       "name": "죽음의 인도자 사울팽",
-      "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br>이 하수인을 내 손으로 다시 가져옵니다. 마나 대신 생명력을 비용으로 사용합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "LEGENDARY",
@@ -38499,7 +38498,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br>이 하수인을 내 손으로 다시 가져옵니다. 마나 대신 생명력을 비용으로 사용합니다."
     },
     {
       "art": "art/LEG_RLK_085.png",
@@ -38596,7 +38596,6 @@
       "attack": 9,
       "id": "LEG_RLK_085",
       "name": "군주 매로우가르",
-      "text": "<b>전투의 함성:</b> 내 모든 <b>시체</b>를 <b>속공</b> 능력이 있는 1/1 되살아난 골렘으로 되살립니다. 되살리지 못한 골렘의 수만큼 무작위 골렘에게 +2/+2를 부여합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "LEGENDARY",
@@ -38604,7 +38603,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>전투의 함성:</b> 내 모든 <b>시체</b>를 <b>속공</b> 능력이 있는 1/1 되살아난 골렘으로 되살립니다. 되살리지 못한 골렘의 수만큼 무작위 골렘에게 +2/+2를 부여합니다."
     },
     {
       "art": "art/LEG_RLK_101.png",
@@ -38669,12 +38669,12 @@
       "cost": 2,
       "id": "LEG_RLK_101",
       "name": "해동",
-      "text": "카드를 뽑습니다. <b>시체</b>를 2개 소모해 카드를 추가로 뽑습니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
       "spellSchool": "FROST",
-      "collectible": true
+      "collectible": true,
+      "text": "카드를 뽑습니다. <b>시체</b>를 2개 소모해 카드를 추가로 뽑습니다."
     },
     {
       "art": "art/LEG_RLK_115.png",
@@ -38746,7 +38746,6 @@
       "attack": 3,
       "id": "LEG_RLK_115",
       "name": "역겨운 거수",
-      "text": "적 캐릭터들은<br></br>치유될 수 없습니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "EPIC",
@@ -38754,7 +38753,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "적 캐릭터들은<br></br>치유될 수 없습니다."
     },
     {
       "art": "art/LEG_RLK_125.png",
@@ -38809,11 +38809,11 @@
       "cost": 2,
       "id": "LEG_RLK_125",
       "name": "절멸",
-      "text": "하수인을 처치합니다. 내 영웅에게 피해를 3 줍니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "EPIC",
-      "collectible": true
+      "collectible": true,
+      "text": "하수인을 처치합니다. 내 영웅에게 피해를 3 줍니다."
     },
     {
       "art": "art/LEG_RLK_224.png",
@@ -38885,11 +38885,11 @@
       "attack": 3,
       "id": "LEG_RLK_224",
       "name": "감독관 프리지다라",
-      "text": "<b>전투의 함성:</b> 주문을 둘 뽑습니다. 두 주문 모두 냉기 주문이면, 모든 적에게 피해도 2 줍니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "LEGENDARY",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>전투의 함성:</b> 주문을 둘 뽑습니다. 두 주문 모두 냉기 주문이면, 모든 적에게 피해도 2 줍니다."
     },
     {
       "art": "art/LEG_RLK_226.png",
@@ -38981,7 +38981,6 @@
       "attack": 4,
       "id": "LEG_RLK_226",
       "name": "이미야르 죽음의 사자",
-      "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br><b>시체</b>를 3개 소모해 <b>도발</b> 능력이 있는 3/3 되살아난 이미야르를 소환합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
@@ -38989,7 +38988,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br><b>시체</b>를 3개 소모해 <b>도발</b> 능력이 있는 3/3 되살아난 이미야르를 소환합니다."
     },
     {
       "art": "art/LEG_RLK_705.png",
@@ -39049,11 +39049,11 @@
       "cost": 3,
       "id": "LEG_RLK_705",
       "name": "무덤 순찰",
-      "text": "<b>환생</b> 능력이 있는 1/1 좀비를<br></br>둘 소환합니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "<b>환생</b> 능력이 있는 1/1 좀비를<br></br>둘 소환합니다."
     },
     {
       "art": "art/LEG_RLK_710.png",
@@ -39120,11 +39120,11 @@
       "durability": 3,
       "id": "LEG_RLK_710",
       "name": "서릿발송곳니 검",
-      "text": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다.",
       "type": "WEAPON",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
-      "collectible": true
+      "collectible": true,
+      "text": "내 영웅이 공격한 후에, 내 손에 있는 주문의 비용이 (1) 감소합니다."
     },
     {
       "art": "art/LEG_RLK_715.png",
@@ -39184,12 +39184,12 @@
       "cost": 1,
       "id": "LEG_RLK_715",
       "name": "룬벼리기",
-      "text": "[x]무기를 뽑습니다.<br></br><b>시체</b>를 소모해 그 무기의<br></br>비용이 (1) 감소합니다.",
       "type": "SPELL",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
       "spellSchool": "SHADOW",
-      "collectible": true
+      "collectible": true,
+      "text": "[x]무기를 뽑습니다.<br></br><b>시체</b>를 소모해 그 무기의<br></br>비용이 (1) 감소합니다."
     },
     {
       "art": "art/LEG_RLK_744.png",
@@ -39266,7 +39266,6 @@
       "attack": 8,
       "id": "LEG_RLK_744",
       "name": "기워 붙인 거인",
-      "text": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "EPIC",
@@ -39274,7 +39273,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다."
     },
     {
       "art": "art/LEG_RLK_752.png",
@@ -39356,7 +39356,6 @@
       "attack": 4,
       "id": "LEG_RLK_752",
       "name": "서리 조각사",
-      "text": "<b>전투의 함성:</b> \"<b>죽음의 메아리:</b> 무작위 적에게 피해를 2 줌\" 능력이 있는 2/1 서리 정령을 둘 소환합니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
@@ -39364,7 +39363,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>전투의 함성:</b> \"<b>죽음의 메아리:</b> 무작위 적에게 피해를 2 줌\" 능력이 있는 2/1 서리 정령을 둘 소환합니다."
     },
     {
       "art": "art/LEG_RLK_753.png",
@@ -39446,7 +39446,6 @@
       "attack": 2,
       "id": "LEG_RLK_753",
       "name": "뼈도굴 외눈깨비",
-      "text": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다.",
       "type": "MINION",
       "cardClass": "DEATHKNIGHT",
       "rarity": "RARE",
@@ -39454,7 +39453,8 @@
       "races": [
         "UNDEAD"
       ],
-      "race": "언데드"
+      "race": "언데드",
+      "text": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다."
     },
     {
       "art": "art/LEG_TTN_908.png",

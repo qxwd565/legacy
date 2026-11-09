@@ -6,7 +6,6 @@
     "attack": 8,
     "id": "LEG_RLK_744",
     "name": "기워 붙인 거인",
-    "text": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다.",
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
@@ -17,5 +16,8 @@
       "UNDEAD"
     ],
     "race": "언데드"
+  },
+  "2022-12-07": {
+    "text": "이번 게임에서 내가 소모한 <b>시체</b> 하나당 비용이 (1)씩 감소합니다."
   }
 }

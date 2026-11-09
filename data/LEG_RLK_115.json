@@ -6,7 +6,6 @@
     "attack": 3,
     "id": "LEG_RLK_115",
     "name": "역겨운 거수",
-    "text": "적 캐릭터들은<br></br>치유될 수 없습니다.",
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
@@ -17,5 +16,8 @@
       "UNDEAD"
     ],
     "race": "언데드"
+  },
+  "2022-12-07": {
+    "text": "적 캐릭터들은<br></br>치유될 수 없습니다."
   }
 }
