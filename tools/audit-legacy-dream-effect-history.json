@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "description": "Specific gameplay effects and release dates missed by existing numeric and text audits",
+  "changes": [
+    {
+      "id": "CS3_014",
+      "date": "2022-04-06",
+      "change": "Legacy version first release (Core existed 2021)",
+      "source": "https://hearthstone.wiki.gg/wiki/Crimson_Clergy"
+    },
+    {
+      "id": "DREAM_02",
+      "dates": [
+        "2021-03-26",
+        "2024-03-28"
+      ],
+      "change": "Damage all characters -> all minions -> all characters",
+      "source": "https://hearthstone.wiki.gg/wiki/Ysera_Awakens"
+    },
+    {
+      "id": "DREAM_04",
+      "dates": [
+        "2021-03-26",
+        "2024-03-28"
+      ],
+      "change": "0 mana any minion -> 1 mana enemy minion -> 0 mana any minion",
+      "source": "https://hearthstone.wiki.gg/wiki/Dream"
+    },
+    {
+      "id": "DREAM_05",
+      "dates": [
+        "2021-03-26",
+        "2024-03-28"
+      ],
+      "change": "Give +5/+5 -> +4/+4 -> +5/+5",
+      "source": "https://hearthstone.wiki.gg/wiki/Nightmare"
+    },
+    {
+      "id": "EX1_620",
+      "date": "2024-07-17",
+      "change": "cost reduction now uses missing Health instead of damage taken",
+      "source": "https://hearthstone.wiki.gg/wiki/Molten_Giant"
+    }
+  ]
+}

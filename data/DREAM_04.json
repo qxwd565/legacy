@@ -73,7 +73,16 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "spellSchool": "NATURE"
+          "spellSchool": "NATURE",
+          "cost": 1,
+          "text": "적 하수인을 상대편의 손으로 돌려보냅니다."
+        }
+      },
+      {
+        "date": "2024-03-28",
+        "changes": {
+          "cost": 0,
+          "text": "하수인을 주인의 손으로 돌려보냅니다."
         }
       }
     ]
