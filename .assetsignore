@@ -1,0 +1,19 @@
+# Exclude repository tooling and deployment configuration from the public CDN.
+.git/
+.github/
+.wrangler/
+node_modules/
+tools/
+docs/
+README.md
+.nojekyll
+wrangler.toml
+wrangler.json
+wrangler.jsonc
+.assetsignore
+package.json
+package-lock.json
+.env
+.env.*
+.dev.vars
+.dev.vars.*

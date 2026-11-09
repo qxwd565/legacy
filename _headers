@@ -1,0 +1,4 @@
+# Allow HSdeck front-end to fetch JSON, image, font and texture resources cross-origin.
+/*
+  Access-Control-Allow-Origin: *
+  Cross-Origin-Resource-Policy: cross-origin
