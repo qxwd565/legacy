@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "Three Legacy gameplay effects mistakenly included in initial or 2021 states. Numeric changes from the existing archive reconstruction remain unchanged.",
+  "sources": [
+    "https://hearthstone.blizzard.com/ko-kr/news/24187196/32-0",
+    "https://hearthstone.blizzard.com/en-us/news/24177978/welcome-to-the-year-of-the-raptor",
+    "https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/5L4LK5ASYDUL1739227664823.pdf"
+  ],
+  "dateBasis": "Korean 32.0 notes explicitly distinguish March 19 Core text updates from March 26 roster rotation.",
+  "changes": {
+    "EX1_002": {
+      "date": "2025-03-19",
+      "fields": [
+        "text",
+        "mechanics"
+      ],
+      "effect": "Tradeable added"
+    },
+    "EX1_110": {
+      "date": "2025-03-19",
+      "fields": [
+        "text",
+        "mechanics"
+      ],
+      "effect": "Taunt added; 2021 5/5 stat and summoned Baine change retained"
+    },
+    "EX1_134": {
+      "date": "2025-03-19",
+      "fields": [
+        "text"
+      ],
+      "effect": "Combo damage 2 to 3"
+    }
+  }
+}

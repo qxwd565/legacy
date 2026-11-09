@@ -10,6 +10,7 @@ on:
       - 'tools/archived-build-dates.json'
       - 'tools/legacy-balance-candidates.json'
       - 'tools/test-chronology.py'
+      - 'tools/normalize-card-linebreaks.py'
       - 'tools/verified-legacy-balances.json'
       - 'tools/apply-verified-balances.py'
       - 'release-policy.json'
@@ -32,6 +33,8 @@ jobs:
         run: python3 tools/apply-verified-balances.py
       - name: Import verified archived Legacy numeric changes
         run: python3 tools/import-archived-stats.py
+      - name: Normalize display line breaks without changing raw evidence
+        run: python3 tools/normalize-card-linebreaks.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Verify baseline, patches, current cache, and historical lookups

@@ -21,8 +21,7 @@
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
     "mechanics": [
-      "DEATHRATTLE",
-      "TAUNT"
+      "DEATHRATTLE"
     ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_110",
@@ -125,14 +124,24 @@
       {
         "date": "2016-08-10",
         "changes": {
-          "text": "<b>죽음의 메아리:</b><br>4/5 바인 블러드후프를 소환합니다."
+          "text": "<b>죽음의 메아리:</b><br></br>4/5 바인 블러드후프를 소환합니다."
         }
       },
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
+          "text": "<b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
           "attack": 5
+        }
+      },
+      {
+        "date": "2025-03-19",
+        "changes": {
+          "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
+          "mechanics": [
+            "DEATHRATTLE",
+            "TAUNT"
+          ]
         }
       }
     ]

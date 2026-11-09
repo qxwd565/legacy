@@ -125,6 +125,15 @@ def main():
     sorc = get("EX1_608")["patches"]
     assert next(e for e in sorc if e["date"] == "2021-03-26")["changes"]["text"] == "내 주문들의 비용이 (1) 감소합니다."
     assert any(e["date"] == "2024-08-30" and "1보다 낮아지진" in e["changes"].get("text","") for e in sorc)
+    # Core 2025 gameplay changes are distinct from the 2021 stat refresh.
+    assert "TRADEABLE" not in value_at("EX1_002", "mechanics", "2025-03-18")
+    assert "TRADEABLE" in value_at("EX1_002", "mechanics", "2025-03-19")
+    assert "TAUNT" not in value_at("EX1_110", "mechanics", "2025-03-18")
+    assert "TAUNT" in value_at("EX1_110", "mechanics", "2025-03-19")
+    assert "도발" not in value_at("EX1_110", "text", "2025-03-18")
+    assert "5/5" in value_at("EX1_110", "text", "2021-03-26")
+    assert "피해를 2" in value_at("EX1_134", "text", "2025-03-18")
+    assert "피해를 3" in value_at("EX1_134", "text", "2025-03-19")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 
