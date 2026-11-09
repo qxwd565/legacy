@@ -168,6 +168,14 @@ def main():
     assert "받은 피해" in value_at("EX1_620", "text", "2024-07-16")
     assert "잃은 생명력" in value_at("EX1_620", "text", "2024-07-17")
     assert get("CS3_014")["releasedAt"] == "2022-04-06"
+    assert value_at("EX1_165a", "mechanics", "2021-03-25") == ["CHARGE"]
+    assert value_at("EX1_165a", "mechanics", "2021-03-26") == ["RUSH"]
+    for cid in ("NEW1_023", "DREAM_01"):
+        assert "ELUSIVE" not in value_at(cid, "mechanics", "2024-03-11")
+        assert "CANT_BE_TARGETED_BY_SPELLS" in value_at(cid, "mechanics", "2024-03-11")
+        assert "모면" not in value_at(cid, "text", "2024-03-11")
+        assert value_at(cid, "mechanics", "2024-03-12") == ["ELUSIVE"]
+        assert value_at(cid, "text", "2024-03-12") == "<b>모면</b>"
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

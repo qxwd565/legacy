@@ -21,7 +21,8 @@
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
     "mechanics": [
-      "ELUSIVE"
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CANT_BE_TARGETED_BY_HERO_POWERS"
     ],
     "battlegroundsAssociatedRaces": null,
     "id": "DREAM_01",
@@ -91,8 +92,16 @@
       {
         "date": "2021-03-26",
         "changes": {
-          "text": "<b>모면</b>",
           "cost": 2
+        }
+      },
+      {
+        "date": "2024-03-12",
+        "changes": {
+          "text": "<b>모면</b>",
+          "mechanics": [
+            "ELUSIVE"
+          ]
         }
       }
     ]

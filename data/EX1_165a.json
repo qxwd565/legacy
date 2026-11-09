@@ -24,7 +24,7 @@
       "BEAST"
     ],
     "mechanics": [
-      "RUSH"
+      "CHARGE"
     ],
     "battlegroundsAssociatedRaces": null,
     "id": "EX1_165a",
@@ -108,7 +108,10 @@
         "date": "2021-03-26",
         "changes": {
           "text": "<b>속공</b>",
-          "attack": 5
+          "attack": 5,
+          "mechanics": [
+            "RUSH"
+          ]
         }
       },
       {

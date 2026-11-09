@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "Prevent future keyword labels leaking into original card states. Elusive is a keyword-label migration, not a new targeting restriction.",
+  "sources": [
+    "https://hearthstone.blizzard.com/en-us/news/24056182",
+    "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
+    "https://github.com/HearthSim/hsdata/commit/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62"
+  ],
+  "changes": {
+    "EX1_165a": {
+      "date": "2021-03-26",
+      "fields": [
+        "mechanics"
+      ],
+      "effect": "Charge to Rush, matching existing dated text"
+    },
+    "DREAM_01": {
+      "date": "2024-03-12",
+      "fields": [
+        "text",
+        "mechanics"
+      ],
+      "effect": "Existing spell/Hero Power targeting restrictions renamed Elusive"
+    },
+    "NEW1_023": {
+      "date": "2024-03-12",
+      "fields": [
+        "text",
+        "mechanics"
+      ],
+      "effect": "Existing spell/Hero Power targeting restrictions renamed Elusive"
+    }
+  }
+}
