@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "set": "legacy",
+  "timezone": "Asia/Seoul",
+  "date": "2013-10-03",
+  "patch": "1.0.0.3890",
+  "source": "https://hearthstone.blizzard.com/en-us/news/11144301/hearthstone-closed-beta-patch-notes-10-2-2013",
+  "effectiveDateBasis": "NA client patch became playable on Oct 3 in Korean local calendar, per beta-patch-dates.json.",
+  "changes": [
+    {
+      "id": "hexfrog",
+      "from": {
+        "races": [],
+        "race": ""
+      },
+      "to": {
+        "races": [
+          "BEAST"
+        ],
+        "race": "야수"
+      },
+      "note": "Hex Frog changed from no tribe to Beast; original description does not expose this."
+    },
+    {
+      "id": "EX1_613",
+      "from": {
+        "mechanics": [
+          "COMBO",
+          "STEALTH"
+        ]
+      },
+      "to": {
+        "mechanics": [
+          "COMBO"
+        ]
+      },
+      "note": "Edwin lost Stealth; existing dated card text and numeric changes retained."
+    }
+  ],
+  "unchanged": "Existing date-specific Korean descriptions, beta 3749 uncertainties, and all other cards were not rewritten.",
+  "excluded": "Rarity-only changes and bug-fix-only changes are excluded from this card performance audit.",
+  "result": "Two missing gameplay attributes added without duplicate patches."
+}

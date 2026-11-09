@@ -255,6 +255,15 @@ def main():
     assert "모든 적 하수인" in value_at("CS1_112", "text", "2023-04-04")
     assert "모든 적에게" in value_at("CS1_112", "text", "2023-04-05")
     assert "모든 적 하수인" in value_at("CS1_112", "text", "2023-04-28")
+    # 1.0.0.3890 official beta patch: Frog became a Beast and
+    # Edwin VanCleef lost Stealth. 3890 became playable on Oct 3 KST.
+    assert value_at("hexfrog", "races", "2013-10-02") == []
+    assert value_at("hexfrog", "races", "2013-10-03") == ["BEAST"]
+    assert value_at("hexfrog", "race", "2013-10-02") == ""
+    assert value_at("hexfrog", "race", "2013-10-03") == "야수"
+    assert "STEALTH" in value_at("EX1_613", "mechanics", "2013-10-02")
+    assert "STEALTH" not in value_at("EX1_613", "mechanics", "2013-10-03")
+    assert "COMBO" in value_at("EX1_613", "mechanics", "2013-10-03")
     print(json.dumps({"set":"legacy","validatedCards":migrated,"result":"pass"}, ensure_ascii=False))
 
 

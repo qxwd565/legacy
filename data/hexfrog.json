@@ -20,9 +20,7 @@
     "installed": true,
     "isBattlegroundsDuosExclusive": false,
     "chooseOne": false,
-    "races": [
-      "BEAST"
-    ],
+    "races": [],
     "battlegroundsAssociatedRaces": null,
     "id": "hexfrog",
     "name": "개구리",
@@ -31,7 +29,7 @@
     "type": "MINION",
     "cardClass": "SHAMAN",
     "rarity": "FREE",
-    "race": "야수",
+    "race": "",
     "flavor": "",
     "portrait": "W5_120a_D.psd:f89a88752d0130240bf2badfa61933a5",
     "collectible": false,
@@ -80,7 +78,17 @@
     "nativeTextBuilder": 0,
     "releasedAt": "2013-08-17",
     "releaseStatus": "estimated",
-    "patches": []
+    "patches": [
+      {
+        "date": "2013-10-03",
+        "changes": {
+          "races": [
+            "BEAST"
+          ],
+          "race": "야수"
+        }
+      }
+    ]
   },
   "root": false,
   "relatedIds": [],
