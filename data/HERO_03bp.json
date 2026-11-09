@@ -4,10 +4,16 @@
     "cost": 2,
     "id": "HERO_03bp",
     "name": "단검의 대가",
-    "text": "<b>영웅 능력</b><br></br>1/2 단검을 장착합니다.",
+    "text": "<b>영웅 능력</b> <br></br> 1/2 단검을 장비합니다. 또는 이번 턴에 당신의 무기에 공격력을 +1 부여합니다.",
     "type": "HERO_POWER",
     "cardClass": "ROGUE",
     "rarity": "FREE",
     "collectible": false
+  },
+  "2013-10-03": {
+    "text": "<b>영웅 능력</b> <br></br> 1/2 단검을 장착합니다."
+  },
+  "2014-05-09": {
+    "text": "<b>영웅 능력</b><br></br>1/2 단검을 장착합니다."
   }
 }

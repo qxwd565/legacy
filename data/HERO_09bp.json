@@ -4,10 +4,16 @@
     "cost": 2,
     "id": "HERO_09bp",
     "name": "하급 치유",
-    "text": "<b>영웅 능력</b><br></br>생명력을 #2 회복시킵니다.",
+    "text": "<b>영웅 능력</b> <br></br> 생명력을 2 회복시킵니다.",
     "type": "HERO_POWER",
     "cardClass": "PRIEST",
     "rarity": "FREE",
     "collectible": false
+  },
+  "2014-05-09": {
+    "text": "<b>영웅 능력</b><br></br>생명력을 2 회복시킵니다."
+  },
+  "2015-08-19": {
+    "text": "<b>영웅 능력</b><br></br>생명력을 #2 회복시킵니다."
   }
 }
