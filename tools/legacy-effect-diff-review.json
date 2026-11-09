@@ -11,8 +11,13 @@
       "release": "2013-08-17",
       "text2021En": "Whenever your hero attacks, restore #2_Health to it.",
       "text2026En": "Whenever your hero attacks, restore #3_Health to it.",
-      "currentKo": "[x]내 영웅이 공격할\n때마다 생명력을\n#3 회복합니다.",
-      "recordedPost2021Changes": [],
+      "currentKo": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#3 회복합니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "[x]내 영웅이 공격할<br></br>때마다 생명력을<br></br>#3 회복합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -21,18 +26,23 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nGain 2 Armor.",
       "text2026En": "<b>Hero Power</b>\nGain $d2 Armor.",
-      "currentKo": "<b>영웅 능력</b>\n방어도를 $d2 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
       "id": "CS3_014",
       "nameKo": "진홍십자군 성직자",
-      "release": "2021-03-31",
+      "release": "2022-04-06",
       "text2021En": "After a friendly character is healed, gain +1 Attack.",
       "text2026En": "<b>Overheal:</b> Draw a card.",
       "currentKo": "<b>초과 치유:</b> 카드를 뽑습니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "<b>초과 치유:</b> 카드를 뽑습니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -42,7 +52,12 @@
       "text2021En": "Can't be targeted by spells or Hero Powers.",
       "text2026En": "<b>Elusive</b>",
       "currentKo": "<b>모면</b>",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "<b>모면</b>"
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -52,7 +67,12 @@
       "text2021En": "Deal $5 damage to all minions except Ysera.",
       "text2026En": "Deal $5 damage to all characters except Ysera.",
       "currentKo": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-29",
+          "text": "이세라를 제외한 <b>모든</b> 캐릭터에게 피해를 $5 줍니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -62,7 +82,12 @@
       "text2021En": "Return an enemy minion to your opponent's hand.",
       "text2026En": "Return a minion to its owner's hand.",
       "currentKo": "하수인을 주인의 손으로 돌려보냅니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-29",
+          "text": "하수인을 주인의 손으로 돌려보냅니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -72,7 +97,12 @@
       "text2021En": "Give a minion +4/+4. At the start of your next turn, destroy it.",
       "text2026En": "Give a minion +5/+5. At the start of your next turn, destroy it.",
       "currentKo": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-29",
+          "text": "하수인에게 +5/+5를 부여하고, 내 다음 턴이 시작될 때 처치합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -82,7 +112,12 @@
       "text2021En": "<b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.",
       "text2026En": "<b>Tradeable</b>\n <b>Battlecry:</b> Destroy an  enemy minion with <b>Taunt</b>.",
       "currentKo": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2025-03-19",
+          "text": "<b>교환성</b>, <b>전투의 함성:</b>적 <b>도발</b> 하수인을 처치합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -91,11 +126,11 @@
       "release": "2013-08-17",
       "text2021En": "<b>Battlecry:</b> Destroy a minion with 7 or more Attack.",
       "text2026En": "[x]<b>Tradeable</b>\n<b>Battlecry:</b> Destroy a minion\nwith 7 or more Attack.",
-      "currentKo": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다.",
+      "currentKo": "[x]<b>교환성</b>, <b>전투의 함성:</b><br></br>공격력이 7 이상인<br></br>하수인을 처치합니다.",
       "recordedPost2021Changes": [
         {
           "date": "2024-03-12",
-          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b>\n공격력이 7 이상인\n하수인을 처치합니다."
+          "text": "[x]<b>교환성</b>, <b>전투의 함성:</b><br></br>공격력이 7 이상인<br></br>하수인을 처치합니다."
         }
       ],
       "reviewStatus": "needs gameplay-vs-wording classification"
@@ -117,7 +152,12 @@
       "text2021En": "After you summon another minion, give it <b>Rush</b>.",
       "text2026En": "Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.",
       "currentKo": "내가 공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "내가 공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 <b>돌진</b>을 부여합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -126,11 +166,11 @@
       "release": "2013-08-17",
       "text2021En": "[x]<b>Battlecry:</b> If your opponent\nhas 4 or more minions, take\n control of one at random.",
       "text2026En": "[x]<b>Battlecry:</b> If your opponent\nhas 4 or more minions,\ntake control of one.",
-      "currentKo": "[x]<b>전투의 함성:</b> 상대편에게\n하수인이 넷 이상 있으면,\n적 하수인을 가져옵니다.",
+      "currentKo": "[x]<b>전투의 함성:</b> 상대편에게<br></br>하수인이 넷 이상 있으면,<br></br>적 하수인을 가져옵니다.",
       "recordedPost2021Changes": [
         {
           "date": "2024-03-12",
-          "text": "[x]<b>전투의 함성:</b> 상대편에게\n하수인이 넷 이상 있으면,\n적 하수인을 가져옵니다."
+          "text": "[x]<b>전투의 함성:</b> 상대편에게<br></br>하수인이 넷 이상 있으면,<br></br>적 하수인을 가져옵니다."
         }
       ],
       "reviewStatus": "needs gameplay-vs-wording classification"
@@ -142,7 +182,12 @@
       "text2021En": "<b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.",
       "text2026En": "[x]<b>Taunt</b>\n<b>Deathrattle:</b>& Summon a\n5/5 Baine Bloodhoof.",
       "currentKo": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2025-03-19",
+          "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -162,7 +207,12 @@
       "text2021En": "<b>Combo:</b> Deal 2 damage.",
       "text2026En": "<b>Combo:</b> Deal 3 damage.",
       "currentKo": "<b>연계:</b> 피해를 3 줍니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2025-03-19",
+          "text": "<b>연계:</b> 피해를 3 줍니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -191,8 +241,13 @@
       "release": "2013-08-17",
       "text2021En": "[x]<b>Choose One -</b> Transform\ninto a 5/4 with <b>Rush</b>;\nor a 5/6 with <b>Taunt</b>.",
       "text2026En": "[x]<b>Choose One -</b> Transform\ninto a 7/6 with <b>Rush</b>;\nor a 4/9 with <b>Taunt</b>.",
-      "currentKo": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인\n또는 4/9 <b>도발</b> 하수인으로\n변신합니다.",
-      "recordedPost2021Changes": [],
+      "currentKo": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인<br></br>또는 4/9 <b>도발</b> 하수인으로<br></br>변신합니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "[x]<b>선택 -</b> 7/6 <b>속공</b> 하수인<br></br>또는 4/9 <b>도발</b> 하수인으로<br></br>변신합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -202,7 +257,12 @@
       "text2021En": "Whenever you play a card_with <b>Overload</b>, gain_+1/+1.",
       "text2026En": "After you play a card_with <b>Overload</b>, gain_+1/+1.",
       "currentKo": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2021-06-04",
+          "text": "내가 <b>과부하</b> 카드를 낸 후에, +1/+1을 얻습니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -211,8 +271,13 @@
       "release": "2013-08-17",
       "text2021En": "Deal $3 damage to all_enemy minions. <b>Overload:</b> (2)",
       "text2026En": "Deal $3 damage to all_enemy minions. <b>Overload:</b> (1)",
-      "currentKo": "[x]모든 적 하수인에게\n피해를 $3 줍니다.\n<b>과부하:</b> (1)",
-      "recordedPost2021Changes": [],
+      "currentKo": "[x]모든 적 하수인에게<br></br>피해를 $3 줍니다.<br></br><b>과부하:</b> (1)",
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-28",
+          "text": "[x]모든 적 하수인에게<br></br>피해를 $3 줍니다.<br></br><b>과부하:</b> (1)"
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -221,8 +286,13 @@
       "release": "2013-08-17",
       "text2021En": "Deal $1 damage to a minion. If that kills it, draw a card.",
       "text2026En": "Deal $1 damage to a minion. If it dies,\ndraw a card.",
-      "currentKo": "하수인에게 피해를 $1 줍니다.\n그 하수인이 죽으면 카드를 뽑습니다.",
-      "recordedPost2021Changes": [],
+      "currentKo": "하수인에게 피해를 $1 줍니다.<br></br>그 하수인이 죽으면 카드를 뽑습니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2026-03-11",
+          "text": "하수인에게 피해를 $1 줍니다.<br></br>그 하수인이 죽으면 카드를 뽑습니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -267,7 +337,16 @@
       "text2021En": "Deal $2 damage to_a character. If that kills it, summon a random Demon.",
       "text2026En": "Deal $3 damage to a character. If it dies, summon a random Demon.",
       "currentKo": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-08-23",
+          "text": "[x]캐릭터에게 피해를<br></br>$3 줍니다. 이 피해로<br></br>대상이 죽으면, 무작위<br></br>악마를 소환합니다."
+        },
+        {
+          "date": "2026-03-11",
+          "text": "캐릭터에게 피해를 $3 줍니다. 그 캐릭터가 죽으면 무작위 악마를 소환합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -276,7 +355,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Battlecry:</b> Equip a 3/8 Blood Fury.",
       "text2026En": "<b>Battlecry:</b>& Equip a 3/8 Blood Fury.~GAMEPLAY_ASPROXY_EX1_323",
-      "currentKo": "<b>전투의 함성</b>:\n3/8 피의 격노를 장착합니다.",
+      "currentKo": "<b>전투의 함성</b>:<br></br>3/8 피의 격노를 장착합니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -286,11 +365,11 @@
       "release": "2013-08-17",
       "text2021En": "Draw a card and deal_damage equal to_its Cost.",
       "text2026En": "Draw a card and deal damage equal to its Cost to a minion.",
-      "currentKo": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다.",
+      "currentKo": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다.",
       "recordedPost2021Changes": [
         {
           "date": "2025-11-14",
-          "text": "카드를 뽑고\n하수인에게 그 카드의 비용만큼 피해를 줍니다."
+          "text": "카드를 뽑고<br></br>하수인에게 그 카드의 비용만큼 피해를 줍니다."
         }
       ],
       "reviewStatus": "needs gameplay-vs-wording classification"
@@ -301,7 +380,7 @@
       "release": "2013-08-17",
       "text2021En": "<b><b>Divine Shield</b>,</b> <b>Taunt</b> <b>Deathrattle:</b> Equip a 5/3_Ashbringer.",
       "text2026En": "<b>Divine Shield</b>, <b>Taunt</b> <b>Deathrattle:</b>& Equip a 5/3_Ashbringer.",
-      "currentKo": "<b>천상의 보호막</b>, <b>도발</b>\n<b>죽음의 메아리</b>:\n5/3 파멸의 인도자를 장착합니다.",
+      "currentKo": "<b>천상의 보호막</b>, <b>도발</b><br></br><b>죽음의 메아리</b>:<br></br>5/3 파멸의 인도자를 장착합니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -347,7 +426,12 @@
       "text2021En": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
       "text2026En": "[x]<b>Deathrattle:</b> Summon a\n3/3 Pip Quickwit for\nyour opponent.",
       "currentKo": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2021-10-13",
+          "text": "<b>죽음의 메아리:</b> 상대편에게 3/3 핍 퀵위트를 소환해 줍니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -371,8 +455,13 @@
       "release": "2013-08-17",
       "text2021En": "<b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.",
       "text2026En": "<b>Secret:</b> After your opponent plays a minion, deal $6 damage to it.",
-      "currentKo": "[x]<b>비밀:</b> 상대편이 하수인을\n낸 후에, 그 하수인에게\n피해를 $6 줍니다.",
-      "recordedPost2021Changes": [],
+      "currentKo": "[x]<b>비밀:</b> 상대편이 하수인을<br></br>낸 후에, 그 하수인에게<br></br>피해를 $6 줍니다.",
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-08-23",
+          "text": "[x]<b>비밀:</b> 상대편이 하수인을<br></br>낸 후에, 그 하수인에게<br></br>피해를 $6 줍니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -382,7 +471,12 @@
       "text2021En": "Costs (1) less for each damage your hero has taken.",
       "text2026En": "Costs (1) less for\neach Health your hero\nis missing.",
       "currentKo": "내 영웅이 잃은 생명력 1당 비용이 (1)씩 감소합니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-07-17",
+          "text": "내 영웅이 잃은 생명력 1당 비용이 (1)씩 감소합니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -421,7 +515,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nGain 2 Armor.",
       "text2026En": "<b>Hero Power</b>\nGain $d2 Armor.",
-      "currentKo": "<b>영웅 능력</b>\n방어도를 $d2 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>방어도를 $d2 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -431,7 +525,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nGain 4 Armor.",
       "text2026En": "<b>Hero Power</b>\nGain $d4 Armor.",
-      "currentKo": "<b>영웅 능력</b>\n방어도를 $d4 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>방어도를 $d4 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -441,7 +535,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nSummon a random Totem.",
       "text2026En": "<b>Hero Power</b>\nSummon a random basic Totem.",
-      "currentKo": "<b>영웅 능력</b>\n무작위 기본 토템을 소환합니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>무작위 기본 토템을 소환합니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -451,7 +545,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nSummon a 1/1 Silver Hand Recruit.",
       "text2026En": "<b>Hero Power</b>\nSummon a {0} Silver Hand Recruit.",
-      "currentKo": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 소환합니다.",
+      "currentKo": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 소환합니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -461,7 +555,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\nSummon two 1/1 Recruits.",
       "text2026En": "<b>Hero Power</b>\nSummon two {0} Recruits.",
-      "currentKo": "[x]<b>영웅 능력</b>\n1/1 은빛 성기사단\n신병을 2명 소환합니다.",
+      "currentKo": "[x]<b>영웅 능력</b><br></br>1/1 은빛 성기사단<br></br>신병을 2명 소환합니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -471,7 +565,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\n+1 Attack this turn.\n+1 Armor.",
       "text2026En": "<b>Hero Power</b>\n+$a1 Attack this turn.\n+$d1 Armor.",
-      "currentKo": "<b>영웅 능력</b>\n방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>방어도를 +$d1 얻고, 이번 턴에 공격력을 +$a1 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -481,7 +575,7 @@
       "release": "2013-08-17",
       "text2021En": "<b>Hero Power</b>\n+2 Attack this turn.\n+2 Armor.",
       "text2026En": "<b>Hero Power</b>\n+$a2 Attack this turn.\n+$d2 Armor.",
-      "currentKo": "<b>영웅 능력</b>\n방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>방어도를 +$d2 얻고, 이번 턴에 공격력을 +$a2 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -491,7 +585,7 @@
       "release": "2013-08-17",
       "text2021En": "[x]<b>Hero Power</b>\nRestore #2 Health.",
       "text2026En": "<b>Hero Power</b>\nRestore #2 Health.",
-      "currentKo": "<b>영웅 능력</b>\n생명력을 #2 회복시킵니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>생명력을 #2 회복시킵니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -501,7 +595,7 @@
       "release": "2013-08-17",
       "text2021En": "[x]<b>Hero Power</b>\n+1 Attack this turn.",
       "text2026En": "[x]<b>Hero Power</b>\n+$a1 Attack this turn.",
-      "currentKo": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a1 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a1 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -511,7 +605,7 @@
       "release": "2013-08-17",
       "text2021En": "[x]<b>Hero Power</b>\n+2 Attack this turn.",
       "text2026En": "[x]<b>Hero Power</b>\n+$a2 Attack this turn.",
-      "currentKo": "<b>영웅 능력</b>\n이번 턴에 공격력을 +$a2 얻습니다.",
+      "currentKo": "<b>영웅 능력</b><br></br>이번 턴에 공격력을 +$a2 얻습니다.",
       "recordedPost2021Changes": [],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
@@ -537,7 +631,12 @@
       "text2021En": "Restore 5 Health.",
       "text2026En": "Restore 7 Health.",
       "currentKo": "생명력을 7 회복시킵니다.",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2023-04-05",
+          "text": "생명력을 7 회복시킵니다."
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     },
     {
@@ -567,7 +666,12 @@
       "text2021En": "Can't be targeted by spells or Hero Powers.",
       "text2026En": "<b>Elusive</b>",
       "currentKo": "<b>모면</b>",
-      "recordedPost2021Changes": [],
+      "recordedPost2021Changes": [
+        {
+          "date": "2024-03-12",
+          "text": "<b>모면</b>"
+        }
+      ],
       "reviewStatus": "needs gameplay-vs-wording classification"
     }
   ],
