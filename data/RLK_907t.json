@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "mode": "constructed",
+  "englishName": "Rime Elemental",
+  "card": {
+    "dbfId": 83057,
+    "cost": 2,
+    "health": 1,
+    "attack": 2,
+    "id": "RLK_907t",
+    "name": "서리 정령",
+    "text": "[x]<b>죽음의 메아리:</b><br></br>무작위 적에게<br></br>피해를 2 줍니다.",
+    "type": "MINION",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": null,
+    "collectible": false,
+    "races": [
+      "ELEMENTAL"
+    ],
+    "race": "정령",
+    "durability": 0,
+    "armor": 0,
+    "releasedAt": "2022-12-07",
+    "releaseStatus": "verified",
+    "patches": []
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 1635,
+    "slug": "legacy",
+    "name": "고전",
+    "englishName": "Legacy",
+    "type": ""
+  },
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Native client card data; parent release day in Korea",
+    "ipaVersion": "25.0.159202",
+    "archiveId": "853647101",
+    "ipaSha256": "b7ac0c411565717bf5736505295e86e17f895fd570a9886e7ed1ce9940fda113",
+    "koreanTextSource": "Exact-build Korean CardDefs supplement",
+    "koreanSupplement": {
+      "sourceBuild": "159202",
+      "repository": "HearthSim/hsdata",
+      "commit": "742c0010782909dbfc3ee689d46e71bbb94e3c15",
+      "sha256": "96c094b6971b44c8238a7aa05aa2831d809b7ea2d943e50eee8b165e1db1b099"
+    }
+  },
+  "historicalTokenSources": {
+    "parents": [
+      "LEG_RLK_752"
+    ],
+    "releaseBasis": "Parent original first playable date in Korea",
+    "descriptionSourceVersions": [
+      "25.0.159202",
+      "27.4.185749",
+      "37.0.255790"
+    ]
+  }
+}
