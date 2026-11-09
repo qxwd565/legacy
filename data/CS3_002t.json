@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Demonic Tyrant",
-  "card": {
+  "2021-03-31": {
     "dbfId": 63157,
     "cost": 5,
     "health": 5,
@@ -17,41 +14,6 @@
     "races": [
       "DEMON"
     ],
-    "race": "악마",
-    "durability": 0,
-    "armor": 0,
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "verified",
-    "patches": []
-  },
-  "root": false,
-  "relatedIds": [],
-  "expansion": {
-    "id": 1635,
-    "slug": "legacy",
-    "name": "고전",
-    "englishName": "Legacy",
-    "type": ""
-  },
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Native client card data; parent release day in Korea",
-    "ipaVersion": "20.0.77662",
-    "archiveId": "840752602",
-    "ipaSha256": "d989b20aa6e8e97261fe9d81304a63507069a98bcb70a12ed8bf8688c129b67d",
-    "koreanTextSource": "IPA native Korean"
-  },
-  "historicalTokenSources": {
-    "parents": [
-      "CS3_002"
-    ],
-    "releaseBasis": "Parent original first playable date in Korea",
-    "descriptionSourceVersions": [
-      "20.0.77662",
-      "27.4.185749",
-      "37.0.255790"
-    ]
+    "race": "악마"
   }
 }

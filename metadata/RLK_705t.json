@@ -1,0 +1,123 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "RLK_705t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2022-12-07",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Parent original first-playable date in Korea; original Korean text preserved from the exact-build source. Strict historical confidence remains opt-in.",
+  "sourceCommit": "67bb3aaf3a1c16be7feb2d39def08b2d99e376f6",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Shambling Zombie",
+    "card": {
+      "dbfId": 80643,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "id": "RLK_705t",
+      "name": "휘청거리는 좀비",
+      "text": "<b>환생</b>",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "durability": 0,
+      "armor": 0,
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified",
+      "patches": []
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Native client card data; parent release day in Korea",
+      "ipaVersion": "25.0.159202",
+      "archiveId": "853647101",
+      "ipaSha256": "b7ac0c411565717bf5736505295e86e17f895fd570a9886e7ed1ce9940fda113",
+      "koreanTextSource": "Exact-build Korean CardDefs supplement",
+      "koreanSupplement": {
+        "sourceBuild": "159202",
+        "repository": "HearthSim/hsdata",
+        "commit": "742c0010782909dbfc3ee689d46e71bbb94e3c15",
+        "sha256": "96c094b6971b44c8238a7aa05aa2831d809b7ea2d943e50eee8b165e1db1b099"
+      }
+    },
+    "historicalTokenSources": {
+      "parents": [
+        "LEG_RLK_705"
+      ],
+      "releaseBasis": "Parent original first playable date in Korea",
+      "descriptionSourceVersions": [
+        "25.0.159202",
+        "27.4.185749",
+        "37.0.255790"
+      ]
+    }
+  },
+  "currentCatalog": {
+    "dbfId": 80643,
+    "cost": 1,
+    "health": 1,
+    "attack": 1,
+    "id": "RLK_705t",
+    "name": "휘청거리는 좀비",
+    "text": "<b>환생</b>",
+    "type": "MINION",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": null,
+    "collectible": false,
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "durability": 0,
+    "armor": 0,
+    "set": "legacy",
+    "releasedAt": "2022-12-07",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

@@ -11,6 +11,7 @@ from date_schema import load,put,json_equal,read_card,resolve
 from legacy_projection import PHP_FIELDS
 ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
+ADDED_TOKEN_IDS = frozenset(['CS3_002t', 'RLK_077t', 'RLK_085t', 'RLK_226t', 'RLK_705t', 'RLK_907t'])
 
 
 def old_resolve(current,history,day):
@@ -26,18 +27,19 @@ def old_resolve(current,history,day):
 def main(fixture=None):
     catalog=load(ROOT/'cards.json');render=load(ROOT/'render.json');history=load(ROOT/'history.json')
     precise=load(ROOT/'cards-date.json');precise_history=load(ROOT/'history-date.json')
-    assert len(catalog['cards'])==len(precise['cards'])==609
+    assert len(catalog['cards'])==len(precise['cards'])==615
     assert all(x.get('schema')==1 and 'historySchema' not in x for x in [catalog,render,history])
     assert precise_history['historySchema']==2
     for name in ['cards.json','render.json','history.json']:
         assert '__remove' not in (ROOT/name).read_text(encoding='utf-8')
     by_id={c['id']:c for c in catalog['cards']};render_by_id={c['id']:c for c in render['cards']}
-    assert len(by_id)==609 and len({c['dbfId'] for c in catalog['cards']})==609
+    assert len(by_id)==615 and len({c['dbfId'] for c in catalog['cards']})==615
     source=load(ROOT/'metadata/EX1_323.json')['sourceCommit']
     original=json.loads(subprocess.check_output(['git','show',source+':cards.json'],cwd=ROOT))
     original_history=json.loads(subprocess.check_output(['git','show',source+':history.json'],cwd=ROOT))['cards']
     # The first dual-output release changes no current imported field at all.
     catalog_other=copy.deepcopy(catalog); original_other=copy.deepcopy(original)
+    catalog_other['cards'] = [row for row in catalog_other['cards'] if row['id'] not in ADDED_TOKEN_IDS]
     for obj in (catalog_other,original_other):
         for row in obj['cards']:row.pop('text',None)
     assert json_equal(catalog_other,original_other),'Non-text legacy catalogue drifted'
@@ -48,9 +50,12 @@ def main(fixture=None):
         assert type(current['cost']) is int and 0<=current['cost']<=32767
         for field in ('attack','health','durability','armor'):
             assert type(current[field]) is int and 0<=current[field]<=32767
-        assert current['art'] in assets,(cid,'pre-existing art file missing')
-        for bundle in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json'):
-            assert urljoin(BASE_URL+bundle,current['art'])==BASE_URL+current['art'];art_checks+=1
+        if cid in ADDED_TOKEN_IDS:
+            assert 'art' not in current  # Description-only import; no artwork is asserted.
+        else:
+            assert current['art'] in assets,(cid,'pre-existing art file missing')
+            for bundle in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json'):
+                assert urljoin(BASE_URL+bundle,current['art'])==BASE_URL+current['art'];art_checks+=1
         assert BASE_URL+'history.json'==(BASE_URL+'cards.json').replace('/cards.json','/history.json')
         assert BASE_URL+'history-date.json'==(BASE_URL+'cards-date.json').replace('/cards-date.json','/history-date.json')
         rows=history['cards'].get(dbf,{}).get('history',[])
@@ -83,7 +88,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':609,'currentCatalogueMatchesPinnedOriginal':True,
+            'currentCards':615,'previousCatalogueMatchesPinnedOriginal':True,'addedTokenCards':sorted(ADDED_TOKEN_IDS),
             'legacyDateCases':comparisons,'artURLChecks':art_checks,'missingAssets':0,
             'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,

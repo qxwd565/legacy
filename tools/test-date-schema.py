@@ -125,7 +125,7 @@ def main():
     rendered={c['id']:c for c in load(ROOT/'render-date.json')['cards']}
     histories=load(ROOT/'history-date.json')['cards']
     taxonomy=load(ROOT/'taxonomy-history.json')
-    assert len(current)==len(rendered)==len(histories)==609
+    assert len(current)==len(rendered)==len(histories)==615
     checks=0;statuses=Counter();types=Counter();raw_checks=0;differences=[]
     for commit in {load(p)['sourceCommit'] for p in (ROOT/'metadata').glob('*.json')}:
         require_source_commit(ROOT,commit)
@@ -188,7 +188,15 @@ def main():
         for change in timeline.values():
             if 'text' in change:
                 assert '\n' not in change['text'] and '\\n' not in change['text'] and '/n' not in change['text']
-    assert statuses=={'estimated':533,'verified':74,'pending':2}
+    assert statuses=={'estimated':533,'verified':80,'pending':2}
+    expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
+    for token_id, (release_day, parent_id) in expected_tokens.items():
+        token, token_meta = read_card(ROOT, token_id)
+        assert list(token) == [release_day] and token[release_day]['collectible'] is False
+        assert token_meta['release'] == {'date': release_day, 'status': 'verified'}
+        assert token_meta['originalSource']['historicalTokenSources']['parents'] == [parent_id]
+        assert token[release_day]['text'] == token_meta['originalSource']['card']['text']
+        assert resolve(token, token_meta, (date.fromisoformat(release_day)-timedelta(days=1)).isoformat()) is None
     assert load(ROOT/'data/skele21.json')=={}
     assert load(ROOT/'data/ds1_whelptoken.json')=={}
     assert load(ROOT/'metadata/ds1_whelptoken.json')['undated']['baseline']['dbfId'] is None
@@ -204,7 +212,7 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':609,'currentCards':609,'datedSources':607,
+    report={'result':'pass','sourceCards':615,'currentCards':615,'datedSources':613,
             'undatedSources':['skele21','ds1_whelptoken'],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],

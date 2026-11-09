@@ -43142,6 +43142,134 @@
       "watermark": "Set1_Icon",
       "releasedAt": null,
       "releaseStatus": "pending"
+    },
+    {
+      "dbfId": 63157,
+      "cost": 5,
+      "health": 5,
+      "attack": 5,
+      "id": "CS3_002t",
+      "name": "악마 폭군",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "DEMON"
+      ],
+      "race": "악마",
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "verified"
+    },
+    {
+      "dbfId": 78632,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "id": "RLK_077t",
+      "name": "정신지배된 싸움꾼",
+      "text": "<b>속공</b><br></br><b>환생</b>",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
+    },
+    {
+      "dbfId": 86736,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "id": "RLK_085t",
+      "name": "되살아난 골렘",
+      "text": "<b>속공</b><br></br><i><b>시체</b>를 남기지 않습니다.</i>",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
+    },
+    {
+      "dbfId": 91360,
+      "cost": 3,
+      "health": 3,
+      "attack": 3,
+      "id": "RLK_226t",
+      "name": "되살아난 이미야르",
+      "text": "<b>도발</b><br></br><i><b>시체</b>를 남기지 않습니다.</i>",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
+    },
+    {
+      "dbfId": 80643,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "id": "RLK_705t",
+      "name": "휘청거리는 좀비",
+      "text": "<b>환생</b>",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
+    },
+    {
+      "dbfId": 83057,
+      "cost": 2,
+      "health": 1,
+      "attack": 2,
+      "id": "RLK_907t",
+      "name": "서리 정령",
+      "text": "[x]<b>죽음의 메아리:</b><br></br>무작위 적에게<br></br>피해를 2 줍니다.",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": null,
+      "collectible": false,
+      "races": [
+        "ELEMENTAL"
+      ],
+      "race": "정령",
+      "durability": 0,
+      "armor": 0,
+      "set": "legacy",
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
     }
   ]
 }
