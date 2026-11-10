@@ -84,18 +84,22 @@ def main():
             if revision["date"] <= day:
                 state = apply(state, revision["changes"])
         return state.get(field)
-    # Only actual gameplay or durable text changes belong in card history.
-    expected_2014_text = {
-        "EX1_308": "피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.",
-        "EX1_400": "<b>모든</b> 하수인에게 피해를 $1 줍니다.",
+    # Preserve documented Korean beta display errors as historical text,
+    # while the raw source marks the 4458 descriptions invalid.
+    beta_korean_text = {
+        "EX1_308": ("피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.", "피해를 $3 줍니다. 무작위로 카드를 1장 버립니다."),
+        "EX1_400": ("<b>모든</b> 하수인에게 피해를 $1 줍니다.", "<b>모든</b> 하수인에게 피해를 $1 주고 카드를 1장 뽑습니다."),
     }
-    for cid, expected_text in expected_2014_text.items():
-        for day in ("2014-01-16", "2014-01-17", "2014-01-18"):
-            assert value_at(cid, "text", day) == expected_text, (cid, day)
-        assert not any(patch["date"] in ("2014-01-17", "2014-01-18") for patch in get(cid)["patches"])
+    for cid, (correct, invalid) in beta_korean_text.items():
+        assert value_at(cid, "text", "2014-01-16") == correct
+        assert value_at(cid, "text", "2014-01-17") == invalid
+        assert value_at(cid, "text", "2014-01-18") == correct
         metadata = json.loads((ROOT / "metadata" / (cid + ".json")).read_text(encoding="utf-8"))
-        observations = metadata["originalSource"].get("historicalTextObservations", [])
-        assert not any(item["build"] in ("1.0.0.4458", "1.0.0.4482") for item in observations)
+        observations = metadata["originalSource"]["historicalTextObservations"]
+        assert any(o["build"] == "1.0.0.4458" and o.get("invalidDescription") and o["rawText"] == invalid for o in observations)
+        assert any(o["build"] == "1.0.0.4482" and o["rawText"] == correct for o in observations)
+    # A source-only no-break marker did not change the displayed description.
+    assert not any(p["date"] == "2017-08-09" and "text" in p["changes"] for p in get("EX1_009")["patches"])
     assert value_at("NEW1_019", "attack", "2015-01-01") == 3
     assert value_at("NEW1_019", "attack", "2017-01-01") == 2
     assert value_at("NEW1_019", "attack", "2022-01-01") == 3

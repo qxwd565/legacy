@@ -143,17 +143,7 @@ def main():
         original=meta['originalSource'];raw_checks+=1
         original_bytes=subprocess.check_output(['git','show',f"{meta['sourceCommit']}:data/{path.name}"],cwd=ROOT)
         archived = json.loads(original_bytes)
-        if cid in ('EX1_308', 'EX1_400'):
-            # Only these reviewed cards may omit two obsolete client observations.
-            # All other original evidence remains byte-for-byte equivalent by value.
-            archived_observations = archived.pop('historicalTextObservations')
-            kept = copy.deepcopy(original)
-            kept_observations = kept.pop('historicalTextObservations')
-            assert len(archived_observations) == len(kept_observations) + 2, (cid, 'unexpected evidence loss')
-            assert [item for item in archived_observations if item in kept_observations] == kept_observations, (cid, 'source observation changed')
-            assert archived == kept, (cid, 'raw loss')
-        else:
-            assert archived == original, (cid, 'raw loss')
+        assert archived == original, (cid, 'raw loss')
         assert original['card']['id']==cid
         assert meta['currentCatalog']['id']==current[cid]['id']
         assert meta['currentCatalog']['dbfId']==current[cid]['dbfId']
