@@ -29,10 +29,11 @@ def main():
             states_by_kst_day = {}
             for day, change in doc.items():
                 before_state = apply(before_state, change)
-                # Patch 1.0.0.4217 was deployed in Korea on December 12.
-                # Merge the formerly NA-dated December 11 wording with the
-                # already-KST-dated December 12 gameplay deltas.
-                kst_day = '2013-12-12' if day == '2013-12-11' else day
+                # Beta-era convention: North American server patch date
+                # converted to Korea time, not Korea-server rollout time.
+                # Patch 1.0.0.4217 was already live on Dec 11 KST.
+                # Preserve the latest state if both dates appear in a card.
+                kst_day = '2013-12-11' if day == '2013-12-12' else day
                 states_by_kst_day[kst_day] = dict(before_state)
             for day, state in sorted(states_by_kst_day.items()):
                 for field in FIELDS:
@@ -73,8 +74,8 @@ def main():
         after = json.dumps(doc, ensure_ascii=False, indent=2)+'\n'
         if before != after:
             path.write_text(after, encoding='utf-8', newline='\n'); files += 1
-    # The original client/source evidence is immutable, but the sidecar
-    # release date and its current-catalog mirror must use Korean 4217 day.
+    # PRO_001 and its generated tokens follow the same beta-era
+    # North America -> Korea-time convention. Retain originalSource intact.
     pro_ids = {'PRO_001', 'PRO_001a', 'PRO_001at', 'PRO_001b', 'PRO_001c'}
     for cid in sorted(pro_ids):
         meta_path = ROOT/'metadata'/f'{cid}.json'
@@ -82,10 +83,10 @@ def main():
         meta = json.loads(meta_before)
         if meta['release']['date'] not in {'2013-12-11','2013-12-12'}:
             raise ValueError(f'{cid}: unexpected release date')
-        meta['release']['date'] = '2013-12-12'
+        meta['release']['date'] = '2013-12-11'
         current = meta.get('currentCatalog', {})
-        if current.get('releasedAt') == '2013-12-11':
-            current['releasedAt'] = '2013-12-12'
+        if current.get('releasedAt') == '2013-12-12':
+            current['releasedAt'] = '2013-12-11'
         meta_after = json.dumps(meta, ensure_ascii=False, indent=2)+'\n'
         if meta_after != meta_before:
             meta_path.write_text(meta_after, encoding='utf-8', newline='\n')

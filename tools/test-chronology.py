@@ -192,17 +192,24 @@ def main():
     assert "번개 화살" in value_at("GIFT_06", "text", "2024-03-28")
     assert "번개 폭풍" in value_at("GIFT_06", "text", "2024-03-29")
     for cid in ("PRO_001", "PRO_001a", "PRO_001at", "PRO_001b", "PRO_001c"):
-        assert get(cid)["releasedAt"] == "2013-12-12"
-        assert not any(e["date"] <= "2013-12-12" for e in get(cid)["patches"])
+        assert get(cid)["releasedAt"] == "2013-12-11"
+        assert not any(e["date"] <= "2013-12-11" for e in get(cid)["patches"])
+    # Reject any reintroduced 2013-12-12 canonical patch/release dates.
+    for path in (ROOT / "data").glob("*.json"):
+        assert "2013-12-12" not in json.loads(path.read_text(encoding="utf-8")), path.name
+    assert not any(
+        v.get("date") == "2013-12-12"
+        for v in json.loads((ROOT / "release-policy.json").read_text(encoding="utf-8")).get("cards", {}).values()
+    )
     assert "디버그" not in get("PRO_001")["text"]
     for cid in ("BG31_BOB", "BG31_BOBt", "BG31_BOBt2", "BG31_BOBt3", "BG31_BOBt4"):
         assert get(cid)["releasedAt"] == "2024-12-11"
     assert "복사" not in value_at("BG31_BOBt2", "text", "2025-03-18")
     assert "복사" in value_at("BG31_BOBt2", "text", "2025-03-19")
-    assert value_at("EX1_538", "cost", "2013-12-11") == 1
-    assert value_at("EX1_538", "cost", "2013-12-12") == 4
-    assert value_at("EX1_019", "health", "2013-12-11") == 3
-    assert value_at("EX1_019", "health", "2013-12-12") == 2
+    assert value_at("EX1_538", "cost", "2013-12-10") == 1
+    assert value_at("EX1_538", "cost", "2013-12-11") == 4
+    assert value_at("EX1_019", "health", "2013-12-10") == 3
+    assert value_at("EX1_019", "health", "2013-12-11") == 2
     assert "낼 때마다" in value_at("EX1_258", "text", "2021-06-03")
     assert "낸 후에" in value_at("EX1_258", "text", "2021-06-04")
     assert "핑클 아인혼" in value_at("EX1_577", "text", "2021-10-12")
@@ -270,7 +277,7 @@ def main():
     assert "STEALTH" not in value_at("EX1_613", "mechanics", "2013-10-03")
     assert "COMBO" in value_at("EX1_613", "mechanics", "2013-10-03")
     # Cross-check the three full official beta balance notes in KST.
-    # 4217 was effective Dec 12 on the Korean server; 4458 Jan 17.
+    # Beta convention: North American 4217 live by Dec 11 KST; 4458 Jan 17.
     for cid, field, previous, updated in (
         ("CS1_113", "cost", 8, 10),
         ("CS2_237", "health", 2, 1),
@@ -278,12 +285,12 @@ def main():
         ("EX1_019", "health", 3, 2),
         ("EX1_538", "cost", 1, 4),
     ):
-        assert value_at(cid, field, "2013-12-11") == previous, (cid, field, "before 4217")
-        assert value_at(cid, field, "2013-12-12") == updated, (cid, field, "after 4217")
-    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-11")
-    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-12")
-    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-11")
-    assert "사냥개" in value_at("EX1_538", "text", "2013-12-12")
+        assert value_at(cid, field, "2013-12-10") == previous, (cid, field, "before 4217")
+        assert value_at(cid, field, "2013-12-11") == updated, (cid, field, "after 4217")
+    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-10")
+    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-11")
+    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-10")
+    assert "사냥개" in value_at("EX1_538", "text", "2013-12-11")
     for cid, field, previous, updated in (
         ("EX1_538", "cost", 4, 2),
         ("EX1_279", "cost", 8, 10),

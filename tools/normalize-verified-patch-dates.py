@@ -9,9 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 if __name__ == "__main__" and (ROOT / "metadata").is_dir():
     raise SystemExit("Date-map source detected. Edit data/<ID>.json and its evidence metadata; this legacy wrapper importer is disabled. See docs/date-schema.md.")
 
-# 4217 reached Korea on December 12; December 11 KST was the NA deployment.
+# Beta era uses North American patch timing converted to Asia/Seoul (December 11),
+# not the later Korean-server rollout. Preserve this convention.
 # Source: https://hearthstone.blizzard.com/ko-kr/news/11868609
-CORRECTIONS = {"2013-12-11": "2013-12-12"}
+CORRECTIONS = {"2013-12-12": "2013-12-11"}
 
 
 def main():
