@@ -1,0 +1,148 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "OG_044a",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2016-04-25",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "First client version containing the token, dated to the Korean 5.0 patch; exact Korean text and line breaks retained. Strict historical confidence remains opt-in.",
+  "sourceCommit": "7b941232473e0ac11ffb43233db989b86ed108e3",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Druid of the Claw (Combined)",
+    "card": {
+      "dbfId": 38319,
+      "cost": 5,
+      "health": 6,
+      "attack": 4,
+      "races": [
+        "BEAST"
+      ],
+      "mechanics": [
+        "CHARGE",
+        "TAUNT"
+      ],
+      "id": "OG_044a",
+      "name": "발톱의 드루이드",
+      "text": "<b>돌진</b><br></br><b>도발</b>",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "race": "BEAST",
+      "collectible": false,
+      "releasedAt": "2016-04-25",
+      "releaseStatus": "verified",
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "attack": 5,
+            "mechanics": [
+              "RUSH",
+              "TAUNT"
+            ],
+            "text": "<b>속공</b><br></br><b>도발</b>"
+          }
+        },
+        {
+          "date": "2023-04-05",
+          "changes": {
+            "cost": 6,
+            "health": 9,
+            "attack": 7
+          }
+        }
+      ]
+    },
+    "root": false,
+    "relatedIds": [
+      "EX1_165"
+    ],
+    "expansion": {
+      "id": 1635,
+      "slug": "legacy",
+      "name": "고전",
+      "englishName": "Legacy",
+      "type": ""
+    },
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Native client Korean card data",
+      "ipaVersion": "5.0.12574",
+      "archiveId": "817133003"
+    },
+    "historicalTokenSources": {
+      "parents": [
+        "EX1_165"
+      ],
+      "releaseBasis": "First version in which the token exists, 5.0.12574 patch in Korea",
+      "descriptionSourceVersions": [
+        "5.0.12574",
+        "20.0.77662",
+        "37.0.255790"
+      ],
+      "sources": [
+        "https://hearthstone.wiki.gg/wiki/Druid_of_the_Claw_(Combined)",
+        "https://www.inven.co.kr/webzine/news/?news=155364"
+      ]
+    }
+  },
+  "currentCatalog": {
+    "dbfId": 38319,
+    "cost": 6,
+    "health": 9,
+    "attack": 7,
+    "races": [
+      "BEAST"
+    ],
+    "mechanics": [
+      "RUSH",
+      "TAUNT"
+    ],
+    "id": "OG_044a",
+    "name": "발톱의 드루이드",
+    "text": "<b>속공</b><br></br><b>도발</b>",
+    "type": "MINION",
+    "cardClass": "DRUID",
+    "rarity": "COMMON",
+    "race": "BEAST",
+    "collectible": false,
+    "durability": 0,
+    "armor": 0,
+    "set": "legacy",
+    "releasedAt": "2016-04-25",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "nativeTags",
+    "nativeRawText",
+    "nativeTextBuilder",
+    "portrait",
+    "flavor",
+    "artist",
+    "watermark",
+    "set",
+    "relatedDbfIds"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ]
+}

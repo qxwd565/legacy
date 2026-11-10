@@ -41535,6 +41535,30 @@
         "ELEMENTAL"
       ],
       "race": "정령"
+    },
+    {
+      "set": "legacy",
+      "releasedAt": "2016-04-25",
+      "releaseStatus": "verified",
+      "dbfId": 38319,
+      "cost": 6,
+      "health": 9,
+      "attack": 7,
+      "races": [
+        "BEAST"
+      ],
+      "mechanics": [
+        "RUSH",
+        "TAUNT"
+      ],
+      "id": "OG_044a",
+      "name": "발톱의 드루이드",
+      "text": "<b>속공</b><br></br><b>도발</b>",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "rarity": "COMMON",
+      "race": "BEAST",
+      "collectible": false
     }
   ]
 }
