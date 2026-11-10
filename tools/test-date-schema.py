@@ -28,7 +28,10 @@ def independent_expected(meta, day):
         for field in ('dbfId','rarity','race','races','text'):
             if field in approved: raw[field]=copy.deepcopy(approved[field])
     for event in raw.get('patches',[]):
-        if day is None or event['date'] <= day:
+        # Keep originalSource immutable, but replay North American beta patch
+        # 4217 on its agreed KST day rather than the Korean region rollout.
+        effective = '2013-12-11' if event['date'] == '2013-12-12' else event['date']
+        if day is None or effective <= day:
             raw.update(copy.deepcopy(event['changes']))
     result={k:copy.deepcopy(v) for k,v in raw.items() if k in SPECS}
     kind=raw['type']
