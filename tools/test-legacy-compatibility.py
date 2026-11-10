@@ -80,8 +80,18 @@ def main(fixture=None):
                 if field=='text':continue
                 if field=='health' and actual.get('type')=='WEAPON':continue
                 if not json_equal(actual.get(field),before.get(field)):
-                    # Explicitly reviewed real type correction, not a transport change.
-                    assert cid=='EX1_323' and day<'2021-03-26' and field in ('type','attack','armor','race'),(cid,day,field,actual.get(field),before.get(field))
+                    # Two intentional exceptions: the reviewed Jaraxxus
+                    # type correction, and moving the 4217 beta patch from
+                    # Korean server Dec 12 to NA-patch KST Dec 11. The latter
+                    # must match the unchanged originalSource patch value.
+                    type_fix = cid=='EX1_323' and day<'2021-03-26' and field in ('type','attack','armor','race')
+                    beta_date_fix = day=='2013-12-11' and any(
+                        ev['date']=='2013-12-12'
+                        and field in ev['changes']
+                        and json_equal(ev['changes'][field],actual.get(field))
+                        for ev in meta['originalSource']['card'].get('patches',[])
+                    )
+                    assert type_fix or beta_date_fix,(cid,day,field,actual.get(field),before.get(field))
                     corrections.append({'id':cid,'date':day,'field':field,'before':before.get(field),'after':actual.get(field)})
             if actual['type']=='WEAPON':
                 assert (actual.get('durability') or actual.get('health'))==(before.get('durability') or before.get('health')),(cid,day,'legacy displayed durability changed')
