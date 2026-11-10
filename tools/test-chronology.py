@@ -192,8 +192,8 @@ def main():
     assert "번개 화살" in value_at("GIFT_06", "text", "2024-03-28")
     assert "번개 폭풍" in value_at("GIFT_06", "text", "2024-03-29")
     for cid in ("PRO_001", "PRO_001a", "PRO_001at", "PRO_001b", "PRO_001c"):
-        assert get(cid)["releasedAt"] == "2013-12-11"
-        assert not any(e["date"] <= "2013-12-11" for e in get(cid)["patches"])
+        assert get(cid)["releasedAt"] == "2013-12-12"
+        assert not any(e["date"] <= "2013-12-12" for e in get(cid)["patches"])
     assert "디버그" not in get("PRO_001")["text"]
     for cid in ("BG31_BOB", "BG31_BOBt", "BG31_BOBt2", "BG31_BOBt3", "BG31_BOBt4"):
         assert get(cid)["releasedAt"] == "2024-12-11"
@@ -280,10 +280,10 @@ def main():
     ):
         assert value_at(cid, field, "2013-12-11") == previous, (cid, field, "before 4217")
         assert value_at(cid, field, "2013-12-12") == updated, (cid, field, "after 4217")
-    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-10")
-    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-11")
-    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-10")
-    assert "사냥개" in value_at("EX1_538", "text", "2013-12-11")
+    assert "피해를 2" in value_at("EX1_319", "text", "2013-12-11")
+    assert "피해를 3" in value_at("EX1_319", "text", "2013-12-12")
+    assert "야수들에게" in value_at("EX1_538", "text", "2013-12-11")
+    assert "사냥개" in value_at("EX1_538", "text", "2013-12-12")
     for cid, field, previous, updated in (
         ("EX1_538", "cost", 4, 2),
         ("EX1_279", "cost", 8, 10),

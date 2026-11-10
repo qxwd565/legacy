@@ -8,8 +8,12 @@ ROOT = Path(__file__).resolve().parents[1]
 BREAK = re.compile(r'<br\s*/?>\s*(?:</br>)?|\\r\\n|\\n|\\r|\r\n?|\n|/n', re.IGNORECASE)
 FIELDS = ('text', 'flavor')
 
+STRAY_AMP = re.compile(r"(?<=[:가-힣])&(?=\\s|<br>)")
+
 def normalize(value):
-    return BREAK.sub('<br></br>', value) if isinstance(value, str) else value
+    if not isinstance(value, str):
+        return value
+    return STRAY_AMP.sub('', BREAK.sub('<br></br>', value))
 
 def main():
     files = fields = redundant = 0
@@ -21,9 +25,15 @@ def main():
             before_state = {}
             normalized_state = {}
             cleaned = {}
+            states_by_kst_day = {}
             for day, change in doc.items():
                 before_state = apply(before_state, change)
-                state = dict(before_state)
+                # Patch 1.0.0.4217 was deployed in Korea on December 12.
+                # Merge the formerly NA-dated December 11 wording with the
+                # already-KST-dated December 12 gameplay deltas.
+                kst_day = '2013-12-12' if day == '2013-12-11' else day
+                states_by_kst_day[kst_day] = dict(before_state)
+            for day, state in sorted(states_by_kst_day.items()):
                 for field in FIELDS:
                     if field in state:
                         value = normalize(state[field]); fields += value != state[field]; state[field] = value
