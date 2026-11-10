@@ -9,11 +9,12 @@ BREAK = re.compile(r'<br\s*/?>\s*(?:</br>)?|\\r\\n|\\n|\\r|\r\n?|\n|/n', re.IGNO
 FIELDS = ('text', 'flavor')
 
 STRAY_AMP = re.compile(r"(?<=[,:가-힣])&(?=\s|<br>)")
+DISPLAY_UNDERSCORE = re.compile(r"(?<=[가-힣])_(?=[가-힣])")
 
 def normalize(value):
     if not isinstance(value, str):
         return value
-    return STRAY_AMP.sub('', BREAK.sub('<br></br>', value))
+    return DISPLAY_UNDERSCORE.sub(' ', STRAY_AMP.sub('', BREAK.sub('<br></br>', value)))
 
 def main():
     files = fields = redundant = 0
