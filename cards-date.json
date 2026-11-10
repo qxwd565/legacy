@@ -1654,7 +1654,7 @@
       "cardClass": "NEUTRAL",
       "rarity": "EPIC",
       "collectible": true,
-      "text": "내 턴이 시작될 때,& 모든 하수인을 처치합니다."
+      "text": "내 턴이 시작될 때, 모든 하수인을 처치합니다."
     },
     {
       "art": "art/EX1_136.png",
@@ -2488,7 +2488,7 @@
       "cardClass": "ROGUE",
       "rarity": "COMMON",
       "collectible": true,
-      "text": "<b>연계</b>:& 2/1 데피아즈단 무법자를 소환합니다."
+      "text": "<b>연계</b>: 2/1 데피아즈단 무법자를 소환합니다."
     },
     {
       "art": "art/EX1_554t.png",
@@ -5781,7 +5781,7 @@
       "cardClass": "NEUTRAL",
       "rarity": "LEGENDARY",
       "collectible": true,
-      "text": "<b>도발</b>, <b>죽음의 메아리</b>:& 5/5 바인 블러드후프를 소환합니다."
+      "text": "<b>도발</b>, <b>죽음의 메아리</b>: 5/5 바인 블러드후프를 소환합니다."
     },
     {
       "art": "art/EX1_583.png",
@@ -9576,7 +9576,7 @@
       "rarity": "RARE",
       "race": "DEMON",
       "collectible": true,
-      "text": "<b>돌진</b>, <b>전투의 함성</b>:& 무작위로 카드를 2장 버립니다."
+      "text": "<b>돌진</b>, <b>전투의 함성</b>: 무작위로 카드를 2장 버립니다."
     },
     {
       "art": "art/NEW1_040.png",
@@ -11767,7 +11767,7 @@
       "cardClass": "WARLOCK",
       "rarity": "LEGENDARY",
       "collectible": true,
-      "text": "<b>전투의 함성</b>:&<br></br>3/8 피의 격노를 장착합니다.",
+      "text": "<b>전투의 함성</b>:<br></br>3/8 피의 격노를 장착합니다.",
       "heroPowerDbfId": 1178,
       "armor": 5
     },
@@ -13690,7 +13690,7 @@
       "cardClass": "PALADIN",
       "rarity": "LEGENDARY",
       "collectible": true,
-      "text": "<b>천상의 보호막</b>, <b>도발</b><br></br><b>죽음의 메아리</b>:&<br></br>5/3 파멸의 인도자를 장착합니다."
+      "text": "<b>천상의 보호막</b>, <b>도발</b><br></br><b>죽음의 메아리</b>:<br></br>5/3 파멸의 인도자를 장착합니다."
     },
     {
       "art": "art/EX1_058.png",
@@ -15422,7 +15422,7 @@
       "cardClass": "NEUTRAL",
       "rarity": "RARE",
       "collectible": true,
-      "text": "내가 주문을 시전한 후에,& 모든 하수인에게 피해를 1 줍니다.",
+      "text": "내가 주문을 시전한 후에, 모든 하수인에게 피해를 1 줍니다.",
       "races": [
         "UNDEAD"
       ],
@@ -16240,7 +16240,7 @@
       "cardClass": "MAGE",
       "rarity": "LEGENDARY",
       "collectible": true,
-      "text": "내가 주문을 시전할 때마다& '화염구' 주문을 내 손으로 가져옵니다."
+      "text": "내가 주문을 시전할 때마다 '화염구' 주문을 내 손으로 가져옵니다."
     },
     {
       "art": "art/tt_010a.png",
@@ -16463,7 +16463,7 @@
       "rarity": "COMMON",
       "race": "DEMON",
       "collectible": true,
-      "text": "<b>전투의 함성</b>:& 내 영웅에게 피해를 3 줍니다."
+      "text": "<b>전투의 함성</b>: 내 영웅에게 피해를 3 줍니다."
     },
     {
       "art": "art/EX1_533.png",
@@ -19648,7 +19648,7 @@
       "cardClass": "NEUTRAL",
       "rarity": "COMMON",
       "collectible": true,
-      "text": "이 하수인이 피해를 받을 때마다& 카드를 뽑습니다."
+      "text": "이 하수인이 피해를 받을 때마다 카드를 뽑습니다."
     },
     {
       "art": "art/EX1_323w.png",
@@ -40643,7 +40643,7 @@
         318,
         420
       ],
-      "releasedAt": "2013-12-11",
+      "releasedAt": "2013-12-12",
       "releaseStatus": "verified",
       "dbfId": 1754,
       "cost": 5,
@@ -40677,7 +40677,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-11",
+      "releasedAt": "2013-12-12",
       "releaseStatus": "verified",
       "dbfId": 1843,
       "cost": 4,
@@ -40720,7 +40720,7 @@
           "value": 4
         }
       ],
-      "releasedAt": "2013-12-11",
+      "releasedAt": "2013-12-12",
       "releaseStatus": "verified",
       "dbfId": 1844,
       "cost": 0,
@@ -40758,7 +40758,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-11",
+      "releasedAt": "2013-12-12",
       "releaseStatus": "verified",
       "dbfId": 1845,
       "cost": 4,
@@ -40791,7 +40791,7 @@
           "value": 5
         }
       ],
-      "releasedAt": "2013-12-11",
+      "releasedAt": "2013-12-12",
       "releaseStatus": "verified",
       "dbfId": 1846,
       "cost": 4,
