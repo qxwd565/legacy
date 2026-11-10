@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BREAK = re.compile(r'<br\s*/?>\s*(?:</br>)?|\\r\\n|\\n|\\r|\r\n?|\n|/n', re.IGNORECASE)
 FIELDS = ('text', 'flavor')
 
-STRAY_AMP = re.compile(r"(?<=[:가-힣])&(?=\\s|<br>)")
+STRAY_AMP = re.compile(r"(?<=[,:가-힣])&(?=\s|<br>)")
 
 def normalize(value):
     if not isinstance(value, str):
@@ -72,6 +72,23 @@ def main():
         after = json.dumps(doc, ensure_ascii=False, indent=2)+'\n'
         if before != after:
             path.write_text(after, encoding='utf-8', newline='\n'); files += 1
+    # The original client/source evidence is immutable, but the sidecar
+    # release date and its current-catalog mirror must use Korean 4217 day.
+    pro_ids = {'PRO_001', 'PRO_001a', 'PRO_001at', 'PRO_001b', 'PRO_001c'}
+    for cid in sorted(pro_ids):
+        meta_path = ROOT/'metadata'/f'{cid}.json'
+        meta_before = meta_path.read_text(encoding='utf-8')
+        meta = json.loads(meta_before)
+        if meta['release']['date'] not in {'2013-12-11','2013-12-12'}:
+            raise ValueError(f'{cid}: unexpected release date')
+        meta['release']['date'] = '2013-12-12'
+        current = meta.get('currentCatalog', {})
+        if current.get('releasedAt') == '2013-12-11':
+            current['releasedAt'] = '2013-12-12'
+        meta_after = json.dumps(meta, ensure_ascii=False, indent=2)+'\n'
+        if meta_after != meta_before:
+            meta_path.write_text(meta_after, encoding='utf-8', newline='\n')
+            files += 1
     print(json.dumps({'changedFiles':files,'normalizedDisplayFields':fields,'formatOnlyRedundantChangesRemoved':redundant}))
 
 if __name__ == '__main__': main()
