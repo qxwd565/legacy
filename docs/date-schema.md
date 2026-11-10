@@ -81,6 +81,8 @@ Eleven old source records have true weapon durability in `health`/native tag45 b
 
 Edit canonical date records and the corresponding source/evidence metadata. Do not edit generated gameplay values in `cards.json`, or mutate the immutable original source to alter a date. Sidecar `currentCatalog` is the source for current-only asset metadata.
 
+Client-only misprints and display glitches that did not change actual card behavior are excluded entirely from card history. Remove both the spurious dated text and the subsequent correction-only reversal from `data/<ID>.json` and any erroneous client-text observations from `metadata/<ID>.json`; do not retain a separate card-level bug entry. Preserve real balance patches and their dates.
+
 Run:
 
 1. `python3 tools/migrate-date-schema.py` (idempotent; only converts old wrappers once).
