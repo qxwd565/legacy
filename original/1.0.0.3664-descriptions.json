@@ -1,0 +1,2645 @@
+{
+  "version": "1.0.0.3664",
+  "date": "2013-08-17",
+  "locale": "koKR",
+  "source": "Data/cards.unity3d:CardTextInHand",
+  "cards": {
+    "CS1_042": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS1_069": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS1_112": {
+      "status": "available",
+      "text": "모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다."
+    },
+    "CS1_113": {
+      "status": "available",
+      "text": "적 하수인 하나를 우리편으로 만듭니다."
+    },
+    "CS1_113e": {
+      "status": "available",
+      "text": "상대편의 명을 따름"
+    },
+    "CS1_129": {
+      "status": "available",
+      "text": "하수인의 공격력을 생명력과 같은 수치로 바꿉니다."
+    },
+    "CS1_129e": {
+      "status": "available",
+      "text": "공격력과 생명력이 같아짐"
+    },
+    "CS1_130": {
+      "status": "available",
+      "text": "피해를 $2 줍니다."
+    },
+    "CS1h_001": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 생명력을 2 회복시킵니다."
+    },
+    "CS2_003": {
+      "status": "available",
+      "text": "상대편의 손에 있는 카드 하나를 무작위로 복사하여 당신의 손에 가져옵니다."
+    },
+    "CS2_004": {
+      "status": "available",
+      "text": "하수인에게 생명력을 +3 부여합니다."
+    },
+    "CS2_004e": {
+      "status": "available",
+      "text": "생명력 +3"
+    },
+    "CS2_005": {
+      "status": "available",
+      "text": "당신의 영웅에게 방어도를 +2 부여하고, 이번 턴에만 공격력을 +2 부여합니다."
+    },
+    "CS2_005o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +2"
+    },
+    "CS2_007": {
+      "status": "available",
+      "text": "생명력을 #8 회복시킵니다."
+    },
+    "CS2_008": {
+      "status": "available",
+      "text": "피해를 $1 줍니다."
+    },
+    "CS2_009": {
+      "status": "available",
+      "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
+    },
+    "CS2_009e": {
+      "status": "available",
+      "text": "+2/+2, <b>도발<b>"
+    },
+    "CS2_011": {
+      "status": "available",
+      "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다."
+    },
+    "CS2_011o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +2"
+    },
+    "CS2_012": {
+      "status": "available",
+      "text": "적에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다."
+    },
+    "CS2_013": {
+      "status": "available",
+      "text": "빈 마나 수정을 획득합니다."
+    },
+    "CS2_013t": {
+      "status": "available",
+      "text": "카드를 한 장 뽑습니다. <i>(마나는 10개까지만 보유 가능)</i>"
+    },
+    "CS2_017": {
+      "status": "available",
+      "text": "<b>영웅 능력</b><br></br> 이번 턴에 공격력 +1, 방어도 +1"
+    },
+    "CS2_017o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +1"
+    },
+    "CS2_022": {
+      "status": "available",
+      "text": "하수인을 1/1 양으로 변신시킵니다."
+    },
+    "CS2_022e": {
+      "status": "available",
+      "text": "1/1 양으로 변이됨"
+    },
+    "CS2_023": {
+      "status": "available",
+      "text": "카드를 두 장 뽑습니다."
+    },
+    "CS2_024": {
+      "status": "available",
+      "text": "캐릭터에게 피해를 $3 주고 <b>얼어붙음</b> 상태로 만듭니다."
+    },
+    "CS2_025": {
+      "status": "available",
+      "text": "모든 적 하수인에게 피해를 $1 줍니다."
+    },
+    "CS2_026": {
+      "status": "available",
+      "text": "모든 적 하수인을 <b>얼어붙음</b> 상태로 만듭니다."
+    },
+    "CS2_027": {
+      "status": "available",
+      "text": "<b>도발</b>하는 0/1 하수인을 둘 소환합니다."
+    },
+    "CS2_028": {
+      "status": "available",
+      "text": "모든 적 하수인에게 피해를 $2 주고 <b>얼어붙음</b> 상태로 만듭니다."
+    },
+    "CS2_029": {
+      "status": "available",
+      "text": "피해를 $6 줍니다."
+    },
+    "CS2_031": {
+      "status": "available",
+      "text": "캐릭터를 <b>얼어붙음</b> 상태로 만듭니다. 이미 <b>얼어붙음</b> 상태라면 피해를 $4 줍니다."
+    },
+    "CS2_032": {
+      "status": "available",
+      "text": "모든 적 하수인에게 피해를 $4 줍니다."
+    },
+    "CS2_033": {
+      "status": "available",
+      "text": "물의 정령에게 피해를 입은 캐릭터는 <b>얼어붙음</b> 상태가 됩니다."
+    },
+    "CS2_034": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 피해를 1 줍니다."
+    },
+    "CS2_037": {
+      "status": "available",
+      "text": "적 캐릭터에게 피해를 $1 주고 <b>얼어붙음</b> 상태로 만듭니다."
+    },
+    "CS2_038": {
+      "status": "available",
+      "text": "하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다."
+    },
+    "CS2_038e": {
+      "status": "available",
+      "text": "죽음의 신음: 파괴되면 다시 전장으로 돌아옴"
+    },
+    "CS2_039": {
+      "status": "available",
+      "text": "하수인에게 <b>질풍</b>을 부여합니다."
+    },
+    "CS2_041": {
+      "status": "available",
+      "text": "하수인의 생명력을 모두 회복시키고 <b>도발</b>을 부여합니다."
+    },
+    "CS2_041e": {
+      "status": "korean-unavailable"
+    },
+    "CS2_042": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 피해를 3 줍니다."
+    },
+    "CS2_045": {
+      "status": "available",
+      "text": "이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다."
+    },
+    "CS2_045e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +3"
+    },
+    "CS2_046": {
+      "status": "available",
+      "text": "이번 턴에 당신의 하수인들에게 공격력을 +3 부여합니다."
+    },
+    "CS2_046e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +3"
+    },
+    "CS2_049": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 무작위 토템을 소환합니다."
+    },
+    "CS2_050": {
+      "status": "no-description-tag"
+    },
+    "CS2_051": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_052": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>"
+    },
+    "CS2_053": {
+      "status": "available",
+      "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
+    },
+    "CS2_053e": {
+      "status": "available",
+      "text": "카드 한 장의 비용이 (3) 감소"
+    },
+    "CS2_056": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 카드를 한 장 뽑고 피해를 2 입습니다."
+    },
+    "CS2_057": {
+      "status": "available",
+      "text": "하수인에게 피해를 $4 줍니다."
+    },
+    "CS2_059": {
+      "status": "available",
+      "text": "<b>은신</b>. 당신의 다른 하수인들이 생명력을 +1 얻습니다."
+    },
+    "CS2_059o": {
+      "status": "available",
+      "text": "피의 임프가 생명력 +1 부여"
+    },
+    "CS2_061": {
+      "status": "available",
+      "text": "피해를 $2 줍니다. 당신의 영웅이 생명력을 #2 회복합니다."
+    },
+    "CS2_062": {
+      "status": "available",
+      "text": "모든 캐릭터에게 피해를 $3 줍니다."
+    },
+    "CS2_063": {
+      "status": "available",
+      "text": "적 하수인을 선택합니다. 당신의 턴이 시작될 때, 그 하수인을 파괴합니다."
+    },
+    "CS2_063e": {
+      "status": "available",
+      "text": "타락시킨 플레이어의 턴이 시작될 때 파괴됨"
+    },
+    "CS2_064": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해를 1 줍니다."
+    },
+    "CS2_065": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_072": {
+      "status": "available",
+      "text": "적 하수인에게 피해를 $2 줍니다."
+    },
+    "CS2_073": {
+      "status": "available",
+      "text": "하수인에게 공격력을 +2 부여합니다. <b>연계:</b> 공격력을 +4 부여합니다."
+    },
+    "CS2_073e": {
+      "status": "available",
+      "text": "공격력 +2"
+    },
+    "CS2_073e2": {
+      "status": "available",
+      "text": "공격력 +4"
+    },
+    "CS2_074": {
+      "status": "available",
+      "text": "당신의 무기에 공격력을 +2 부여합니다."
+    },
+    "CS2_074e": {
+      "status": "available",
+      "text": "공격력 +2"
+    },
+    "CS2_075": {
+      "status": "available",
+      "text": "적 영웅에게 피해를 $3 줍니다."
+    },
+    "CS2_076": {
+      "status": "available",
+      "text": "적 하수인을 파괴합니다."
+    },
+    "CS2_077": {
+      "status": "available",
+      "text": "카드를 네 장 뽑습니다."
+    },
+    "CS2_080": {
+      "status": "no-description-tag"
+    },
+    "CS2_082": {
+      "status": "no-description-tag"
+    },
+    "CS2_083b": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 1/2 단검을 장비합니다. 또는 이번 턴에 당신의 무기에 공격력을 +1 부여합니다."
+    },
+    "CS2_083e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +1"
+    },
+    "CS2_084": {
+      "status": "available",
+      "text": "이번 턴에 하수인의 생명력을 1로 바꿉니다."
+    },
+    "CS2_084e": {
+      "status": "available",
+      "text": "이번 턴에 생명력 1"
+    },
+    "CS2_087": {
+      "status": "available",
+      "text": "하수인에게 공격력을 +3 부여합니다."
+    },
+    "CS2_087e": {
+      "status": "available",
+      "text": "공격력 +3"
+    },
+    "CS2_088": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 영웅이 생명력을 6 회복합니다."
+    },
+    "CS2_089": {
+      "status": "available",
+      "text": "생명력을 #6 회복시킵니다."
+    },
+    "CS2_091": {
+      "status": "no-description-tag"
+    },
+    "CS2_092": {
+      "status": "available",
+      "text": "하수인에게 +4/+4를 부여합니다. <i>(공격력 +4/생명력 +4)</i>"
+    },
+    "CS2_092e": {
+      "status": "available",
+      "text": "+4/+4"
+    },
+    "CS2_093": {
+      "status": "available",
+      "text": "모든 적에게 피해를 $2 줍니다."
+    },
+    "CS2_094": {
+      "status": "available",
+      "text": "피해를 $3 줍니다. 카드를 한 장 뽑습니다."
+    },
+    "CS2_097": {
+      "status": "available",
+      "text": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다."
+    },
+    "CS2_101": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 1/1 은빛 성기사단 신병을 소환합니다."
+    },
+    "CS2_101t": {
+      "status": "no-description-tag"
+    },
+    "CS2_102": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 방어도를 2 얻습니다."
+    },
+    "CS2_103": {
+      "status": "available",
+      "text": "아군 하수인에게 <b>돌진</b>을 부여합니다."
+    },
+    "CS2_103e": {
+      "status": "available",
+      "text": "Minions have <b>Charge</b> this turn."
+    },
+    "CS2_103e2": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_104": {
+      "status": "available",
+      "text": "피해를 입은 하수인에게 +3/+3을 부여합니다."
+    },
+    "CS2_104e": {
+      "status": "available",
+      "text": "+3/+3"
+    },
+    "CS2_105": {
+      "status": "available",
+      "text": "이번 턴에 당신의 영웅에게 공격력을 +4 부여합니다."
+    },
+    "CS2_105e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +4"
+    },
+    "CS2_106": {
+      "status": "no-description-tag"
+    },
+    "CS2_108": {
+      "status": "available",
+      "text": "피해를 입은 적 하수인을 파괴합니다."
+    },
+    "CS2_112": {
+      "status": "no-description-tag"
+    },
+    "CS2_114": {
+      "status": "available",
+      "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다."
+    },
+    "CS2_117": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 생명력을 3 회복시킵니다."
+    },
+    "CS2_118": {
+      "status": "no-description-tag"
+    },
+    "CS2_119": {
+      "status": "no-description-tag"
+    },
+    "CS2_120": {
+      "status": "no-description-tag"
+    },
+    "CS2_121": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_122": {
+      "status": "available",
+      "text": "당신의 다른 하수인들이 공격력을 +1 얻습니다."
+    },
+    "CS2_122e": {
+      "status": "available",
+      "text": "공격대장이 공격력 +1 부여"
+    },
+    "CS2_124": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_125": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_127": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_131": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_141": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 피해를 1 줍니다."
+    },
+    "CS2_142": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>"
+    },
+    "CS2_146": {
+      "status": "available",
+      "text": "당신이 무기를 장비하고 있으면 <b>돌진</b>을 얻습니다."
+    },
+    "CS2_146o": {
+      "status": "available",
+      "text": "내구도 +1"
+    },
+    "CS2_147": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다."
+    },
+    "CS2_150": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 피해를 2 줍니다."
+    },
+    "CS2_151": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 2/2 종자를 소환합니다."
+    },
+    "CS2_152": {
+      "status": "no-description-tag"
+    },
+    "CS2_155": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>"
+    },
+    "CS2_161": {
+      "status": "available",
+      "text": "<b>은신</b>"
+    },
+    "CS2_162": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_168": {
+      "status": "no-description-tag"
+    },
+    "CS2_169": {
+      "status": "available",
+      "text": "<b>질풍</b>"
+    },
+    "CS2_171": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_172": {
+      "status": "no-description-tag"
+    },
+    "CS2_173": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_179": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_181": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 자신에게 피해를 4 줍니다."
+    },
+    "CS2_181e": {
+      "status": "available",
+      "text": "공격력 +2"
+    },
+    "CS2_182": {
+      "status": "no-description-tag"
+    },
+    "CS2_186": {
+      "status": "no-description-tag"
+    },
+    "CS2_187": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_188": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다."
+    },
+    "CS2_188o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +2"
+    },
+    "CS2_189": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 피해를 1 줍니다."
+    },
+    "CS2_196": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 1/1 멧돼지를 소환합니다."
+    },
+    "CS2_197": {
+      "status": "available",
+      "text": "<b>주문력 +1</b> "
+    },
+    "CS2_200": {
+      "status": "no-description-tag"
+    },
+    "CS2_201": {
+      "status": "no-description-tag"
+    },
+    "CS2_203": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다."
+    },
+    "CS2_213": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "CS2_221": {
+      "status": "available",
+      "text": "<b>격노:</b> 당신의 무기가 공격력을 +2 얻습니다."
+    },
+    "CS2_221e": {
+      "status": "available",
+      "text": "원한 맺힌 대장장이가 공격력 +2 부여"
+    },
+    "CS2_222": {
+      "status": "available",
+      "text": "당신의 다른 하수인들이 +1/+1을 얻습니다."
+    },
+    "CS2_222o": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "CS2_226": {
+      "status": "available",
+      "text": "전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다."
+    },
+    "CS2_226o": {
+      "status": "available",
+      "text": "서리늑대 전쟁군주의 공격력과 생명력 증가"
+    },
+    "CS2_227": {
+      "status": "available",
+      "text": "당신 하수인들의 비용이 (3) 증가합니다."
+    },
+    "CS2_231": {
+      "status": "no-description-tag"
+    },
+    "CS2_232": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_233": {
+      "status": "available",
+      "text": "당신의 무기를 파괴하고 무기의 공격력만큼 모든 적에게 피해를 줍니다."
+    },
+    "CS2_234": {
+      "status": "available",
+      "text": "공격력 3 이하인 하수인을 하나 파괴합니다."
+    },
+    "CS2_235": {
+      "status": "available",
+      "text": "하수인이 치유될 때마다 카드를 한 장 뽑습니다."
+    },
+    "CS2_236": {
+      "status": "available",
+      "text": "하수인의 생명력을 두 배 증가시킵니다."
+    },
+    "CS2_236e": {
+      "status": "available",
+      "text": "생명력 두 배 증가"
+    },
+    "CS2_237": {
+      "status": "available",
+      "text": "당신이 야수를 소환할 때마다 카드를 한 장 뽑습니다."
+    },
+    "CS2_boar": {
+      "status": "no-description-tag"
+    },
+    "CS2_mirror": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "CS2_tk1": {
+      "status": "no-description-tag"
+    },
+    "DREAM_01": {
+      "status": "available",
+      "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다."
+    },
+    "DREAM_02": {
+      "status": "available",
+      "text": "이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다."
+    },
+    "DREAM_03": {
+      "status": "no-description-tag"
+    },
+    "DREAM_04": {
+      "status": "available",
+      "text": "하수인을 주인의 손으로 돌려보냅니다."
+    },
+    "DREAM_05": {
+      "status": "available",
+      "text": "하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다."
+    },
+    "DREAM_05e": {
+      "status": "available",
+      "text": "+5/+5, 하지만 곧 파괴됨"
+    },
+    "DS1_055": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을 2 회복시킵니다."
+    },
+    "DS1_070": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 야수에게 +2/+2와 <b>도발</b>을 부여합니다."
+    },
+    "DS1_070o": {
+      "status": "available",
+      "text": "+2/+2, <b>도발</b>"
+    },
+    "DS1_175": {
+      "status": "available",
+      "text": "당신의 다른 야수들이 공격력을 +1 얻습니다."
+    },
+    "DS1_175o": {
+      "status": "available",
+      "text": "회갈색 늑대가 공격력 +1 부여"
+    },
+    "DS1_178": {
+      "status": "available",
+      "text": "당신의 야수들이 <b>돌진</b>을 얻습니다."
+    },
+    "DS1_178e": {
+      "status": "available",
+      "text": "툰드라 코뿔소가 <b>돌진</b> 부여"
+    },
+    "DS1_183": {
+      "status": "available",
+      "text": "무작위 적 하수인 둘에게 피해를 $3 줍니다."
+    },
+    "DS1_184": {
+      "status": "available",
+      "text": "당신이 다음에 뽑을 카드 세 장을 미리 봅니다. 한 장을 선택해 갖고, 나머지는 버립니다."
+    },
+    "DS1_185": {
+      "status": "available",
+      "text": "피해를 $2 줍니다."
+    },
+    "DS1_188": {
+      "status": "available",
+      "text": "당신의 영웅이 공격할 때 <b>피해 면역</b> 상태가 됩니다."
+    },
+    "DS1_233": {
+      "status": "available",
+      "text": "적 영웅에게 피해를 $5 줍니다."
+    },
+    "DS1h_292": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 적 영웅에게 피해를 2 줍니다."
+    },
+    "EX1_001": {
+      "status": "available",
+      "text": "캐릭터가 치유될 때마다 공격력을 +1 얻습니다."
+    },
+    "EX1_001e": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "EX1_002": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> <b>도발</b>하는 하수인을 하나 파괴합니다."
+    },
+    "EX1_004": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
+    },
+    "EX1_004e": {
+      "status": "available",
+      "text": "생명력 증가"
+    },
+    "EX1_005": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 공격력 7 이상인 하수인을 하나 파괴합니다."
+    },
+    "EX1_006": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 이 하수인이 당신의 손에 있는 다른 무작위 하수인과 교체됩니다."
+    },
+    "EX1_007": {
+      "status": "available",
+      "text": "이 하수인이 피해를 입을 때마다 카드를 한 장 뽑습니다."
+    },
+    "EX1_008": {
+      "status": "available",
+      "text": "<b>천상의 보호막</b>"
+    },
+    "EX1_009": {
+      "status": "available",
+      "text": "<b>격노:</b> 공격력 +5"
+    },
+    "EX1_010": {
+      "status": "available",
+      "text": "<b>은신</b>"
+    },
+    "EX1_011": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 생명력을 2 회복시킵니다."
+    },
+    "EX1_012": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>. <b>죽음의 신음:</b> 카드를 한 장 뽑습니다."
+    },
+    "EX1_014": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 상대편에게 바나나 2개를 줍니다."
+    },
+    "EX1_014t": {
+      "status": "available",
+      "text": "하수인에게 +1/+1을 부여합니다."
+    },
+    "EX1_014te": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "EX1_015": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다."
+    },
+    "EX1_016": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 무작위 적 하수인을 우리편으로 만듭니다."
+    },
+    "EX1_016t": {
+      "status": "no-description-tag"
+    },
+    "EX1_017": {
+      "status": "available",
+      "text": "<b>은신</b>"
+    },
+    "EX1_019": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 하수인에게 +1/+1을 부여합니다."
+    },
+    "EX1_019e": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "EX1_020": {
+      "status": "available",
+      "text": "<b>천상의 보호막</b>"
+    },
+    "EX1_021": {
+      "status": "available",
+      "text": "<b>질풍</b>"
+    },
+    "EX1_023": {
+      "status": "available",
+      "text": "<b>천상의 보호막</b>"
+    },
+    "EX1_025": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 2/1 소형 기계용을 소환합니다."
+    },
+    "EX1_025t": {
+      "status": "no-description-tag"
+    },
+    "EX1_028": {
+      "status": "available",
+      "text": "<b>은신</b>"
+    },
+    "EX1_029": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 적 영웅에게 피해를 2 줍니다."
+    },
+    "EX1_032": {
+      "status": "available",
+      "text": "<b>도발</b>. <b>천상의 보호막</b>"
+    },
+    "EX1_033": {
+      "status": "available",
+      "text": "<b>질풍</b>"
+    },
+    "EX1_043": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 손에 있는 카드 한 장당 +1/+1을 얻습니다."
+    },
+    "EX1_043e": {
+      "status": "available",
+      "text": "공격력과 생명력 증가"
+    },
+    "EX1_044": {
+      "status": "available",
+      "text": "당신이 카드를 낼 때마다 +1/+1을 얻습니다."
+    },
+    "EX1_044e": {
+      "status": "available",
+      "text": "공격력과 생명력 증가"
+    },
+    "EX1_045": {
+      "status": "available",
+      "text": "이 하수인은 공격할 수 없습니다."
+    },
+    "EX1_046": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인에게 공격력을 +2 부여합니다."
+    },
+    "EX1_046e": {
+      "status": "available",
+      "text": "공격력 +2"
+    },
+    "EX1_048": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다."
+    },
+    "EX1_049": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 당신의 손으로 다시 가져옵니다."
+    },
+    "EX1_050": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 모든 플레이어가 카드를 두 장 뽑습니다."
+    },
+    "EX1_055": {
+      "status": "available",
+      "text": "당신이 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다."
+    },
+    "EX1_055o": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "EX1_057": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 당신의 손으로 다시 가져옵니다."
+    },
+    "EX1_058": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 다른 하수인들이 <b>도발</b>을 얻습니다."
+    },
+    "EX1_059": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 바꿉니다. "
+    },
+    "EX1_059e": {
+      "status": "available",
+      "text": "광기의 연금술사가 공격력과 생명력 바꿈"
+    },
+    "EX1_059e2": {
+      "status": "available",
+      "text": "광기의 연금술사가 공격력과 생명력 바꿈"
+    },
+    "EX1_062": {
+      "status": "available",
+      "text": "<b>돌진</b>. 전장의 다른 멀록 하나당 공격력 +1을 얻습니다."
+    },
+    "EX1_066": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 상대편의 무기를 파괴합니다."
+    },
+    "EX1_067": {
+      "status": "available",
+      "text": "<b>돌진</b>. <b>천상의 보호막</b>"
+    },
+    "EX1_076": {
+      "status": "available",
+      "text": "당신의 턴마다 처음 내는 하수인은 비용이 (2) 감소합니다."
+    },
+    "EX1_080": {
+      "status": "available",
+      "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
+    },
+    "EX1_080o": {
+      "status": "available",
+      "text": "공격력과 생명력 증가"
+    },
+    "EX1_082": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해 3을 무작위로 나누어 줍니다."
+    },
+    "EX1_083": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다."
+    },
+    "EX1_084": {
+      "status": "available",
+      "text": "당신의 다른 하수인들이 <b>돌진</b>을 얻습니다."
+    },
+    "EX1_084e": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "EX1_085": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 전장에 상대편의 하수인이 넷 이상 있으면, 무작위 적 하수인 하나를 우리편으로 만듭니다."
+    },
+    "EX1_089": {
+      "status": "available",
+      "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 마나 수정을 하나 줍니다."
+    },
+    "EX1_091": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다."
+    },
+    "EX1_091o": {
+      "status": "available",
+      "text": "비밀결사단 어둠사제에게 넘어감"
+    },
+    "EX1_093": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 +1/+1과 <b>도발</b>을 부여합니다."
+    },
+    "EX1_093e": {
+      "status": "available",
+      "text": "+1/+1, <b>도발</b>"
+    },
+    "EX1_095": {
+      "status": "available",
+      "text": "당신이 주문을 시전할 때마다 카드를 한 장 뽑습니다."
+    },
+    "EX1_096": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 카드를 한 장 뽑습니다."
+    },
+    "EX1_097": {
+      "status": "available",
+      "text": "<b>도발</b>. <b>죽음의 신음:</b> 모든 캐릭터에게 피해를 2 줍니다."
+    },
+    "EX1_100": {
+      "status": "available",
+      "text": "각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 다른 플레이어의 손에 넣습니다."
+    },
+    "EX1_102": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다."
+    },
+    "EX1_103": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 다른 모든 멀록에게 생명력을 +2 부여합니다."
+    },
+    "EX1_103e": {
+      "status": "available",
+      "text": "생명력 +2"
+    },
+    "EX1_105": {
+      "status": "available",
+      "text": "당신의 손에 있는 다른 카드 한 장당 비용이 (1)씩 감소합니다."
+    },
+    "EX1_110": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 4/5 바인 블러드후프를 소환합니다."
+    },
+    "EX1_110t": {
+      "status": "no-description-tag"
+    },
+    "EX1_112": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 끝내주는 발명품을 소환합니다."
+    },
+    "EX1_116": {
+      "status": "available",
+      "text": "<b>돌진</b>. <b>전투의 함성:</b> 상대편에게 1/1 새끼용 둘을 소환해 줍니다."
+    },
+    "EX1_124": {
+      "status": "available",
+      "text": "피해를 $2 줍니다. <b>연계:</b> 피해를 $4 줍니다."
+    },
+    "EX1_126": {
+      "status": "available",
+      "text": "적 하수인이 자신의 공격력만큼 양옆의 하수인들에게 피해를 줍니다."
+    },
+    "EX1_128": {
+      "status": "available",
+      "text": "당신의 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다."
+    },
+    "EX1_128e": {
+      "status": "available",
+      "text": "다음 턴까지 은신함"
+    },
+    "EX1_129": {
+      "status": "available",
+      "text": "모든 적 하수인에게 피해를 $1 줍니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_130": {
+      "status": "available",
+      "text": "<b>비밀:</b> 적이 공격할 때, 2/1 수호자를 새로운 대상으로 소환합니다."
+    },
+    "EX1_130a": {
+      "status": "no-description-tag"
+    },
+    "EX1_131": {
+      "status": "available",
+      "text": "<b>연계:</b> 2/1 데피아즈단 무법자를 소환합니다."
+    },
+    "EX1_131t": {
+      "status": "no-description-tag"
+    },
+    "EX1_132": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다."
+    },
+    "EX1_133": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 피해를 1 줍니다. <b>연계:</b> 피해를 2 줍니다."
+    },
+    "EX1_134": {
+      "status": "available",
+      "text": "<b>연계:</b> 피해를 2 줍니다."
+    },
+    "EX1_136": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 하수인이 죽으면, 1의 생명력과 함께 부활시킵니다."
+    },
+    "EX1_137": {
+      "status": "available",
+      "text": "적 영웅에게 피해를 $2 줍니다. <b>연계:</b> 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다."
+    },
+    "EX1_144": {
+      "status": "available",
+      "text": "아군 하수인을 다시 당신의 손으로 가져옵니다. 그 하수인의 비용이 (2) 감소합니다."
+    },
+    "EX1_145": {
+      "status": "available",
+      "text": "이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다."
+    },
+    "EX1_145o": {
+      "status": "korean-unavailable"
+    },
+    "EX1_154": {
+      "status": "available",
+      "text": "<b>선택</b> - 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 한 장 뽑습니다."
+    },
+    "EX1_154a": {
+      "status": "available",
+      "text": "피해를 $3 줍니다."
+    },
+    "EX1_154b": {
+      "status": "available",
+      "text": "피해를 $1 줍니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_155": {
+      "status": "available",
+      "text": "<b>선택</b> - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 <b>도발</b>을 부여합니다."
+    },
+    "EX1_155a": {
+      "status": "available",
+      "text": "공격력을 +4 부여합니다."
+    },
+    "EX1_155ae": {
+      "status": "available",
+      "text": "공격력 +4"
+    },
+    "EX1_155b": {
+      "status": "available",
+      "text": "생명력 +4와 <b>도발</b>을 부여합니다."
+    },
+    "EX1_155be": {
+      "status": "available",
+      "text": "생명력 +4, <b>도발</b>"
+    },
+    "EX1_158": {
+      "status": "available",
+      "text": "당신의 하수인들에게 \"<b>죽음의 신음:</b> 2/2 나무정령 소환\" 능력을 부여합니다."
+    },
+    "EX1_158e": {
+      "status": "available",
+      "text": "죽음의 신음: 2/2 나무정령 소환"
+    },
+    "EX1_158t": {
+      "status": "no-description-tag"
+    },
+    "EX1_160": {
+      "status": "available",
+      "text": "<b>선택</b> - 당신의 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 소환합니다."
+    },
+    "EX1_160a": {
+      "status": "available",
+      "text": "3/2 표범을 소환합니다."
+    },
+    "EX1_160b": {
+      "status": "available",
+      "text": "당신의 모든 하수인에게 +1/+1을 부여합니다."
+    },
+    "EX1_160be": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "EX1_160t": {
+      "status": "no-description-tag"
+    },
+    "EX1_161": {
+      "status": "available",
+      "text": "하수인을 파괴합니다. 상대편이 카드를 두 장 뽑습니다."
+    },
+    "EX1_161o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 -3"
+    },
+    "EX1_162": {
+      "status": "available",
+      "text": "양옆의 하수인들이 공격력을 +1 얻습니다."
+    },
+    "EX1_162o": {
+      "status": "available",
+      "text": "광포한 늑대 우두머리가 공격력 +1 부여"
+    },
+    "EX1_164": {
+      "status": "available",
+      "text": "<b>선택</b> - 마나 수정을 둘 획득합니다. 또는 카드를 세 장 뽑습니다."
+    },
+    "EX1_164a": {
+      "status": "available",
+      "text": "마나 수정을 둘 획득합니다."
+    },
+    "EX1_164b": {
+      "status": "available",
+      "text": "카드를 세 장 뽑습니다."
+    },
+    "EX1_165": {
+      "status": "available",
+      "text": "<b>선택 -</b> <b>돌진</b>. 또는 생명력 +2와 <b>도발</b>."
+    },
+    "EX1_165a": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "EX1_165b": {
+      "status": "available",
+      "text": "생명력 +2와 <b>도발</b>을 얻습니다."
+    },
+    "EX1_165t1": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "EX1_165t2": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "EX1_166": {
+      "status": "available",
+      "text": "<b>선택</b> - 피해를 2 줍니다. 또는 하수인을 <b>침묵</b>시킵니다."
+    },
+    "EX1_166a": {
+      "status": "available",
+      "text": "피해를 2 줍니다."
+    },
+    "EX1_166b": {
+      "status": "available",
+      "text": "하수인을 <b>침묵</b>시킵니다."
+    },
+    "EX1_169": {
+      "status": "available",
+      "text": "이번 턴에만 마나 수정을 둘 획득합니다."
+    },
+    "EX1_170": {
+      "status": "available",
+      "text": "이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다."
+    },
+    "EX1_173": {
+      "status": "available",
+      "text": "피해를 $5 줍니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_178": {
+      "status": "available",
+      "text": "<b>선택</b> - 전쟁의 고대정령이 생명력 +5와 <b>도발</b>을 얻습니다. 또는 공격력을 +5 얻습니다."
+    },
+    "EX1_178a": {
+      "status": "available",
+      "text": "생명력 +5와 <b>도발</b>을 얻습니다."
+    },
+    "EX1_178ae": {
+      "status": "available",
+      "text": "생명력 +5, <b>도발</b>"
+    },
+    "EX1_178b": {
+      "status": "available",
+      "text": "공격력을 +5 얻습니다."
+    },
+    "EX1_178be": {
+      "status": "available",
+      "text": "공격력 +5"
+    },
+    "EX1_238": {
+      "status": "available",
+      "text": "피해를 $3 줍니다. <b>과부하:</b> (1)"
+    },
+    "EX1_241": {
+      "status": "available",
+      "text": "피해를 $5 줍니다. <b>과부하:</b> (2)"
+    },
+    "EX1_243": {
+      "status": "available",
+      "text": "<b>질풍</b>. <b>과부하:</b> (2)"
+    },
+    "EX1_244": {
+      "status": "available",
+      "text": "당신의 토템들에게 생명력을 +2 부여합니다."
+    },
+    "EX1_244e": {
+      "status": "available",
+      "text": "생명력 +2"
+    },
+    "EX1_245": {
+      "status": "available",
+      "text": "하수인을 <b>침묵</b>시키고, 피해를 $1 줍니다."
+    },
+    "EX1_246": {
+      "status": "available",
+      "text": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다."
+    },
+    "EX1_246e": {
+      "status": "available",
+      "text": "변신!"
+    },
+    "EX1_247": {
+      "status": "available",
+      "text": "<b>과부하:</b> (1)"
+    },
+    "EX1_248": {
+      "status": "available",
+      "text": "<b>도발</b>하는 2/3 늑대 정령을 두 마리 소환합니다. <b>과부하:</b> (2) "
+    },
+    "EX1_249": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 다른 모든 캐릭터에게 피해를 2 줍니다."
+    },
+    "EX1_250": {
+      "status": "available",
+      "text": "<b>도발</b>. <b>과부하:</b> (3)"
+    },
+    "EX1_251": {
+      "status": "available",
+      "text": "무작위 적 하수인 둘에게 피해를 $2 줍니다. <b>과부하:</b> (2)"
+    },
+    "EX1_258": {
+      "status": "available",
+      "text": "당신이 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다."
+    },
+    "EX1_258e": {
+      "status": "available",
+      "text": "능력치 상승"
+    },
+    "EX1_259": {
+      "status": "available",
+      "text": "모든 적 하수인에게 피해를 $2-$3 줍니다. <b>과부하:</b> (2)"
+    },
+    "EX1_274": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때 당신에게 <b>비밀</b>이 걸려 있으면 +2/+2를 얻습니다."
+    },
+    "EX1_274e": {
+      "status": "korean-unavailable"
+    },
+    "EX1_275": {
+      "status": "available",
+      "text": "하수인과 그 양옆의 하수인들을 <b>얼어붙음</b> 상태로 만들고 피해를 $1 줍니다."
+    },
+    "EX1_277": {
+      "status": "available",
+      "text": "피해를 1 주는 화살 $3개를 무작위 적들에게 발사합니다."
+    },
+    "EX1_278": {
+      "status": "available",
+      "text": "피해를 $1 줍니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_279": {
+      "status": "available",
+      "text": "피해를 $10 줍니다."
+    },
+    "EX1_283": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 캐릭터를 <b>얼어붙음</b> 상태로 만듭니다."
+    },
+    "EX1_284": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>. <b>전투의 함성:</b> 카드를 한 장 뽑습니다."
+    },
+    "EX1_287": {
+      "status": "available",
+      "text": "<b>비밀:</b> 상대편이 주문을 시전하면 <b>차단</b>합니다."
+    },
+    "EX1_289": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 영웅이 공격받으면 방어도를 8 얻습니다."
+    },
+    "EX1_294": {
+      "status": "available",
+      "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인을 복사합니다."
+    },
+    "EX1_295": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다."
+    },
+    "EX1_295o": {
+      "status": "available",
+      "text": "이번 턴에 <b>피해 면역</b>"
+    },
+    "EX1_298": {
+      "status": "available",
+      "text": "이 하수인은 공격할 수 없습니다. 당신의 턴이 끝날 때 무작위 적에게 피해를 8 줍니다."
+    },
+    "EX1_301": {
+      "status": "available",
+      "text": "<b>도발</b>. <b>전투의 함성:</b> 당신의 마나 수정 하나를 파괴합니다."
+    },
+    "EX1_302": {
+      "status": "available",
+      "text": "하수인에게 피해를 $1 줍니다. 하수인이 죽으면 카드를 한 장 뽑습니다."
+    },
+    "EX1_303": {
+      "status": "available",
+      "text": "아군 하수인을 파괴하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
+    },
+    "EX1_304": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다."
+    },
+    "EX1_304e": {
+      "status": "available",
+      "text": "능력치 상승"
+    },
+    "EX1_306": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 무작위로 카드를 한 장 버립니다."
+    },
+    "EX1_308": {
+      "status": "available",
+      "text": "피해를 $4 줍니다. 무작위로 카드를 한 장 버립니다."
+    },
+    "EX1_309": {
+      "status": "available",
+      "text": "하수인을 파괴합니다. 당신의 영웅이 생명력을 #3 회복합니다."
+    },
+    "EX1_310": {
+      "status": "available",
+      "text": "<b>돌진</b>. <b>전투의 함성:</b> 무작위로 카드를 두 장 버립니다."
+    },
+    "EX1_312": {
+      "status": "available",
+      "text": "모든 하수인을 파괴합니다."
+    },
+    "EX1_313": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 7 줍니다."
+    },
+    "EX1_315": {
+      "status": "available",
+      "text": "당신 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다."
+    },
+    "EX1_316": {
+      "status": "available",
+      "text": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게."
+    },
+    "EX1_316e": {
+      "status": "available",
+      "text": "+4/+4, 하지만 턴이 끝나면 처참하게 파괴됨"
+    },
+    "EX1_317": {
+      "status": "available",
+      "text": "덱에 있는 무작위 악마 둘을 당신의 손으로 가져옵니다."
+    },
+    "EX1_317t": {
+      "status": "available",
+      "text": "<i>악마가 다 떨어졌습니다! 그래도 임프는 항상 당신 곁에 있을 것입니다...</i>"
+    },
+    "EX1_319": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 영웅에게 피해를 2 줍니다."
+    },
+    "EX1_320": {
+      "status": "available",
+      "text": "캐릭터에게 피해를 $2 줍니다. 캐릭터가 죽으면 무작위 악마를 소환합니다."
+    },
+    "EX1_323": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 영웅을 군주 자락서스로 교체합니다."
+    },
+    "EX1_323h": {
+      "status": "no-description-tag"
+    },
+    "EX1_323w": {
+      "status": "no-description-tag"
+    },
+    "EX1_332": {
+      "status": "available",
+      "text": "하수인을 <b>침묵</b>시킵니다."
+    },
+    "EX1_334": {
+      "status": "available",
+      "text": "공격력 3 이하인 적 하수인 하나를 이번 턴에만 조종합니다."
+    },
+    "EX1_334e": {
+      "status": "available",
+      "text": "이번 턴에는 상대편의 명을 따름"
+    },
+    "EX1_335": {
+      "status": "available",
+      "text": "이 하수인의 공격력은 항상 생명력과 같습니다."
+    },
+    "EX1_339": {
+      "status": "available",
+      "text": "상대편의 덱에서 카드를 두 장 복사하여 당신의 손으로 가져옵니다."
+    },
+    "EX1_341": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 피해를 입은 아군 캐릭터의 생명력을 3 회복시킵니다."
+    },
+    "EX1_345": {
+      "status": "available",
+      "text": "상대편의 덱에서 무작위 하수인을 복사하여 당신의 전장에 놓습니다."
+    },
+    "EX1_345t": {
+      "status": "available",
+      "text": "심리 조작 실패! 상대편에게 하수인이 없었습니다!"
+    },
+    "EX1_349": {
+      "status": "available",
+      "text": "상대편의 손에 있는 카드와 같은 수가 될 때까지 카드를 뽑습니다."
+    },
+    "EX1_350": {
+      "status": "available",
+      "text": "당신 주문의 피해량과 치유량을 두 배 증가시킵니다."
+    },
+    "EX1_354": {
+      "status": "available",
+      "text": "생명력을 8 회복시킵니다. 카드를 세 장 뽑습니다."
+    },
+    "EX1_355": {
+      "status": "available",
+      "text": "하수인의 공격력을 두 배 증가시킵니다."
+    },
+    "EX1_355e": {
+      "status": "available",
+      "text": "공격력 두 배 증가"
+    },
+    "EX1_360": {
+      "status": "available",
+      "text": "하수인의 공격력을 1로 만듭니다."
+    },
+    "EX1_360e": {
+      "status": "available",
+      "text": "공격력 1이 됨"
+    },
+    "EX1_362": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>천상의 보호막</b>을 부여합니다."
+    },
+    "EX1_363": {
+      "status": "available",
+      "text": "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 한 장 뽑습니다."
+    },
+    "EX1_363e": {
+      "status": "available",
+      "text": "공격할 때마다 해당 하수인을 축복한 플레이어가 카드를 한 장 뽑음"
+    },
+    "EX1_363e2": {
+      "status": "available",
+      "text": "이 하수인이 공격하면 적 플레이어가 카드를 한 장 뽑습니다."
+    },
+    "EX1_365": {
+      "status": "available",
+      "text": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다."
+    },
+    "EX1_366": {
+      "status": "available",
+      "text": "당신이 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
+    },
+    "EX1_366e": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "EX1_371": {
+      "status": "available",
+      "text": "하수인에게 <b>천상의 보호막</b>을 부여합니다."
+    },
+    "EX1_379": {
+      "status": "available",
+      "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다."
+    },
+    "EX1_379e": {
+      "status": "available",
+      "text": "생명력 1로 감소"
+    },
+    "EX1_382": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 적 하수인의 공격력을 1로 바꿉니다."
+    },
+    "EX1_382e": {
+      "status": "korean-unavailable"
+    },
+    "EX1_383": {
+      "status": "available",
+      "text": "<b>천상의 보호막</b>. <b>도발</b>. <b>죽음의 신음:</b> 5/3 파멸의 인도자를 장비합니다."
+    },
+    "EX1_383t": {
+      "status": "no-description-tag"
+    },
+    "EX1_384": {
+      "status": "available",
+      "text": "피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다."
+    },
+    "EX1_390": {
+      "status": "available",
+      "text": "<b>도발</b>. <b>격노:</b> 공격력 +3"
+    },
+    "EX1_391": {
+      "status": "available",
+      "text": "하수인에게 피해를 $2 줍니다. 하수인이 생존하면, 카드를 한 장 뽑습니다."
+    },
+    "EX1_392": {
+      "status": "available",
+      "text": "피해를 입은 하수인의 수만큼 카드를 뽑습니다."
+    },
+    "EX1_393": {
+      "status": "available",
+      "text": "<b>격노:</b> 공격력 +3"
+    },
+    "EX1_396": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "EX1_398": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 2/2 무기를 장비합니다."
+    },
+    "EX1_398t": {
+      "status": "no-description-tag"
+    },
+    "EX1_399": {
+      "status": "available",
+      "text": "이 하수인이 피해를 입을 때마다 공격력을 +3 얻습니다."
+    },
+    "EX1_399e": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "EX1_400": {
+      "status": "available",
+      "text": "모든 하수인에게 피해를 $1 줍니다."
+    },
+    "EX1_402": {
+      "status": "available",
+      "text": "아군 하수인이 피해를 입을 때마다 방어도를 1 얻습니다."
+    },
+    "EX1_405": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "EX1_407": {
+      "status": "available",
+      "text": "무작위로 선정된 하수인 하나를 제외한 모든 하수인을 파괴합니다."
+    },
+    "EX1_408": {
+      "status": "available",
+      "text": "피해를 $4 줍니다. 당신 영웅의 생명력이 12 이하라면 피해를 $6 줍니다."
+    },
+    "EX1_409": {
+      "status": "available",
+      "text": "당신이 무기를 장비하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장비합니다."
+    },
+    "EX1_409e": {
+      "status": "available",
+      "text": "공격력 +1, 내구도 +1"
+    },
+    "EX1_409t": {
+      "status": "no-description-tag"
+    },
+    "EX1_410": {
+      "status": "available",
+      "text": "당신이 가진 방어도만큼 하수인에게 피해를 줍니다."
+    },
+    "EX1_411": {
+      "status": "available",
+      "text": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다."
+    },
+    "EX1_411e": {
+      "status": "available",
+      "text": "내구도 소모 없음"
+    },
+    "EX1_411e2": {
+      "status": "available",
+      "text": "공격력 감소"
+    },
+    "EX1_412": {
+      "status": "available",
+      "text": "<b>격노:</b> <b>질풍</b>, 공격력 +1"
+    },
+    "EX1_414": {
+      "status": "available",
+      "text": "<b>돌진</b>. <b>격노:</b> 공격력 +6"
+    },
+    "EX1_506": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 1/1 멀록 정찰병을 소환합니다."
+    },
+    "EX1_506a": {
+      "status": "no-description-tag"
+    },
+    "EX1_507": {
+      "status": "available",
+      "text": "다른 모든 멀록이 +2/+1을 얻습니다."
+    },
+    "EX1_507e": {
+      "status": "available",
+      "text": "멀록 전투대장이 +2/+1 부여"
+    },
+    "EX1_508": {
+      "status": "available",
+      "text": "다른 모든 멀록이 공격력을 +1 얻습니다."
+    },
+    "EX1_508o": {
+      "status": "available",
+      "text": "공격력 +1"
+    },
+    "EX1_509": {
+      "status": "available",
+      "text": "멀록이 소환될 때마다 공격력을 +1 얻습니다."
+    },
+    "EX1_509e": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "EX1_522": {
+      "status": "available",
+      "text": "<b>은신</b>. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다."
+    },
+    "EX1_531": {
+      "status": "available",
+      "text": "야수가 죽을 때마다 +2/+1을 얻습니다."
+    },
+    "EX1_531e": {
+      "status": "available",
+      "text": "공격력과 생명력 증가"
+    },
+    "EX1_533": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다."
+    },
+    "EX1_534": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 2/2 하이에나를 둘 소환합니다."
+    },
+    "EX1_534t": {
+      "status": "no-description-tag"
+    },
+    "EX1_536": {
+      "status": "available",
+      "text": "<b>비밀</b>이 밝혀질 때마다 내구도를 +1 얻습니다."
+    },
+    "EX1_536e": {
+      "status": "available",
+      "text": "내구도 증가"
+    },
+    "EX1_537": {
+      "status": "available",
+      "text": "하수인에게 피해를 $5 주고 양옆의 하수인들에게 피해를 $2 줍니다."
+    },
+    "EX1_538": {
+      "status": "available",
+      "text": "당신의 야수들에게 공격력 +1과 <b>돌진</b>을 부여합니다."
+    },
+    "EX1_538t": {
+      "status": "available",
+      "text": "공격력 +1, <b>돌진</b>"
+    },
+    "EX1_539": {
+      "status": "available",
+      "text": "피해를 $3 줍니다. 전장에 당신의 야수가 있다면 피해를 $5 줍니다."
+    },
+    "EX1_543": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "EX1_544": {
+      "status": "available",
+      "text": "모든 하수인이 <b>은신</b> 상태에서 벗어납니다. 모든 적의 <b>비밀</b>을 파괴합니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_549": {
+      "status": "available",
+      "text": "이번 턴에 야수에게 공격력 +2와 <b>피해 면역</b>을 부여합니다."
+    },
+    "EX1_549o": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +2, <b>피해 면역</b>"
+    },
+    "EX1_554": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 하수인이 공격받으면 1/1 뱀을 셋 소환합니다."
+    },
+    "EX1_554t": {
+      "status": "no-description-tag"
+    },
+    "EX1_556": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 2/1 손상된 골렘을 소환합니다."
+    },
+    "EX1_557": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 50%의 확률로 카드를 한 장 뽑습니다."
+    },
+    "EX1_558": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 상대편의 무기를 파괴하고 그 무기의 내구도만큼 카드를 뽑습니다."
+    },
+    "EX1_559": {
+      "status": "available",
+      "text": "당신이 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다."
+    },
+    "EX1_560": {
+      "status": "available",
+      "text": "플레이어들의 턴 제한 시간이 15초로 감소합니다. "
+    },
+    "EX1_561": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 영웅의 남은 생명력을 15로 만듭니다."
+    },
+    "EX1_562": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다."
+    },
+    "EX1_563": {
+      "status": "available",
+      "text": "<b>주문력 +5</b>"
+    },
+    "EX1_564": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인을 선택하고 그 하수인으로 변신합니다."
+    },
+    "EX1_565": {
+      "status": "available",
+      "text": "양옆의 하수인들이 공격력을 +2 얻습니다."
+    },
+    "EX1_565o": {
+      "status": "available",
+      "text": "불꽃의 토템이 공격력 +2 부여"
+    },
+    "EX1_567": {
+      "status": "available",
+      "text": "<b>질풍, 과부하:</b> (2)"
+    },
+    "EX1_570": {
+      "status": "available",
+      "text": "당신의 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다."
+    },
+    "EX1_570e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +4"
+    },
+    "EX1_571": {
+      "status": "available",
+      "text": "<b>돌진</b>을 가진 2/2 나무정령을 셋 소환합니다. 이들은 당신의 턴이 끝날 때 모두 죽습니다."
+    },
+    "EX1_572": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 꿈 카드를 뽑습니다."
+    },
+    "EX1_573": {
+      "status": "available",
+      "text": "<b>선택</b> - 당신의 다른 하수인들에게 +2/+2를 부여합니다. 또는 <b>도발</b>하는 2/2 나무정령을 둘 소환합니다."
+    },
+    "EX1_573a": {
+      "status": "available",
+      "text": "당신의 다른 아군 하수인들에게 +2/+2를 부여합니다."
+    },
+    "EX1_573ae": {
+      "status": "available",
+      "text": "+2/+2"
+    },
+    "EX1_573b": {
+      "status": "available",
+      "text": "<b>도발</b>하는 2/2 나무정령을 둘 소환합니다."
+    },
+    "EX1_573t": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "EX1_575": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 카드를 한 장 뽑습니다."
+    },
+    "EX1_577": {
+      "status": "available",
+      "text": "<b>죽음의 신음:</b> 상대편에게 3/3 핑클 아인혼을 소환해 줍니다."
+    },
+    "EX1_578": {
+      "status": "available",
+      "text": "당신 영웅의 공격력만큼 모든 적 하수인에게 피해를 줍니다."
+    },
+    "EX1_581": {
+      "status": "available",
+      "text": "적 하수인을 주인의 손으로 돌려보냅니다."
+    },
+    "EX1_582": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>"
+    },
+    "EX1_583": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 영웅이 생명력을 4 회복합니다."
+    },
+    "EX1_584": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>주문력 +1</b>을 부여합니다."
+    },
+    "EX1_584e": {
+      "status": "available",
+      "text": "<b>주문력 +1</b>"
+    },
+    "EX1_586": {
+      "status": "available",
+      "text": "전장의 하수인 하나당 비용이 (1)씩 감소합니다."
+    },
+    "EX1_587": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>질풍</b>을 부여합니다."
+    },
+    "EX1_587e": {
+      "status": "korean-unavailable"
+    },
+    "EX1_590": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다."
+    },
+    "EX1_590e": {
+      "status": "available",
+      "text": "천상의 보호막을 흡수하여 공격력과 생명력 증가"
+    },
+    "EX1_591": {
+      "status": "available",
+      "text": "생명력을 회복시키는 당신의 카드와 능력들이 이제 그만큼의 피해를 줍니다."
+    },
+    "EX1_593": {
+      "status": "available",
+      "text": "<b>전투의 함성: </b>적 영웅에게 피해를 3 줍니다."
+    },
+    "EX1_594": {
+      "status": "available",
+      "text": "<b>비밀:</b> 하수인이 당신의 영웅을 공격하면, 그 하수인을 파괴합니다."
+    },
+    "EX1_595": {
+      "status": "available",
+      "text": "당신의 다른 하수인 하나가 죽을 때마다 카드를 한 장 뽑습니다."
+    },
+    "EX1_596": {
+      "status": "available",
+      "text": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다."
+    },
+    "EX1_596e": {
+      "status": "available",
+      "text": "+2/+2"
+    },
+    "EX1_597": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 이 하수인에게 피해를 1 주고 1/1 임프 하나를 소환합니다."
+    },
+    "EX1_598": {
+      "status": "no-description-tag"
+    },
+    "EX1_603": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
+    },
+    "EX1_603e": {
+      "status": "available",
+      "text": "공격력 +2"
+    },
+    "EX1_604": {
+      "status": "available",
+      "text": "하수인이 피해를 입을 때마다 공격력을 +1 얻습니다."
+    },
+    "EX1_604o": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "EX1_606": {
+      "status": "available",
+      "text": "방어도를 5 얻습니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_607": {
+      "status": "available",
+      "text": "하수인에게 피해를 $1 줍니다. 대상 하수인은 이번 턴에 공격력이 +2 증가합니다."
+    },
+    "EX1_607e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +2 "
+    },
+    "EX1_608": {
+      "status": "available",
+      "text": "당신이 쓰는 주문의 비용이 (1) 감소합니다."
+    },
+    "EX1_609": {
+      "status": "available",
+      "text": "<b>비밀:</b> 상대편이 하수인을 내면 그 하수인에게 피해를 $4 줍니다."
+    },
+    "EX1_610": {
+      "status": "available",
+      "text": "<b>비밀:</b> 당신의 영웅이 공격받으면 모든 적에게 피해를 2 줍니다."
+    },
+    "EX1_611": {
+      "status": "available",
+      "text": "<b>비밀:</b> 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다."
+    },
+    "EX1_611e": {
+      "status": "available",
+      "text": "다음 턴이 시작될 때 다시 <b>얼어붙음</b> 상태가 됨"
+    },
+    "EX1_612": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 이번 턴에 내는 당신의 다음 <b>비밀</b> 비용이 (0)이 됩니다."
+    },
+    "EX1_612o": {
+      "status": "available",
+      "text": "다음 비밀 비용 (0)"
+    },
+    "EX1_613": {
+      "status": "available",
+      "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다."
+    },
+    "EX1_613e": {
+      "status": "available",
+      "text": "공격력과 생명력 증가"
+    },
+    "EX1_614": {
+      "status": "available",
+      "text": "카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다."
+    },
+    "EX1_614t": {
+      "status": "no-description-tag"
+    },
+    "EX1_616": {
+      "status": "available",
+      "text": "모든 하수인의 비용이 (1) 증가합니다."
+    },
+    "EX1_617": {
+      "status": "available",
+      "text": "무작위 적 하수인을 파괴합니다."
+    },
+    "EX1_619": {
+      "status": "available",
+      "text": "모든 하수인의 생명력을 1로 바꿉니다."
+    },
+    "EX1_619e": {
+      "status": "available",
+      "text": "생명력 1로 바뀜"
+    },
+    "EX1_620": {
+      "status": "available",
+      "text": "당신의 영웅이 입은 피해 1당 비용이 1씩 감소합니다."
+    },
+    "EX1_621": {
+      "status": "available",
+      "text": "모든 하수인의 생명력을 #4 회복시킵니다."
+    },
+    "EX1_622": {
+      "status": "available",
+      "text": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_622e": {
+      "status": "available",
+      "text": "도발"
+    },
+    "EX1_623": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 하수인에게 생명력을 +3 부여합니다."
+    },
+    "EX1_623e": {
+      "status": "available",
+      "text": "생명력 +3"
+    },
+    "EX1_624": {
+      "status": "available",
+      "text": "상대편 손에 있는 카드 한 장당 캐릭터의 생명력을 2씩 회복시킵니다."
+    },
+    "EX1_625": {
+      "status": "available",
+      "text": "당신의 영웅 능력이 '피해를 2 줍니다.'로 바뀝니다. 이미 어둠의 형상이었다면 피해를 3 줍니다."
+    },
+    "EX1_625t": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 피해를 2 줍니다."
+    },
+    "EX1_625t2": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 피해를 3 줍니다."
+    },
+    "EX1_626": {
+      "status": "available",
+      "text": "모든 적 하수인을 <b>침묵</b>시킵니다. 카드를 한 장 뽑습니다."
+    },
+    "EX1_finkle": {
+      "status": "no-description-tag"
+    },
+    "EX1_tk11": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "EX1_tk28": {
+      "status": "no-description-tag"
+    },
+    "EX1_tk29": {
+      "status": "no-description-tag"
+    },
+    "EX1_tk31": {
+      "status": "no-description-tag"
+    },
+    "EX1_tk33": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 6/6 지옥불정령을 소환합니다."
+    },
+    "EX1_tk34": {
+      "status": "no-description-tag"
+    },
+    "EX1_tk9": {
+      "status": "available",
+      "text": "<b>돌진</b>. 턴이 끝날 때, 이 하수인을 파괴합니다."
+    },
+    "FP1_001": {
+      "status": "korean-unavailable"
+    },
+    "GAME_001": {
+      "status": "available",
+      "text": "후공으로 시작하면 추가 생명력을 얻습니다."
+    },
+    "GAME_002": {
+      "status": "available",
+      "text": "<i>동전 뒤집기는 졌지만, 친구를 얻었습니다.</i>"
+    },
+    "GAME_003": {
+      "status": "available",
+      "text": "후공으로 시작하면 첫 하수인이 강해집니다."
+    },
+    "GAME_003e": {
+      "status": "available",
+      "text": "후공으로 시작하면 첫 하수인이 강해짐"
+    },
+    "GAME_004": {
+      "status": "available",
+      "text": "당신의 턴이 짧아집니다."
+    },
+    "GAME_005": {
+      "status": "available",
+      "text": "이번 턴에만 마나 수정을 하나 획득합니다."
+    },
+    "GAME_005e": {
+      "status": "no-description-tag"
+    },
+    "GAME_006": {
+      "status": "available",
+      "text": "어쩐 일인지, 당신이 갖고 있던 카드가 삭제되었습니다. 여기요, 이거라도 받으세요!"
+    },
+    "HERO_01": {
+      "status": "no-description-tag"
+    },
+    "HERO_02": {
+      "status": "no-description-tag"
+    },
+    "HERO_03": {
+      "status": "no-description-tag"
+    },
+    "HERO_04": {
+      "status": "no-description-tag"
+    },
+    "HERO_05": {
+      "status": "no-description-tag"
+    },
+    "HERO_06": {
+      "status": "no-description-tag"
+    },
+    "HERO_07": {
+      "status": "no-description-tag"
+    },
+    "HERO_08": {
+      "status": "no-description-tag"
+    },
+    "HERO_09": {
+      "status": "no-description-tag"
+    },
+    "Mekka1": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
+    },
+    "Mekka2": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 모든 캐릭터의 생명력을 3 회복시킵니다."
+    },
+    "Mekka3": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 무작위 하수인에게 +1/+1을 부여합니다."
+    },
+    "Mekka3e": {
+      "status": "available",
+      "text": "+1/+1"
+    },
+    "Mekka4": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다."
+    },
+    "Mekka4e": {
+      "status": "available",
+      "text": "닭으로 변신!"
+    },
+    "Mekka4t": {
+      "status": "available",
+      "text": "<i>오, 닭이다!</i>"
+    },
+    "NEW1_003": {
+      "status": "available",
+      "text": "악마를 파괴합니다. 당신의 영웅이 생명력을 #5 회복합니다."
+    },
+    "NEW1_004": {
+      "status": "available",
+      "text": "모든 하수인을 주인의 손으로 돌려보냅니다."
+    },
+    "NEW1_005": {
+      "status": "available",
+      "text": "<b>연계:</b> 하수인을 주인의 손으로 돌려보냅니다."
+    },
+    "NEW1_006": {
+      "status": "available",
+      "text": "Draw a card. <b>Combo:</b> Draw 2 cards instead."
+    },
+    "NEW1_007": {
+      "status": "available",
+      "text": "<b>선택 -</b> 적에게 피해를 $5 줍니다. 또는 모든 적에게 피해를 $2 줍니다."
+    },
+    "NEW1_007a": {
+      "status": "available",
+      "text": "모든 적에게 피해를 $2 줍니다."
+    },
+    "NEW1_007b": {
+      "status": "available",
+      "text": "피해를 $5 줍니다."
+    },
+    "NEW1_008": {
+      "status": "available",
+      "text": "<b>선택 -</b> 카드를 두 장 뽑습니다. 또는 생명력을 8 회복시킵니다."
+    },
+    "NEW1_008a": {
+      "status": "available",
+      "text": "카드를 두 장 뽑습니다."
+    },
+    "NEW1_008b": {
+      "status": "available",
+      "text": "생명력을 8 회복시킵니다."
+    },
+    "NEW1_009": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 모든 아군 캐릭터의 생명력을 1 회복시킵니다."
+    },
+    "NEW1_010": {
+      "status": "available",
+      "text": "<b>질풍, 돌진, 천상의 보호막, 도발</b>"
+    },
+    "NEW1_011": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "NEW1_012": {
+      "status": "available",
+      "text": "당신이 주문을 시전할 때마다 공격력을 +1 얻습니다."
+    },
+    "NEW1_012o": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "NEW1_014": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>은신</b>을 부여합니다."
+    },
+    "NEW1_016": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 덱에 있는 무작위 해적을 당신의 손으로 가져옵니다."
+    },
+    "NEW1_017": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 멀록을 파괴하고 +2/+2를 얻습니다."
+    },
+    "NEW1_017e": {
+      "status": "available",
+      "text": "+2/+2, 멀록으로 배 채움"
+    },
+    "NEW1_018": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다."
+    },
+    "NEW1_018e": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "NEW1_019": {
+      "status": "available",
+      "text": "당신의 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다."
+    },
+    "NEW1_020": {
+      "status": "available",
+      "text": "당신이 주문을 시전한 후, 모든 하수인에게 피해를 1 줍니다."
+    },
+    "NEW1_021": {
+      "status": "available",
+      "text": "당신의 턴이 시작될 때, 모든 하수인을 파괴합니다."
+    },
+    "NEW1_022": {
+      "status": "available",
+      "text": "<b>도발.</b> 당신의 무기 공격력만큼 비용이 감소합니다."
+    },
+    "NEW1_023": {
+      "status": "available",
+      "text": "주문이나 영웅 능력의 대상으로 선택할 수 없습니다."
+    },
+    "NEW1_024": {
+      "status": "available",
+      "text": "당신이 영웅으로 공격할 때마다 카드를 한 장 뽑습니다."
+    },
+    "NEW1_024o": {
+      "status": "available",
+      "text": "+2/+2"
+    },
+    "NEW1_025": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다."
+    },
+    "NEW1_025e": {
+      "status": "available",
+      "text": "생명력 증가"
+    },
+    "NEW1_026": {
+      "status": "available",
+      "text": "당신이 주문을 시전할 때마다 1/1 보랏빛 수습생을 소환합니다."
+    },
+    "NEW1_026t": {
+      "status": "no-description-tag"
+    },
+    "NEW1_027": {
+      "status": "available",
+      "text": "당신의 다른 해적들이 +1/+1을 얻습니다."
+    },
+    "NEW1_027e": {
+      "status": "korean-unavailable"
+    },
+    "NEW1_029": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (0)이 됩니다."
+    },
+    "NEW1_029t": {
+      "status": "available",
+      "text": "이번 턴에 주문의 비용이 (0)이 됩니다!"
+    },
+    "NEW1_030": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 전장의 다른 모든 하수인을 파괴하고 당신 손의 카드를 모두 버립니다."
+    },
+    "NEW1_031": {
+      "status": "available",
+      "text": "무작위 동료 야수를 소환합니다."
+    },
+    "NEW1_032": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "NEW1_033": {
+      "status": "available",
+      "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
+    },
+    "NEW1_033o": {
+      "status": "available",
+      "text": "레오크가 공격력 +1 부여"
+    },
+    "NEW1_034": {
+      "status": "available",
+      "text": "<b>돌진</b>"
+    },
+    "NEW1_036": {
+      "status": "available",
+      "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다."
+    },
+    "NEW1_036e": {
+      "status": "available",
+      "text": "이번 턴에는 생명력이 1 아래로 내려가지 않음"
+    },
+    "NEW1_036e2": {
+      "status": "available",
+      "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다."
+    },
+    "NEW1_037": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
+    },
+    "NEW1_037e": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "NEW1_038": {
+      "status": "available",
+      "text": "각 턴이 끝날 때마다 +1/+1을 얻습니다."
+    },
+    "NEW1_038o": {
+      "status": "available",
+      "text": "그룰이 커지는 중..."
+    },
+    "NEW1_040": {
+      "status": "available",
+      "text": "당신의 턴이 끝날 때, <b>도발</b>하는 2/2 놀을 소환합니다."
+    },
+    "NEW1_040t": {
+      "status": "available",
+      "text": "도발"
+    },
+    "NEW1_041": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 파괴합니다."
+    },
+    "PRO_001": {
+      "status": "korean-unavailable"
+    },
+    "PlaceholderCard": {
+      "status": "korean-unavailable"
+    },
+    "TU4a_001": {
+      "status": "no-description-tag"
+    },
+    "TU4a_002": {
+      "status": "no-description-tag"
+    },
+    "TU4a_003": {
+      "status": "no-description-tag"
+    },
+    "TU4a_004": {
+      "status": "available",
+      "text": "피해를 4 줍니다."
+    },
+    "TU4a_005": {
+      "status": "no-description-tag"
+    },
+    "TU4a_006": {
+      "status": "no-description-tag"
+    },
+    "TU4b_001": {
+      "status": "no-description-tag"
+    },
+    "TU4c_001": {
+      "status": "no-description-tag"
+    },
+    "TU4c_002": {
+      "status": "available",
+      "text": "피해를 2 줍니다."
+    },
+    "TU4c_003": {
+      "status": "available",
+      "text": "통에 뭔가 있나요?"
+    },
+    "TU4c_004": {
+      "status": "available",
+      "text": "모든 적에게 피해를 2 줍니다."
+    },
+    "TU4c_005": {
+      "status": "available",
+      "text": "통 안에 숨어 있었습니다!"
+    },
+    "TU4c_006": {
+      "status": "available",
+      "text": "아군 하수인에게 +1/+1을 부여합니다. <i>(공격력 +1/생명력 +1)</i>"
+    },
+    "TU4c_006e": {
+      "status": "available",
+      "text": "+1/+1 <i>(공격력 +1/생명력 +1)</i>"
+    },
+    "TU4c_007": {
+      "status": "available",
+      "text": "이렇게 센데 마나는 6밖에 안 든다고?!"
+    },
+    "TU4c_008": {
+      "status": "available",
+      "text": "생명력을 8 회복시킵니다."
+    },
+    "TU4c_008e": {
+      "status": "available",
+      "text": "이번 턴에 공격력 +8"
+    },
+    "TU4d_001": {
+      "status": "no-description-tag"
+    },
+    "TU4d_002": {
+      "status": "no-description-tag"
+    },
+    "TU4d_003": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 피해를 1 줍니다."
+    },
+    "TU4e_001": {
+      "status": "no-description-tag"
+    },
+    "TU4e_002": {
+      "status": "available",
+      "text": "<b>영웅 능력</b> <br></br> 2/1 하수인을 둘 소환합니다."
+    },
+    "TU4e_002t": {
+      "status": "no-description-tag"
+    },
+    "TU4e_003": {
+      "status": "available",
+      "text": "<b></b> "
+    },
+    "TU4e_004": {
+      "status": "no-description-tag"
+    },
+    "TU4e_005": {
+      "status": "available",
+      "text": "피해를 $1씩 주는 화살 5개를 무작위 적들에게 발사합니다."
+    },
+    "TU4e_006": {
+      "status": "available",
+      "text": "정신 나간 짓을 해보십시오."
+    },
+    "TU4e_007": {
+      "status": "no-description-tag"
+    },
+    "TU4f_001": {
+      "status": "no-description-tag"
+    },
+    "TU4f_002": {
+      "status": "no-description-tag"
+    },
+    "TU4f_003": {
+      "status": "no-description-tag"
+    },
+    "TU4f_004": {
+      "status": "available",
+      "text": "당신의 하수인들에게 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
+    },
+    "TU4f_004o": {
+      "status": "available",
+      "text": "+2/+2. <i>(공격력 +2/생명력 +2)</i>"
+    },
+    "TU4f_005": {
+      "status": "no-description-tag"
+    },
+    "TU4f_006": {
+      "status": "available",
+      "text": "초의 하수인들을 처치하기 전에는 초를 공격할 수 없습니다."
+    },
+    "TU4f_006o": {
+      "status": "available",
+      "text": "초의 하수인들 처치 전에는 초 공격 불가"
+    },
+    "TU4f_007": {
+      "status": "available",
+      "text": "<b>전투의 함성:</b> 바나나를 던집니다."
+    },
+    "XXX_001": {
+      "status": "korean-unavailable"
+    },
+    "XXX_002": {
+      "status": "korean-unavailable"
+    },
+    "XXX_003": {
+      "status": "korean-unavailable"
+    },
+    "XXX_004": {
+      "status": "korean-unavailable"
+    },
+    "XXX_005": {
+      "status": "korean-unavailable"
+    },
+    "XXX_006": {
+      "status": "korean-unavailable"
+    },
+    "XXX_007": {
+      "status": "korean-unavailable"
+    },
+    "XXX_008": {
+      "status": "korean-unavailable"
+    },
+    "XXX_009": {
+      "status": "korean-unavailable"
+    },
+    "XXX_009e": {
+      "status": "korean-unavailable"
+    },
+    "XXX_010": {
+      "status": "korean-unavailable"
+    },
+    "XXX_011": {
+      "status": "korean-unavailable"
+    },
+    "XXX_012": {
+      "status": "korean-unavailable"
+    },
+    "XXX_013": {
+      "status": "korean-unavailable"
+    },
+    "XXX_014": {
+      "status": "korean-unavailable"
+    },
+    "XXX_015": {
+      "status": "korean-unavailable"
+    },
+    "XXX_016": {
+      "status": "korean-unavailable"
+    },
+    "XXX_017": {
+      "status": "korean-unavailable"
+    },
+    "XXX_018": {
+      "status": "korean-unavailable"
+    },
+    "XXX_019": {
+      "status": "korean-unavailable"
+    },
+    "XXX_020": {
+      "status": "korean-unavailable"
+    },
+    "XXX_021": {
+      "status": "korean-unavailable"
+    },
+    "XXX_022": {
+      "status": "korean-unavailable"
+    },
+    "XXX_022e": {
+      "status": "korean-unavailable"
+    },
+    "XXX_023": {
+      "status": "korean-unavailable"
+    },
+    "XXX_024": {
+      "status": "korean-unavailable"
+    },
+    "XXX_025": {
+      "status": "korean-unavailable"
+    },
+    "XXX_026": {
+      "status": "korean-unavailable"
+    },
+    "XXX_027": {
+      "status": "korean-unavailable"
+    },
+    "XXX_028": {
+      "status": "no-description-tag"
+    },
+    "XXX_029": {
+      "status": "korean-unavailable"
+    },
+    "XXX_030": {
+      "status": "korean-unavailable"
+    },
+    "XXX_039": {
+      "status": "korean-unavailable"
+    },
+    "XXX_040": {
+      "status": "no-description-tag"
+    },
+    "XXX_041": {
+      "status": "korean-unavailable"
+    },
+    "XXX_042": {
+      "status": "korean-unavailable"
+    },
+    "XXX_043": {
+      "status": "korean-unavailable"
+    },
+    "ds1_whelptoken": {
+      "status": "no-description-tag"
+    },
+    "hexfrog": {
+      "status": "available",
+      "text": "<b>도발</b>"
+    },
+    "skele11": {
+      "status": "available",
+      "text": "<b></b> "
+    },
+    "skele21": {
+      "status": "no-description-tag"
+    },
+    "tt_004": {
+      "status": "available",
+      "text": "하수인이 죽을 때마다 공격력을 +1 얻습니다."
+    },
+    "tt_004o": {
+      "status": "available",
+      "text": "공격력 증가"
+    },
+    "tt_010": {
+      "status": "available",
+      "text": "<b>비밀:</b> 적이 하수인에게 주문을 시전하면, 그 효과를 대신 받는 1/3 하수인을 소환합니다."
+    },
+    "tt_010a": {
+      "status": "available",
+      "text": "<b></b> "
+    }
+  }
+}
