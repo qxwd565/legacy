@@ -1,0 +1,491 @@
+Shader "Custom/Card/UnlitScroll2LayerDistortionPremium" {
+Properties {
+ _MainTex ("Base (RGB)", 2D) = "white" {}
+ _ShadowTex ("Shadow (RGB)", 2D) = "white" {}
+ _FxTex1 ("FX1 Texture (RGB)", 2D) = "white" {}
+ _ScrollX1 ("FX1 Scroll X Speed", Float) = 0
+ _ScrollY1 ("FX1 Scroll Y Speed", Float) = 0
+ _Scale1 ("FX1 Scale", Float) = 1
+ _FxTex2 ("Distortion Texture (RGB)", 2D) = "white" {}
+ _DistortionAmount ("Distortion Amout", Float) = 1
+ _ScrollX2 ("Distortion Scroll X Speed", Float) = 0
+ _ScrollY2 ("Distortion Scroll Y Speed", Float) = 0
+ _Scale2 ("Distortion Scale", Float) = 1
+ _FxIntensity ("FX Intensity", Float) = 2
+ _FxBrightness ("FX Brightness", Float) = 0.5
+ _FxColor ("FX Color", Color) = (1,1,1,1)
+ _FxInverse ("FX Inverse", Float) = 0
+ _LightingBlend ("Ambient Lighting Blend", Float) = 0
+}
+SubShader { 
+ Tags { "RenderType"="Opaque" "Highlight"="True" }
+ Pass {
+  Tags { "RenderType"="Opaque" "Highlight"="True" }
+  BindChannels {
+   Bind "color", Color
+   Bind "texcoord", TexCoord
+  }
+  Fog {
+   Color (0,0,0,1)
+  }
+Program "vp" {
+SubProgram "opengl " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Vector 6 [_Time]
+Vector 7 [_LightColor0]
+Float 8 [_ScrollX1]
+Float 9 [_ScrollY1]
+Float 10 [_Scale1]
+Float 11 [_ScrollX2]
+Float 12 [_ScrollY2]
+Float 13 [_Scale2]
+Float 14 [_LightingBlend]
+Vector 15 [_MainTex_ST]
+"!!ARBvp1.0
+# 18 ALU
+PARAM c[16] = { { 2 },
+		state.lightmodel.ambient,
+		state.matrix.mvp,
+		program.local[6..15] };
+TEMP R0;
+MOV R0.x, c[0];
+MUL R0, R0.x, c[1];
+ADD R0, R0, c[7];
+ADD R0, R0, -vertex.color;
+MAD result.color, R0, c[14].x, vertex.color;
+MOV R0.z, c[6].x;
+MAD R0.y, R0.z, c[9].x, vertex.texcoord[0];
+MAD R0.x, R0.z, c[8], vertex.texcoord[0];
+MUL result.texcoord[1].xy, R0, c[10].x;
+MAD R0.y, R0.z, c[12].x, vertex.texcoord[0];
+MAD R0.x, R0.z, c[11], vertex.texcoord[0];
+MAD result.texcoord[0].xy, vertex.texcoord[0], c[15], c[15].zwzw;
+MUL result.texcoord[2].xy, R0, c[13].x;
+MAD result.texcoord[3].xy, vertex.texcoord[1], c[15], c[15].zwzw;
+DP4 result.position.w, vertex.position, c[5];
+DP4 result.position.z, vertex.position, c[4];
+DP4 result.position.y, vertex.position, c[3];
+DP4 result.position.x, vertex.position, c[2];
+END
+# 18 instructions, 1 R-regs
+"
+}
+SubProgram "d3d9 " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+Matrix 0 [glstate_matrix_mvp]
+Vector 4 [glstate_lightmodel_ambient]
+Vector 5 [_Time]
+Vector 6 [_LightColor0]
+Float 7 [_ScrollX1]
+Float 8 [_ScrollY1]
+Float 9 [_Scale1]
+Float 10 [_ScrollX2]
+Float 11 [_ScrollY2]
+Float 12 [_Scale2]
+Float 13 [_LightingBlend]
+Vector 14 [_MainTex_ST]
+"vs_2_0
+; 21 ALU
+def c15, 2.00000000, 0, 0, 0
+dcl_position0 v0
+dcl_texcoord0 v1
+dcl_texcoord1 v2
+dcl_color0 v3
+mov r0, c4
+mul r0, c15.x, r0
+add r0, r0, c6
+add r0, r0, -v3
+mad oD0, r0, c13.x, v3
+mov r0.y, c8.x
+mov r0.x, c7
+mad r0.y, c5.x, r0, v1
+mad r0.x, c5, r0, v1
+mul oT1.xy, r0, c9.x
+mov r0.y, c11.x
+mov r0.x, c10
+mad r0.y, c5.x, r0, v1
+mad r0.x, c5, r0, v1
+mad oT0.xy, v1, c14, c14.zwzw
+mul oT2.xy, r0, c12.x
+mad oT3.xy, v2, c14, c14.zwzw
+dp4 oPos.w, v0, c3
+dp4 oPos.z, v0, c2
+dp4 oPos.y, v0, c1
+dp4 oPos.x, v0, c0
+"
+}
+SubProgram "d3d11 " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 160
+Vector 16 [_LightColor0]
+Float 48 [_ScrollX1]
+Float 52 [_ScrollY1]
+Float 56 [_Scale1]
+Float 88 [_ScrollX2]
+Float 92 [_ScrollY2]
+Float 96 [_Scale2]
+Float 132 [_LightingBlend]
+Vector 144 [_MainTex_ST]
+ConstBuffer "UnityPerCamera" 128
+Vector 0 [_Time]
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+ConstBuffer "UnityPerFrame" 208
+Vector 64 [glstate_lightmodel_ambient]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+BindCB  "UnityPerFrame" 3
+"vs_4_0
+eefiecedeboielkhenkkkkcdkdpkhpbaeaknncpoabaaaaaafaaeaaaaadaaaaaa
+cmaaaaaaleaaaaaahaabaaaaejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaaaaaaaaaapapaaaahbaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaadadaaaahbaaaaaaabaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adadaaaahkaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapapaaaafaepfdej
+feejepeoaafeeffiedepepfceeaaedepemepfcaaepfdeheoleaaaaaaagaaaaaa
+aiaaaaaajiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaakeaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaabaaaaaaadamaaaakeaaaaaaabaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaamadaaaakeaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaa
+adamaaaakeaaaaaaadaaaaaaaaaaaaaaadaaaaaaacaaaaaaamadaaaaknaaaaaa
+aaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapaaaaaafdfgfpfagphdgjhegjgpgoaa
+feeffiedepepfceeaaedepemepfcaaklfdeieefcniacaaaaeaaaabaalgaaaaaa
+fjaaaaaeegiocaaaaaaaaaaaakaaaaaafjaaaaaeegiocaaaabaaaaaaabaaaaaa
+fjaaaaaeegiocaaaacaaaaaaaeaaaaaafjaaaaaeegiocaaaadaaaaaaafaaaaaa
+fpaaaaadpcbabaaaaaaaaaaafpaaaaaddcbabaaaabaaaaaafpaaaaaddcbabaaa
+acaaaaaafpaaaaadpcbabaaaadaaaaaaghaaaaaepccabaaaaaaaaaaaabaaaaaa
+gfaaaaaddccabaaaabaaaaaagfaaaaadmccabaaaabaaaaaagfaaaaaddccabaaa
+acaaaaaagfaaaaadmccabaaaacaaaaaagfaaaaadpccabaaaadaaaaaagiaaaaac
+abaaaaaadiaaaaaipcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaa
+abaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaa
+acaaaaaakgbkbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaa
+egiocaaaacaaaaaaadaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaal
+dcaabaaaaaaaaaaaegiacaaaaaaaaaaaadaaaaaaagiacaaaabaaaaaaaaaaaaaa
+egbabaaaabaaaaaadiaaaaaimccabaaaabaaaaaaagaebaaaaaaaaaaakgikcaaa
+aaaaaaaaadaaaaaadcaaaaaldccabaaaabaaaaaaegbabaaaabaaaaaaegiacaaa
+aaaaaaaaajaaaaaaogikcaaaaaaaaaaaajaaaaaadcaaaaaldcaabaaaaaaaaaaa
+ogikcaaaaaaaaaaaafaaaaaaagiacaaaabaaaaaaaaaaaaaaegbabaaaabaaaaaa
+diaaaaaidccabaaaacaaaaaaegaabaaaaaaaaaaaagiacaaaaaaaaaaaagaaaaaa
+dcaaaaalmccabaaaacaaaaaaagbebaaaacaaaaaaagiecaaaaaaaaaaaajaaaaaa
+kgiocaaaaaaaaaaaajaaaaaadcaaaaaopcaabaaaaaaaaaaaegiocaaaadaaaaaa
+aeaaaaaaaceaaaaaaaaaaaeaaaaaaaeaaaaaaaeaaaaaaaeaegiocaaaaaaaaaaa
+abaaaaaaaaaaaaaipcaabaaaaaaaaaaaegaobaaaaaaaaaaaegbobaiaebaaaaaa
+adaaaaaadcaaaaakpccabaaaadaaaaaafgifcaaaaaaaaaaaaiaaaaaaegaobaaa
+aaaaaaaaegbobaaaadaaaaaadoaaaaab"
+}
+SubProgram "d3d11_9x " {
+Bind "vertex" Vertex
+Bind "color" Color
+Bind "texcoord" TexCoord0
+Bind "texcoord1" TexCoord1
+ConstBuffer "$Globals" 160
+Vector 16 [_LightColor0]
+Float 48 [_ScrollX1]
+Float 52 [_ScrollY1]
+Float 56 [_Scale1]
+Float 88 [_ScrollX2]
+Float 92 [_ScrollY2]
+Float 96 [_Scale2]
+Float 132 [_LightingBlend]
+Vector 144 [_MainTex_ST]
+ConstBuffer "UnityPerCamera" 128
+Vector 0 [_Time]
+ConstBuffer "UnityPerDraw" 336
+Matrix 0 [glstate_matrix_mvp]
+ConstBuffer "UnityPerFrame" 208
+Vector 64 [glstate_lightmodel_ambient]
+BindCB  "$Globals" 0
+BindCB  "UnityPerCamera" 1
+BindCB  "UnityPerDraw" 2
+BindCB  "UnityPerFrame" 3
+"vs_4_0_level_9_3
+eefiecedklehnfffjcgmjpaomcjafgihmhcealbhabaaaaaagmagaaaaaeaaaaaa
+daaaaaaaeiacaaaaciafaaaalaafaaaaebgpgodjbaacaaaabaacaaaaaaacpopp
+jeabaaaahmaaaaaaahaaceaaaaaahiaaaaaahiaaaaaaceaaabaahiaaaaaaabaa
+abaaabaaaaaaaaaaaaaaadaaabaaacaaaaaaaaaaaaaaafaaacaaadaaaaaaaaaa
+aaaaaiaaacaaafaaaaaaaaaaabaaaaaaabaaahaaaaaaaaaaacaaaaaaaeaaaiaa
+aaaaaaaaadaaaeaaabaaamaaaaaaaaaaaaaaaaaaabacpoppfbaaaaafanaaapka
+aaaaaaeaaaaaaaaaaaaaaaaaaaaaaaaabpaaaaacafaaaaiaaaaaapjabpaaaaac
+afaaabiaabaaapjabpaaaaacafaaaciaacaaapjabpaaaaacafaaadiaadaaapja
+aeaaaaaeaaaaadoaabaaoejaagaaoekaagaaookaaeaaaaaeabaaamoaacaabeja
+agaabekaagaalekaabaaaaacaaaaadiaacaaoekaaeaaaaaeaaaaadiaaaaaobia
+ahaaaakaabaaobjaafaaaaadaaaaamoaaaaaeeiaacaakkkaabaaaaacaaaaabia
+ahaaaakaaeaaaaaeaaaaadiaadaaookaaaaaaaiaabaaoejaafaaaaadabaaadoa
+aaaaoeiaaeaaaakaabaaaaacaaaaapiaamaaoekaabaaaaacabaaabiaanaaaaka
+aeaaaaaeaaaaapiaaaaaoeiaabaaaaiaabaaoekaacaaaaadaaaaapiaaaaaoeia
+adaaoejbaeaaaaaeacaaapoaafaaffkaaaaaoeiaadaaoejaafaaaaadaaaaapia
+aaaaffjaajaaoekaaeaaaaaeaaaaapiaaiaaoekaaaaaaajaaaaaoeiaaeaaaaae
+aaaaapiaakaaoekaaaaakkjaaaaaoeiaaeaaaaaeaaaaapiaalaaoekaaaaappja
+aaaaoeiaaeaaaaaeaaaaadmaaaaappiaaaaaoekaaaaaoeiaabaaaaacaaaaamma
+aaaaoeiappppaaaafdeieefcniacaaaaeaaaabaalgaaaaaafjaaaaaeegiocaaa
+aaaaaaaaakaaaaaafjaaaaaeegiocaaaabaaaaaaabaaaaaafjaaaaaeegiocaaa
+acaaaaaaaeaaaaaafjaaaaaeegiocaaaadaaaaaaafaaaaaafpaaaaadpcbabaaa
+aaaaaaaafpaaaaaddcbabaaaabaaaaaafpaaaaaddcbabaaaacaaaaaafpaaaaad
+pcbabaaaadaaaaaaghaaaaaepccabaaaaaaaaaaaabaaaaaagfaaaaaddccabaaa
+abaaaaaagfaaaaadmccabaaaabaaaaaagfaaaaaddccabaaaacaaaaaagfaaaaad
+mccabaaaacaaaaaagfaaaaadpccabaaaadaaaaaagiaaaaacabaaaaaadiaaaaai
+pcaabaaaaaaaaaaafgbfbaaaaaaaaaaaegiocaaaacaaaaaaabaaaaaadcaaaaak
+pcaabaaaaaaaaaaaegiocaaaacaaaaaaaaaaaaaaagbabaaaaaaaaaaaegaobaaa
+aaaaaaaadcaaaaakpcaabaaaaaaaaaaaegiocaaaacaaaaaaacaaaaaakgbkbaaa
+aaaaaaaaegaobaaaaaaaaaaadcaaaaakpccabaaaaaaaaaaaegiocaaaacaaaaaa
+adaaaaaapgbpbaaaaaaaaaaaegaobaaaaaaaaaaadcaaaaaldcaabaaaaaaaaaaa
+egiacaaaaaaaaaaaadaaaaaaagiacaaaabaaaaaaaaaaaaaaegbabaaaabaaaaaa
+diaaaaaimccabaaaabaaaaaaagaebaaaaaaaaaaakgikcaaaaaaaaaaaadaaaaaa
+dcaaaaaldccabaaaabaaaaaaegbabaaaabaaaaaaegiacaaaaaaaaaaaajaaaaaa
+ogikcaaaaaaaaaaaajaaaaaadcaaaaaldcaabaaaaaaaaaaaogikcaaaaaaaaaaa
+afaaaaaaagiacaaaabaaaaaaaaaaaaaaegbabaaaabaaaaaadiaaaaaidccabaaa
+acaaaaaaegaabaaaaaaaaaaaagiacaaaaaaaaaaaagaaaaaadcaaaaalmccabaaa
+acaaaaaaagbebaaaacaaaaaaagiecaaaaaaaaaaaajaaaaaakgiocaaaaaaaaaaa
+ajaaaaaadcaaaaaopcaabaaaaaaaaaaaegiocaaaadaaaaaaaeaaaaaaaceaaaaa
+aaaaaaeaaaaaaaeaaaaaaaeaaaaaaaeaegiocaaaaaaaaaaaabaaaaaaaaaaaaai
+pcaabaaaaaaaaaaaegaobaaaaaaaaaaaegbobaiaebaaaaaaadaaaaaadcaaaaak
+pccabaaaadaaaaaafgifcaaaaaaaaaaaaiaaaaaaegaobaaaaaaaaaaaegbobaaa
+adaaaaaadoaaaaabejfdeheoiaaaaaaaaeaaaaaaaiaaaaaagiaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaaaaaaaaaapapaaaahbaaaaaaaaaaaaaaaaaaaaaaadaaaaaa
+abaaaaaaadadaaaahbaaaaaaabaaaaaaaaaaaaaaadaaaaaaacaaaaaaadadaaaa
+hkaaaaaaaaaaaaaaaaaaaaaaadaaaaaaadaaaaaaapapaaaafaepfdejfeejepeo
+aafeeffiedepepfceeaaedepemepfcaaepfdeheoleaaaaaaagaaaaaaaiaaaaaa
+jiaaaaaaaaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaakeaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaabaaaaaaadamaaaakeaaaaaaabaaaaaaaaaaaaaaadaaaaaa
+abaaaaaaamadaaaakeaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadamaaaa
+keaaaaaaadaaaaaaaaaaaaaaadaaaaaaacaaaaaaamadaaaaknaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaadaaaaaaapaaaaaafdfgfpfagphdgjhegjgpgoaafeeffied
+epepfceeaaedepemepfcaakl"
+}
+}
+Program "fp" {
+SubProgram "opengl " {
+Float 0 [_DistortionAmount]
+Float 1 [_FxIntensity]
+Float 2 [_FxBrightness]
+Vector 3 [_FxColor]
+Float 4 [_FxInverse]
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_FxTex2] 2D 1
+SetTexture 2 [_FxTex1] 2D 2
+SetTexture 3 [_ShadowTex] 2D 3
+"!!ARBfp1.0
+OPTION ARB_precision_hint_fastest;
+# 23 ALU, 5 TEX
+PARAM c[6] = { program.local[0..4],
+		{ 1, 0.5, 0.0099999998, 0.15002441 } };
+TEMP R0;
+TEMP R1;
+TEMP R2;
+TEMP R3;
+TEX R0.w, fragment.texcoord[0], texture[0], 2D;
+TEX R0.xy, fragment.texcoord[2], texture[1], 2D;
+ADD R0.z, -R0.w, c[5].x;
+ADD R0.xy, R0, -c[5].y;
+MUL R0.xy, R0, R0.z;
+MUL R0.xy, R0, c[0].x;
+MAD R1.xy, R0, c[5].z, fragment.texcoord[1];
+MAD R0.zw, R0.xyxy, c[5].z, fragment.texcoord[0].xyxy;
+MOV result.color.w, c[5].x;
+TEX R2.xyz, R1, texture[2], 2D;
+TEX R0, R0.zwzw, texture[0], 2D;
+TEX R1.xyz, fragment.texcoord[3], texture[3], 2D;
+ADD R2.xyz, -R2, c[4].x;
+MAD R2.xyz, -R2, R2, R0;
+ADD R2.xyz, R2, c[2].x;
+MUL R2.xyz, R2, c[3];
+MUL R3.xyz, R2, c[1].x;
+MAD R0.xyz, -R2, c[1].x, R0;
+MAD R0.xyz, R0.w, R0, R3;
+MUL R0.xyz, R0, R1;
+ADD R1.xyz, R0, c[5].w;
+MUL R1.xyz, R1, fragment.color.primary;
+MIN result.color.xyz, R1, R0;
+END
+# 23 instructions, 4 R-regs
+"
+}
+SubProgram "d3d9 " {
+Float 0 [_DistortionAmount]
+Float 1 [_FxIntensity]
+Float 2 [_FxBrightness]
+Vector 3 [_FxColor]
+Float 4 [_FxInverse]
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_FxTex2] 2D 1
+SetTexture 2 [_FxTex1] 2D 2
+SetTexture 3 [_ShadowTex] 2D 3
+"ps_2_0
+; 19 ALU, 5 TEX
+dcl_2d s0
+dcl_2d s1
+dcl_2d s2
+dcl_2d s3
+def c5, 1.00000000, -0.50000000, 0.01000000, 0.15002441
+dcl t0.xy
+dcl t1.xy
+dcl t2.xy
+dcl t3.xy
+dcl v0.xyz
+texld r1, t0, s0
+texld r0, t2, s1
+add r1.x, -r1.w, c5
+add r0.xy, r0, c5.y
+mul r0.xy, r0, r1.x
+mul r0.xy, r0, c0.x
+mad r1.xy, r0, c5.z, t0
+mad r0.xy, r0, c5.z, t1
+texld r2, r0, s2
+texld r0, t3, s3
+texld r1, r1, s0
+add r2.xyz, -r2, c4.x
+mad_pp r2.xyz, -r2, r2, r1
+add_pp r2.xyz, r2, c2.x
+mul_pp r2.xyz, r2, c3
+mad_pp r1.xyz, -r2, c1.x, r1
+mul_pp r2.xyz, r2, c1.x
+mad_pp r1.xyz, r1.w, r1, r2
+mul r0.xyz, r1, r0
+add_pp r1.xyz, r0, c5.w
+mul_pp r1.xyz, r1, v0
+min_pp r0.xyz, r1, r0
+mov_pp r0.w, c5.x
+mov_pp oC0, r0
+"
+}
+SubProgram "d3d11 " {
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_FxTex2] 2D 3
+SetTexture 2 [_FxTex1] 2D 2
+SetTexture 3 [_ShadowTex] 2D 1
+ConstBuffer "$Globals" 160
+Float 84 [_DistortionAmount]
+Float 100 [_FxIntensity]
+Float 104 [_FxBrightness]
+Vector 112 [_FxColor]
+Float 128 [_FxInverse]
+BindCB  "$Globals" 0
+"ps_4_0
+eefiecednghfhkoedndipadnjbaaehfagbnjofnjabaaaaaapmaeaaaaadaaaaaa
+cmaaaaaaoiaaaaaabmabaaaaejfdeheoleaaaaaaagaaaaaaaiaaaaaajiaaaaaa
+aaaaaaaaabaaaaaaadaaaaaaaaaaaaaaapaaaaaakeaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaabaaaaaaadadaaaakeaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaa
+amamaaaakeaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadadaaaakeaaaaaa
+adaaaaaaaaaaaaaaadaaaaaaacaaaaaaamamaaaaknaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaadaaaaaaapahaaaafdfgfpfagphdgjhegjgpgoaafeeffiedepepfcee
+aaedepemepfcaaklepfdeheocmaaaaaaabaaaaaaaiaaaaaacaaaaaaaaaaaaaaa
+aaaaaaaaadaaaaaaaaaaaaaaapaaaaaafdfgfpfegbhcghgfheaaklklfdeieefc
+niadaaaaeaaaaaaapgaaaaaafjaaaaaeegiocaaaaaaaaaaaajaaaaaafkaaaaad
+aagabaaaaaaaaaaafkaaaaadaagabaaaabaaaaaafkaaaaadaagabaaaacaaaaaa
+fkaaaaadaagabaaaadaaaaaafibiaaaeaahabaaaaaaaaaaaffffaaaafibiaaae
+aahabaaaabaaaaaaffffaaaafibiaaaeaahabaaaacaaaaaaffffaaaafibiaaae
+aahabaaaadaaaaaaffffaaaagcbaaaaddcbabaaaabaaaaaagcbaaaadmcbabaaa
+abaaaaaagcbaaaaddcbabaaaacaaaaaagcbaaaadmcbabaaaacaaaaaagcbaaaad
+hcbabaaaadaaaaaagfaaaaadpccabaaaaaaaaaaagiaaaaacadaaaaaaefaaaaaj
+pcaabaaaaaaaaaaaegbabaaaabaaaaaaeghobaaaaaaaaaaaaagabaaaaaaaaaaa
+aaaaaaaibcaabaaaaaaaaaaadkaabaiaebaaaaaaaaaaaaaaabeaaaaaaaaaiadp
+efaaaaajpcaabaaaabaaaaaaegbabaaaacaaaaaaeghobaaaabaaaaaaaagabaaa
+adaaaaaaaaaaaaakpcaabaaaabaaaaaaegaebaaaabaaaaaaaceaaaaaaaaaaalp
+aaaaaalpaaaaaalpaaaaaalpdiaaaaahpcaabaaaaaaaaaaaagaabaaaaaaaaaaa
+egaobaaaabaaaaaadiaaaaaipcaabaaaaaaaaaaaegaobaaaaaaaaaaafgifcaaa
+aaaaaaaaafaaaaaadcaaaaampcaabaaaaaaaaaaaegaobaaaaaaaaaaaaceaaaaa
+aknhcddmaknhcddmaknhcddmaknhcddmegbobaaaabaaaaaaefaaaaajpcaabaaa
+abaaaaaaogakbaaaaaaaaaaaeghobaaaacaaaaaaaagabaaaacaaaaaaefaaaaaj
+pcaabaaaaaaaaaaaegaabaaaaaaaaaaaeghobaaaaaaaaaaaaagabaaaaaaaaaaa
+aaaaaaajhcaabaaaabaaaaaaegacbaiaebaaaaaaabaaaaaaagiacaaaaaaaaaaa
+aiaaaaaadcaaaaakhcaabaaaabaaaaaaegacbaiaebaaaaaaabaaaaaaegacbaaa
+abaaaaaaegacbaaaaaaaaaaaaaaaaaaihcaabaaaabaaaaaaegacbaaaabaaaaaa
+kgikcaaaaaaaaaaaagaaaaaadiaaaaaihcaabaaaabaaaaaaegacbaaaabaaaaaa
+egiccaaaaaaaaaaaahaaaaaadcaaaaalhcaabaaaaaaaaaaaegacbaiaebaaaaaa
+abaaaaaafgifcaaaaaaaaaaaagaaaaaaegacbaaaaaaaaaaadiaaaaaihcaabaaa
+abaaaaaaegacbaaaabaaaaaafgifcaaaaaaaaaaaagaaaaaadcaaaaajhcaabaaa
+aaaaaaaapgapbaaaaaaaaaaaegacbaaaaaaaaaaaegacbaaaabaaaaaaefaaaaaj
+pcaabaaaabaaaaaaogbkbaaaacaaaaaaeghobaaaadaaaaaaaagabaaaabaaaaaa
+dcaaaaamhcaabaaaacaaaaaaegacbaaaaaaaaaaaegacbaaaabaaaaaaaceaaaaa
+jkjjbjdojkjjbjdojkjjbjdoaaaaaaaadiaaaaahhcaabaaaaaaaaaaaegacbaaa
+aaaaaaaaegacbaaaabaaaaaadiaaaaahhcaabaaaabaaaaaaegacbaaaacaaaaaa
+egbcbaaaadaaaaaaddaaaaahhccabaaaaaaaaaaaegacbaaaaaaaaaaaegacbaaa
+abaaaaaadgaaaaaficcabaaaaaaaaaaaabeaaaaaaaaaiadpdoaaaaab"
+}
+SubProgram "d3d11_9x " {
+SetTexture 0 [_MainTex] 2D 0
+SetTexture 1 [_FxTex2] 2D 3
+SetTexture 2 [_FxTex1] 2D 2
+SetTexture 3 [_ShadowTex] 2D 1
+ConstBuffer "$Globals" 160
+Float 84 [_DistortionAmount]
+Float 100 [_FxIntensity]
+Float 104 [_FxBrightness]
+Vector 112 [_FxColor]
+Float 128 [_FxInverse]
+BindCB  "$Globals" 0
+"ps_4_0_level_9_3
+eefiecedpjffeejhlkjogaclojphlpcdollaepfnabaaaaaafiahaaaaaeaaaaaa
+daaaaaaaiiacaaaagiagaaaaceahaaaaebgpgodjfaacaaaafaacaaaaaaacpppp
+baacaaaaeaaaaaaaabaadeaaaaaaeaaaaaaaeaaaaeaaceaaaaaaeaaaaaaaaaaa
+adababaaacacacaaabadadaaaaaaafaaaeaaaaaaaaaaaaaaabacppppfbaaaaaf
+aeaaapkaaaaaiadpaaaaaalpaknhcddmjkjjbjdobpaaaaacaaaaaaiaaaaaapla
+bpaaaaacaaaaaaiaabaaaplabpaaaaacaaaaaaiaacaacplabpaaaaacaaaaaaja
+aaaiapkabpaaaaacaaaaaajaabaiapkabpaaaaacaaaaaajaacaiapkabpaaaaac
+aaaaaajaadaiapkaecaaaaadaaaaapiaabaaoelaadaioekaecaaaaadabaaapia
+aaaaoelaaaaioekaacaaaaadaaaaceiaabaappibaeaaaakaacaaaaadaaaaadia
+aaaaoeiaaeaaffkaafaaaaadaaaaadiaaaaakkiaaaaaoeiaafaaaaadaaaaadia
+aaaaoeiaaaaaffkaaeaaaaaeabaaadiaaaaaoeiaaeaakkkaaaaaollaaeaaaaae
+aaaaadiaaaaaoeiaaeaakkkaaaaaoelaecaaaaadabaaapiaabaaoeiaacaioeka
+ecaaaaadaaaacpiaaaaaoeiaaaaioekaacaaaaadabaachiaabaaoeibadaaaaka
+aeaaaaaeabaachiaabaaoeiaabaaoeibaaaaoeiaacaaaaadabaachiaabaaoeia
+abaakkkaafaaaaadabaachiaabaaoeiaacaaoekaaeaaaaaeaaaachiaabaaoeia
+abaaffkbaaaaoeiaafaaaaadabaachiaabaaoeiaabaaffkaaeaaaaaeaaaaahia
+aaaappiaaaaaoeiaabaaoeiaabaaaaacabaaadiaabaaollaecaaaaadabaaapia
+abaaoeiaabaioekaaeaaaaaeacaachiaaaaaoeiaabaaoeiaaeaappkaafaaaaad
+aaaachiaaaaaoeiaabaaoeiaafaaaaadabaachiaacaaoeiaacaaoelaakaaaaad
+acaachiaaaaaoeiaabaaoeiaabaaaaacacaaciiaaeaaaakaabaaaaacaaaicpia
+acaaoeiappppaaaafdeieefcniadaaaaeaaaaaaapgaaaaaafjaaaaaeegiocaaa
+aaaaaaaaajaaaaaafkaaaaadaagabaaaaaaaaaaafkaaaaadaagabaaaabaaaaaa
+fkaaaaadaagabaaaacaaaaaafkaaaaadaagabaaaadaaaaaafibiaaaeaahabaaa
+aaaaaaaaffffaaaafibiaaaeaahabaaaabaaaaaaffffaaaafibiaaaeaahabaaa
+acaaaaaaffffaaaafibiaaaeaahabaaaadaaaaaaffffaaaagcbaaaaddcbabaaa
+abaaaaaagcbaaaadmcbabaaaabaaaaaagcbaaaaddcbabaaaacaaaaaagcbaaaad
+mcbabaaaacaaaaaagcbaaaadhcbabaaaadaaaaaagfaaaaadpccabaaaaaaaaaaa
+giaaaaacadaaaaaaefaaaaajpcaabaaaaaaaaaaaegbabaaaabaaaaaaeghobaaa
+aaaaaaaaaagabaaaaaaaaaaaaaaaaaaibcaabaaaaaaaaaaadkaabaiaebaaaaaa
+aaaaaaaaabeaaaaaaaaaiadpefaaaaajpcaabaaaabaaaaaaegbabaaaacaaaaaa
+eghobaaaabaaaaaaaagabaaaadaaaaaaaaaaaaakpcaabaaaabaaaaaaegaebaaa
+abaaaaaaaceaaaaaaaaaaalpaaaaaalpaaaaaalpaaaaaalpdiaaaaahpcaabaaa
+aaaaaaaaagaabaaaaaaaaaaaegaobaaaabaaaaaadiaaaaaipcaabaaaaaaaaaaa
+egaobaaaaaaaaaaafgifcaaaaaaaaaaaafaaaaaadcaaaaampcaabaaaaaaaaaaa
+egaobaaaaaaaaaaaaceaaaaaaknhcddmaknhcddmaknhcddmaknhcddmegbobaaa
+abaaaaaaefaaaaajpcaabaaaabaaaaaaogakbaaaaaaaaaaaeghobaaaacaaaaaa
+aagabaaaacaaaaaaefaaaaajpcaabaaaaaaaaaaaegaabaaaaaaaaaaaeghobaaa
+aaaaaaaaaagabaaaaaaaaaaaaaaaaaajhcaabaaaabaaaaaaegacbaiaebaaaaaa
+abaaaaaaagiacaaaaaaaaaaaaiaaaaaadcaaaaakhcaabaaaabaaaaaaegacbaia
+ebaaaaaaabaaaaaaegacbaaaabaaaaaaegacbaaaaaaaaaaaaaaaaaaihcaabaaa
+abaaaaaaegacbaaaabaaaaaakgikcaaaaaaaaaaaagaaaaaadiaaaaaihcaabaaa
+abaaaaaaegacbaaaabaaaaaaegiccaaaaaaaaaaaahaaaaaadcaaaaalhcaabaaa
+aaaaaaaaegacbaiaebaaaaaaabaaaaaafgifcaaaaaaaaaaaagaaaaaaegacbaaa
+aaaaaaaadiaaaaaihcaabaaaabaaaaaaegacbaaaabaaaaaafgifcaaaaaaaaaaa
+agaaaaaadcaaaaajhcaabaaaaaaaaaaapgapbaaaaaaaaaaaegacbaaaaaaaaaaa
+egacbaaaabaaaaaaefaaaaajpcaabaaaabaaaaaaogbkbaaaacaaaaaaeghobaaa
+adaaaaaaaagabaaaabaaaaaadcaaaaamhcaabaaaacaaaaaaegacbaaaaaaaaaaa
+egacbaaaabaaaaaaaceaaaaajkjjbjdojkjjbjdojkjjbjdoaaaaaaaadiaaaaah
+hcaabaaaaaaaaaaaegacbaaaaaaaaaaaegacbaaaabaaaaaadiaaaaahhcaabaaa
+abaaaaaaegacbaaaacaaaaaaegbcbaaaadaaaaaaddaaaaahhccabaaaaaaaaaaa
+egacbaaaaaaaaaaaegacbaaaabaaaaaadgaaaaaficcabaaaaaaaaaaaabeaaaaa
+aaaaiadpdoaaaaabejfdeheoleaaaaaaagaaaaaaaiaaaaaajiaaaaaaaaaaaaaa
+abaaaaaaadaaaaaaaaaaaaaaapaaaaaakeaaaaaaaaaaaaaaaaaaaaaaadaaaaaa
+abaaaaaaadadaaaakeaaaaaaabaaaaaaaaaaaaaaadaaaaaaabaaaaaaamamaaaa
+keaaaaaaacaaaaaaaaaaaaaaadaaaaaaacaaaaaaadadaaaakeaaaaaaadaaaaaa
+aaaaaaaaadaaaaaaacaaaaaaamamaaaaknaaaaaaaaaaaaaaaaaaaaaaadaaaaaa
+adaaaaaaapahaaaafdfgfpfagphdgjhegjgpgoaafeeffiedepepfceeaaedepem
+epfcaaklepfdeheocmaaaaaaabaaaaaaaiaaaaaacaaaaaaaaaaaaaaaaaaaaaaa
+adaaaaaaaaaaaaaaapaaaaaafdfgfpfegbhcghgfheaaklkl"
+}
+}
+ }
+}
+Fallback "Diffuse"
+}
