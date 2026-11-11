@@ -20,25 +20,13 @@
       "status": "available",
       "text": "적 하수인 하나를 우리편으로 만듭니다."
     },
-    "CS1_113e": {
-      "status": "available",
-      "text": "상대편의 명을 따름"
-    },
     "CS1_129": {
       "status": "available",
       "text": "하수인의 공격력을 생명력과 같은 수치로 바꿉니다."
     },
-    "CS1_129e": {
-      "status": "available",
-      "text": "공격력과 생명력이 같아짐"
-    },
     "CS1_130": {
       "status": "available",
       "text": "피해를 $2 줍니다."
-    },
-    "CS1h_001": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 생명력을 2 회복시킵니다."
     },
     "CS2_003": {
       "status": "available",
@@ -48,17 +36,9 @@
       "status": "available",
       "text": "하수인에게 생명력을 +3 부여합니다."
     },
-    "CS2_004e": {
-      "status": "available",
-      "text": "생명력 +3"
-    },
     "CS2_005": {
       "status": "available",
       "text": "당신의 영웅에게 방어도를 +2 부여하고, 이번 턴에만 공격력을 +2 부여합니다."
-    },
-    "CS2_005o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +2"
     },
     "CS2_007": {
       "status": "available",
@@ -72,17 +52,9 @@
       "status": "available",
       "text": "하수인에게 <b>도발</b>과 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
     },
-    "CS2_009e": {
-      "status": "available",
-      "text": "+2/+2, <b>도발<b>"
-    },
     "CS2_011": {
       "status": "available",
       "text": "이번 턴에 당신의 캐릭터들에게 공격력을 +2 부여합니다."
-    },
-    "CS2_011o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +2"
     },
     "CS2_012": {
       "status": "available",
@@ -96,21 +68,9 @@
       "status": "available",
       "text": "카드를 한 장 뽑습니다. <i>(마나는 10개까지만 보유 가능)</i>"
     },
-    "CS2_017": {
-      "status": "available",
-      "text": "<b>영웅 능력</b><br></br> 이번 턴에 공격력 +1, 방어도 +1"
-    },
-    "CS2_017o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +1"
-    },
     "CS2_022": {
       "status": "available",
       "text": "하수인을 1/1 양으로 변신시킵니다."
-    },
-    "CS2_022e": {
-      "status": "available",
-      "text": "1/1 양으로 변이됨"
     },
     "CS2_023": {
       "status": "available",
@@ -152,10 +112,6 @@
       "status": "available",
       "text": "물의 정령에게 피해를 입은 캐릭터는 <b>얼어붙음</b> 상태가 됩니다."
     },
-    "CS2_034": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 피해를 1 줍니다."
-    },
     "CS2_037": {
       "status": "available",
       "text": "적 캐릭터에게 피해를 $1 주고 <b>얼어붙음</b> 상태로 만듭니다."
@@ -163,10 +119,6 @@
     "CS2_038": {
       "status": "available",
       "text": "하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다."
-    },
-    "CS2_038e": {
-      "status": "available",
-      "text": "죽음의 신음: 파괴되면 다시 전장으로 돌아옴"
     },
     "CS2_039": {
       "status": "available",
@@ -187,21 +139,9 @@
       "status": "available",
       "text": "이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다."
     },
-    "CS2_045e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +3"
-    },
     "CS2_046": {
       "status": "available",
       "text": "이번 턴에 당신의 하수인들에게 공격력을 +3 부여합니다."
-    },
-    "CS2_046e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +3"
-    },
-    "CS2_049": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 무작위 토템을 소환합니다."
     },
     "CS2_050": {
       "status": "no-description-tag"
@@ -218,14 +158,6 @@
       "status": "available",
       "text": "카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다."
     },
-    "CS2_053e": {
-      "status": "available",
-      "text": "카드 한 장의 비용이 (3) 감소"
-    },
-    "CS2_056": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 카드를 한 장 뽑고 피해를 2 입습니다."
-    },
     "CS2_057": {
       "status": "available",
       "text": "하수인에게 피해를 $4 줍니다."
@@ -233,10 +165,6 @@
     "CS2_059": {
       "status": "available",
       "text": "<b>은신</b>. 당신의 다른 하수인들이 생명력을 +1 얻습니다."
-    },
-    "CS2_059o": {
-      "status": "available",
-      "text": "피의 임프가 생명력 +1 부여"
     },
     "CS2_061": {
       "status": "available",
@@ -249,10 +177,6 @@
     "CS2_063": {
       "status": "available",
       "text": "적 하수인을 선택합니다. 당신의 턴이 시작될 때, 그 하수인을 파괴합니다."
-    },
-    "CS2_063e": {
-      "status": "available",
-      "text": "타락시킨 플레이어의 턴이 시작될 때 파괴됨"
     },
     "CS2_064": {
       "status": "available",
@@ -270,21 +194,9 @@
       "status": "available",
       "text": "하수인에게 공격력을 +2 부여합니다. <b>연계:</b> 공격력을 +4 부여합니다."
     },
-    "CS2_073e": {
-      "status": "available",
-      "text": "공격력 +2"
-    },
-    "CS2_073e2": {
-      "status": "available",
-      "text": "공격력 +4"
-    },
     "CS2_074": {
       "status": "available",
       "text": "당신의 무기에 공격력을 +2 부여합니다."
-    },
-    "CS2_074e": {
-      "status": "available",
-      "text": "공격력 +2"
     },
     "CS2_075": {
       "status": "available",
@@ -304,29 +216,13 @@
     "CS2_082": {
       "status": "no-description-tag"
     },
-    "CS2_083b": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 1/2 단검을 장비합니다. 또는 이번 턴에 당신의 무기에 공격력을 +1 부여합니다."
-    },
-    "CS2_083e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +1"
-    },
     "CS2_084": {
       "status": "available",
       "text": "이번 턴에 하수인의 생명력을 1로 바꿉니다."
     },
-    "CS2_084e": {
-      "status": "available",
-      "text": "이번 턴에 생명력 1"
-    },
     "CS2_087": {
       "status": "available",
       "text": "하수인에게 공격력을 +3 부여합니다."
-    },
-    "CS2_087e": {
-      "status": "available",
-      "text": "공격력 +3"
     },
     "CS2_088": {
       "status": "available",
@@ -343,10 +239,6 @@
       "status": "available",
       "text": "하수인에게 +4/+4를 부여합니다. <i>(공격력 +4/생명력 +4)</i>"
     },
-    "CS2_092e": {
-      "status": "available",
-      "text": "+4/+4"
-    },
     "CS2_093": {
       "status": "available",
       "text": "모든 적에게 피해를 $2 줍니다."
@@ -359,44 +251,20 @@
       "status": "available",
       "text": "당신의 영웅이 공격할 때마다 생명력을 2 회복합니다."
     },
-    "CS2_101": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 1/1 은빛 성기사단 신병을 소환합니다."
-    },
     "CS2_101t": {
       "status": "no-description-tag"
-    },
-    "CS2_102": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 방어도를 2 얻습니다."
     },
     "CS2_103": {
       "status": "available",
       "text": "아군 하수인에게 <b>돌진</b>을 부여합니다."
     },
-    "CS2_103e": {
-      "status": "available",
-      "text": "Minions have <b>Charge</b> this turn."
-    },
-    "CS2_103e2": {
-      "status": "available",
-      "text": "<b>돌진</b>"
-    },
     "CS2_104": {
       "status": "available",
       "text": "피해를 입은 하수인에게 +3/+3을 부여합니다."
     },
-    "CS2_104e": {
-      "status": "available",
-      "text": "+3/+3"
-    },
     "CS2_105": {
       "status": "available",
       "text": "이번 턴에 당신의 영웅에게 공격력을 +4 부여합니다."
-    },
-    "CS2_105e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +4"
     },
     "CS2_106": {
       "status": "no-description-tag"
@@ -433,10 +301,6 @@
       "status": "available",
       "text": "당신의 다른 하수인들이 공격력을 +1 얻습니다."
     },
-    "CS2_122e": {
-      "status": "available",
-      "text": "공격대장이 공격력 +1 부여"
-    },
     "CS2_124": {
       "status": "available",
       "text": "<b>돌진</b>"
@@ -464,10 +328,6 @@
     "CS2_146": {
       "status": "available",
       "text": "당신이 무기를 장비하고 있으면 <b>돌진</b>을 얻습니다."
-    },
-    "CS2_146o": {
-      "status": "available",
-      "text": "내구도 +1"
     },
     "CS2_147": {
       "status": "available",
@@ -522,10 +382,6 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 자신에게 피해를 4 줍니다."
     },
-    "CS2_181e": {
-      "status": "available",
-      "text": "공격력 +2"
-    },
     "CS2_182": {
       "status": "no-description-tag"
     },
@@ -539,10 +395,6 @@
     "CS2_188": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다."
-    },
-    "CS2_188o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +2"
     },
     "CS2_189": {
       "status": "available",
@@ -574,25 +426,13 @@
       "status": "available",
       "text": "<b>격노:</b> 당신의 무기가 공격력을 +2 얻습니다."
     },
-    "CS2_221e": {
-      "status": "available",
-      "text": "원한 맺힌 대장장이가 공격력 +2 부여"
-    },
     "CS2_222": {
       "status": "available",
       "text": "당신의 다른 하수인들이 +1/+1을 얻습니다."
     },
-    "CS2_222o": {
-      "status": "available",
-      "text": "+1/+1"
-    },
     "CS2_226": {
       "status": "available",
       "text": "전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다."
-    },
-    "CS2_226o": {
-      "status": "available",
-      "text": "서리늑대 전쟁군주의 공격력과 생명력 증가"
     },
     "CS2_227": {
       "status": "available",
@@ -620,10 +460,6 @@
     "CS2_236": {
       "status": "available",
       "text": "하수인의 생명력을 두 배 증가시킵니다."
-    },
-    "CS2_236e": {
-      "status": "available",
-      "text": "생명력 두 배 증가"
     },
     "CS2_237": {
       "status": "available",
@@ -658,10 +494,6 @@
       "status": "available",
       "text": "하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다."
     },
-    "DREAM_05e": {
-      "status": "available",
-      "text": "+5/+5, 하지만 곧 파괴됨"
-    },
     "DS1_055": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 모든 아군 캐릭터의 생명력을 2 회복시킵니다."
@@ -670,25 +502,13 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 아군 야수에게 +2/+2와 <b>도발</b>을 부여합니다."
     },
-    "DS1_070o": {
-      "status": "available",
-      "text": "+2/+2, <b>도발</b>"
-    },
     "DS1_175": {
       "status": "available",
       "text": "당신의 다른 야수들이 공격력을 +1 얻습니다."
     },
-    "DS1_175o": {
-      "status": "available",
-      "text": "회갈색 늑대가 공격력 +1 부여"
-    },
     "DS1_178": {
       "status": "available",
       "text": "당신의 야수들이 <b>돌진</b>을 얻습니다."
-    },
-    "DS1_178e": {
-      "status": "available",
-      "text": "툰드라 코뿔소가 <b>돌진</b> 부여"
     },
     "DS1_183": {
       "status": "available",
@@ -710,17 +530,9 @@
       "status": "available",
       "text": "적 영웅에게 피해를 $5 줍니다."
     },
-    "DS1h_292": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 적 영웅에게 피해를 2 줍니다."
-    },
     "EX1_001": {
       "status": "available",
       "text": "캐릭터가 치유될 때마다 공격력을 +1 얻습니다."
-    },
-    "EX1_001e": {
-      "status": "available",
-      "text": "공격력 증가"
     },
     "EX1_002": {
       "status": "available",
@@ -729,10 +541,6 @@
     "EX1_004": {
       "status": "available",
       "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다."
-    },
-    "EX1_004e": {
-      "status": "available",
-      "text": "생명력 증가"
     },
     "EX1_005": {
       "status": "available",
@@ -774,10 +582,6 @@
       "status": "available",
       "text": "하수인에게 +1/+1을 부여합니다."
     },
-    "EX1_014te": {
-      "status": "available",
-      "text": "+1/+1"
-    },
     "EX1_015": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 카드를 한 장 뽑습니다."
@@ -786,9 +590,6 @@
       "status": "available",
       "text": "<b>죽음의 신음:</b> 무작위 적 하수인을 우리편으로 만듭니다."
     },
-    "EX1_016t": {
-      "status": "no-description-tag"
-    },
     "EX1_017": {
       "status": "available",
       "text": "<b>은신</b>"
@@ -796,10 +597,6 @@
     "EX1_019": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 아군 하수인에게 +1/+1을 부여합니다."
-    },
-    "EX1_019e": {
-      "status": "available",
-      "text": "+1/+1"
     },
     "EX1_020": {
       "status": "available",
@@ -840,17 +637,9 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 당신의 손에 있는 카드 한 장당 +1/+1을 얻습니다."
     },
-    "EX1_043e": {
-      "status": "available",
-      "text": "공격력과 생명력 증가"
-    },
     "EX1_044": {
       "status": "available",
       "text": "당신이 카드를 낼 때마다 +1/+1을 얻습니다."
-    },
-    "EX1_044e": {
-      "status": "available",
-      "text": "공격력과 생명력 증가"
     },
     "EX1_045": {
       "status": "available",
@@ -859,10 +648,6 @@
     "EX1_046": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 하수인에게 공격력을 +2 부여합니다."
-    },
-    "EX1_046e": {
-      "status": "available",
-      "text": "공격력 +2"
     },
     "EX1_048": {
       "status": "available",
@@ -880,10 +665,6 @@
       "status": "available",
       "text": "당신이 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다."
     },
-    "EX1_055o": {
-      "status": "available",
-      "text": "공격력 증가"
-    },
     "EX1_057": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 전장의 아군 하수인을 당신의 손으로 다시 가져옵니다."
@@ -895,14 +676,6 @@
     "EX1_059": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 바꿉니다. "
-    },
-    "EX1_059e": {
-      "status": "available",
-      "text": "광기의 연금술사가 공격력과 생명력 바꿈"
-    },
-    "EX1_059e2": {
-      "status": "available",
-      "text": "광기의 연금술사가 공격력과 생명력 바꿈"
     },
     "EX1_062": {
       "status": "available",
@@ -924,10 +697,6 @@
       "status": "available",
       "text": "각 플레이어가 <b>비밀</b>을 낼 때마다 +1/+1을 얻습니다."
     },
-    "EX1_080o": {
-      "status": "available",
-      "text": "공격력과 생명력 증가"
-    },
     "EX1_082": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 다른 모든 캐릭터에게 피해 3을 무작위로 나누어 줍니다."
@@ -939,10 +708,6 @@
     "EX1_084": {
       "status": "available",
       "text": "당신의 다른 하수인들이 <b>돌진</b>을 얻습니다."
-    },
-    "EX1_084e": {
-      "status": "available",
-      "text": "<b>돌진</b>"
     },
     "EX1_085": {
       "status": "available",
@@ -956,17 +721,9 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 공격력 2 이하인 적 하수인 하나를 우리편으로 만듭니다."
     },
-    "EX1_091o": {
-      "status": "available",
-      "text": "비밀결사단 어둠사제에게 넘어감"
-    },
     "EX1_093": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 +1/+1과 <b>도발</b>을 부여합니다."
-    },
-    "EX1_093e": {
-      "status": "available",
-      "text": "+1/+1, <b>도발</b>"
     },
     "EX1_095": {
       "status": "available",
@@ -991,10 +748,6 @@
     "EX1_103": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 다른 모든 멀록에게 생명력을 +2 부여합니다."
-    },
-    "EX1_103e": {
-      "status": "available",
-      "text": "생명력 +2"
     },
     "EX1_105": {
       "status": "available",
@@ -1026,10 +779,6 @@
     "EX1_128": {
       "status": "available",
       "text": "당신의 다음 턴까지 아군 하수인에게 <b>은신</b>을 부여합니다."
-    },
-    "EX1_128e": {
-      "status": "available",
-      "text": "다음 턴까지 은신함"
     },
     "EX1_129": {
       "status": "available",
@@ -1100,25 +849,13 @@
       "status": "available",
       "text": "공격력을 +4 부여합니다."
     },
-    "EX1_155ae": {
-      "status": "available",
-      "text": "공격력 +4"
-    },
     "EX1_155b": {
       "status": "available",
       "text": "생명력 +4와 <b>도발</b>을 부여합니다."
     },
-    "EX1_155be": {
-      "status": "available",
-      "text": "생명력 +4, <b>도발</b>"
-    },
     "EX1_158": {
       "status": "available",
       "text": "당신의 하수인들에게 \"<b>죽음의 신음:</b> 2/2 나무정령 소환\" 능력을 부여합니다."
-    },
-    "EX1_158e": {
-      "status": "available",
-      "text": "죽음의 신음: 2/2 나무정령 소환"
     },
     "EX1_158t": {
       "status": "no-description-tag"
@@ -1135,10 +872,6 @@
       "status": "available",
       "text": "당신의 모든 하수인에게 +1/+1을 부여합니다."
     },
-    "EX1_160be": {
-      "status": "available",
-      "text": "+1/+1"
-    },
     "EX1_160t": {
       "status": "no-description-tag"
     },
@@ -1146,17 +879,9 @@
       "status": "available",
       "text": "하수인을 파괴합니다. 상대편이 카드를 두 장 뽑습니다."
     },
-    "EX1_161o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 -3"
-    },
     "EX1_162": {
       "status": "available",
       "text": "양옆의 하수인들이 공격력을 +1 얻습니다."
-    },
-    "EX1_162o": {
-      "status": "available",
-      "text": "광포한 늑대 우두머리가 공격력 +1 부여"
     },
     "EX1_164": {
       "status": "available",
@@ -1222,17 +947,9 @@
       "status": "available",
       "text": "생명력 +5와 <b>도발</b>을 얻습니다."
     },
-    "EX1_178ae": {
-      "status": "available",
-      "text": "생명력 +5, <b>도발</b>"
-    },
     "EX1_178b": {
       "status": "available",
       "text": "공격력을 +5 얻습니다."
-    },
-    "EX1_178be": {
-      "status": "available",
-      "text": "공격력 +5"
     },
     "EX1_238": {
       "status": "available",
@@ -1250,10 +967,6 @@
       "status": "available",
       "text": "당신의 토템들에게 생명력을 +2 부여합니다."
     },
-    "EX1_244e": {
-      "status": "available",
-      "text": "생명력 +2"
-    },
     "EX1_245": {
       "status": "available",
       "text": "하수인을 <b>침묵</b>시키고, 피해를 $1 줍니다."
@@ -1261,10 +974,6 @@
     "EX1_246": {
       "status": "available",
       "text": "하수인을 <b>도발</b>하는 0/1 개구리로 변신시킵니다."
-    },
-    "EX1_246e": {
-      "status": "available",
-      "text": "변신!"
     },
     "EX1_247": {
       "status": "available",
@@ -1289,10 +998,6 @@
     "EX1_258": {
       "status": "available",
       "text": "당신이 <b>과부하</b> 카드를 낼 때마다 +1/+1을 얻습니다."
-    },
-    "EX1_258e": {
-      "status": "available",
-      "text": "능력치 상승"
     },
     "EX1_259": {
       "status": "available",
@@ -1345,10 +1050,6 @@
       "status": "available",
       "text": "<b>비밀:</b> 당신의 영웅이 치명적인 피해를 입으면, 피해를 막고 이번 턴에 <b>피해 면역</b> 상태가 됩니다."
     },
-    "EX1_295o": {
-      "status": "available",
-      "text": "이번 턴에 <b>피해 면역</b>"
-    },
     "EX1_298": {
       "status": "available",
       "text": "이 하수인은 공격할 수 없습니다. 당신의 턴이 끝날 때 무작위 적에게 피해를 8 줍니다."
@@ -1368,10 +1069,6 @@
     "EX1_304": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 이 하수인 양옆에 있는 하수인들을 파괴하고 그들의 공격력과 생명력을 얻습니다."
-    },
-    "EX1_304e": {
-      "status": "available",
-      "text": "능력치 상승"
     },
     "EX1_306": {
       "status": "available",
@@ -1404,10 +1101,6 @@
     "EX1_316": {
       "status": "available",
       "text": "턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게."
-    },
-    "EX1_316e": {
-      "status": "available",
-      "text": "+4/+4, 하지만 턴이 끝나면 처참하게 파괴됨"
     },
     "EX1_317": {
       "status": "available",
@@ -1442,10 +1135,6 @@
     "EX1_334": {
       "status": "available",
       "text": "공격력 3 이하인 적 하수인 하나를 이번 턴에만 조종합니다."
-    },
-    "EX1_334e": {
-      "status": "available",
-      "text": "이번 턴에는 상대편의 명을 따름"
     },
     "EX1_335": {
       "status": "available",
@@ -1483,17 +1172,9 @@
       "status": "available",
       "text": "하수인의 공격력을 두 배 증가시킵니다."
     },
-    "EX1_355e": {
-      "status": "available",
-      "text": "공격력 두 배 증가"
-    },
     "EX1_360": {
       "status": "available",
       "text": "하수인의 공격력을 1로 만듭니다."
-    },
-    "EX1_360e": {
-      "status": "available",
-      "text": "공격력 1이 됨"
     },
     "EX1_362": {
       "status": "available",
@@ -1503,14 +1184,6 @@
       "status": "available",
       "text": "하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 한 장 뽑습니다."
     },
-    "EX1_363e": {
-      "status": "available",
-      "text": "공격할 때마다 해당 하수인을 축복한 플레이어가 카드를 한 장 뽑음"
-    },
-    "EX1_363e2": {
-      "status": "available",
-      "text": "이 하수인이 공격하면 적 플레이어가 카드를 한 장 뽑습니다."
-    },
     "EX1_365": {
       "status": "available",
       "text": "카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다."
@@ -1519,10 +1192,6 @@
       "status": "available",
       "text": "당신이 하수인을 소환할 때마다 그 하수인에게 +1/+1을 부여하고 내구도를 1 잃습니다."
     },
-    "EX1_366e": {
-      "status": "available",
-      "text": "+1/+1"
-    },
     "EX1_371": {
       "status": "available",
       "text": "하수인에게 <b>천상의 보호막</b>을 부여합니다."
@@ -1530,10 +1199,6 @@
     "EX1_379": {
       "status": "available",
       "text": "<b>비밀:</b> 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다."
-    },
-    "EX1_379e": {
-      "status": "available",
-      "text": "생명력 1로 감소"
     },
     "EX1_382": {
       "status": "available",
@@ -1584,10 +1249,6 @@
       "status": "available",
       "text": "이 하수인이 피해를 입을 때마다 공격력을 +3 얻습니다."
     },
-    "EX1_399e": {
-      "status": "available",
-      "text": "공격력 증가"
-    },
     "EX1_400": {
       "status": "available",
       "text": "모든 하수인에게 피해를 $1 줍니다."
@@ -1612,10 +1273,6 @@
       "status": "available",
       "text": "당신이 무기를 장비하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장비합니다."
     },
-    "EX1_409e": {
-      "status": "available",
-      "text": "공격력 +1, 내구도 +1"
-    },
     "EX1_409t": {
       "status": "no-description-tag"
     },
@@ -1626,14 +1283,6 @@
     "EX1_411": {
       "status": "available",
       "text": "하수인을 공격하면 내구도 대신 공격력이 1 감소합니다."
-    },
-    "EX1_411e": {
-      "status": "available",
-      "text": "내구도 소모 없음"
-    },
-    "EX1_411e2": {
-      "status": "available",
-      "text": "공격력 감소"
     },
     "EX1_412": {
       "status": "available",
@@ -1654,25 +1303,13 @@
       "status": "available",
       "text": "다른 모든 멀록이 +2/+1을 얻습니다."
     },
-    "EX1_507e": {
-      "status": "available",
-      "text": "멀록 전투대장이 +2/+1 부여"
-    },
     "EX1_508": {
       "status": "available",
       "text": "다른 모든 멀록이 공격력을 +1 얻습니다."
     },
-    "EX1_508o": {
-      "status": "available",
-      "text": "공격력 +1"
-    },
     "EX1_509": {
       "status": "available",
       "text": "멀록이 소환될 때마다 공격력을 +1 얻습니다."
-    },
-    "EX1_509e": {
-      "status": "available",
-      "text": "공격력 증가"
     },
     "EX1_522": {
       "status": "available",
@@ -1681,10 +1318,6 @@
     "EX1_531": {
       "status": "available",
       "text": "야수가 죽을 때마다 +2/+1을 얻습니다."
-    },
-    "EX1_531e": {
-      "status": "available",
-      "text": "공격력과 생명력 증가"
     },
     "EX1_533": {
       "status": "available",
@@ -1700,10 +1333,6 @@
     "EX1_536": {
       "status": "available",
       "text": "<b>비밀</b>이 밝혀질 때마다 내구도를 +1 얻습니다."
-    },
-    "EX1_536e": {
-      "status": "available",
-      "text": "내구도 증가"
     },
     "EX1_537": {
       "status": "available",
@@ -1732,10 +1361,6 @@
     "EX1_549": {
       "status": "available",
       "text": "이번 턴에 야수에게 공격력 +2와 <b>피해 면역</b>을 부여합니다."
-    },
-    "EX1_549o": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +2, <b>피해 면역</b>"
     },
     "EX1_554": {
       "status": "available",
@@ -1784,10 +1409,6 @@
       "status": "available",
       "text": "양옆의 하수인들이 공격력을 +2 얻습니다."
     },
-    "EX1_565o": {
-      "status": "available",
-      "text": "불꽃의 토템이 공격력 +2 부여"
-    },
     "EX1_567": {
       "status": "available",
       "text": "<b>질풍, 과부하:</b> (2)"
@@ -1795,10 +1416,6 @@
     "EX1_570": {
       "status": "available",
       "text": "당신의 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다."
-    },
-    "EX1_570e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +4"
     },
     "EX1_571": {
       "status": "available",
@@ -1815,10 +1432,6 @@
     "EX1_573a": {
       "status": "available",
       "text": "당신의 다른 아군 하수인들에게 +2/+2를 부여합니다."
-    },
-    "EX1_573ae": {
-      "status": "available",
-      "text": "+2/+2"
     },
     "EX1_573b": {
       "status": "available",
@@ -1856,10 +1469,6 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 양옆의 하수인들에게 <b>주문력 +1</b>을 부여합니다."
     },
-    "EX1_584e": {
-      "status": "available",
-      "text": "<b>주문력 +1</b>"
-    },
     "EX1_586": {
       "status": "available",
       "text": "전장의 하수인 하나당 비용이 (1)씩 감소합니다."
@@ -1874,10 +1483,6 @@
     "EX1_590": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 모든 하수인이 <b>천상의 보호막</b>을 잃고, 잃은 보호막 하나당 +3/+3을 얻습니다."
-    },
-    "EX1_590e": {
-      "status": "available",
-      "text": "천상의 보호막을 흡수하여 공격력과 생명력 증가"
     },
     "EX1_591": {
       "status": "available",
@@ -1899,10 +1504,6 @@
       "status": "available",
       "text": "하수인에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다."
     },
-    "EX1_596e": {
-      "status": "available",
-      "text": "+2/+2"
-    },
     "EX1_597": {
       "status": "available",
       "text": "당신의 턴이 끝날 때, 이 하수인에게 피해를 1 주고 1/1 임프 하나를 소환합니다."
@@ -1914,17 +1515,9 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 하수인에게 피해를 1 주고 공격력을 +2 부여합니다."
     },
-    "EX1_603e": {
-      "status": "available",
-      "text": "공격력 +2"
-    },
     "EX1_604": {
       "status": "available",
       "text": "하수인이 피해를 입을 때마다 공격력을 +1 얻습니다."
-    },
-    "EX1_604o": {
-      "status": "available",
-      "text": "공격력 증가"
     },
     "EX1_606": {
       "status": "available",
@@ -1933,10 +1526,6 @@
     "EX1_607": {
       "status": "available",
       "text": "하수인에게 피해를 $1 줍니다. 대상 하수인은 이번 턴에 공격력이 +2 증가합니다."
-    },
-    "EX1_607e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +2 "
     },
     "EX1_608": {
       "status": "available",
@@ -1954,25 +1543,13 @@
       "status": "available",
       "text": "<b>비밀:</b> 적 하수인이 공격하면, 주인의 손으로 돌려보내고 비용을 (2) 증가시킵니다."
     },
-    "EX1_611e": {
-      "status": "available",
-      "text": "다음 턴이 시작될 때 다시 <b>얼어붙음</b> 상태가 됨"
-    },
     "EX1_612": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 이번 턴에 내는 당신의 다음 <b>비밀</b> 비용이 (0)이 됩니다."
     },
-    "EX1_612o": {
-      "status": "available",
-      "text": "다음 비밀 비용 (0)"
-    },
     "EX1_613": {
       "status": "available",
       "text": "<b>은신</b>. <b>연계:</b> 이번 턴에 낸 카드 한 장당 +2/+2를 얻습니다."
-    },
-    "EX1_613e": {
-      "status": "available",
-      "text": "공격력과 생명력 증가"
     },
     "EX1_614": {
       "status": "available",
@@ -1993,10 +1570,6 @@
       "status": "available",
       "text": "모든 하수인의 생명력을 1로 바꿉니다."
     },
-    "EX1_619e": {
-      "status": "available",
-      "text": "생명력 1로 바뀜"
-    },
     "EX1_620": {
       "status": "available",
       "text": "당신의 영웅이 입은 피해 1당 비용이 1씩 감소합니다."
@@ -2009,17 +1582,9 @@
       "status": "available",
       "text": "당신의 하수인들에게 <b>도발</b>을 부여합니다. 카드를 한 장 뽑습니다."
     },
-    "EX1_622e": {
-      "status": "available",
-      "text": "도발"
-    },
     "EX1_623": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 아군 하수인에게 생명력을 +3 부여합니다."
-    },
-    "EX1_623e": {
-      "status": "available",
-      "text": "생명력 +3"
     },
     "EX1_624": {
       "status": "available",
@@ -2054,9 +1619,6 @@
     "EX1_tk29": {
       "status": "no-description-tag"
     },
-    "EX1_tk31": {
-      "status": "no-description-tag"
-    },
     "EX1_tk33": {
       "status": "available",
       "text": "<b>영웅 능력</b> <br></br> 6/6 지옥불정령을 소환합니다."
@@ -2071,64 +1633,6 @@
     "FP1_001": {
       "status": "korean-unavailable"
     },
-    "GAME_001": {
-      "status": "available",
-      "text": "후공으로 시작하면 추가 생명력을 얻습니다."
-    },
-    "GAME_002": {
-      "status": "available",
-      "text": "<i>동전 뒤집기는 졌지만, 친구를 얻었습니다.</i>"
-    },
-    "GAME_003": {
-      "status": "available",
-      "text": "후공으로 시작하면 첫 하수인이 강해집니다."
-    },
-    "GAME_003e": {
-      "status": "available",
-      "text": "후공으로 시작하면 첫 하수인이 강해짐"
-    },
-    "GAME_004": {
-      "status": "available",
-      "text": "당신의 턴이 짧아집니다."
-    },
-    "GAME_005": {
-      "status": "available",
-      "text": "이번 턴에만 마나 수정을 하나 획득합니다."
-    },
-    "GAME_005e": {
-      "status": "no-description-tag"
-    },
-    "GAME_006": {
-      "status": "available",
-      "text": "어쩐 일인지, 당신이 갖고 있던 카드가 삭제되었습니다. 여기요, 이거라도 받으세요!"
-    },
-    "HERO_01": {
-      "status": "no-description-tag"
-    },
-    "HERO_02": {
-      "status": "no-description-tag"
-    },
-    "HERO_03": {
-      "status": "no-description-tag"
-    },
-    "HERO_04": {
-      "status": "no-description-tag"
-    },
-    "HERO_05": {
-      "status": "no-description-tag"
-    },
-    "HERO_06": {
-      "status": "no-description-tag"
-    },
-    "HERO_07": {
-      "status": "no-description-tag"
-    },
-    "HERO_08": {
-      "status": "no-description-tag"
-    },
-    "HERO_09": {
-      "status": "no-description-tag"
-    },
     "Mekka1": {
       "status": "available",
       "text": "당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다."
@@ -2141,17 +1645,9 @@
       "status": "available",
       "text": "당신의 턴이 끝날 때, 무작위 하수인에게 +1/+1을 부여합니다."
     },
-    "Mekka3e": {
-      "status": "available",
-      "text": "+1/+1"
-    },
     "Mekka4": {
       "status": "available",
       "text": "당신의 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다."
-    },
-    "Mekka4e": {
-      "status": "available",
-      "text": "닭으로 변신!"
     },
     "Mekka4t": {
       "status": "available",
@@ -2168,10 +1664,6 @@
     "NEW1_005": {
       "status": "available",
       "text": "<b>연계:</b> 하수인을 주인의 손으로 돌려보냅니다."
-    },
-    "NEW1_006": {
-      "status": "available",
-      "text": "Draw a card. <b>Combo:</b> Draw 2 cards instead."
     },
     "NEW1_007": {
       "status": "available",
@@ -2213,10 +1705,6 @@
       "status": "available",
       "text": "당신이 주문을 시전할 때마다 공격력을 +1 얻습니다."
     },
-    "NEW1_012o": {
-      "status": "available",
-      "text": "공격력 증가"
-    },
     "NEW1_014": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 아군 하수인에게 <b>은신</b>을 부여합니다."
@@ -2229,17 +1717,9 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 멀록을 파괴하고 +2/+2를 얻습니다."
     },
-    "NEW1_017e": {
-      "status": "available",
-      "text": "+2/+2, 멀록으로 배 채움"
-    },
     "NEW1_018": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 당신의 무기 공격력만큼 공격력을 얻습니다."
-    },
-    "NEW1_018e": {
-      "status": "available",
-      "text": "공격력 증가"
     },
     "NEW1_019": {
       "status": "available",
@@ -2265,17 +1745,9 @@
       "status": "available",
       "text": "당신이 영웅으로 공격할 때마다 카드를 한 장 뽑습니다."
     },
-    "NEW1_024o": {
-      "status": "available",
-      "text": "+2/+2"
-    },
     "NEW1_025": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 상대편의 무기 내구도를 1 감소시킵니다."
-    },
-    "NEW1_025e": {
-      "status": "available",
-      "text": "생명력 증가"
     },
     "NEW1_026": {
       "status": "available",
@@ -2295,10 +1767,6 @@
       "status": "available",
       "text": "<b>전투의 함성:</b> 다음 턴에 적이 쓰는 주문의 비용이 (0)이 됩니다."
     },
-    "NEW1_029t": {
-      "status": "available",
-      "text": "이번 턴에 주문의 비용이 (0)이 됩니다!"
-    },
     "NEW1_030": {
       "status": "available",
       "text": "<b>전투의 함성:</b> 전장의 다른 모든 하수인을 파괴하고 당신 손의 카드를 모두 버립니다."
@@ -2315,10 +1783,6 @@
       "status": "available",
       "text": "다른 아군 하수인들이 공격력을 +1 얻습니다."
     },
-    "NEW1_033o": {
-      "status": "available",
-      "text": "레오크가 공격력 +1 부여"
-    },
     "NEW1_034": {
       "status": "available",
       "text": "<b>돌진</b>"
@@ -2327,29 +1791,13 @@
       "status": "available",
       "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다."
     },
-    "NEW1_036e": {
-      "status": "available",
-      "text": "이번 턴에는 생명력이 1 아래로 내려가지 않음"
-    },
-    "NEW1_036e2": {
-      "status": "available",
-      "text": "이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다."
-    },
     "NEW1_037": {
       "status": "available",
       "text": "당신의 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다."
     },
-    "NEW1_037e": {
-      "status": "available",
-      "text": "공격력 증가"
-    },
     "NEW1_038": {
       "status": "available",
       "text": "각 턴이 끝날 때마다 +1/+1을 얻습니다."
-    },
-    "NEW1_038o": {
-      "status": "available",
-      "text": "그룰이 커지는 중..."
     },
     "NEW1_040": {
       "status": "available",
@@ -2368,137 +1816,6 @@
     },
     "PlaceholderCard": {
       "status": "korean-unavailable"
-    },
-    "TU4a_001": {
-      "status": "no-description-tag"
-    },
-    "TU4a_002": {
-      "status": "no-description-tag"
-    },
-    "TU4a_003": {
-      "status": "no-description-tag"
-    },
-    "TU4a_004": {
-      "status": "available",
-      "text": "피해를 4 줍니다."
-    },
-    "TU4a_005": {
-      "status": "no-description-tag"
-    },
-    "TU4a_006": {
-      "status": "no-description-tag"
-    },
-    "TU4b_001": {
-      "status": "no-description-tag"
-    },
-    "TU4c_001": {
-      "status": "no-description-tag"
-    },
-    "TU4c_002": {
-      "status": "available",
-      "text": "피해를 2 줍니다."
-    },
-    "TU4c_003": {
-      "status": "available",
-      "text": "통에 뭔가 있나요?"
-    },
-    "TU4c_004": {
-      "status": "available",
-      "text": "모든 적에게 피해를 2 줍니다."
-    },
-    "TU4c_005": {
-      "status": "available",
-      "text": "통 안에 숨어 있었습니다!"
-    },
-    "TU4c_006": {
-      "status": "available",
-      "text": "아군 하수인에게 +1/+1을 부여합니다. <i>(공격력 +1/생명력 +1)</i>"
-    },
-    "TU4c_006e": {
-      "status": "available",
-      "text": "+1/+1 <i>(공격력 +1/생명력 +1)</i>"
-    },
-    "TU4c_007": {
-      "status": "available",
-      "text": "이렇게 센데 마나는 6밖에 안 든다고?!"
-    },
-    "TU4c_008": {
-      "status": "available",
-      "text": "생명력을 8 회복시킵니다."
-    },
-    "TU4c_008e": {
-      "status": "available",
-      "text": "이번 턴에 공격력 +8"
-    },
-    "TU4d_001": {
-      "status": "no-description-tag"
-    },
-    "TU4d_002": {
-      "status": "no-description-tag"
-    },
-    "TU4d_003": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 피해를 1 줍니다."
-    },
-    "TU4e_001": {
-      "status": "no-description-tag"
-    },
-    "TU4e_002": {
-      "status": "available",
-      "text": "<b>영웅 능력</b> <br></br> 2/1 하수인을 둘 소환합니다."
-    },
-    "TU4e_002t": {
-      "status": "no-description-tag"
-    },
-    "TU4e_003": {
-      "status": "available",
-      "text": "<b></b> "
-    },
-    "TU4e_004": {
-      "status": "no-description-tag"
-    },
-    "TU4e_005": {
-      "status": "available",
-      "text": "피해를 $1씩 주는 화살 5개를 무작위 적들에게 발사합니다."
-    },
-    "TU4e_006": {
-      "status": "available",
-      "text": "정신 나간 짓을 해보십시오."
-    },
-    "TU4e_007": {
-      "status": "no-description-tag"
-    },
-    "TU4f_001": {
-      "status": "no-description-tag"
-    },
-    "TU4f_002": {
-      "status": "no-description-tag"
-    },
-    "TU4f_003": {
-      "status": "no-description-tag"
-    },
-    "TU4f_004": {
-      "status": "available",
-      "text": "당신의 하수인들에게 +2/+2를 부여합니다. <i>(공격력 +2/생명력 +2)</i>"
-    },
-    "TU4f_004o": {
-      "status": "available",
-      "text": "+2/+2. <i>(공격력 +2/생명력 +2)</i>"
-    },
-    "TU4f_005": {
-      "status": "no-description-tag"
-    },
-    "TU4f_006": {
-      "status": "available",
-      "text": "초의 하수인들을 처치하기 전에는 초를 공격할 수 없습니다."
-    },
-    "TU4f_006o": {
-      "status": "available",
-      "text": "초의 하수인들 처치 전에는 초 공격 불가"
-    },
-    "TU4f_007": {
-      "status": "available",
-      "text": "<b>전투의 함성:</b> 바나나를 던집니다."
     },
     "XXX_001": {
       "status": "korean-unavailable"
@@ -2587,9 +1904,6 @@
     "XXX_027": {
       "status": "korean-unavailable"
     },
-    "XXX_028": {
-      "status": "no-description-tag"
-    },
     "XXX_029": {
       "status": "korean-unavailable"
     },
@@ -2598,9 +1912,6 @@
     },
     "XXX_039": {
       "status": "korean-unavailable"
-    },
-    "XXX_040": {
-      "status": "no-description-tag"
     },
     "XXX_041": {
       "status": "korean-unavailable"
@@ -2618,20 +1929,12 @@
       "status": "available",
       "text": "<b>도발</b>"
     },
-    "skele11": {
-      "status": "available",
-      "text": "<b></b> "
-    },
     "skele21": {
       "status": "no-description-tag"
     },
     "tt_004": {
       "status": "available",
       "text": "하수인이 죽을 때마다 공격력을 +1 얻습니다."
-    },
-    "tt_004o": {
-      "status": "available",
-      "text": "공격력 증가"
     },
     "tt_010": {
       "status": "available",
