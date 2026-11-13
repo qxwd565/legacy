@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2021-03-31",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First normal-play date verified from Blizzard's Korean Core set-rotation notice; initial gameplay text and numeric baseline remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -236,7 +236,7 @@
       489
     ],
     "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -263,5 +263,17 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2021-03-31",
+    "timezone": "Asia/Seoul",
+    "criterion": "First normal ranked/constructed availability in the 2021 Core Set; not later Legacy reprint",
+    "originSet": "2021 Core",
+    "originCardId": "CS3_033",
+    "basis": "The 31 newly created Core cards debuted with the Year of the Gryphon set rotation on March 31 2021 in Korea.",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23642550/20-0-patch-notes",
+      "https://hearthstone.blizzard.com/en-us/news/23620129"
+    ]
+  }
 }

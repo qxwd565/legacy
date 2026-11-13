@@ -3,11 +3,11 @@
   "id": "CS2_058",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2021-03-31",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First normal-play date verified against Blizzard's Korean Core set-rotation notice; baseline gameplay details remain only partially verified. Original source is retained.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -181,8 +181,8 @@
         "value": 1
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2021-03-31",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -209,5 +209,17 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2021-03-31",
+    "timezone": "Asia/Seoul",
+    "criterion": "First usable Shaman hero-power result; not patch data preload",
+    "originCardId": "CS2_058",
+    "basis": "Official 20.0 Korean notes: Strength Totem replaces Wrath of Air Totem as the new Core Set begins with Forged in the Barrens on 2021-03-31. It was not in the 2013 beta card-text archive.",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23642550/20-0-patch-notes"
+    ],
+    "removedFalseDate": "2013-08-17",
+    "absorbedEarlierPatchObservation": "2021-03-26"
+  }
 }

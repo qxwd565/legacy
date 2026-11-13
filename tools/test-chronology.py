@@ -81,6 +81,12 @@ def main():
                          'OG_047a':'2016-04-27', 'OG_047b':'2016-04-27'}
     for cid, day in official_releases.items():
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
+    assert (get('CS2_058')['releasedAt'],get('CS2_058')['releaseStatus']) == ('2021-03-31','verified')
+    assert all(ev['date']>'2021-03-31' for ev in get('CS2_058')['patches'])
+    for cid in ('LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
+                'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
+                'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2021-03-31','verified'),cid
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6

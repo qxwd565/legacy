@@ -222,7 +222,17 @@ def main():
         history, proof = read_card(ROOT, cid)
         assert list(history)[0] == day and proof['release'] == {'date':day, 'status':'verified'}, cid
         assert resolve(history,proof,(date.fromisoformat(day)-timedelta(days=1)).isoformat()) is None, cid
-    assert statuses=={'estimated':491,'verified':125}
+    # Strength Totem was not present in initial 2013 Shaman hero-power pool.
+    totem, proof = read_card(ROOT, 'CS2_058')
+    assert list(totem)==['2021-03-31'] and proof['release']=={'date':'2021-03-31','status':'verified'}
+    assert resolve(totem,proof,'2021-03-30') is None
+    for cid in ('LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
+                'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
+                'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037'):
+        history, evidence = read_card(ROOT,cid)
+        assert list(history)[0]=='2021-03-31' and evidence['release']=={'date':'2021-03-31','status':'verified'},cid
+        assert resolve(history,evidence,'2021-03-30') is None,cid
+    assert statuses=={'estimated':479,'verified':137}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

@@ -16,7 +16,10 @@ VERIFIED_HERO_POWER_RELEASES = frozenset([*(f'HERO_{n:02d}bp2' for n in range(1,
 CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
     [*(f'LEG_RLK_{s}' for s in ('034','039','071','077','079','082','085','101','115',
                                '125','224','226','705','710','715','744','752','753')),
-     'LEG_TTN_908', *(f'EX1_{n}' for n in range(183,193)), 'OG_047a', 'OG_047b'])
+     'LEG_TTN_908', *(f'EX1_{n}' for n in range(183,193)), 'OG_047a', 'OG_047b',
+     'CS2_058', 'LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
+     'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
+     'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037'])
 
 
 def old_resolve(current,history,day):
