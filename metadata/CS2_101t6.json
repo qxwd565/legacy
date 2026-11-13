@@ -3,11 +3,11 @@
   "id": "CS2_101t6",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": null,
-    "status": "pending"
+    "date": "2024-03-12",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Retired from active Silver Hand Recruit rotation immediately before Draenei was introduced. No first playable date is asserted without direct evidence. Native 2024-10-30 race tag stays in immutable source evidence only; timeline has no fictitious post-retirement gameplay patch.",
+  "confidenceNote": "First live appearance at Korea 29.0 rollout is supported by the user's historical correction; the official announcement confirms the update date, not the exact variant ID. Retirement date unresolved. Original immutable evidence preserved; baseline stats partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -227,8 +227,8 @@
         "value": 1
       }
     ],
-    "releasedAt": null,
-    "releaseStatus": "pending"
+    "releasedAt": "2024-03-12",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -256,37 +256,26 @@
     "text",
     "type"
   ],
-  "undated": {
-    "baseline": {
-      "dbfId": 105921,
-      "cost": 1,
-      "health": 1,
-      "attack": 1,
-      "id": "CS2_101t6",
-      "name": "은빛 성기사단 신병",
-      "text": "",
-      "type": "MINION",
-      "cardClass": "PALADIN",
-      "rarity": "FREE",
-      "collectible": false
-    },
-    "patches": [],
-    "reason": "This Draenei-art Silver Hand Recruit variant was removed from the active summon pool before the Draenei tribe became playable. The 2024-10-30 Draenei tag is an installed-card observation, not an in-game balance/availability event and is preserved only in immutable originalSource. The exact first in-game use before retirement is not independently dated."
-  },
   "releaseEvidence": {
-    "date": null,
+    "date": "2024-03-12",
     "timezone": "Asia/Seoul",
-    "status": "first-playable-unconfirmed",
-    "criterion": "Actual normal-play summon, not asset preload or race-tag update",
+    "criterion": "First actual appearance as a playable recruit art variant, not client-only preload.",
+    "basis": "User confirmed that CS2_101t6 was first playable alongside the other new recruits, then removed before the Draenei minion type was added. The Korean 29.0 patch officially introduced new recruit visuals on 2024-03-12 but did not list the individual art IDs.",
     "sources": [
-      "https://hearthstone.wiki.gg/wiki/Silver_Hand_Recruit_%28Draenei%29",
       "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
     ],
-    "falseDateRemoved": "2013-08-17",
-    "clientArtifactAdded": "2023-11-08",
-    "note": "The user confirmed this variant was removed just before the Draenei tribe was added; do not treat its native 2024-10-30 tribe tag as playable. First confirmed summon day not yet established; no guessed debut.",
-    "gameplayRetiredBefore": "2024-10-30",
-    "removedFromActiveSummonPool": true,
+    "attribution": "User-provided historical clarification on 2026-11-13",
+    "clientPreloadOnly": "2023-11-08",
+    "falseFirstDateRemoved": "2013-08-17",
     "nativeDraeneiTagIsNotGameplayHistory": true
+  },
+  "appearanceRetirement": {
+    "status": "removed_from_random_summon_pool",
+    "exactDate": null,
+    "beforeDate": "2024-10-30",
+    "timezone": "Asia/Seoul",
+    "reason": "Retired shortly before the Draenei minion type became available.",
+    "evidence": "User-provided historical correction; exact retirement day unverified.",
+    "note": "The 2024-10-30 client-only race tag is preserved in originalSource, not the canonical gameplay timeline."
   }
 }

@@ -117,9 +117,8 @@ def main(fixture=None):
                         and day < meta['release']['date']
                         and field == 'race'
                     )
-                    # The unused Draenei art entity has no proven playable date.
-                    # Its unverified client-only race appeared in 31.0 and is
-                    # retained as an undated observation, not a 2013 assertion.
+                    # This recruit was playable in 29.0 but retired before
+                    # the later 31.0 client-only Draenei race tag appeared.
                     unused_draenei_race_fix = (
                         cid == 'CS2_101t6' and field == 'race'
                     )

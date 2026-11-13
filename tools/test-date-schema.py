@@ -243,16 +243,19 @@ def main():
         card, evidence = read_card(ROOT, cid)
         assert list(card)==['2024-03-12'] and evidence['release']=={'date':'2024-03-12','status':'verified'},cid
         assert resolve(card,evidence,'2024-03-11') is None,cid
-    # CS2_101t6 is an installed Draenei variant excluded from the six live
-    # recruit appearances: preserve the source, never invent a playable date.
-    unused, unused_meta = read_card(ROOT, 'CS2_101t6')
-    assert unused == {}
-    assert unused_meta['release']=={'date':None,'status':'pending'}
-    assert unused_meta['undated']['baseline']['id']=='CS2_101t6'
-    assert unused_meta['undated']['patches']==[]
-    assert unused_meta['originalSource']['card']['patches'][0]['date']=='2024-10-30'
-    assert unused_meta['releaseEvidence']['nativeDraeneiTagIsNotGameplayHistory']
-    assert current['CS2_101t6']['releasedAt'] is None
+    # Draenei recruit was playable with the 29.0 visual recruits before
+    # retirement just before Draenei became a distinct minion tribe.
+    draenei, draenei_meta = read_card(ROOT, 'CS2_101t6')
+    assert list(draenei)==['2024-03-12']
+    assert draenei_meta['release']=={'date':'2024-03-12','status':'verified'}
+    assert 'undated' not in draenei_meta
+    assert resolve(draenei,draenei_meta,'2024-03-11') is None
+    assert resolve(draenei,draenei_meta,'2024-03-12')['id']=='CS2_101t6'
+    assert draenei_meta['appearanceRetirement']['exactDate'] is None
+    assert draenei_meta['appearanceRetirement']['beforeDate']=='2024-10-30'
+    assert draenei_meta['originalSource']['card']['patches'][0]['date']=='2024-10-30'
+    assert draenei_meta['releaseEvidence']['nativeDraeneiTagIsNotGameplayHistory']
+    assert current['CS2_101t6']['releasedAt']=='2024-03-12'
     # Four Warcraft Rumble cards were accessible in Core on Korea March 12,
     # eight days BEFORE the new expansion release on March 20.
     for cid in ('TOY_100','TOY_101','TOY_102','TOY_103'):
@@ -261,7 +264,7 @@ def main():
         assert proof['release']=={'date':'2024-03-12','status':'verified'},cid
         assert resolve(history,proof,'2024-03-11') is None,cid
         assert resolve(history,proof,'2024-03-12') is not None,cid
-    assert statuses=={'estimated':472,'verified':143,'pending':1}
+    assert statuses=={'estimated':472,'verified':144}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
@@ -296,8 +299,8 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':615,
-            'undatedSources':['CS2_101t6'],'sourceReleaseStatus':dict(statuses),
+    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':616,
+            'undatedSources':[],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],
             'strict':'opt-in; all incompletely verified baselines refused, no confidence promotion',
