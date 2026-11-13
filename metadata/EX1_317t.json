@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First actually generatable during 2013 beta: the native 3664 ID and verified playable Sense Demons, supported by an August 11 2013 prebeta contemporaneous guide describing Worthless Imp substitution for missing demons. Original stats remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2599,7 +2599,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2626,5 +2626,20 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "parentCardId": "EX1_317",
+    "parentName": "악마 감지",
+    "criterion": "First playable generated token through a verified beta-day collectible parent; not client import date",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "archiveStatus": "available",
+    "source": "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/371-hearthstone-101",
+    "sourceDate": "2013-08-11 (original guide and explicit version #6 before beta opened; post later edited)",
+    "sourceDetail": "Guide's August 11 version #6 explicitly states that Sense Demons gives a Worthless Imp for each missing Demon. The same child ID EX1_317t and parent EX1_317 exist in 3664 Korean archive. Parent selectable from first public beta day.",
+    "parentReleaseSource": "metadata/EX1_317.json",
+    "betaOpenSource": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "caveat": "This verifies earliest playable generation and ID, not the full launch-day stat baseline."
+  }
 }
