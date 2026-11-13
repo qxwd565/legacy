@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Actual first-use date verified from playable day-one parent and original Korean 3664 child ID. Historical gameplay attributes remain only partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2399,7 +2399,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2422,5 +2422,17 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "parentCardId": "EX1_178",
+    "criterion": "Gameplay generation on first beta day; not mere client preload or later name update",
+    "basis": "Verified day-one playable parent directly summons, equips, transforms, or selects this child by the original Korean 3664 gameplay text; native 3664 child ID is independently present.",
+    "parentReleaseSource": "metadata/EX1_178.json",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "childArchiveStatus": "available",
+    "officialBetaAnnouncement": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "caveat": "Launch-day child ID/date verified, not all launch stats or later names."
+  }
 }

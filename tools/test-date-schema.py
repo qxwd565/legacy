@@ -383,7 +383,20 @@ def main():
         assert list(history)[0]=='2013-08-17' and not history['2013-08-17']['collectible'], cid
         assert list(parent_history)[0]=='2013-08-17' and parent_history['2013-08-17']['collectible'], pid
         assert resolve(history,meta,'2013-08-16') is None, cid
-    assert statuses=={'estimated':238,'verified':377}
+    # More verified 2013 first-day generated children, including starting hero powers.
+    verified_beta_child_pairs = (('EX1_finkle','EX1_577'),('CS2_101t','HERO_04bp'),('CS2_050','HERO_02bp'),('CS2_051','HERO_02bp'),('CS2_052','HERO_02bp'),('NEW1_009','HERO_02bp'),('CS2_082','HERO_03bp'),('EX1_tk9','EX1_571'),('hexfrog','EX1_246'),('EX1_154a','EX1_154'),('EX1_154b','EX1_154'),('EX1_166a','EX1_166'),('EX1_166b','EX1_166'),('EX1_178a','EX1_178'),('EX1_178b','EX1_178'),('EX1_164a','EX1_164'),('EX1_164b','EX1_164'),('EX1_573a','EX1_573'),('EX1_573b','EX1_573'),('NEW1_007a','NEW1_007'),('NEW1_007b','NEW1_007'))
+    for cid,pid in verified_beta_child_pairs:
+        history, meta = read_card(ROOT,cid)
+        parent_history, parent_meta = read_card(ROOT,pid)
+        assert meta['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert parent_meta['release']=={'date':'2013-08-17','status':'verified'},pid
+        assert meta['currentCatalog']['releaseStatus']=='verified',cid
+        assert meta['releaseEvidence']['parentCardId']==pid,cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
+        assert list(history)[0]=='2013-08-17' and not history['2013-08-17']['collectible'],cid
+        assert list(parent_history)[0]=='2013-08-17',pid
+        assert resolve(history,meta,'2013-08-16') is None,cid
+    assert statuses=={'estimated':217,'verified':398}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
