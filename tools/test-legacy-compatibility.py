@@ -13,6 +13,10 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
 ADDED_TOKEN_IDS = frozenset(['CS3_002t', 'RLK_077t', 'RLK_085t', 'RLK_226t', 'RLK_705t', 'RLK_907t', 'OG_044a'])
 VERIFIED_HERO_POWER_RELEASES = frozenset([*(f'HERO_{n:02d}bp2' for n in range(1, 10)), 'HERO_10bp', 'HERO_10bp2'])
+CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
+    [*(f'LEG_RLK_{s}' for s in ('034','039','071','077','079','082','085','101','115',
+                               '125','224','226','705','710','715','744','752','753')),
+     'LEG_TTN_908'])
 
 
 def old_resolve(current,history,day):
@@ -48,7 +52,7 @@ def main(fixture=None):
                 row.pop('releasedAt',None)  # Verified North American beta release in KST.
             if row['id'] in ('skele21','ds1_whelptoken'):
                 row.pop('releasedAt',None); row.pop('releaseStatus',None)
-            if row['id'] in VERIFIED_HERO_POWER_RELEASES:
+            if row['id'] in CORRECTED_FIRST_PLAYABLE_IDS:
                 # Exactly the dates and confidence have changed since the pinned 2013 fallback.
                 row.pop('releasedAt',None); row.pop('releaseStatus',None)
     assert json_equal(catalog_other,original_other),'Non-text legacy catalogue drifted'

@@ -1,5 +1,5 @@
 {
-  "2021-03-31": {
+  "2022-12-07": {
     "dbfId": 113194,
     "cost": 3,
     "health": 3,
@@ -9,15 +9,11 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "collectible": true
-  },
-  "2022-11-30": {
+    "collectible": true,
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드"
-  },
-  "2022-12-07": {
+    "race": "언데드",
     "text": "<b>도발</b>, <b>죽음의 메아리:</b><br></br><b>시체</b>를 3개 소모해 <b>도발</b> 능력이 있는 3/3 되살아난 이미야르를 소환합니다."
   }
 }

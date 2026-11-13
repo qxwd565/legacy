@@ -1,5 +1,5 @@
 {
-  "2021-03-31": {
+  "2022-12-07": {
     "dbfId": 113189,
     "cost": 2,
     "health": 2,
@@ -9,15 +9,11 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "RARE",
-    "collectible": true
-  },
-  "2022-11-30": {
+    "collectible": true,
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드"
-  },
-  "2022-12-07": {
+    "race": "언데드",
     "text": "<b>전투의 함성:</b> <b>시체</b>를 소모해 +1/+2를 얻습니다."
   }
 }

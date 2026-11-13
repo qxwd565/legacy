@@ -3,11 +3,11 @@
   "id": "LEG_TTN_908",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2021-03-31",
-    "status": "estimated"
+    "date": "2023-07-26",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First playable Core patch date is verified via official Korean patch notes; the nonfunctional later move to Legacy does not reset the card release. Baseline gameplay details remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -226,8 +226,8 @@
         "value": 1
       }
     ],
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releasedAt": "2023-07-26",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -251,5 +251,18 @@
     "spellSchool",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2023-07-26",
+    "timezone": "Asia/Seoul",
+    "criterion": "First playable as a Core paladin aura at patch 27.0, not the August 2 TITANS expansion or 2026 Legacy reprint",
+    "originSet": "Core",
+    "originCardId": "TTN_908",
+    "basis": "Korean 27.0 Patch Notes confirm Crusader Aura joined the free Core set immediately with July 26 2023 patch; no delayed expansion availability. The original game effect text already applied when it was first made playable.",
+    "sourceUrls": [
+      "https://news.blizzard.com/ko-kr/article/23973121/27-0"
+    ],
+    "removedFalseDate": "2021-03-31",
+    "absorbedFormerTextDate": "2023-08-02"
+  }
 }

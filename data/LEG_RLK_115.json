@@ -1,5 +1,5 @@
 {
-  "2021-03-31": {
+  "2022-12-07": {
     "dbfId": 113197,
     "cost": 4,
     "health": 6,
@@ -9,15 +9,11 @@
     "type": "MINION",
     "cardClass": "DEATHKNIGHT",
     "rarity": "EPIC",
-    "collectible": true
-  },
-  "2022-11-30": {
+    "collectible": true,
     "races": [
       "UNDEAD"
     ],
-    "race": "언데드"
-  },
-  "2022-12-07": {
+    "race": "언데드",
     "text": "적 캐릭터들은<br></br>치유될 수 없습니다."
   }
 }

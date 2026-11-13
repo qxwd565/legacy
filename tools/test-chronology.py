@@ -69,6 +69,14 @@ def main():
         hero_power = get(cid)
         assert (hero_power['releasedAt'], hero_power['releaseStatus']) == (release_day, 'verified'), cid
         assert all(ev['date'] > release_day for ev in hero_power['patches']), cid
+    core_releases = {**{f'LEG_RLK_{suffix}': '2022-12-07' for suffix in
+                        ('034','039','071','077','079','082','085','101','115',
+                         '125','224','226','705','710','715','744','752','753')},
+                     'LEG_TTN_908': '2023-07-26'}
+    for cid, release_day in core_releases.items():
+        card = get(cid)
+        assert (card['releasedAt'],card['releaseStatus']) == (release_day,'verified'), cid
+        assert all(ev['date'] > release_day for ev in card['patches']), cid
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6

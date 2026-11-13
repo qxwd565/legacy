@@ -3,11 +3,11 @@
   "id": "LEG_RLK_071",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2021-03-31",
-    "status": "estimated"
+    "date": "2022-12-07",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "The first normal-play date is verified from the Blizzard Death Knight release. Earlier client-only observations and original source remain archived and immutable; baseline stats are partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -230,8 +230,8 @@
         "value": 1
       }
     ],
-    "releasedAt": "2021-03-31",
-    "releaseStatus": "estimated"
+    "releasedAt": "2022-12-07",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -258,5 +258,23 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2022-12-07",
+    "timezone": "Asia/Seoul",
+    "criterion": "First collectible/normal-play availability; not its later move from Core to Legacy or client preload",
+    "originSet": "Death Knight Core/Path of Arthas",
+    "originCardId": "RLK_071",
+    "basis": "Death Knight and its 32 free Core cards first became playable with March of the Lich King (December 6 2022 worldwide, December 7 Korean time).",
+    "sourceUrls": [
+      "https://hearthstone.blizzard.com/en-gb/news/23882860",
+      "https://investor.activision.com/news-releases/news-release-details/frosty-villain-returns-hearthstoner-march-lich-kingtm-undeadly"
+    ],
+    "removedFalseDate": "2021-03-31",
+    "absorbedPriorObservations": [
+      "2021-03-31",
+      "2022-11-30",
+      "2022-12-07"
+    ]
+  }
 }

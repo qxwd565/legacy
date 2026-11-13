@@ -206,7 +206,17 @@ def main():
         assert evidence['release'] == {'date': first_day, 'status': 'verified'}, cid
         assert resolve(history, evidence, (date.fromisoformat(first_day) - timedelta(days=1)).isoformat()) is None, cid
         assert history[first_day]['text'], (cid, 'first-playable text missing')
-    assert statuses=={'estimated':522,'verified':94}
+    # A later Legacy ID must inherit its first actually playable Core-era debut.
+    for cid, day in ({f'LEG_RLK_{suffix}' : '2022-12-07' for suffix in
+                      ('034','039','071','077','079','082','085','101','115',
+                       '125','224','226','705','710','715','744','752','753')}
+                     | {'LEG_TTN_908': '2023-07-26'}).items():
+        timeline, meta = read_card(ROOT,cid)
+        assert list(timeline)[0] == day and timeline[day].get('text'), (cid, list(timeline))
+        assert meta['release'] == {'date':day, 'status':'verified'}, cid
+        assert resolve(timeline,meta,(date.fromisoformat(day)-timedelta(days=1)).isoformat()) is None, cid
+        assert not any(k < day for k in timeline), cid
+    assert statuses=={'estimated':503,'verified':113}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
