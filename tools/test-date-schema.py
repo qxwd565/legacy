@@ -275,7 +275,17 @@ def main():
         assert resolve(timeline,proof,'2013-08-16') is None,cid
         assert resolve(timeline,proof,'2013-08-17')['id']==cid,cid
         assert proof['originalSource']['card']['releaseStatus']=='estimated',cid
-    assert statuses=={'estimated':466,'verified':150}
+    # Beta Reward cards were available through their collection achievements,
+    # rather than only after a later 2013 achievement-description update.
+    for cid in ('EX1_062','NEW1_016'):
+        timeline, proof = read_card(ROOT,cid)
+        assert list(timeline)[0]=='2013-08-17',cid
+        assert proof['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert proof['releaseEvidence']['date']=='2013-08-17',cid
+        assert proof['currentCatalog']['releaseStatus']=='verified',cid
+        assert resolve(timeline,proof,'2013-08-16') is None,cid
+        assert resolve(timeline,proof,'2013-08-17')['id']==cid,cid
+    assert statuses=={'estimated':464,'verified':152}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

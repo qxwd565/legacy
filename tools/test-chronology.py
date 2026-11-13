@@ -85,6 +85,9 @@ def main():
                          'OG_047a':'2016-04-27', 'OG_047b':'2016-04-27'}
     for cid, day in official_releases.items():
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
+    # Two pre-beta Reward-set collection-quest cards available from beta launch.
+    for cid in ('EX1_062','NEW1_016'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     # Beta reward and first-playable generated inventions.
     for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid

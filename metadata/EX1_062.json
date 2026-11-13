@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "The reward card and its one-time collection quest predate the Americas 2013 closed-beta launch; first in-game availability is recorded as 2013-08-17 KST by project convention. Baseline stats remain partially verified; historical patches and originalSource are untouched.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -298,7 +298,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -325,5 +325,19 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "criterion": "First possible use in the closed-beta's original collectible/reward system, rather than alpha asset import or later acquisition-method changes",
+    "basis": "Old Murk-Eye existed before closed beta as a Reward-set card after 1.0.0.3388 (June 2013), and its Mrglglglgl! collection reward was part of the old reward system. Americas beta began 2013-08-16, project Korea calendar 2013-08-17.",
+    "eligibility": "Reward-card collectible by satisfying its original Pirate/Murloc collection achievement; not a free grant to every beta player.",
+    "sourceUrls": [
+      "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+      "https://hearthstone.wiki.gg/wiki/Patch_1.0.0.3388",
+      "https://hearthstone.wiki.gg/wiki/Old_Murk-Eye",
+      "https://hearthstone.wiki.gg/wiki/Quest/2013-2016"
+    ],
+    "caveat": "Verification is for first availability in beta, not the first documented instance of a specific player's acquisition or play."
+  }
 }
