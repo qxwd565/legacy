@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Playable first beta day supported by contemporaneous public deck-builder and native 3664 card ID. Launch-day stats only partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -241,7 +241,7 @@
     ],
     "watermark": "NONE",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -266,5 +266,18 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "Contemporaneous August 16 beta deck-builder card list plus independent Korean 3664 ID",
+    "deckSource": "https://www.hearthpwn.com/decks/2056-warrior",
+    "deckLastUpdatedUS": "2013-08-16 19:19:27 UTC-5",
+    "deckEffectiveDayKST": "2013-08-17",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "historicalCardArchiveStatus": "available",
+    "officialBetaStart": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "basis": "Original beta-day deck-builder includes this specific collectible card; native 3664 definition independently confirms ID and Korean name.",
+    "limitation": "Deck-builder list is not a recorded game match. Historical stats, later art, and balance patches are not certified by the listing."
+  }
 }

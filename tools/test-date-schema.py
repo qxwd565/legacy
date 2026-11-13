@@ -406,7 +406,32 @@ def main():
         assert archived_3664[cid]['status'] in ('available','no-description-tag'), cid
         assert meta['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17', cid
         assert resolve(history,meta,'2013-08-16') is None, cid
-    assert statuses=={'estimated':41,'verified':574}
+    # Additional original 3664 beta deck entries, with KST-local date evidence.
+    final_beta_collectible_ids=('EX1_057','EX1_161','EX1_603','NEW1_017','CS1_069','EX1_044','EX1_058','EX1_247','EX1_010','NEW1_025','EX1_006','CS2_027','CS2_061','CS2_142','CS2_189','CS2_196','CS2_200','CS2_222','CS2_232','EX1_066','EX1_508')
+    for cid in final_beta_collectible_ids:
+        state, meta=read_card(ROOT,cid)
+        assert list(state)[0]=='2013-08-17' and state['2013-08-17']['collectible'],cid
+        assert meta['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert meta['currentCatalog']['releaseStatus']=='verified',cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
+        assert meta['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17',cid
+        assert resolve(state,meta,'2013-08-16') is None,cid
+    # Child forms actually generated from beta-day parents, including recent cohort.
+    final_beta_child_pairs=(('EX1_131t','EX1_131'),('tt_010a','tt_010'),('EX1_tk33','EX1_323'),('EX1_tk34','EX1_tk33'),('EX1_534t','EX1_534'),('EX1_323w','EX1_323'),('EX1_409t','EX1_409'),('EX1_398t','EX1_398'),('CS2_013t','CS2_013'),('CS2_152','CS2_151'),('CS2_boar','CS2_196'),('CS2_mirror','CS2_027'),('EX1_025t','EX1_025'),('EX1_323h','EX1_323'),('EX1_506a','EX1_506'),('EX1_598','EX1_597'),('EX1_tk11','EX1_248'))
+    for cid,pid in final_beta_child_pairs:
+        state, meta=read_card(ROOT,cid)
+        parent_state,parent_meta=read_card(ROOT,pid)
+        assert list(state)[0]=='2013-08-17' and not state['2013-08-17']['collectible'],cid
+        assert parent_meta['release']=={'date':'2013-08-17','status':'verified'},pid
+        assert meta['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert meta['currentCatalog']['releaseStatus']=='verified',cid
+        assert meta['releaseEvidence']['parentCardId']==pid,cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
+        assert resolve(state,meta,'2013-08-16') is None,cid
+    for cid in ('EX1_538t','EX1_116t','EX1_317t'):
+        state,meta=read_card(ROOT,cid)
+        assert meta['release']['status']=='estimated',cid
+    assert statuses=={'estimated':3,'verified':612}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

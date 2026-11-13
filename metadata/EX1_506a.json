@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Playable beta-day parent generated this original 3664 child. The ID/date but not the full historical baseline is verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2513,7 +2513,7 @@
     ],
     "watermark": "NONE",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2540,5 +2540,20 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "Original 3664 beta child generated from a verified day-one playable parent",
+    "parentCardId": "EX1_506",
+    "parentName": "멀록 바다사냥꾼",
+    "criterion": "Earliest in-game generation, not client preload",
+    "basis": "Murloc Tidehunter original 3664 Battlecry summons a 1/1 Murloc Scout",
+    "parentReleaseSource": "metadata/EX1_506.json",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "historicalCardArchiveStatus": "no-description-tag",
+    "independentSource": null,
+    "officialBetaStart": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "limitation": "Child ID/generation date corroborated by original client and parent. Exact original stats or modern display name may not be the original version."
+  }
 }

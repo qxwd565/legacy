@@ -5,8 +5,8 @@
   "datedSources": 615,
   "undatedSources": [],
   "sourceReleaseStatus": {
-    "verified": 574,
-    "estimated": 41
+    "verified": 612,
+    "estimated": 3
   },
   "boundarySnapshots": 7281,
   "losslessSourceChecks": 615,
@@ -27,7 +27,7 @@
     "ENCHANTMENT"
   ],
   "strict": "opt-in; all incompletely verified baselines refused, no confidence promotion",
-  "historyBytes": 514628,
+  "historyBytes": 514990,
   "intentionalCurrentProjectionChanges": [
     {
       "id": "BG31_BOB",

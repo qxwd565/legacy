@@ -1,0 +1,253 @@
+{
+  "schema": 1,
+  "date": "2013-08-17",
+  "timezone": "Asia/Seoul",
+  "result": "preflight passed",
+  "verifiedCollectible": 21,
+  "verifiedGenerated": 17,
+  "beforeCounts": {
+    "verified": 574,
+    "estimated": 41
+  },
+  "expectedCounts": {
+    "verified": 612,
+    "estimated": 3
+  },
+  "unverifiedExceptions": [
+    "EX1_538t",
+    "EX1_116t",
+    "EX1_317t"
+  ],
+  "sourcesAreNotGameLogs": true,
+  "noGameplayPatchChanges": true,
+  "cards": [
+    {
+      "id": "EX1_057",
+      "name": "고대의 양조사",
+      "source": "https://www.hearthpwn.com/decks/2535-test-build",
+      "parentId": null
+    },
+    {
+      "id": "EX1_161",
+      "name": "자연화",
+      "source": "https://www.hearthpwn.com/decks/2209-thebesttt",
+      "parentId": null
+    },
+    {
+      "id": "EX1_603",
+      "name": "잔인한 감독관",
+      "source": "https://linuxtest.hearthpwn.com/decks/1958-warrior-winner",
+      "parentId": null
+    },
+    {
+      "id": "NEW1_017",
+      "name": "굶주린 게",
+      "source": "https://www.hearthpwn.com/decks/1717-beta-winnerdeck",
+      "parentId": null
+    },
+    {
+      "id": "CS1_069",
+      "name": "수렁이끼괴물",
+      "source": "https://www.hearthpwn.com/decks/1997-mage-deck",
+      "parentId": null
+    },
+    {
+      "id": "EX1_044",
+      "name": "퀘스트 중인 모험가",
+      "source": "https://www.hearthpwn.com/decks/1846-yunos-deck",
+      "parentId": null
+    },
+    {
+      "id": "EX1_058",
+      "name": "성난태양 파수병",
+      "source": "https://www.hearthpwn.com/decks/2517-beginners-luck",
+      "parentId": null
+    },
+    {
+      "id": "EX1_247",
+      "name": "폭풍으로 벼려낸 도끼",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "parentId": null
+    },
+    {
+      "id": "EX1_010",
+      "name": "늑대인간 침투요원",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "parentId": null
+    },
+    {
+      "id": "NEW1_025",
+      "name": "붉은해적단 바다사냥꾼",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "parentId": null
+    },
+    {
+      "id": "EX1_006",
+      "name": "노움 자동경보기",
+      "source": "https://www.hearthpwn.com/decks/1717-beta-winnerdeck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_027",
+      "name": "환영 복제",
+      "source": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_061",
+      "name": "생명력 흡수",
+      "source": "https://www.hearthpwn.com/decks/2148-warlock",
+      "parentId": null
+    },
+    {
+      "id": "CS2_142",
+      "name": "코볼트 흙점쟁이",
+      "source": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_189",
+      "name": "엘프 궁수",
+      "source": "https://www.hearthpwn.com/decks/1699-my-first-deck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_196",
+      "name": "가시덩굴 사냥꾼",
+      "source": "https://www.hearthpwn.com/decks/2239-shaman-deck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_200",
+      "name": "돌주먹 오우거",
+      "source": "https://www.hearthpwn.com/decks/1846-yunos-deck",
+      "parentId": null
+    },
+    {
+      "id": "CS2_222",
+      "name": "스톰윈드 용사",
+      "source": "https://www.hearthpwn.com/decks/2056-warrior",
+      "parentId": null
+    },
+    {
+      "id": "CS2_232",
+      "name": "무쇠껍질 수호정령",
+      "source": "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/413-hearthstone-beta-key-contest-submission-thread?page=33",
+      "parentId": null
+    },
+    {
+      "id": "EX1_066",
+      "name": "산성 늪수액괴물",
+      "source": "https://www.hearthpwn.com/decks/1591-aggressive-speed-shaman",
+      "parentId": null
+    },
+    {
+      "id": "EX1_508",
+      "name": "성난비늘 수련사",
+      "source": "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/413-hearthstone-beta-key-contest-submission-thread?page=5",
+      "parentId": null
+    },
+    {
+      "id": "EX1_131t",
+      "name": "데피아즈단 무법자",
+      "source": null,
+      "parentId": "EX1_131"
+    },
+    {
+      "id": "tt_010a",
+      "name": "주문왜곡사",
+      "source": null,
+      "parentId": "tt_010"
+    },
+    {
+      "id": "EX1_tk33",
+      "name": "지옥불!",
+      "source": null,
+      "parentId": "EX1_323"
+    },
+    {
+      "id": "EX1_tk34",
+      "name": "지옥불악마",
+      "source": null,
+      "parentId": "EX1_tk33"
+    },
+    {
+      "id": "EX1_534t",
+      "name": "하이에나",
+      "source": null,
+      "parentId": "EX1_534"
+    },
+    {
+      "id": "EX1_323w",
+      "name": "피의 격노",
+      "source": null,
+      "parentId": "EX1_323"
+    },
+    {
+      "id": "EX1_409t",
+      "name": "무거운 도끼",
+      "source": null,
+      "parentId": "EX1_409"
+    },
+    {
+      "id": "EX1_398t",
+      "name": "전투 도끼",
+      "source": null,
+      "parentId": "EX1_398"
+    },
+    {
+      "id": "CS2_013t",
+      "name": "넘치는 마나",
+      "source": null,
+      "parentId": "CS2_013"
+    },
+    {
+      "id": "CS2_152",
+      "name": "종자",
+      "source": null,
+      "parentId": "CS2_151"
+    },
+    {
+      "id": "CS2_boar",
+      "name": "멧돼지",
+      "source": null,
+      "parentId": "CS2_196"
+    },
+    {
+      "id": "CS2_mirror",
+      "name": "환영 복제",
+      "source": null,
+      "parentId": "CS2_027"
+    },
+    {
+      "id": "EX1_025t",
+      "name": "소형 기계용",
+      "source": null,
+      "parentId": "EX1_025"
+    },
+    {
+      "id": "EX1_323h",
+      "name": "군주 자락서스",
+      "source": null,
+      "parentId": "EX1_323"
+    },
+    {
+      "id": "EX1_506a",
+      "name": "멀록 정찰병",
+      "source": null,
+      "parentId": "EX1_506"
+    },
+    {
+      "id": "EX1_598",
+      "name": "임프",
+      "source": null,
+      "parentId": "EX1_597"
+    },
+    {
+      "id": "EX1_tk11",
+      "name": "늑대 정령",
+      "source": null,
+      "parentId": "EX1_248"
+    }
+  ]
+}
