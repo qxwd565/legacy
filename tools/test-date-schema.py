@@ -137,7 +137,7 @@ def main():
     rendered={c['id']:c for c in load(ROOT/'render-date.json')['cards']}
     histories=load(ROOT/'history-date.json')['cards']
     taxonomy=load(ROOT/'taxonomy-history.json')
-    assert len(current)==len(rendered)==len(histories)==616
+    assert len(current)==len(rendered)==len(histories)==615
     checks=0;statuses=Counter();types=Counter();raw_checks=0;differences=[]
     for commit in {load(p)['sourceCommit'] for p in (ROOT/'metadata').glob('*.json')}:
         require_source_commit(ROOT,commit)
@@ -294,22 +294,21 @@ def main():
         assert proof['releaseEvidence']['date']=='2013-08-17',cid
         assert resolve(timeline,proof,'2013-08-16') is None,cid
         assert resolve(timeline,proof,'2013-08-17')['id']==cid,cid
-    # Distinguish the original 2013 Warrior ability from the 2019 Deathwing
-    # skin-specific hero power, despite the identical display name and effect.
-    deathwing, deathwing_meta=read_card(ROOT,'CS2_102_H3')
-    original, original_meta=read_card(ROOT,'HERO_01bp')
-    assert list(deathwing)==['2019-11-06','2023-04-05']
-    assert deathwing_meta['release']=={'date':'2019-11-06','status':'verified'}
-    assert deathwing_meta['releaseEvidence']['heroPowerDbfId']==58799
-    assert deathwing_meta['releaseEvidence']['falseDateRemoved']=='2013-08-17'
-    assert resolve(deathwing,deathwing_meta,'2019-11-05') is None
-    assert resolve(deathwing,deathwing_meta,'2019-11-06')['dbfId']==58799
-    assert resolve(deathwing,deathwing_meta,'2023-04-05')['id']=='CS2_102_H3'
+    # Skin-only hero powers are excluded entirely from canonical sources,
+    # art resources and every generated API transport.
+    assert 'CS2_102_H3' not in current
+    assert 'CS2_102_H3' not in rendered
+    assert '58799' not in histories
+    assert not (ROOT/'data/CS2_102_H3.json').exists()
+    assert not (ROOT/'metadata/CS2_102_H3.json').exists()
+    assert not (ROOT/'art/CS2_102_H3.png').exists()
+    assert not (ROOT/'golden/cards/CS2_102_H3.json').exists()
+    original, original_meta = read_card(ROOT, 'HERO_01bp')
     assert list(original)[0]=='2013-08-17'
     assert original_meta['releaseEvidence']['originalHeroPowerIdIn2013']=='CS2_102'
     assert original_meta['release']=={'date':'2013-08-17','status':'verified'}
     assert resolve(original,original_meta,'2013-08-17')['dbfId']==725
-    assert statuses=={'estimated':454,'verified':162}
+    assert statuses=={'estimated':454,'verified':161}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
@@ -344,7 +343,7 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':616,
+    report={'result':'pass','sourceCards':615,'currentCards':615,'datedSources':615,
             'undatedSources':[],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],

@@ -87,8 +87,10 @@ def main():
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
     # Same display name, different original Warrior versus Deathwing skin ID.
     assert (get('HERO_01bp')['releasedAt'],get('HERO_01bp')['releaseStatus'])==('2013-08-17','verified')
-    assert (get('CS2_102_H3')['releasedAt'],get('CS2_102_H3')['releaseStatus'])==('2019-11-06','verified')
-    assert all(event['date']>'2019-11-06' for event in get('CS2_102_H3')['patches'])
+    # Never reimport the skin-specific clone into the historical card set.
+    assert not (ROOT/'data/CS2_102_H3.json').exists()
+    assert not (ROOT/'metadata/CS2_102_H3.json').exists()
+    assert not any(c['id']=='CS2_102_H3' for c in catalog['cards'])
     # Basic Hero Powers were playable in the original nine-class beta.
     for n in range(1,10):
         cid=f'HERO_{n:02d}bp'

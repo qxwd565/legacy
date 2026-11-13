@@ -11,6 +11,7 @@ from date_schema import load,put,json_equal,read_card,resolve,has_unverified_nat
 from legacy_projection import PHP_FIELDS
 ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
+REMOVED_SKIN_HERO_POWERS = frozenset({'CS2_102_H3'})
 ADDED_TOKEN_IDS = frozenset(['CS3_002t', 'RLK_077t', 'RLK_085t', 'RLK_226t', 'RLK_705t', 'RLK_907t', 'OG_044a'])
 VERIFIED_BETA_DEBUT_IDS = frozenset(['EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t','EX1_062','NEW1_016', *(f'HERO_{n:02d}bp' for n in range(1,10))])
 VERIFIED_HERO_POWER_RELEASES = frozenset([*(f'HERO_{n:02d}bp2' for n in range(1, 10)), 'HERO_10bp', 'HERO_10bp2'])
@@ -22,7 +23,7 @@ CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
      'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
      'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037',
      'CS2_101t2','CS2_101t3','CS2_101t4','CS2_101t5','CS2_101t6','CS2_101t7','CS2_101t8',
-     'TOY_100','TOY_101','TOY_102','TOY_103', 'CS2_102_H3'])
+     'TOY_100','TOY_101','TOY_102','TOY_103'])
 
 
 def old_resolve(current,history,day):
@@ -38,18 +39,25 @@ def old_resolve(current,history,day):
 def main(fixture=None):
     catalog=load(ROOT/'cards.json');render=load(ROOT/'render.json');history=load(ROOT/'history.json')
     precise=load(ROOT/'cards-date.json');precise_history=load(ROOT/'history-date.json')
-    assert len(catalog['cards'])==len(precise['cards'])==616
+    assert len(catalog['cards'])==len(precise['cards'])==615
+    assert not any(c['id'] in REMOVED_SKIN_HERO_POWERS for c in catalog['cards']+precise['cards'])
+    assert '58799' not in precise_history['cards']
+    assert not any(x['id'] in REMOVED_SKIN_HERO_POWERS for x in render['cards'])
+    assert not any(x['id'] in REMOVED_SKIN_HERO_POWERS for x in load(ROOT/'render-date.json')['cards'])
     assert all(x.get('schema')==1 and 'historySchema' not in x for x in [catalog,render,history])
     assert precise_history['historySchema']==2
     for name in ['cards.json','render.json','history.json']:
         assert '__remove' not in (ROOT/name).read_text(encoding='utf-8')
     by_id={c['id']:c for c in catalog['cards']};render_by_id={c['id']:c for c in render['cards']}
-    assert len(by_id)==616 and len({c['dbfId'] for c in catalog['cards']})==616
+    assert len(by_id)==615 and len({c['dbfId'] for c in catalog['cards']})==615
     source=load(ROOT/'metadata/EX1_323.json')['sourceCommit']
     original=json.loads(subprocess.check_output(['git','show',source+':cards.json'],cwd=ROOT))
     original_history=json.loads(subprocess.check_output(['git','show',source+':history.json'],cwd=ROOT))['cards']
     # The first dual-output release changes no current imported field at all.
     catalog_other=copy.deepcopy(catalog); original_other=copy.deepcopy(original)
+    # The archived source must remain intact, but excluded skin-only powers
+    # are intentionally absent from the current public catalog.
+    original_other['cards']=[row for row in original_other['cards'] if row['id'] not in REMOVED_SKIN_HERO_POWERS]
     catalog_other['cards'] = [row for row in catalog_other['cards'] if row['id'] not in ADDED_TOKEN_IDS]
     for obj in (catalog_other,original_other):
         for row in obj['cards']:
@@ -136,7 +144,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':616,'previousCatalogueMatchesPinnedOriginal':True,'addedTokenCards':sorted(ADDED_TOKEN_IDS),
+            'currentCards':615,'previousCatalogueMatchesPinnedOriginal':True,'addedTokenCards':sorted(ADDED_TOKEN_IDS),
             'legacyDateCases':comparisons,'artURLChecks':art_checks,'missingAssets':0,
             'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,
