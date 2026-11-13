@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2019-07-02",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "The first normal-play availability date is verified by Korean official patch announcement; baseline gameplay spec remains partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -223,7 +223,7 @@
       }
     ],
     "releasedAt": "2019-07-02",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -250,5 +250,15 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2019-07-02",
+    "timezone": "Asia/Seoul",
+    "criterion": "First live patch availability, not later Legacy reclassification",
+    "basis": "Korean official July 2, 2019 Hearthstone update explicitly adds all ten replacement Basic/Classic cards immediately; US July 1 patch 14.6 is July 2 in Korea.",
+    "sourceUrls": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23037180",
+      "https://hearthstone.blizzard.com/en-us/news/23037180"
+    ]
+  }
 }

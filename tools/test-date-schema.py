@@ -216,7 +216,13 @@ def main():
         assert meta['release'] == {'date':day, 'status':'verified'}, cid
         assert resolve(timeline,meta,(date.fromisoformat(day)-timedelta(days=1)).isoformat()) is None, cid
         assert not any(k < day for k in timeline), cid
-    assert statuses=={'estimated':503,'verified':113}
+    # Korean official live release of ten 14.6 Basic/Classic replacements and OG_047 choice tokens.
+    for cid, day in ({f'EX1_{n}': '2019-07-02' for n in range(183, 193)}
+                      | {'OG_047a': '2016-04-27', 'OG_047b': '2016-04-27'}).items():
+        history, proof = read_card(ROOT, cid)
+        assert list(history)[0] == day and proof['release'] == {'date':day, 'status':'verified'}, cid
+        assert resolve(history,proof,(date.fromisoformat(day)-timedelta(days=1)).isoformat()) is None, cid
+    assert statuses=={'estimated':491,'verified':125}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

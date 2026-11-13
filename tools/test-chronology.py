@@ -77,6 +77,10 @@ def main():
         card = get(cid)
         assert (card['releasedAt'],card['releaseStatus']) == (release_day,'verified'), cid
         assert all(ev['date'] > release_day for ev in card['patches']), cid
+    official_releases = {**{f'EX1_{n}':'2019-07-02' for n in range(183,193)},
+                         'OG_047a':'2016-04-27', 'OG_047b':'2016-04-27'}
+    for cid, day in official_releases.items():
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6
