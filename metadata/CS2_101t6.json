@@ -3,11 +3,11 @@
   "id": "CS2_101t6",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": null,
+    "status": "pending"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "No verified first normal-play availability for this unused/possibly unused Draenei recruit. No fabricated dated release baseline, only an undated compatibility state. Original source preserved.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -227,8 +227,8 @@
         "value": 1
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": null,
+    "releaseStatus": "pending"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -255,5 +255,54 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "undated": {
+    "baseline": {
+      "dbfId": 105921,
+      "cost": 1,
+      "health": 1,
+      "attack": 1,
+      "id": "CS2_101t6",
+      "name": "은빛 성기사단 신병",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "PALADIN",
+      "rarity": "FREE",
+      "collectible": false
+    },
+    "patches": [
+      {
+        "date": "2024-10-30",
+        "changes": {
+          "races": [
+            "DRAENEI"
+          ],
+          "race": "드레나이"
+        }
+      }
+    ],
+    "reason": "Draenei alternate recruit was added to the installed client on 2023-11-08 KST but not among the six variants confirmed as normally summoned on 2024-03-12; its actual first gameplay use is unproven. The 2024-10-30 tribe is retained as unresolved client observation, not proof it was playable."
+  },
+  "releaseEvidence": {
+    "date": null,
+    "timezone": "Asia/Seoul",
+    "status": "first-playable-unconfirmed",
+    "criterion": "Actual normal-play summon, not asset preload or race-tag update",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
+      "https://www.hearthpwn.com/news/10919-patch-29-6-all-card-changes-datamined",
+      "https://hearthstone.wiki.gg/wiki/Silver_Hand_Recruit_%28Draenei%29"
+    ],
+    "falseDateRemoved": "2013-08-17",
+    "clientArtifactAdded": "2023-11-08",
+    "sixLiveVariantIds": [
+      "CS2_101t2",
+      "CS2_101t3",
+      "CS2_101t4",
+      "CS2_101t5",
+      "CS2_101t7",
+      "CS2_101t8"
+    ],
+    "note": "No first-playable day is asserted without in-game evidence; ID and historical raw source retained."
+  }
 }

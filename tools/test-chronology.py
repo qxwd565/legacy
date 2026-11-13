@@ -87,6 +87,10 @@ def main():
                 'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
                 'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2021-03-31','verified'),cid
+    for cid in ('CS2_101t2','CS2_101t3','CS2_101t4',
+                'CS2_101t5','CS2_101t7','CS2_101t8'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2024-03-12','verified'),cid
+    assert (get('CS2_101t6')['releasedAt'], get('CS2_101t6')['releaseStatus'])==(None,'pending')
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6

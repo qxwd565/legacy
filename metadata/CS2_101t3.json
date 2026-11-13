@@ -3,11 +3,11 @@
   "id": "CS2_101t3",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2024-03-12",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Initial actual summoning date verified from official Korean 29.0 patch (not 2023 client preload). Baseline stats not claimed fully validated; originalSource immutable.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -163,8 +163,8 @@
         "value": 1
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2024-03-12",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -189,5 +189,18 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2024-03-12",
+    "timezone": "Asia/Seoul",
+    "criterion": "First actual normal-play summon, not 2023-11-08 client asset import or original recruit release",
+    "parentCardId": "CS2_101t",
+    "basis": "Blizzard Korea 29.0 patch notes state six brand-new Silver Hand Recruit art variants began appearing on March 12, 2024; this ID belongs to the six active variations, distinct from the client-preloaded unused Draenei CS2_101t6.",
+    "sourceUrls": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
+      "https://www.hearthpwn.com/news/10919-patch-29-6-all-card-changes-datamined"
+    ],
+    "removedFalseDate": "2013-08-17",
+    "clientPreloadExcluded": "2023-11-08"
+  }
 }

@@ -232,7 +232,22 @@ def main():
         history, evidence = read_card(ROOT,cid)
         assert list(history)[0]=='2021-03-31' and evidence['release']=={'date':'2021-03-31','status':'verified'},cid
         assert resolve(history,evidence,'2021-03-30') is None,cid
-    assert statuses=={'estimated':479,'verified':137}
+    # Six recruit art variants only became summonable on Korea 29.0 date,
+    # even though they appeared in installed 28.0 client files.
+    for cid in ('CS2_101t2','CS2_101t3','CS2_101t4',
+                'CS2_101t5','CS2_101t7','CS2_101t8'):
+        card, evidence = read_card(ROOT, cid)
+        assert list(card)==['2024-03-12'] and evidence['release']=={'date':'2024-03-12','status':'verified'},cid
+        assert resolve(card,evidence,'2024-03-11') is None,cid
+    # CS2_101t6 is an installed Draenei variant excluded from the six live
+    # recruit appearances: preserve the source, never invent a playable date.
+    unused, unused_meta = read_card(ROOT, 'CS2_101t6')
+    assert unused == {}
+    assert unused_meta['release']=={'date':None,'status':'pending'}
+    assert unused_meta['undated']['baseline']['id']=='CS2_101t6'
+    assert unused_meta['undated']['patches'][0]['date']=='2024-10-30'
+    assert current['CS2_101t6']['releasedAt'] is None
+    assert statuses=={'estimated':472,'verified':143,'pending':1}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
@@ -267,8 +282,8 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':616,
-            'undatedSources':[],'sourceReleaseStatus':dict(statuses),
+    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':615,
+            'undatedSources':['CS2_101t6'],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],
             'strict':'opt-in; all incompletely verified baselines refused, no confidence promotion',
