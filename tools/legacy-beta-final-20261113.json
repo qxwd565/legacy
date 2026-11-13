@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "timeZone": "Asia/Seoul",
+  "releaseDay": "2013-08-17",
+  "originalBuild": "1.0.0.3664",
+  "baselineCounts": {
+    "total": 615,
+    "verified": 574,
+    "estimated": 41
+  },
+  "collectibleDebuts": [
+    {
+      "id": "EX1_057",
+      "koreanName": "고대의 양조사",
+      "source": "https://www.hearthpwn.com/decks/2535-test-build",
+      "lastUpdatedUS": "2013-08-16 21:46:16 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_161",
+      "koreanName": "자연화",
+      "source": "https://www.hearthpwn.com/decks/2209-thebesttt",
+      "lastUpdatedUS": "2013-08-16 19:57:54 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_603",
+      "koreanName": "잔인한 감독관",
+      "source": "https://linuxtest.hearthpwn.com/decks/1958-warrior-winner",
+      "lastUpdatedUS": "2013-08-16 18:52:29 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "NEW1_017",
+      "koreanName": "굶주린 게",
+      "source": "https://www.hearthpwn.com/decks/1717-beta-winnerdeck",
+      "lastUpdatedUS": "2013-08-16 18:07:54 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS1_069",
+      "koreanName": "수렁이끼괴물",
+      "source": "https://www.hearthpwn.com/decks/1997-mage-deck",
+      "lastUpdatedUS": "2013-08-16 19:03:52 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_044",
+      "koreanName": "퀘스트 중인 모험가",
+      "source": "https://www.hearthpwn.com/decks/1846-yunos-deck",
+      "lastUpdatedUS": "2013-08-16 18:27:44 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_058",
+      "koreanName": "성난태양 파수병",
+      "source": "https://www.hearthpwn.com/decks/2517-beginners-luck",
+      "lastUpdatedUS": "2013-08-16 21:37:45 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_247",
+      "koreanName": "폭풍으로 벼려낸 도끼",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "lastUpdatedUS": "2013-08-16 18:22:40 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_010",
+      "koreanName": "늑대인간 침투요원",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "lastUpdatedUS": "2013-08-16 18:22:40 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "NEW1_025",
+      "koreanName": "붉은해적단 바다사냥꾼",
+      "source": "https://www.hearthpwn.com/decks/1806-shaman-op",
+      "lastUpdatedUS": "2013-08-16 18:22:40 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_006",
+      "koreanName": "노움 자동경보기",
+      "source": "https://www.hearthpwn.com/decks/1717-beta-winnerdeck",
+      "lastUpdatedUS": "2013-08-16 18:07:54 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_027",
+      "koreanName": "환영 복제",
+      "source": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck",
+      "lastUpdatedUS": "2013-08-16 17:56:24 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_061",
+      "koreanName": "생명력 흡수",
+      "source": "https://www.hearthpwn.com/decks/2148-warlock",
+      "lastUpdatedUS": "2013-08-16 19:42:49 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_142",
+      "koreanName": "코볼트 흙점쟁이",
+      "source": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck",
+      "lastUpdatedUS": "2013-08-16 17:56:24 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_189",
+      "koreanName": "엘프 궁수",
+      "source": "https://www.hearthpwn.com/decks/1699-my-first-deck",
+      "lastUpdatedUS": "2013-08-16 18:05:02 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_196",
+      "koreanName": "가시덩굴 사냥꾼",
+      "source": "https://www.hearthpwn.com/decks/2239-shaman-deck",
+      "lastUpdatedUS": "2013-08-16 20:05:02 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_200",
+      "koreanName": "돌주먹 오우거",
+      "source": "https://www.hearthpwn.com/decks/1846-yunos-deck",
+      "lastUpdatedUS": "2013-08-16 18:27:44 UTC-5",
+      "archiveStatus": "no-description-tag"
+    },
+    {
+      "id": "CS2_222",
+      "koreanName": "스톰윈드 용사",
+      "source": "https://www.hearthpwn.com/decks/2056-warrior",
+      "lastUpdatedUS": "2013-08-16 19:19:27 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "CS2_232",
+      "koreanName": "무쇠껍질 수호정령",
+      "source": "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/413-hearthstone-beta-key-contest-submission-thread?page=33",
+      "lastUpdatedUS": "2013-08-16 19:21:59 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_066",
+      "koreanName": "산성 늪수액괴물",
+      "source": "https://www.hearthpwn.com/decks/1591-aggressive-speed-shaman",
+      "lastUpdatedUS": "2013-08-16 17:46:08 UTC-5",
+      "archiveStatus": "available"
+    },
+    {
+      "id": "EX1_508",
+      "koreanName": "성난비늘 수련사",
+      "source": "https://www.hearthpwn.com/forums/hearthstone-general/general-discussion/413-hearthstone-beta-key-contest-submission-thread?page=5",
+      "lastUpdatedUS": "2013-08-16 17:51:38 UTC-5",
+      "archiveStatus": "available"
+    }
+  ],
+  "generatedDebuts": [
+    {
+      "id": "EX1_131t",
+      "koreanName": "데피아즈단 무법자",
+      "parentCardId": "EX1_131",
+      "parentKoreanName": "데피아즈단 두목",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "The original 3664 Combo text summons a 2/1 Defias Bandit",
+      "additionalSource": null
+    },
+    {
+      "id": "tt_010a",
+      "koreanName": "주문왜곡사",
+      "parentCardId": "tt_010",
+      "parentKoreanName": "주문왜곡사",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "available",
+      "relationEvidence": "Original 3664 Spellbender secret summons the spell-redirection 1/3 minion",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_tk33",
+      "koreanName": "지옥불!",
+      "parentCardId": "EX1_323",
+      "parentKoreanName": "군주 자락서스",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "available",
+      "relationEvidence": "Jaraxxus original 3664 Battlecry replaces hero and grants the Inferno hero power",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_tk34",
+      "koreanName": "지옥불악마",
+      "parentCardId": "EX1_tk33",
+      "parentKoreanName": "지옥불!",
+      "parentReleaseStatus": "estimated",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Original 3664 Inferno hero power summons a 6/6 Infernal",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_534t",
+      "koreanName": "하이에나",
+      "parentCardId": "EX1_534",
+      "parentKoreanName": "사바나 사자",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Savannah Highmane original 3664 Deathrattle summons two 2/2 Hyenas",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_323w",
+      "koreanName": "피의 격노",
+      "parentCardId": "EX1_323",
+      "parentKoreanName": "군주 자락서스",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Jaraxxus first-playable replacement hero initially equips Blood Fury",
+      "additionalSource": "https://hearthstone.wiki.gg/wiki/Lord_Jaraxxus"
+    },
+    {
+      "id": "EX1_409t",
+      "koreanName": "무거운 도끼",
+      "parentCardId": "EX1_409",
+      "parentKoreanName": "강화!",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Upgrade first-day 3664 text equips a 1/3 weapon when no weapon is equipped",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_398t",
+      "koreanName": "전투 도끼",
+      "parentCardId": "EX1_398",
+      "parentKoreanName": "아라시 무기제작자",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Arathi Weaponsmith first-day 3664 Battlecry equips a 2/2 weapon",
+      "additionalSource": null
+    },
+    {
+      "id": "CS2_013t",
+      "koreanName": "넘치는 마나",
+      "parentCardId": "CS2_013",
+      "parentKoreanName": "급속 성장",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "available",
+      "relationEvidence": "Original 3664 Wild Growth generates Excess Mana when at ten crystals; independent Sept 2013 discussion confirms",
+      "additionalSource": "https://www.hearthpwn.com/cards/520-Excess-Mana?summoned-from-sort=name"
+    },
+    {
+      "id": "CS2_152",
+      "koreanName": "종자",
+      "parentCardId": "CS2_151",
+      "parentKoreanName": "은빛 성기사단 기사",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Silver Hand Knight original 3664 Battlecry summons a 2/2 Squire",
+      "additionalSource": null
+    },
+    {
+      "id": "CS2_boar",
+      "koreanName": "멧돼지",
+      "parentCardId": "CS2_196",
+      "parentKoreanName": "가시덩굴 사냥꾼",
+      "parentReleaseStatus": "estimated",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Razorfen Hunter original 3664 Battlecry summons a 1/1 Boar",
+      "additionalSource": null
+    },
+    {
+      "id": "CS2_mirror",
+      "koreanName": "환영 복제",
+      "parentCardId": "CS2_027",
+      "parentKoreanName": "환영 복제",
+      "parentReleaseStatus": "estimated",
+      "archiveStatus": "available",
+      "relationEvidence": "Mirror Image original 3664 card summons two Taunt 0/1 minions",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_025t",
+      "koreanName": "소형 기계용",
+      "parentCardId": "EX1_025",
+      "parentKoreanName": "기계용 정비사",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Dragonling Mechanic original 3664 Battlecry summons a 2/1 Dragonling",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_323h",
+      "koreanName": "군주 자락서스",
+      "parentCardId": "EX1_323",
+      "parentKoreanName": "군주 자락서스",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Jaraxxus first-day Battlecry replaces the hero with a Jaraxxus transformed hero",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_506a",
+      "koreanName": "멀록 정찰병",
+      "parentCardId": "EX1_506",
+      "parentKoreanName": "멀록 바다사냥꾼",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Murloc Tidehunter original 3664 Battlecry summons a 1/1 Murloc Scout",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_598",
+      "koreanName": "임프",
+      "parentCardId": "EX1_597",
+      "parentKoreanName": "임프 소환사",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "no-description-tag",
+      "relationEvidence": "Imp Master original 3664 effect summons 1/1 Imps",
+      "additionalSource": null
+    },
+    {
+      "id": "EX1_tk11",
+      "koreanName": "늑대 정령",
+      "parentCardId": "EX1_248",
+      "parentKoreanName": "야수 정령",
+      "parentReleaseStatus": "verified",
+      "archiveStatus": "available",
+      "relationEvidence": "Feral Spirit original 3664 text summons two 2/3 Taunt wolves",
+      "additionalSource": null
+    }
+  ],
+  "excluded": [
+    "EX1_538t",
+    "EX1_116t",
+    "EX1_317t"
+  ],
+  "exclusionNote": "EX1_538t previously ENCHANTMENT rather than Hound; EX1_116t absent from 3664 child ID archive; EX1_317t requires additional proof of first-day playable special generation."
+}
