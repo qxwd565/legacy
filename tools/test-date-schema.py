@@ -247,6 +247,14 @@ def main():
     assert unused_meta['undated']['baseline']['id']=='CS2_101t6'
     assert unused_meta['undated']['patches'][0]['date']=='2024-10-30'
     assert current['CS2_101t6']['releasedAt'] is None
+    # Four Warcraft Rumble cards were accessible in Core on Korea March 12,
+    # eight days BEFORE the new expansion release on March 20.
+    for cid in ('TOY_100','TOY_101','TOY_102','TOY_103'):
+        history, proof = read_card(ROOT,cid)
+        assert list(history)==['2024-03-12'],cid
+        assert proof['release']=={'date':'2024-03-12','status':'verified'},cid
+        assert resolve(history,proof,'2024-03-11') is None,cid
+        assert resolve(history,proof,'2024-03-12') is not None,cid
     assert statuses=={'estimated':472,'verified':143,'pending':1}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():

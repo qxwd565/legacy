@@ -3,11 +3,11 @@
   "id": "TOY_103",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2024-03-20",
+    "date": "2024-03-12",
     "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First normal-play availability verified by Blizzard Korea 29.0 (March 12); originalSource preserved, earliest date corrected from expansion release to free Core early availability.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -194,7 +194,7 @@
         "value": 1
       }
     ],
-    "releasedAt": "2024-03-20",
+    "releasedAt": "2024-03-12",
     "releaseStatus": "verified"
   },
   "currentOnlyFields": [
@@ -220,5 +220,16 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2024-03-12",
+    "timezone": "Asia/Seoul",
+    "criterion": "First free Core set collectible and usable in normal ranked/constructed on Korean patch 29.0, not later expansion launch",
+    "originSet": "Warcraft Rumble Core cards",
+    "basis": "Korean official 29.0 patch notes explicitly state these FOUR Warcraft Rumble cards immediately joined the free Core Set with March 12 patch. March 20 was Whizbang's Workshop expansion unlock, not these cards' first use.",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
+    ],
+    "removedFalseFirstDate": "2024-03-20"
+  }
 }

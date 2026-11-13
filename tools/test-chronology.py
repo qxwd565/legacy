@@ -91,6 +91,8 @@ def main():
                 'CS2_101t5','CS2_101t7','CS2_101t8'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2024-03-12','verified'),cid
     assert (get('CS2_101t6')['releasedAt'], get('CS2_101t6')['releaseStatus'])==(None,'pending')
+    for cid in ('TOY_100','TOY_101','TOY_102','TOY_103'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2024-03-12','verified'),cid
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6
