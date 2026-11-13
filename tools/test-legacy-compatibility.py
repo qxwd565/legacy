@@ -99,7 +99,17 @@ def main(fixture=None):
                         and json_equal(ev['changes'][field],actual.get(field))
                         for ev in meta['originalSource']['card'].get('patches',[])
                     )
-                    assert type_fix or beta_date_fix,(cid,day,field,actual.get(field),before.get(field))
+                    # Original compatibility rendering has no pre-release visibility gate.
+                    # The 2022-11-30 client-side Undead tag is correctly folded into
+                    # Death Knight cards' 2022-12-07 debut, but legacy consumers
+                    # still display present-day race before cards are playable.
+                    first_release_race_fix = (
+                        cid.startswith('LEG_RLK_')
+                        and day < meta['release']['date']
+                        and field == 'race'
+                    )
+                    assert type_fix or beta_date_fix or first_release_race_fix,(
+                        cid,day,field,actual.get(field),before.get(field))
                     corrections.append({'id':cid,'date':day,'field':field,'before':before.get(field),'after':actual.get(field)})
             if actual['type']=='WEAPON':
                 assert (actual.get('durability') or actual.get('health'))==(before.get('durability') or before.get('health')),(cid,day,'legacy displayed durability changed')
