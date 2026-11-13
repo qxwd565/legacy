@@ -1,0 +1,46 @@
+name: Verify legacy first-day beta deck evidence (one-time)
+on:
+  push:
+    paths:
+      - '.github/workflows/verify-legacy-beta-day-20261113.yml'
+      - 'tools/legacy-beta-first-day-20261113.json'
+      - 'tools/apply-legacy-beta-first-day-20261113.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Confirm source IDs, day-one Korean date and evidence before mutation
+        run: python3 tools/apply-legacy-beta-first-day-20261113.py
+      - name: Preserve existing date maps
+        run: python3 tools/migrate-date-schema.py
+      - name: Validate historical line-break representation
+        run: python3 tools/normalize-card-linebreaks.py
+      - name: Generate compatible and date-specific API indexes
+        run: python3 tools/build-api.py
+      - name: Verify historical chronology
+        run: python3 tools/test-chronology.py
+      - name: Verify date boundaries and verified release dates
+        run: python3 tools/test-date-schema.py
+      - name: Verify unchanged plugin compatibility
+        run: python3 tools/test-legacy-compatibility.py
+      - name: Publish only verified release confidence and generated APIs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md release-policy.json metadata tools/test-date-schema.py tools/test-legacy-compatibility.py tools/legacy-beta-first-day-validation-20261113.json
+          git add cards.json render.json history.json cards-date.json render-date.json history-date.json
+          git add tools/date-schema-validation.json tools/legacy-compatibility-validation.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Verify 176 additional Legacy beta-day collectible card releases"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
