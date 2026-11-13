@@ -265,7 +265,17 @@ def main():
         assert proof['release']=={'date':'2024-03-12','status':'verified'},cid
         assert resolve(history,proof,'2024-03-11') is None,cid
         assert resolve(history,proof,'2024-03-12') is not None,cid
-    assert statuses=={'estimated':472,'verified':144}
+    # Gelbin and all five normal-play invention/Chicken tokens became
+    # accessible with the beta, not on earlier alpha client-import days.
+    for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
+        timeline, proof = read_card(ROOT,cid)
+        assert list(timeline)[0]=='2013-08-17',cid
+        assert proof['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert proof['releaseEvidence']['date']=='2013-08-17',cid
+        assert resolve(timeline,proof,'2013-08-16') is None,cid
+        assert resolve(timeline,proof,'2013-08-17')['id']==cid,cid
+        assert proof['originalSource']['card']['releaseStatus']=='estimated',cid
+    assert statuses=={'estimated':466,'verified':150}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First actual-play availability verified for the 2013 closed-beta debut (2013-08-17 KST by project convention). Historical baseline fields remain partially verified. No balance changes, original native evidence, or asset changes.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2820,5 +2820,19 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "criterion": "First accessible in actual North American closed-beta play; the agreed KST calendar day, not alpha/card-asset preload.",
+    "parentCardId": "EX1_112",
+    "basis": "The original Gelbin's Battlecry produced these invention tokens in normal beta play, with the Chicken produced by Poultryizer. Parent available at Americas beta launch 2013-08-16, recorded 2013-08-17 KST.",
+    "sourceUrls": [
+      "https://hearthstone.blizzard.com/en-us/news/10580505/state-of-the-game-8-7-2013",
+      "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+      "https://hearthstone.blizzard.com/ko-kr/cards/858-gelbin-mekkatorque/",
+      "https://hearthstone.wiki.gg/wiki/Gelbin_Mekkatorque"
+    ],
+    "scope": "First-usable date only; no dated card fields or patches modified."
+  }
 }

@@ -85,6 +85,9 @@ def main():
                          'OG_047a':'2016-04-27', 'OG_047b':'2016-04-27'}
     for cid, day in official_releases.items():
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
+    # Beta reward and first-playable generated inventions.
+    for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     assert (get('CS2_058')['releasedAt'],get('CS2_058')['releaseStatus']) == ('2021-03-31','verified')
     assert all(ev['date']>'2021-03-31' for ev in get('CS2_058')['patches'])
     for cid in ('LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
