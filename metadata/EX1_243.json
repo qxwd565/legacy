@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Initial 2013 beta playability corroborated by dated deck evidence and original 3664 CardText; full baseline only partly verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -277,7 +277,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -305,5 +305,16 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "contemporaryDeck": "https://www.hearthpwn.com/decks/3578-shaman-deck",
+    "deckLastUpdatedUS": "2013-08-17T07:45:36-05:00",
+    "deckLastUpdatedKST": "2013-08-17T21:45:36+09:00",
+    "historicCardText": "original/1.0.0.3664-descriptions.json",
+    "officialBetaLaunch": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "criterion": "Card found in actual first Korean-calendar beta-day 3664 deck listing, and historical 3664 original Korean CardText. Not based on later client patch.",
+    "caveat": "Gameplay effects and stats retain separate partial-baseline verification."
+  }
 }

@@ -330,7 +330,18 @@ def main():
         assert beta_archive_cards[cid]['status']=='available',cid
         assert proof['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17',cid
         assert resolve(history,proof,'2013-08-16') is None,cid
-    assert statuses=={'estimated':382,'verified':233}
+    # Live day-one closed-beta decks: Druid, Shaman, Paladin, Warlock, Rogue.
+    # All recorded last-updates convert to Aug 17 2013 in Asia/Seoul.
+    beta_first_day_ids = ('EX1_169','CS2_005','EX1_578','CS2_013','CS2_011','EX1_158','EX1_570','EX1_571','EX1_164','NEW1_007','EX1_573','CS2_008','CS2_009','EX1_154','CS2_007','EX1_166','EX1_165','EX1_178','EX1_251','EX1_238','CS2_038','CS2_053','EX1_241','EX1_243','CS2_045','EX1_248','EX1_246','EX1_259','EX1_258','CS2_046','EX1_567','EX1_250','CS2_042','EX1_360','EX1_130','CS2_093','CS2_094','CS2_097','EX1_354','EX1_383','CS2_063','EX1_319','EX1_302','EX1_596','CS2_062','CS2_057','EX1_303','EX1_309','EX1_315','EX1_320','CS2_072','EX1_145','EX1_144','CS2_074','CS2_075','EX1_126','CS2_233','EX1_581','EX1_278','EX1_613','EX1_133','CS2_080','CS2_077')
+    archived_3664 = load(ROOT/'original/1.0.0.3664-descriptions.json')['cards']
+    for cid in beta_first_day_ids:
+        history, source = read_card(ROOT,cid)
+        assert list(history)[0]=='2013-08-17' and history['2013-08-17']['collectible'],cid
+        assert source['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
+        assert source['releaseEvidence']['deckLastUpdatedKST'].startswith('2013-08-17'),cid
+        assert resolve(history,source,'2013-08-16') is None,cid
+    assert statuses=={'estimated':319,'verified':296}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

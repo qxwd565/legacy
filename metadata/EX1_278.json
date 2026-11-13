@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "The card's first playable beta date corroborated by contemporary first-day deck and 3664 Korean original-card record; historical stat baseline still partial.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -239,7 +239,7 @@
     ],
     "watermark": "NONE",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -262,5 +262,16 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "contemporaryDeck": "https://www.hearthpwn.com/decks/2894-beta",
+    "deckLastUpdatedUS": "2013-08-17T00:02:41-05:00",
+    "deckLastUpdatedKST": "2013-08-17T14:02:41+09:00",
+    "historicCardText": "original/1.0.0.3664-descriptions.json",
+    "officialBetaLaunch": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "criterion": "Card found in original 3664 Rogue closed-beta deck updated during the Korean first-play day; historic client card ID matches.",
+    "caveat": "The historical gameplay baseline is only partially verified."
+  }
 }

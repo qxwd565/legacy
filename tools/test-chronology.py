@@ -104,6 +104,9 @@ def main():
     # Priest and Hunter original beta deck evidence.
     for cid in ('EX1_621','EX1_332','CS1_130','CS1_129','CS2_003','CS2_004','CS2_236','EX1_341','DS1_233','EX1_622','CS2_234','EX1_625','EX1_339','CS1_112','EX1_334','EX1_591','EX1_626','EX1_345','EX1_624','EX1_350','CS1_113','EX1_623','EX1_091','DS1_185','EX1_549','EX1_544','CS2_084','EX1_610','EX1_533','EX1_554','EX1_609','NEW1_031','EX1_617','EX1_536','DS1_183','EX1_537','DS1_175','EX1_611','EX1_531','CS2_237','EX1_539','EX1_538','DS1_070','DS1_178','EX1_543'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
+    # Original playable Druid/Shaman/Paladin/Warlock/Rogue closed-beta decks.
+    for cid in ('EX1_169','CS2_005','EX1_578','CS2_013','CS2_011','EX1_158','EX1_570','EX1_571','EX1_164','NEW1_007','EX1_573','CS2_008','CS2_009','EX1_154','CS2_007','EX1_166','EX1_165','EX1_178','EX1_251','EX1_238','CS2_038','CS2_053','EX1_241','EX1_243','CS2_045','EX1_248','EX1_246','EX1_259','EX1_258','CS2_046','EX1_567','EX1_250','CS2_042','EX1_360','EX1_130','CS2_093','CS2_094','CS2_097','EX1_354','EX1_383','CS2_063','EX1_319','EX1_302','EX1_596','CS2_062','CS2_057','EX1_303','EX1_309','EX1_315','EX1_320','CS2_072','EX1_145','EX1_144','CS2_074','CS2_075','EX1_126','CS2_233','EX1_581','EX1_278','EX1_613','EX1_133','CS2_080','CS2_077'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     # Beta reward and first-playable generated inventions.
     for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid

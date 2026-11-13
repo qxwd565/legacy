@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First beta availability supported by dated 2013 beta deck and 3664 original archive; historic attribute baseline remains partly verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -325,7 +325,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -351,5 +351,16 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "contemporaryDeck": "https://www.hearthpwn.com/decks/1890-druid-deck",
+    "deckLastUpdatedUS": "2013-08-16T18:36:56-05:00",
+    "deckLastUpdatedKST": "2013-08-17T08:36:56+09:00",
+    "historicCardText": "original/1.0.0.3664-descriptions.json",
+    "officialBetaLaunch": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "criterion": "This card was included in a 3664 deck updated during the original first playable Korean-calendar beta day, and its original CardText snapshot corroborates its ID.",
+    "caveat": "Only original playable date verified, not every gameplay field."
+  }
 }

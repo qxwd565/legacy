@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Initial playable date validated against first-day closed-beta Warlock deck and archival CardText; baseline stats remain partly verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -323,7 +323,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -351,5 +351,16 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "contemporaryDeck": "https://www.hearthpwn.com/decks/3203-beta-giveaway-deck",
+    "deckLastUpdatedUS": "2013-08-17T03:17:52-05:00",
+    "deckLastUpdatedKST": "2013-08-17T17:17:52+09:00",
+    "historicCardText": "original/1.0.0.3664-descriptions.json",
+    "officialBetaLaunch": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "criterion": "Card found in original 3664 live-beta Warlock deck and first-day Korean-client archive; not based on later client preloading.",
+    "caveat": "Only release day verified; original gameplay stats partially verified."
+  }
 }
