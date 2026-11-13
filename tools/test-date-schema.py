@@ -31,6 +31,10 @@ def independent_expected(meta, day):
         # Keep originalSource immutable, but replay North American beta patch
         # 4217 on its agreed KST day rather than the Korean region rollout.
         effective = '2013-12-11' if event['date'] == '2013-12-12' else event['date']
+        # This unused-now recruit was retired before the Draenei minion-type rollout.
+        # Its installed-client 31.0 tag is evidence, not a playable card change.
+        if raw['id'] == 'CS2_101t6' and event['date'] == '2024-10-30':
+            continue
         if day is None or effective <= day:
             raw.update(copy.deepcopy(event['changes']))
     result={k:copy.deepcopy(v) for k,v in raw.items() if k in SPECS}
@@ -245,7 +249,9 @@ def main():
     assert unused == {}
     assert unused_meta['release']=={'date':None,'status':'pending'}
     assert unused_meta['undated']['baseline']['id']=='CS2_101t6'
-    assert unused_meta['undated']['patches'][0]['date']=='2024-10-30'
+    assert unused_meta['undated']['patches']==[]
+    assert unused_meta['originalSource']['card']['patches'][0]['date']=='2024-10-30'
+    assert unused_meta['releaseEvidence']['nativeDraeneiTagIsNotGameplayHistory']
     assert current['CS2_101t6']['releasedAt'] is None
     # Four Warcraft Rumble cards were accessible in Core on Korea March 12,
     # eight days BEFORE the new expansion release on March 20.

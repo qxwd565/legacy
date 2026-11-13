@@ -53,6 +53,10 @@ def main(fixture=None):
     for obj in (catalog_other,original_other):
         for row in obj['cards']:
             row.pop('text',None)
+            if row['id'] == 'CS2_101t6':
+                # Installed 31.0 Draenei type never applied to the already
+                # retired recruit; raw DBF records remain in originalSource.
+                row.pop('race',None); row.pop('races',None)
             if row['id'] in ('PRO_001','PRO_001a','PRO_001at','PRO_001b','PRO_001c'):
                 row.pop('releasedAt',None)  # Verified North American beta release in KST.
             if row['id'] in ('skele21','ds1_whelptoken'):
@@ -117,8 +121,7 @@ def main(fixture=None):
                     # Its unverified client-only race appeared in 31.0 and is
                     # retained as an undated observation, not a 2013 assertion.
                     unused_draenei_race_fix = (
-                        cid == 'CS2_101t6' and day < '2024-10-30'
-                        and field == 'race'
+                        cid == 'CS2_101t6' and field == 'race'
                     )
                     assert type_fix or beta_date_fix or first_release_race_fix or unused_draenei_race_fix,(
                         cid,day,field,actual.get(field),before.get(field))

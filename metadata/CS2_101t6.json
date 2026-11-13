@@ -7,7 +7,7 @@
     "status": "pending"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "No verified first normal-play availability for this unused/possibly unused Draenei recruit. No fabricated dated release baseline, only an undated compatibility state. Original source preserved.",
+  "confidenceNote": "Retired from active Silver Hand Recruit rotation immediately before Draenei was introduced. No first playable date is asserted without direct evidence. Native 2024-10-30 race tag stays in immutable source evidence only; timeline has no fictitious post-retirement gameplay patch.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -270,18 +270,8 @@
       "rarity": "FREE",
       "collectible": false
     },
-    "patches": [
-      {
-        "date": "2024-10-30",
-        "changes": {
-          "races": [
-            "DRAENEI"
-          ],
-          "race": "드레나이"
-        }
-      }
-    ],
-    "reason": "Draenei alternate recruit was added to the installed client on 2023-11-08 KST but not among the six variants confirmed as normally summoned on 2024-03-12; its actual first gameplay use is unproven. The 2024-10-30 tribe is retained as unresolved client observation, not proof it was playable."
+    "patches": [],
+    "reason": "This Draenei-art Silver Hand Recruit variant was removed from the active summon pool before the Draenei tribe became playable. The 2024-10-30 Draenei tag is an installed-card observation, not an in-game balance/availability event and is preserved only in immutable originalSource. The exact first in-game use before retirement is not independently dated."
   },
   "releaseEvidence": {
     "date": null,
@@ -289,20 +279,14 @@
     "status": "first-playable-unconfirmed",
     "criterion": "Actual normal-play summon, not asset preload or race-tag update",
     "sources": [
-      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0",
-      "https://www.hearthpwn.com/news/10919-patch-29-6-all-card-changes-datamined",
-      "https://hearthstone.wiki.gg/wiki/Silver_Hand_Recruit_%28Draenei%29"
+      "https://hearthstone.wiki.gg/wiki/Silver_Hand_Recruit_%28Draenei%29",
+      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
     ],
     "falseDateRemoved": "2013-08-17",
     "clientArtifactAdded": "2023-11-08",
-    "sixLiveVariantIds": [
-      "CS2_101t2",
-      "CS2_101t3",
-      "CS2_101t4",
-      "CS2_101t5",
-      "CS2_101t7",
-      "CS2_101t8"
-    ],
-    "note": "No first-playable day is asserted without in-game evidence; ID and historical raw source retained."
+    "note": "The user confirmed this variant was removed just before the Draenei tribe was added; do not treat its native 2024-10-30 tribe tag as playable. First confirmed summon day not yet established; no guessed debut.",
+    "gameplayRetiredBefore": "2024-10-30",
+    "removedFromActiveSummonPool": true,
+    "nativeDraeneiTagIsNotGameplayHistory": true
   }
 }
