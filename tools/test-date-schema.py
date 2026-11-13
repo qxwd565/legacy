@@ -216,10 +216,10 @@ def main():
         assert token[release_day]['text'] == token_meta['originalSource']['card']['text']
         assert resolve(token, token_meta, (date.fromisoformat(release_day)-timedelta(days=1)).isoformat()) is None
     combined, combined_meta = read_card(ROOT, 'OG_044a')
-    assert combined_meta['release'] == {'date': '2016-04-25', 'status': 'verified'}
+    assert combined_meta['release'] == {'date': '2016-04-27', 'status': 'verified'}
     assert combined_meta['originalSource']['historicalTokenSources']['parents'] == ['EX1_165']
-    assert resolve(combined, combined_meta, '2016-04-24') is None
-    assert resolve(combined, combined_meta, '2016-04-25')['text'] == '<b>돌진</b><br></br><b>도발</b>'
+    assert resolve(combined, combined_meta, '2016-04-26') is None
+    assert resolve(combined, combined_meta, '2016-04-27')['text'] == '<b>돌진</b><br></br><b>도발</b>'
     assert resolve(combined, combined_meta, '2021-03-26')['text'] == '<b>속공</b><br></br><b>도발</b>'
     assert resolve(combined, combined_meta, '2023-04-05')['attack'] == 7
     for token_id in ('skele21','ds1_whelptoken'):

@@ -3,11 +3,11 @@
   "id": "OG_044a",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2016-04-25",
+    "date": "2016-04-27",
     "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "First client version containing the token, dated to the Korean 5.0 patch; exact Korean text and line breaks retained. Strict historical confidence remains opt-in.",
+  "confidenceNote": "First normal-play date verified from Blizzard Korea's Old Gods launch schedule and Fandral's gameplay prerequisite; the source's earlier client-patch date is preserved only as immutable historical provenance. Baseline gameplay metadata remains partially verified.",
   "sourceCommit": "7b941232473e0ac11ffb43233db989b86ed108e3",
   "originalSource": {
     "schemaVersion": 2,
@@ -115,7 +115,7 @@
     "durability": 0,
     "armor": 0,
     "set": "legacy",
-    "releasedAt": "2016-04-25",
+    "releasedAt": "2016-04-27",
     "releaseStatus": "verified",
     "watermark": "Set1_Icon"
   },
@@ -145,5 +145,19 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2016-04-27",
+    "timezone": "Asia/Seoul",
+    "criterion": "First playable in constructed play, not the patch that preloaded the token",
+    "sourceCardId": "OG_044",
+    "cardGenerationSource": "Fandral Staghelm (Whispers of the Old Gods) and Druid of the Claw (EX1_165)",
+    "reasoning": "The combined form requires Fandral Staghelm, which was not obtainable until Whispers of the Old Gods launched in Korea April 27, 2016; the client installed OG_044a on the Korean April 25 patch date, not playable then.",
+    "falseClientPreloadDateRemoved": "2016-04-25",
+    "sources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/20097936",
+      "https://hearthstone.blizzard.com/en-us/news/20097359",
+      "https://hearthstone.wiki.gg/wiki/Fandral_Staghelm"
+    ]
+  }
 }
