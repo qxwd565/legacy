@@ -85,6 +85,10 @@ def main():
                          'OG_047a':'2016-04-27', 'OG_047b':'2016-04-27'}
     for cid, day in official_releases.items():
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus']) == (day,'verified'), cid
+    # Basic Hero Powers were playable in the original nine-class beta.
+    for n in range(1,10):
+        cid=f'HERO_{n:02d}bp'
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     # Two pre-beta Reward-set collection-quest cards available from beta launch.
     for cid in ('EX1_062','NEW1_016'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid

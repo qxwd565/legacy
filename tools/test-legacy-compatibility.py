@@ -12,7 +12,7 @@ from legacy_projection import PHP_FIELDS
 ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
 ADDED_TOKEN_IDS = frozenset(['CS3_002t', 'RLK_077t', 'RLK_085t', 'RLK_226t', 'RLK_705t', 'RLK_907t', 'OG_044a'])
-VERIFIED_BETA_DEBUT_IDS = frozenset(('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t','EX1_062','NEW1_016'))
+VERIFIED_BETA_DEBUT_IDS = frozenset(('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t','EX1_062','NEW1_016'), *(f'HERO_{n:02d}bp' for n in range(1,10))))
 VERIFIED_HERO_POWER_RELEASES = frozenset([*(f'HERO_{n:02d}bp2' for n in range(1, 10)), 'HERO_10bp', 'HERO_10bp2'])
 CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
     [*(f'LEG_RLK_{s}' for s in ('034','039','071','077','079','082','085','101','115',
