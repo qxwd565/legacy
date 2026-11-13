@@ -271,11 +271,16 @@
   },
   "appearanceRetirement": {
     "status": "removed_from_random_summon_pool",
-    "exactDate": null,
+    "exactDate": "2024-03-12",
     "beforeDate": "2024-10-30",
     "timezone": "Asia/Seoul",
-    "reason": "Retired shortly before the Draenei minion type became available.",
-    "evidence": "User-provided historical correction; exact retirement day unverified.",
-    "note": "The 2024-10-30 client-only race tag is preserved in originalSource, not the canonical gameplay timeline."
+    "reason": "Treat the day of the first public post-patch omission report as the removal calendar date pending direct in-game verification; not the later Draenei tribe update.",
+    "evidence": "A March 11, 2024 Reddit post made after the North American 29.0 patch already shows seven recruit appearances with the Draenei appearance missing. The official Korean 29.0 launch day is March 12. This is a user-requested provisional deletion date, not proof of exact within-day retirement.",
+    "note": "March 11 is the North American thread display date; the Korea-based date used for historical API bookkeeping is March 12. Debut and removal are on the same Korean calendar date, so a YYYY-MM-DD date key alone cannot establish their order or hourly availability. The later 2024-10-30 native race tag remains client-only evidence.",
+    "dateConfidence": "provisional",
+    "sources": [
+      "https://www.reddit.com/r/hearthstone/comments/1bcelad/",
+      "https://hearthstone.blizzard.com/ko-kr/news/24064735/29-0"
+    ]
   }
 }

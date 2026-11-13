@@ -251,7 +251,8 @@ def main():
     assert 'undated' not in draenei_meta
     assert resolve(draenei,draenei_meta,'2024-03-11') is None
     assert resolve(draenei,draenei_meta,'2024-03-12')['id']=='CS2_101t6'
-    assert draenei_meta['appearanceRetirement']['exactDate'] is None
+    assert draenei_meta['appearanceRetirement']['exactDate']=='2024-03-12'
+    assert draenei_meta['appearanceRetirement']['dateConfidence']=='provisional'
     assert draenei_meta['appearanceRetirement']['beforeDate']=='2024-10-30'
     assert draenei_meta['originalSource']['card']['patches'][0]['date']=='2024-10-30'
     assert draenei_meta['releaseEvidence']['nativeDraeneiTagIsNotGameplayHistory']
