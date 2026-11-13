@@ -223,8 +223,13 @@
     "heroPowerGroup": "Original nine starting class hero powers",
     "sourceUrls": [
       "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
-      "https://hearthstone.wiki.gg/wiki/Upgraded_Hero_Power"
+      "https://hearthstone.wiki.gg/wiki/Upgraded_Hero_Power",
+      "https://hearthstone.wiki.gg/wiki/Armor_Up%21"
     ],
-    "scope": "Date and confidence only; no type-specific stats, balance patches, gameplay text, or originalSource were changed."
+    "scope": "Date and confidence only; no type-specific stats, balance patches, gameplay text, or originalSource were changed.",
+    "originalHeroPowerIdIn2013": "CS2_102",
+    "currentHeroPowerId": "HERO_01bp",
+    "idRenamePatch": "17.2.0.47374 (North America 2020-05-12)",
+    "idRenameNote": "The original warrior power existed in gameplay in 2013 under CS2_102, and the same power was renamed to HERO_01bp in 2020; the 2013 first-gameplay date represents continuity of the actual ability, not the 2013 existence of the later exact card ID string. Do not confuse it with Deathwing's 2019 CS2_102_H3."
   }
 }

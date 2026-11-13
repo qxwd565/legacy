@@ -294,7 +294,22 @@ def main():
         assert proof['releaseEvidence']['date']=='2013-08-17',cid
         assert resolve(timeline,proof,'2013-08-16') is None,cid
         assert resolve(timeline,proof,'2013-08-17')['id']==cid,cid
-    assert statuses=={'estimated':455,'verified':161}
+    # Distinguish the original 2013 Warrior ability from the 2019 Deathwing
+    # skin-specific hero power, despite the identical display name and effect.
+    deathwing, deathwing_meta=read_card(ROOT,'CS2_102_H3')
+    original, original_meta=read_card(ROOT,'HERO_01bp')
+    assert list(deathwing)==['2019-11-06','2023-04-05']
+    assert deathwing_meta['release']=={'date':'2019-11-06','status':'verified'}
+    assert deathwing_meta['releaseEvidence']['heroPowerDbfId']==58799
+    assert deathwing_meta['releaseEvidence']['falseDateRemoved']=='2013-08-17'
+    assert resolve(deathwing,deathwing_meta,'2019-11-05') is None
+    assert resolve(deathwing,deathwing_meta,'2019-11-06')['dbfId']==58799
+    assert resolve(deathwing,deathwing_meta,'2023-04-05')['id']=='CS2_102_H3'
+    assert list(original)[0]=='2013-08-17'
+    assert original_meta['releaseEvidence']['originalHeroPowerIdIn2013']=='CS2_102'
+    assert original_meta['release']=={'date':'2013-08-17','status':'verified'}
+    assert resolve(original,original_meta,'2013-08-17')['dbfId']==725
+    assert statuses=={'estimated':454,'verified':162}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

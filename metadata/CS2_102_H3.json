@@ -3,11 +3,11 @@
   "id": "CS2_102_H3",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2019-11-06",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Deathwing (HERO_01c) Warrior hero-skin Hero Power 58799 is independently identifiable from original Garrosh Armor Up! HERO_01bp/725. First in-game availability was the November 5, 2019 North American 15.6 patch, on November 6 in Korea; user could unlock Deathwing through Descent of Dragons Mega Bundle. Only the false early release key was moved; the 2023-04-05 text change and originalSource were preserved.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -229,8 +229,8 @@
         "value": 59348
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2019-11-06",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -253,5 +253,29 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2019-11-06",
+    "timezone": "Asia/Seoul",
+    "criterion": "First usable in a normal game as the Deathwing alternate Warrior hero power, not the original Warrior hero power's 2013 debut or a client's prerelease asset.",
+    "heroSkinCardId": "HERO_01c",
+    "heroSkinDbfId": 58787,
+    "heroPowerCardId": "CS2_102_H3",
+    "heroPowerDbfId": 58799,
+    "otherBasicHeroPower": {
+      "id": "HERO_01bp",
+      "dbfId": 725,
+      "firstGameplayDateKst": "2013-08-17"
+    },
+    "basis": "The Deathwing warrior hero skin was unlocked by the Descent of Dragons Mega Bundle on Patch 15.6 (Nov 5, 2019 US; official Korean patch Nov 6); Blizzard support confirmed the pre-order hero was usable after that patch. Deathwing's card definition and a live 2021 Hearthstone game log both identify its hero_power as 58799, which maps to CS2_102_H3. Thus 2013 is a false backdate for this separate ID.",
+    "sourceUrls": [
+      "https://news.blizzard.com/ko-kr/article/23190446/11-6",
+      "https://us.forums.blizzard.com/en/hearthstone/t/pre-order-new-set/17115",
+      "https://hearthstone.wiki.gg/wiki/Deathwing_(hero)",
+      "https://github.com/HearthSim/HSTracker/issues/1211",
+      "https://hearthstone.wiki.gg/wiki/Patch_15.6.0.35747"
+    ],
+    "falseDateRemoved": "2013-08-17",
+    "scope": "First-use date only. Existing next patch 2023-04-05 and all gameplay and balance changes preserved, originalSource immutable."
+  }
 }
