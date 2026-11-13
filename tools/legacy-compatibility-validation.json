@@ -12,11 +12,11 @@
     "RLK_705t",
     "RLK_907t"
   ],
-  "legacyDateCases": 7363,
+  "legacyDateCases": 7361,
   "artURLChecks": 3648,
   "missingAssets": 0,
-  "rootHistoryBytes": 226233,
-  "preciseHistoryBytes": 514988,
+  "rootHistoryBytes": 226084,
+  "preciseHistoryBytes": 514897,
   "visibility": "unchanged; no new release/strict gating",
   "reviewedHistoryCorrections": [
     {
@@ -200,6 +200,13 @@
       "field": "cost",
       "before": 1,
       "after": 4
+    },
+    {
+      "id": "EX1_538t",
+      "date": "2013-12-10",
+      "field": "name",
+      "before": "풀려남",
+      "after": "사냥개"
     },
     {
       "id": "EX1_538t",
