@@ -1,0 +1,1077 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "date": "2013-08-17",
+  "result": "passed preflight",
+  "previousStatuses": {
+    "verified": 398,
+    "estimated": 217
+  },
+  "newStatuses": {
+    "verified": 574,
+    "estimated": 41
+  },
+  "reviewedNewCollectibleCardIDs": 176,
+  "sourceLimits": [
+    "Deck-builder listings are not match logs",
+    "Only release dates/confidence, not original statistics, are verified"
+  ],
+  "cards": [
+    {
+      "id": "EX1_607",
+      "historicalEnglishName": "Inner Rage",
+      "currentKoreanName": "내면의 분노",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_409",
+      "historicalEnglishName": "Upgrade!",
+      "currentKoreanName": "강화!",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_400",
+      "historicalEnglishName": "Whirlwind",
+      "currentKoreanName": "소용돌이",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_402",
+      "historicalEnglishName": "Armorsmith",
+      "currentKoreanName": "방어구 제작자",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_392",
+      "historicalEnglishName": "Battle Rage",
+      "currentKoreanName": "전투 격노",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_114",
+      "historicalEnglishName": "Cleave",
+      "currentKoreanName": "회전베기",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_105",
+      "historicalEnglishName": "Heroic Strike",
+      "currentKoreanName": "영웅의 일격",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_104",
+      "historicalEnglishName": "Rampage",
+      "currentKoreanName": "광란",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_103",
+      "historicalEnglishName": "Charge",
+      "currentKoreanName": "돌진",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_408",
+      "historicalEnglishName": "Mortal Strike",
+      "currentKoreanName": "필사의 일격",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_112",
+      "historicalEnglishName": "Arcanite Reaper",
+      "currentKoreanName": "아케이나이트 도끼",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_407",
+      "historicalEnglishName": "Brawl",
+      "currentKoreanName": "난투",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_411",
+      "historicalEnglishName": "Gorehowl",
+      "currentKoreanName": "피의 울음소리",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_009",
+      "historicalEnglishName": "Angry Chicken",
+      "currentKoreanName": "화난 닭",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_004",
+      "historicalEnglishName": "Young Priestess",
+      "currentKoreanName": "젊은 여사제",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "EX1_393",
+      "historicalEnglishName": "Amani Berserker",
+      "currentKoreanName": "아마니 광전사",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "NEW1_018",
+      "historicalEnglishName": "Bloodsail Raider",
+      "currentKoreanName": "붉은해적단 약탈자",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "NEW1_019",
+      "historicalEnglishName": "Knife Juggler",
+      "currentKoreanName": "단검 곡예사",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "NEW1_037",
+      "historicalEnglishName": "Master Swordsmith",
+      "currentKoreanName": "검 제작의 대가",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_181",
+      "historicalEnglishName": "Injured Blademaster",
+      "currentKoreanName": "부상당한 검귀",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_122",
+      "historicalEnglishName": "Raid Leader",
+      "currentKoreanName": "공격대장",
+      "deck": "https://www.hearthpwn.com/decks/1568-warriors-of-azeroth"
+    },
+    {
+      "id": "CS2_108",
+      "historicalEnglishName": "Execute",
+      "currentKoreanName": "마무리 일격",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "EX1_391",
+      "historicalEnglishName": "Slam",
+      "currentKoreanName": "격돌",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "CS2_106",
+      "historicalEnglishName": "Fiery War Axe",
+      "currentKoreanName": "이글거리는 전쟁 도끼",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "EX1_398",
+      "historicalEnglishName": "Arathi Weaponsmith",
+      "currentKoreanName": "아라시 무기제작자",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "EX1_606",
+      "historicalEnglishName": "Shield Block",
+      "currentKoreanName": "방패 올리기",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "CS2_231",
+      "historicalEnglishName": "Wisp",
+      "currentKoreanName": "위습",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "CS2_146",
+      "historicalEnglishName": "Southsea Deckhand",
+      "currentKoreanName": "남쪽바다 갑판원",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "EX1_015",
+      "historicalEnglishName": "Novice Engineer",
+      "currentKoreanName": "풋내기 기술자",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "DS1_055",
+      "historicalEnglishName": "Darkscale Healer",
+      "currentKoreanName": "어둠비늘 치유사",
+      "deck": "https://www.hearthpwn.com/decks/2085-test-warrior"
+    },
+    {
+      "id": "EX1_410",
+      "historicalEnglishName": "Shield Slam",
+      "currentKoreanName": "방패 밀쳐내기",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "NEW1_036",
+      "historicalEnglishName": "Commanding Shout",
+      "currentKoreanName": "지휘의 외침",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "NEW1_011",
+      "historicalEnglishName": "Kor'kron Elite",
+      "currentKoreanName": "코르크론 정예병",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_171",
+      "historicalEnglishName": "Stonetusk Boar",
+      "currentKoreanName": "돌엄니멧돼지",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "EX1_059",
+      "historicalEnglishName": "Crazed Alchemist",
+      "currentKoreanName": "광기의 연금술사",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_121",
+      "historicalEnglishName": "Frostwolf Grunt",
+      "currentKoreanName": "서리늑대 그런트",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_203",
+      "historicalEnglishName": "Ironbeak Owl",
+      "currentKoreanName": "무쇠부리 올빼미",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_118",
+      "historicalEnglishName": "Magma Rager",
+      "currentKoreanName": "용암 광전사",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "NEW1_022",
+      "historicalEnglishName": "Dread Corsair",
+      "currentKoreanName": "공포의 해적",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "EX1_399",
+      "historicalEnglishName": "Gurubashi Berserker",
+      "currentKoreanName": "구루바시 광전사",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "EX1_593",
+      "historicalEnglishName": "Nightblade",
+      "currentKoreanName": "암흑칼날",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_221",
+      "historicalEnglishName": "Spiteful Smith",
+      "currentKoreanName": "원한 맺힌 대장장이",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "CS2_162",
+      "historicalEnglishName": "Lord of the Arena",
+      "currentKoreanName": "투기장의 제왕",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "EX1_032",
+      "historicalEnglishName": "Sunwalker",
+      "currentKoreanName": "태양길잡이",
+      "deck": "https://www.hearthpwn.com/decks/2283-weapon-of-war"
+    },
+    {
+      "id": "EX1_414",
+      "historicalEnglishName": "Grommash Hellscream",
+      "currentKoreanName": "그롬마쉬 헬스크림",
+      "deck": "https://www.hearthpwn.com/decks/1623-vengeance-warrior"
+    },
+    {
+      "id": "CS2_131",
+      "historicalEnglishName": "Stormwind Knight",
+      "currentKoreanName": "스톰윈드 기사",
+      "deck": "https://www.hearthpwn.com/decks/1623-vengeance-warrior"
+    },
+    {
+      "id": "EX1_586",
+      "historicalEnglishName": "Sea Giant",
+      "currentKoreanName": "바다 거인",
+      "deck": "https://www.hearthpwn.com/decks/2056-warrior"
+    },
+    {
+      "id": "EX1_105",
+      "historicalEnglishName": "Mountain Giant",
+      "currentKoreanName": "산악 거인",
+      "deck": "https://www.hearthpwn.com/decks/2056-warrior"
+    },
+    {
+      "id": "EX1_023",
+      "historicalEnglishName": "Silvermoon Guardian",
+      "currentKoreanName": "실버문 수호병",
+      "deck": "https://www.hearthpwn.com/decks/2056-warrior"
+    },
+    {
+      "id": "EX1_097",
+      "historicalEnglishName": "Abomination",
+      "currentKoreanName": "누더기골렘",
+      "deck": "https://www.hearthpwn.com/decks/2330-warrior-deck"
+    },
+    {
+      "id": "EX1_067",
+      "historicalEnglishName": "Argent Commander",
+      "currentKoreanName": "은빛십자군 부대장",
+      "deck": "https://www.hearthpwn.com/decks/2330-warrior-deck"
+    },
+    {
+      "id": "EX1_564",
+      "historicalEnglishName": "Faceless Manipulator",
+      "currentKoreanName": "얼굴 없는 배후자",
+      "deck": "https://www.hearthpwn.com/decks/2330-warrior-deck"
+    },
+    {
+      "id": "EX1_011",
+      "historicalEnglishName": "Voodoo Doctor",
+      "currentKoreanName": "부두교 의술사",
+      "deck": "https://www.hearthpwn.com/decks/2330-warrior-deck"
+    },
+    {
+      "id": "EX1_604",
+      "historicalEnglishName": "Frothing Berserker",
+      "currentKoreanName": "거품 무는 광전사",
+      "deck": "https://www.hearthpwn.com/decks/2591-full-fury"
+    },
+    {
+      "id": "EX1_084",
+      "historicalEnglishName": "Warsong Commander",
+      "currentKoreanName": "전쟁노래 사령관",
+      "deck": "https://www.hearthpwn.com/decks/2591-full-fury"
+    },
+    {
+      "id": "EX1_045",
+      "historicalEnglishName": "Ancient Watcher",
+      "currentKoreanName": "고대의 감시자",
+      "deck": "https://www.hearthpwn.com/decks/2591-full-fury"
+    },
+    {
+      "id": "EX1_102",
+      "historicalEnglishName": "Demolisher",
+      "currentKoreanName": "파괴전차",
+      "deck": "https://www.hearthpwn.com/decks/2591-full-fury"
+    },
+    {
+      "id": "CS2_087",
+      "historicalEnglishName": "Blessing of Might",
+      "currentKoreanName": "힘의 축복",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_619",
+      "historicalEnglishName": "Equality",
+      "currentKoreanName": "평등",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "CS2_089",
+      "historicalEnglishName": "Holy Light",
+      "currentKoreanName": "성스러운 빛",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_382",
+      "historicalEnglishName": "Aldor Peacekeeper",
+      "currentKoreanName": "알도르 평화감시단",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_349",
+      "historicalEnglishName": "Divine Favor",
+      "currentKoreanName": "신의 은총",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_366",
+      "historicalEnglishName": "Sword of Justice",
+      "currentKoreanName": "정의의 칼날",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "CS2_092",
+      "historicalEnglishName": "Blessing of Kings",
+      "currentKoreanName": "왕의 축복",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_355",
+      "historicalEnglishName": "Blessed Champion",
+      "currentKoreanName": "축복받은 용사",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_384",
+      "historicalEnglishName": "Avenging Wrath",
+      "currentKoreanName": "응징의 격노",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "CS2_088",
+      "historicalEnglishName": "Guardian of Kings",
+      "currentKoreanName": "왕의 수호자",
+      "deck": "https://www.hearthpwn.com/decks/2580-my-paladin-deck"
+    },
+    {
+      "id": "EX1_371",
+      "historicalEnglishName": "Hand of Protection",
+      "currentKoreanName": "보호의 손길",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "CS2_091",
+      "historicalEnglishName": "Light's Justice",
+      "currentKoreanName": "빛의 정의",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_362",
+      "historicalEnglishName": "Argent Protector",
+      "currentKoreanName": "여명회 파수병",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "CS2_161",
+      "historicalEnglishName": "Ravenholdt Assassin",
+      "currentKoreanName": "라벤홀트 암살자",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_025",
+      "historicalEnglishName": "Dragonling Mechanic",
+      "currentKoreanName": "기계용 정비사",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_008",
+      "historicalEnglishName": "Argent Squire",
+      "currentKoreanName": "은빛십자군 종자",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "CS2_168",
+      "historicalEnglishName": "Murloc Raider",
+      "currentKoreanName": "멀록 약탈꾼",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_506",
+      "historicalEnglishName": "Murloc Tidehunter",
+      "currentKoreanName": "멀록 바다사냥꾼",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_509",
+      "historicalEnglishName": "Murloc Tidecaller",
+      "currentKoreanName": "멀록 파도술사",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_007",
+      "historicalEnglishName": "Acolyte of Pain",
+      "currentKoreanName": "고통의 수행사제",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "CS2_147",
+      "historicalEnglishName": "Gnomish Inventor",
+      "currentKoreanName": "노움 발명가",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_046",
+      "historicalEnglishName": "Dark Iron Dwarf",
+      "currentKoreanName": "검은무쇠 드워프",
+      "deck": "https://www.hearthpwn.com/decks/1593-what-do-i-do"
+    },
+    {
+      "id": "EX1_365",
+      "historicalEnglishName": "Holy Wrath",
+      "currentKoreanName": "신의 격노",
+      "deck": "https://www.hearthpwn.com/decks/2399-my-first-deck"
+    },
+    {
+      "id": "EX1_583",
+      "historicalEnglishName": "Priestess of Elune",
+      "currentKoreanName": "엘룬의 여사제",
+      "deck": "https://www.hearthpwn.com/decks/2399-my-first-deck"
+    },
+    {
+      "id": "CS2_169",
+      "historicalEnglishName": "Young Dragonhawk",
+      "currentKoreanName": "어린 용매",
+      "deck": "https://www.hearthpwn.com/decks/2399-my-first-deck"
+    },
+    {
+      "id": "EX1_020",
+      "historicalEnglishName": "Scarlet Crusader",
+      "currentKoreanName": "붉은십자군 성전사",
+      "deck": "https://www.hearthpwn.com/decks/2399-my-first-deck"
+    },
+    {
+      "id": "EX1_033",
+      "historicalEnglishName": "Windfury Harpy",
+      "currentKoreanName": "성난바람 하피",
+      "deck": "https://www.hearthpwn.com/decks/2399-my-first-deck"
+    },
+    {
+      "id": "EX1_363",
+      "historicalEnglishName": "Blessing of Wisdom",
+      "currentKoreanName": "지혜의 축복",
+      "deck": "https://www.hearthpwn.com/decks/1892-op-deck"
+    },
+    {
+      "id": "EX1_132",
+      "historicalEnglishName": "Eye for an Eye",
+      "currentKoreanName": "눈에는 눈",
+      "deck": "https://www.hearthpwn.com/decks/1892-op-deck"
+    },
+    {
+      "id": "EX1_136",
+      "historicalEnglishName": "Redemption",
+      "currentKoreanName": "구원",
+      "deck": "https://www.hearthpwn.com/decks/1892-op-deck"
+    },
+    {
+      "id": "EX1_379",
+      "historicalEnglishName": "Repentance",
+      "currentKoreanName": "참회",
+      "deck": "https://www.hearthpwn.com/decks/1892-op-deck"
+    },
+    {
+      "id": "EX1_507",
+      "historicalEnglishName": "Murloc Warleader",
+      "currentKoreanName": "멀록 전투대장",
+      "deck": "https://www.hearthpwn.com/decks/1892-op-deck"
+    },
+    {
+      "id": "CS2_151",
+      "historicalEnglishName": "Silver Hand Knight",
+      "currentKoreanName": "은빛 성기사단 기사",
+      "deck": "https://www.hearthpwn.com/decks/1670-for-the-light"
+    },
+    {
+      "id": "EX1_001",
+      "historicalEnglishName": "Lightwarden",
+      "currentKoreanName": "빛의 감시자",
+      "deck": "https://www.hearthpwn.com/decks/1670-for-the-light"
+    },
+    {
+      "id": "EX1_131",
+      "historicalEnglishName": "Defias Ringleader",
+      "currentKoreanName": "데피아즈단 두목",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_137",
+      "historicalEnglishName": "Headcrack",
+      "currentKoreanName": "머리 후려치기",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_134",
+      "historicalEnglishName": "SI:7 Agent",
+      "currentKoreanName": "SI:7 요원",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_129",
+      "historicalEnglishName": "Fan of Knives",
+      "currentKoreanName": "칼날 부채",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "CS2_076",
+      "historicalEnglishName": "Assassinate",
+      "currentKoreanName": "암살",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_095",
+      "historicalEnglishName": "Gadgetzan Auctioneer",
+      "currentKoreanName": "가젯잔 경매인",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "CS2_119",
+      "historicalEnglishName": "Oasis Snapjaw",
+      "currentKoreanName": "오아시스 무쇠턱거북",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "CS1_042",
+      "historicalEnglishName": "Goldshire Footman",
+      "currentKoreanName": "황금골 보병",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_050",
+      "historicalEnglishName": "Coldlight Oracle",
+      "currentKoreanName": "시린빛 점쟁이",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_085",
+      "historicalEnglishName": "Mind Control Tech",
+      "currentKoreanName": "정신 지배 기술자",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "EX1_582",
+      "historicalEnglishName": "Dalaran Mage",
+      "currentKoreanName": "달라란 마법사",
+      "deck": "https://www.hearthpwn.com/decks/1826-rogue-mastery"
+    },
+    {
+      "id": "NEW1_005",
+      "historicalEnglishName": "Kidnapper",
+      "currentKoreanName": "납치범",
+      "deck": "https://www.hearthpwn.com/decks/2625-i-think-this-works"
+    },
+    {
+      "id": "NEW1_004",
+      "historicalEnglishName": "Vanish",
+      "currentKoreanName": "소멸",
+      "deck": "https://www.hearthpwn.com/decks/2625-i-think-this-works"
+    },
+    {
+      "id": "EX1_128",
+      "historicalEnglishName": "Conceal",
+      "currentKoreanName": "은폐",
+      "deck": "https://www.hearthpwn.com/decks/2573-jaget"
+    },
+    {
+      "id": "NEW1_014",
+      "historicalEnglishName": "Master of Disguise",
+      "currentKoreanName": "위장의 대가",
+      "deck": "https://www.hearthpwn.com/decks/2573-jaget"
+    },
+    {
+      "id": "CS2_073",
+      "historicalEnglishName": "Cold Blood",
+      "currentKoreanName": "냉혈",
+      "deck": "https://www.hearthpwn.com/decks/2763-the-winning-rogue-deck"
+    },
+    {
+      "id": "EX1_124",
+      "historicalEnglishName": "Eviscerate",
+      "currentKoreanName": "절개",
+      "deck": "https://www.hearthpwn.com/decks/2763-the-winning-rogue-deck"
+    },
+    {
+      "id": "EX1_522",
+      "historicalEnglishName": "Patient Assassin",
+      "currentKoreanName": "침착한 암살자",
+      "deck": "https://www.hearthpwn.com/decks/2763-the-winning-rogue-deck"
+    },
+    {
+      "id": "NEW1_027",
+      "historicalEnglishName": "Southsea Captain",
+      "currentKoreanName": "남쪽바다 선장",
+      "deck": "https://www.hearthpwn.com/decks/2763-the-winning-rogue-deck"
+    },
+    {
+      "id": "CS2_059",
+      "historicalEnglishName": "Blood Imp",
+      "currentKoreanName": "피의 임프",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_301",
+      "historicalEnglishName": "Felguard",
+      "currentKoreanName": "지옥수호병",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_313",
+      "historicalEnglishName": "Pit Lord",
+      "currentKoreanName": "지옥의 군주",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_310",
+      "historicalEnglishName": "Doomguard",
+      "currentKoreanName": "파멸수호병",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "CS2_065",
+      "historicalEnglishName": "Voidwalker",
+      "currentKoreanName": "공허방랑자",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "CS2_064",
+      "historicalEnglishName": "Dread Infernal",
+      "currentKoreanName": "공포의 지옥불악마",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_312",
+      "historicalEnglishName": "Twisting Nether",
+      "currentKoreanName": "뒤틀린 황천",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_317",
+      "historicalEnglishName": "Sense Demons",
+      "currentKoreanName": "악마 감지",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_316",
+      "historicalEnglishName": "Power Overwhelming",
+      "currentKoreanName": "압도적인 힘",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_304",
+      "historicalEnglishName": "Void Terror",
+      "currentKoreanName": "공허의 괴물",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_306",
+      "historicalEnglishName": "Felstalker",
+      "currentKoreanName": "지옥파수견",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_308",
+      "historicalEnglishName": "Soulfire",
+      "currentKoreanName": "영혼의 불꽃",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "NEW1_003",
+      "historicalEnglishName": "Sacrificial Pact",
+      "currentKoreanName": "희생의 서약",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_048",
+      "historicalEnglishName": "Spellbreaker",
+      "currentKoreanName": "주문파괴자",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_597",
+      "historicalEnglishName": "Imp Master",
+      "currentKoreanName": "임프 소환사",
+      "deck": "https://www.hearthpwn.com/decks/1746-warlock-deck"
+    },
+    {
+      "id": "EX1_029",
+      "historicalEnglishName": "Leper Gnome",
+      "currentKoreanName": "오염된 노움",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "EX1_405",
+      "historicalEnglishName": "Shieldbearer",
+      "currentKoreanName": "방패병",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "EX1_082",
+      "historicalEnglishName": "Mad Bomber",
+      "currentKoreanName": "정신 나간 폭격수",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "CS2_117",
+      "historicalEnglishName": "Earthen Ring Farseer",
+      "currentKoreanName": "대지 고리회 선견자",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "EX1_556",
+      "historicalEnglishName": "Harvest Golem",
+      "currentKoreanName": "허수아비골렘",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "EX1_595",
+      "historicalEnglishName": "Cult Master",
+      "currentKoreanName": "이교도 지도자",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "CS2_226",
+      "historicalEnglishName": "Frostwolf Warlord",
+      "currentKoreanName": "서리늑대 전쟁군주",
+      "deck": "https://www.hearthpwn.com/decks/1689-warlock"
+    },
+    {
+      "id": "EX1_412",
+      "historicalEnglishName": "Raging Worgen",
+      "currentKoreanName": "흉포한 늑대인간",
+      "deck": "https://www.hearthpwn.com/decks/2148-warlock"
+    },
+    {
+      "id": "EX1_323",
+      "historicalEnglishName": "Lord Jaraxxus",
+      "currentKoreanName": "군주 자락서스",
+      "deck": "https://www.hearthpwn.com/decks/2253-swarm-heal-and-giants"
+    },
+    {
+      "id": "DS1_188",
+      "historicalEnglishName": "Gladiator's Longbow",
+      "currentKoreanName": "검투사의 장궁",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "EX1_534",
+      "historicalEnglishName": "Savannah Highmane",
+      "currentKoreanName": "사바나 사자",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "EX1_396",
+      "historicalEnglishName": "Mogu'shan Warden",
+      "currentKoreanName": "모구샨 감시자",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "CS2_172",
+      "historicalEnglishName": "Bloodfen Raptor",
+      "currentKoreanName": "붉은늪지랩터",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "CS2_120",
+      "historicalEnglishName": "River Crocolisk",
+      "currentKoreanName": "민물악어",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "EX1_170",
+      "historicalEnglishName": "Emperor Cobra",
+      "currentKoreanName": "황제 코브라",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "CS2_141",
+      "historicalEnglishName": "Ironforge Rifleman",
+      "currentKoreanName": "아이언포지 소총병",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "CS2_127",
+      "historicalEnglishName": "Silverback Patriarch",
+      "currentKoreanName": "은빛털고릴라 우두머리",
+      "deck": "https://www.hearthpwn.com/decks/1699-my-first-deck"
+    },
+    {
+      "id": "DS1_184",
+      "historicalEnglishName": "Tracking",
+      "currentKoreanName": "추적",
+      "deck": "https://www.hearthpwn.com/decks/2499-a-trip-to-the-zoo"
+    },
+    {
+      "id": "CS2_201",
+      "historicalEnglishName": "Core Hound",
+      "currentKoreanName": "심장부 사냥개",
+      "deck": "https://www.hearthpwn.com/decks/2499-a-trip-to-the-zoo"
+    },
+    {
+      "id": "CS2_182",
+      "historicalEnglishName": "Chillwind Yeti",
+      "currentKoreanName": "서리바람 설인",
+      "deck": "https://www.hearthpwn.com/decks/2499-a-trip-to-the-zoo"
+    },
+    {
+      "id": "EX1_089",
+      "historicalEnglishName": "Arcane Golem",
+      "currentKoreanName": "비전 골렘",
+      "deck": "https://www.hearthpwn.com/decks/2430-deck"
+    },
+    {
+      "id": "EX1_103",
+      "historicalEnglishName": "Coldlight Seer",
+      "currentKoreanName": "시린빛 예언자",
+      "deck": "https://www.hearthpwn.com/decks/2430-deck"
+    },
+    {
+      "id": "CS2_041",
+      "historicalEnglishName": "Ancestral Healing",
+      "currentKoreanName": "선인의 치유력",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "EX1_244",
+      "historicalEnglishName": "Totemic Might",
+      "currentKoreanName": "토템의 힘",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "EX1_245",
+      "historicalEnglishName": "Earth Shock",
+      "currentKoreanName": "대지 충격",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "CS2_037",
+      "historicalEnglishName": "Frost Shock",
+      "currentKoreanName": "냉기 충격",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "CS2_039",
+      "historicalEnglishName": "Windfury",
+      "currentKoreanName": "질풍",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "EX1_565",
+      "historicalEnglishName": "Flametongue Totem",
+      "currentKoreanName": "불꽃의 토템",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "EX1_575",
+      "historicalEnglishName": "Mana Tide Totem",
+      "currentKoreanName": "마나 해일 토템",
+      "deck": "https://www.hearthpwn.com/decks/1897-shaman"
+    },
+    {
+      "id": "EX1_587",
+      "historicalEnglishName": "Windspeaker",
+      "currentKoreanName": "바람예언자",
+      "deck": "https://www.hearthpwn.com/decks/2337-shaman"
+    },
+    {
+      "id": "EX1_021",
+      "historicalEnglishName": "Thrallmar Farseer",
+      "currentKoreanName": "스랄마 선견자",
+      "deck": "https://www.hearthpwn.com/decks/2337-shaman"
+    },
+    {
+      "id": "EX1_076",
+      "historicalEnglishName": "Pint-Sized Summoner",
+      "currentKoreanName": "자그마한 소환사",
+      "deck": "https://www.hearthpwn.com/decks/1669-priest"
+    },
+    {
+      "id": "CS2_235",
+      "historicalEnglishName": "Northshire Cleric",
+      "currentKoreanName": "북녘골 성직자",
+      "deck": "https://www.hearthpwn.com/decks/2576-priest-n-murlocs"
+    },
+    {
+      "id": "EX1_335",
+      "historicalEnglishName": "Lightspawn",
+      "currentKoreanName": "빛의 정령",
+      "deck": "https://www.hearthpwn.com/decks/2576-priest-n-murlocs"
+    },
+    {
+      "id": "EX1_275",
+      "historicalEnglishName": "Cone of Cold",
+      "currentKoreanName": "냉기 돌풍",
+      "deck": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck"
+    },
+    {
+      "id": "EX1_289",
+      "historicalEnglishName": "Ice Barrier",
+      "currentKoreanName": "얼음 보호막",
+      "deck": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck"
+    },
+    {
+      "id": "CS2_024",
+      "historicalEnglishName": "Frostbolt",
+      "currentKoreanName": "얼음 화살",
+      "deck": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck"
+    },
+    {
+      "id": "CS2_028",
+      "historicalEnglishName": "Blizzard",
+      "currentKoreanName": "눈보라",
+      "deck": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck"
+    },
+    {
+      "id": "CS2_155",
+      "historicalEnglishName": "Archmage",
+      "currentKoreanName": "대마법사",
+      "deck": "https://www.hearthpwn.com/decks/1646-my-mage-freeze-secret-sp-deck"
+    },
+    {
+      "id": "CS2_032",
+      "historicalEnglishName": "Flamestrike",
+      "currentKoreanName": "불기둥",
+      "deck": "https://www.hearthpwn.com/decks/1922-i-put-on-my-robe-and-wizard-hat"
+    },
+    {
+      "id": "EX1_274",
+      "historicalEnglishName": "Ethereal Arcanist",
+      "currentKoreanName": "에테리얼 비전술사",
+      "deck": "https://www.hearthpwn.com/decks/2286-naughty-secrets"
+    },
+    {
+      "id": "CS2_179",
+      "historicalEnglishName": "Sen'jin Shieldmasta",
+      "currentKoreanName": "센진 방패대가",
+      "deck": "https://www.hearthpwn.com/decks/1700-my-deck"
+    },
+    {
+      "id": "CS2_186",
+      "historicalEnglishName": "War Golem",
+      "currentKoreanName": "전쟁 골렘",
+      "deck": "https://www.hearthpwn.com/decks/1700-my-deck"
+    },
+    {
+      "id": "tt_004",
+      "historicalEnglishName": "Flesheating Ghoul",
+      "currentKoreanName": "굶주린 식인 구울",
+      "deck": "https://www.hearthpwn.com/decks/1700-my-deck"
+    },
+    {
+      "id": "CS2_213",
+      "historicalEnglishName": "Reckless Rocketeer",
+      "currentKoreanName": "못 말리는 로켓병",
+      "deck": "https://www.hearthpwn.com/decks/2334-saved"
+    },
+    {
+      "id": "CS2_188",
+      "historicalEnglishName": "Abusive Sergeant",
+      "currentKoreanName": "가혹한 하사관",
+      "deck": "https://www.hearthpwn.com/decks/2334-saved"
+    },
+    {
+      "id": "EX1_616",
+      "historicalEnglishName": "Mana Wraith",
+      "currentKoreanName": "마나 망령",
+      "deck": "https://www.hearthpwn.com/decks/1566-hrathix"
+    },
+    {
+      "id": "CS2_173",
+      "historicalEnglishName": "Bluegill Warrior",
+      "currentKoreanName": "푸른아가미 전사",
+      "deck": "https://www.hearthpwn.com/decks/1566-hrathix"
+    },
+    {
+      "id": "CS2_187",
+      "historicalEnglishName": "Booty Bay Bodyguard",
+      "currentKoreanName": "무법항 경호원",
+      "deck": "https://www.hearthpwn.com/decks/1566-hrathix"
+    },
+    {
+      "id": "EX1_019",
+      "historicalEnglishName": "Shattered Sun Cleric",
+      "currentKoreanName": "무너진 태양 성직자",
+      "deck": "https://www.hearthpwn.com/decks/1782-mage-rush"
+    },
+    {
+      "id": "EX1_028",
+      "historicalEnglishName": "Stranglethorn Tiger",
+      "currentKoreanName": "가시덤불 호랑이",
+      "deck": "https://www.hearthpwn.com/decks/2499-a-trip-to-the-zoo"
+    }
+  ]
+}

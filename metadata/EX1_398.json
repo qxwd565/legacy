@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Earliest available beta day corroborated by the contemporaneous community deck-builder listing and original 3664 Korean card ID. This is NOT an actual match log; precise launch stats remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -273,7 +273,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -299,5 +299,18 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "2013-08-16 original beta deckbuilder listing plus Korean 3664 card definition",
+    "deckSource": "https://www.hearthpwn.com/decks/2085-test-warrior",
+    "deckLastUpdatedUS": "2013-08-16 19:27:23 UTC-5",
+    "deckEffectiveDayKST": "2013-08-17",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "historicalCardArchiveStatus": "available",
+    "officialBetaOpening": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "basis": "Card is listed in an archived public beta-day deck construction record while the North American beta was open; the same card ID is present in the original playable beta build's Korean card archive.",
+    "limitation": "Community deck-builder inclusion is evidence of selectable availability, not direct evidence that the author entered a match. Card content and historical stats have not been promoted."
+  }
 }

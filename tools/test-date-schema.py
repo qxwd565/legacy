@@ -396,7 +396,17 @@ def main():
         assert list(history)[0]=='2013-08-17' and not history['2013-08-17']['collectible'],cid
         assert list(parent_history)[0]=='2013-08-17',pid
         assert resolve(history,meta,'2013-08-16') is None,cid
-    assert statuses=={'estimated':217,'verified':398}
+    # First-day community beta deck builder + independent native 3664 cards.
+    additional_beta_day_deck_ids = ('EX1_607','EX1_409','EX1_400','EX1_402','EX1_392','CS2_114','CS2_105','CS2_104','CS2_103','EX1_408','CS2_112','EX1_407','EX1_411','EX1_009','EX1_004','EX1_393','NEW1_018','NEW1_019','NEW1_037','CS2_181','CS2_122','CS2_108','EX1_391','CS2_106','EX1_398','EX1_606','CS2_231','CS2_146','EX1_015','DS1_055','EX1_410','NEW1_036','NEW1_011','CS2_171','EX1_059','CS2_121','CS2_203','CS2_118','NEW1_022','EX1_399','EX1_593','CS2_221','CS2_162','EX1_032','EX1_414','CS2_131','EX1_586','EX1_105','EX1_023','EX1_097','EX1_067','EX1_564','EX1_011','EX1_604','EX1_084','EX1_045','EX1_102','CS2_087','EX1_619','CS2_089','EX1_382','EX1_349','EX1_366','CS2_092','EX1_355','EX1_384','CS2_088','EX1_371','CS2_091','EX1_362','CS2_161','EX1_025','EX1_008','CS2_168','EX1_506','EX1_509','EX1_007','CS2_147','EX1_046','EX1_365','EX1_583','CS2_169','EX1_020','EX1_033','EX1_363','EX1_132','EX1_136','EX1_379','EX1_507','CS2_151','EX1_001','EX1_131','EX1_137','EX1_134','EX1_129','CS2_076','EX1_095','CS2_119','CS1_042','EX1_050','EX1_085','EX1_582','NEW1_005','NEW1_004','EX1_128','NEW1_014','CS2_073','EX1_124','EX1_522','NEW1_027','CS2_059','EX1_301','EX1_313','EX1_310','CS2_065','CS2_064','EX1_312','EX1_317','EX1_316','EX1_304','EX1_306','EX1_308','NEW1_003','EX1_048','EX1_597','EX1_029','EX1_405','EX1_082','CS2_117','EX1_556','EX1_595','CS2_226','EX1_412','EX1_323','DS1_188','EX1_534','EX1_396','CS2_172','CS2_120','EX1_170','CS2_141','CS2_127','DS1_184','CS2_201','CS2_182','EX1_089','EX1_103','CS2_041','EX1_244','EX1_245','CS2_037','CS2_039','EX1_565','EX1_575','EX1_587','EX1_021','EX1_076','CS2_235','EX1_335','EX1_275','EX1_289','CS2_024','CS2_028','CS2_155','CS2_032','EX1_274','CS2_179','CS2_186','tt_004','CS2_213','CS2_188','EX1_616','CS2_173','CS2_187','EX1_019','EX1_028')
+    for cid in additional_beta_day_deck_ids:
+        history, meta = read_card(ROOT, cid)
+        assert list(history)[0]=='2013-08-17' and history['2013-08-17']['collectible'], cid
+        assert meta['release']=={'date':'2013-08-17','status':'verified'}, cid
+        assert meta['currentCatalog']['releaseStatus']=='verified', cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'), cid
+        assert meta['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17', cid
+        assert resolve(history,meta,'2013-08-16') is None, cid
+    assert statuses=={'estimated':41,'verified':574}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
