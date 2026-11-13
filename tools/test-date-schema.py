@@ -341,7 +341,25 @@ def main():
         assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
         assert source['releaseEvidence']['deckLastUpdatedKST'].startswith('2013-08-17'),cid
         assert resolve(history,source,'2013-08-16') is None,cid
-    assert statuses=={'estimated':319,'verified':296}
+    # Original beta-generated child card IDs. Each parent existed in a
+    # first-day playable 3664 deck and its original text created the child.
+    token_parent_pairs=(('DREAM_01','EX1_572'),('DREAM_02','EX1_572'),('DREAM_03','EX1_572'),('DREAM_04','EX1_572'),('DREAM_05','EX1_572'),('EX1_110t','EX1_110'),('EX1_tk29','EX1_083'),('EX1_tk28','EX1_083'),('NEW1_040t','NEW1_040'),('EX1_014t','EX1_014'),('NEW1_032','NEW1_031'),('NEW1_033','NEW1_031'),('NEW1_034','NEW1_031'),('EX1_383t','EX1_383'),('EX1_573t','EX1_573'),('EX1_554t','EX1_554'),('EX1_130a','EX1_130'),('EX1_158t','EX1_158'),('EX1_165a','EX1_165'),('EX1_165b','EX1_165'),('EX1_165t1','EX1_165'),('EX1_165t2','EX1_165'),('EX1_625t','EX1_625'),('EX1_625t2','EX1_625'),('EX1_345t','EX1_345'),('EX1_614t','EX1_614'))
+    archived_children=load(ROOT/'original/1.0.0.3664-descriptions.json')['cards']
+    for cid, pid in token_parent_pairs:
+        token, meta = read_card(ROOT,cid)
+        parent, parent_meta = read_card(ROOT,pid)
+        assert meta['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert parent_meta['release']=={'date':'2013-08-17','status':'verified'},pid
+        assert list(token)[0]=='2013-08-17' and not token['2013-08-17']['collectible'],cid
+        assert archived_children[cid]['status'] in ('available','no-description-tag'),cid
+        assert meta['releaseEvidence']['parentCardId']==pid,cid
+        assert resolve(token,meta,'2013-08-16') is None,cid
+    # EX1_538t originally had a different ENCHANTMENT role; parent
+    # availability alone is insufficient to verify its modern Hound form.
+    hound, hound_meta = read_card(ROOT,'EX1_538t')
+    assert hound_meta['release']['status']=='estimated'
+    assert hound['2013-12-11']['name']=='사냥개'
+    assert statuses=={'estimated':293,'verified':322}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
