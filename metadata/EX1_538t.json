@@ -3,11 +3,11 @@
   "id": "EX1_538t",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2013-12-11",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Summonable 1/1 Hound MINION only became playable when beta patch 1.0.0.4217 reworked Unleash the Hounds. North American Dec 10 2013 deployment is Dec 11 in Korea time. Earlier EX1_538t ENCHANTMENT '풀려남' (+1 Attack and Charge) was not a Hound minion and is excluded from the playable Hound timeline; immutable originalSource retains the early role.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2447,8 +2447,8 @@
       }
     ],
     "watermark": "Set1_Icon",
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2013-12-11",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2476,5 +2476,19 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-12-11",
+    "timezone": "Asia/Seoul",
+    "parentCardId": "EX1_538",
+    "firstPlayableNativeVersion": "1.0.0.4217",
+    "previousIdRole": "ENCHANTMENT (풀려남)",
+    "firstPlayableRole": "MINION (사냥개), 1/1 BEAST CHARGE",
+    "dateBasis": "Patch available December 10 2013 in North America, December 11 Korea time; 2013-12-11 Korean reporting explicitly confirms North American server applied patch.",
+    "sources": [
+      "https://hearthstone.blizzard.com/en-us/news/11868609",
+      "https://www.gamemeca.com/view.php?gid=462101",
+      "https://hearthstone.wiki.gg/wiki/Hound"
+    ]
+  }
 }

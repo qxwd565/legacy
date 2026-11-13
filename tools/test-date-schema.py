@@ -354,11 +354,15 @@ def main():
         assert archived_children[cid]['status'] in ('available','no-description-tag'),cid
         assert meta['releaseEvidence']['parentCardId']==pid,cid
         assert resolve(token,meta,'2013-08-16') is None,cid
-    # EX1_538t originally had a different ENCHANTMENT role; parent
-    # availability alone is insufficient to verify its modern Hound form.
+    # Hound MINION became summonable only with patch 4217 (NA date in KST).
     hound, hound_meta = read_card(ROOT,'EX1_538t')
-    assert hound_meta['release']['status']=='estimated'
+    assert list(hound)==['2013-12-11']
+    assert hound_meta['release']=={'date':'2013-12-11','status':'verified'}
     assert hound['2013-12-11']['name']=='사냥개'
+    assert hound['2013-12-11']['type']=='MINION'
+    assert resolve(hound,hound_meta,'2013-12-10') is None
+    assert resolve(hound,hound_meta,'2013-12-11')['dbfId']==1715
+    assert hound_meta['originalSource']['historicalTextObservations'][0]['name']=='풀려남'
     # Four contemporaneous live beta (build 3664) decks confirm 46 more first-use IDs.
     continued_beta_deck_ids = ('EX1_287','EX1_295','EX1_612','tt_010','EX1_559','EX1_279','EX1_080','NEW1_021','EX1_055','NEW1_020','EX1_584','EX1_093','NEW1_026','EX1_620','EX1_277','CS2_031','NEW1_012','CS2_025','EX1_608','CS2_023','CS2_026','EX1_294','EX1_594','CS2_029','CS2_022','CS2_033','NEW1_023','EX1_049','CS2_197','CS2_227','EX1_283','EX1_390','EX1_096','CS2_125','CS2_124','EX1_043','EX1_284','NEW1_041','CS2_150','EX1_162','EX1_160','EX1_155','CS2_012','EX1_173','NEW1_008','EX1_017')
     for cid in continued_beta_deck_ids:
@@ -428,17 +432,14 @@ def main():
         assert meta['releaseEvidence']['parentCardId']==pid,cid
         assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
         assert resolve(state,meta,'2013-08-16') is None,cid
-    # EX1_538t had a different enchantment role before it became a Hound; its first playable role is still unresolved.
-    hound, hound_meta = read_card(ROOT, 'EX1_538t')
-    assert hound_meta['release']['status'] == 'estimated'
-    # Leeroy Whelp EX1_116t is a 4944 addition, distinct from original beta Onyxia Whelp ds1_whelptoken.
+    # Beta Whelp release kept separate from certainty about the native child ID.
     whelp, whelp_meta = read_card(ROOT, 'EX1_116t')
-    assert list(whelp) == ['2014-03-12']
-    assert whelp_meta['release'] == {'date':'2014-03-12', 'status':'verified'}
-    assert whelp_meta['releaseEvidence']['parentCardId'] == 'EX1_116'
-    assert whelp_meta['releaseEvidence']['distinctFrom'] == 'ds1_whelptoken'
-    assert resolve(whelp, whelp_meta, '2014-03-11') is None
-    assert resolve(whelp, whelp_meta, '2014-03-12')['dbfId'] == 1912
+    assert list(whelp)==['2013-08-17']
+    assert whelp_meta['release']=={'date':'2013-08-17','status':'estimated'}
+    assert whelp_meta['releaseEvidence']['parentCardId']=='EX1_116'
+    assert whelp_meta['releaseEvidence']['distinctFrom']=='ds1_whelptoken'
+    assert whelp['2013-08-17']['dbfId']==1912
+    assert '2014-03-12' not in whelp
     # Worthless Imp first beta-day generation is corroborated by original
     # 3664 Sense Demons parent/child IDs and the August 11 2013 guide version.
     imp,imp_meta=read_card(ROOT,'EX1_317t')

@@ -38,7 +38,7 @@ CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
      'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
      'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037',
      'CS2_101t2','CS2_101t3','CS2_101t4','CS2_101t5','CS2_101t6','CS2_101t7','CS2_101t8',
-     'TOY_100','TOY_101','TOY_102','TOY_103','EX1_116t'])
+     'TOY_100','TOY_101','TOY_102','TOY_103','EX1_116t','EX1_538t'])
 
 
 def old_resolve(current,history,day):
@@ -146,7 +146,10 @@ def main(fixture=None):
                     unused_draenei_race_fix = (
                         cid == 'CS2_101t6' and field == 'race'
                     )
-                    assert type_fix or beta_date_fix or first_release_race_fix or unused_draenei_race_fix,(
+                    # Old adapter has no pre-release visibility gate; only the
+                    # previous enchantment name is intentionally no longer projected.
+                    pre_hound_role_fix=(cid=='EX1_538t' and day<'2013-12-11' and field=='name' and actual.get('name')=='사냥개' and before.get('name')=='풀려남')
+                    assert type_fix or beta_date_fix or first_release_race_fix or unused_draenei_race_fix or pre_hound_role_fix,(
                         cid,day,field,actual.get(field),before.get(field))
                     corrections.append({'id':cid,'date':day,'field':field,'before':before.get(field),'after':actual.get(field)})
             if actual['type']=='WEAPON':

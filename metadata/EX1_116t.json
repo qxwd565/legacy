@@ -3,11 +3,11 @@
   "id": "EX1_116t",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2014-03-12",
-    "status": "verified"
+    "date": "2013-08-17",
+    "status": "estimated"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "The distinct Leeroy Whelp EX1_116t (DBF 1912) first appears in native build 1.0.0.4944 and is documented as added in that patch; playable parent EX1_116 already summoned two Whelps. North American patch availability on 2014-03-11 converts to 2014-03-12 Asia/Seoul. Do not substitute 2013 beta Onyxia Whelp ds1_whelptoken (DBF 54). Release-day availability evidence is not an individual combat log; historical baseline stats remain partially verified.",
+  "confidenceNote": "User-confirmed first playable Whelp role dates to the 2013-08-17 (Asia/Seoul) beta opening, when Leeroy Jenkins EX1_116 already generated Whelps. Retain estimated confidence because exact EX1_116t native child ID is not independently documented in 3664; the earliest observed EX1_116t native snapshot is build 4944, and ds1_whelptoken is a separate older ID. Original raw client evidence is untouched.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -1095,8 +1095,8 @@
       }
     ],
     "watermark": "Set1_Icon",
-    "releasedAt": "2014-03-12",
-    "releaseStatus": "verified"
+    "releasedAt": "2013-08-17",
+    "releaseStatus": "estimated"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -1125,17 +1125,14 @@
     "type"
   ],
   "releaseEvidence": {
-    "date": "2014-03-12",
+    "date": "2013-08-17",
     "timezone": "Asia/Seoul",
-    "firstNativeVersion": "1.0.0.4944",
     "parentCardId": "EX1_116",
     "distinctFrom": "ds1_whelptoken",
-    "dateBasis": "First usable identity of EX1_116t when patch 4944 was live in North America on March 11, 2014 (March 12 Korea time). Distinct from the older ds1_whelptoken. Based on original native Windows version 4944, patch addition records, and already-playable Leeroy Jenkins generation, not solely on installed art or a later Korean-region server rollout.",
-    "verificationLimits": "No dated match log for the new token ID; first available generation, not proof of a particular match. Historical stat baseline is separate.",
+    "dateBasis": "User-confirmed first playable Whelp via original beta playable Leeroy Jenkins; North America August 16 converts to August 17 Korea time.",
+    "evidenceLimit": "Same exact EX1_116t identifier was not independently confirmed from first 3664 native build, so metadata status remains estimated and earliest later client observation is not conflated with actual availability.",
     "sources": [
-      "https://hearthstone.wiki.gg/wiki/Whelp_%28Legacy%29",
-      "https://hearthstone.blizzard.com/en-us/news/13154924/hearthstone-patch-notes-1004944-all-that-glitters-3-11-2014",
-      "https://www.inven.co.kr/webzine/news/?news=105866",
+      "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
       "https://hearthstone.wiki.gg/wiki/Leeroy_Jenkins"
     ]
   }

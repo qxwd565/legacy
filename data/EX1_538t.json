@@ -1,5 +1,5 @@
 {
-  "2013-08-17": {
+  "2013-12-11": {
     "dbfId": 1715,
     "cost": 1,
     "health": 1,
@@ -11,16 +11,12 @@
       "CHARGE"
     ],
     "id": "EX1_538t",
-    "name": "풀려남",
+    "name": "사냥개",
     "type": "MINION",
     "cardClass": "HUNTER",
     "rarity": "FREE",
     "race": "BEAST",
     "collectible": false,
-    "text": "공격력 +1, <b>돌진</b>"
-  },
-  "2013-12-11": {
-    "name": "사냥개",
     "text": "<b>돌진</b>"
   }
 }
