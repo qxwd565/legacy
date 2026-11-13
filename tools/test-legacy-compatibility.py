@@ -38,7 +38,7 @@ CORRECTED_FIRST_PLAYABLE_IDS = VERIFIED_HERO_POWER_RELEASES | frozenset(
      'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',
      'LEG_CS3_034','LEG_CS3_036','LEG_CS3_037',
      'CS2_101t2','CS2_101t3','CS2_101t4','CS2_101t5','CS2_101t6','CS2_101t7','CS2_101t8',
-     'TOY_100','TOY_101','TOY_102','TOY_103'])
+     'TOY_100','TOY_101','TOY_102','TOY_103','EX1_116t'])
 
 
 def old_resolve(current,history,day):

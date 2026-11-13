@@ -428,9 +428,17 @@ def main():
         assert meta['releaseEvidence']['parentCardId']==pid,cid
         assert archived_3664[cid]['status'] in ('available','no-description-tag'),cid
         assert resolve(state,meta,'2013-08-16') is None,cid
-    for cid in ('EX1_538t','EX1_116t'):
-        state,meta=read_card(ROOT,cid)
-        assert meta['release']['status']=='estimated',cid
+    # EX1_538t had a different enchantment role before it became a Hound; its first playable role is still unresolved.
+    hound, hound_meta = read_card(ROOT, 'EX1_538t')
+    assert hound_meta['release']['status'] == 'estimated'
+    # Leeroy Whelp EX1_116t is a 4944 addition, distinct from original beta Onyxia Whelp ds1_whelptoken.
+    whelp, whelp_meta = read_card(ROOT, 'EX1_116t')
+    assert list(whelp) == ['2014-03-12']
+    assert whelp_meta['release'] == {'date':'2014-03-12', 'status':'verified'}
+    assert whelp_meta['releaseEvidence']['parentCardId'] == 'EX1_116'
+    assert whelp_meta['releaseEvidence']['distinctFrom'] == 'ds1_whelptoken'
+    assert resolve(whelp, whelp_meta, '2014-03-11') is None
+    assert resolve(whelp, whelp_meta, '2014-03-12')['dbfId'] == 1912
     # Worthless Imp first beta-day generation is corroborated by original
     # 3664 Sense Demons parent/child IDs and the August 11 2013 guide version.
     imp,imp_meta=read_card(ROOT,'EX1_317t')
@@ -439,7 +447,7 @@ def main():
     assert imp['2013-08-17']['collectible'] is False
     assert archived_3664['EX1_317t']['status']=='available'
     assert resolve(imp,imp_meta,'2013-08-16') is None
-    assert statuses=={'estimated':2,'verified':613}
+    assert statuses=={'estimated':1,'verified':614}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
