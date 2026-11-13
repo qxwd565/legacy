@@ -112,7 +112,14 @@ def main(fixture=None):
                         and day < meta['release']['date']
                         and field == 'race'
                     )
-                    assert type_fix or beta_date_fix or first_release_race_fix,(
+                    # The unused Draenei art entity has no proven playable date.
+                    # Its unverified client-only race appeared in 31.0 and is
+                    # retained as an undated observation, not a 2013 assertion.
+                    unused_draenei_race_fix = (
+                        cid == 'CS2_101t6' and day < '2024-10-30'
+                        and field == 'race'
+                    )
+                    assert type_fix or beta_date_fix or first_release_race_fix or unused_draenei_race_fix,(
                         cid,day,field,actual.get(field),before.get(field))
                     corrections.append({'id':cid,'date':day,'field':field,'before':before.get(field),'after':actual.get(field)})
             if actual['type']=='WEAPON':
