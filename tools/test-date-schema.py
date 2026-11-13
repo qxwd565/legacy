@@ -308,7 +308,18 @@ def main():
     assert original_meta['releaseEvidence']['originalHeroPowerIdIn2013']=='CS2_102'
     assert original_meta['release']=={'date':'2013-08-17','status':'verified'}
     assert resolve(original,original_meta,'2013-08-17')['dbfId']==725
-    assert statuses=={'estimated':454,'verified':161}
+    # Original 3664 live-beta deck IDs, cross-checked to the historical
+    # Korean CardText archive. US Aug 16 evening is Aug 17 in Korea.
+    beta_deck_ids = ('NEW1_010','EX1_012','EX1_100','NEW1_029','EX1_557','EX1_590','EX1_014','EX1_083','EX1_005','EX1_002','NEW1_024','EX1_558','EX1_116','EX1_110','NEW1_040','EX1_016','EX1_577','EX1_614','EX1_249','NEW1_038','EX1_298','EX1_561','EX1_563','EX1_560','EX1_562','EX1_572','NEW1_030')
+    beta_archive = load(ROOT/'original/1.0.0.3664-descriptions.json')['cards']
+    for cid in beta_deck_ids:
+        card, evidence = read_card(ROOT,cid)
+        assert list(card)[0]=='2013-08-17' and card['2013-08-17']['collectible'],cid
+        assert beta_archive[cid]['status']=='available',cid
+        assert evidence['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert evidence['releaseEvidence']['deckTimestampKST'].startswith('2013-08-17'),cid
+        assert resolve(card,evidence,'2013-08-16') is None,cid
+    assert statuses=={'estimated':427,'verified':188}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

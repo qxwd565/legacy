@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Original collectible appears in contemporary August 16 live beta 3664 deck (August 17 KST), cross-checked to historical client ID. Baseline gameplay values remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -317,7 +317,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -345,5 +345,17 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "effectiveDate": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "observedIn": "Hearthstone playable closed-beta deck builder",
+    "contemporaryDeck": "https://www.hearthpwn.com/decks/1602-beta-key-deck",
+    "deckTimestampUS": "2013-08-16T17:48:42-05:00",
+    "deckTimestampKST": "2013-08-17T07:48:42+09:00",
+    "evidenceChain": "Contemporaneous dated beta 3664 deck contains this collectible card; original koKR 3664 CardTextInHand archive also contains its Card ID and display description. Official Blizzard announced live Americas closed beta August 16 2013.",
+    "historicalClientArchive": "original/1.0.0.3664-descriptions.json",
+    "officialBetaAnnouncement": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "note": "First beta-play date supported; individual historical stats/effects remain separately partially verified."
+  }
 }
