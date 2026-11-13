@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First playable beta day verified by contemporaneous 3664 deck entry and Korean 3664 archive; release date only, historical stats remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -276,7 +276,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -302,5 +302,17 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "Contemporaneous playable beta deck and historical Korean 3664 card archive",
+    "deckSource": "https://www.hearthpwn.com/decks/2079-mage-deck",
+    "deckLastUpdatedUS": "2013-08-16 19:25:51 UTC-5",
+    "deckEffectiveDayKST": "2013-08-17",
+    "originalArchive": "original/1.0.0.3664-descriptions.json",
+    "officialBetaStart": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "basis": "Card directly listed in first-day beta 3664 deck, independent of preloaded client card text. This confirms earliest public play availability, not all historical stats.",
+    "caveat": "Later stats and mechanics are not promoted to launch-day verified."
+  }
 }

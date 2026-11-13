@@ -359,7 +359,17 @@ def main():
     hound, hound_meta = read_card(ROOT,'EX1_538t')
     assert hound_meta['release']['status']=='estimated'
     assert hound['2013-12-11']['name']=='사냥개'
-    assert statuses=={'estimated':293,'verified':322}
+    # Four contemporaneous live beta (build 3664) decks confirm 46 more first-use IDs.
+    continued_beta_deck_ids = ('EX1_287','EX1_295','EX1_612','tt_010','EX1_559','EX1_279','EX1_080','NEW1_021','EX1_055','NEW1_020','EX1_584','EX1_093','NEW1_026','EX1_620','EX1_277','CS2_031','NEW1_012','CS2_025','EX1_608','CS2_023','CS2_026','EX1_294','EX1_594','CS2_029','CS2_022','CS2_033','NEW1_023','EX1_049','CS2_197','CS2_227','EX1_283','EX1_390','EX1_096','CS2_125','CS2_124','EX1_043','EX1_284','NEW1_041','CS2_150','EX1_162','EX1_160','EX1_155','CS2_012','EX1_173','NEW1_008','EX1_017')
+    for cid in continued_beta_deck_ids:
+        history, proof = read_card(ROOT, cid)
+        assert list(history)[0]=='2013-08-17' and history['2013-08-17']['collectible'], cid
+        assert proof['release']=={'date':'2013-08-17','status':'verified'}, cid
+        assert proof['currentCatalog']['releaseStatus']=='verified', cid
+        assert archived_3664[cid]['status']=='available', cid
+        assert proof['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17', cid
+        assert resolve(history,proof,'2013-08-16') is None, cid
+    assert statuses=={'estimated':247,'verified':368}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
