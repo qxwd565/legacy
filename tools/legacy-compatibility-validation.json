@@ -1,16 +1,32 @@
 {
   "result": "pass",
   "oldPluginBase": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
-  "currentCards": 609,
-  "currentCatalogueMatchesPinnedOriginal": true,
-  "legacyDateCases": 7327,
-  "artURLChecks": 3654,
+  "currentCards": 615,
+  "previousCatalogueMatchesPinnedOriginal": true,
+  "addedTokenCards": [
+    "CS3_002t",
+    "OG_044a",
+    "RLK_077t",
+    "RLK_085t",
+    "RLK_226t",
+    "RLK_705t",
+    "RLK_907t"
+  ],
+  "legacyDateCases": 7363,
+  "artURLChecks": 3648,
   "missingAssets": 0,
-  "rootHistoryBytes": 213391,
-  "preciseHistoryBytes": 492774,
+  "rootHistoryBytes": 226233,
+  "preciseHistoryBytes": 508061,
   "visibility": "unchanged; no new release/strict gating",
   "reviewedHistoryCorrections": [
     {
+      "id": "EX1_067",
+      "date": "2013-12-11",
+      "field": "health",
+      "before": 3,
+      "after": 2
+    },
+    {
       "id": "EX1_323",
       "date": "2013-08-17",
       "field": "attack",
@@ -177,6 +193,104 @@
       "field": "type",
       "before": "HERO",
       "after": "MINION"
+    },
+    {
+      "id": "EX1_538",
+      "date": "2013-12-11",
+      "field": "cost",
+      "before": 1,
+      "after": 4
+    },
+    {
+      "id": "EX1_538t",
+      "date": "2013-12-11",
+      "field": "name",
+      "before": "풀려남",
+      "after": "사냥개"
+    },
+    {
+      "id": "CS1_113",
+      "date": "2013-12-11",
+      "field": "cost",
+      "before": 8,
+      "after": 10
+    },
+    {
+      "id": "CS2_237",
+      "date": "2013-12-11",
+      "field": "health",
+      "before": 2,
+      "after": 1
+    },
+    {
+      "id": "EX1_019",
+      "date": "2013-12-11",
+      "field": "health",
+      "before": 3,
+      "after": 2
+    },
+    {
+      "id": "LEG_RLK_071",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_079",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_082",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_085",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_115",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_226",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_744",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_752",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
+    },
+    {
+      "id": "LEG_RLK_753",
+      "date": "2022-11-29",
+      "field": "race",
+      "before": "",
+      "after": "언데드"
     }
   ]
 }

@@ -1,25 +1,21 @@
 {
   "result": "pass",
-  "sourceCards": 609,
-  "currentCards": 609,
-  "datedSources": 607,
-  "undatedSources": [
-    "skele21",
-    "ds1_whelptoken"
-  ],
+  "sourceCards": 615,
+  "currentCards": 615,
+  "datedSources": 615,
+  "undatedSources": [],
   "sourceReleaseStatus": {
-    "verified": 74,
-    "estimated": 533,
-    "pending": 2
+    "verified": 161,
+    "estimated": 454
   },
-  "boundarySnapshots": 6718,
-  "losslessSourceChecks": 609,
+  "boundarySnapshots": 7281,
+  "losslessSourceChecks": 615,
   "runtimeTypes": {
-    "MINION": 332,
+    "MINION": 339,
     "SPELL": 232,
     "WEAPON": 19,
-    "HERO_POWER": 24,
-    "HERO": 2
+    "HERO": 2,
+    "HERO_POWER": 23
   },
   "syntheticTypes": [
     "MINION",
@@ -31,7 +27,7 @@
     "ENCHANTMENT"
   ],
   "strict": "opt-in; all incompletely verified baselines refused, no confidence promotion",
-  "historyBytes": 492774,
+  "historyBytes": 508061,
   "intentionalCurrentProjectionChanges": [
     {
       "id": "BG31_BOB",
@@ -207,6 +203,7 @@
     {
       "id": "CORE_EDR_004",
       "changes": {
+        "text": "<b>되돌리기</b>, <b>전투의 함성:</b> <b>어둠의 선물</b> 능력이 있는 야수를 <b>발견</b>합니다. <b>유사:</b> 그 야수의 비용이 (1) 감소합니다.",
         "__remove": [
           "armor",
           "durability"
@@ -925,7 +922,9 @@
       "changes": {
         "__remove": [
           "armor",
-          "durability"
+          "durability",
+          "race",
+          "races"
         ]
       }
     },
@@ -944,17 +943,6 @@
         "__remove": [
           "armor",
           "durability"
-        ]
-      }
-    },
-    {
-      "id": "CS2_102_H3",
-      "changes": {
-        "__remove": [
-          "armor",
-          "attack",
-          "durability",
-          "health"
         ]
       }
     },
@@ -1358,6 +1346,7 @@
     {
       "id": "CS2_203",
       "changes": {
+        "text": "<b>전투의 함성:</b> 하수인을 <b>침묵</b>시킵니다.",
         "__remove": [
           "armor",
           "durability"
@@ -1513,6 +1502,15 @@
           "attack",
           "durability",
           "health"
+        ]
+      }
+    },
+    {
+      "id": "CS3_002t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
         ]
       }
     },
@@ -1985,6 +1983,7 @@
     {
       "id": "EX1_014",
       "changes": {
+        "text": "<b>전투의 함성:</b> 상대편에게 바나나를 2개 줍니다.",
         "__remove": [
           "armor",
           "durability"
@@ -3689,6 +3688,7 @@
     {
       "id": "EX1_362",
       "changes": {
+        "text": "<b>전투의 함성:</b><br></br>아군 하수인에게 <b>천상의 보호막</b>을 부여합니다.",
         "__remove": [
           "armor",
           "durability"
@@ -3730,6 +3730,7 @@
     {
       "id": "EX1_371",
       "changes": {
+        "text": "하수인에게 <b>천상의 보호막</b>을 부여합니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5014,6 +5015,7 @@
     {
       "id": "HERO_04bp",
       "changes": {
+        "text": "[x]<b>영웅 능력</b><br></br>{0} 은빛 성기사단<br></br>신병을 소환합니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5025,6 +5027,7 @@
     {
       "id": "HERO_04bp2",
       "changes": {
+        "text": "[x]<b>영웅 능력</b><br></br>{0} 은빛 성기사단<br></br>신병을 2명 소환합니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5036,6 +5039,7 @@
     {
       "id": "HERO_05bp",
       "changes": {
+        "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $2 줍니다.@<b>영웅 능력</b><br></br>피해를 $2 줍니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5047,6 +5051,7 @@
     {
       "id": "HERO_05bp2",
       "changes": {
+        "text": "<b>영웅 능력</b><br></br>적 영웅에게 피해를 $3 줍니다.@<b>영웅 능력</b><br></br>피해를 $3 줍니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5233,6 +5238,7 @@
     {
       "id": "LEG_CS3_033",
       "changes": {
+        "text": "<b>전투의 함성:</b> 모든 종류의 <b>꿈 카드</b>를 1장씩 내 손으로 가져옵니다.",
         "__remove": [
           "armor",
           "durability"
@@ -5443,6 +5449,7 @@
     {
       "id": "LEG_TTN_908",
       "changes": {
+        "text": "아군 하수인이 공격할 때마다 그 하수인에게 +2/+1을 부여합니다.<br></br>@턴 동안 지속됩니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5639,6 +5646,7 @@
     {
       "id": "NEW1_016",
       "changes": {
+        "text": "<b>전투의 함성:</b> 내 덱에서 해적을 뽑습니다.",
         "__remove": [
           "armor",
           "durability"
@@ -5648,6 +5656,7 @@
     {
       "id": "NEW1_017",
       "changes": {
+        "text": "<b>전투의 함성:</b> 멀록을 처치하고 +2/+2를 얻습니다.",
         "__remove": [
           "armor",
           "durability"
@@ -5774,6 +5783,7 @@
     {
       "id": "NEW1_031",
       "changes": {
+        "text": "무작위 동료 야수를 소환합니다.",
         "__remove": [
           "armor",
           "attack",
@@ -5859,6 +5869,16 @@
     {
       "id": "NEW1_041",
       "changes": {
+        "text": "<b>전투의 함성:</b> 공격력이 2 이하인 무작위 적 하수인을 처치합니다.",
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "OG_044a",
+      "changes": {
         "__remove": [
           "armor",
           "durability"
@@ -5930,11 +5950,57 @@
     {
       "id": "PRO_001c",
       "changes": {
+        "text": "무작위 호드 전사를 소환합니다.",
         "__remove": [
           "armor",
           "attack",
           "durability",
           "health"
+        ]
+      }
+    },
+    {
+      "id": "RLK_077t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "RLK_085t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "RLK_226t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "RLK_705t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
+    {
+      "id": "RLK_907t",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
         ]
       }
     },
