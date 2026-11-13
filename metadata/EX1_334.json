@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First beta-play date verified from contemporaneous original Priest deck and historic client card archive. Historical gameplay attributes remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -315,7 +315,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -339,5 +339,17 @@
     "spellSchool",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "Contemporaneous 3664 beta deck plus Korean original card-text snapshot",
+    "deckSource": "https://www.hearthpwn.com/decks/1660-priest",
+    "deckLastUpdatedUS": "2013-08-16 17:58:35 UTC-5",
+    "deckEffectiveDayKST": "2013-08-17",
+    "originalArchive": "original/1.0.0.3664-descriptions.json",
+    "officialBetaStart": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "basis": "Original Priest playable deck from the live beta day includes the card; independently present in Korean 3664 CardText. This is distinct from client asset preloading.",
+    "caveat": "Baseline gameplay effects not automatically verified."
+  }
 }

@@ -319,7 +319,18 @@ def main():
         assert evidence['release']=={'date':'2013-08-17','status':'verified'},cid
         assert evidence['releaseEvidence']['deckTimestampKST'].startswith('2013-08-17'),cid
         assert resolve(card,evidence,'2013-08-16') is None,cid
-    assert statuses=={'estimated':427,'verified':188}
+    # Contemporaneous Priest/Hunter day-one beta decks (16-17 Aug 2013 US)
+    # cross-checked against every original 3664 CardTextInHand card ID.
+    new_beta_deck_ids = ('EX1_621','EX1_332','CS1_130','CS1_129','CS2_003','CS2_004','CS2_236','EX1_341','DS1_233','EX1_622','CS2_234','EX1_625','EX1_339','CS1_112','EX1_334','EX1_591','EX1_626','EX1_345','EX1_624','EX1_350','CS1_113','EX1_623','EX1_091','DS1_185','EX1_549','EX1_544','CS2_084','EX1_610','EX1_533','EX1_554','EX1_609','NEW1_031','EX1_617','EX1_536','DS1_183','EX1_537','DS1_175','EX1_611','EX1_531','CS2_237','EX1_539','EX1_538','DS1_070','DS1_178','EX1_543')
+    beta_archive_cards = load(ROOT/'original/1.0.0.3664-descriptions.json')['cards']
+    for cid in new_beta_deck_ids:
+        history, proof = read_card(ROOT,cid)
+        assert list(history)[0]=='2013-08-17' and history['2013-08-17']['collectible'],cid
+        assert proof['release']=={'date':'2013-08-17','status':'verified'},cid
+        assert beta_archive_cards[cid]['status']=='available',cid
+        assert proof['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17',cid
+        assert resolve(history,proof,'2013-08-16') is None,cid
+    assert statuses=={'estimated':382,'verified':233}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

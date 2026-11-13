@@ -101,6 +101,9 @@ def main():
     # Confirmed in the live closed-beta 3664 dated deck listing.
     for cid in ('NEW1_010','EX1_012','EX1_100','NEW1_029','EX1_557','EX1_590','EX1_014','EX1_083','EX1_005','EX1_002','NEW1_024','EX1_558','EX1_116','EX1_110','NEW1_040','EX1_016','EX1_577','EX1_614','EX1_249','NEW1_038','EX1_298','EX1_561','EX1_563','EX1_560','EX1_562','EX1_572','NEW1_030'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
+    # Priest and Hunter original beta deck evidence.
+    for cid in ('EX1_621','EX1_332','CS1_130','CS1_129','CS2_003','CS2_004','CS2_236','EX1_341','DS1_233','EX1_622','CS2_234','EX1_625','EX1_339','CS1_112','EX1_334','EX1_591','EX1_626','EX1_345','EX1_624','EX1_350','CS1_113','EX1_623','EX1_091','DS1_185','EX1_549','EX1_544','CS2_084','EX1_610','EX1_533','EX1_554','EX1_609','NEW1_031','EX1_617','EX1_536','DS1_183','EX1_537','DS1_175','EX1_611','EX1_531','CS2_237','EX1_539','EX1_538','DS1_070','DS1_178','EX1_543'):
+        assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     # Beta reward and first-playable generated inventions.
     for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
