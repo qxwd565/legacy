@@ -62,6 +62,13 @@ def main():
         migrated += 1
     def get(cid):
         return compatibility_card(ROOT, cid)
+    # Reject the former imaginary 2013 dates of enhanced powers / Demon Hunter.
+    releases = {**{f'HERO_{n:02d}bp2': '2015-08-25' for n in range(1, 10)},
+                'HERO_10bp': '2020-04-08', 'HERO_10bp2': '2020-04-08'}
+    for cid, release_day in releases.items():
+        hero_power = get(cid)
+        assert (hero_power['releasedAt'], hero_power['releaseStatus']) == (release_day, 'verified'), cid
+        assert all(ev['date'] > release_day for ev in hero_power['patches']), cid
     if get("EX1_016")["cost"] != 5:
         raise AssertionError("Sylvanas must debut at 5 mana")
     if not any(x["date"] == "2014-01-17" and x["changes"].get("cost") == 6

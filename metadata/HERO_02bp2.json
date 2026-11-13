@@ -3,11 +3,11 @@
   "id": "HERO_02bp2",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2015-08-25",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First playable date verified from official Blizzard notices. Historical gameplay baseline remains partially verified. Original source remains immutable.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -136,8 +136,8 @@
         "value": 10
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2015-08-25",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -160,5 +160,20 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2015-08-25",
+    "timezone": "Asia/Seoul",
+    "criterion": "First normal-play availability, not client data preload",
+    "basis": "Justicar Trueheart upgraded the nine original class powers starting with the Grand Tournament release in Asia.",
+    "sources": [
+      "https://hearthstone.blizzard.com/en-us/news/19819221/the-grand-tournament-hero-powers-7-23-2015.%C2%A0",
+      "https://hearthstone.blizzard.com/en-us/blog/19843162/"
+    ],
+    "removedFalseFirstDate": "2013-08-17",
+    "absorbedDatedRecords": [
+      "2013-08-17",
+      "2015-08-25"
+    ]
+  }
 }

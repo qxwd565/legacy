@@ -197,7 +197,16 @@ def main():
         for change in timeline.values():
             if 'text' in change:
                 assert '\n' not in change['text'] and '\\n' not in change['text'] and '/n' not in change['text']
-    assert statuses=={'estimated':533,'verified':83}
+    # Historical existence must start on the verified first normal-play day.
+    releases = {**{f'HERO_{n:02d}bp2': '2015-08-25' for n in range(1, 10)},
+                'HERO_10bp': '2020-04-08', 'HERO_10bp2': '2020-04-08'}
+    for cid, first_day in releases.items():
+        history, evidence = read_card(ROOT, cid)
+        assert list(history)[0] == first_day and '2013-08-17' not in history, cid
+        assert evidence['release'] == {'date': first_day, 'status': 'verified'}, cid
+        assert resolve(history, evidence, (date.fromisoformat(first_day) - timedelta(days=1)).isoformat()) is None, cid
+        assert history[first_day]['text'], (cid, 'first-playable text missing')
+    assert statuses=={'estimated':522,'verified':94}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)

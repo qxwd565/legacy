@@ -3,11 +3,11 @@
   "id": "HERO_10bp2",
   "timezone": "Asia/Seoul",
   "release": {
-    "date": "2013-08-17",
-    "status": "estimated"
+    "date": "2020-04-08",
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "First playable date verified from official Blizzard notices. Historical gameplay baseline remains partially verified. Original source remains immutable.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -149,8 +149,8 @@
         "value": 10
       }
     ],
-    "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releasedAt": "2020-04-08",
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -173,5 +173,20 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2020-04-08",
+    "timezone": "Asia/Seoul",
+    "criterion": "First normal-play availability, not client preload or solo prologue",
+    "basis": "Demon Hunter was unlocked for constructed/ranked on Apr 7 2020 10:00 PDT (Apr 8 KST). The earlier solo prologue was not normal-play availability.",
+    "sources": [
+      "https://hearthstone.blizzard.com/en-us/news/23305788/introducing-the-demon-hunter",
+      "https://hearthstone.blizzard.com/en-gb/news/23369565/ashes-of-outland-and-the-demon-hunter-are-now-live"
+    ],
+    "removedFalseFirstDate": "2013-08-17",
+    "absorbedDatedRecords": [
+      "2013-08-17",
+      "2020-04-08"
+    ]
+  }
 }
