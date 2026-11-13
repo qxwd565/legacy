@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2013-08-17",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Existing dates and baseline values are preserved, not independently promoted to verified. Strict historical lookup remains unavailable while baseline verification is incomplete.",
+  "confidenceNote": "Actual first beta-day generation supported by separately verified original parent effect, first-day live deck and native 3664 child ID; historical stats remain partially verified.",
   "sourceCommit": "7704a5e6217323415c7f7d9d0f9d17f444448d2a",
   "originalSource": {
     "schemaVersion": 2,
@@ -2592,7 +2592,7 @@
     ],
     "watermark": "Set1_Icon",
     "releasedAt": "2013-08-17",
-    "releaseStatus": "estimated"
+    "releaseStatus": "verified"
   },
   "currentOnlyFields": [
     "nativeTags",
@@ -2619,5 +2619,18 @@
     "rarity",
     "text",
     "type"
-  ]
+  ],
+  "releaseEvidence": {
+    "date": "2013-08-17",
+    "timezone": "Asia/Seoul",
+    "parentCardId": "EX1_160",
+    "criterion": "First actually generatable child through live day-one beta parent, not imported card text or modern reprint date",
+    "basis": "The parent was in an independently verified live 3664 beta-day deck. The Korean original 3664 parent text enables this exact child action/token and the child's historical ID exists in the same native archive. Date refers to first possible in-game generation; not certification of current client stats or later artwork.",
+    "parentReleaseSource": "metadata/EX1_160.json",
+    "parentDeckSource": "https://www.hearthpwn.com/decks/2282-druid-deck",
+    "historicalCardArchive": "original/1.0.0.3664-descriptions.json",
+    "childArchiveStatus": "no-description-tag",
+    "officialBetaAnnouncement": "https://hearthstone.blizzard.com/en-us/news/10639928/hearthstone-closed-beta-test-begins-8-16-2013",
+    "caveat": "Historical token version and statistics remain partially verified."
+  }
 }

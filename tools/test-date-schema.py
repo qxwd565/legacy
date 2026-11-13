@@ -369,7 +369,21 @@ def main():
         assert archived_3664[cid]['status']=='available', cid
         assert proof['releaseEvidence']['deckEffectiveDayKST']=='2013-08-17', cid
         assert resolve(history,proof,'2013-08-16') is None, cid
-    assert statuses=={'estimated':247,'verified':368}
+    # First-day children: independent playable parent deck + archived original
+    # Korean effect text + the same original native child ID.
+    continued_beta_child_pairs = (('EX1_160t','EX1_160'),('CS2_tk1','CS2_022'),('NEW1_026t','NEW1_026'),('EX1_155a','EX1_155'),('EX1_155b','EX1_155'),('EX1_160a','EX1_160'),('EX1_160b','EX1_160'),('NEW1_008a','NEW1_008'),('NEW1_008b','NEW1_008'))
+    for cid, pid in continued_beta_child_pairs:
+        history, meta = read_card(ROOT, cid)
+        parent_history, parent_meta = read_card(ROOT, pid)
+        assert meta['release']=={'date':'2013-08-17','status':'verified'}, cid
+        assert parent_meta['release']=={'date':'2013-08-17','status':'verified'}, pid
+        assert meta['currentCatalog']['releaseStatus']=='verified', cid
+        assert meta['releaseEvidence']['parentCardId']==pid, cid
+        assert archived_3664[cid]['status'] in ('available','no-description-tag'), cid
+        assert list(history)[0]=='2013-08-17' and not history['2013-08-17']['collectible'], cid
+        assert list(parent_history)[0]=='2013-08-17' and parent_history['2013-08-17']['collectible'], pid
+        assert resolve(history,meta,'2013-08-16') is None, cid
+    assert statuses=={'estimated':238,'verified':377}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
