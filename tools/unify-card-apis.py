@@ -208,13 +208,25 @@ def main():
     if catalog.get('schema', 1) != 1 or not isinstance(catalog.get('cards'), list):
         raise ValueError('cards.json must match Legacy index schema 1')
     ids = [row.get('id') for row in catalog['cards']]
-    if len(set(ids)) != len(ids) or set(ids) != {p.stem for p in (root / 'data').glob('*.json')}:
+    if len(set(ids)) != len(ids):
+        raise ValueError('duplicate card ID in catalog')
+    data_files = {p.stem: p for p in (root / 'data').glob('*.json')}
+    aggregate_path = data_files.pop('history', None)
+    if set(ids) != set(data_files):
         raise ValueError('catalog/card ID mismatch: abort instead of dropping cards')
     writes, errors = {}, []
+    if aggregate_path:
+        agg = json.loads(aggregate_path.read_text(encoding='utf-8'))
+        if agg.get('schema') != 1 or agg.get('format') != 'date-first-delta' or not isinstance(agg.get('events'), dict):
+            raise ValueError('unknown data/history.json cannot be relocated')
+        evidence_path = root / 'metadata' / 'history-aggregate.json'
+        if evidence_path.exists() and json.loads(evidence_path.read_text(encoding='utf-8')) != agg:
+            raise ValueError('existing history evidence conflicts; review required')
+        writes[evidence_path] = pretty(agg)
     if 'schema' not in catalog:
         writes[root / 'cards.json'] = pretty({'schema': 1, **catalog})
     stats = {'scanned': 0, 'normalized': 0, 'metadata': 0, 'wrappers': 0}
-    for path in sorted((root / 'data').glob('*.json')):
+    for path in sorted(data_files.values()):
         stats['scanned'] += 1
         try:
             original = json.loads(path.read_text(encoding='utf-8'))
@@ -253,7 +265,10 @@ def main():
             path.parent.mkdir(parents=True, exist_ok=True)
             if not path.exists() or path.read_text(encoding='utf-8') != content:
                 path.write_text(content, encoding='utf-8', newline='\n')
-    print(json.dumps({'mode': 'apply' if args.apply else 'audit', **stats}, ensure_ascii=False))
+        if aggregate_path:
+            aggregate_path.unlink()
+    print(json.dumps({'mode': 'apply' if args.apply else 'audit',
+                      'relocatedHistoryAggregate': bool(aggregate_path), **stats}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
