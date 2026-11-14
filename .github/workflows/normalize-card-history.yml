@@ -4,6 +4,7 @@ on:
     paths:
       - '.github/workflows/normalize-card-history.yml'
       - 'tools/build-api.py'
+      - 'tools/import-basic-death-knight.py'
       - 'tools/build_date_api.py'
       - 'tools/legacy_projection.py'
       - 'tools/test-legacy-compatibility.py'
