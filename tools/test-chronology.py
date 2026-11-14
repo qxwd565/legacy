@@ -48,6 +48,11 @@ def main():
             baseline = apply(baseline, ev["changes"], validate=True)
             dates.append(d)
         for field in SPECS:
+            if (cid in ("HERO_11bp", "HERO_11bpt") and field in ("race", "races", "spellSchool")
+                    and field not in modern and baseline.get(field) in ("", [])):
+                # The imported BASIC source retains native exporter empty placeholders;
+                # date-first snapshots correctly omit attributes the card never had.
+                continue
             if cid == "CS2_101t6" and field in ("race", "races"):
                 # Post-retirement native Draenei tags are archived metadata,
                 # not a playable historical attribute of this recruit.
