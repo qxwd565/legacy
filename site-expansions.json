@@ -1,0 +1,334 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "sets": [
+    {
+      "name": "클로즈 베타",
+      "slug": "closed-beta",
+      "assetKey": "classic",
+      "releasedAt": "2013-08-17",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "오픈 베타",
+      "slug": "open-beta",
+      "assetKey": "classic",
+      "releasedAt": "2014-01-22",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "오리지널",
+      "slug": "classic",
+      "assetKey": "classic",
+      "releasedAt": "2014-03-12",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "낙스라마스의 저주",
+      "slug": "curse-of-naxxramas",
+      "assetKey": "curse-of-naxxramas",
+      "releasedAt": "2014-07-23",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "고블린 대 노움",
+      "slug": "goblins-vs-gnomes",
+      "assetKey": "goblins-vs-gnomes",
+      "releasedAt": "2014-12-10",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "검은바위 산",
+      "slug": "blackrock-mountain",
+      "assetKey": "blackrock-mountain",
+      "releasedAt": "2015-04-03",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "대 마상시합",
+      "slug": "the-grand-tournament",
+      "assetKey": "the-grand-tournament",
+      "releasedAt": "2015-08-25",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "탐험가 연맹",
+      "slug": "the-league-of-explorers",
+      "assetKey": "the-league-of-explorers",
+      "releasedAt": "2015-11-13",
+      "rotation": "",
+      "rotationSlug": ""
+    },
+    {
+      "name": "고대 신의 속삭임",
+      "slug": "whispers-of-the-old-gods",
+      "assetKey": "whispers-of-the-old-gods",
+      "releasedAt": "2016-04-27",
+      "rotation": "크라켄의 해",
+      "rotationSlug": "year-of-the-kraken"
+    },
+    {
+      "name": "한여름 밤의 카라잔",
+      "slug": "one-night-in-karazhan",
+      "assetKey": "one-night-in-karazhan",
+      "releasedAt": "2016-08-12",
+      "rotation": "크라켄의 해",
+      "rotationSlug": "year-of-the-kraken"
+    },
+    {
+      "name": "비열한 거리의 가젯잔",
+      "slug": "mean-streets-of-gadgetzan",
+      "assetKey": "mean-streets-of-gadgetzan",
+      "releasedAt": "2016-12-02",
+      "rotation": "크라켄의 해",
+      "rotationSlug": "year-of-the-kraken"
+    },
+    {
+      "name": "운고로를 향한 여정",
+      "slug": "journey-to-ungoro",
+      "assetKey": "journey-to-ungoro",
+      "releasedAt": "2017-04-07",
+      "rotation": "매머드의 해",
+      "rotationSlug": "year-of-the-mammoth"
+    },
+    {
+      "name": "얼어붙은 왕좌의 기사들",
+      "slug": "knights-of-the-frozen-throne",
+      "assetKey": "knights-of-the-frozen-throne",
+      "releasedAt": "2017-08-11",
+      "rotation": "매머드의 해",
+      "rotationSlug": "year-of-the-mammoth"
+    },
+    {
+      "name": "코볼트와 지하 미궁",
+      "slug": "kobolds-and-catacombs",
+      "assetKey": "kobolds-and-catacombs",
+      "releasedAt": "2017-12-08",
+      "rotation": "매머드의 해",
+      "rotationSlug": "year-of-the-mammoth"
+    },
+    {
+      "name": "마녀숲",
+      "slug": "the-witchwood",
+      "assetKey": "the-witchwood",
+      "releasedAt": "2018-04-13",
+      "rotation": "까마귀의 해",
+      "rotationSlug": "year-of-the-raven"
+    },
+    {
+      "name": "박사 붐의 폭심만만 프로젝트",
+      "slug": "the-boomsday-project",
+      "assetKey": "the-boomsday-project",
+      "releasedAt": "2018-08-08",
+      "rotation": "까마귀의 해",
+      "rotationSlug": "year-of-the-raven"
+    },
+    {
+      "name": "라스타칸의 대난투",
+      "slug": "rastakhans-rumble",
+      "assetKey": "rastakhans-rumble",
+      "releasedAt": "2018-12-05",
+      "rotation": "까마귀의 해",
+      "rotationSlug": "year-of-the-raven"
+    },
+    {
+      "name": "어둠의 반격",
+      "slug": "rise-of-shadows",
+      "assetKey": "rise-of-shadows",
+      "releasedAt": "2019-04-10",
+      "rotation": "용의 해",
+      "rotationSlug": "year-of-the-dragon"
+    },
+    {
+      "name": "울둠의 구원자",
+      "slug": "saviors-of-uldum",
+      "assetKey": "saviors-of-uldum",
+      "releasedAt": "2019-08-07",
+      "rotation": "용의 해",
+      "rotationSlug": "year-of-the-dragon"
+    },
+    {
+      "name": "용의 강림",
+      "slug": "descent-of-dragons",
+      "assetKey": "descent-of-dragons",
+      "releasedAt": "2019-12-11",
+      "rotation": "용의 해",
+      "rotationSlug": "year-of-the-dragon"
+    },
+    {
+      "name": "황폐한 아웃랜드",
+      "slug": "ashes-of-outland",
+      "assetKey": "ashes-of-outland",
+      "releasedAt": "2020-04-08",
+      "rotation": "불사조의 해",
+      "rotationSlug": "year-of-the-phoenix"
+    },
+    {
+      "name": "스칼로맨스 아카데미",
+      "slug": "scholomance-academy",
+      "assetKey": "scholomance-academy",
+      "releasedAt": "2020-08-07",
+      "rotation": "불사조의 해",
+      "rotationSlug": "year-of-the-phoenix"
+    },
+    {
+      "name": "광기의 다크문 축제",
+      "slug": "madness-at-the-darkmoon-faire",
+      "assetKey": "madness-at-the-darkmoon-faire",
+      "releasedAt": "2020-11-18",
+      "rotation": "불사조의 해",
+      "rotationSlug": "year-of-the-phoenix"
+    },
+    {
+      "name": "불모의 땅",
+      "slug": "forged-in-the-barrens",
+      "assetKey": "forged-in-the-barrens",
+      "releasedAt": "2021-03-31",
+      "rotation": "그리핀의 해",
+      "rotationSlug": "year-of-the-gryphon"
+    },
+    {
+      "name": "스톰윈드",
+      "slug": "united-in-stormwind",
+      "assetKey": "united-in-stormwind",
+      "releasedAt": "2021-08-04",
+      "rotation": "그리핀의 해",
+      "rotationSlug": "year-of-the-gryphon"
+    },
+    {
+      "name": "알터랙 계곡",
+      "slug": "fractured-in-alterac-valley",
+      "assetKey": "fractured-in-alterac-valley",
+      "releasedAt": "2021-12-08",
+      "rotation": "그리핀의 해",
+      "rotationSlug": "year-of-the-gryphon"
+    },
+    {
+      "name": "가라앉은 도시로의 항해",
+      "slug": "voyage-to-the-sunken-city",
+      "assetKey": "voyage-to-the-sunken-city",
+      "releasedAt": "2022-04-13",
+      "rotation": "히드라의 해",
+      "rotationSlug": "year-of-the-hydra"
+    },
+    {
+      "name": "나스리아 성채 살인 사건",
+      "slug": "murder-at-castle-nathria",
+      "assetKey": "murder-at-castle-nathria",
+      "releasedAt": "2022-08-03",
+      "rotation": "히드라의 해",
+      "rotationSlug": "year-of-the-hydra"
+    },
+    {
+      "name": "리치 왕의 진군",
+      "slug": "march-of-the-lich-king",
+      "assetKey": "march-of-the-lich-king",
+      "releasedAt": "2022-12-07",
+      "rotation": "히드라의 해",
+      "rotationSlug": "year-of-the-hydra"
+    },
+    {
+      "name": "전설노래자랑",
+      "slug": "festival-of-legends",
+      "assetKey": "festival-of-legends",
+      "releasedAt": "2023-04-12",
+      "rotation": "늑대의 해",
+      "rotationSlug": "year-of-the-wolf"
+    },
+    {
+      "name": "티탄",
+      "slug": "titans",
+      "assetKey": "titans",
+      "releasedAt": "2023-08-02",
+      "rotation": "늑대의 해",
+      "rotationSlug": "year-of-the-wolf"
+    },
+    {
+      "name": "황야의 땅 결투",
+      "slug": "showdown-in-the-badlands",
+      "assetKey": "showdown-in-the-badlands",
+      "releasedAt": "2023-11-15",
+      "rotation": "늑대의 해",
+      "rotationSlug": "year-of-the-wolf"
+    },
+    {
+      "name": "위즈뱅의 장난감 공방",
+      "slug": "whizbangs-workshop",
+      "assetKey": "whizbangs-workshop",
+      "releasedAt": "2024-03-20",
+      "rotation": "페가수스의 해",
+      "rotationSlug": "year-of-the-pegasus"
+    },
+    {
+      "name": "극한의 극락",
+      "slug": "perils-in-paradise",
+      "assetKey": "perils-in-paradise",
+      "releasedAt": "2024-07-24",
+      "rotation": "페가수스의 해",
+      "rotationSlug": "year-of-the-pegasus"
+    },
+    {
+      "name": "끝없는 어둠",
+      "slug": "the-great-dark-beyond",
+      "assetKey": "the-great-dark-beyond",
+      "releasedAt": "2024-11-06",
+      "rotation": "페가수스의 해",
+      "rotationSlug": "year-of-the-pegasus"
+    },
+    {
+      "name": "에메랄드의 꿈 속으로",
+      "slug": "into-the-emerald-dream",
+      "assetKey": "into-the-emerald-dream",
+      "releasedAt": "2025-03-26",
+      "rotation": "랩터의 해",
+      "rotationSlug": "year-of-the-raptor"
+    },
+    {
+      "name": "운고로의 잃어버린 도시",
+      "slug": "the-lost-city-of-ungoro",
+      "assetKey": "the-lost-city-of-ungoro",
+      "releasedAt": "2025-07-09",
+      "rotation": "랩터의 해",
+      "rotationSlug": "year-of-the-raptor"
+    },
+    {
+      "name": "시간의 길 너머로",
+      "slug": "across-the-timeways",
+      "assetKey": "across-the-timeways",
+      "releasedAt": "2025-11-05",
+      "rotation": "랩터의 해",
+      "rotationSlug": "year-of-the-raptor"
+    },
+    {
+      "name": "대격변",
+      "slug": "cataclysm",
+      "assetKey": "cataclysm",
+      "releasedAt": "2026-03-18",
+      "rotation": "딱정벌레의 해",
+      "rotationSlug": "year-of-the-beetle"
+    },
+    {
+      "name": "보랏빛 요새 탈출 작전",
+      "slug": "escape-from-violet-hold",
+      "assetKey": "escape-from-violet-hold",
+      "releasedAt": "2026-07-08",
+      "rotation": "딱정벌레의 해",
+      "rotationSlug": "year-of-the-beetle"
+    },
+    {
+      "name": "검은 제국의 지배",
+      "slug": "reign-of-the-black-empire",
+      "assetKey": "reign-of-the-black-empire",
+      "releasedAt": "2026-10-21",
+      "rotation": "딱정벌레의 해",
+      "rotationSlug": "year-of-the-beetle"
+    }
+  ]
+}
