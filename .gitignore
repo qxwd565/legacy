@@ -1,0 +1,6 @@
+# Keep derived compatibility bundles out of the public API
+/render.json
+/history.json
+/cards-date.json
+/render-date.json
+/history-date.json
