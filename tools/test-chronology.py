@@ -114,6 +114,10 @@ def main():
     for cid in ('EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t'):
         assert (get(cid)['releasedAt'],get(cid)['releaseStatus'])==('2013-08-17','verified'),cid
     assert (get('CS2_058')['releasedAt'],get('CS2_058')['releaseStatus']) == ('2021-03-31','verified')
+    choice=get('AT_132_SHAMANe')
+    assert (choice['releasedAt'],choice['releaseStatus'])==('2021-03-31','verified')
+    assert choice['dbfId']==72268 and choice['collectible'] is False and choice['type']=='MINION'
+    assert choice['cost']==1 and choice['attack']==0 and choice['health']==2
     assert all(ev['date']>'2021-03-31' for ev in get('CS2_058')['patches'])
     for cid in ('LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
                 'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',

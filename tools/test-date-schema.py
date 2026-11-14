@@ -137,7 +137,7 @@ def main():
     rendered={c['id']:c for c in load(ROOT/'render-date.json')['cards']}
     histories=load(ROOT/'history-date.json')['cards']
     taxonomy=load(ROOT/'taxonomy-history.json')
-    assert len(current)==len(rendered)==len(histories)==615
+    assert len(current)==len(rendered)==len(histories)==616
     checks=0;statuses=Counter();types=Counter();raw_checks=0;differences=[]
     for commit in {load(p)['sourceCommit'] for p in (ROOT/'metadata').glob('*.json')}:
         require_source_commit(ROOT,commit)
@@ -226,6 +226,14 @@ def main():
         history, proof = read_card(ROOT, cid)
         assert list(history)[0] == day and proof['release'] == {'date':day, 'status':'verified'}, cid
         assert resolve(history,proof,(date.fromisoformat(day)-timedelta(days=1)).isoformat()) is None, cid
+    # A distinct TGT-native Strength Totem choice, user-routed to Legacy API.
+    choice,choice_meta=read_card(ROOT,'AT_132_SHAMANe')
+    assert list(choice)==['2021-03-31'] and choice_meta['release']=={'date':'2021-03-31','status':'verified'}
+    assert choice['2021-03-31']['dbfId']==72268 and choice['2021-03-31']['collectible'] is False
+    assert choice_meta['originalSource']['nativeObserved']['originalNativeSet']=='TGT'
+    assert choice_meta['currentCatalog']['relatedDbfIds']==[62320]
+    assert 'art' not in choice_meta['currentCatalog']
+    assert resolve(choice,choice_meta,'2021-03-30') is None
     # Strength Totem was not present in initial 2013 Shaman hero-power pool.
     totem, proof = read_card(ROOT, 'CS2_058')
     assert list(totem)==['2021-03-31'] and proof['release']=={'date':'2021-03-31','status':'verified'}
@@ -448,7 +456,7 @@ def main():
     assert imp['2013-08-17']['collectible'] is False
     assert archived_3664['EX1_317t']['status']=='available'
     assert resolve(imp,imp_meta,'2013-08-16') is None
-    assert statuses=={'estimated':1,'verified':614}
+    assert statuses=={'estimated':1,'verified':615}
     expected_tokens = {'CS3_002t': ('2021-03-31', 'CS3_002'), 'RLK_077t': ('2022-12-07', 'LEG_RLK_077'), 'RLK_085t': ('2022-12-07', 'LEG_RLK_085'), 'RLK_226t': ('2022-12-07', 'LEG_RLK_226'), 'RLK_705t': ('2022-12-07', 'LEG_RLK_705'), 'RLK_907t': ('2022-12-07', 'LEG_RLK_752')}
     for token_id, (release_day, parent_id) in expected_tokens.items():
         token, token_meta = read_card(ROOT, token_id)
@@ -483,7 +491,7 @@ def main():
     # Source relations and assets are byte-for-byte untouched by this migration.
     changed=subprocess.check_output(['git','diff','--name-only'],cwd=ROOT,text=True).splitlines()
     assert not any(p.startswith(('art/','golden/')) for p in changed)
-    report={'result':'pass','sourceCards':615,'currentCards':615,'datedSources':615,
+    report={'result':'pass','sourceCards':616,'currentCards':616,'datedSources':616,
             'undatedSources':[],'sourceReleaseStatus':dict(statuses),
             'boundarySnapshots':checks,'losslessSourceChecks':raw_checks,
             'runtimeTypes':dict(types),'syntheticTypes':['MINION','SPELL','WEAPON','HERO','LOCATION','HERO_POWER','ENCHANTMENT'],

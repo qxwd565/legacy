@@ -43218,6 +43218,51 @@
       "releasedAt": "2016-04-27",
       "releaseStatus": "verified",
       "watermark": "Set1_Icon"
+    },
+    {
+      "id": "AT_132_SHAMANe",
+      "dbfId": 72268,
+      "name": "힘의 토템",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "rarity": null,
+      "collectible": false,
+      "cost": 1,
+      "text": "[x]내 턴이 끝날 때,<br></br>다른 무작위 아군<br></br>하수인에게 공격력을<br></br>+1 부여합니다.",
+      "attack": 0,
+      "health": 2,
+      "durability": 0,
+      "armor": 0,
+      "classes": [],
+      "mechanics": [],
+      "set": "legacy",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "relatedDbfIds": [
+        62320
+      ],
+      "releasedAt": "2021-03-31",
+      "releaseStatus": "verified"
     }
   ]
 }

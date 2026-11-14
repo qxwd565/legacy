@@ -2843,6 +2843,11 @@
       "date": "2013-12-11",
       "status": "verified",
       "basis": "New summonable 1/1 Hound role in patch 4217 (Dec 10 2013 NA, Dec 11 Korea), replacing early ENCHANTMENT '풀려남'. https://hearthstone.blizzard.com/en-us/news/11868609 ; https://www.gamemeca.com/view.php?gid=462101"
+    },
+    "AT_132_SHAMANe": {
+      "date": "2021-03-31",
+      "status": "verified",
+      "basis": "Choice ID AT_132_SHAMANe, DBF 72268, becomes usable when CS2_058 Strength Totem is first normal-play available 2021-03-31 KST. Explicit user routing to Legacy; actual source set TGT is preserved separately."
     }
   },
   "sources": {
