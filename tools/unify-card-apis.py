@@ -109,7 +109,7 @@ def source_events(raw):
     if isinstance(raw.get('timeline'), dict) and isinstance(raw.get('card'), dict):
         timeline = raw['timeline']
         release = timeline.get('releasedAt') or raw['card'].get('releasedAt')
-        initial = clone(timeline.get('initialSpec') or {})
+        initial = clone(timeline.get('initialSpec') if isinstance(timeline.get('initialSpec'), dict) else raw['card'])
         for field in ('id', 'dbfId'):
             if field not in initial and field in raw['card']:
                 initial[field] = raw['card'][field]
@@ -169,6 +169,8 @@ def normalize(raw, cid):
     evidence = {}
     if fmt != 'dated':
         evidence.update(sourceFormat=fmt, originalSource=raw)
+        if fmt == 'schema-v1' and not isinstance(raw['timeline'].get('initialSpec'), dict):
+            evidence['initialSpecMissing'] = True
     if excluded_by_day:
         evidence['datedExcludedFields'] = excluded_by_day
     if not timeline:
@@ -201,12 +203,14 @@ def main():
     if not (root / 'data').is_dir():
         raise ValueError('data/ missing')
     catalog = json.loads((root / 'cards.json').read_text(encoding='utf-8'))
-    if catalog.get('schema') != 1 or not isinstance(catalog.get('cards'), list):
+    if catalog.get('schema', 1) != 1 or not isinstance(catalog.get('cards'), list):
         raise ValueError('cards.json must match Legacy index schema 1')
     ids = [row.get('id') for row in catalog['cards']]
     if len(set(ids)) != len(ids) or set(ids) != {p.stem for p in (root / 'data').glob('*.json')}:
         raise ValueError('catalog/card ID mismatch: abort instead of dropping cards')
     writes, errors = {}, []
+    if 'schema' not in catalog:
+        writes[root / 'cards.json'] = pretty({'schema': 1, **catalog})
     stats = {'scanned': 0, 'normalized': 0, 'metadata': 0, 'wrappers': 0}
     for path in sorted((root / 'data').glob('*.json')):
         stats['scanned'] += 1
@@ -223,8 +227,12 @@ def main():
                                 'schema': 'hscard-date-metadata-1', 'id': path.stem,
                                 'timezone': 'Asia/Seoul',
                                 'release': {'date': next(iter(normalized), None),
-                                            'status': 'unverified'},
-                                'baselineStatus': 'partially-verified',
+                                            'status': ((original.get('timeline') or {}).get('releaseStatus')
+                                                       or (original.get('_meta') or {}).get('releaseStatus')
+                                                       or (original.get('card') or {}).get('releaseStatus')
+                                                       or 'unverified')},
+                                'baselineStatus': ('unverified' if extra.get('initialSpecMissing')
+                                                   else 'partially-verified'),
                             })
                 if existing.get('id') != path.stem or 'normalization' in existing:
                     raise ValueError('metadata source collision: review required')
