@@ -27,3 +27,8 @@ Legacy 카드별 원본은 `data/<카드ID>.json`의 **한국 날짜별 키**로
 - 능력치·효과·한영 표시 문구·카드 그림·황금 애니메이션·프레임/셰이더 연결을 임의 유실시키지 않습니다. 표시용 줄바꿈은 `<br></br>`로 통일하되 원시 클라이언트 증거의 개행을 억지로 치환하지 않습니다.
 - `metadata/`, `tools/`, `.github/`, 날짜 검증 정책 파일은 최초 기록의 근거와 카드 API 자동 생성을 위해 **실제로 참조되는 것**만 유지합니다. 검증되지 않은 날짜를 검증 완료로 바꾸거나 근거를 먼저 삭제하지 않습니다. `cards.json` 재생성 시 신규 schema/호환 래퍼를 만들지 않습니다.
 - `render*.json`, `history*.json`, `cards-date.json`은 CI 테스트 중 생성될 수 있지만 비공개 임시 출력입니다. 커밋/게시 금지입니다. 프레임 및 황금 자료의 바이너리는 무손실 유지합니다.
+
+
+### 공개 CDN 배포 경계 (2026-11-14)
+
+`api.hsdeck.com/legacy/`에서 공개하는 JSON 경로는 `cards.json`과 `data/<카드ID>.json`입니다. `metadata/`·`release-policy.json`·`beta-patch-dates.json`·`taxonomy-history.json`은 빌드/날짜 검증 자료이므로 GitHub 원본에는 보존하되 Cloudflare 정적 자산 업로드에서 제외합니다. `art/`, `golden/`, `frame/`은 영상·프레임 원본 연결을 유지하며 배포 제외하지 않습니다. CDN 배포 설정을 바꾼 뒤에는 실제 라이브 경로 응답을 별도 확인해야 합니다.

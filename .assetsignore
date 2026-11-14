@@ -18,3 +18,9 @@ package-lock.json
 .env.*
 .dev.vars
 .dev.vars.*
+
+# Source evidence and generator policies are not public card assets.
+metadata/
+release-policy.json
+beta-patch-dates.json
+taxonomy-history.json

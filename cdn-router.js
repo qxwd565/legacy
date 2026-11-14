@@ -1,10 +1,8 @@
 // URL aliases for HSdeck API and artwork. Original static paths remain available.
-const API_ROOT_FILES = new Set([
-  'cards.json', 'cards-date.json', 'render.json', 'render-date.json',
-  'history.json', 'history-date.json', 'release-policy.json',
-  'beta-patch-dates.json', 'taxonomy-history.json',
-]);
-const API_DIRECTORIES = new Set(['data', 'metadata']);
+// Public runtime transport only. Research evidence remains in the Git
+// repository but is neither routed nor shipped as CDN static assets.
+const API_ROOT_FILES = new Set(['cards.json']);
+const API_DIRECTORIES = new Set(['data']);
 const ART_DIRECTORIES = new Set(['art', 'golden']);
 const IMAGE_FILE = /^[A-Za-z0-9_.-]+\.(?:png|jpe?g|webp)$/i;
 
