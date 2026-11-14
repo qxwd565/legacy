@@ -232,11 +232,12 @@ def main():
     assert choice['2021-03-31']['dbfId']==72268 and choice['2021-03-31']['collectible'] is False
     assert choice_meta['originalSource']['nativeObserved']['originalNativeSet']=='TGT'
     assert choice_meta['currentCatalog']['relatedDbfIds']==[62320]
-    assert 'art' not in choice_meta['currentCatalog']
+    assert choice_meta['currentCatalog']['art']=='art/CS2_058.png'
     assert resolve(choice,choice_meta,'2021-03-30') is None
     # Strength Totem was not present in initial 2013 Shaman hero-power pool.
     totem, proof = read_card(ROOT, 'CS2_058')
     assert list(totem)==['2021-03-31'] and proof['release']=={'date':'2021-03-31','status':'verified'}
+    assert choice_meta['currentCatalog']['art']==proof['currentCatalog']['art']
     assert resolve(totem,proof,'2021-03-30') is None
     for cid in ('LEG_CS3_001','LEG_CS3_013','LEG_CS3_015','LEG_CS3_017',
                 'LEG_CS3_028','LEG_CS3_031','LEG_CS3_032','LEG_CS3_033',

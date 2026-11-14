@@ -64,6 +64,11 @@ def main(fixture=None):
     for name in ['cards.json','render.json','history.json']:
         assert '__remove' not in (ROOT/name).read_text(encoding='utf-8')
     by_id={c['id']:c for c in catalog['cards']};render_by_id={c['id']:c for c in render['cards']}
+    # All current card bundles must resolve the choice to the summoned Strength Totem art.
+    for bundle in (catalog, render, precise, load(ROOT/'render-date.json')):
+        entries={c['id']:c for c in bundle['cards']}
+        assert entries['AT_132_SHAMANe']['art']==entries['CS2_058']['art']=='art/CS2_058.png'
+
     assert len(by_id)==616 and len({c['dbfId'] for c in catalog['cards']})==616
     source=load(ROOT/'metadata/EX1_323.json')['sourceCommit']
     original=json.loads(subprocess.check_output(['git','show',source+':cards.json'],cwd=ROOT))
@@ -96,8 +101,14 @@ def main(fixture=None):
         assert type(current['cost']) is int and 0<=current['cost']<=32767
         for field in ('attack','health','durability','armor'):
             assert type(current[field]) is int and 0<=current[field]<=32767
-        if cid in ADDED_TOKEN_IDS:
-            assert 'art' not in current  # Description-only import; no artwork is asserted.
+        if cid in ADDED_TOKEN_IDS and cid != 'AT_132_SHAMANe':
+            assert 'art' not in current  # Remaining description-only additions have no approved artwork.
+        elif cid == 'AT_132_SHAMANe':
+            # The Strength Totem choice intentionally reuses the existing summon art.
+            assert current['art']==by_id['CS2_058']['art']=='art/CS2_058.png'
+            assert current['art'] in assets
+            for bundle in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json'):
+                assert urljoin(BASE_URL+bundle,current['art'])==BASE_URL+current['art'];art_checks+=1
         else:
             assert current['art'] in assets,(cid,'pre-existing art file missing')
             for bundle in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json'):
