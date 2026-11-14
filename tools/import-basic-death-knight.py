@@ -36,7 +36,7 @@ CARDS = ("HERO_11bp", "HERO_11bpt")
 
 
 def git_blob_sha(content: bytes) -> str:
-    return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\\0" + content).hexdigest()
+    return hashlib.sha1(b"blob " + str(len(content)).encode() + b"\0" + content).hexdigest()
 
 
 def import_assets():
@@ -72,7 +72,7 @@ def import_catalog():
             rows[cid] = row
     if len(rows) != len(catalog["cards"]) or len({r["dbfId"] for r in catalog["cards"]}) != len(rows):
         raise ValueError("Duplicate card or DBF ID in Legacy catalog")
-    target.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    target.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"legacyCurrentCards": len(rows)}))
 
 
