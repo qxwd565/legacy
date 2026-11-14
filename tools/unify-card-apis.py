@@ -197,6 +197,15 @@ def normalize(raw, cid):
 def pretty(obj):
     return json.dumps(obj, ensure_ascii=False, indent=2, allow_nan=False) + '\n'
 
+def rewrite_paths(obj, path_map):
+    if isinstance(obj, str):
+        return path_map.get(obj, obj)
+    if isinstance(obj, list):
+        return [rewrite_paths(v, path_map) for v in obj]
+    if isinstance(obj, dict):
+        return {k: rewrite_paths(v, path_map) for k, v in obj.items()}
+    return obj
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--apply', action='store_true')
@@ -212,6 +221,20 @@ def main():
         raise ValueError('duplicate card ID in catalog')
     data_files = {p.stem: p for p in (root / 'data').glob('*.json')}
     aggregate_path = data_files.pop('history', None)
+    variants = {}
+    for key in sorted(list(data_files)):
+        if re.fullmatch(r'CAP_405tb[123]_combo_\d{3}', key):
+            p = data_files[key]
+            doc = json.loads(p.read_text(encoding='utf-8'))
+            if (doc.get('schemaVersion') != 1 or
+                    not isinstance(doc.get('variantId'), str) or
+                    not isinstance(doc.get('combination'), dict) or
+                    not isinstance(doc.get('card'), dict) or
+                    doc['card'].get('id') not in ids or key in ids):
+                raise ValueError(key + ': unexpected pseudo-card variant format')
+            variants[key] = data_files.pop(key)
+    path_map = {'data/' + key + '.json': 'metadata/variants/' + key + '.json'
+                for key in variants}
     if set(ids) != set(data_files):
         raise ValueError('catalog/card ID mismatch: abort instead of dropping cards')
     writes, errors = {}, []
@@ -229,8 +252,15 @@ def main():
             if evidence_path.exists() and json.loads(evidence_path.read_text(encoding='utf-8')) != agg:
                 raise ValueError('existing history evidence conflicts; review required')
             writes[evidence_path] = pretty(agg)
-    if 'schema' not in catalog:
-        writes[root / 'cards.json'] = pretty({'schema': 1, **catalog})
+    for key, old_path in variants.items():
+        new_path = root / 'metadata' / 'variants' / old_path.name
+        content = old_path.read_text(encoding='utf-8')
+        if new_path.exists() and new_path.read_text(encoding='utf-8') != content:
+            raise ValueError(key + ': existing variant metadata conflicts')
+        writes[new_path] = content
+    if path_map or 'schema' not in catalog:
+        updated_catalog = rewrite_paths({'schema': 1, **catalog}, path_map)
+        writes[root / 'cards.json'] = pretty(updated_catalog)
     stats = {'scanned': 0, 'normalized': 0, 'metadata': 0, 'wrappers': 0}
     for path in sorted(data_files.values()):
         stats['scanned'] += 1
@@ -256,7 +286,7 @@ def main():
                             })
                 if existing.get('id') != path.stem or 'normalization' in existing:
                     raise ValueError('metadata source collision: review required')
-                existing['normalization'] = extra
+                existing['normalization'] = rewrite_paths(extra, path_map)
                 writes[metadata_path] = pretty(existing)
                 stats['metadata'] += 1
                 if extra.get('sourceFormat'):
@@ -273,8 +303,11 @@ def main():
                 path.write_text(content, encoding='utf-8', newline='\n')
         if aggregate_path:
             aggregate_path.unlink()
+        for old_path in variants.values():
+            old_path.unlink()
     print(json.dumps({'mode': 'apply' if args.apply else 'audit',
-                      'relocatedHistoryAggregate': bool(aggregate_path), **stats}, ensure_ascii=False))
+                      'relocatedHistoryAggregate': bool(aggregate_path),
+                      'relocatedVariants': len(variants), **stats}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
