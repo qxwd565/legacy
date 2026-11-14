@@ -1,17 +1,17 @@
 {
   "result": "pass",
-  "sourceCards": 615,
-  "currentCards": 615,
-  "datedSources": 615,
+  "sourceCards": 616,
+  "currentCards": 616,
+  "datedSources": 616,
   "undatedSources": [],
   "sourceReleaseStatus": {
-    "verified": 614,
+    "verified": 615,
     "estimated": 1
   },
-  "boundarySnapshots": 7278,
-  "losslessSourceChecks": 615,
+  "boundarySnapshots": 7282,
+  "losslessSourceChecks": 616,
   "runtimeTypes": {
-    "MINION": 339,
+    "MINION": 340,
     "SPELL": 232,
     "WEAPON": 19,
     "HERO": 2,
@@ -27,8 +27,17 @@
     "ENCHANTMENT"
   ],
   "strict": "opt-in; all incompletely verified baselines refused, no confidence promotion",
-  "historyBytes": 514897,
+  "historyBytes": 515423,
   "intentionalCurrentProjectionChanges": [
+    {
+      "id": "AT_132_SHAMANe",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability"
+        ]
+      }
+    },
     {
       "id": "BG31_BOB",
       "changes": {
