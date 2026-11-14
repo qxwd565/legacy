@@ -1,0 +1,406 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "HERO_11bpt",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2022-12-07",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "BASIC Death Knight hero power or generated token. First playable KST 2022-12-07 independently verified from Blizzard's 25.0 Korean patch notes; source 2022-11-30 was client preload only. Historical stats/text remain partially verified.",
+  "sourceCommit": "aabbc46b11b61300c2fb230710cf084d399dff70",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "card": {
+      "id": "HERO_11bpt",
+      "dbfId": 78164,
+      "name": "취약한 구울",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 1,
+      "text": "<b>돌진</b>\n내 턴이 끝날 때, 죽습니다.",
+      "attack": 1,
+      "health": 1,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+      "set": "BASIC",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 2
+        },
+        {
+          "id": 330,
+          "name": "강화 효과 생성 시각 효과",
+          "value": 2
+        },
+        {
+          "id": 331,
+          "name": "강화 효과 지속 시각 효과",
+          "value": 2
+        },
+        {
+          "id": 333,
+          "name": "게임 태그 333",
+          "value": 1
+        }
+      ],
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "classes": [],
+      "art": "art/HERO_11bpt.png"
+    },
+    "artworkProvenance": {
+      "source": "installed Hearthstone native assets",
+      "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+      "goldenMaterial": "HERO_11bpt_PremiumCard.mat:631036813411b124cb4227e1260e33b4",
+      "goldenAnimation": "HERO_11bpt_PremiumCard.asset:5bab94a2c2f3f004faae86aaf182ac17"
+    }
+  },
+  "currentCatalog": {
+    "id": "HERO_11bpt",
+    "dbfId": 78164,
+    "name": "취약한 구울",
+    "type": "MINION",
+    "cardClass": "DEATHKNIGHT",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 1,
+    "text": "<b>돌진</b><br></br>내 턴이 끝날 때, 죽습니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "",
+    "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+    "set": "legacy",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 197,
+        "name": "돌진",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 1
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 2
+      },
+      {
+        "id": 330,
+        "name": "강화 효과 생성 시각 효과",
+        "value": 2
+      },
+      {
+        "id": 331,
+        "name": "강화 효과 지속 시각 효과",
+        "value": 2
+      },
+      {
+        "id": 333,
+        "name": "게임 태그 333",
+        "value": 1
+      }
+    ],
+    "races": [
+      "UNDEAD"
+    ],
+    "race": "언데드",
+    "classes": [],
+    "art": "art/HERO_11bpt.png",
+    "mechanics": [
+      "CHARGE"
+    ],
+    "releasedAt": "2022-12-07",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "CHARGE"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/HERO_11bpt.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "card": {
+        "id": "HERO_11bpt",
+        "dbfId": 78164,
+        "name": "취약한 구울",
+        "type": "MINION",
+        "cardClass": "DEATHKNIGHT",
+        "rarity": "FREE",
+        "collectible": false,
+        "cost": 1,
+        "text": "<b>돌진</b>\n내 턴이 끝날 때, 죽습니다.",
+        "attack": 1,
+        "health": 1,
+        "durability": 0,
+        "armor": 0,
+        "flavor": "",
+        "spellSchool": "",
+        "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+        "set": "BASIC",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 197,
+            "name": "돌진",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 1
+          },
+          {
+            "id": 200,
+            "name": "종족",
+            "value": 11
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 2
+          },
+          {
+            "id": 330,
+            "name": "강화 효과 생성 시각 효과",
+            "value": 2
+          },
+          {
+            "id": 331,
+            "name": "강화 효과 지속 시각 효과",
+            "value": 2
+          },
+          {
+            "id": 333,
+            "name": "게임 태그 333",
+            "value": 1
+          }
+        ],
+        "races": [
+          "UNDEAD"
+        ],
+        "race": "언데드",
+        "classes": [],
+        "art": "art/HERO_11bpt.png",
+        "patches": [],
+        "patchSources": {},
+        "initialSpecStatus": "partially-verified",
+        "releasedAt": "2022-11-30",
+        "releaseStatus": "estimated"
+      },
+      "artworkProvenance": {
+        "source": "installed Hearthstone native assets",
+        "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+        "goldenMaterial": "HERO_11bpt_PremiumCard.mat:631036813411b124cb4227e1260e33b4",
+        "goldenAnimation": "HERO_11bpt_PremiumCard.asset:5bab94a2c2f3f004faae86aaf182ac17"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": false,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "25.0.0.158725",
+      "source": "https://github.com/HearthSim/hsdata/blob/54141c4a6bf3efeedaf69d7510b987f216ff00e6/CardDefs.xml",
+      "name": "취약한 구울",
+      "rawText": "<b>돌진</b>\n내 턴이 끝날 때, 죽습니다.",
+      "enText": "[x]<b>Charge</b>\nAt the end of your turn,\nthis minion dies.",
+      "Tag": {
+        "45": "1",
+        "47": "1",
+        "48": "1",
+        "183": "2",
+        "197": "1",
+        "199": "1",
+        "200": "11",
+        "202": "4",
+        "203": "2",
+        "330": "2",
+        "331": "2",
+        "333": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ],
+  "migrationSource": {
+    "repository": "qxwd565/The-League-of-Explorers",
+    "commit": "6fd5dd7967123cae83cdeffb714814b5a557744d",
+    "sourceDataPath": "data/HERO_11bpt.json",
+    "sourceMetadataPath": "metadata/HERO_11bpt.json",
+    "sourceNativeSet": "BASIC",
+    "archivedInLegacyCommit": "aabbc46b11b61300c2fb230710cf084d399dff70"
+  },
+  "releaseEvidence": {
+    "date": "2022-12-07",
+    "status": "verified",
+    "basis": "Korean 25.0 patch notes state Death Knight and Ghoul Charge are playable from the March of the Lich King expansion release, not on client patch day",
+    "urls": [
+      "https://hearthstone.blizzard.com/ko-kr/news/23882860",
+      "https://hearthstone.blizzard.com/ko-kr/blog/23885940/"
+    ]
+  }
+}

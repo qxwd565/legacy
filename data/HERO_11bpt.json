@@ -1,7 +1,5 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "card": {
+  "2022-12-07": {
     "id": "HERO_11bpt",
     "dbfId": 78164,
     "name": "취약한 구울",
@@ -10,83 +8,16 @@
     "rarity": "FREE",
     "collectible": false,
     "cost": 1,
-    "text": "<b>돌진</b>\n내 턴이 끝날 때, 죽습니다.",
+    "text": "<b>돌진</b><br></br>내 턴이 끝날 때, 죽습니다.",
     "attack": 1,
     "health": 1,
-    "durability": 0,
-    "armor": 0,
-    "flavor": "",
-    "spellSchool": "",
-    "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
-    "set": "BASIC",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 1
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 1
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 1
-      },
-      {
-        "id": 197,
-        "name": "돌진",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 1
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 11
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 2
-      },
-      {
-        "id": 330,
-        "name": "강화 효과 생성 시각 효과",
-        "value": 2
-      },
-      {
-        "id": 331,
-        "name": "강화 효과 지속 시각 효과",
-        "value": 2
-      },
-      {
-        "id": 333,
-        "name": "게임 태그 333",
-        "value": 1
-      }
-    ],
     "races": [
       "UNDEAD"
     ],
     "race": "언데드",
     "classes": [],
-    "art": "art/HERO_11bpt.png"
-  },
-  "artworkProvenance": {
-    "source": "installed Hearthstone native assets",
-    "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
-    "goldenMaterial": "HERO_11bpt_PremiumCard.mat:631036813411b124cb4227e1260e33b4",
-    "goldenAnimation": "HERO_11bpt_PremiumCard.asset:5bab94a2c2f3f004faae86aaf182ac17"
+    "mechanics": [
+      "CHARGE"
+    ]
   }
 }

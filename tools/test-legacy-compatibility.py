@@ -12,6 +12,7 @@ from legacy_projection import PHP_FIELDS
 ROOT=Path(__file__).resolve().parents[1]
 BASE_URL='https://raw.githubusercontent.com/qxwd565/legacy/main/'
 REMOVED_SKIN_HERO_POWERS = frozenset({'CS2_102_H3'})
+IMPORTED_BASIC_DK_IDS = frozenset(('HERO_11bp', 'HERO_11bpt'))
 ADDED_TOKEN_IDS = frozenset(['CS3_002t', 'RLK_077t', 'RLK_085t', 'RLK_226t', 'RLK_705t', 'RLK_907t', 'OG_044a', 'AT_132_SHAMANe'])
 VERIFIED_BETA_DEBUT_IDS = frozenset(['EX1_112','Mekka1','Mekka2','Mekka3','Mekka4','Mekka4t','EX1_062','NEW1_016', *(f'HERO_{n:02d}bp' for n in range(1,10)), 'NEW1_010','EX1_012','EX1_100','NEW1_029','EX1_557','EX1_590','EX1_014','EX1_083','EX1_005','EX1_002','NEW1_024','EX1_558','EX1_116','EX1_110','NEW1_040','EX1_016','EX1_577','EX1_614','EX1_249','NEW1_038','EX1_298','EX1_561','EX1_563','EX1_560','EX1_562','EX1_572','NEW1_030'])
 VERIFIED_BETA_DEBUT_IDS = VERIFIED_BETA_DEBUT_IDS | frozenset(('EX1_621','EX1_332','CS1_130','CS1_129','CS2_003','CS2_004','CS2_236','EX1_341','DS1_233','EX1_622','CS2_234','EX1_625','EX1_339','CS1_112','EX1_334','EX1_591','EX1_626','EX1_345','EX1_624','EX1_350','CS1_113','EX1_623','EX1_091','DS1_185','EX1_549','EX1_544','CS2_084','EX1_610','EX1_533','EX1_554','EX1_609','NEW1_031','EX1_617','EX1_536','DS1_183','EX1_537','DS1_175','EX1_611','EX1_531','CS2_237','EX1_539','EX1_538','DS1_070','DS1_178','EX1_543'))
@@ -54,7 +55,7 @@ def old_resolve(current,history,day):
 def main(fixture=None):
     catalog=load(ROOT/'cards.json');render=load(ROOT/'render.json');history=load(ROOT/'history.json')
     precise=load(ROOT/'cards-date.json');precise_history=load(ROOT/'history-date.json')
-    assert len(catalog['cards'])==len(precise['cards'])==616
+    assert len(catalog['cards'])==len(precise['cards'])==618
     assert not any(c['id'] in REMOVED_SKIN_HERO_POWERS for c in catalog['cards']+precise['cards'])
     assert '58799' not in precise_history['cards']
     assert not any(x['id'] in REMOVED_SKIN_HERO_POWERS for x in render['cards'])
@@ -69,7 +70,7 @@ def main(fixture=None):
         entries={c['id']:c for c in bundle['cards']}
         assert entries['AT_132_SHAMANe']['art']==entries['CS2_058']['art']=='art/CS2_058.png'
 
-    assert len(by_id)==616 and len({c['dbfId'] for c in catalog['cards']})==616
+    assert len(by_id)==618 and len({c['dbfId'] for c in catalog['cards']})==618
     source=load(ROOT/'metadata/EX1_323.json')['sourceCommit']
     original=json.loads(subprocess.check_output(['git','show',source+':cards.json'],cwd=ROOT))
     original_history=json.loads(subprocess.check_output(['git','show',source+':history.json'],cwd=ROOT))['cards']
@@ -78,7 +79,7 @@ def main(fixture=None):
     # The archived source must remain intact, but excluded skin-only powers
     # are intentionally absent from the current public catalog.
     original_other['cards']=[row for row in original_other['cards'] if row['id'] not in REMOVED_SKIN_HERO_POWERS]
-    catalog_other['cards'] = [row for row in catalog_other['cards'] if row['id'] not in ADDED_TOKEN_IDS]
+    catalog_other['cards'] = [row for row in catalog_other['cards'] if row['id'] not in (ADDED_TOKEN_IDS | IMPORTED_BASIC_DK_IDS)]
     for obj in (catalog_other,original_other):
         for row in obj['cards']:
             row.pop('text',None)
@@ -95,6 +96,7 @@ def main(fixture=None):
                 row.pop('releasedAt',None); row.pop('releaseStatus',None)
     assert json_equal(catalog_other,original_other),'Non-text legacy catalogue drifted'
     assets=set(subprocess.check_output(['git','ls-tree','-r','--name-only',source,'--','art'],cwd=ROOT,text=True).splitlines())
+    assets.update(str('art/'+cid+'.png') for cid in IMPORTED_BASIC_DK_IDS if (ROOT/'art'/(cid+'.png')).is_file())
     cases=[];comparisons=0;art_checks=0;corrections=[]
     for current in catalog['cards']:
         cid=current['id'];dbf=str(current['dbfId']);meta=load(ROOT/'metadata'/(cid+'.json'))
@@ -173,7 +175,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':616,'previousCatalogueMatchesPinnedOriginal':True,'addedTokenCards':sorted(ADDED_TOKEN_IDS),
+            'currentCards':618,'previousCatalogueMatchesPinnedOriginal':True,'addedTokenCards':sorted(ADDED_TOKEN_IDS),
             'legacyDateCases':comparisons,'artURLChecks':art_checks,'missingAssets':0,
             'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,
