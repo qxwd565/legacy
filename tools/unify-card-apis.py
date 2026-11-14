@@ -243,7 +243,7 @@ def main():
         # Some repositories have a zero-byte placeholder, not actual evidence.
         if raw_history.strip():
             agg = json.loads(raw_history)
-            valid_formats = {(1, 'date-first-delta'), (3, 'date-first-delta-v3')}
+            valid_formats = {(1, 'date-first-delta'), (2, 'date-first-sparse-delta'), (2, 'date-first-delta-v2'), (3, 'date-first-delta-v3')}
             if (not isinstance(agg, dict) or
                     (agg.get('schema'), agg.get('format')) not in valid_formats or
                     not isinstance(agg.get('events'), dict)):
