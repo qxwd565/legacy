@@ -88,6 +88,8 @@ def source_events(raw):
     keys = list(raw)
     if all(is_day(k) for k in keys):
         return [(k, raw[k], {}) for k in sorted(keys)], 'dated'
+    if any(is_day(k) for k in keys) and all(is_day(k) or k in ('meta', '_meta', 'schemaVersion') for k in keys):
+        return [(k, raw[k], {}) for k in sorted(keys) if is_day(k)], 'dated-with-meta'
     if raw.get('schemaVersion') == 2 and any(is_day(k) for k in keys):
         out = []
         current = raw.get('current') or {}
