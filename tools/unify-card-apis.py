@@ -216,13 +216,19 @@ def main():
         raise ValueError('catalog/card ID mismatch: abort instead of dropping cards')
     writes, errors = {}, []
     if aggregate_path:
-        agg = json.loads(aggregate_path.read_text(encoding='utf-8'))
-        if agg.get('schema') != 1 or agg.get('format') != 'date-first-delta' or not isinstance(agg.get('events'), dict):
-            raise ValueError('unknown data/history.json cannot be relocated')
-        evidence_path = root / 'metadata' / 'history-aggregate.json'
-        if evidence_path.exists() and json.loads(evidence_path.read_text(encoding='utf-8')) != agg:
-            raise ValueError('existing history evidence conflicts; review required')
-        writes[evidence_path] = pretty(agg)
+        raw_history = aggregate_path.read_text(encoding='utf-8')
+        # Some repositories have a zero-byte placeholder, not actual evidence.
+        if raw_history.strip():
+            agg = json.loads(raw_history)
+            valid_formats = {(1, 'date-first-delta'), (3, 'date-first-delta-v3')}
+            if (not isinstance(agg, dict) or
+                    (agg.get('schema'), agg.get('format')) not in valid_formats or
+                    not isinstance(agg.get('events'), dict)):
+                raise ValueError('unknown data/history.json cannot be relocated')
+            evidence_path = root / 'metadata' / 'history-aggregate.json'
+            if evidence_path.exists() and json.loads(evidence_path.read_text(encoding='utf-8')) != agg:
+                raise ValueError('existing history evidence conflicts; review required')
+            writes[evidence_path] = pretty(agg)
     if 'schema' not in catalog:
         writes[root / 'cards.json'] = pretty({'schema': 1, **catalog})
     stats = {'scanned': 0, 'normalized': 0, 'metadata': 0, 'wrappers': 0}
