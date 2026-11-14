@@ -43264,6 +43264,156 @@
       "releasedAt": "2021-03-31",
       "releaseStatus": "verified",
       "art": "art/CS2_058.png"
+    },
+    {
+      "id": "HERO_11bp",
+      "dbfId": 78162,
+      "name": "구울 돌진",
+      "type": "HERO_POWER",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 2,
+      "text": "<b>영웅 능력</b><br></br><b>돌진</b> 능력이 있는 1/1<br></br>구울을 소환합니다.<br></br>턴이 끝날 때 죽습니다.",
+      "attack": 0,
+      "health": 0,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS27-003_HP.tif:9975d71e63634b858821de7210ba03bd",
+      "set": "legacy",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 201,
+          "name": "진영",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 10
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 2
+        },
+        {
+          "id": 1086,
+          "name": "게임 태그 1086",
+          "value": 79943
+        }
+      ],
+      "races": [],
+      "race": "",
+      "classes": [],
+      "art": "art/HERO_11bp.png",
+      "mechanics": [],
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
+    },
+    {
+      "id": "HERO_11bpt",
+      "dbfId": 78164,
+      "name": "취약한 구울",
+      "type": "MINION",
+      "cardClass": "DEATHKNIGHT",
+      "rarity": "FREE",
+      "collectible": false,
+      "cost": 1,
+      "text": "<b>돌진</b><br></br>내 턴이 끝날 때, 죽습니다.",
+      "attack": 1,
+      "health": 1,
+      "durability": 0,
+      "armor": 0,
+      "flavor": "",
+      "spellSchool": "",
+      "portrait": "HS27-004_M.tif:6f3249376bca4e1ba6515c03749db5be",
+      "set": "legacy",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 197,
+          "name": "돌진",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 1
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 2
+        },
+        {
+          "id": 330,
+          "name": "강화 효과 생성 시각 효과",
+          "value": 2
+        },
+        {
+          "id": 331,
+          "name": "강화 효과 지속 시각 효과",
+          "value": 2
+        },
+        {
+          "id": 333,
+          "name": "게임 태그 333",
+          "value": 1
+        }
+      ],
+      "races": [
+        "UNDEAD"
+      ],
+      "race": "언데드",
+      "classes": [],
+      "art": "art/HERO_11bpt.png",
+      "mechanics": [
+        "CHARGE"
+      ],
+      "releasedAt": "2022-12-07",
+      "releaseStatus": "verified"
     }
   ]
 }

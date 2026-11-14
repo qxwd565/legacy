@@ -1,21 +1,21 @@
 {
   "result": "pass",
-  "sourceCards": 616,
-  "currentCards": 616,
-  "datedSources": 616,
+  "sourceCards": 618,
+  "currentCards": 618,
+  "datedSources": 618,
   "undatedSources": [],
   "sourceReleaseStatus": {
-    "verified": 615,
+    "verified": 617,
     "estimated": 1
   },
-  "boundarySnapshots": 7282,
-  "losslessSourceChecks": 616,
+  "boundarySnapshots": 7290,
+  "losslessSourceChecks": 618,
   "runtimeTypes": {
-    "MINION": 340,
+    "MINION": 341,
     "SPELL": 232,
     "WEAPON": 19,
     "HERO": 2,
-    "HERO_POWER": 23
+    "HERO_POWER": 24
   },
   "syntheticTypes": [
     "MINION",
@@ -27,7 +27,7 @@
     "ENCHANTMENT"
   ],
   "strict": "opt-in; all incompletely verified baselines refused, no confidence promotion",
-  "historyBytes": 515447,
+  "historyBytes": 516539,
   "intentionalCurrentProjectionChanges": [
     {
       "id": "AT_132_SHAMANe",
@@ -5176,6 +5176,30 @@
           "attack",
           "durability",
           "health"
+        ]
+      }
+    },
+    {
+      "id": "HERO_11bp",
+      "changes": {
+        "__remove": [
+          "armor",
+          "attack",
+          "durability",
+          "health",
+          "race",
+          "races",
+          "spellSchool"
+        ]
+      }
+    },
+    {
+      "id": "HERO_11bpt",
+      "changes": {
+        "__remove": [
+          "armor",
+          "durability",
+          "spellSchool"
         ]
       }
     },
